@@ -9,15 +9,18 @@ This project demonstrates how to:
 - **Measure time** taken for embedding + inference operations
 - **Generate questions** from text-heavy documents using local LLMs via Ollama
 - **Produce clear, beautiful reports** summarizing all metrics
+- **Perform cost sensitivity analysis** by running multiple experiments with varying parameters
 
 ## Features
 
 - ✅ Support for both `.txt` and `.pdf` files
 - ✅ Configurable chunking strategies (fixed token window, paragraph-based, or both)
-- ✅ Rigorous token accounting using Gemma tokenizer
+- ✅ Rigorous token accounting using tiktoken (no authentication required)
 - ✅ High-resolution timing measurements using `time.perf_counter()`
 - ✅ Comprehensive metrics tracking and storage
 - ✅ Beautiful Jupyter notebook reports with visualizations
+- ✅ Cost sensitivity analysis with automated experiment execution
+- ✅ Support for both API pricing (per-token) and local GPU pricing (per-hour)
 - ✅ Modular, well-documented codebase
 
 ## Tech Stack
@@ -26,8 +29,8 @@ This project demonstrates how to:
 - **LLM Host**: Ollama (local instance)
 - **Models**: 
   - Embedding: `embeddinggemma` (configurable)
-  - Generation: `gemma3:1b` (configurable)
-- **Libraries**: transformers, pandas, matplotlib, jupyter
+  - Generation: `gemma3:1b` or `gemma3:4b` (configurable)
+- **Libraries**: tiktoken, pandas, matplotlib, jupyter
 
 ## Requirements
 
@@ -60,8 +63,9 @@ Pull the required Gemma models in Ollama:
 # Pull the embedding model
 ollama pull embeddinggemma
 
-# Pull the generation model (Gemma3 1B)
+# Pull the generation models (Gemma3 1B and/or 4B)
 ollama pull gemma3:1b
+ollama pull gemma3:4b  # Optional, for larger model experiments
 ```
 
 ### 4. Prepare Your Document
@@ -72,7 +76,9 @@ Place your text document (`.txt` or `.pdf`) in the project root directory, or in
 
 ### Running the Notebooks
 
-The project consists of three Jupyter notebooks that should be run in order:
+The project consists of four Jupyter notebooks:
+
+**Core Workflow (run in order):**
 
 1. **`notebooks/01_ingest_and_embed.ipynb`**
    - Loads and chunks the document
@@ -92,6 +98,17 @@ The project consists of three Jupyter notebooks that should be run in order:
    - Creates comprehensive summary tables
    - Generates visualizations (histograms, scatter plots, bar charts)
    - Provides interpretation and analysis
+
+**Cost Sensitivity Analysis (optional, can run independently):**
+
+4. **`notebooks/04_cost_sensitivity_analysis.ipynb`**
+   - Runs multiple experiments with varying parameters automatically
+   - Supports both API pricing (per-token) and local GPU pricing (per-hour)
+   - Calculates costs for each experiment configuration
+   - Performs sensitivity analysis on key parameters (chunk size, model size, document count, etc.)
+   - Generates comprehensive visualizations comparing experiments
+   - Produces tables and plots showing cost relationships
+   - Can reuse existing chunks from notebook 01 for faster execution
 
 ### Starting Jupyter
 
@@ -120,11 +137,17 @@ GenerativeAI-Cost-Estimator/
 ├── notebooks/              # Jupyter notebooks
 │   ├── 01_ingest_and_embed.ipynb
 │   ├── 02_inference_and_question_generation.ipynb
-│   └── 03_reporting_and_visualization.ipynb
+│   ├── 03_reporting_and_visualization.ipynb
+│   └── 04_cost_sensitivity_analysis.ipynb
 ├── data/                   # Input documents (gitignored)
 │   └── .gitignore
 ├── results/                # Output files (gitignored)
-│   └── .gitignore
+│   ├── .gitignore
+│   ├── metrics.json        # Combined metrics from notebooks 01-02
+│   ├── chunks.json         # Chunk metadata and embeddings
+│   └── experiments/        # Experiment results (from notebook 04)
+│       ├── {experiment_name}_metrics.json  # Per-experiment metrics
+│       └── summary.csv     # Aggregated experiment summary
 └── MobyDick.txt           # Example document
 ```
 
@@ -145,11 +168,13 @@ You can modify these in the notebooks or create a custom config object.
 
 ### Token Accounting
 
-The project uses the Gemma tokenizer from the `transformers` library to accurately count tokens the same way the Gemma models see them. This ensures:
+The project uses `tiktoken` (a fast, lightweight tokenizer) to count tokens. This approach:
+- Requires no authentication (unlike Hugging Face tokenizers)
+- Provides accurate token counts for cost estimation
+- Uses the `cl100k_base` encoding (similar to GPT models) as a reasonable approximation
+- Falls back to simple word-based estimation if tiktoken is not available
 
-- Accurate token counts for cost estimation
-- Proper chunk sizing based on token limits
-- Consistent tokenization across operations
+For the most accurate token counts, you can also check the `usage` field in Ollama's API responses, which provides actual token counts from the model.
 
 Token counts are tracked for:
 - Document text (total tokens)
@@ -168,13 +193,16 @@ All operations are timed using `time.perf_counter()` for high-resolution measure
 ### Metrics Storage
 
 All metrics are saved to JSON files in the `results/` directory:
-- `results/metrics.json`: All timing and token metrics
+- `results/metrics.json`: All timing and token metrics from notebooks 01-02
 - `results/chunks.json`: Chunk metadata and embeddings
-- `results/embeddings.json`: Embedding vectors (if saved separately)
+- `results/experiments/{experiment_name}_metrics.json`: Individual experiment metrics
+- `results/experiments/summary.csv`: Aggregated summary of all experiments
 
 ## Reporting
 
-The final notebook (`03_reporting_and_visualization.ipynb`) produces a comprehensive report including:
+### Standard Reporting (Notebook 03)
+
+The reporting notebook (`03_reporting_and_visualization.ipynb`) produces a comprehensive report including:
 
 1. **Executive Summary**: High-level overview and objectives
 2. **Metrics Dashboard**: Summary tables with:
@@ -189,12 +217,60 @@ The final notebook (`03_reporting_and_visualization.ipynb`) produces a comprehen
    - Latency distribution histogram
 4. **Interpretation**: Analysis of what the metrics mean and practical implications
 
+### Cost Sensitivity Analysis (Notebook 04)
+
+The cost sensitivity analysis notebook (`04_cost_sensitivity_analysis.ipynb`) allows you to:
+
+1. **Define Multiple Experiments**: Configure experiments with varying parameters:
+   - Model configurations (different Gemma variants)
+   - Workload characteristics (number of docs, chunk sizes, questions per doc)
+   - Pricing modes (API per-token or local per-hour)
+
+2. **Run Experiments Automatically**: Execute all experiments in sequence with error handling
+
+3. **Calculate Costs**: 
+   - **API Mode**: Cost = (input_tokens/1000 × price_per_1k_input) + (output_tokens/1000 × price_per_1k_output)
+   - **Local Mode**: Cost = (runtime_hours × dollars_per_gpu_hour)
+
+4. **Sensitivity Analysis**: 
+   - Compare how different parameters affect cost, tokens, and runtime
+   - Calculate percentage changes when varying single parameters
+   - Analyze scaling efficiency
+
+5. **Comprehensive Visualizations**:
+   - Total cost vs number of documents
+   - Cost per 1K tokens vs chunk size/model
+   - Runtime vs tokens
+   - Cost per document vs concurrency
+   - Multi-panel sensitivity analysis plots
+
+**Example Experiment Configuration:**
+```python
+experiments = [
+    {
+        "name": "baseline_gemma3_1b",
+        "gen_model": "gemma3:1b",
+        "embed_model": "embeddinggemma",
+        "num_docs": 10,
+        "chunk_size": 512,
+        "num_questions_per_doc": 2,
+        "pricing": {
+            "mode": "api",
+            "price_per_1k_tokens_input": 0.00250,
+            "price_per_1k_tokens_output": 0.01000
+        }
+    },
+    # ... more experiments
+]
+```
+
 ## How It Works
 
 ### Token Accounting Implementation
 
 The `token_accounting.py` module:
-- Loads the Gemma tokenizer once and caches it
+- Uses `tiktoken` for fast token counting (no authentication required)
+- Falls back to simple word-based estimation if tiktoken is unavailable
 - Provides functions to count tokens in text strings
 - Separately counts prompt and response tokens for inference
 
@@ -233,16 +309,51 @@ If you get connection errors:
 ### Model Not Found
 
 If you get model not found errors:
-1. Pull the required models: `ollama pull embeddinggemma` and `ollama pull gemma3:1b`
+1. Pull the required models: 
+   ```bash
+   ollama pull embeddinggemma
+   ollama pull gemma3:1b
+   ollama pull gemma3:4b  # If using 4B model in experiments
+   ```
 2. Verify model names match your config
 3. Check available models: `ollama list`
 
 ### Tokenizer Issues
 
 If tokenization fails:
-1. Ensure `transformers` library is installed: `pip install transformers`
-2. First run will download tokenizer files (requires internet)
-3. Check you have sufficient disk space for model files
+1. Ensure `tiktoken` library is installed: `pip install tiktoken`
+2. The system will fall back to simple word-based estimation if tiktoken is unavailable
+3. For best accuracy, ensure tiktoken is installed: `pip install -r requirements.txt`
+
+## Cost Sensitivity Analysis
+
+The cost sensitivity analysis notebook (`04_cost_sensitivity_analysis.ipynb`) is a powerful tool for understanding how different parameters affect your LLM costs. 
+
+### Key Features
+
+- **Automated Experiment Execution**: Define multiple experiments and run them automatically
+- **Flexible Pricing Models**: Support for both API pricing (per-token) and local GPU pricing (per-hour)
+- **Parameter Variation**: Easily test different:
+  - Model sizes (gemma3:1b vs gemma3:4b)
+  - Chunk sizes (256, 512, 1024 tokens)
+  - Document counts (10, 20, 30, 60+)
+  - Questions per document (2, 3, 5+)
+  - Concurrency levels
+
+### Usage
+
+1. **Edit Experiment Configurations**: Modify the `experiments` list in Section 2 of the notebook
+2. **Run Experiments**: Execute Section 4 to run all experiments (can skip already-run experiments)
+3. **Analyze Results**: Review tables and plots in Sections 5-8
+4. **Interpret Sensitivity**: Use Section 8 to understand parameter impacts
+
+### Example Insights
+
+The sensitivity analysis helps answer questions like:
+- How does model size (1B vs 4B) affect cost and latency?
+- What's the optimal chunk size for cost efficiency?
+- How does cost scale with document count?
+- Is API pricing or local GPU pricing more cost-effective for my workload?
 
 ## Contributing
 
@@ -250,6 +361,7 @@ This is a demonstration project. Feel free to:
 - Experiment with different models and configurations
 - Add new chunking strategies
 - Extend the reporting capabilities
+- Add more experiment parameters to the sensitivity analysis
 - Improve error handling and robustness
 
 ## License
