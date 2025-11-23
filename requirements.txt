@@ -23,3 +23,8 @@ ipykernel>=6.25.0
 pypdf>=3.17.0
 # pdfplumber>=0.10.0  # Alternative PDF library, uncomment if preferred
 
+# DGX Spark Performance Monitoring
+paramiko>=3.4.0  # SSH client for remote connections
+psutil>=5.9.0  # System and process utilities
+pynvml>=11.5.0  # NVIDIA Management Library for GPU metrics
+

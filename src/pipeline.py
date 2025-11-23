@@ -16,7 +16,7 @@ from typing import Dict, List, Optional
 from .config import Config
 from .ollama_client import generate, get_embedding
 from .timing_metrics import MetricsStore, TimingContext
-from .token_accounting import count_tokens, estimate_embedding_tokens
+from .token_accounting import count_tokens, count_prompt_and_response, estimate_embedding_tokens
 
 
 def load_document(filepath: Path) -> str:
@@ -150,12 +150,12 @@ def chunk_text_fixed_window(text: str, chunk_size_tokens: int,
     for sentence in sentence_parts:
         # Try adding this sentence to current chunk
         test_chunk = current_chunk_text + sentence
-        test_tokens = count_tokens(test_chunk, tokenizer_model)
+        test_tokens, _ = count_tokens(test_chunk, tokenizer_model)
         
         # If adding this sentence would exceed chunk size, save current chunk
         if test_tokens > chunk_size_tokens and current_chunk_text:
             # Save the current chunk
-            chunk_tokens = count_tokens(current_chunk_text, tokenizer_model)
+            chunk_tokens, _ = count_tokens(current_chunk_text, tokenizer_model)
             chunks.append({
                 "text": current_chunk_text.strip(),
                 "chunk_id": f"chunk_{chunk_id}",
@@ -171,7 +171,8 @@ def chunk_text_fixed_window(text: str, chunk_size_tokens: int,
             overlap_chars = 0
             for prev_sentence in reversed(sentence_parts[:sentence_parts.index(sentence)]):
                 test_overlap = prev_sentence + overlap_text
-                if count_tokens(test_overlap, tokenizer_model) >= overlap_tokens:
+                overlap_tokens_count, _ = count_tokens(test_overlap, tokenizer_model)
+                if overlap_tokens_count >= overlap_tokens:
                     overlap_text = test_overlap
                     break
                 overlap_text = prev_sentence + overlap_text
@@ -187,7 +188,7 @@ def chunk_text_fixed_window(text: str, chunk_size_tokens: int,
     
     # Don't forget the last chunk
     if current_chunk_text.strip():
-        chunk_tokens = count_tokens(current_chunk_text, tokenizer_model)
+        chunk_tokens, _ = count_tokens(current_chunk_text, tokenizer_model)
         chunks.append({
             "text": current_chunk_text.strip(),
             "chunk_id": f"chunk_{chunk_id}",
@@ -228,7 +229,7 @@ def chunk_text_paragraph_based(text: str) -> List[Dict[str, any]]:
     
     for idx, paragraph in enumerate(paragraphs):
         # Count tokens in this paragraph
-        token_count = count_tokens(paragraph)
+        token_count, _ = count_tokens(paragraph)
         
         # Create chunk dictionary
         start_char = char_position
@@ -324,9 +325,6 @@ def embed_chunks(chunks: List[Dict[str, any]], config: Config,
         chunk_text = chunk["text"]
         chunk_id = chunk["chunk_id"]
         
-        # Count input tokens before making the API call
-        input_tokens = estimate_embedding_tokens(chunk_text)
-        
         # Time the embedding call
         with TimingContext() as timer:
             # Call Ollama API to get embedding
@@ -339,6 +337,22 @@ def embed_chunks(chunks: List[Dict[str, any]], config: Config,
         # Get the duration from the timer
         duration = timer.duration
         
+        # Extract usage from metadata (contains actual token counts from Ollama)
+        usage = metadata.get("usage", {})
+        
+        # Get actual tokens from usage field, with fallback to estimation
+        # Priority: Ollama actual → tiktoken → simple estimation
+        actual_tokens, token_method = estimate_embedding_tokens(
+            chunk_text,
+            usage=usage
+        )
+        
+        # Also get estimated tokens for comparison (if we have actual)
+        estimated_tokens = None
+        if token_method == "ollama_actual":
+            # Get estimated tokens for comparison
+            estimated_tokens, _ = estimate_embedding_tokens(chunk_text, usage=None)
+        
         # Get embedding size (length of the vector)
         embedding_size = len(embedding) if embedding else None
         
@@ -347,10 +361,12 @@ def embed_chunks(chunks: List[Dict[str, any]], config: Config,
         chunk_with_embedding["embedding"] = embedding
         chunk_with_embedding["embedding_size"] = embedding_size
         
-        # Record metrics
+        # Record metrics with actual tokens (primary) and estimated (for comparison)
         metrics_store.add_embedding_metric(
             duration=duration,
-            input_tokens=input_tokens,
+            actual_tokens=actual_tokens,
+            estimated_tokens=estimated_tokens,
+            token_method=token_method,
             chunk_id=chunk_id,
             embedding_size=embedding_size
         )
@@ -392,9 +408,6 @@ Text:
 
 Questions:"""
 
-    # Count prompt tokens
-    prompt_tokens = count_tokens(prompt)
-    
     # Time the generation call
     with TimingContext() as timer:
         # Call Ollama API to generate response
@@ -407,8 +420,31 @@ Questions:"""
     # Get the duration
     duration = timer.duration
     
-    # Count response tokens
-    response_tokens = count_tokens(response_text)
+    # Extract usage from metadata (contains actual token counts from Ollama)
+    usage = metadata.get("usage", {})
+    
+    # Get actual tokens from usage field, with fallback to estimation
+    # Priority: Ollama actual → tiktoken → simple estimation
+    token_counts = count_prompt_and_response(
+        prompt,
+        response_text,
+        usage=usage
+    )
+    
+    # Extract token counts and methods
+    prompt_tokens = token_counts["prompt_tokens"]
+    response_tokens = token_counts["response_tokens"]
+    prompt_method = token_counts.get("prompt_method", "unknown")
+    response_method = token_counts.get("response_method", "unknown")
+    
+    # Get estimated tokens for comparison if we have actual
+    estimated_prompt_tokens = None
+    estimated_response_tokens = None
+    if prompt_method == "ollama_actual" or response_method == "ollama_actual":
+        # Get estimated tokens for comparison
+        estimated_counts = count_prompt_and_response(prompt, response_text, usage=None)
+        estimated_prompt_tokens = estimated_counts["prompt_tokens"]
+        estimated_response_tokens = estimated_counts["response_tokens"]
     
     # Parse questions from response with better filtering
     # Split by newlines and process each line
@@ -511,10 +547,16 @@ Questions:"""
         
         # Record metrics for this question
         # Divide duration and tokens by number of questions found
+        # Note: We use the same token counts for all questions from this generation
+        # since they all came from the same API call
         metrics_store.add_inference_metric(
             duration=duration / num_questions_found,  # Average duration per question
-            prompt_tokens=prompt_tokens,
-            response_tokens=response_tokens // num_questions_found if num_questions_found > 0 else response_tokens,  # Average tokens per question
+            actual_prompt_tokens=prompt_tokens if prompt_method == "ollama_actual" else None,
+            actual_response_tokens=response_tokens // num_questions_found if num_questions_found > 0 and response_method == "ollama_actual" else (response_tokens if response_method == "ollama_actual" else None),
+            estimated_prompt_tokens=estimated_prompt_tokens,
+            estimated_response_tokens=estimated_response_tokens // num_questions_found if num_questions_found > 0 and estimated_response_tokens is not None else estimated_response_tokens,
+            prompt_method=prompt_method,
+            response_method=response_method,
             question_id=question_id,
             response_text=response_text
         )

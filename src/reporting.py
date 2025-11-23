@@ -17,6 +17,67 @@ import numpy as np
 import pandas as pd
 
 
+def get_actual_tokens(token_counts: Dict[str, any], call_type: str) -> Dict[str, int]:
+    """
+    Extract actual tokens from token_counts dictionary with fallback to estimated.
+    
+    This helper function prioritizes actual token counts from Ollama's usage field
+    when available, falling back to estimated tokens if actual are not present.
+    
+    For embedding calls, returns:
+        - input_tokens: Actual or estimated input tokens
+    
+    For inference calls, returns:
+        - prompt_tokens: Actual or estimated prompt tokens
+        - response_tokens: Actual or estimated response tokens
+        - total_tokens: Sum of prompt and response tokens
+    
+    Args:
+        token_counts: Dictionary containing token count information
+        call_type: Type of call - 'embedding' or 'inference'
+    
+    Returns:
+        Dictionary with token counts (actual preferred, estimated as fallback)
+    """
+    if not isinstance(token_counts, dict):
+        # If token_counts is not a dict, return zeros
+        if call_type == "embedding":
+            return {"input_tokens": 0}
+        else:
+            return {"prompt_tokens": 0, "response_tokens": 0, "total_tokens": 0}
+    
+    if call_type == "embedding":
+        # For embeddings, prioritize actual_input_tokens, fallback to input_tokens
+        input_tokens = token_counts.get("actual_input_tokens")
+        if input_tokens is None:
+            input_tokens = token_counts.get("input_tokens", 0)
+        return {"input_tokens": input_tokens}
+    
+    elif call_type == "inference":
+        # For inference, prioritize actual tokens, fallback to estimated
+        prompt_tokens = token_counts.get("actual_prompt_tokens")
+        if prompt_tokens is None:
+            prompt_tokens = token_counts.get("prompt_tokens", 0)
+        
+        response_tokens = token_counts.get("actual_response_tokens")
+        if response_tokens is None:
+            response_tokens = token_counts.get("response_tokens", 0)
+        
+        # Calculate total (use actual if available, otherwise use provided total or sum)
+        total_tokens = token_counts.get("total_tokens")
+        if total_tokens is None:
+            total_tokens = prompt_tokens + response_tokens
+        
+        return {
+            "prompt_tokens": prompt_tokens,
+            "response_tokens": response_tokens,
+            "total_tokens": total_tokens
+        }
+    
+    # Unknown call type, return empty dict
+    return {}
+
+
 def load_metrics(filepath: Path) -> pd.DataFrame:
     """
     Load metrics from a JSON file into a pandas DataFrame.
@@ -88,15 +149,12 @@ def aggregate_metrics(df: pd.DataFrame) -> Dict[str, any]:
     
     # Aggregate embedding metrics
     if not embedding_df.empty:
-        # Extract token counts (they're stored in a dictionary in 'token_counts' column)
-        # We need to extract the 'input_tokens' from each row
+        # Extract token counts using helper function (prioritizes actual tokens)
         embedding_input_tokens = []
         for idx, row in embedding_df.iterrows():
             token_counts = row.get('token_counts', {})
-            if isinstance(token_counts, dict):
-                embedding_input_tokens.append(token_counts.get('input_tokens', 0))
-            else:
-                embedding_input_tokens.append(0)
+            tokens = get_actual_tokens(token_counts, 'embedding')
+            embedding_input_tokens.append(tokens.get('input_tokens', 0))
         
         embedding_durations = embedding_df['duration_seconds'].tolist() if 'duration_seconds' in embedding_df.columns else []
         
@@ -113,21 +171,17 @@ def aggregate_metrics(df: pd.DataFrame) -> Dict[str, any]:
     
     # Aggregate inference metrics
     if not inference_df.empty:
-        # Extract token counts
+        # Extract token counts using helper function (prioritizes actual tokens)
         inference_prompt_tokens = []
         inference_response_tokens = []
         inference_total_tokens = []
         
         for idx, row in inference_df.iterrows():
             token_counts = row.get('token_counts', {})
-            if isinstance(token_counts, dict):
-                inference_prompt_tokens.append(token_counts.get('prompt_tokens', 0))
-                inference_response_tokens.append(token_counts.get('response_tokens', 0))
-                inference_total_tokens.append(token_counts.get('total_tokens', 0))
-            else:
-                inference_prompt_tokens.append(0)
-                inference_response_tokens.append(0)
-                inference_total_tokens.append(0)
+            tokens = get_actual_tokens(token_counts, 'inference')
+            inference_prompt_tokens.append(tokens.get('prompt_tokens', 0))
+            inference_response_tokens.append(tokens.get('response_tokens', 0))
+            inference_total_tokens.append(tokens.get('total_tokens', 0))
         
         inference_durations = inference_df['duration_seconds'].tolist() if 'duration_seconds' in inference_df.columns else []
         
@@ -150,11 +204,15 @@ def aggregate_metrics(df: pd.DataFrame) -> Dict[str, any]:
     all_durations = []
     
     for idx, row in df.iterrows():
+        call_type = row.get('call_type', 'unknown')
         token_counts = row.get('token_counts', {})
-        if isinstance(token_counts, dict):
-            all_tokens.append(token_counts.get('total_tokens', token_counts.get('input_tokens', 0)))
+        
+        # Use helper function to get actual tokens (prioritizes actual over estimated)
+        tokens = get_actual_tokens(token_counts, call_type)
+        if call_type == 'embedding':
+            all_tokens.append(tokens.get('input_tokens', 0))
         else:
-            all_tokens.append(0)
+            all_tokens.append(tokens.get('total_tokens', 0))
         
         if 'duration_seconds' in row:
             all_durations.append(row['duration_seconds'])
@@ -287,16 +345,19 @@ def plot_latency_vs_tokens(calls_df: pd.DataFrame, ax: Optional[plt.Axes] = None
     call_types = []
     
     for idx, row in calls_df.iterrows():
+        call_type = row.get('call_type', 'unknown')
         token_counts = row.get('token_counts', {})
-        if isinstance(token_counts, dict):
-            # Get total tokens (or input tokens if total not available)
-            total_tokens = token_counts.get('total_tokens', token_counts.get('input_tokens', 0))
-            tokens.append(total_tokens)
+        
+        # Use helper function to get actual tokens (prioritizes actual over estimated)
+        tokens_dict = get_actual_tokens(token_counts, call_type)
+        if call_type == 'embedding':
+            total_tokens = tokens_dict.get('input_tokens', 0)
         else:
-            tokens.append(0)
+            total_tokens = tokens_dict.get('total_tokens', 0)
+        tokens.append(total_tokens)
         
         latencies.append(row.get('duration_seconds', 0))
-        call_types.append(row.get('call_type', 'unknown'))
+        call_types.append(call_type)
     
     # Create scatter plot with different colors for different call types
     for call_type in set(call_types):

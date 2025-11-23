@@ -2,21 +2,89 @@
 Token accounting module for accurate token counting.
 
 This module provides token counting functionality for use with Ollama.
-Since we're using Ollama (not Hugging Face directly), we use a simple
-estimation method that approximates token counts without requiring
-authentication.
+It prioritizes actual token counts from Ollama's usage field, with fallback
+to tiktoken or simple estimation methods.
 
 Token counting is important for:
 - Estimating costs (many LLM APIs charge per token)
 - Ensuring prompts fit within model limits
 - Tracking usage accurately
 
-Note: This uses a simple word-based estimation. For more accurate counts,
-you can check the 'usage' field in Ollama's API responses.
+Priority order for token counting:
+1. Ollama actual tokens (from usage field in API responses) - most accurate
+2. tiktoken estimation - good approximation
+3. Simple word-based estimation - fallback when others unavailable
 """
 
 import re
-from typing import Dict, Optional
+from typing import Any, Dict, Optional, Tuple
+
+
+def extract_tokens_from_usage(usage: Dict[str, Any], call_type: str) -> Optional[Dict[str, int]]:
+    """
+    Extract token counts from Ollama's usage field in API responses.
+    
+    Ollama's API responses include a 'usage' field with actual token counts
+    from the model. This function extracts those counts in a standardized format.
+    
+    For embedding calls, the usage field typically contains:
+    - prompt_eval_count: Number of tokens in the input text
+    
+    For generation/chat calls, the usage field typically contains:
+    - prompt_eval_count: Number of tokens in the prompt (input)
+    - eval_count: Number of tokens in the generated response (output)
+    
+    Args:
+        usage: Dictionary from Ollama's API response containing usage information
+        call_type: Type of call - 'embedding' or 'inference'/'generation'
+    
+    Returns:
+        Dictionary with token counts, or None if usage is missing/malformed:
+        - For embeddings: {'input_tokens': int}
+        - For inference: {'prompt_tokens': int, 'response_tokens': int, 'total_tokens': int}
+        Returns None if usage field is missing or doesn't contain expected fields
+    """
+    # Check if usage is valid (not None, not empty, and is a dictionary)
+    if not usage or not isinstance(usage, dict):
+        return None
+    
+    # Handle embedding calls
+    if call_type == "embedding":
+        # For embeddings, we typically get prompt_eval_count as input tokens
+        prompt_eval_count = usage.get("prompt_eval_count")
+        if prompt_eval_count is not None:
+            try:
+                return {
+                    "input_tokens": int(prompt_eval_count)
+                }
+            except (ValueError, TypeError):
+                # If conversion fails, return None
+                return None
+        return None
+    
+    # Handle inference/generation calls
+    elif call_type in ["inference", "generation"]:
+        # For generation, we get both prompt and response token counts
+        prompt_eval_count = usage.get("prompt_eval_count")
+        eval_count = usage.get("eval_count")
+        
+        # Both fields should be present for a valid inference call
+        if prompt_eval_count is not None and eval_count is not None:
+            try:
+                prompt_tokens = int(prompt_eval_count)
+                response_tokens = int(eval_count)
+                return {
+                    "prompt_tokens": prompt_tokens,
+                    "response_tokens": response_tokens,
+                    "total_tokens": prompt_tokens + response_tokens
+                }
+            except (ValueError, TypeError):
+                # If conversion fails, return None
+                return None
+        return None
+    
+    # Unknown call type
+    return None
 
 
 def _estimate_tokens_simple(text: str) -> int:
@@ -73,74 +141,113 @@ def _count_tokens_with_tiktoken(text: str) -> Optional[int]:
         return None
 
 
-def count_tokens(text: str, model_name: Optional[str] = None, token: Optional[str] = None) -> int:
+def count_tokens(text: str, model_name: Optional[str] = None, token: Optional[str] = None,
+                 usage: Optional[Dict[str, Any]] = None, call_type: str = "inference") -> Tuple[int, str]:
     """
-    Count the number of tokens in a text string.
+    Count the number of tokens in a text string using priority-based fallback chain.
     
     Tokens are the basic units that language models work with.
     A token can be a word, part of a word, or punctuation.
     For example, "Hello world!" might be 3 tokens: ["Hello", " world", "!"]
     
-    Since we're using Ollama (not Hugging Face directly), this function
-    uses tiktoken if available (no authentication required), or falls back
-    to a simple word-based estimation.
-    
-    For the most accurate token counts, check the 'usage' field in Ollama's
-    API responses, which provides actual token counts from the model.
+    This function uses a priority-based approach:
+    1. Ollama actual tokens (from usage field) - most accurate
+    2. tiktoken estimation - good approximation
+    3. Simple word-based estimation - fallback
     
     Args:
         text: The text string to count tokens in
         model_name: Not used (kept for compatibility)
         token: Not used (kept for compatibility)
+        usage: Optional usage dictionary from Ollama API response
+        call_type: Type of call - 'embedding' or 'inference' (default: 'inference')
     
     Returns:
-        Integer: The estimated number of tokens in the text
+        Tuple of (token_count, method_used) where:
+        - token_count: Integer number of tokens
+        - method_used: String indicating method - "ollama_actual", "tiktoken", or "simple_estimation"
     
     Example:
         >>> count_tokens("Hello, world!")
-        3  # (example - actual count depends on method used)
+        (3, "tiktoken")  # (example - actual count depends on method used)
     """
-    # Try tiktoken first (fast and accurate, no auth needed)
+    # Priority 1: Try to extract from Ollama usage field if provided
+    if usage is not None:
+        usage_tokens = extract_tokens_from_usage(usage, call_type)
+        if usage_tokens is not None:
+            # For embeddings, return input_tokens
+            if call_type == "embedding" and "input_tokens" in usage_tokens:
+                return (usage_tokens["input_tokens"], "ollama_actual")
+            # For inference, we need the text to determine which count to use
+            # Since we only have text (not prompt/response separately), use total if available
+            elif "total_tokens" in usage_tokens:
+                return (usage_tokens["total_tokens"], "ollama_actual")
+            elif "prompt_tokens" in usage_tokens:
+                # If only prompt_tokens available, use that (assumes text is the prompt)
+                return (usage_tokens["prompt_tokens"], "ollama_actual")
+    
+    # Priority 2: Try tiktoken (fast and accurate, no auth needed)
     tiktoken_count = _count_tokens_with_tiktoken(text)
     if tiktoken_count is not None:
-        return tiktoken_count
+        return (tiktoken_count, "tiktoken")
     
-    # Fallback to simple estimation
-    return _estimate_tokens_simple(text)
+    # Priority 3: Fallback to simple estimation
+    simple_count = _estimate_tokens_simple(text)
+    return (simple_count, "simple_estimation")
 
 
 def count_prompt_and_response(prompt: str, response: str, 
                               model_name: Optional[str] = None,
-                              token: Optional[str] = None) -> Dict[str, int]:
+                              token: Optional[str] = None,
+                              usage: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
     """
-    Count tokens in both prompt and response separately.
+    Count tokens in both prompt and response separately using priority-based fallback.
     
     This is useful for tracking:
     - How many tokens you sent to the model (prompt tokens)
     - How many tokens the model generated (response tokens)
     - Total tokens used in the interaction
     
+    Prioritizes actual tokens from Ollama usage field when available.
+    
     Args:
         prompt: The input text sent to the model (user's question/instruction)
         response: The text generated by the model (model's answer)
         model_name: Not used (kept for compatibility)
         token: Not used (kept for compatibility)
+        usage: Optional usage dictionary from Ollama API response
     
     Returns:
         Dictionary with keys:
             - 'prompt_tokens': Number of tokens in the prompt
             - 'response_tokens': Number of tokens in the response
             - 'total_tokens': Sum of prompt and response tokens
+            - 'prompt_method': Method used for prompt counting
+            - 'response_method': Method used for response counting
     
     Example:
         >>> count_prompt_and_response("What is AI?", "AI is artificial intelligence.")
-        {'prompt_tokens': 4, 'response_tokens': 6, 'total_tokens': 10}
+        {'prompt_tokens': 4, 'response_tokens': 6, 'total_tokens': 10, 
+         'prompt_method': 'tiktoken', 'response_method': 'tiktoken'}
     """
+    # Priority 1: Try to extract from Ollama usage field if provided
+    if usage is not None:
+        usage_tokens = extract_tokens_from_usage(usage, "inference")
+        if usage_tokens is not None and "prompt_tokens" in usage_tokens and "response_tokens" in usage_tokens:
+            return {
+                "prompt_tokens": usage_tokens["prompt_tokens"],
+                "response_tokens": usage_tokens["response_tokens"],
+                "total_tokens": usage_tokens["total_tokens"],
+                "prompt_method": "ollama_actual",
+                "response_method": "ollama_actual"
+            }
+    
+    # Priority 2: Fall back to estimation methods
     # Count tokens in the prompt (input)
-    prompt_tokens = count_tokens(prompt, model_name, token=token)
+    prompt_tokens, prompt_method = count_tokens(prompt, model_name, token=token, call_type="inference")
     
     # Count tokens in the response (output)
-    response_tokens = count_tokens(response, model_name, token=token)
+    response_tokens, response_method = count_tokens(response, model_name, token=token, call_type="inference")
     
     # Calculate total tokens
     total_tokens = prompt_tokens + response_tokens
@@ -149,28 +256,33 @@ def count_prompt_and_response(prompt: str, response: str,
     return {
         "prompt_tokens": prompt_tokens,
         "response_tokens": response_tokens,
-        "total_tokens": total_tokens
+        "total_tokens": total_tokens,
+        "prompt_method": prompt_method,
+        "response_method": response_method
     }
 
 
 def estimate_embedding_tokens(text: str, model_name: Optional[str] = None,
-                              token: Optional[str] = None) -> int:
+                              token: Optional[str] = None,
+                              usage: Optional[Dict[str, Any]] = None) -> Tuple[int, str]:
     """
-    Estimate tokens for embedding calls.
+    Count tokens for embedding calls using priority-based fallback.
     
     For embedding models, we typically only count input tokens
     (the text being embedded), not output tokens (the embedding vector).
     
-    This is a convenience function that's the same as count_tokens,
-    but makes the intent clearer when used for embedding operations.
+    This function prioritizes actual tokens from Ollama usage field when available.
     
     Args:
         text: The text to embed
         model_name: Not used (kept for compatibility)
         token: Not used (kept for compatibility)
+        usage: Optional usage dictionary from Ollama API response
     
     Returns:
-        Integer: Number of tokens in the input text
+        Tuple of (token_count, method_used) where:
+        - token_count: Integer number of tokens in the input text
+        - method_used: String indicating method - "ollama_actual", "tiktoken", or "simple_estimation"
     """
-    return count_tokens(text, model_name, token=token)
+    return count_tokens(text, model_name, token=token, usage=usage, call_type="embedding")
 

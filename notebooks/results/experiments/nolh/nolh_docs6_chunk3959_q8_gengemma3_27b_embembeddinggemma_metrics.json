@@ -1,0 +1,751 @@
+{
+  "export_timestamp": "2025-11-23T14:36:20.909937",
+  "export_timestamp_readable": "2025-11-23 14:36:20",
+  "num_metrics": 54,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.4008460949989967,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763908516.2726398,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.46467591599503066,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763908516.7375875,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.4035826360050123,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763908517.141438,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.32362360699335113,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763908517.4654732,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.45162253100716043,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763908517.9173799,
+      "chunk_id": "chunk_4",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.26345541499904357,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763908518.1811197,
+      "chunk_id": "chunk_5",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3992110272502032,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908529.3757122,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nWhen was the eBook released?\nWhat license governs the use of this eBook?\nWhere can the Project Gutenberg License be found online?\nWhat is mentioned regarding legal considerations for users outside the United States?\nWhich chapter immediately follows \"The Counterpane\"?\nBesides Herman Melville, who are credited with contributing to this eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3992110272502032,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908529.3757162,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nWhen was the eBook released?\nWhat license governs the use of this eBook?\nWhere can the Project Gutenberg License be found online?\nWhat is mentioned regarding legal considerations for users outside the United States?\nWhich chapter immediately follows \"The Counterpane\"?\nBesides Herman Melville, who are credited with contributing to this eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3992110272502032,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908529.3757172,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nWhen was the eBook released?\nWhat license governs the use of this eBook?\nWhere can the Project Gutenberg License be found online?\nWhat is mentioned regarding legal considerations for users outside the United States?\nWhich chapter immediately follows \"The Counterpane\"?\nBesides Herman Melville, who are credited with contributing to this eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3992110272502032,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908529.3757179,
+      "question_id": "q_chunk_0_3",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nWhen was the eBook released?\nWhat license governs the use of this eBook?\nWhere can the Project Gutenberg License be found online?\nWhat is mentioned regarding legal considerations for users outside the United States?\nWhich chapter immediately follows \"The Counterpane\"?\nBesides Herman Melville, who are credited with contributing to this eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3992110272502032,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908529.3757186,
+      "question_id": "q_chunk_0_4",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nWhen was the eBook released?\nWhat license governs the use of this eBook?\nWhere can the Project Gutenberg License be found online?\nWhat is mentioned regarding legal considerations for users outside the United States?\nWhich chapter immediately follows \"The Counterpane\"?\nBesides Herman Melville, who are credited with contributing to this eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3992110272502032,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908529.3757193,
+      "question_id": "q_chunk_0_5",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nWhen was the eBook released?\nWhat license governs the use of this eBook?\nWhere can the Project Gutenberg License be found online?\nWhat is mentioned regarding legal considerations for users outside the United States?\nWhich chapter immediately follows \"The Counterpane\"?\nBesides Herman Melville, who are credited with contributing to this eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3992110272502032,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908529.37572,
+      "question_id": "q_chunk_0_6",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nWhen was the eBook released?\nWhat license governs the use of this eBook?\nWhere can the Project Gutenberg License be found online?\nWhat is mentioned regarding legal considerations for users outside the United States?\nWhich chapter immediately follows \"The Counterpane\"?\nBesides Herman Melville, who are credited with contributing to this eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3992110272502032,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908529.3757207,
+      "question_id": "q_chunk_0_7",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nWhen was the eBook released?\nWhat license governs the use of this eBook?\nWhere can the Project Gutenberg License be found online?\nWhat is mentioned regarding legal considerations for users outside the United States?\nWhich chapter immediately follows \"The Counterpane\"?\nBesides Herman Melville, who are credited with contributing to this eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.152382383499571,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908538.5955963,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What chapter introduces Fedallah?\nWhich chapter focuses on the depiction of whales in various art forms?\nIn what chapter does Stubb kill a whale?\nWhat chapter details the events of the \u201cShark Massacre\u201d?\nWhat is the subject of Chapter 74?\nWhich chapter describes events taking place at \u201cMidnight, Forecastle\u201d?\nWhat chapter focuses on \u201cThe Whiteness of the Whale\u201d?\nWhat chapter covers \u201cThe Jeroboam\u2019s Story\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.152382383499571,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908538.5956001,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What chapter introduces Fedallah?\nWhich chapter focuses on the depiction of whales in various art forms?\nIn what chapter does Stubb kill a whale?\nWhat chapter details the events of the \u201cShark Massacre\u201d?\nWhat is the subject of Chapter 74?\nWhich chapter describes events taking place at \u201cMidnight, Forecastle\u201d?\nWhat chapter focuses on \u201cThe Whiteness of the Whale\u201d?\nWhat chapter covers \u201cThe Jeroboam\u2019s Story\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.152382383499571,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908538.595601,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What chapter introduces Fedallah?\nWhich chapter focuses on the depiction of whales in various art forms?\nIn what chapter does Stubb kill a whale?\nWhat chapter details the events of the \u201cShark Massacre\u201d?\nWhat is the subject of Chapter 74?\nWhich chapter describes events taking place at \u201cMidnight, Forecastle\u201d?\nWhat chapter focuses on \u201cThe Whiteness of the Whale\u201d?\nWhat chapter covers \u201cThe Jeroboam\u2019s Story\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.152382383499571,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908538.5956023,
+      "question_id": "q_chunk_1_3",
+      "response_text": "What chapter introduces Fedallah?\nWhich chapter focuses on the depiction of whales in various art forms?\nIn what chapter does Stubb kill a whale?\nWhat chapter details the events of the \u201cShark Massacre\u201d?\nWhat is the subject of Chapter 74?\nWhich chapter describes events taking place at \u201cMidnight, Forecastle\u201d?\nWhat chapter focuses on \u201cThe Whiteness of the Whale\u201d?\nWhat chapter covers \u201cThe Jeroboam\u2019s Story\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.152382383499571,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908538.595603,
+      "question_id": "q_chunk_1_4",
+      "response_text": "What chapter introduces Fedallah?\nWhich chapter focuses on the depiction of whales in various art forms?\nIn what chapter does Stubb kill a whale?\nWhat chapter details the events of the \u201cShark Massacre\u201d?\nWhat is the subject of Chapter 74?\nWhich chapter describes events taking place at \u201cMidnight, Forecastle\u201d?\nWhat chapter focuses on \u201cThe Whiteness of the Whale\u201d?\nWhat chapter covers \u201cThe Jeroboam\u2019s Story\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.152382383499571,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908538.5956037,
+      "question_id": "q_chunk_1_5",
+      "response_text": "What chapter introduces Fedallah?\nWhich chapter focuses on the depiction of whales in various art forms?\nIn what chapter does Stubb kill a whale?\nWhat chapter details the events of the \u201cShark Massacre\u201d?\nWhat is the subject of Chapter 74?\nWhich chapter describes events taking place at \u201cMidnight, Forecastle\u201d?\nWhat chapter focuses on \u201cThe Whiteness of the Whale\u201d?\nWhat chapter covers \u201cThe Jeroboam\u2019s Story\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.152382383499571,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908538.5956042,
+      "question_id": "q_chunk_1_6",
+      "response_text": "What chapter introduces Fedallah?\nWhich chapter focuses on the depiction of whales in various art forms?\nIn what chapter does Stubb kill a whale?\nWhat chapter details the events of the \u201cShark Massacre\u201d?\nWhat is the subject of Chapter 74?\nWhich chapter describes events taking place at \u201cMidnight, Forecastle\u201d?\nWhat chapter focuses on \u201cThe Whiteness of the Whale\u201d?\nWhat chapter covers \u201cThe Jeroboam\u2019s Story\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.152382383499571,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908538.595605,
+      "question_id": "q_chunk_1_7",
+      "response_text": "What chapter introduces Fedallah?\nWhich chapter focuses on the depiction of whales in various art forms?\nIn what chapter does Stubb kill a whale?\nWhat chapter details the events of the \u201cShark Massacre\u201d?\nWhat is the subject of Chapter 74?\nWhich chapter describes events taking place at \u201cMidnight, Forecastle\u201d?\nWhat chapter focuses on \u201cThe Whiteness of the Whale\u201d?\nWhat chapter covers \u201cThe Jeroboam\u2019s Story\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0648790502491465,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908547.1154377,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is contrasted in Chapter 75?\nWhat is described in Chapter 76?\nWhat is the subject of Chapter 83?\nWhat activity is detailed in Chapter 84?\nWhat does Chapter 92 discuss?\nWhat is Queequeg doing in Chapter 110?\nWhat is the setting of Chapter 111?\nWhat happens in Chapter 122?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0648790502491465,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908547.115442,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is contrasted in Chapter 75?\nWhat is described in Chapter 76?\nWhat is the subject of Chapter 83?\nWhat activity is detailed in Chapter 84?\nWhat does Chapter 92 discuss?\nWhat is Queequeg doing in Chapter 110?\nWhat is the setting of Chapter 111?\nWhat happens in Chapter 122?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0648790502491465,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908547.115443,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What is contrasted in Chapter 75?\nWhat is described in Chapter 76?\nWhat is the subject of Chapter 83?\nWhat activity is detailed in Chapter 84?\nWhat does Chapter 92 discuss?\nWhat is Queequeg doing in Chapter 110?\nWhat is the setting of Chapter 111?\nWhat happens in Chapter 122?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0648790502491465,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908547.1154437,
+      "question_id": "q_chunk_2_3",
+      "response_text": "What is contrasted in Chapter 75?\nWhat is described in Chapter 76?\nWhat is the subject of Chapter 83?\nWhat activity is detailed in Chapter 84?\nWhat does Chapter 92 discuss?\nWhat is Queequeg doing in Chapter 110?\nWhat is the setting of Chapter 111?\nWhat happens in Chapter 122?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0648790502491465,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908547.1154444,
+      "question_id": "q_chunk_2_4",
+      "response_text": "What is contrasted in Chapter 75?\nWhat is described in Chapter 76?\nWhat is the subject of Chapter 83?\nWhat activity is detailed in Chapter 84?\nWhat does Chapter 92 discuss?\nWhat is Queequeg doing in Chapter 110?\nWhat is the setting of Chapter 111?\nWhat happens in Chapter 122?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0648790502491465,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908547.1154451,
+      "question_id": "q_chunk_2_5",
+      "response_text": "What is contrasted in Chapter 75?\nWhat is described in Chapter 76?\nWhat is the subject of Chapter 83?\nWhat activity is detailed in Chapter 84?\nWhat does Chapter 92 discuss?\nWhat is Queequeg doing in Chapter 110?\nWhat is the setting of Chapter 111?\nWhat happens in Chapter 122?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0648790502491465,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908547.1154459,
+      "question_id": "q_chunk_2_6",
+      "response_text": "What is contrasted in Chapter 75?\nWhat is described in Chapter 76?\nWhat is the subject of Chapter 83?\nWhat activity is detailed in Chapter 84?\nWhat does Chapter 92 discuss?\nWhat is Queequeg doing in Chapter 110?\nWhat is the setting of Chapter 111?\nWhat happens in Chapter 122?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0648790502491465,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908547.1154497,
+      "question_id": "q_chunk_2_7",
+      "response_text": "What is contrasted in Chapter 75?\nWhat is described in Chapter 76?\nWhat is the subject of Chapter 83?\nWhat activity is detailed in Chapter 84?\nWhat does Chapter 92 discuss?\nWhat is Queequeg doing in Chapter 110?\nWhat is the setting of Chapter 111?\nWhat happens in Chapter 122?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3184317256254872,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908557.6637838,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What location is mentioned at the very beginning of the text?\nWhat is the subject of the etymology section?\nWho is the \u201cpale Usher\u201d described in the text?\nFrom what languages does the word \"whale\" potentially originate?\nWhat does the Usher do with his old lexicons and grammars?\nAccording to Hackluyt, what error do teachers make when naming whales?\nWhat is the significance of the letter \"H\" in relation to the word \"whale\"?\nWhat sources were used to create this text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3184317256254872,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908557.6637878,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What location is mentioned at the very beginning of the text?\nWhat is the subject of the etymology section?\nWho is the \u201cpale Usher\u201d described in the text?\nFrom what languages does the word \"whale\" potentially originate?\nWhat does the Usher do with his old lexicons and grammars?\nAccording to Hackluyt, what error do teachers make when naming whales?\nWhat is the significance of the letter \"H\" in relation to the word \"whale\"?\nWhat sources were used to create this text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3184317256254872,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908557.6637886,
+      "question_id": "q_chunk_3_2",
+      "response_text": "What location is mentioned at the very beginning of the text?\nWhat is the subject of the etymology section?\nWho is the \u201cpale Usher\u201d described in the text?\nFrom what languages does the word \"whale\" potentially originate?\nWhat does the Usher do with his old lexicons and grammars?\nAccording to Hackluyt, what error do teachers make when naming whales?\nWhat is the significance of the letter \"H\" in relation to the word \"whale\"?\nWhat sources were used to create this text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3184317256254872,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908557.6637902,
+      "question_id": "q_chunk_3_3",
+      "response_text": "What location is mentioned at the very beginning of the text?\nWhat is the subject of the etymology section?\nWho is the \u201cpale Usher\u201d described in the text?\nFrom what languages does the word \"whale\" potentially originate?\nWhat does the Usher do with his old lexicons and grammars?\nAccording to Hackluyt, what error do teachers make when naming whales?\nWhat is the significance of the letter \"H\" in relation to the word \"whale\"?\nWhat sources were used to create this text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3184317256254872,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908557.6637912,
+      "question_id": "q_chunk_3_4",
+      "response_text": "What location is mentioned at the very beginning of the text?\nWhat is the subject of the etymology section?\nWho is the \u201cpale Usher\u201d described in the text?\nFrom what languages does the word \"whale\" potentially originate?\nWhat does the Usher do with his old lexicons and grammars?\nAccording to Hackluyt, what error do teachers make when naming whales?\nWhat is the significance of the letter \"H\" in relation to the word \"whale\"?\nWhat sources were used to create this text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3184317256254872,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908557.6637917,
+      "question_id": "q_chunk_3_5",
+      "response_text": "What location is mentioned at the very beginning of the text?\nWhat is the subject of the etymology section?\nWho is the \u201cpale Usher\u201d described in the text?\nFrom what languages does the word \"whale\" potentially originate?\nWhat does the Usher do with his old lexicons and grammars?\nAccording to Hackluyt, what error do teachers make when naming whales?\nWhat is the significance of the letter \"H\" in relation to the word \"whale\"?\nWhat sources were used to create this text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3184317256254872,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908557.6637924,
+      "question_id": "q_chunk_3_6",
+      "response_text": "What location is mentioned at the very beginning of the text?\nWhat is the subject of the etymology section?\nWho is the \u201cpale Usher\u201d described in the text?\nFrom what languages does the word \"whale\" potentially originate?\nWhat does the Usher do with his old lexicons and grammars?\nAccording to Hackluyt, what error do teachers make when naming whales?\nWhat is the significance of the letter \"H\" in relation to the word \"whale\"?\nWhat sources were used to create this text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3184317256254872,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908557.6637928,
+      "question_id": "q_chunk_3_7",
+      "response_text": "What location is mentioned at the very beginning of the text?\nWhat is the subject of the etymology section?\nWho is the \u201cpale Usher\u201d described in the text?\nFrom what languages does the word \"whale\" potentially originate?\nWhat does the Usher do with his old lexicons and grammars?\nAccording to Hackluyt, what error do teachers make when naming whales?\nWhat is the significance of the letter \"H\" in relation to the word \"whale\"?\nWhat sources were used to create this text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.367749714250749,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908568.606682,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What does Webster\u2019s Dictionary suggest is the origin of the name \"whale\"?\nAccording to Richardson\u2019s Dictionary, from what languages does \u201cwhale\u201d originate?\nWhat language is \u201c\u05d7\u05d5\u200e\u201d?\nWhat is the meaning of \u201chvalt\u201d in Danish?\nWhat does the text describe the Sub-Sub-Librarian as?\nWhat does the author suggest readers do with the whale statements in the extracts?\nWhat is Leviathan referred to as in the text?\nWhat is the author's relationship to the Sub-Sub-Librarian?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.367749714250749,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908568.6066864,
+      "question_id": "q_chunk_4_1",
+      "response_text": "What does Webster\u2019s Dictionary suggest is the origin of the name \"whale\"?\nAccording to Richardson\u2019s Dictionary, from what languages does \u201cwhale\u201d originate?\nWhat language is \u201c\u05d7\u05d5\u200e\u201d?\nWhat is the meaning of \u201chvalt\u201d in Danish?\nWhat does the text describe the Sub-Sub-Librarian as?\nWhat does the author suggest readers do with the whale statements in the extracts?\nWhat is Leviathan referred to as in the text?\nWhat is the author's relationship to the Sub-Sub-Librarian?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.367749714250749,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908568.6066875,
+      "question_id": "q_chunk_4_2",
+      "response_text": "What does Webster\u2019s Dictionary suggest is the origin of the name \"whale\"?\nAccording to Richardson\u2019s Dictionary, from what languages does \u201cwhale\u201d originate?\nWhat language is \u201c\u05d7\u05d5\u200e\u201d?\nWhat is the meaning of \u201chvalt\u201d in Danish?\nWhat does the text describe the Sub-Sub-Librarian as?\nWhat does the author suggest readers do with the whale statements in the extracts?\nWhat is Leviathan referred to as in the text?\nWhat is the author's relationship to the Sub-Sub-Librarian?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.367749714250749,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908568.6066887,
+      "question_id": "q_chunk_4_3",
+      "response_text": "What does Webster\u2019s Dictionary suggest is the origin of the name \"whale\"?\nAccording to Richardson\u2019s Dictionary, from what languages does \u201cwhale\u201d originate?\nWhat language is \u201c\u05d7\u05d5\u200e\u201d?\nWhat is the meaning of \u201chvalt\u201d in Danish?\nWhat does the text describe the Sub-Sub-Librarian as?\nWhat does the author suggest readers do with the whale statements in the extracts?\nWhat is Leviathan referred to as in the text?\nWhat is the author's relationship to the Sub-Sub-Librarian?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.367749714250749,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908568.6066895,
+      "question_id": "q_chunk_4_4",
+      "response_text": "What does Webster\u2019s Dictionary suggest is the origin of the name \"whale\"?\nAccording to Richardson\u2019s Dictionary, from what languages does \u201cwhale\u201d originate?\nWhat language is \u201c\u05d7\u05d5\u200e\u201d?\nWhat is the meaning of \u201chvalt\u201d in Danish?\nWhat does the text describe the Sub-Sub-Librarian as?\nWhat does the author suggest readers do with the whale statements in the extracts?\nWhat is Leviathan referred to as in the text?\nWhat is the author's relationship to the Sub-Sub-Librarian?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.367749714250749,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908568.60669,
+      "question_id": "q_chunk_4_5",
+      "response_text": "What does Webster\u2019s Dictionary suggest is the origin of the name \"whale\"?\nAccording to Richardson\u2019s Dictionary, from what languages does \u201cwhale\u201d originate?\nWhat language is \u201c\u05d7\u05d5\u200e\u201d?\nWhat is the meaning of \u201chvalt\u201d in Danish?\nWhat does the text describe the Sub-Sub-Librarian as?\nWhat does the author suggest readers do with the whale statements in the extracts?\nWhat is Leviathan referred to as in the text?\nWhat is the author's relationship to the Sub-Sub-Librarian?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.367749714250749,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908568.606691,
+      "question_id": "q_chunk_4_6",
+      "response_text": "What does Webster\u2019s Dictionary suggest is the origin of the name \"whale\"?\nAccording to Richardson\u2019s Dictionary, from what languages does \u201cwhale\u201d originate?\nWhat language is \u201c\u05d7\u05d5\u200e\u201d?\nWhat is the meaning of \u201chvalt\u201d in Danish?\nWhat does the text describe the Sub-Sub-Librarian as?\nWhat does the author suggest readers do with the whale statements in the extracts?\nWhat is Leviathan referred to as in the text?\nWhat is the author's relationship to the Sub-Sub-Librarian?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.367749714250749,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908568.6066914,
+      "question_id": "q_chunk_4_7",
+      "response_text": "What does Webster\u2019s Dictionary suggest is the origin of the name \"whale\"?\nAccording to Richardson\u2019s Dictionary, from what languages does \u201cwhale\u201d originate?\nWhat language is \u201c\u05d7\u05d5\u200e\u201d?\nWhat is the meaning of \u201chvalt\u201d in Danish?\nWhat does the text describe the Sub-Sub-Librarian as?\nWhat does the author suggest readers do with the whale statements in the extracts?\nWhat is Leviathan referred to as in the text?\nWhat is the author's relationship to the Sub-Sub-Librarian?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.5373816267510847,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908580.9065833,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the primary value of the extracts presented?\nTo whom does the author address the phrase \u201cGive it up, Sub-Subs!\u201d?\nWhat does the author suggest would be a desirable action regarding Hampton Court and the Tuileries?\nWhat is the fate of Gabriel, Michael, and Raphael as described in the text?\nFrom which book of the Bible is the quote \u201cAnd God created great whales\u201d taken?\nAccording to the text, what does Leviathan cause to shine?\nWhat kind of creature is Leviathan described as being in Isaiah?\nWhat action are the \"Sub-Subs\" encouraged to take with their hearts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.5373816267510847,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908580.9065866,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the primary value of the extracts presented?\nTo whom does the author address the phrase \u201cGive it up, Sub-Subs!\u201d?\nWhat does the author suggest would be a desirable action regarding Hampton Court and the Tuileries?\nWhat is the fate of Gabriel, Michael, and Raphael as described in the text?\nFrom which book of the Bible is the quote \u201cAnd God created great whales\u201d taken?\nAccording to the text, what does Leviathan cause to shine?\nWhat kind of creature is Leviathan described as being in Isaiah?\nWhat action are the \"Sub-Subs\" encouraged to take with their hearts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.5373816267510847,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908580.9065874,
+      "question_id": "q_chunk_5_2",
+      "response_text": "What is the primary value of the extracts presented?\nTo whom does the author address the phrase \u201cGive it up, Sub-Subs!\u201d?\nWhat does the author suggest would be a desirable action regarding Hampton Court and the Tuileries?\nWhat is the fate of Gabriel, Michael, and Raphael as described in the text?\nFrom which book of the Bible is the quote \u201cAnd God created great whales\u201d taken?\nAccording to the text, what does Leviathan cause to shine?\nWhat kind of creature is Leviathan described as being in Isaiah?\nWhat action are the \"Sub-Subs\" encouraged to take with their hearts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.5373816267510847,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908580.906588,
+      "question_id": "q_chunk_5_3",
+      "response_text": "What is the primary value of the extracts presented?\nTo whom does the author address the phrase \u201cGive it up, Sub-Subs!\u201d?\nWhat does the author suggest would be a desirable action regarding Hampton Court and the Tuileries?\nWhat is the fate of Gabriel, Michael, and Raphael as described in the text?\nFrom which book of the Bible is the quote \u201cAnd God created great whales\u201d taken?\nAccording to the text, what does Leviathan cause to shine?\nWhat kind of creature is Leviathan described as being in Isaiah?\nWhat action are the \"Sub-Subs\" encouraged to take with their hearts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.5373816267510847,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908580.906589,
+      "question_id": "q_chunk_5_4",
+      "response_text": "What is the primary value of the extracts presented?\nTo whom does the author address the phrase \u201cGive it up, Sub-Subs!\u201d?\nWhat does the author suggest would be a desirable action regarding Hampton Court and the Tuileries?\nWhat is the fate of Gabriel, Michael, and Raphael as described in the text?\nFrom which book of the Bible is the quote \u201cAnd God created great whales\u201d taken?\nAccording to the text, what does Leviathan cause to shine?\nWhat kind of creature is Leviathan described as being in Isaiah?\nWhat action are the \"Sub-Subs\" encouraged to take with their hearts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.5373816267510847,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908580.90659,
+      "question_id": "q_chunk_5_5",
+      "response_text": "What is the primary value of the extracts presented?\nTo whom does the author address the phrase \u201cGive it up, Sub-Subs!\u201d?\nWhat does the author suggest would be a desirable action regarding Hampton Court and the Tuileries?\nWhat is the fate of Gabriel, Michael, and Raphael as described in the text?\nFrom which book of the Bible is the quote \u201cAnd God created great whales\u201d taken?\nAccording to the text, what does Leviathan cause to shine?\nWhat kind of creature is Leviathan described as being in Isaiah?\nWhat action are the \"Sub-Subs\" encouraged to take with their hearts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.5373816267510847,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908580.9065905,
+      "question_id": "q_chunk_5_6",
+      "response_text": "What is the primary value of the extracts presented?\nTo whom does the author address the phrase \u201cGive it up, Sub-Subs!\u201d?\nWhat does the author suggest would be a desirable action regarding Hampton Court and the Tuileries?\nWhat is the fate of Gabriel, Michael, and Raphael as described in the text?\nFrom which book of the Bible is the quote \u201cAnd God created great whales\u201d taken?\nAccording to the text, what does Leviathan cause to shine?\nWhat kind of creature is Leviathan described as being in Isaiah?\nWhat action are the \"Sub-Subs\" encouraged to take with their hearts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.5373816267510847,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763908580.9065928,
+      "question_id": "q_chunk_5_7",
+      "response_text": "What is the primary value of the extracts presented?\nTo whom does the author address the phrase \u201cGive it up, Sub-Subs!\u201d?\nWhat does the author suggest would be a desirable action regarding Hampton Court and the Tuileries?\nWhat is the fate of Gabriel, Michael, and Raphael as described in the text?\nFrom which book of the Bible is the quote \u201cAnd God created great whales\u201d taken?\nAccording to the text, what does Leviathan cause to shine?\nWhat kind of creature is Leviathan described as being in Isaiah?\nWhat action are the \"Sub-Subs\" encouraged to take with their hearts?"
+    }
+  ]
+}

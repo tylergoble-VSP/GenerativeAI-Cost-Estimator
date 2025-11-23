@@ -153,24 +153,58 @@ class MetricsStore:
         # Add this metric to our list
         self.metrics.append(metric)
     
-    def add_embedding_metric(self, duration: float, input_tokens: int,
-                             chunk_id: str, embedding_size: Optional[int] = None):
+    def add_embedding_metric(self, duration: float, actual_tokens: Optional[int] = None,
+                             estimated_tokens: Optional[int] = None,
+                             input_tokens: Optional[int] = None,  # For backward compatibility
+                             token_method: Optional[str] = None,
+                             chunk_id: str = None, embedding_size: Optional[int] = None):
         """
         Convenience method to add an embedding metric.
         
         This makes it easier to add embedding metrics without having to
         construct the token_counts dictionary manually.
         
+        Prioritizes actual tokens from Ollama usage field when available.
+        
         Args:
             duration: How long the embedding call took in seconds
-            input_tokens: Number of tokens in the input text
+            actual_tokens: Actual token count from Ollama usage field (preferred)
+            estimated_tokens: Estimated token count for comparison (if actual available)
+            input_tokens: Number of tokens in the input text (for backward compatibility)
+            token_method: Method used to count tokens - "ollama_actual", "tiktoken", or "simple_estimation"
             chunk_id: Identifier for which chunk was embedded
             embedding_size: Optional size of the embedding vector (number of dimensions)
         """
-        # Build token counts dictionary
+        # Determine which token count to use (prioritize actual)
+        if actual_tokens is not None:
+            primary_tokens = actual_tokens
+        elif input_tokens is not None:
+            # Backward compatibility: use input_tokens if actual_tokens not provided
+            primary_tokens = input_tokens
+        else:
+            # Fallback: use estimated if nothing else available
+            primary_tokens = estimated_tokens if estimated_tokens is not None else 0
+        
+        # Build token counts dictionary with primary value
         token_counts = {
-            "input_tokens": input_tokens
+            "input_tokens": primary_tokens
         }
+        
+        # Add actual tokens if available
+        if actual_tokens is not None:
+            token_counts["actual_input_tokens"] = actual_tokens
+        
+        # Add estimated tokens for comparison if both available
+        if estimated_tokens is not None and actual_tokens is not None:
+            token_counts["estimated_input_tokens"] = estimated_tokens
+            # Calculate difference for analysis
+            token_counts["token_difference"] = actual_tokens - estimated_tokens
+            if estimated_tokens > 0:
+                token_counts["token_difference_pct"] = ((actual_tokens - estimated_tokens) / estimated_tokens) * 100
+        
+        # Add method used
+        if token_method is not None:
+            token_counts["token_method"] = token_method
         
         # Build additional info dictionary
         additional_info = {}
@@ -186,8 +220,16 @@ class MetricsStore:
             additional_info=additional_info if additional_info else None
         )
     
-    def add_inference_metric(self, duration: float, prompt_tokens: int,
-                            response_tokens: int, question_id: str,
+    def add_inference_metric(self, duration: float, 
+                            actual_prompt_tokens: Optional[int] = None,
+                            actual_response_tokens: Optional[int] = None,
+                            prompt_tokens: Optional[int] = None,  # For backward compatibility
+                            response_tokens: Optional[int] = None,  # For backward compatibility
+                            estimated_prompt_tokens: Optional[int] = None,
+                            estimated_response_tokens: Optional[int] = None,
+                            prompt_method: Optional[str] = None,
+                            response_method: Optional[str] = None,
+                            question_id: str = None,
                             response_text: Optional[str] = None):
         """
         Convenience method to add an inference metric.
@@ -195,19 +237,69 @@ class MetricsStore:
         This makes it easier to add inference metrics without having to
         construct the token_counts dictionary manually.
         
+        Prioritizes actual tokens from Ollama usage field when available.
+        
         Args:
             duration: How long the inference call took in seconds
-            prompt_tokens: Number of tokens in the prompt (input)
-            response_tokens: Number of tokens in the response (output)
+            actual_prompt_tokens: Actual prompt tokens from Ollama usage (preferred)
+            actual_response_tokens: Actual response tokens from Ollama usage (preferred)
+            prompt_tokens: Number of tokens in the prompt (for backward compatibility)
+            response_tokens: Number of tokens in the response (for backward compatibility)
+            estimated_prompt_tokens: Estimated prompt tokens for comparison
+            estimated_response_tokens: Estimated response tokens for comparison
+            prompt_method: Method used for prompt counting
+            response_method: Method used for response counting
             question_id: Identifier for which question this was
             response_text: Optional text of the response (for debugging/analysis)
         """
-        # Build token counts dictionary
+        # Determine which token counts to use (prioritize actual)
+        if actual_prompt_tokens is not None:
+            primary_prompt_tokens = actual_prompt_tokens
+        elif prompt_tokens is not None:
+            # Backward compatibility
+            primary_prompt_tokens = prompt_tokens
+        else:
+            primary_prompt_tokens = estimated_prompt_tokens if estimated_prompt_tokens is not None else 0
+        
+        if actual_response_tokens is not None:
+            primary_response_tokens = actual_response_tokens
+        elif response_tokens is not None:
+            # Backward compatibility
+            primary_response_tokens = response_tokens
+        else:
+            primary_response_tokens = estimated_response_tokens if estimated_response_tokens is not None else 0
+        
+        # Build token counts dictionary with primary values
         token_counts = {
-            "prompt_tokens": prompt_tokens,
-            "response_tokens": response_tokens,
-            "total_tokens": prompt_tokens + response_tokens
+            "prompt_tokens": primary_prompt_tokens,
+            "response_tokens": primary_response_tokens,
+            "total_tokens": primary_prompt_tokens + primary_response_tokens
         }
+        
+        # Add actual tokens if available
+        if actual_prompt_tokens is not None:
+            token_counts["actual_prompt_tokens"] = actual_prompt_tokens
+        if actual_response_tokens is not None:
+            token_counts["actual_response_tokens"] = actual_response_tokens
+        
+        # Add estimated tokens for comparison if both available
+        if estimated_prompt_tokens is not None and actual_prompt_tokens is not None:
+            token_counts["estimated_prompt_tokens"] = estimated_prompt_tokens
+            token_counts["prompt_token_difference"] = actual_prompt_tokens - estimated_prompt_tokens
+            if estimated_prompt_tokens > 0:
+                token_counts["prompt_token_difference_pct"] = ((actual_prompt_tokens - estimated_prompt_tokens) / estimated_prompt_tokens) * 100
+        
+        if estimated_response_tokens is not None and actual_response_tokens is not None:
+            token_counts["estimated_response_tokens"] = estimated_response_tokens
+            token_counts["response_token_difference"] = actual_response_tokens - estimated_response_tokens
+            if estimated_response_tokens > 0:
+                token_counts["response_token_difference_pct"] = ((actual_response_tokens - estimated_response_tokens) / estimated_response_tokens) * 100
+        
+        # Add methods used
+        if prompt_method is not None:
+            token_counts["prompt_method"] = prompt_method
+        if response_method is not None:
+            token_counts["response_method"] = response_method
         
         # Build additional info dictionary
         additional_info = {}

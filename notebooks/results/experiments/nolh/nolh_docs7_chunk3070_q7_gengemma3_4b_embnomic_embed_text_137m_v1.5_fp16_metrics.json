@@ -1,0 +1,777 @@
+{
+  "export_timestamp": "2025-11-23T14:22:26.532976",
+  "export_timestamp_readable": "2025-11-23 14:22:26",
+  "num_metrics": 56,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.610791697006789,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763907733.0669682,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.04069029600941576,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763907733.1079109,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.024014507987885736,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763907733.132179,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.027620184002444148,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763907733.1600788,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.022473361997981556,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763907733.182815,
+      "chunk_id": "chunk_4",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.022638681999524124,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763907733.2057288,
+      "chunk_id": "chunk_5",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.021591208002064377,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763907733.227538,
+      "chunk_id": "chunk_6",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.42591146385737894,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907736.2098289,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the title of the ebook?\nWhat is the release date of the ebook?\nWho are the credited authors of the ebook?\nWhat is the primary language of the ebook?\nUnder what terms can the ebook be copied and distributed?\nWhere can the Project Gutenberg License be found?\nWhat is the focus of Chapter 32?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.42591146385737894,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907736.209836,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the title of the ebook?\nWhat is the release date of the ebook?\nWho are the credited authors of the ebook?\nWhat is the primary language of the ebook?\nUnder what terms can the ebook be copied and distributed?\nWhere can the Project Gutenberg License be found?\nWhat is the focus of Chapter 32?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.42591146385737894,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907736.2098377,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the title of the ebook?\nWhat is the release date of the ebook?\nWho are the credited authors of the ebook?\nWhat is the primary language of the ebook?\nUnder what terms can the ebook be copied and distributed?\nWhere can the Project Gutenberg License be found?\nWhat is the focus of Chapter 32?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.42591146385737894,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907736.2098384,
+      "question_id": "q_chunk_0_3",
+      "response_text": "What is the title of the ebook?\nWhat is the release date of the ebook?\nWho are the credited authors of the ebook?\nWhat is the primary language of the ebook?\nUnder what terms can the ebook be copied and distributed?\nWhere can the Project Gutenberg License be found?\nWhat is the focus of Chapter 32?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.42591146385737894,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907736.2098389,
+      "question_id": "q_chunk_0_4",
+      "response_text": "What is the title of the ebook?\nWhat is the release date of the ebook?\nWho are the credited authors of the ebook?\nWhat is the primary language of the ebook?\nUnder what terms can the ebook be copied and distributed?\nWhere can the Project Gutenberg License be found?\nWhat is the focus of Chapter 32?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.42591146385737894,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907736.2098396,
+      "question_id": "q_chunk_0_5",
+      "response_text": "What is the title of the ebook?\nWhat is the release date of the ebook?\nWho are the credited authors of the ebook?\nWhat is the primary language of the ebook?\nUnder what terms can the ebook be copied and distributed?\nWhere can the Project Gutenberg License be found?\nWhat is the focus of Chapter 32?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.42591146385737894,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907736.20984,
+      "question_id": "q_chunk_0_6",
+      "response_text": "What is the title of the ebook?\nWhat is the release date of the ebook?\nWho are the credited authors of the ebook?\nWhat is the primary language of the ebook?\nUnder what terms can the ebook be copied and distributed?\nWhere can the Project Gutenberg License be found?\nWhat is the focus of Chapter 32?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2168034611427824,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907737.7282393,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What characters are mentioned in the opening lines?\nWhat are the chapter titles that focus on whales?\nWhat is the significance of \u201cThe Whiteness of the Whale\u201d?\nWhat are some of the different materials used to depict whales?\nWhat did Stubb and Flask kill and discuss regarding him?\nWhat is the purpose of the \u201cThe Chart\u201d?\nWhat event is described as \"The Funeral\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2168034611427824,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907737.7282422,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What characters are mentioned in the opening lines?\nWhat are the chapter titles that focus on whales?\nWhat is the significance of \u201cThe Whiteness of the Whale\u201d?\nWhat are some of the different materials used to depict whales?\nWhat did Stubb and Flask kill and discuss regarding him?\nWhat is the purpose of the \u201cThe Chart\u201d?\nWhat event is described as \"The Funeral\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2168034611427824,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907737.7282429,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What characters are mentioned in the opening lines?\nWhat are the chapter titles that focus on whales?\nWhat is the significance of \u201cThe Whiteness of the Whale\u201d?\nWhat are some of the different materials used to depict whales?\nWhat did Stubb and Flask kill and discuss regarding him?\nWhat is the purpose of the \u201cThe Chart\u201d?\nWhat event is described as \"The Funeral\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2168034611427824,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907737.7282438,
+      "question_id": "q_chunk_1_3",
+      "response_text": "What characters are mentioned in the opening lines?\nWhat are the chapter titles that focus on whales?\nWhat is the significance of \u201cThe Whiteness of the Whale\u201d?\nWhat are some of the different materials used to depict whales?\nWhat did Stubb and Flask kill and discuss regarding him?\nWhat is the purpose of the \u201cThe Chart\u201d?\nWhat event is described as \"The Funeral\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2168034611427824,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907737.7282443,
+      "question_id": "q_chunk_1_4",
+      "response_text": "What characters are mentioned in the opening lines?\nWhat are the chapter titles that focus on whales?\nWhat is the significance of \u201cThe Whiteness of the Whale\u201d?\nWhat are some of the different materials used to depict whales?\nWhat did Stubb and Flask kill and discuss regarding him?\nWhat is the purpose of the \u201cThe Chart\u201d?\nWhat event is described as \"The Funeral\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2168034611427824,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907737.728245,
+      "question_id": "q_chunk_1_5",
+      "response_text": "What characters are mentioned in the opening lines?\nWhat are the chapter titles that focus on whales?\nWhat is the significance of \u201cThe Whiteness of the Whale\u201d?\nWhat are some of the different materials used to depict whales?\nWhat did Stubb and Flask kill and discuss regarding him?\nWhat is the purpose of the \u201cThe Chart\u201d?\nWhat event is described as \"The Funeral\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2168034611427824,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907737.7282457,
+      "question_id": "q_chunk_1_6",
+      "response_text": "What characters are mentioned in the opening lines?\nWhat are the chapter titles that focus on whales?\nWhat is the significance of \u201cThe Whiteness of the Whale\u201d?\nWhat are some of the different materials used to depict whales?\nWhat did Stubb and Flask kill and discuss regarding him?\nWhat is the purpose of the \u201cThe Chart\u201d?\nWhat event is described as \"The Funeral\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.23121971200037347,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907739.347595,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the primary focus of Chapter 75?\nWhat is the significance of \"The Battering-Ram\"?\nHow does Chapter 77 relate to the subject matter?\nWhat is the purpose of measuring the whale\u2019s skeleton?\nWhat does \"Pitchpoling\" refer to?\nWhat is the context of \"The Pequod Meets The Virgin\"?\nHow are the events described in Chapter 121 characterized?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.23121971200037347,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907739.3475978,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the primary focus of Chapter 75?\nWhat is the significance of \"The Battering-Ram\"?\nHow does Chapter 77 relate to the subject matter?\nWhat is the purpose of measuring the whale\u2019s skeleton?\nWhat does \"Pitchpoling\" refer to?\nWhat is the context of \"The Pequod Meets The Virgin\"?\nHow are the events described in Chapter 121 characterized?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.23121971200037347,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907739.3475988,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What is the primary focus of Chapter 75?\nWhat is the significance of \"The Battering-Ram\"?\nHow does Chapter 77 relate to the subject matter?\nWhat is the purpose of measuring the whale\u2019s skeleton?\nWhat does \"Pitchpoling\" refer to?\nWhat is the context of \"The Pequod Meets The Virgin\"?\nHow are the events described in Chapter 121 characterized?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.23121971200037347,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907739.3475993,
+      "question_id": "q_chunk_2_3",
+      "response_text": "What is the primary focus of Chapter 75?\nWhat is the significance of \"The Battering-Ram\"?\nHow does Chapter 77 relate to the subject matter?\nWhat is the purpose of measuring the whale\u2019s skeleton?\nWhat does \"Pitchpoling\" refer to?\nWhat is the context of \"The Pequod Meets The Virgin\"?\nHow are the events described in Chapter 121 characterized?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.23121971200037347,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907739.3476002,
+      "question_id": "q_chunk_2_4",
+      "response_text": "What is the primary focus of Chapter 75?\nWhat is the significance of \"The Battering-Ram\"?\nHow does Chapter 77 relate to the subject matter?\nWhat is the purpose of measuring the whale\u2019s skeleton?\nWhat does \"Pitchpoling\" refer to?\nWhat is the context of \"The Pequod Meets The Virgin\"?\nHow are the events described in Chapter 121 characterized?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.23121971200037347,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907739.347601,
+      "question_id": "q_chunk_2_5",
+      "response_text": "What is the primary focus of Chapter 75?\nWhat is the significance of \"The Battering-Ram\"?\nHow does Chapter 77 relate to the subject matter?\nWhat is the purpose of measuring the whale\u2019s skeleton?\nWhat does \"Pitchpoling\" refer to?\nWhat is the context of \"The Pequod Meets The Virgin\"?\nHow are the events described in Chapter 121 characterized?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.23121971200037347,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907739.3476014,
+      "question_id": "q_chunk_2_6",
+      "response_text": "What is the primary focus of Chapter 75?\nWhat is the significance of \"The Battering-Ram\"?\nHow does Chapter 77 relate to the subject matter?\nWhat is the purpose of measuring the whale\u2019s skeleton?\nWhat does \"Pitchpoling\" refer to?\nWhat is the context of \"The Pequod Meets The Virgin\"?\nHow are the events described in Chapter 121 characterized?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2514490101436552,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907741.10859,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the title of Chapter 122?\nWhat does the Usher\u2019s handkerchief symbolize?\nFrom which languages does the word \u201cwhale\u201d originate?\nAccording to the text, what does the Usher find problematic about how whales are named?\nWhat does the text state about the origin of the word \"hval\"?\nWhat is the purpose of the etymology section within the text?\nWhat is the significance of the word \"roundness\" in the etymology of \u201cwhale\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2514490101436552,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907741.1085942,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the title of Chapter 122?\nWhat does the Usher\u2019s handkerchief symbolize?\nFrom which languages does the word \u201cwhale\u201d originate?\nAccording to the text, what does the Usher find problematic about how whales are named?\nWhat does the text state about the origin of the word \"hval\"?\nWhat is the purpose of the etymology section within the text?\nWhat is the significance of the word \"roundness\" in the etymology of \u201cwhale\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2514490101436552,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907741.1085951,
+      "question_id": "q_chunk_3_2",
+      "response_text": "What is the title of Chapter 122?\nWhat does the Usher\u2019s handkerchief symbolize?\nFrom which languages does the word \u201cwhale\u201d originate?\nAccording to the text, what does the Usher find problematic about how whales are named?\nWhat does the text state about the origin of the word \"hval\"?\nWhat is the purpose of the etymology section within the text?\nWhat is the significance of the word \"roundness\" in the etymology of \u201cwhale\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2514490101436552,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907741.108596,
+      "question_id": "q_chunk_3_3",
+      "response_text": "What is the title of Chapter 122?\nWhat does the Usher\u2019s handkerchief symbolize?\nFrom which languages does the word \u201cwhale\u201d originate?\nAccording to the text, what does the Usher find problematic about how whales are named?\nWhat does the text state about the origin of the word \"hval\"?\nWhat is the purpose of the etymology section within the text?\nWhat is the significance of the word \"roundness\" in the etymology of \u201cwhale\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2514490101436552,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907741.1085966,
+      "question_id": "q_chunk_3_4",
+      "response_text": "What is the title of Chapter 122?\nWhat does the Usher\u2019s handkerchief symbolize?\nFrom which languages does the word \u201cwhale\u201d originate?\nAccording to the text, what does the Usher find problematic about how whales are named?\nWhat does the text state about the origin of the word \"hval\"?\nWhat is the purpose of the etymology section within the text?\nWhat is the significance of the word \"roundness\" in the etymology of \u201cwhale\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2514490101436552,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907741.1085982,
+      "question_id": "q_chunk_3_5",
+      "response_text": "What is the title of Chapter 122?\nWhat does the Usher\u2019s handkerchief symbolize?\nFrom which languages does the word \u201cwhale\u201d originate?\nAccording to the text, what does the Usher find problematic about how whales are named?\nWhat does the text state about the origin of the word \"hval\"?\nWhat is the purpose of the etymology section within the text?\nWhat is the significance of the word \"roundness\" in the etymology of \u201cwhale\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2514490101436552,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907741.1085987,
+      "question_id": "q_chunk_3_6",
+      "response_text": "What is the title of Chapter 122?\nWhat does the Usher\u2019s handkerchief symbolize?\nFrom which languages does the word \u201cwhale\u201d originate?\nAccording to the text, what does the Usher find problematic about how whales are named?\nWhat does the text state about the origin of the word \"hval\"?\nWhat is the purpose of the etymology section within the text?\nWhat is the significance of the word \"roundness\" in the etymology of \u201cwhale\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.24884895200167584,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907742.8514342,
+      "question_id": "q_chunk_4_0",
+      "response_text": "From what does the animal \u201cwhale\u201d get its name?\nWhat does the text suggest about the source of the whale's etymology?\nWhich languages are cited as contributing to the word \u201cwhale\u201d?\nWhat does the text advise regarding the \u201cwhale statements\u201d in the extracts?\nWhat is the Sub-Sub-Librarian described as?\nWhat is the purpose of the extracts regarding the history of the word \u201cwhale\u201d?\nWhat does the phrase \"Leviathan\" refer to?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.24884895200167584,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907742.851438,
+      "question_id": "q_chunk_4_1",
+      "response_text": "From what does the animal \u201cwhale\u201d get its name?\nWhat does the text suggest about the source of the whale's etymology?\nWhich languages are cited as contributing to the word \u201cwhale\u201d?\nWhat does the text advise regarding the \u201cwhale statements\u201d in the extracts?\nWhat is the Sub-Sub-Librarian described as?\nWhat is the purpose of the extracts regarding the history of the word \u201cwhale\u201d?\nWhat does the phrase \"Leviathan\" refer to?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.24884895200167584,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907742.8514388,
+      "question_id": "q_chunk_4_2",
+      "response_text": "From what does the animal \u201cwhale\u201d get its name?\nWhat does the text suggest about the source of the whale's etymology?\nWhich languages are cited as contributing to the word \u201cwhale\u201d?\nWhat does the text advise regarding the \u201cwhale statements\u201d in the extracts?\nWhat is the Sub-Sub-Librarian described as?\nWhat is the purpose of the extracts regarding the history of the word \u201cwhale\u201d?\nWhat does the phrase \"Leviathan\" refer to?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.24884895200167584,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907742.8514397,
+      "question_id": "q_chunk_4_3",
+      "response_text": "From what does the animal \u201cwhale\u201d get its name?\nWhat does the text suggest about the source of the whale's etymology?\nWhich languages are cited as contributing to the word \u201cwhale\u201d?\nWhat does the text advise regarding the \u201cwhale statements\u201d in the extracts?\nWhat is the Sub-Sub-Librarian described as?\nWhat is the purpose of the extracts regarding the history of the word \u201cwhale\u201d?\nWhat does the phrase \"Leviathan\" refer to?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.24884895200167584,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907742.8514402,
+      "question_id": "q_chunk_4_4",
+      "response_text": "From what does the animal \u201cwhale\u201d get its name?\nWhat does the text suggest about the source of the whale's etymology?\nWhich languages are cited as contributing to the word \u201cwhale\u201d?\nWhat does the text advise regarding the \u201cwhale statements\u201d in the extracts?\nWhat is the Sub-Sub-Librarian described as?\nWhat is the purpose of the extracts regarding the history of the word \u201cwhale\u201d?\nWhat does the phrase \"Leviathan\" refer to?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.24884895200167584,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907742.8514407,
+      "question_id": "q_chunk_4_5",
+      "response_text": "From what does the animal \u201cwhale\u201d get its name?\nWhat does the text suggest about the source of the whale's etymology?\nWhich languages are cited as contributing to the word \u201cwhale\u201d?\nWhat does the text advise regarding the \u201cwhale statements\u201d in the extracts?\nWhat is the Sub-Sub-Librarian described as?\nWhat is the purpose of the extracts regarding the history of the word \u201cwhale\u201d?\nWhat does the phrase \"Leviathan\" refer to?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.24884895200167584,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907742.851442,
+      "question_id": "q_chunk_4_6",
+      "response_text": "From what does the animal \u201cwhale\u201d get its name?\nWhat does the text suggest about the source of the whale's etymology?\nWhich languages are cited as contributing to the word \u201cwhale\u201d?\nWhat does the text advise regarding the \u201cwhale statements\u201d in the extracts?\nWhat is the Sub-Sub-Librarian described as?\nWhat is the purpose of the extracts regarding the history of the word \u201cwhale\u201d?\nWhat does the phrase \"Leviathan\" refer to?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.26212263271528563,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907744.6873028,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the primary purpose of the extracts presented?\nWhat is the commentator\u2019s attitude toward the \u201cSub-Subs\u201d?\nWhat does the commentator wish to do with Hampton Court and the Tuileries?\nWhat is the significance of the \"great whales\" mentioned in Genesis?\nHow does the commentator contrast the glasses used in different contexts?\nWhat is the commentator\u2019s assessment of the efforts of the \u201cSub-Subs\u201d?\nWhat role do the departed angels play in relation to the \u201cSub-Subs\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.26212263271528563,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907744.6873102,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the primary purpose of the extracts presented?\nWhat is the commentator\u2019s attitude toward the \u201cSub-Subs\u201d?\nWhat does the commentator wish to do with Hampton Court and the Tuileries?\nWhat is the significance of the \"great whales\" mentioned in Genesis?\nHow does the commentator contrast the glasses used in different contexts?\nWhat is the commentator\u2019s assessment of the efforts of the \u201cSub-Subs\u201d?\nWhat role do the departed angels play in relation to the \u201cSub-Subs\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.26212263271528563,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907744.6873124,
+      "question_id": "q_chunk_5_2",
+      "response_text": "What is the primary purpose of the extracts presented?\nWhat is the commentator\u2019s attitude toward the \u201cSub-Subs\u201d?\nWhat does the commentator wish to do with Hampton Court and the Tuileries?\nWhat is the significance of the \"great whales\" mentioned in Genesis?\nHow does the commentator contrast the glasses used in different contexts?\nWhat is the commentator\u2019s assessment of the efforts of the \u201cSub-Subs\u201d?\nWhat role do the departed angels play in relation to the \u201cSub-Subs\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.26212263271528563,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907744.6873136,
+      "question_id": "q_chunk_5_3",
+      "response_text": "What is the primary purpose of the extracts presented?\nWhat is the commentator\u2019s attitude toward the \u201cSub-Subs\u201d?\nWhat does the commentator wish to do with Hampton Court and the Tuileries?\nWhat is the significance of the \"great whales\" mentioned in Genesis?\nHow does the commentator contrast the glasses used in different contexts?\nWhat is the commentator\u2019s assessment of the efforts of the \u201cSub-Subs\u201d?\nWhat role do the departed angels play in relation to the \u201cSub-Subs\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.26212263271528563,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907744.687315,
+      "question_id": "q_chunk_5_4",
+      "response_text": "What is the primary purpose of the extracts presented?\nWhat is the commentator\u2019s attitude toward the \u201cSub-Subs\u201d?\nWhat does the commentator wish to do with Hampton Court and the Tuileries?\nWhat is the significance of the \"great whales\" mentioned in Genesis?\nHow does the commentator contrast the glasses used in different contexts?\nWhat is the commentator\u2019s assessment of the efforts of the \u201cSub-Subs\u201d?\nWhat role do the departed angels play in relation to the \u201cSub-Subs\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.26212263271528563,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907744.687316,
+      "question_id": "q_chunk_5_5",
+      "response_text": "What is the primary purpose of the extracts presented?\nWhat is the commentator\u2019s attitude toward the \u201cSub-Subs\u201d?\nWhat does the commentator wish to do with Hampton Court and the Tuileries?\nWhat is the significance of the \"great whales\" mentioned in Genesis?\nHow does the commentator contrast the glasses used in different contexts?\nWhat is the commentator\u2019s assessment of the efforts of the \u201cSub-Subs\u201d?\nWhat role do the departed angels play in relation to the \u201cSub-Subs\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.26212263271528563,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907744.6873178,
+      "question_id": "q_chunk_5_6",
+      "response_text": "What is the primary purpose of the extracts presented?\nWhat is the commentator\u2019s attitude toward the \u201cSub-Subs\u201d?\nWhat does the commentator wish to do with Hampton Court and the Tuileries?\nWhat is the significance of the \"great whales\" mentioned in Genesis?\nHow does the commentator contrast the glasses used in different contexts?\nWhat is the commentator\u2019s assessment of the efforts of the \u201cSub-Subs\u201d?\nWhat role do the departed angels play in relation to the \u201cSub-Subs\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.26260475242868,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907746.5265775,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What does the text describe as the Lord\u2019s action regarding Leviathan?\nWhat happens to anything that enters a whale\u2019s mouth, according to the text?\nWhat was the approximate length of a Balaene (Whirlpool) whale?\nWhat was the purpose of the explorer's voyage?\nHow many whales did the explorer claim to have killed in two days?\nWhat creature seeks safety within the whale\u2019s mouth?\nAccording to Montaigne, what describes the whale\u2019s mouth?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.26260475242868,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907746.5265815,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What does the text describe as the Lord\u2019s action regarding Leviathan?\nWhat happens to anything that enters a whale\u2019s mouth, according to the text?\nWhat was the approximate length of a Balaene (Whirlpool) whale?\nWhat was the purpose of the explorer's voyage?\nHow many whales did the explorer claim to have killed in two days?\nWhat creature seeks safety within the whale\u2019s mouth?\nAccording to Montaigne, what describes the whale\u2019s mouth?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.26260475242868,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907746.5265832,
+      "question_id": "q_chunk_6_2",
+      "response_text": "What does the text describe as the Lord\u2019s action regarding Leviathan?\nWhat happens to anything that enters a whale\u2019s mouth, according to the text?\nWhat was the approximate length of a Balaene (Whirlpool) whale?\nWhat was the purpose of the explorer's voyage?\nHow many whales did the explorer claim to have killed in two days?\nWhat creature seeks safety within the whale\u2019s mouth?\nAccording to Montaigne, what describes the whale\u2019s mouth?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.26260475242868,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907746.5265849,
+      "question_id": "q_chunk_6_3",
+      "response_text": "What does the text describe as the Lord\u2019s action regarding Leviathan?\nWhat happens to anything that enters a whale\u2019s mouth, according to the text?\nWhat was the approximate length of a Balaene (Whirlpool) whale?\nWhat was the purpose of the explorer's voyage?\nHow many whales did the explorer claim to have killed in two days?\nWhat creature seeks safety within the whale\u2019s mouth?\nAccording to Montaigne, what describes the whale\u2019s mouth?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.26260475242868,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907746.5265872,
+      "question_id": "q_chunk_6_4",
+      "response_text": "What does the text describe as the Lord\u2019s action regarding Leviathan?\nWhat happens to anything that enters a whale\u2019s mouth, according to the text?\nWhat was the approximate length of a Balaene (Whirlpool) whale?\nWhat was the purpose of the explorer's voyage?\nHow many whales did the explorer claim to have killed in two days?\nWhat creature seeks safety within the whale\u2019s mouth?\nAccording to Montaigne, what describes the whale\u2019s mouth?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.26260475242868,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907746.526589,
+      "question_id": "q_chunk_6_5",
+      "response_text": "What does the text describe as the Lord\u2019s action regarding Leviathan?\nWhat happens to anything that enters a whale\u2019s mouth, according to the text?\nWhat was the approximate length of a Balaene (Whirlpool) whale?\nWhat was the purpose of the explorer's voyage?\nHow many whales did the explorer claim to have killed in two days?\nWhat creature seeks safety within the whale\u2019s mouth?\nAccording to Montaigne, what describes the whale\u2019s mouth?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.26260475242868,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763907746.5265908,
+      "question_id": "q_chunk_6_6",
+      "response_text": "What does the text describe as the Lord\u2019s action regarding Leviathan?\nWhat happens to anything that enters a whale\u2019s mouth, according to the text?\nWhat was the approximate length of a Balaene (Whirlpool) whale?\nWhat was the purpose of the explorer's voyage?\nHow many whales did the explorer claim to have killed in two days?\nWhat creature seeks safety within the whale\u2019s mouth?\nAccording to Montaigne, what describes the whale\u2019s mouth?"
+    }
+  ]
+}
