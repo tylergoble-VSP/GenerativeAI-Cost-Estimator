@@ -76,7 +76,23 @@ Place your text document (`.txt` or `.pdf`) in the project root directory, or in
 
 ### Running the Notebooks
 
-The project consists of four Jupyter notebooks:
+The project consists of seven Jupyter notebooks organized into different categories:
+
+**Setup and Diagnostics (run first if needed):**
+
+0. **`notebooks/00_test_ollama_connection.ipynb`**
+   - Tests connection to Ollama API
+   - Lists available models in your Ollama installation
+   - Verifies Ollama is running and accessible
+   - Helps troubleshoot connection issues before running experiments
+
+6. **`notebooks/06_diagnose_ollama_404.ipynb`**
+   - Diagnostic tool for troubleshooting Ollama API 404 errors
+   - Tests Ollama server connectivity
+   - Verifies API endpoints (`/api/chat`, `/api/embeddings`)
+   - Checks if specific models exist
+   - Provides detailed error diagnostics and troubleshooting steps
+   - Use this if you encounter 404 errors when running experiments
 
 **Core Workflow (run in order):**
 
@@ -85,19 +101,21 @@ The project consists of four Jupyter notebooks:
    - Embeds all chunks using Ollama
    - Tracks tokens and timing for embedding operations
    - Saves results to `results/` directory
+   - All exported data includes timestamps for traceability
 
 2. **`notebooks/02_inference_and_question_generation.ipynb`**
    - Loads embedded chunks from notebook 01
    - Demonstrates user-defined questions
    - Auto-generates questions from chunks
    - Tracks tokens and timing for inference operations
-   - Saves inference metrics
+   - Saves inference metrics with timestamps
 
 3. **`notebooks/03_reporting_and_visualization.ipynb`**
    - Loads all metrics from previous notebooks
    - Creates comprehensive summary tables
    - Generates visualizations (histograms, scatter plots, bar charts)
    - Provides interpretation and analysis
+   - Handles both old and new timestamp formats (backward compatible)
 
 **Cost Sensitivity Analysis (optional, can run independently):**
 
@@ -109,6 +127,25 @@ The project consists of four Jupyter notebooks:
    - Generates comprehensive visualizations comparing experiments
    - Produces tables and plots showing cost relationships
    - Can reuse existing chunks from notebook 01 for faster execution
+   - All experiment results include timestamps
+
+**Advanced Experimental Design (optional, for large-scale analysis):**
+
+5. **`notebooks/05_nolh_experimental_design.ipynb`**
+   - Uses Nearly Orthogonal Latin Hypercube (NOLH) sampling for efficient parameter space exploration
+   - Generates well-distributed sample points across multiple dimensions
+   - Explores parameter combinations with fewer experiments than full factorial design
+   - Supports multiple generation and embedding models
+   - Automatically runs experiments and collects results
+   - Includes comprehensive CSV export functionality:
+     * Full experiment summary
+     * NOLH coverage metrics
+     * Model performance comparisons
+     * Cost analysis summaries
+     * Parameter sensitivity analysis
+   - All exports include timestamps and are saved to `results/experiments/nolh/csv_exports/`
+   - Validates design quality with coverage metrics
+   - Produces extensive visualizations and analysis
 
 ### Starting Jupyter
 
@@ -135,19 +172,25 @@ GenerativeAI-Cost-Estimator/
 │   ├── pipeline.py         # High-level workflow orchestration
 │   └── reporting.py        # Metrics aggregation and visualization
 ├── notebooks/              # Jupyter notebooks
-│   ├── 01_ingest_and_embed.ipynb
-│   ├── 02_inference_and_question_generation.ipynb
-│   ├── 03_reporting_and_visualization.ipynb
-│   └── 04_cost_sensitivity_analysis.ipynb
+│   ├── 00_test_ollama_connection.ipynb      # Test Ollama setup
+│   ├── 01_ingest_and_embed.ipynb            # Core: Document ingestion and embedding
+│   ├── 02_inference_and_question_generation.ipynb  # Core: Question generation
+│   ├── 03_reporting_and_visualization.ipynb  # Core: Reporting and analysis
+│   ├── 04_cost_sensitivity_analysis.ipynb    # Cost sensitivity experiments
+│   ├── 05_nolh_experimental_design.ipynb     # Advanced: NOLH experimental design
+│   └── 06_diagnose_ollama_404.ipynb          # Diagnostic: Troubleshoot Ollama errors
 ├── data/                   # Input documents (gitignored)
 │   └── .gitignore
 ├── results/                # Output files (gitignored)
 │   ├── .gitignore
-│   ├── metrics.json        # Combined metrics from notebooks 01-02
-│   ├── chunks.json         # Chunk metadata and embeddings
-│   └── experiments/        # Experiment results (from notebook 04)
-│       ├── {experiment_name}_metrics.json  # Per-experiment metrics
-│       └── summary.csv     # Aggregated experiment summary
+│   ├── metrics.json        # Combined metrics from notebooks 01-02 (with timestamps)
+│   ├── chunks.json         # Chunk metadata and embeddings (with timestamps)
+│   └── experiments/        # Experiment results
+│       ├── {experiment_name}_metrics.json  # Per-experiment metrics (with timestamps)
+│       ├── summary.csv     # Aggregated experiment summary
+│       └── nolh/           # NOLH experimental design results (from notebook 05)
+│           ├── csv_exports/  # Comprehensive CSV exports with all analysis views
+│           └── {experiment_name}_metrics.json  # NOLH experiment metrics
 └── MobyDick.txt           # Example document
 ```
 
@@ -192,11 +235,19 @@ All operations are timed using `time.perf_counter()` for high-resolution measure
 
 ### Metrics Storage
 
-All metrics are saved to JSON files in the `results/` directory:
-- `results/metrics.json`: All timing and token metrics from notebooks 01-02
-- `results/chunks.json`: Chunk metadata and embeddings
-- `results/experiments/{experiment_name}_metrics.json`: Individual experiment metrics
+All metrics are saved to JSON files in the `results/` directory with automatic timestamp tracking:
+- `results/metrics.json`: All timing and token metrics from notebooks 01-02 (includes export timestamp)
+- `results/chunks.json`: Chunk metadata and embeddings (includes export timestamp)
+- `results/experiments/{experiment_name}_metrics.json`: Individual experiment metrics (includes export timestamp)
 - `results/experiments/summary.csv`: Aggregated summary of all experiments
+- `results/experiments/nolh/csv_exports/`: Comprehensive CSV exports from NOLH experimental design:
+  - `01_full_experiment_summary.csv`: Complete results from all experiments
+  - `02_nolh_coverage_metrics.csv`: NOLH design quality metrics
+  - `03_model_performance_by_*.csv`: Model performance comparisons
+  - `04_cost_analysis_*.csv`: Cost breakdowns and comparisons
+  - `05_parameter_*.csv`: Parameter sensitivity analysis
+
+All exported data includes both ISO format timestamps (`export_timestamp`) and human-readable timestamps (`export_timestamp_readable`) for traceability.
 
 ## Reporting
 
@@ -302,9 +353,20 @@ Results are stored in the `results/` directory:
 ### Ollama Connection Issues
 
 If you get connection errors:
-1. Verify Ollama is running: `curl http://localhost:11434/api/tags`
-2. Check the endpoint in your config matches your Ollama setup
-3. Ensure models are pulled: `ollama list`
+1. Run `notebooks/00_test_ollama_connection.ipynb` to verify Ollama setup
+2. Verify Ollama is running: `curl http://localhost:11434/api/tags`
+3. Check the endpoint in your config matches your Ollama setup
+4. Ensure models are pulled: `ollama list`
+5. Use `start_ollama.sh` script to start Ollama if needed
+
+### Ollama 404 Errors
+
+If you encounter 404 errors when calling the Ollama API:
+1. Run `notebooks/06_diagnose_ollama_404.ipynb` for detailed diagnostics
+2. Check if the model exists: `ollama list`
+3. Verify the model name format (e.g., `gemma3:1b` not `gengemma3_1b`)
+4. Ensure Ollama version supports `/api/chat` endpoint (upgrade if needed)
+5. Check improved error messages in `src/ollama_client.py` for specific guidance
 
 ### Model Not Found
 
