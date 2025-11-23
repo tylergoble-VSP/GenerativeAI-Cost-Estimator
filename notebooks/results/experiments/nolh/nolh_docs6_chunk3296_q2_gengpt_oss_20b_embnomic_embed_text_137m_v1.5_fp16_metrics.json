@@ -1,0 +1,206 @@
+[
+  {
+    "call_type": "embedding",
+    "duration_seconds": 0.027954157998465234,
+    "token_counts": {
+      "input_tokens": 511
+    },
+    "timestamp": 1763850263.6491947,
+    "chunk_id": "chunk_0",
+    "embedding_size": 768
+  },
+  {
+    "call_type": "embedding",
+    "duration_seconds": 0.022385899999790126,
+    "token_counts": {
+      "input_tokens": 511
+    },
+    "timestamp": 1763850263.6718152,
+    "chunk_id": "chunk_1",
+    "embedding_size": 768
+  },
+  {
+    "call_type": "embedding",
+    "duration_seconds": 0.02724529399711173,
+    "token_counts": {
+      "input_tokens": 507
+    },
+    "timestamp": 1763850263.699303,
+    "chunk_id": "chunk_2",
+    "embedding_size": 768
+  },
+  {
+    "call_type": "embedding",
+    "duration_seconds": 0.027180094002687838,
+    "token_counts": {
+      "input_tokens": 490
+    },
+    "timestamp": 1763850263.7267814,
+    "chunk_id": "chunk_3",
+    "embedding_size": 768
+  },
+  {
+    "call_type": "embedding",
+    "duration_seconds": 0.027321005996782333,
+    "token_counts": {
+      "input_tokens": 467
+    },
+    "timestamp": 1763850263.754381,
+    "chunk_id": "chunk_4",
+    "embedding_size": 768
+  },
+  {
+    "call_type": "embedding",
+    "duration_seconds": 0.025311436998890713,
+    "token_counts": {
+      "input_tokens": 483
+    },
+    "timestamp": 1763850263.7799687,
+    "chunk_id": "chunk_5",
+    "embedding_size": 768
+  },
+  {
+    "call_type": "inference",
+    "duration_seconds": 2.6876486684996053,
+    "token_counts": {
+      "prompt_tokens": 543,
+      "response_tokens": 23,
+      "total_tokens": 566
+    },
+    "timestamp": 1763850269.155824,
+    "question_id": "q_chunk_0_0",
+    "response_text": "What are the release date and the most recent update date listed for the Project Gutenberg eBook of Moby Dick?  \nWhich chapters in the provided table of contents mention a character named \"Ahab\" and his interactions with the crew?"
+  },
+  {
+    "call_type": "inference",
+    "duration_seconds": 2.6876486684996053,
+    "token_counts": {
+      "prompt_tokens": 543,
+      "response_tokens": 23,
+      "total_tokens": 566
+    },
+    "timestamp": 1763850269.1558268,
+    "question_id": "q_chunk_0_1",
+    "response_text": "What are the release date and the most recent update date listed for the Project Gutenberg eBook of Moby Dick?  \nWhich chapters in the provided table of contents mention a character named \"Ahab\" and his interactions with the crew?"
+  },
+  {
+    "call_type": "inference",
+    "duration_seconds": 2.993544003000352,
+    "token_counts": {
+      "prompt_tokens": 543,
+      "response_tokens": 9,
+      "total_tokens": 552
+    },
+    "timestamp": 1763850275.1435604,
+    "question_id": "q_chunk_1_0",
+    "response_text": "How many chapters are listed in the excerpt?\n\nWhich chapter number discusses the Whale as a dish?"
+  },
+  {
+    "call_type": "inference",
+    "duration_seconds": 2.993544003000352,
+    "token_counts": {
+      "prompt_tokens": 543,
+      "response_tokens": 9,
+      "total_tokens": 552
+    },
+    "timestamp": 1763850275.1435637,
+    "question_id": "q_chunk_1_1",
+    "response_text": "How many chapters are listed in the excerpt?\n\nWhich chapter number discusses the Whale as a dish?"
+  },
+  {
+    "call_type": "inference",
+    "duration_seconds": 1.9797999815000367,
+    "token_counts": {
+      "prompt_tokens": 539,
+      "response_tokens": 15,
+      "total_tokens": 554
+    },
+    "timestamp": 1763850279.1039321,
+    "question_id": "q_chunk_2_0",
+    "response_text": "What chapter title appears after \u201cThe Right Whale\u2019s Head\u2014Contrasted View\u201d in the list?  \nWhich chapter in the list is missing a title?"
+  },
+  {
+    "call_type": "inference",
+    "duration_seconds": 1.9797999815000367,
+    "token_counts": {
+      "prompt_tokens": 539,
+      "response_tokens": 15,
+      "total_tokens": 554
+    },
+    "timestamp": 1763850279.103935,
+    "question_id": "q_chunk_2_1",
+    "response_text": "What chapter title appears after \u201cThe Right Whale\u2019s Head\u2014Contrasted View\u201d in the list?  \nWhich chapter in the list is missing a title?"
+  },
+  {
+    "call_type": "inference",
+    "duration_seconds": 3.128934399501304,
+    "token_counts": {
+      "prompt_tokens": 522,
+      "response_tokens": 28,
+      "total_tokens": 550
+    },
+    "timestamp": 1763850285.362639,
+    "question_id": "q_chunk_3_0",
+    "response_text": "How does the chapter list, beginning with \u201cMidnight.\u2014The Forecastle Bulwarks,\u201d set the tone for the narrative structure of the text?  \nIn what way do the original Transcriber\u2019s Notes inform the reader about the provenance and editorial process of this edition?"
+  },
+  {
+    "call_type": "inference",
+    "duration_seconds": 3.128934399501304,
+    "token_counts": {
+      "prompt_tokens": 522,
+      "response_tokens": 28,
+      "total_tokens": 550
+    },
+    "timestamp": 1763850285.3626444,
+    "question_id": "q_chunk_3_1",
+    "response_text": "How does the chapter list, beginning with \u201cMidnight.\u2014The Forecastle Bulwarks,\u201d set the tone for the narrative structure of the text?  \nIn what way do the original Transcriber\u2019s Notes inform the reader about the provenance and editorial process of this edition?"
+  },
+  {
+    "call_type": "inference",
+    "duration_seconds": 1.3281423564985744,
+    "token_counts": {
+      "prompt_tokens": 499,
+      "response_tokens": 21,
+      "total_tokens": 520
+    },
+    "timestamp": 1763850288.0198798,
+    "question_id": "q_chunk_4_0",
+    "response_text": "What does the passage suggest about the reliability of the listed \"whale\" etymological statements?  \nWhich languages are represented in the list of whale-related terms, and how are they grouped in the text?"
+  },
+  {
+    "call_type": "inference",
+    "duration_seconds": 1.3281423564985744,
+    "token_counts": {
+      "prompt_tokens": 499,
+      "response_tokens": 21,
+      "total_tokens": 520
+    },
+    "timestamp": 1763850288.0198872,
+    "question_id": "q_chunk_4_1",
+    "response_text": "What does the passage suggest about the reliability of the listed \"whale\" etymological statements?  \nWhich languages are represented in the list of whale-related terms, and how are they grouped in the text?"
+  },
+  {
+    "call_type": "inference",
+    "duration_seconds": 1.5061809234994143,
+    "token_counts": {
+      "prompt_tokens": 516,
+      "response_tokens": 24,
+      "total_tokens": 540
+    },
+    "timestamp": 1763850291.0331786,
+    "question_id": "q_chunk_5_0",
+    "response_text": "What is the symbolic role of Leviathan in the excerpts and how does it relate to the author's commentary on the \"Sub-Sub\"?  \nHow does the passage use biblical references to convey a broader theme about humanity's interaction with powerful forces?"
+  },
+  {
+    "call_type": "inference",
+    "duration_seconds": 1.5061809234994143,
+    "token_counts": {
+      "prompt_tokens": 516,
+      "response_tokens": 24,
+      "total_tokens": 540
+    },
+    "timestamp": 1763850291.033185,
+    "question_id": "q_chunk_5_1",
+    "response_text": "What is the symbolic role of Leviathan in the excerpts and how does it relate to the author's commentary on the \"Sub-Sub\"?  \nHow does the passage use biblical references to convey a broader theme about humanity's interaction with powerful forces?"
+  }
+]

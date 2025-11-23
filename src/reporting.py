@@ -24,6 +24,9 @@ def load_metrics(filepath: Path) -> pd.DataFrame:
     A DataFrame is like a spreadsheet - rows are records, columns are fields.
     This makes it easy to analyze and visualize the data.
     
+    This function handles both old format (direct list of metrics) and
+    new format (wrapper with timestamp metadata). It's backward compatible.
+    
     Args:
         filepath: Path to the JSON file containing metrics
     
@@ -36,7 +39,22 @@ def load_metrics(filepath: Path) -> pd.DataFrame:
     
     # Read JSON file
     with open(filepath, 'r') as f:
-        metrics = json.load(f)
+        data = json.load(f)
+    
+    # Check if this is the new format (has export_timestamp key)
+    # New format: {"export_timestamp": "...", "metrics": [...]}
+    # Old format: [{"metric1": ...}, {"metric2": ...}]
+    if isinstance(data, dict) and "metrics" in data:
+        # New format with timestamp metadata
+        metrics = data["metrics"]
+        # Note: We could add the export_timestamp to each row if needed
+        # For now, we just extract the metrics list
+    elif isinstance(data, list):
+        # Old format (direct list)
+        metrics = data
+    else:
+        # Unexpected format, try to use as-is
+        metrics = data
     
     # Convert list of dictionaries to DataFrame
     # Each dictionary becomes a row, keys become columns

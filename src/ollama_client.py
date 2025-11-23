@@ -127,9 +127,48 @@ def generate(prompt: str, model: str, base_url: str = "http://localhost:11434",
     }
     
     # Send POST request to Ollama API
-    response = requests.post(url, json=payload)
+    # POST is used because we're sending data (the prompt and model info)
+    try:
+        response = requests.post(url, json=payload, timeout=300)  # 5 minute timeout for long generations
+    except requests.exceptions.ConnectionError as e:
+        # Connection error means Ollama server is not reachable
+        raise ConnectionError(
+            f"Could not connect to Ollama at {base_url}. "
+            f"Make sure Ollama is running. Error: {str(e)}"
+        ) from e
+    except requests.exceptions.Timeout as e:
+        # Request took too long
+        raise TimeoutError(
+            f"Request to Ollama timed out after 5 minutes. "
+            f"This might mean the model '{model}' is too slow or the server is overloaded."
+        ) from e
     
     # Check if request was successful
+    # If we get a 404, it could mean:
+    # 1. The endpoint doesn't exist (wrong Ollama version)
+    # 2. The model doesn't exist
+    # 3. Ollama server is misconfigured
+    if response.status_code == 404:
+        # Try to get more information about what went wrong
+        error_msg = f"404 Not Found when calling Ollama API at {url}"
+        try:
+            error_response = response.json()
+            if 'error' in error_response:
+                error_msg += f"\nOllama error: {error_response['error']}"
+        except:
+            error_msg += f"\nResponse text: {response.text[:200]}"
+        
+        error_msg += (
+            f"\n\nPossible causes:"
+            f"\n  1. Model '{model}' does not exist. Check available models with: ollama list"
+            f"\n  2. Ollama server is not running. Start it with: ollama serve"
+            f"\n  3. Wrong Ollama version (endpoint /api/chat might not be supported)"
+            f"\n  4. Incorrect base_url: {base_url}"
+        )
+        raise requests.exceptions.HTTPError(error_msg, response=response)
+    
+    # For other HTTP errors, use the standard raise_for_status
+    # This will raise an exception with details about the error
     response.raise_for_status()
     
     # Parse the JSON response

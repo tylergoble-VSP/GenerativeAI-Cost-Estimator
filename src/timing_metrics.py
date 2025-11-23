@@ -231,18 +231,32 @@ class MetricsStore:
         structured data. It's human-readable and can be easily loaded
         by other programs.
         
+        This function automatically adds a timestamp to the exported data
+        so you know when the metrics were exported.
+        
         Args:
             filepath: Path where to save the JSON file
         """
+        from datetime import datetime
+        
         # Convert Path object to string if needed
         if isinstance(filepath, Path):
             filepath = str(filepath)
+        
+        # Create a wrapper dictionary that includes metadata
+        # This includes a timestamp so we know when the data was exported
+        export_data = {
+            "export_timestamp": datetime.now().isoformat(),  # ISO format: "2024-01-15T14:30:45.123456"
+            "export_timestamp_readable": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),  # Human-readable: "2024-01-15 14:30:45"
+            "num_metrics": len(self.metrics),  # Number of metric records in this export
+            "metrics": self.metrics  # The actual metric data
+        }
         
         # Open file for writing ('w' = write mode)
         with open(filepath, 'w') as f:
             # json.dump writes the Python data structure to the file as JSON
             # indent=2 makes it pretty-printed (easier to read)
-            json.dump(self.metrics, f, indent=2)
+            json.dump(export_data, f, indent=2)
     
     def export_to_csv(self, filepath: Path) -> None:
         """
@@ -255,13 +269,20 @@ class MetricsStore:
         Note: This is a simplified CSV export. For complex nested data,
         you might want to use pandas DataFrame.to_csv() instead.
         
+        This function automatically adds a timestamp column to the CSV
+        so you know when each export was created.
+        
         Args:
             filepath: Path where to save the CSV file
         """
+        from datetime import datetime
+        
         if not self.metrics:
-            # If no metrics, create an empty file
+            # If no metrics, create an empty file with just timestamp header
             with open(filepath, 'w') as f:
-                f.write("")  # Empty file
+                export_timestamp = datetime.now().isoformat()
+                f.write(f"# Export timestamp: {export_timestamp}\n")
+                f.write("# No metrics to export\n")
             return
         
         # Convert Path object to string if needed
@@ -274,8 +295,16 @@ class MetricsStore:
         for metric in self.metrics:
             all_keys.update(metric.keys())
         
-        # Sort keys for consistent column order
-        columns = sorted(all_keys)
+        # Add timestamp column to the set of columns
+        # This will be the first column in the CSV
+        all_keys.add("export_timestamp")
+        
+        # Sort keys for consistent column order, but put timestamp first
+        columns = sorted([k for k in all_keys if k != "export_timestamp"])
+        columns = ["export_timestamp"] + columns
+        
+        # Get the export timestamp (same for all rows in this export)
+        export_timestamp = datetime.now().isoformat()
         
         # Open file for writing
         with open(filepath, 'w') as f:
@@ -286,7 +315,13 @@ class MetricsStore:
             for metric in self.metrics:
                 # Get value for each column, convert to string
                 # Use empty string if key doesn't exist in this metric
-                values = [str(metric.get(col, "")) for col in columns]
+                # For export_timestamp, use the current timestamp
+                values = []
+                for col in columns:
+                    if col == "export_timestamp":
+                        values.append(export_timestamp)
+                    else:
+                        values.append(str(metric.get(col, "")))
                 # Join values with commas and write to file
                 f.write(",".join(values) + "\n")
     

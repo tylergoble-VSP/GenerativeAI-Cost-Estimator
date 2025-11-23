@@ -1,342 +1,342 @@
 [
   {
     "call_type": "embedding",
-    "duration_seconds": 0.70080125000095,
+    "duration_seconds": 0.4570601909999823,
     "token_counts": {
       "input_tokens": 511
     },
-    "timestamp": 1763761174.496939,
+    "timestamp": 1763840798.3697932,
     "chunk_id": "chunk_0",
     "embedding_size": 768
   },
   {
     "call_type": "embedding",
-    "duration_seconds": 0.43519866700080456,
+    "duration_seconds": 0.4533411950014852,
     "token_counts": {
       "input_tokens": 511
     },
-    "timestamp": 1763761174.932661,
+    "timestamp": 1763840798.8234076,
     "chunk_id": "chunk_1",
     "embedding_size": 768
   },
   {
     "call_type": "embedding",
-    "duration_seconds": 0.4306579999974929,
+    "duration_seconds": 0.42689960499956214,
     "token_counts": {
       "input_tokens": 507
     },
-    "timestamp": 1763761175.363713,
+    "timestamp": 1763840799.2505863,
     "chunk_id": "chunk_2",
     "embedding_size": 768
   },
   {
     "call_type": "embedding",
-    "duration_seconds": 0.29320691699831514,
+    "duration_seconds": 0.2975967079983093,
     "token_counts": {
       "input_tokens": 490
     },
-    "timestamp": 1763761175.658185,
+    "timestamp": 1763840799.5484622,
     "chunk_id": "chunk_3",
     "embedding_size": 768
   },
   {
     "call_type": "embedding",
-    "duration_seconds": 0.35523866699804785,
+    "duration_seconds": 0.4079638919993158,
     "token_counts": {
       "input_tokens": 467
     },
-    "timestamp": 1763761176.0147479,
+    "timestamp": 1763840799.9567137,
     "chunk_id": "chunk_4",
     "embedding_size": 768
   },
   {
     "call_type": "embedding",
-    "duration_seconds": 0.24028399999951944,
+    "duration_seconds": 0.2715393270009372,
     "token_counts": {
       "input_tokens": 483
     },
-    "timestamp": 1763761176.256425,
+    "timestamp": 1763840800.2286553,
     "chunk_id": "chunk_5",
     "embedding_size": 768
   },
   {
     "call_type": "embedding",
-    "duration_seconds": 0.22491695899952902,
+    "duration_seconds": 0.20815905699964787,
     "token_counts": {
       "input_tokens": 484
     },
-    "timestamp": 1763761176.4828548,
+    "timestamp": 1763840800.4371028,
     "chunk_id": "chunk_6",
     "embedding_size": 768
   },
   {
     "call_type": "embedding",
-    "duration_seconds": 0.235813582999981,
+    "duration_seconds": 0.2617567630004487,
     "token_counts": {
       "input_tokens": 500
     },
-    "timestamp": 1763761176.719611,
+    "timestamp": 1763840800.699161,
     "chunk_id": "chunk_7",
     "embedding_size": 768
   },
   {
     "call_type": "embedding",
-    "duration_seconds": 0.23102312500122935,
+    "duration_seconds": 0.2459522939989256,
     "token_counts": {
       "input_tokens": 494
     },
-    "timestamp": 1763761176.951784,
+    "timestamp": 1763840800.945532,
     "chunk_id": "chunk_8",
     "embedding_size": 768
   },
   {
     "call_type": "embedding",
-    "duration_seconds": 0.20362820899754297,
+    "duration_seconds": 0.18486141500034137,
     "token_counts": {
       "input_tokens": 460
     },
-    "timestamp": 1763761177.156704,
+    "timestamp": 1763840801.1307847,
     "chunk_id": "chunk_9",
     "embedding_size": 768
   },
   {
     "call_type": "inference",
-    "duration_seconds": 8.99798447899957,
+    "duration_seconds": 1.3493942869999955,
     "token_counts": {
       "prompt_tokens": 543,
-      "response_tokens": 10,
-      "total_tokens": 553
+      "response_tokens": 9,
+      "total_tokens": 552
     },
-    "timestamp": 1763761195.1683981,
+    "timestamp": 1763840803.8302736,
     "question_id": "q_chunk_0_0",
-    "response_text": "What is the release date of this Project Gutenberg eBook?\nWho are the credited contributors to this ebook?"
+    "response_text": "What is the release date of this Project Gutenberg eBook?\nWhat is the title of the book?"
   },
   {
     "call_type": "inference",
-    "duration_seconds": 8.99798447899957,
+    "duration_seconds": 1.3493942869999955,
+    "token_counts": {
+      "prompt_tokens": 543,
+      "response_tokens": 9,
+      "total_tokens": 552
+    },
+    "timestamp": 1763840803.830279,
+    "question_id": "q_chunk_0_1",
+    "response_text": "What is the release date of this Project Gutenberg eBook?\nWhat is the title of the book?"
+  },
+  {
+    "call_type": "inference",
+    "duration_seconds": 0.2881560224996065,
     "token_counts": {
       "prompt_tokens": 543,
       "response_tokens": 10,
       "total_tokens": 553
     },
-    "timestamp": 1763761195.1686,
-    "question_id": "q_chunk_0_1",
-    "response_text": "What is the release date of this Project Gutenberg eBook?\nWho are the credited contributors to this ebook?"
-  },
-  {
-    "call_type": "inference",
-    "duration_seconds": 1.60572014599893,
-    "token_counts": {
-      "prompt_tokens": 543,
-      "response_tokens": 15,
-      "total_tokens": 558
-    },
-    "timestamp": 1763761198.390141,
+    "timestamp": 1763840804.407209,
     "question_id": "q_chunk_1_0",
-    "response_text": "What is the significance of the repeated mentions of \u201cAhab\u201d and \u201cStubb\u201d?\nWhat types of materials are whales represented as in the text?"
+    "response_text": "What characters are mentioned in the initial entry?\nWhat are some of the different materials depicted as representing whales?"
   },
   {
     "call_type": "inference",
-    "duration_seconds": 1.60572014599893,
+    "duration_seconds": 0.2881560224996065,
     "token_counts": {
       "prompt_tokens": 543,
-      "response_tokens": 15,
-      "total_tokens": 558
+      "response_tokens": 10,
+      "total_tokens": 553
     },
-    "timestamp": 1763761198.390162,
+    "timestamp": 1763840804.407213,
     "question_id": "q_chunk_1_1",
-    "response_text": "What is the significance of the repeated mentions of \u201cAhab\u201d and \u201cStubb\u201d?\nWhat types of materials are whales represented as in the text?"
+    "response_text": "What characters are mentioned in the initial entry?\nWhat are some of the different materials depicted as representing whales?"
   },
   {
     "call_type": "inference",
-    "duration_seconds": 1.5748866664980596,
+    "duration_seconds": 0.39943051699992793,
     "token_counts": {
       "prompt_tokens": 539,
-      "response_tokens": 15,
-      "total_tokens": 554
+      "response_tokens": 16,
+      "total_tokens": 555
     },
-    "timestamp": 1763761201.550365,
+    "timestamp": 1763840805.2068005,
     "question_id": "q_chunk_2_0",
-    "response_text": "What is the significance of the \"Right Whale\u2019s Head\" chapter?\nWhat are the various tools and techniques described in the chapters related to whaling?"
+    "response_text": "What is the significance of \u201cThe Right Whale\u2019s Head\u201d in the context of the chapters?\nWhat are some of the diverse subjects covered within the listed chapter titles?"
   },
   {
     "call_type": "inference",
-    "duration_seconds": 1.5748866664980596,
+    "duration_seconds": 0.39943051699992793,
     "token_counts": {
       "prompt_tokens": 539,
-      "response_tokens": 15,
-      "total_tokens": 554
+      "response_tokens": 16,
+      "total_tokens": 555
     },
-    "timestamp": 1763761201.550519,
+    "timestamp": 1763840805.2068052,
     "question_id": "q_chunk_2_1",
-    "response_text": "What is the significance of the \"Right Whale\u2019s Head\" chapter?\nWhat are the various tools and techniques described in the chapters related to whaling?"
+    "response_text": "What is the significance of \u201cThe Right Whale\u2019s Head\u201d in the context of the chapters?\nWhat are some of the diverse subjects covered within the listed chapter titles?"
   },
   {
     "call_type": "inference",
-    "duration_seconds": 1.4389070000033826,
+    "duration_seconds": 0.37623711050036945,
     "token_counts": {
       "prompt_tokens": 522,
-      "response_tokens": 15,
-      "total_tokens": 537
+      "response_tokens": 19,
+      "total_tokens": 541
     },
-    "timestamp": 1763761204.436149,
+    "timestamp": 1763840805.9601214,
     "question_id": "q_chunk_3_0",
-    "response_text": "What is the etymological origin of the word \"whale\"?\nWhat chapters detail encounters with other ships, the Rachel and the Delight?"
+    "response_text": "What is the etymological origin of the word \"whale\"?\nWhat is the significance of the \"pale Usher\"\u2019s actions regarding the lexicons and grammars?"
   },
   {
     "call_type": "inference",
-    "duration_seconds": 1.4389070000033826,
+    "duration_seconds": 0.37623711050036945,
     "token_counts": {
       "prompt_tokens": 522,
-      "response_tokens": 15,
-      "total_tokens": 537
+      "response_tokens": 19,
+      "total_tokens": 541
     },
-    "timestamp": 1763761204.4361558,
+    "timestamp": 1763840805.9601278,
     "question_id": "q_chunk_3_1",
-    "response_text": "What is the etymological origin of the word \"whale\"?\nWhat chapters detail encounters with other ships, the Rachel and the Delight?"
+    "response_text": "What is the etymological origin of the word \"whale\"?\nWhat is the significance of the \"pale Usher\"\u2019s actions regarding the lexicons and grammars?"
   },
   {
     "call_type": "inference",
-    "duration_seconds": 1.3823276459988847,
+    "duration_seconds": 0.3156716425000923,
     "token_counts": {
       "prompt_tokens": 499,
       "response_tokens": 13,
       "total_tokens": 512
     },
-    "timestamp": 1763761207.213706,
+    "timestamp": 1763840806.5921721,
     "question_id": "q_chunk_4_0",
-    "response_text": "From what languages does the word \u201cwhale\u201d derive its meaning?\nWhat is the primary purpose of the extracts presented in the text?"
+    "response_text": "From what languages does the word \"whale\" derive its meaning?\nWhat is the primary purpose of the extracts presented in the text?"
   },
   {
     "call_type": "inference",
-    "duration_seconds": 1.3823276459988847,
+    "duration_seconds": 0.3156716425000923,
     "token_counts": {
       "prompt_tokens": 499,
       "response_tokens": 13,
       "total_tokens": 512
     },
-    "timestamp": 1763761207.213857,
+    "timestamp": 1763840806.5921774,
     "question_id": "q_chunk_4_1",
-    "response_text": "From what languages does the word \u201cwhale\u201d derive its meaning?\nWhat is the primary purpose of the extracts presented in the text?"
+    "response_text": "From what languages does the word \"whale\" derive its meaning?\nWhat is the primary purpose of the extracts presented in the text?"
   },
   {
     "call_type": "inference",
-    "duration_seconds": 1.4387410415001796,
+    "duration_seconds": 0.3345840349993523,
     "token_counts": {
       "prompt_tokens": 516,
       "response_tokens": 14,
       "total_tokens": 530
     },
-    "timestamp": 1763761210.105201,
+    "timestamp": 1763840807.2621424,
     "question_id": "q_chunk_5_0",
-    "response_text": "What is the primary purpose of the extracts presented in the text?\nWhat does the speaker wish to happen to Hampton Court and the Tuileries?"
+    "response_text": "What is the primary purpose of the extracts presented in the text?\nWhat is the significance of the repeated references to Leviathan throughout the text?"
   },
   {
     "call_type": "inference",
-    "duration_seconds": 1.4387410415001796,
+    "duration_seconds": 0.3345840349993523,
     "token_counts": {
       "prompt_tokens": 516,
       "response_tokens": 14,
       "total_tokens": 530
     },
-    "timestamp": 1763761210.105312,
+    "timestamp": 1763840807.2621467,
     "question_id": "q_chunk_5_1",
-    "response_text": "What is the primary purpose of the extracts presented in the text?\nWhat does the speaker wish to happen to Hampton Court and the Tuileries?"
+    "response_text": "What is the primary purpose of the extracts presented in the text?\nWhat is the significance of the repeated references to Leviathan throughout the text?"
   },
   {
     "call_type": "inference",
-    "duration_seconds": 1.536431625001569,
+    "duration_seconds": 0.3615580880004927,
     "token_counts": {
       "prompt_tokens": 516,
-      "response_tokens": 17,
-      "total_tokens": 533
+      "response_tokens": 16,
+      "total_tokens": 532
     },
-    "timestamp": 1763761213.1922681,
+    "timestamp": 1763840807.9860837,
     "question_id": "q_chunk_6_0",
-    "response_text": "What is described as the \"dreadful gulf\" of the sea-monster's mouth?\nWhat was the primary motivation for the individual's exploration of the Indian Sea?"
+    "response_text": "What is described as the \u201cdreadful gulf\u201d of the monster\u2019s mouth?\nWhat was the primary reason for the narrator's visit to the sea?"
   },
   {
     "call_type": "inference",
-    "duration_seconds": 1.536431625001569,
+    "duration_seconds": 0.3615580880004927,
     "token_counts": {
       "prompt_tokens": 516,
-      "response_tokens": 17,
-      "total_tokens": 533
+      "response_tokens": 16,
+      "total_tokens": 532
     },
-    "timestamp": 1763761213.192477,
+    "timestamp": 1763840807.986087,
     "question_id": "q_chunk_6_1",
-    "response_text": "What is described as the \"dreadful gulf\" of the sea-monster's mouth?\nWhat was the primary motivation for the individual's exploration of the Indian Sea?"
+    "response_text": "What is described as the \u201cdreadful gulf\u201d of the monster\u2019s mouth?\nWhat was the primary reason for the narrator's visit to the sea?"
   },
   {
     "call_type": "inference",
-    "duration_seconds": 1.3898899375017209,
+    "duration_seconds": 0.40784179699949163,
     "token_counts": {
       "prompt_tokens": 532,
-      "response_tokens": 14,
-      "total_tokens": 546
+      "response_tokens": 18,
+      "total_tokens": 550
     },
-    "timestamp": 1763761215.978763,
+    "timestamp": 1763840808.8026755,
     "question_id": "q_chunk_7_0",
-    "response_text": "How does the text depict the behavior of the whale?\nWhat is the significance of \u201cspermaceti\u201d as described in the text?"
+    "response_text": "What does the text suggest about the security a sea-gudgeon finds within the whale\u2019s mouth?\nHow is the whale described in terms of its size and effect on the ocean?"
   },
   {
     "call_type": "inference",
-    "duration_seconds": 1.3898899375017209,
+    "duration_seconds": 0.40784179699949163,
     "token_counts": {
       "prompt_tokens": 532,
-      "response_tokens": 14,
-      "total_tokens": 546
+      "response_tokens": 18,
+      "total_tokens": 550
     },
-    "timestamp": 1763761215.978774,
+    "timestamp": 1763840808.802682,
     "question_id": "q_chunk_7_1",
-    "response_text": "How does the text depict the behavior of the whale?\nWhat is the significance of \u201cspermaceti\u201d as described in the text?"
+    "response_text": "What does the text suggest about the security a sea-gudgeon finds within the whale\u2019s mouth?\nHow is the whale described in terms of its size and effect on the ocean?"
   },
   {
     "call_type": "inference",
-    "duration_seconds": 1.3326450210006442,
+    "duration_seconds": 0.34107318299993494,
     "token_counts": {
       "prompt_tokens": 527,
-      "response_tokens": 13,
-      "total_tokens": 540
+      "response_tokens": 14,
+      "total_tokens": 541
     },
-    "timestamp": 1763761218.6473658,
+    "timestamp": 1763840809.4857225,
     "question_id": "q_chunk_8_0",
-    "response_text": "What is the significance of the Leviathan as depicted across these various texts?\nHow do different authors describe the physical characteristics of the whale?"
+    "response_text": "What is the significance of the Leviathan as described across multiple texts?\nHow are whales represented in these various accounts \u2013 both literally and metaphorically?"
   },
   {
     "call_type": "inference",
-    "duration_seconds": 1.3326450210006442,
+    "duration_seconds": 0.34107318299993494,
     "token_counts": {
       "prompt_tokens": 527,
-      "response_tokens": 13,
-      "total_tokens": 540
+      "response_tokens": 14,
+      "total_tokens": 541
     },
-    "timestamp": 1763761218.647373,
+    "timestamp": 1763840809.485726,
     "question_id": "q_chunk_8_1",
-    "response_text": "What is the significance of the Leviathan as depicted across these various texts?\nHow do different authors describe the physical characteristics of the whale?"
+    "response_text": "What is the significance of the Leviathan as described across multiple texts?\nHow are whales represented in these various accounts \u2013 both literally and metaphorically?"
   },
   {
     "call_type": "inference",
-    "duration_seconds": 1.3750922709987208,
+    "duration_seconds": 0.3330716560003566,
     "token_counts": {
       "prompt_tokens": 493,
-      "response_tokens": 15,
-      "total_tokens": 508
+      "response_tokens": 14,
+      "total_tokens": 507
     },
-    "timestamp": 1763761221.4022589,
+    "timestamp": 1763840810.1526692,
     "question_id": "q_chunk_9_0",
-    "response_text": "What was observed regarding the behavior of whales in Schouten\u2019s circumnavigation?\nWhat was the reported characteristic of a whale taken near Shetland?"
+    "response_text": "What was observed regarding the whales' behavior in the ocean?\nWhat was reported about the size of a whale found near the coast of Fife?"
   },
   {
     "call_type": "inference",
-    "duration_seconds": 1.3750922709987208,
+    "duration_seconds": 0.3330716560003566,
     "token_counts": {
       "prompt_tokens": 493,
-      "response_tokens": 15,
-      "total_tokens": 508
+      "response_tokens": 14,
+      "total_tokens": 507
     },
-    "timestamp": 1763761221.402272,
+    "timestamp": 1763840810.1526742,
     "question_id": "q_chunk_9_1",
-    "response_text": "What was observed regarding the behavior of whales in Schouten\u2019s circumnavigation?\nWhat was the reported characteristic of a whale taken near Shetland?"
+    "response_text": "What was observed regarding the whales' behavior in the ocean?\nWhat was reported about the size of a whale found near the coast of Fife?"
   }
 ]

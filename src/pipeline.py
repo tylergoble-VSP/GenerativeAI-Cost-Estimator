@@ -531,11 +531,15 @@ def save_chunks(chunks: List[Dict[str, any]], filepath: Path):
     Note: Embeddings are large, so we might want to save them separately
     or use a more efficient format. For now, we save everything.
     
+    This function automatically adds a timestamp to the saved data
+    so you know when the chunks were exported.
+    
     Args:
         chunks: List of chunk dictionaries
         filepath: Path where to save the chunks
     """
     import json
+    from datetime import datetime
     
     # Convert Path to string if needed
     if isinstance(filepath, Path):
@@ -550,9 +554,18 @@ def save_chunks(chunks: List[Dict[str, any]], filepath: Path):
         # For now, include them
         chunks_to_save.append(chunk_copy)
     
+    # Create a wrapper dictionary that includes metadata
+    # This includes a timestamp so we know when the data was exported
+    export_data = {
+        "export_timestamp": datetime.now().isoformat(),  # ISO format: "2024-01-15T14:30:45.123456"
+        "export_timestamp_readable": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),  # Human-readable: "2024-01-15 14:30:45"
+        "num_chunks": len(chunks_to_save),  # Number of chunks in this export
+        "chunks": chunks_to_save  # The actual chunk data
+    }
+    
     # Write to JSON file
     with open(filepath, 'w') as f:
-        json.dump(chunks_to_save, f, indent=2)
+        json.dump(export_data, f, indent=2)
 
 
 def save_metrics(metrics_store: MetricsStore, filepath: Path):
