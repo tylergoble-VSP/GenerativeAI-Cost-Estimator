@@ -1,0 +1,1387 @@
+{
+  "export_timestamp": "2025-11-23T20:13:47.119354",
+  "export_timestamp_readable": "2025-11-23 20:13:47",
+  "num_metrics": 100,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.701056949998019,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763928761.939131,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.2618865939875832,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763928763.2012706,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.306476241996279,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763928764.508011,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.1839468989928719,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763928765.6922297,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0639941139961593,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763928766.7565088,
+      "chunk_id": "chunk_4",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0664030380139593,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763928767.8231964,
+      "chunk_id": "chunk_5",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0665777549875202,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763928768.8900409,
+      "chunk_id": "chunk_6",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0600161619950086,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763928769.9503598,
+      "chunk_id": "chunk_7",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0353950069984421,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763928770.9860237,
+      "chunk_id": "chunk_8",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0590373980085133,
+      "token_counts": {
+        "input_tokens": 460,
+        "actual_input_tokens": 460,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763928772.0453296,
+      "chunk_id": "chunk_9",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7230451800003519,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928778.553786,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the title of the work?\nWho is the author of Moby Dick?\nWhat is the release date of the eBook?\nWhere is this eBook intended for use?\nWhat is the purpose of the Project Gutenberg License?\nWhat languages is the eBook in?\nWho are the credited contributors?\nWhat is the function of the \"Sub-Sub-Librarian\"?\nWhat is Chapter 28 titled?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7230451800003519,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928778.5537915,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the title of the work?\nWho is the author of Moby Dick?\nWhat is the release date of the eBook?\nWhere is this eBook intended for use?\nWhat is the purpose of the Project Gutenberg License?\nWhat languages is the eBook in?\nWho are the credited contributors?\nWhat is the function of the \"Sub-Sub-Librarian\"?\nWhat is Chapter 28 titled?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7230451800003519,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928778.5537922,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the title of the work?\nWho is the author of Moby Dick?\nWhat is the release date of the eBook?\nWhere is this eBook intended for use?\nWhat is the purpose of the Project Gutenberg License?\nWhat languages is the eBook in?\nWho are the credited contributors?\nWhat is the function of the \"Sub-Sub-Librarian\"?\nWhat is Chapter 28 titled?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7230451800003519,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928778.553793,
+      "question_id": "q_chunk_0_3",
+      "response_text": "What is the title of the work?\nWho is the author of Moby Dick?\nWhat is the release date of the eBook?\nWhere is this eBook intended for use?\nWhat is the purpose of the Project Gutenberg License?\nWhat languages is the eBook in?\nWho are the credited contributors?\nWhat is the function of the \"Sub-Sub-Librarian\"?\nWhat is Chapter 28 titled?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7230451800003519,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928778.5537934,
+      "question_id": "q_chunk_0_4",
+      "response_text": "What is the title of the work?\nWho is the author of Moby Dick?\nWhat is the release date of the eBook?\nWhere is this eBook intended for use?\nWhat is the purpose of the Project Gutenberg License?\nWhat languages is the eBook in?\nWho are the credited contributors?\nWhat is the function of the \"Sub-Sub-Librarian\"?\nWhat is Chapter 28 titled?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7230451800003519,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928778.5537944,
+      "question_id": "q_chunk_0_5",
+      "response_text": "What is the title of the work?\nWho is the author of Moby Dick?\nWhat is the release date of the eBook?\nWhere is this eBook intended for use?\nWhat is the purpose of the Project Gutenberg License?\nWhat languages is the eBook in?\nWho are the credited contributors?\nWhat is the function of the \"Sub-Sub-Librarian\"?\nWhat is Chapter 28 titled?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7230451800003519,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928778.5537949,
+      "question_id": "q_chunk_0_6",
+      "response_text": "What is the title of the work?\nWho is the author of Moby Dick?\nWhat is the release date of the eBook?\nWhere is this eBook intended for use?\nWhat is the purpose of the Project Gutenberg License?\nWhat languages is the eBook in?\nWho are the credited contributors?\nWhat is the function of the \"Sub-Sub-Librarian\"?\nWhat is Chapter 28 titled?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7230451800003519,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928778.5537963,
+      "question_id": "q_chunk_0_7",
+      "response_text": "What is the title of the work?\nWho is the author of Moby Dick?\nWhat is the release date of the eBook?\nWhere is this eBook intended for use?\nWhat is the purpose of the Project Gutenberg License?\nWhat languages is the eBook in?\nWho are the credited contributors?\nWhat is the function of the \"Sub-Sub-Librarian\"?\nWhat is Chapter 28 titled?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7230451800003519,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928778.5537968,
+      "question_id": "q_chunk_0_8",
+      "response_text": "What is the title of the work?\nWho is the author of Moby Dick?\nWhat is the release date of the eBook?\nWhere is this eBook intended for use?\nWhat is the purpose of the Project Gutenberg License?\nWhat languages is the eBook in?\nWho are the credited contributors?\nWhat is the function of the \"Sub-Sub-Librarian\"?\nWhat is Chapter 28 titled?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.46004269022281125,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928782.6950755,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of the entry \"Enter Ahab\"?\nWhich character interacts with Ahab in the provided text?\nWhat is the subject of Chapter 32?\nWhat event is described in Chapter 61?\nWhat is discussed in Chapter 73?\nWhat is the topic of Chapter 55?\nWhat does Chapter 57 detail?\nWhat is the subject matter of Chapter 74?\nWhat happens in Chapter 66?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.46004269022281125,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928782.6950796,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of the entry \"Enter Ahab\"?\nWhich character interacts with Ahab in the provided text?\nWhat is the subject of Chapter 32?\nWhat event is described in Chapter 61?\nWhat is discussed in Chapter 73?\nWhat is the topic of Chapter 55?\nWhat does Chapter 57 detail?\nWhat is the subject matter of Chapter 74?\nWhat happens in Chapter 66?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.46004269022281125,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928782.6950805,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What is the significance of the entry \"Enter Ahab\"?\nWhich character interacts with Ahab in the provided text?\nWhat is the subject of Chapter 32?\nWhat event is described in Chapter 61?\nWhat is discussed in Chapter 73?\nWhat is the topic of Chapter 55?\nWhat does Chapter 57 detail?\nWhat is the subject matter of Chapter 74?\nWhat happens in Chapter 66?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.46004269022281125,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928782.6950812,
+      "question_id": "q_chunk_1_3",
+      "response_text": "What is the significance of the entry \"Enter Ahab\"?\nWhich character interacts with Ahab in the provided text?\nWhat is the subject of Chapter 32?\nWhat event is described in Chapter 61?\nWhat is discussed in Chapter 73?\nWhat is the topic of Chapter 55?\nWhat does Chapter 57 detail?\nWhat is the subject matter of Chapter 74?\nWhat happens in Chapter 66?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.46004269022281125,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928782.695082,
+      "question_id": "q_chunk_1_4",
+      "response_text": "What is the significance of the entry \"Enter Ahab\"?\nWhich character interacts with Ahab in the provided text?\nWhat is the subject of Chapter 32?\nWhat event is described in Chapter 61?\nWhat is discussed in Chapter 73?\nWhat is the topic of Chapter 55?\nWhat does Chapter 57 detail?\nWhat is the subject matter of Chapter 74?\nWhat happens in Chapter 66?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.46004269022281125,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928782.6950827,
+      "question_id": "q_chunk_1_5",
+      "response_text": "What is the significance of the entry \"Enter Ahab\"?\nWhich character interacts with Ahab in the provided text?\nWhat is the subject of Chapter 32?\nWhat event is described in Chapter 61?\nWhat is discussed in Chapter 73?\nWhat is the topic of Chapter 55?\nWhat does Chapter 57 detail?\nWhat is the subject matter of Chapter 74?\nWhat happens in Chapter 66?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.46004269022281125,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928782.6950836,
+      "question_id": "q_chunk_1_6",
+      "response_text": "What is the significance of the entry \"Enter Ahab\"?\nWhich character interacts with Ahab in the provided text?\nWhat is the subject of Chapter 32?\nWhat event is described in Chapter 61?\nWhat is discussed in Chapter 73?\nWhat is the topic of Chapter 55?\nWhat does Chapter 57 detail?\nWhat is the subject matter of Chapter 74?\nWhat happens in Chapter 66?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.46004269022281125,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928782.6950843,
+      "question_id": "q_chunk_1_7",
+      "response_text": "What is the significance of the entry \"Enter Ahab\"?\nWhich character interacts with Ahab in the provided text?\nWhat is the subject of Chapter 32?\nWhat event is described in Chapter 61?\nWhat is discussed in Chapter 73?\nWhat is the topic of Chapter 55?\nWhat does Chapter 57 detail?\nWhat is the subject matter of Chapter 74?\nWhat happens in Chapter 66?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.46004269022281125,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928782.6950853,
+      "question_id": "q_chunk_1_8",
+      "response_text": "What is the significance of the entry \"Enter Ahab\"?\nWhich character interacts with Ahab in the provided text?\nWhat is the subject of Chapter 32?\nWhat event is described in Chapter 61?\nWhat is discussed in Chapter 73?\nWhat is the topic of Chapter 55?\nWhat does Chapter 57 detail?\nWhat is the subject matter of Chapter 74?\nWhat happens in Chapter 66?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.498650346444467,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928787.183618,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the subject of Chapter 75?\nWhat does Chapter 87 describe?\nWhich chapter features Queequeg in his coffin?\nWhat is the focus of Chapter 111?\nWhat do Chapters 108 and 109 involve?\nWhat is discussed in Chapter 92?\nWhat is the subject of Chapter 116?\nWhat is the focus of Chapter 125?\nWhat is the content of Chapter 105?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.498650346444467,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928787.1836224,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the subject of Chapter 75?\nWhat does Chapter 87 describe?\nWhich chapter features Queequeg in his coffin?\nWhat is the focus of Chapter 111?\nWhat do Chapters 108 and 109 involve?\nWhat is discussed in Chapter 92?\nWhat is the subject of Chapter 116?\nWhat is the focus of Chapter 125?\nWhat is the content of Chapter 105?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.498650346444467,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928787.1836243,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What is the subject of Chapter 75?\nWhat does Chapter 87 describe?\nWhich chapter features Queequeg in his coffin?\nWhat is the focus of Chapter 111?\nWhat do Chapters 108 and 109 involve?\nWhat is discussed in Chapter 92?\nWhat is the subject of Chapter 116?\nWhat is the focus of Chapter 125?\nWhat is the content of Chapter 105?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.498650346444467,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928787.1836257,
+      "question_id": "q_chunk_2_3",
+      "response_text": "What is the subject of Chapter 75?\nWhat does Chapter 87 describe?\nWhich chapter features Queequeg in his coffin?\nWhat is the focus of Chapter 111?\nWhat do Chapters 108 and 109 involve?\nWhat is discussed in Chapter 92?\nWhat is the subject of Chapter 116?\nWhat is the focus of Chapter 125?\nWhat is the content of Chapter 105?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.498650346444467,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928787.1836267,
+      "question_id": "q_chunk_2_4",
+      "response_text": "What is the subject of Chapter 75?\nWhat does Chapter 87 describe?\nWhich chapter features Queequeg in his coffin?\nWhat is the focus of Chapter 111?\nWhat do Chapters 108 and 109 involve?\nWhat is discussed in Chapter 92?\nWhat is the subject of Chapter 116?\nWhat is the focus of Chapter 125?\nWhat is the content of Chapter 105?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.498650346444467,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928787.1836286,
+      "question_id": "q_chunk_2_5",
+      "response_text": "What is the subject of Chapter 75?\nWhat does Chapter 87 describe?\nWhich chapter features Queequeg in his coffin?\nWhat is the focus of Chapter 111?\nWhat do Chapters 108 and 109 involve?\nWhat is discussed in Chapter 92?\nWhat is the subject of Chapter 116?\nWhat is the focus of Chapter 125?\nWhat is the content of Chapter 105?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.498650346444467,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928787.1836298,
+      "question_id": "q_chunk_2_6",
+      "response_text": "What is the subject of Chapter 75?\nWhat does Chapter 87 describe?\nWhich chapter features Queequeg in his coffin?\nWhat is the focus of Chapter 111?\nWhat do Chapters 108 and 109 involve?\nWhat is discussed in Chapter 92?\nWhat is the subject of Chapter 116?\nWhat is the focus of Chapter 125?\nWhat is the content of Chapter 105?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.498650346444467,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928787.183631,
+      "question_id": "q_chunk_2_7",
+      "response_text": "What is the subject of Chapter 75?\nWhat does Chapter 87 describe?\nWhich chapter features Queequeg in his coffin?\nWhat is the focus of Chapter 111?\nWhat do Chapters 108 and 109 involve?\nWhat is discussed in Chapter 92?\nWhat is the subject of Chapter 116?\nWhat is the focus of Chapter 125?\nWhat is the content of Chapter 105?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.498650346444467,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928787.1836324,
+      "question_id": "q_chunk_2_8",
+      "response_text": "What is the subject of Chapter 75?\nWhat does Chapter 87 describe?\nWhich chapter features Queequeg in his coffin?\nWhat is the focus of Chapter 111?\nWhat do Chapters 108 and 109 involve?\nWhat is discussed in Chapter 92?\nWhat is the subject of Chapter 116?\nWhat is the focus of Chapter 125?\nWhat is the content of Chapter 105?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6498480765553217,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928793.0335686,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the setting described in \"Midnight.\u2014The Forecastle Bulwarks\"?\nWhat is the significance of Chapter 128?\nWhat does the Usher do to remind himself of his mortality?\nAccording to the Usher, what is an error made when naming a whale?\nFrom what languages does the word \"whale\" derive, according to Webster\u2019s Dictionary?\nWhat is the purpose of the etext in relation to other versions?\nWhat is the role of Hackluyt in the provided text?\nWhat activity does the Usher mockingly embellish with flags?\nWhat is the primary focus of the chase described in chapters 133-135?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6498480765553217,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928793.0335732,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the setting described in \"Midnight.\u2014The Forecastle Bulwarks\"?\nWhat is the significance of Chapter 128?\nWhat does the Usher do to remind himself of his mortality?\nAccording to the Usher, what is an error made when naming a whale?\nFrom what languages does the word \"whale\" derive, according to Webster\u2019s Dictionary?\nWhat is the purpose of the etext in relation to other versions?\nWhat is the role of Hackluyt in the provided text?\nWhat activity does the Usher mockingly embellish with flags?\nWhat is the primary focus of the chase described in chapters 133-135?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6498480765553217,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928793.0335748,
+      "question_id": "q_chunk_3_2",
+      "response_text": "What is the setting described in \"Midnight.\u2014The Forecastle Bulwarks\"?\nWhat is the significance of Chapter 128?\nWhat does the Usher do to remind himself of his mortality?\nAccording to the Usher, what is an error made when naming a whale?\nFrom what languages does the word \"whale\" derive, according to Webster\u2019s Dictionary?\nWhat is the purpose of the etext in relation to other versions?\nWhat is the role of Hackluyt in the provided text?\nWhat activity does the Usher mockingly embellish with flags?\nWhat is the primary focus of the chase described in chapters 133-135?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6498480765553217,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928793.0335765,
+      "question_id": "q_chunk_3_3",
+      "response_text": "What is the setting described in \"Midnight.\u2014The Forecastle Bulwarks\"?\nWhat is the significance of Chapter 128?\nWhat does the Usher do to remind himself of his mortality?\nAccording to the Usher, what is an error made when naming a whale?\nFrom what languages does the word \"whale\" derive, according to Webster\u2019s Dictionary?\nWhat is the purpose of the etext in relation to other versions?\nWhat is the role of Hackluyt in the provided text?\nWhat activity does the Usher mockingly embellish with flags?\nWhat is the primary focus of the chase described in chapters 133-135?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6498480765553217,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928793.0335793,
+      "question_id": "q_chunk_3_4",
+      "response_text": "What is the setting described in \"Midnight.\u2014The Forecastle Bulwarks\"?\nWhat is the significance of Chapter 128?\nWhat does the Usher do to remind himself of his mortality?\nAccording to the Usher, what is an error made when naming a whale?\nFrom what languages does the word \"whale\" derive, according to Webster\u2019s Dictionary?\nWhat is the purpose of the etext in relation to other versions?\nWhat is the role of Hackluyt in the provided text?\nWhat activity does the Usher mockingly embellish with flags?\nWhat is the primary focus of the chase described in chapters 133-135?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6498480765553217,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928793.0335805,
+      "question_id": "q_chunk_3_5",
+      "response_text": "What is the setting described in \"Midnight.\u2014The Forecastle Bulwarks\"?\nWhat is the significance of Chapter 128?\nWhat does the Usher do to remind himself of his mortality?\nAccording to the Usher, what is an error made when naming a whale?\nFrom what languages does the word \"whale\" derive, according to Webster\u2019s Dictionary?\nWhat is the purpose of the etext in relation to other versions?\nWhat is the role of Hackluyt in the provided text?\nWhat activity does the Usher mockingly embellish with flags?\nWhat is the primary focus of the chase described in chapters 133-135?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6498480765553217,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928793.0335815,
+      "question_id": "q_chunk_3_6",
+      "response_text": "What is the setting described in \"Midnight.\u2014The Forecastle Bulwarks\"?\nWhat is the significance of Chapter 128?\nWhat does the Usher do to remind himself of his mortality?\nAccording to the Usher, what is an error made when naming a whale?\nFrom what languages does the word \"whale\" derive, according to Webster\u2019s Dictionary?\nWhat is the purpose of the etext in relation to other versions?\nWhat is the role of Hackluyt in the provided text?\nWhat activity does the Usher mockingly embellish with flags?\nWhat is the primary focus of the chase described in chapters 133-135?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6498480765553217,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928793.033583,
+      "question_id": "q_chunk_3_7",
+      "response_text": "What is the setting described in \"Midnight.\u2014The Forecastle Bulwarks\"?\nWhat is the significance of Chapter 128?\nWhat does the Usher do to remind himself of his mortality?\nAccording to the Usher, what is an error made when naming a whale?\nFrom what languages does the word \"whale\" derive, according to Webster\u2019s Dictionary?\nWhat is the purpose of the etext in relation to other versions?\nWhat is the role of Hackluyt in the provided text?\nWhat activity does the Usher mockingly embellish with flags?\nWhat is the primary focus of the chase described in chapters 133-135?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6498480765553217,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928793.0335846,
+      "question_id": "q_chunk_3_8",
+      "response_text": "What is the setting described in \"Midnight.\u2014The Forecastle Bulwarks\"?\nWhat is the significance of Chapter 128?\nWhat does the Usher do to remind himself of his mortality?\nAccording to the Usher, what is an error made when naming a whale?\nFrom what languages does the word \"whale\" derive, according to Webster\u2019s Dictionary?\nWhat is the purpose of the etext in relation to other versions?\nWhat is the role of Hackluyt in the provided text?\nWhat activity does the Usher mockingly embellish with flags?\nWhat is the primary focus of the chase described in chapters 133-135?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6221344564449586,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928798.6340241,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What does the text suggest is the origin of the name \"whale\"?\nWhat languages are cited as sources for the word \"whale\"?\nAccording to Webster\u2019s Dictionary, what does \u201chvalt\u201d mean?\nWhat is the role of the \u201cSub-Sub-Librarian\u201d in the text?\nWhat does the narrator describe the Sub-Sub-Librarian as?\nWhat is meant by \"veritable gospel cetology\"?\nWhat qualities are attributed to the ancient authors and poets mentioned?\nWhat is the narrator's relationship to the Sub-Sub-Librarian?\nWhat does the text indicate about the reliability of the extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6221344564449586,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928798.6340303,
+      "question_id": "q_chunk_4_1",
+      "response_text": "What does the text suggest is the origin of the name \"whale\"?\nWhat languages are cited as sources for the word \"whale\"?\nAccording to Webster\u2019s Dictionary, what does \u201chvalt\u201d mean?\nWhat is the role of the \u201cSub-Sub-Librarian\u201d in the text?\nWhat does the narrator describe the Sub-Sub-Librarian as?\nWhat is meant by \"veritable gospel cetology\"?\nWhat qualities are attributed to the ancient authors and poets mentioned?\nWhat is the narrator's relationship to the Sub-Sub-Librarian?\nWhat does the text indicate about the reliability of the extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6221344564449586,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928798.634032,
+      "question_id": "q_chunk_4_2",
+      "response_text": "What does the text suggest is the origin of the name \"whale\"?\nWhat languages are cited as sources for the word \"whale\"?\nAccording to Webster\u2019s Dictionary, what does \u201chvalt\u201d mean?\nWhat is the role of the \u201cSub-Sub-Librarian\u201d in the text?\nWhat does the narrator describe the Sub-Sub-Librarian as?\nWhat is meant by \"veritable gospel cetology\"?\nWhat qualities are attributed to the ancient authors and poets mentioned?\nWhat is the narrator's relationship to the Sub-Sub-Librarian?\nWhat does the text indicate about the reliability of the extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6221344564449586,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928798.6340334,
+      "question_id": "q_chunk_4_3",
+      "response_text": "What does the text suggest is the origin of the name \"whale\"?\nWhat languages are cited as sources for the word \"whale\"?\nAccording to Webster\u2019s Dictionary, what does \u201chvalt\u201d mean?\nWhat is the role of the \u201cSub-Sub-Librarian\u201d in the text?\nWhat does the narrator describe the Sub-Sub-Librarian as?\nWhat is meant by \"veritable gospel cetology\"?\nWhat qualities are attributed to the ancient authors and poets mentioned?\nWhat is the narrator's relationship to the Sub-Sub-Librarian?\nWhat does the text indicate about the reliability of the extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6221344564449586,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928798.6340346,
+      "question_id": "q_chunk_4_4",
+      "response_text": "What does the text suggest is the origin of the name \"whale\"?\nWhat languages are cited as sources for the word \"whale\"?\nAccording to Webster\u2019s Dictionary, what does \u201chvalt\u201d mean?\nWhat is the role of the \u201cSub-Sub-Librarian\u201d in the text?\nWhat does the narrator describe the Sub-Sub-Librarian as?\nWhat is meant by \"veritable gospel cetology\"?\nWhat qualities are attributed to the ancient authors and poets mentioned?\nWhat is the narrator's relationship to the Sub-Sub-Librarian?\nWhat does the text indicate about the reliability of the extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6221344564449586,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928798.634036,
+      "question_id": "q_chunk_4_5",
+      "response_text": "What does the text suggest is the origin of the name \"whale\"?\nWhat languages are cited as sources for the word \"whale\"?\nAccording to Webster\u2019s Dictionary, what does \u201chvalt\u201d mean?\nWhat is the role of the \u201cSub-Sub-Librarian\u201d in the text?\nWhat does the narrator describe the Sub-Sub-Librarian as?\nWhat is meant by \"veritable gospel cetology\"?\nWhat qualities are attributed to the ancient authors and poets mentioned?\nWhat is the narrator's relationship to the Sub-Sub-Librarian?\nWhat does the text indicate about the reliability of the extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6221344564449586,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928798.634037,
+      "question_id": "q_chunk_4_6",
+      "response_text": "What does the text suggest is the origin of the name \"whale\"?\nWhat languages are cited as sources for the word \"whale\"?\nAccording to Webster\u2019s Dictionary, what does \u201chvalt\u201d mean?\nWhat is the role of the \u201cSub-Sub-Librarian\u201d in the text?\nWhat does the narrator describe the Sub-Sub-Librarian as?\nWhat is meant by \"veritable gospel cetology\"?\nWhat qualities are attributed to the ancient authors and poets mentioned?\nWhat is the narrator's relationship to the Sub-Sub-Librarian?\nWhat does the text indicate about the reliability of the extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6221344564449586,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928798.6340396,
+      "question_id": "q_chunk_4_7",
+      "response_text": "What does the text suggest is the origin of the name \"whale\"?\nWhat languages are cited as sources for the word \"whale\"?\nAccording to Webster\u2019s Dictionary, what does \u201chvalt\u201d mean?\nWhat is the role of the \u201cSub-Sub-Librarian\u201d in the text?\nWhat does the narrator describe the Sub-Sub-Librarian as?\nWhat is meant by \"veritable gospel cetology\"?\nWhat qualities are attributed to the ancient authors and poets mentioned?\nWhat is the narrator's relationship to the Sub-Sub-Librarian?\nWhat does the text indicate about the reliability of the extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6221344564449586,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928798.6340415,
+      "question_id": "q_chunk_4_8",
+      "response_text": "What does the text suggest is the origin of the name \"whale\"?\nWhat languages are cited as sources for the word \"whale\"?\nAccording to Webster\u2019s Dictionary, what does \u201chvalt\u201d mean?\nWhat is the role of the \u201cSub-Sub-Librarian\u201d in the text?\nWhat does the narrator describe the Sub-Sub-Librarian as?\nWhat is meant by \"veritable gospel cetology\"?\nWhat qualities are attributed to the ancient authors and poets mentioned?\nWhat is the narrator's relationship to the Sub-Sub-Librarian?\nWhat does the text indicate about the reliability of the extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6518190158886783,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928804.5016038,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the primary value of the extracts described?\nWhat type of people does the narrator address as \u201cpoor devil of a Sub-Sub\u201d?\nWhat is suggested about the narrator\u2019s relationship with the \"Sub-Subs\"?\nWhat advice does the narrator give to the \"Sub-Subs\"?\nWhat specific locations does the narrator wish to clear out for the \"Sub-Subs\"?\nWho are Gabriel, Michael, and Raphael in this context?\nWhat action are the friends who have gone before undertaking?\nWhich book of the Bible begins the \"EXTRACTS\" section with the phrase \"And God created great whales\"?\nWhat action does the Lord take against Leviathan according to Isaiah?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6518190158886783,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928804.5016139,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the primary value of the extracts described?\nWhat type of people does the narrator address as \u201cpoor devil of a Sub-Sub\u201d?\nWhat is suggested about the narrator\u2019s relationship with the \"Sub-Subs\"?\nWhat advice does the narrator give to the \"Sub-Subs\"?\nWhat specific locations does the narrator wish to clear out for the \"Sub-Subs\"?\nWho are Gabriel, Michael, and Raphael in this context?\nWhat action are the friends who have gone before undertaking?\nWhich book of the Bible begins the \"EXTRACTS\" section with the phrase \"And God created great whales\"?\nWhat action does the Lord take against Leviathan according to Isaiah?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6518190158886783,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928804.5016155,
+      "question_id": "q_chunk_5_2",
+      "response_text": "What is the primary value of the extracts described?\nWhat type of people does the narrator address as \u201cpoor devil of a Sub-Sub\u201d?\nWhat is suggested about the narrator\u2019s relationship with the \"Sub-Subs\"?\nWhat advice does the narrator give to the \"Sub-Subs\"?\nWhat specific locations does the narrator wish to clear out for the \"Sub-Subs\"?\nWho are Gabriel, Michael, and Raphael in this context?\nWhat action are the friends who have gone before undertaking?\nWhich book of the Bible begins the \"EXTRACTS\" section with the phrase \"And God created great whales\"?\nWhat action does the Lord take against Leviathan according to Isaiah?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6518190158886783,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928804.5016172,
+      "question_id": "q_chunk_5_3",
+      "response_text": "What is the primary value of the extracts described?\nWhat type of people does the narrator address as \u201cpoor devil of a Sub-Sub\u201d?\nWhat is suggested about the narrator\u2019s relationship with the \"Sub-Subs\"?\nWhat advice does the narrator give to the \"Sub-Subs\"?\nWhat specific locations does the narrator wish to clear out for the \"Sub-Subs\"?\nWho are Gabriel, Michael, and Raphael in this context?\nWhat action are the friends who have gone before undertaking?\nWhich book of the Bible begins the \"EXTRACTS\" section with the phrase \"And God created great whales\"?\nWhat action does the Lord take against Leviathan according to Isaiah?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6518190158886783,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928804.5016184,
+      "question_id": "q_chunk_5_4",
+      "response_text": "What is the primary value of the extracts described?\nWhat type of people does the narrator address as \u201cpoor devil of a Sub-Sub\u201d?\nWhat is suggested about the narrator\u2019s relationship with the \"Sub-Subs\"?\nWhat advice does the narrator give to the \"Sub-Subs\"?\nWhat specific locations does the narrator wish to clear out for the \"Sub-Subs\"?\nWho are Gabriel, Michael, and Raphael in this context?\nWhat action are the friends who have gone before undertaking?\nWhich book of the Bible begins the \"EXTRACTS\" section with the phrase \"And God created great whales\"?\nWhat action does the Lord take against Leviathan according to Isaiah?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6518190158886783,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928804.5016198,
+      "question_id": "q_chunk_5_5",
+      "response_text": "What is the primary value of the extracts described?\nWhat type of people does the narrator address as \u201cpoor devil of a Sub-Sub\u201d?\nWhat is suggested about the narrator\u2019s relationship with the \"Sub-Subs\"?\nWhat advice does the narrator give to the \"Sub-Subs\"?\nWhat specific locations does the narrator wish to clear out for the \"Sub-Subs\"?\nWho are Gabriel, Michael, and Raphael in this context?\nWhat action are the friends who have gone before undertaking?\nWhich book of the Bible begins the \"EXTRACTS\" section with the phrase \"And God created great whales\"?\nWhat action does the Lord take against Leviathan according to Isaiah?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6518190158886783,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928804.5016208,
+      "question_id": "q_chunk_5_6",
+      "response_text": "What is the primary value of the extracts described?\nWhat type of people does the narrator address as \u201cpoor devil of a Sub-Sub\u201d?\nWhat is suggested about the narrator\u2019s relationship with the \"Sub-Subs\"?\nWhat advice does the narrator give to the \"Sub-Subs\"?\nWhat specific locations does the narrator wish to clear out for the \"Sub-Subs\"?\nWho are Gabriel, Michael, and Raphael in this context?\nWhat action are the friends who have gone before undertaking?\nWhich book of the Bible begins the \"EXTRACTS\" section with the phrase \"And God created great whales\"?\nWhat action does the Lord take against Leviathan according to Isaiah?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6518190158886783,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928804.5016227,
+      "question_id": "q_chunk_5_7",
+      "response_text": "What is the primary value of the extracts described?\nWhat type of people does the narrator address as \u201cpoor devil of a Sub-Sub\u201d?\nWhat is suggested about the narrator\u2019s relationship with the \"Sub-Subs\"?\nWhat advice does the narrator give to the \"Sub-Subs\"?\nWhat specific locations does the narrator wish to clear out for the \"Sub-Subs\"?\nWho are Gabriel, Michael, and Raphael in this context?\nWhat action are the friends who have gone before undertaking?\nWhich book of the Bible begins the \"EXTRACTS\" section with the phrase \"And God created great whales\"?\nWhat action does the Lord take against Leviathan according to Isaiah?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6518190158886783,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928804.5016243,
+      "question_id": "q_chunk_5_8",
+      "response_text": "What is the primary value of the extracts described?\nWhat type of people does the narrator address as \u201cpoor devil of a Sub-Sub\u201d?\nWhat is suggested about the narrator\u2019s relationship with the \"Sub-Subs\"?\nWhat advice does the narrator give to the \"Sub-Subs\"?\nWhat specific locations does the narrator wish to clear out for the \"Sub-Subs\"?\nWho are Gabriel, Michael, and Raphael in this context?\nWhat action are the friends who have gone before undertaking?\nWhich book of the Bible begins the \"EXTRACTS\" section with the phrase \"And God created great whales\"?\nWhat action does the Lord take against Leviathan according to Isaiah?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6373812736662027,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928810.239234,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What is Leviathan described as?\nWhat does Holland\u2019s Plutarch\u2019s Morals state happens to things entering the monster\u2019s mouth?\nAccording to Holland\u2019s Pliny, what is the size of Balaene?\nWhat event occurred scarcely two days into the sea voyage described in Tooke\u2019s Lucian?\nWhat valuable resource was sought from horse-whales?\nHow long were the best whales reported to be?\nHow many whales did the six individuals claim to have killed in two days?\nWhat is unique about the sea-gudgeon\u2019s experience within the whale\u2019s mouth?\nWhat biblical figure is associated with punishing Leviathan?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6373812736662027,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928810.239242,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What is Leviathan described as?\nWhat does Holland\u2019s Plutarch\u2019s Morals state happens to things entering the monster\u2019s mouth?\nAccording to Holland\u2019s Pliny, what is the size of Balaene?\nWhat event occurred scarcely two days into the sea voyage described in Tooke\u2019s Lucian?\nWhat valuable resource was sought from horse-whales?\nHow long were the best whales reported to be?\nHow many whales did the six individuals claim to have killed in two days?\nWhat is unique about the sea-gudgeon\u2019s experience within the whale\u2019s mouth?\nWhat biblical figure is associated with punishing Leviathan?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6373812736662027,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928810.2392435,
+      "question_id": "q_chunk_6_2",
+      "response_text": "What is Leviathan described as?\nWhat does Holland\u2019s Plutarch\u2019s Morals state happens to things entering the monster\u2019s mouth?\nAccording to Holland\u2019s Pliny, what is the size of Balaene?\nWhat event occurred scarcely two days into the sea voyage described in Tooke\u2019s Lucian?\nWhat valuable resource was sought from horse-whales?\nHow long were the best whales reported to be?\nHow many whales did the six individuals claim to have killed in two days?\nWhat is unique about the sea-gudgeon\u2019s experience within the whale\u2019s mouth?\nWhat biblical figure is associated with punishing Leviathan?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6373812736662027,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928810.2392447,
+      "question_id": "q_chunk_6_3",
+      "response_text": "What is Leviathan described as?\nWhat does Holland\u2019s Plutarch\u2019s Morals state happens to things entering the monster\u2019s mouth?\nAccording to Holland\u2019s Pliny, what is the size of Balaene?\nWhat event occurred scarcely two days into the sea voyage described in Tooke\u2019s Lucian?\nWhat valuable resource was sought from horse-whales?\nHow long were the best whales reported to be?\nHow many whales did the six individuals claim to have killed in two days?\nWhat is unique about the sea-gudgeon\u2019s experience within the whale\u2019s mouth?\nWhat biblical figure is associated with punishing Leviathan?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6373812736662027,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928810.2392461,
+      "question_id": "q_chunk_6_4",
+      "response_text": "What is Leviathan described as?\nWhat does Holland\u2019s Plutarch\u2019s Morals state happens to things entering the monster\u2019s mouth?\nAccording to Holland\u2019s Pliny, what is the size of Balaene?\nWhat event occurred scarcely two days into the sea voyage described in Tooke\u2019s Lucian?\nWhat valuable resource was sought from horse-whales?\nHow long were the best whales reported to be?\nHow many whales did the six individuals claim to have killed in two days?\nWhat is unique about the sea-gudgeon\u2019s experience within the whale\u2019s mouth?\nWhat biblical figure is associated with punishing Leviathan?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6373812736662027,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928810.2392473,
+      "question_id": "q_chunk_6_5",
+      "response_text": "What is Leviathan described as?\nWhat does Holland\u2019s Plutarch\u2019s Morals state happens to things entering the monster\u2019s mouth?\nAccording to Holland\u2019s Pliny, what is the size of Balaene?\nWhat event occurred scarcely two days into the sea voyage described in Tooke\u2019s Lucian?\nWhat valuable resource was sought from horse-whales?\nHow long were the best whales reported to be?\nHow many whales did the six individuals claim to have killed in two days?\nWhat is unique about the sea-gudgeon\u2019s experience within the whale\u2019s mouth?\nWhat biblical figure is associated with punishing Leviathan?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6373812736662027,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928810.2392488,
+      "question_id": "q_chunk_6_6",
+      "response_text": "What is Leviathan described as?\nWhat does Holland\u2019s Plutarch\u2019s Morals state happens to things entering the monster\u2019s mouth?\nAccording to Holland\u2019s Pliny, what is the size of Balaene?\nWhat event occurred scarcely two days into the sea voyage described in Tooke\u2019s Lucian?\nWhat valuable resource was sought from horse-whales?\nHow long were the best whales reported to be?\nHow many whales did the six individuals claim to have killed in two days?\nWhat is unique about the sea-gudgeon\u2019s experience within the whale\u2019s mouth?\nWhat biblical figure is associated with punishing Leviathan?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6373812736662027,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928810.2392502,
+      "question_id": "q_chunk_6_7",
+      "response_text": "What is Leviathan described as?\nWhat does Holland\u2019s Plutarch\u2019s Morals state happens to things entering the monster\u2019s mouth?\nAccording to Holland\u2019s Pliny, what is the size of Balaene?\nWhat event occurred scarcely two days into the sea voyage described in Tooke\u2019s Lucian?\nWhat valuable resource was sought from horse-whales?\nHow long were the best whales reported to be?\nHow many whales did the six individuals claim to have killed in two days?\nWhat is unique about the sea-gudgeon\u2019s experience within the whale\u2019s mouth?\nWhat biblical figure is associated with punishing Leviathan?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6373812736662027,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928810.2392514,
+      "question_id": "q_chunk_6_8",
+      "response_text": "What is Leviathan described as?\nWhat does Holland\u2019s Plutarch\u2019s Morals state happens to things entering the monster\u2019s mouth?\nAccording to Holland\u2019s Pliny, what is the size of Balaene?\nWhat event occurred scarcely two days into the sea voyage described in Tooke\u2019s Lucian?\nWhat valuable resource was sought from horse-whales?\nHow long were the best whales reported to be?\nHow many whales did the six individuals claim to have killed in two days?\nWhat is unique about the sea-gudgeon\u2019s experience within the whale\u2019s mouth?\nWhat biblical figure is associated with punishing Leviathan?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7241560082216488,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928816.7579129,
+      "question_id": "q_chunk_7_0",
+      "response_text": "What does the sea-gudgeon do when it enters the whale\u2019s mouth?\nWhat biblical figure is Leviathan associated with according to Rabelais?\nHow much of the whale\u2019s liver did Stowe\u2019s Annals report?\nAccording to Lord Bacon's version of the Psalms, what does the great Leviathan do to the seas?\nWhat is notable about the amount of oil extracted from a whale?\nWhat does King Henry claim is the \"sovereignest thing\" on earth?\nWhat character in Hamlet is described as \"very like a whale\"?\nWhat is the significance of the phrase \"Nescio quid sit\" in relation to spermacetti?\nWhat is the effect of a whale's motion described by Sir William Davenant?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7241560082216488,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928816.7579203,
+      "question_id": "q_chunk_7_1",
+      "response_text": "What does the sea-gudgeon do when it enters the whale\u2019s mouth?\nWhat biblical figure is Leviathan associated with according to Rabelais?\nHow much of the whale\u2019s liver did Stowe\u2019s Annals report?\nAccording to Lord Bacon's version of the Psalms, what does the great Leviathan do to the seas?\nWhat is notable about the amount of oil extracted from a whale?\nWhat does King Henry claim is the \"sovereignest thing\" on earth?\nWhat character in Hamlet is described as \"very like a whale\"?\nWhat is the significance of the phrase \"Nescio quid sit\" in relation to spermacetti?\nWhat is the effect of a whale's motion described by Sir William Davenant?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7241560082216488,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928816.757922,
+      "question_id": "q_chunk_7_2",
+      "response_text": "What does the sea-gudgeon do when it enters the whale\u2019s mouth?\nWhat biblical figure is Leviathan associated with according to Rabelais?\nHow much of the whale\u2019s liver did Stowe\u2019s Annals report?\nAccording to Lord Bacon's version of the Psalms, what does the great Leviathan do to the seas?\nWhat is notable about the amount of oil extracted from a whale?\nWhat does King Henry claim is the \"sovereignest thing\" on earth?\nWhat character in Hamlet is described as \"very like a whale\"?\nWhat is the significance of the phrase \"Nescio quid sit\" in relation to spermacetti?\nWhat is the effect of a whale's motion described by Sir William Davenant?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7241560082216488,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928816.7579234,
+      "question_id": "q_chunk_7_3",
+      "response_text": "What does the sea-gudgeon do when it enters the whale\u2019s mouth?\nWhat biblical figure is Leviathan associated with according to Rabelais?\nHow much of the whale\u2019s liver did Stowe\u2019s Annals report?\nAccording to Lord Bacon's version of the Psalms, what does the great Leviathan do to the seas?\nWhat is notable about the amount of oil extracted from a whale?\nWhat does King Henry claim is the \"sovereignest thing\" on earth?\nWhat character in Hamlet is described as \"very like a whale\"?\nWhat is the significance of the phrase \"Nescio quid sit\" in relation to spermacetti?\nWhat is the effect of a whale's motion described by Sir William Davenant?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7241560082216488,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928816.7579262,
+      "question_id": "q_chunk_7_4",
+      "response_text": "What does the sea-gudgeon do when it enters the whale\u2019s mouth?\nWhat biblical figure is Leviathan associated with according to Rabelais?\nHow much of the whale\u2019s liver did Stowe\u2019s Annals report?\nAccording to Lord Bacon's version of the Psalms, what does the great Leviathan do to the seas?\nWhat is notable about the amount of oil extracted from a whale?\nWhat does King Henry claim is the \"sovereignest thing\" on earth?\nWhat character in Hamlet is described as \"very like a whale\"?\nWhat is the significance of the phrase \"Nescio quid sit\" in relation to spermacetti?\nWhat is the effect of a whale's motion described by Sir William Davenant?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7241560082216488,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928816.7579277,
+      "question_id": "q_chunk_7_5",
+      "response_text": "What does the sea-gudgeon do when it enters the whale\u2019s mouth?\nWhat biblical figure is Leviathan associated with according to Rabelais?\nHow much of the whale\u2019s liver did Stowe\u2019s Annals report?\nAccording to Lord Bacon's version of the Psalms, what does the great Leviathan do to the seas?\nWhat is notable about the amount of oil extracted from a whale?\nWhat does King Henry claim is the \"sovereignest thing\" on earth?\nWhat character in Hamlet is described as \"very like a whale\"?\nWhat is the significance of the phrase \"Nescio quid sit\" in relation to spermacetti?\nWhat is the effect of a whale's motion described by Sir William Davenant?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7241560082216488,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928816.7579286,
+      "question_id": "q_chunk_7_6",
+      "response_text": "What does the sea-gudgeon do when it enters the whale\u2019s mouth?\nWhat biblical figure is Leviathan associated with according to Rabelais?\nHow much of the whale\u2019s liver did Stowe\u2019s Annals report?\nAccording to Lord Bacon's version of the Psalms, what does the great Leviathan do to the seas?\nWhat is notable about the amount of oil extracted from a whale?\nWhat does King Henry claim is the \"sovereignest thing\" on earth?\nWhat character in Hamlet is described as \"very like a whale\"?\nWhat is the significance of the phrase \"Nescio quid sit\" in relation to spermacetti?\nWhat is the effect of a whale's motion described by Sir William Davenant?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7241560082216488,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928816.75793,
+      "question_id": "q_chunk_7_7",
+      "response_text": "What does the sea-gudgeon do when it enters the whale\u2019s mouth?\nWhat biblical figure is Leviathan associated with according to Rabelais?\nHow much of the whale\u2019s liver did Stowe\u2019s Annals report?\nAccording to Lord Bacon's version of the Psalms, what does the great Leviathan do to the seas?\nWhat is notable about the amount of oil extracted from a whale?\nWhat does King Henry claim is the \"sovereignest thing\" on earth?\nWhat character in Hamlet is described as \"very like a whale\"?\nWhat is the significance of the phrase \"Nescio quid sit\" in relation to spermacetti?\nWhat is the effect of a whale's motion described by Sir William Davenant?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7241560082216488,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928816.7579312,
+      "question_id": "q_chunk_7_8",
+      "response_text": "What does the sea-gudgeon do when it enters the whale\u2019s mouth?\nWhat biblical figure is Leviathan associated with according to Rabelais?\nHow much of the whale\u2019s liver did Stowe\u2019s Annals report?\nAccording to Lord Bacon's version of the Psalms, what does the great Leviathan do to the seas?\nWhat is notable about the amount of oil extracted from a whale?\nWhat does King Henry claim is the \"sovereignest thing\" on earth?\nWhat character in Hamlet is described as \"very like a whale\"?\nWhat is the significance of the phrase \"Nescio quid sit\" in relation to spermacetti?\nWhat is the effect of a whale's motion described by Sir William Davenant?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5529634224448172,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928821.7358153,
+      "question_id": "q_chunk_8_0",
+      "response_text": "What is Sperma Ceti?\nWhat is the subject of Waller\u2019s poem quoted in the text?\nAccording to Hobbes, what is a commonwealth or state?\nWhat does Silly Mansoul swallow in *Pilgrim\u2019s Progress*?\nWho wrote *Paradise Lost*?\nWhat does Leviathan do according to Dryden's poem?\nHow did people move a whale\u2019s head according to Thomas Edge?\nWhat do whales do according to Sir T. Herbert\u2019s voyages?\nWhat is the significance of the term \"vent\" in relation to whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5529634224448172,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928821.735821,
+      "question_id": "q_chunk_8_1",
+      "response_text": "What is Sperma Ceti?\nWhat is the subject of Waller\u2019s poem quoted in the text?\nAccording to Hobbes, what is a commonwealth or state?\nWhat does Silly Mansoul swallow in *Pilgrim\u2019s Progress*?\nWho wrote *Paradise Lost*?\nWhat does Leviathan do according to Dryden's poem?\nHow did people move a whale\u2019s head according to Thomas Edge?\nWhat do whales do according to Sir T. Herbert\u2019s voyages?\nWhat is the significance of the term \"vent\" in relation to whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5529634224448172,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928821.735823,
+      "question_id": "q_chunk_8_2",
+      "response_text": "What is Sperma Ceti?\nWhat is the subject of Waller\u2019s poem quoted in the text?\nAccording to Hobbes, what is a commonwealth or state?\nWhat does Silly Mansoul swallow in *Pilgrim\u2019s Progress*?\nWho wrote *Paradise Lost*?\nWhat does Leviathan do according to Dryden's poem?\nHow did people move a whale\u2019s head according to Thomas Edge?\nWhat do whales do according to Sir T. Herbert\u2019s voyages?\nWhat is the significance of the term \"vent\" in relation to whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5529634224448172,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928821.7358248,
+      "question_id": "q_chunk_8_3",
+      "response_text": "What is Sperma Ceti?\nWhat is the subject of Waller\u2019s poem quoted in the text?\nAccording to Hobbes, what is a commonwealth or state?\nWhat does Silly Mansoul swallow in *Pilgrim\u2019s Progress*?\nWho wrote *Paradise Lost*?\nWhat does Leviathan do according to Dryden's poem?\nHow did people move a whale\u2019s head according to Thomas Edge?\nWhat do whales do according to Sir T. Herbert\u2019s voyages?\nWhat is the significance of the term \"vent\" in relation to whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5529634224448172,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928821.7358267,
+      "question_id": "q_chunk_8_4",
+      "response_text": "What is Sperma Ceti?\nWhat is the subject of Waller\u2019s poem quoted in the text?\nAccording to Hobbes, what is a commonwealth or state?\nWhat does Silly Mansoul swallow in *Pilgrim\u2019s Progress*?\nWho wrote *Paradise Lost*?\nWhat does Leviathan do according to Dryden's poem?\nHow did people move a whale\u2019s head according to Thomas Edge?\nWhat do whales do according to Sir T. Herbert\u2019s voyages?\nWhat is the significance of the term \"vent\" in relation to whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5529634224448172,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928821.7358286,
+      "question_id": "q_chunk_8_5",
+      "response_text": "What is Sperma Ceti?\nWhat is the subject of Waller\u2019s poem quoted in the text?\nAccording to Hobbes, what is a commonwealth or state?\nWhat does Silly Mansoul swallow in *Pilgrim\u2019s Progress*?\nWho wrote *Paradise Lost*?\nWhat does Leviathan do according to Dryden's poem?\nHow did people move a whale\u2019s head according to Thomas Edge?\nWhat do whales do according to Sir T. Herbert\u2019s voyages?\nWhat is the significance of the term \"vent\" in relation to whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5529634224448172,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928821.735831,
+      "question_id": "q_chunk_8_6",
+      "response_text": "What is Sperma Ceti?\nWhat is the subject of Waller\u2019s poem quoted in the text?\nAccording to Hobbes, what is a commonwealth or state?\nWhat does Silly Mansoul swallow in *Pilgrim\u2019s Progress*?\nWho wrote *Paradise Lost*?\nWhat does Leviathan do according to Dryden's poem?\nHow did people move a whale\u2019s head according to Thomas Edge?\nWhat do whales do according to Sir T. Herbert\u2019s voyages?\nWhat is the significance of the term \"vent\" in relation to whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5529634224448172,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928821.7358334,
+      "question_id": "q_chunk_8_7",
+      "response_text": "What is Sperma Ceti?\nWhat is the subject of Waller\u2019s poem quoted in the text?\nAccording to Hobbes, what is a commonwealth or state?\nWhat does Silly Mansoul swallow in *Pilgrim\u2019s Progress*?\nWho wrote *Paradise Lost*?\nWhat does Leviathan do according to Dryden's poem?\nHow did people move a whale\u2019s head according to Thomas Edge?\nWhat do whales do according to Sir T. Herbert\u2019s voyages?\nWhat is the significance of the term \"vent\" in relation to whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5529634224448172,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928821.7358348,
+      "question_id": "q_chunk_8_8",
+      "response_text": "What is Sperma Ceti?\nWhat is the subject of Waller\u2019s poem quoted in the text?\nAccording to Hobbes, what is a commonwealth or state?\nWhat does Silly Mansoul swallow in *Pilgrim\u2019s Progress*?\nWho wrote *Paradise Lost*?\nWhat does Leviathan do according to Dryden's poem?\nHow did people move a whale\u2019s head according to Thomas Edge?\nWhat do whales do according to Sir T. Herbert\u2019s voyages?\nWhat is the significance of the term \"vent\" in relation to whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5964031556666467,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928827.1044548,
+      "question_id": "q_chunk_9_0",
+      "response_text": "What physical features are attributed to whales in Sir T. Herbert\u2019s Voyages?\nWhat danger did Schouten's crew face due to the whales?\nWhat is the significance of the ship named \"The Jonas-in-the-Whale\"?\nWhat reward was offered for spotting a whale?\nWhat unusual contents were found in the whale near Shetland?\nWhat was unique about the whale taken near Spitzbergen?\nHow long was the whale that came in on the Fife coast?\nWhat was the purpose of Richard Strafford\u2019s endeavor?\nWhat is implied about whales in the N. E. Primer quote?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5964031556666467,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928827.1044595,
+      "question_id": "q_chunk_9_1",
+      "response_text": "What physical features are attributed to whales in Sir T. Herbert\u2019s Voyages?\nWhat danger did Schouten's crew face due to the whales?\nWhat is the significance of the ship named \"The Jonas-in-the-Whale\"?\nWhat reward was offered for spotting a whale?\nWhat unusual contents were found in the whale near Shetland?\nWhat was unique about the whale taken near Spitzbergen?\nHow long was the whale that came in on the Fife coast?\nWhat was the purpose of Richard Strafford\u2019s endeavor?\nWhat is implied about whales in the N. E. Primer quote?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5964031556666467,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928827.1044612,
+      "question_id": "q_chunk_9_2",
+      "response_text": "What physical features are attributed to whales in Sir T. Herbert\u2019s Voyages?\nWhat danger did Schouten's crew face due to the whales?\nWhat is the significance of the ship named \"The Jonas-in-the-Whale\"?\nWhat reward was offered for spotting a whale?\nWhat unusual contents were found in the whale near Shetland?\nWhat was unique about the whale taken near Spitzbergen?\nHow long was the whale that came in on the Fife coast?\nWhat was the purpose of Richard Strafford\u2019s endeavor?\nWhat is implied about whales in the N. E. Primer quote?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5964031556666467,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928827.1044621,
+      "question_id": "q_chunk_9_3",
+      "response_text": "What physical features are attributed to whales in Sir T. Herbert\u2019s Voyages?\nWhat danger did Schouten's crew face due to the whales?\nWhat is the significance of the ship named \"The Jonas-in-the-Whale\"?\nWhat reward was offered for spotting a whale?\nWhat unusual contents were found in the whale near Shetland?\nWhat was unique about the whale taken near Spitzbergen?\nHow long was the whale that came in on the Fife coast?\nWhat was the purpose of Richard Strafford\u2019s endeavor?\nWhat is implied about whales in the N. E. Primer quote?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5964031556666467,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928827.1044626,
+      "question_id": "q_chunk_9_4",
+      "response_text": "What physical features are attributed to whales in Sir T. Herbert\u2019s Voyages?\nWhat danger did Schouten's crew face due to the whales?\nWhat is the significance of the ship named \"The Jonas-in-the-Whale\"?\nWhat reward was offered for spotting a whale?\nWhat unusual contents were found in the whale near Shetland?\nWhat was unique about the whale taken near Spitzbergen?\nHow long was the whale that came in on the Fife coast?\nWhat was the purpose of Richard Strafford\u2019s endeavor?\nWhat is implied about whales in the N. E. Primer quote?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5964031556666467,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928827.1044633,
+      "question_id": "q_chunk_9_5",
+      "response_text": "What physical features are attributed to whales in Sir T. Herbert\u2019s Voyages?\nWhat danger did Schouten's crew face due to the whales?\nWhat is the significance of the ship named \"The Jonas-in-the-Whale\"?\nWhat reward was offered for spotting a whale?\nWhat unusual contents were found in the whale near Shetland?\nWhat was unique about the whale taken near Spitzbergen?\nHow long was the whale that came in on the Fife coast?\nWhat was the purpose of Richard Strafford\u2019s endeavor?\nWhat is implied about whales in the N. E. Primer quote?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5964031556666467,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928827.1044638,
+      "question_id": "q_chunk_9_6",
+      "response_text": "What physical features are attributed to whales in Sir T. Herbert\u2019s Voyages?\nWhat danger did Schouten's crew face due to the whales?\nWhat is the significance of the ship named \"The Jonas-in-the-Whale\"?\nWhat reward was offered for spotting a whale?\nWhat unusual contents were found in the whale near Shetland?\nWhat was unique about the whale taken near Spitzbergen?\nHow long was the whale that came in on the Fife coast?\nWhat was the purpose of Richard Strafford\u2019s endeavor?\nWhat is implied about whales in the N. E. Primer quote?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5964031556666467,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928827.1044643,
+      "question_id": "q_chunk_9_7",
+      "response_text": "What physical features are attributed to whales in Sir T. Herbert\u2019s Voyages?\nWhat danger did Schouten's crew face due to the whales?\nWhat is the significance of the ship named \"The Jonas-in-the-Whale\"?\nWhat reward was offered for spotting a whale?\nWhat unusual contents were found in the whale near Shetland?\nWhat was unique about the whale taken near Spitzbergen?\nHow long was the whale that came in on the Fife coast?\nWhat was the purpose of Richard Strafford\u2019s endeavor?\nWhat is implied about whales in the N. E. Primer quote?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5964031556666467,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928827.1044652,
+      "question_id": "q_chunk_9_8",
+      "response_text": "What physical features are attributed to whales in Sir T. Herbert\u2019s Voyages?\nWhat danger did Schouten's crew face due to the whales?\nWhat is the significance of the ship named \"The Jonas-in-the-Whale\"?\nWhat reward was offered for spotting a whale?\nWhat unusual contents were found in the whale near Shetland?\nWhat was unique about the whale taken near Spitzbergen?\nHow long was the whale that came in on the Fife coast?\nWhat was the purpose of Richard Strafford\u2019s endeavor?\nWhat is implied about whales in the N. E. Primer quote?"
+    }
+  ]
+}

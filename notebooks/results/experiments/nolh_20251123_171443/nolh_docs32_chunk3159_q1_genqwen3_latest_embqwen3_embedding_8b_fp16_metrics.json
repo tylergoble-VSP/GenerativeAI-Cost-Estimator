@@ -1,0 +1,839 @@
+{
+  "export_timestamp": "2025-11-23T18:02:53.105482",
+  "export_timestamp_readable": "2025-11-23 18:02:53",
+  "num_metrics": 64,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.351105023000855,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763920286.8764615,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.254918769991491,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763920288.1316383,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.3248109499982093,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763920289.4567108,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.1685991900012596,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763920290.6255987,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0299561199935852,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763920291.6558356,
+      "chunk_id": "chunk_4",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0395106229989324,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763920292.6956227,
+      "chunk_id": "chunk_5",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.064746957999887,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763920293.7606416,
+      "chunk_id": "chunk_6",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.047489874996245,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763920294.8084142,
+      "chunk_id": "chunk_7",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0691359949996695,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763920295.8778226,
+      "chunk_id": "chunk_8",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.054819707002025,
+      "token_counts": {
+        "input_tokens": 460,
+        "actual_input_tokens": 460,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763920296.9329035,
+      "chunk_id": "chunk_9",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0314782000059495,
+      "token_counts": {
+        "input_tokens": 451,
+        "actual_input_tokens": 451,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763920297.964643,
+      "chunk_id": "chunk_10",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0254600689950166,
+      "token_counts": {
+        "input_tokens": 465,
+        "actual_input_tokens": 465,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763920298.990367,
+      "chunk_id": "chunk_11",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0674296739889542,
+      "token_counts": {
+        "input_tokens": 508,
+        "actual_input_tokens": 508,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763920300.0580955,
+      "chunk_id": "chunk_12",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0660991309996461,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763920301.1244907,
+      "chunk_id": "chunk_13",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0733362350001698,
+      "token_counts": {
+        "input_tokens": 497,
+        "actual_input_tokens": 497,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763920302.198113,
+      "chunk_id": "chunk_14",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.1453060839994578,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763920303.3437123,
+      "chunk_id": "chunk_15",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.124397844003397,
+      "token_counts": {
+        "input_tokens": 508,
+        "actual_input_tokens": 508,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763920304.4685726,
+      "chunk_id": "chunk_16",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.9399698619963601,
+      "token_counts": {
+        "input_tokens": 441,
+        "actual_input_tokens": 441,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763920305.4089572,
+      "chunk_id": "chunk_17",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0613324830046622,
+      "token_counts": {
+        "input_tokens": 497,
+        "actual_input_tokens": 497,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763920306.4705815,
+      "chunk_id": "chunk_18",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0516815000009956,
+      "token_counts": {
+        "input_tokens": 480,
+        "actual_input_tokens": 480,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763920307.5225384,
+      "chunk_id": "chunk_19",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0645893600012641,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763920308.5873857,
+      "chunk_id": "chunk_20",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.065492034991621,
+      "token_counts": {
+        "input_tokens": 488,
+        "actual_input_tokens": 488,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763920309.6531444,
+      "chunk_id": "chunk_21",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.059514770997339,
+      "token_counts": {
+        "input_tokens": 503,
+        "actual_input_tokens": 503,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763920310.7129273,
+      "chunk_id": "chunk_22",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.1473049650085159,
+      "token_counts": {
+        "input_tokens": 512,
+        "actual_input_tokens": 512,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763920311.860522,
+      "chunk_id": "chunk_23",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.7942031580023468,
+      "token_counts": {
+        "input_tokens": 378,
+        "actual_input_tokens": 378,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763920312.655081,
+      "chunk_id": "chunk_24",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0811779399955412,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763920313.736703,
+      "chunk_id": "chunk_25",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0703472619934473,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763920314.8074772,
+      "chunk_id": "chunk_26",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0719137389969546,
+      "token_counts": {
+        "input_tokens": 503,
+        "actual_input_tokens": 503,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763920315.8796794,
+      "chunk_id": "chunk_27",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.064559238991933,
+      "token_counts": {
+        "input_tokens": 510,
+        "actual_input_tokens": 510,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763920316.94452,
+      "chunk_id": "chunk_28",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.071320590999676,
+      "token_counts": {
+        "input_tokens": 488,
+        "actual_input_tokens": 488,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763920318.0161033,
+      "chunk_id": "chunk_29",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.061779226991348,
+      "token_counts": {
+        "input_tokens": 478,
+        "actual_input_tokens": 478,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763920319.078144,
+      "chunk_id": "chunk_30",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0451601320091868,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763920320.1235983,
+      "chunk_id": "chunk_31",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 34.68235671300499,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763920354.8069947,
+      "question_id": "q_chunk_0_0",
+      "response_text": "Where is this eBook available for use?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.68832343199756,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763920365.4960802,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of the chapter titles in Moby-Dick?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 29.575092732993653,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763920395.072128,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What are the key themes and symbols represented in the chapters from 75 to 126?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 18.657583303007414,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763920413.7306905,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the etymological origin of the word \"whale\" according to the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 9.669509873987408,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763920423.401033,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What are the origins of the word \"whale\" according to the languages listed in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.116485920996638,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763920434.5183413,
+      "question_id": "q_chunk_5_0",
+      "response_text": "Why are the extracts considered valuable or entertaining according to the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 19.56968671400682,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763920454.0889356,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What is the size of the whales described in the texts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 32.66436208000232,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763920486.754288,
+      "question_id": "q_chunk_7_0",
+      "response_text": "Which literary or biblical references to Leviathan are mentioned in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 19.74158298499242,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763920506.4968233,
+      "question_id": "q_chunk_8_0",
+      "response_text": "What do the references to Leviathan and whales in these texts collectively suggest about their symbolic meanings?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 23.886837850004667,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763920530.3844116,
+      "question_id": "q_chunk_9_0",
+      "response_text": "What are some examples of historical encounters with whales as described in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.274602187011624,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763920541.6599114,
+      "question_id": "q_chunk_10_0",
+      "response_text": "What is the primary subject discussed in the provided texts about whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.142892424002639,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763920552.8037763,
+      "question_id": "q_chunk_11_0",
+      "response_text": "What is the significance of whales in historical accounts and cultural references as depicted in the provided texts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 14.214449181992677,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763920567.019268,
+      "question_id": "q_chunk_12_0",
+      "response_text": "What comparison does Paley make between the whale's aorta and the water-works at London Bridge?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 22.925384821006446,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763920589.9456413,
+      "question_id": "q_chunk_13_0",
+      "response_text": "How do the authors portray whales in these literary excerpts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 27.80313734000083,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763920617.749641,
+      "question_id": "q_chunk_14_0",
+      "response_text": "What descriptions of the Sperm Whale's behavior are emphasized in the text, and what do they reveal about the dangers of whaling?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 18.209229033003794,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763920635.9597108,
+      "question_id": "q_chunk_15_0",
+      "response_text": "What does the text suggest about the Sperm Whale's significance in whaling and scientific study?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.547673191002104,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763920648.508365,
+      "question_id": "q_chunk_16_0",
+      "response_text": "How did the whalemen's efforts to locate whale haunts indirectly contribute to the discovery of the North-West Passage?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 34.094468111987226,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763920682.6037889,
+      "question_id": "q_chunk_17_0",
+      "response_text": "What does the text suggest about the reciprocal relationship between whalemen and whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 37.03750827698968,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763920719.642161,
+      "question_id": "q_chunk_18_0",
+      "response_text": "What is the purpose of the quotes in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 30.31420154699299,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763920749.957394,
+      "question_id": "q_chunk_19_0",
+      "response_text": "What does the narrator consider his substitute for pistol and ball?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.821648715005722,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763920758.779973,
+      "question_id": "q_chunk_20_0",
+      "response_text": "What is the connection between meditation and the discovery of water according to the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 20.07828318500833,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763920778.8592358,
+      "question_id": "q_chunk_21_0",
+      "response_text": "What is the significance of the Narcissus story in the text's exploration of the human relationship with water and the concept of the \"ungraspable phantom of life\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.224758839001879,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763920787.0848563,
+      "question_id": "q_chunk_22_0",
+      "response_text": "Why does the narrator choose to go to sea as a sailor rather than as a passenger, Commodore, Captain, or Cook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 19.3759267610003,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763920806.4615886,
+      "question_id": "q_chunk_23_0",
+      "response_text": "What does the author suggest about the difference between paying and being paid, and how does this relate to their view on money and morality?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 30.298173684001085,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763920836.7605016,
+      "question_id": "q_chunk_24_0",
+      "response_text": "Why does the narrator decide to go on a whaling voyage?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 9.771808189994772,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763920846.5332446,
+      "question_id": "q_chunk_25_0",
+      "response_text": "What are the primary motivations that lead Ishmael to accept the whaling voyage as described in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 22.8200865490071,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763920869.354193,
+      "question_id": "q_chunk_26_0",
+      "response_text": "What is the release date of the ebook version of Moby Dick?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 27.75450763000117,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763920897.1095212,
+      "question_id": "q_chunk_27_0",
+      "response_text": "Why does the narrator follow waterward streets in New Bedford?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.204249296002672,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763920910.3146152,
+      "question_id": "q_chunk_28_0",
+      "response_text": "What is the significance of the names \"Spouter Inn\" and \"Peter Coffin\" in the context of Nantucket and the ominous connotations they carry?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 28.277042524001445,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763920938.5924847,
+      "question_id": "q_chunk_29_0",
+      "response_text": "What does the narrator reflect on regarding the description of the wind Euroclydon and its effect on the setting?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 25.790793642998324,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763920964.3840876,
+      "question_id": "q_chunk_30_0",
+      "response_text": "What biblical allusion is referenced in the passage, and how does it contribute to the themes of mortality and existential struggle?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.713021450996166,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763920973.0981822,
+      "question_id": "q_chunk_31_0",
+      "response_text": "What is the significance of the mysterious oil painting in the Spouter-Inn?"
+    }
+  ]
+}

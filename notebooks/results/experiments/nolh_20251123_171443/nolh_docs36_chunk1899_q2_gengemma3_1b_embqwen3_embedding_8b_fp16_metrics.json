@@ -1,0 +1,1433 @@
+{
+  "export_timestamp": "2025-11-23T21:59:21.210201",
+  "export_timestamp_readable": "2025-11-23 21:59:21",
+  "num_metrics": 107,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 5.111831978007103,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763935107.45014,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.2864119639998535,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763935108.7368124,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.3324790580081753,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763935110.0695798,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.1722347760078264,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763935111.2420957,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.053582622000249,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763935112.2959673,
+      "chunk_id": "chunk_4",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0831892069982132,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763935113.3794398,
+      "chunk_id": "chunk_5",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0959269799932372,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763935114.4756439,
+      "chunk_id": "chunk_6",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0740022769896314,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763935115.549938,
+      "chunk_id": "chunk_7",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0850478049978847,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763935116.6352634,
+      "chunk_id": "chunk_8",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0611607899918454,
+      "token_counts": {
+        "input_tokens": 460,
+        "actual_input_tokens": 460,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763935117.6966982,
+      "chunk_id": "chunk_9",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0798777309973957,
+      "token_counts": {
+        "input_tokens": 451,
+        "actual_input_tokens": 451,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763935118.7768462,
+      "chunk_id": "chunk_10",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0591910569928586,
+      "token_counts": {
+        "input_tokens": 465,
+        "actual_input_tokens": 465,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763935119.836309,
+      "chunk_id": "chunk_11",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.077591798006324,
+      "token_counts": {
+        "input_tokens": 508,
+        "actual_input_tokens": 508,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763935120.9141965,
+      "chunk_id": "chunk_12",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.1001109310018364,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763935122.0145953,
+      "chunk_id": "chunk_13",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0717488929949468,
+      "token_counts": {
+        "input_tokens": 497,
+        "actual_input_tokens": 497,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763935123.086635,
+      "chunk_id": "chunk_14",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.1461567649967037,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763935124.233082,
+      "chunk_id": "chunk_15",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.169319666994852,
+      "token_counts": {
+        "input_tokens": 508,
+        "actual_input_tokens": 508,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763935125.4026942,
+      "chunk_id": "chunk_16",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.9651963950018398,
+      "token_counts": {
+        "input_tokens": 441,
+        "actual_input_tokens": 441,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763935126.3681562,
+      "chunk_id": "chunk_17",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0645836149924435,
+      "token_counts": {
+        "input_tokens": 497,
+        "actual_input_tokens": 497,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763935127.4330337,
+      "chunk_id": "chunk_18",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0880804939952213,
+      "token_counts": {
+        "input_tokens": 480,
+        "actual_input_tokens": 480,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763935128.521524,
+      "chunk_id": "chunk_19",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0934753400069894,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763935129.6153846,
+      "chunk_id": "chunk_20",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0664389509911416,
+      "token_counts": {
+        "input_tokens": 488,
+        "actual_input_tokens": 488,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763935130.6821003,
+      "chunk_id": "chunk_21",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0973214249970624,
+      "token_counts": {
+        "input_tokens": 503,
+        "actual_input_tokens": 503,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763935131.7798545,
+      "chunk_id": "chunk_22",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.1646782400057418,
+      "token_counts": {
+        "input_tokens": 512,
+        "actual_input_tokens": 512,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763935132.9449449,
+      "chunk_id": "chunk_23",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.7942914720042609,
+      "token_counts": {
+        "input_tokens": 378,
+        "actual_input_tokens": 378,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763935133.7395895,
+      "chunk_id": "chunk_24",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0980370440083789,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763935134.8380606,
+      "chunk_id": "chunk_25",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0813936780032236,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763935135.9198773,
+      "chunk_id": "chunk_26",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0666478100029053,
+      "token_counts": {
+        "input_tokens": 503,
+        "actual_input_tokens": 503,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763935136.9868124,
+      "chunk_id": "chunk_27",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0704162680049194,
+      "token_counts": {
+        "input_tokens": 510,
+        "actual_input_tokens": 510,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763935138.0575154,
+      "chunk_id": "chunk_28",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0624273099965649,
+      "token_counts": {
+        "input_tokens": 488,
+        "actual_input_tokens": 488,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763935139.1202176,
+      "chunk_id": "chunk_29",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.083037307995255,
+      "token_counts": {
+        "input_tokens": 478,
+        "actual_input_tokens": 478,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763935140.203528,
+      "chunk_id": "chunk_30",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0716208709927741,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763935141.2754447,
+      "chunk_id": "chunk_31",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.093150840009912,
+      "token_counts": {
+        "input_tokens": 472,
+        "actual_input_tokens": 472,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763935142.3688817,
+      "chunk_id": "chunk_32",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0868711340008304,
+      "token_counts": {
+        "input_tokens": 489,
+        "actual_input_tokens": 489,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763935143.4560492,
+      "chunk_id": "chunk_33",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.1018884370132582,
+      "token_counts": {
+        "input_tokens": 489,
+        "actual_input_tokens": 489,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763935144.5582137,
+      "chunk_id": "chunk_34",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0567438040015986,
+      "token_counts": {
+        "input_tokens": 469,
+        "actual_input_tokens": 469,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763935145.6152372,
+      "chunk_id": "chunk_35",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.9896482580006705,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935147.5952322,
+      "question_id": "q_chunk_0_0",
+      "response_text": "1.  What is the release date of the eBook?\n2.  What is the stated policy regarding using the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.9896482580006705,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935147.5952353,
+      "question_id": "q_chunk_0_1",
+      "response_text": "1.  What is the release date of the eBook?\n2.  What is the stated policy regarding using the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.19725535449833842,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935147.9904583,
+      "question_id": "q_chunk_1_0",
+      "response_text": "1.  What is Ahab\u2019s role in the text?\n2.  What is the name of the man Stubb kills?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.19725535449833842,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935147.9904637,
+      "question_id": "q_chunk_1_1",
+      "response_text": "1.  What is Ahab\u2019s role in the text?\n2.  What is the name of the man Stubb kills?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.32108263799455017,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935148.3121507,
+      "question_id": "q_chunk_2_0",
+      "response_text": "1.  What is the primary focus of the first seven chapters?\n2."
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.18208541700005298,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935148.6770737,
+      "question_id": "q_chunk_3_0",
+      "response_text": "1. What is the text primarily about?\n2. What does the Late Usher refer to as \u201cleaving out, through ignorance, the letter H\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.18208541700005298,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935148.6770802,
+      "question_id": "q_chunk_3_1",
+      "response_text": "1. What is the text primarily about?\n2. What does the Late Usher refer to as \u201cleaving out, through ignorance, the letter H\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.19051066549582174,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935149.0588145,
+      "question_id": "q_chunk_4_0",
+      "response_text": "1.  What is the primary focus of the text?\n2.  What does the text suggest regarding whale statements?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.19051066549582174,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935149.058819,
+      "question_id": "q_chunk_4_1",
+      "response_text": "1.  What is the primary focus of the text?\n2.  What does the text suggest regarding whale statements?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.21051112050190568,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935149.480601,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the main point of the text?\nWhat does the text imply about the Sub-Subs?\nWhat is the significance of the \u201cLeviathan\u201d in the text?\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.21051112050190568,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935149.4806075,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the main point of the text?\nWhat does the text imply about the Sub-Subs?\nWhat is the significance of the \u201cLeviathan\u201d in the text?\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.22178050799993798,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935149.9249148,
+      "question_id": "q_chunk_6_0",
+      "response_text": "1.  What is the primary focus of Isaiah\u2019s command?\n2.  What does Holland\u2019s Plutarch\u2019s Morals describe as the \u201cmost and biggest fishes\u201d in the Indian Sea?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.22178050799993798,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935149.9249206,
+      "question_id": "q_chunk_6_1",
+      "response_text": "1.  What is the primary focus of Isaiah\u2019s command?\n2.  What does Holland\u2019s Plutarch\u2019s Morals describe as the \u201cmost and biggest fishes\u201d in the Indian Sea?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.19236142649606336,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935150.3103848,
+      "question_id": "q_chunk_7_0",
+      "response_text": "1.  What does the sea-gudgeon do in the whale\u2019s mouth?\n2.  What is the significance of the whale\u2019s liver?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.19236142649606336,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935150.3103905,
+      "question_id": "q_chunk_7_1",
+      "response_text": "1.  What does the sea-gudgeon do in the whale\u2019s mouth?\n2.  What is the significance of the whale\u2019s liver?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.19563542200194206,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935150.7024128,
+      "question_id": "q_chunk_8_0",
+      "response_text": "1.  What is the primary subject of the text?\n2.  How does the text describe the Leviathan\u2019s appearance?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.19563542200194206,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935150.7024176,
+      "question_id": "q_chunk_8_1",
+      "response_text": "1.  What is the primary subject of the text?\n2.  How does the text describe the Leviathan\u2019s appearance?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.22287694200349506,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935151.1488457,
+      "question_id": "q_chunk_9_0",
+      "response_text": "1.  What is the primary concern expressed in the text regarding the whales?\n2.  What details about the whales are mentioned in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.22287694200349506,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935151.1488507,
+      "question_id": "q_chunk_9_1",
+      "response_text": "1.  What is the primary concern expressed in the text regarding the whales?\n2.  What details about the whales are mentioned in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2448056369976257,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935151.6390975,
+      "question_id": "q_chunk_10_0",
+      "response_text": "1.  What is Richard Strafford\u2019s primary motivation for attempting to master and kill the sperm whale?\n2.  According to the text, what is the significance of the abundance of whales in the southern seas?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2448056369976257,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935151.6391003,
+      "question_id": "q_chunk_10_1",
+      "response_text": "1.  What is Richard Strafford\u2019s primary motivation for attempting to master and kill the sperm whale?\n2.  According to the text, what is the significance of the abundance of whales in the southern seas?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.17833252150012413,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935151.9963899,
+      "question_id": "q_chunk_11_0",
+      "response_text": "1.  What was discovered at the rock in the afternoon?\n2.  What was the purpose of the Asiatics concealing themselves behind the whale?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.17833252150012413,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935151.9963953,
+      "question_id": "q_chunk_11_1",
+      "response_text": "1.  What was discovered at the rock in the afternoon?\n2.  What was the purpose of the Asiatics concealing themselves behind the whale?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.20213011850137264,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935152.4012952,
+      "question_id": "q_chunk_12_0",
+      "response_text": "1. What is the primary focus of the text describing the crews\u2019 repairs?\n2. What is the significance of the \u201cblood\u201d being thrown out of the whale\u2019s heart?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.20213011850137264,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935152.4013,
+      "question_id": "q_chunk_12_1",
+      "response_text": "1. What is the primary focus of the text describing the crews\u2019 repairs?\n2. What is the significance of the \u201cblood\u201d being thrown out of the whale\u2019s heart?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.20190589799312875,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935152.805786,
+      "question_id": "q_chunk_13_0",
+      "response_text": "1. What is the primary focus of the text\u2019s description of the \u201cfree element\u201d beneath the water?\n2. What specific detail about whale behavior does Montgomery\u2019s World emphasize?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.20190589799312875,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935152.805789,
+      "question_id": "q_chunk_13_1",
+      "response_text": "1. What is the primary focus of the text\u2019s description of the \u201cfree element\u201d beneath the water?\n2. What specific detail about whale behavior does Montgomery\u2019s World emphasize?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.19590757900004974,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935153.198245,
+      "question_id": "q_chunk_14_0",
+      "response_text": "1. What does Cooper\u2019s Pilot describe as \u201craal oil-butt\u201d?\n2. What is the primary focus of the text concerning the sperm whale?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.19590757900004974,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935153.1982477,
+      "question_id": "q_chunk_14_1",
+      "response_text": "1. What does Cooper\u2019s Pilot describe as \u201craal oil-butt\u201d?\n2. What is the primary focus of the text concerning the sperm whale?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2176326059998246,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935153.634261,
+      "question_id": "q_chunk_15_0",
+      "response_text": "1. What is the primary focus of the text?\n2. What is the significance of the \u201cshoal of Sperm Whales\u201d as described in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2176326059998246,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935153.6342692,
+      "question_id": "q_chunk_15_1",
+      "response_text": "1. What is the primary focus of the text?\n2. What is the significance of the \u201cshoal of Sperm Whales\u201d as described in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.19221530049981084,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935154.0194616,
+      "question_id": "q_chunk_16_0",
+      "response_text": "1.  What island was the whaling ship Globe located on?\n2.  What was the primary purpose of Mr. Webster\u2019s speech in the U.S. Senate?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.19221530049981084,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935154.0194657,
+      "question_id": "q_chunk_16_1",
+      "response_text": "1.  What island was the whaling ship Globe located on?\n2.  What was the primary purpose of Mr. Webster\u2019s speech in the U.S. Senate?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.18005174800055102,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935154.380274,
+      "question_id": "q_chunk_17_0",
+      "response_text": "1.  What is the primary focus of the text\u2019s narrative?\n2.  What detail about the whale is emphasized in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.18005174800055102,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935154.3802786,
+      "question_id": "q_chunk_17_1",
+      "response_text": "1.  What is the primary focus of the text\u2019s narrative?\n2.  What detail about the whale is emphasized in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1779597919958178,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935154.7370026,
+      "question_id": "q_chunk_18_0",
+      "response_text": "1. What is Ishmael\u2019s primary motivation for sailing around the world?\n2. What does Ishmael do when he feels gloomy about the world?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1779597919958178,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935154.7370071,
+      "question_id": "q_chunk_18_1",
+      "response_text": "1. What is Ishmael\u2019s primary motivation for sailing around the world?\n2. What does Ishmael do when he feels gloomy about the world?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.17542391499591758,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935155.0886095,
+      "question_id": "q_chunk_19_0",
+      "response_text": "1.  What is Cato\u2019s substitute for a pistol and ball?\n2.  What is the primary characteristic of the Manhattoes city?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.17542391499591758,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935155.0886137,
+      "question_id": "q_chunk_19_1",
+      "response_text": "1.  What is Cato\u2019s substitute for a pistol and ball?\n2.  What is the primary characteristic of the Manhattoes city?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.21625316949939588,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935155.5218682,
+      "question_id": "q_chunk_20_0",
+      "response_text": "1.  What does the text suggest is the primary cause of the people\u2019s restlessness?\n2.  What does the artist\u2019s landscape primarily depict?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.21625316949939588,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935155.521872,
+      "question_id": "q_chunk_20_1",
+      "response_text": "1.  What does the text suggest is the primary cause of the people\u2019s restlessness?\n2.  What does the artist\u2019s landscape primarily depict?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.17801338250137633,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935155.8784814,
+      "question_id": "q_chunk_21_0",
+      "response_text": "1.  What is the central theme of the text?\n2.  What does the text suggest about the significance of the image of Narcissus?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.17801338250137633,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935155.8784854,
+      "question_id": "q_chunk_21_1",
+      "response_text": "1.  What is the central theme of the text?\n2.  What does the text suggest about the significance of the image of Narcissus?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.18609900450246641,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935156.2514184,
+      "question_id": "q_chunk_22_0",
+      "response_text": "1. What does the speaker mean by \u201ca passenger\u201d?\n2. What is the speaker\u2019s primary concern when considering sea travel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.18609900450246641,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935156.2514226,
+      "question_id": "q_chunk_22_1",
+      "response_text": "1. What does the speaker mean by \u201ca passenger\u201d?\n2. What is the speaker\u2019s primary concern when considering sea travel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.22441200749744894,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935156.7010376,
+      "question_id": "q_chunk_23_0",
+      "response_text": "1.  What is the primary reason the speaker feels the transition from schoolmaster to sailor is unpleasant?\n2.  What does the speaker suggest about the relationship between passengers and paying for services?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.22441200749744894,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935156.7010434,
+      "question_id": "q_chunk_23_1",
+      "response_text": "1.  What is the primary reason the speaker feels the transition from schoolmaster to sailor is unpleasant?\n2.  What does the speaker suggest about the relationship between passengers and paying for services?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.20009182149806293,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935157.1018944,
+      "question_id": "q_chunk_24_0",
+      "response_text": "1.  What is the text\u2019s central argument regarding money?\n2.  What is the significance of the whaling voyage in the context of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.20009182149806293,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935157.1018996,
+      "question_id": "q_chunk_24_1",
+      "response_text": "1.  What is the text\u2019s central argument regarding money?\n2.  What is the significance of the whaling voyage in the context of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.21211221200064756,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935157.5269208,
+      "question_id": "q_chunk_25_0",
+      "response_text": "1.  What was the main purpose of the whaling voyage as described in the text?\n2.  What is the primary motivation for the whaling voyage, according to the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.21211221200064756,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935157.5269253,
+      "question_id": "q_chunk_25_1",
+      "response_text": "1.  What was the main purpose of the whaling voyage as described in the text?\n2.  What is the primary motivation for the whaling voyage, according to the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.16013526100141462,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935157.8479657,
+      "question_id": "q_chunk_26_0",
+      "response_text": "1. What was the title of the book?\n2. When was the book released?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.16013526100141462,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935157.8479698,
+      "question_id": "q_chunk_26_1",
+      "response_text": "1. What was the title of the book?\n2. When was the book released?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.19765142999676755,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935158.2439308,
+      "question_id": "q_chunk_27_0",
+      "response_text": "1.  What was the primary purpose of the first voyage?\n2.  What details did Ishmael observe about the streets?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.19765142999676755,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935158.2439337,
+      "question_id": "q_chunk_27_1",
+      "response_text": "1.  What was the primary purpose of the first voyage?\n2.  What details did Ishmael observe about the streets?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.16774462450121064,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935158.5800486,
+      "question_id": "q_chunk_28_0",
+      "response_text": "1. What was the narrator\u2019s initial plan?\n2. What does the text suggest about the setting?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.16774462450121064,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935158.5800514,
+      "question_id": "q_chunk_28_1",
+      "response_text": "1. What was the narrator\u2019s initial plan?\n2. What does the text suggest about the setting?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.17228531000000658,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935158.9253356,
+      "question_id": "q_chunk_29_0",
+      "response_text": "1. What is the significance of the \u201cspouter\u201d name?\n2. What details does the narrator find peculiar about the place?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.17228531000000658,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935158.9253395,
+      "question_id": "q_chunk_29_1",
+      "response_text": "1. What is the significance of the \u201cspouter\u201d name?\n2. What details does the narrator find peculiar about the place?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.16600914599985117,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935159.2580905,
+      "question_id": "q_chunk_30_0",
+      "response_text": "1.  What does the old writer mean by \u201cwindows\u201d?\n2.  What does Lazarus do to try and keep warm?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.16600914599985117,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935159.2580945,
+      "question_id": "q_chunk_30_1",
+      "response_text": "1.  What does the old writer mean by \u201cwindows\u201d?\n2.  What does Lazarus do to try and keep warm?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.18574949850153644,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935159.6303825,
+      "question_id": "q_chunk_31_0",
+      "response_text": "1.  What is the primary reason for the group\u2019s journey?\n2.  What is the \u201cSpouter\u201d known for?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.18574949850153644,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935159.6303864,
+      "question_id": "q_chunk_31_1",
+      "response_text": "1.  What is the primary reason for the group\u2019s journey?\n2.  What is the \u201cSpouter\u201d known for?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.19727903350576526,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935160.0256991,
+      "question_id": "q_chunk_32_0",
+      "response_text": "1. What was the initial feeling the author experienced when encountering the painting?\n2. What specific details are included in the painting that evoke a sense of horror?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.19727903350576526,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935160.0257032,
+      "question_id": "q_chunk_32_1",
+      "response_text": "1. What was the initial feeling the author experienced when encountering the painting?\n2. What specific details are included in the painting that evoke a sense of horror?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2010326354939025,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935160.4285831,
+      "question_id": "q_chunk_33_0",
+      "response_text": "1.  What type of weapons were the rusty whaling lances and harpoons?\n2.  What was the significance of the iron entering the whale\u2019s tail?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2010326354939025,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935160.4285872,
+      "question_id": "q_chunk_33_1",
+      "response_text": "1.  What type of weapons were the rusty whaling lances and harpoons?\n2.  What was the significance of the iron entering the whale\u2019s tail?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1752633500000229,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935160.779878,
+      "question_id": "q_chunk_34_0",
+      "response_text": "1. What is the primary focus of the text?\n2. What is the landlord\u2019s attitude toward the characters?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1752633500000229,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935160.779882,
+      "question_id": "q_chunk_34_1",
+      "response_text": "1. What is the primary focus of the text?\n2. What is the landlord\u2019s attitude toward the characters?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.21038203599891858,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935161.201334,
+      "question_id": "q_chunk_35_0",
+      "response_text": "1.  What was the weather like at the meal?\n2.  What did the landlord expect to happen with the harpooneer?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.21038203599891858,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763935161.2013388,
+      "question_id": "q_chunk_35_1",
+      "response_text": "1.  What was the weather like at the meal?\n2.  What did the landlord expect to happen with the harpooneer?"
+    }
+  ]
+}

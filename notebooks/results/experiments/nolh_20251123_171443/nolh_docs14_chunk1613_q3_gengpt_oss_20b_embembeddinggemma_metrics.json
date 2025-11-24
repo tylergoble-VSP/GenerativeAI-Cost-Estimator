@@ -1,0 +1,763 @@
+{
+  "export_timestamp": "2025-11-23T18:34:15.626694",
+  "export_timestamp_readable": "2025-11-23 18:34:15",
+  "num_metrics": 56,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.3929384619987104,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763922772.2511988,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.42802501100231893,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763922772.6795015,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.4338257049967069,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763922773.1136057,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.2905641130055301,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763922773.4044678,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.43321234300674405,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763922773.837957,
+      "chunk_id": "chunk_4",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.2780008160043508,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763922774.1162298,
+      "chunk_id": "chunk_5",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.2220139599958202,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763922774.3385372,
+      "chunk_id": "chunk_6",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.27000700900680386,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763922774.6088266,
+      "chunk_id": "chunk_7",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.2362010549986735,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763922774.845289,
+      "chunk_id": "chunk_8",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.19153184299648274,
+      "token_counts": {
+        "input_tokens": 460,
+        "actual_input_tokens": 460,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763922775.037091,
+      "chunk_id": "chunk_9",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.21611182500782888,
+      "token_counts": {
+        "input_tokens": 451,
+        "actual_input_tokens": 451,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763922775.2534804,
+      "chunk_id": "chunk_10",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.2240261270053452,
+      "token_counts": {
+        "input_tokens": 465,
+        "actual_input_tokens": 465,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763922775.4777875,
+      "chunk_id": "chunk_11",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.2728025719989091,
+      "token_counts": {
+        "input_tokens": 508,
+        "actual_input_tokens": 508,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763922775.7508843,
+      "chunk_id": "chunk_12",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.2469547920045443,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763922775.9981222,
+      "chunk_id": "chunk_13",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.9733220463337298,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922784.9189599,
+      "question_id": "q_chunk_0_0",
+      "response_text": "Who is credited as the author of the eBook according to the Project Gutenberg header?  \nWhat is the most recent update date listed for the Moby Dick eBook on Project Gutenberg?  \nHow many chapters are listed in the contents of the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.9733220463337298,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922784.9189644,
+      "question_id": "q_chunk_0_1",
+      "response_text": "Who is credited as the author of the eBook according to the Project Gutenberg header?  \nWhat is the most recent update date listed for the Moby Dick eBook on Project Gutenberg?  \nHow many chapters are listed in the contents of the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.9733220463337298,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922784.9189653,
+      "question_id": "q_chunk_0_2",
+      "response_text": "Who is credited as the author of the eBook according to the Project Gutenberg header?  \nWhat is the most recent update date listed for the Moby Dick eBook on Project Gutenberg?  \nHow many chapters are listed in the contents of the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.726069809330511,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922790.098067,
+      "question_id": "q_chunk_1_0",
+      "response_text": "Which chapters cover the physical description and depiction of whales in various media?  \nWhat is the thematic focus of chapter 41 in this list?  \nWhich chapter refers to a character named Fedallah and what role does he play?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.726069809330511,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922790.098073,
+      "question_id": "q_chunk_1_1",
+      "response_text": "Which chapters cover the physical description and depiction of whales in various media?  \nWhat is the thematic focus of chapter 41 in this list?  \nWhich chapter refers to a character named Fedallah and what role does he play?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.726069809330511,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922790.0980752,
+      "question_id": "q_chunk_1_2",
+      "response_text": "Which chapters cover the physical description and depiction of whales in various media?  \nWhat is the thematic focus of chapter 41 in this list?  \nWhich chapter refers to a character named Fedallah and what role does he play?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.186795518330958,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922793.659479,
+      "question_id": "q_chunk_2_0",
+      "response_text": "Which chapter title reflects a key moment in the Pequod\u2019s journey that involves a confrontation with another vessel?  \nWhat does Chapter 103 \u201cMeasurement of The Whale\u2019s Skeleton\u201d suggest about the scientific interest in whales during the novel\u2019s era?  \nHow does the recurring motif of \u201cThe Pequod Meets \u2026\u201d throughout the chapter list hint at the narrative\u2019s structure and its focus on encounters?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.186795518330958,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922793.659487,
+      "question_id": "q_chunk_2_1",
+      "response_text": "Which chapter title reflects a key moment in the Pequod\u2019s journey that involves a confrontation with another vessel?  \nWhat does Chapter 103 \u201cMeasurement of The Whale\u2019s Skeleton\u201d suggest about the scientific interest in whales during the novel\u2019s era?  \nHow does the recurring motif of \u201cThe Pequod Meets \u2026\u201d throughout the chapter list hint at the narrative\u2019s structure and its focus on encounters?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.186795518330958,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922793.6594887,
+      "question_id": "q_chunk_2_2",
+      "response_text": "Which chapter title reflects a key moment in the Pequod\u2019s journey that involves a confrontation with another vessel?  \nWhat does Chapter 103 \u201cMeasurement of The Whale\u2019s Skeleton\u201d suggest about the scientific interest in whales during the novel\u2019s era?  \nHow does the recurring motif of \u201cThe Pequod Meets \u2026\u201d throughout the chapter list hint at the narrative\u2019s structure and its focus on encounters?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.120499441996799,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922800.0220156,
+      "question_id": "q_chunk_3_0",
+      "response_text": "Which chapter number corresponds to \u201cThe Pequod Meets The Rachel\u201d?  \nWhich two projects contributed to the combined eText version described in the transcriber\u2019s notes?  \nAccording to the supplied etymology section, what linguistic root is suggested as the source of the word \u201cwhale\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.120499441996799,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922800.0220227,
+      "question_id": "q_chunk_3_1",
+      "response_text": "Which chapter number corresponds to \u201cThe Pequod Meets The Rachel\u201d?  \nWhich two projects contributed to the combined eText version described in the transcriber\u2019s notes?  \nAccording to the supplied etymology section, what linguistic root is suggested as the source of the word \u201cwhale\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.120499441996799,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922800.0220249,
+      "question_id": "q_chunk_3_2",
+      "response_text": "Which chapter number corresponds to \u201cThe Pequod Meets The Rachel\u201d?  \nWhich two projects contributed to the combined eText version described in the transcriber\u2019s notes?  \nAccording to the supplied etymology section, what linguistic root is suggested as the source of the word \u201cwhale\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.8230099766660715,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922805.492032,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What linguistic roots are cited as the origin of the English word \"whale\"?  \nWhich languages listed in the text suggest that the whale's name derives from notions of rolling or wallowing?  \nWhy does the author warn readers not to accept the whale statements in the extracts as definitive cetology?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.8230099766660715,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922805.4920394,
+      "question_id": "q_chunk_4_1",
+      "response_text": "What linguistic roots are cited as the origin of the English word \"whale\"?  \nWhich languages listed in the text suggest that the whale's name derives from notions of rolling or wallowing?  \nWhy does the author warn readers not to accept the whale statements in the extracts as definitive cetology?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.8230099766660715,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922805.4920409,
+      "question_id": "q_chunk_4_2",
+      "response_text": "What linguistic roots are cited as the origin of the English word \"whale\"?  \nWhich languages listed in the text suggest that the whale's name derives from notions of rolling or wallowing?  \nWhy does the author warn readers not to accept the whale statements in the extracts as definitive cetology?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.6021737903356552,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922810.2995222,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the significance of the repeated mention of Leviathan across the various biblical excerpts in the passage?  \nHow does the speaker\u2019s tone toward the \u201cSub\u2011Sub\u201d reflect the overall mood of the text?  \nIn what ways does the passage use biblical imagery to convey its message about worldly pursuits and gratitude?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.6021737903356552,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922810.2995346,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the significance of the repeated mention of Leviathan across the various biblical excerpts in the passage?  \nHow does the speaker\u2019s tone toward the \u201cSub\u2011Sub\u201d reflect the overall mood of the text?  \nIn what ways does the passage use biblical imagery to convey its message about worldly pursuits and gratitude?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.6021737903356552,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922810.2995365,
+      "question_id": "q_chunk_5_2",
+      "response_text": "What is the significance of the repeated mention of Leviathan across the various biblical excerpts in the passage?  \nHow does the speaker\u2019s tone toward the \u201cSub\u2011Sub\u201d reflect the overall mood of the text?  \nIn what ways does the passage use biblical imagery to convey its message about worldly pursuits and gratitude?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.1225965560006443,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922816.6683018,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What does Isaiah mean by describing Leviathan as \u201csore, great, and strong sword\u201d?  \nHow do the descriptions of sea monsters in the text reflect the cultural attitudes toward whales in the medieval period?  \nWhich authors are quoted in the passage, and what unique perspective does each bring to the portrayal of marine giants?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.1225965560006443,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922816.6683116,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What does Isaiah mean by describing Leviathan as \u201csore, great, and strong sword\u201d?  \nHow do the descriptions of sea monsters in the text reflect the cultural attitudes toward whales in the medieval period?  \nWhich authors are quoted in the passage, and what unique perspective does each bring to the portrayal of marine giants?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.1225965560006443,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922816.6683133,
+      "question_id": "q_chunk_6_2",
+      "response_text": "What does Isaiah mean by describing Leviathan as \u201csore, great, and strong sword\u201d?  \nHow do the descriptions of sea monsters in the text reflect the cultural attitudes toward whales in the medieval period?  \nWhich authors are quoted in the passage, and what unique perspective does each bring to the portrayal of marine giants?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.747360329667572,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922821.9113946,
+      "question_id": "q_chunk_7_0",
+      "response_text": "Which quote in the passage describes a whale\u2019s liver as weighing two cartloads?  \nAccording to Montaigne, what happens to sea\u2011gudgeons when they enter a whale\u2019s mouth?  \nWhich author refers to the whale as a monstrous bulk that yields an incredible quantity of oil?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.747360329667572,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922821.9114015,
+      "question_id": "q_chunk_7_1",
+      "response_text": "Which quote in the passage describes a whale\u2019s liver as weighing two cartloads?  \nAccording to Montaigne, what happens to sea\u2011gudgeons when they enter a whale\u2019s mouth?  \nWhich author refers to the whale as a monstrous bulk that yields an incredible quantity of oil?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.747360329667572,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922821.9114032,
+      "question_id": "q_chunk_7_2",
+      "response_text": "Which quote in the passage describes a whale\u2019s liver as weighing two cartloads?  \nAccording to Montaigne, what happens to sea\u2011gudgeons when they enter a whale\u2019s mouth?  \nWhich author refers to the whale as a monstrous bulk that yields an incredible quantity of oil?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.2954271623311797,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922828.7984936,
+      "question_id": "q_chunk_8_0",
+      "response_text": "What recurring motif connects the quoted passages about leviathans and whales across the different authors in the text?  \nHow does the portrayal of leviathan differ between Hobbes\u2019s political analogy and the literary descriptions from Paradise Lost and Pilgrim\u2019s Progress?  \nIn what ways do the quotations illustrate the changing human perception of whales from mythical giants to natural creatures?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.2954271623311797,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922828.7984967,
+      "question_id": "q_chunk_8_1",
+      "response_text": "What recurring motif connects the quoted passages about leviathans and whales across the different authors in the text?  \nHow does the portrayal of leviathan differ between Hobbes\u2019s political analogy and the literary descriptions from Paradise Lost and Pilgrim\u2019s Progress?  \nIn what ways do the quotations illustrate the changing human perception of whales from mythical giants to natural creatures?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.2954271623311797,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922828.7984974,
+      "question_id": "q_chunk_8_2",
+      "response_text": "What recurring motif connects the quoted passages about leviathans and whales across the different authors in the text?  \nHow does the portrayal of leviathan differ between Hobbes\u2019s political analogy and the literary descriptions from Paradise Lost and Pilgrim\u2019s Progress?  \nIn what ways do the quotations illustrate the changing human perception of whales from mythical giants to natural creatures?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.8755201710009715,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922834.42583,
+      "question_id": "q_chunk_9_0",
+      "response_text": "Which authors describe encounters with whales in the 17th century, and what regions do they focus on?  \nHow do the accounts in the text characterize the physical size and peculiar behaviors of whales?  \nWhat unique anecdotes about whale hunting or encounters are mentioned across the different sources?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.8755201710009715,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922834.4258342,
+      "question_id": "q_chunk_9_1",
+      "response_text": "Which authors describe encounters with whales in the 17th century, and what regions do they focus on?  \nHow do the accounts in the text characterize the physical size and peculiar behaviors of whales?  \nWhat unique anecdotes about whale hunting or encounters are mentioned across the different sources?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.8755201710009715,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922834.425835,
+      "question_id": "q_chunk_9_2",
+      "response_text": "Which authors describe encounters with whales in the 17th century, and what regions do they focus on?  \nHow do the accounts in the text characterize the physical size and peculiar behaviors of whales?  \nWhat unique anecdotes about whale hunting or encounters are mentioned across the different sources?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.5739290620016013,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922842.1485977,
+      "question_id": "q_chunk_10_0",
+      "response_text": "In which year was Richard Strafford\u2019s letter about the Sperma\u2011ceti whale published?  \nWho wrote the line \u201cIf you should write a fable for little fishes, you would make them speak like great whales\u201d?  \nAccording to Ulloa\u2019s account, what unpleasant effect does the breath of a whale cause?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.5739290620016013,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922842.1486056,
+      "question_id": "q_chunk_10_1",
+      "response_text": "In which year was Richard Strafford\u2019s letter about the Sperma\u2011ceti whale published?  \nWho wrote the line \u201cIf you should write a fable for little fishes, you would make them speak like great whales\u201d?  \nAccording to Ulloa\u2019s account, what unpleasant effect does the breath of a whale cause?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.5739290620016013,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922842.1486077,
+      "question_id": "q_chunk_10_2",
+      "response_text": "In which year was Richard Strafford\u2019s letter about the Sperma\u2011ceti whale published?  \nWho wrote the line \u201cIf you should write a fable for little fishes, you would make them speak like great whales\u201d?  \nAccording to Ulloa\u2019s account, what unpleasant effect does the breath of a whale cause?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0646019369984667,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922845.3433928,
+      "question_id": "q_chunk_11_0",
+      "response_text": "Which historical figure is credited with describing a dead whale that was initially mistaken for a rock?  \nAccording to the excerpts, what items were reportedly carried on boats to deter whales?  \nWhat legal claim regarding whale rights is attributed to Blackstone in the passage?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0646019369984667,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922845.3433983,
+      "question_id": "q_chunk_11_1",
+      "response_text": "Which historical figure is credited with describing a dead whale that was initially mistaken for a rock?  \nAccording to the excerpts, what items were reportedly carried on boats to deter whales?  \nWhat legal claim regarding whale rights is attributed to Blackstone in the passage?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0646019369984667,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922845.3434,
+      "question_id": "q_chunk_11_2",
+      "response_text": "Which historical figure is credited with describing a dead whale that was initially mistaken for a rock?  \nAccording to the excerpts, what items were reportedly carried on boats to deter whales?  \nWhat legal claim regarding whale rights is attributed to Blackstone in the passage?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2381002246644737,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922849.0587459,
+      "question_id": "q_chunk_12_0",
+      "response_text": "What common theme ties together the disparate literary and scientific quotations about whales in the passage?  \nHow does John Hunter\u2019s description of the whale\u2019s blood compare to Paley\u2019s theological comparison of whale blood to water at London Bridge?  \nWhich author explicitly describes a whale as \u201ca mammiferous animal without hind feet\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2381002246644737,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922849.0587523,
+      "question_id": "q_chunk_12_1",
+      "response_text": "What common theme ties together the disparate literary and scientific quotations about whales in the passage?  \nHow does John Hunter\u2019s description of the whale\u2019s blood compare to Paley\u2019s theological comparison of whale blood to water at London Bridge?  \nWhich author explicitly describes a whale as \u201ca mammiferous animal without hind feet\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2381002246644737,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922849.0587542,
+      "question_id": "q_chunk_12_2",
+      "response_text": "What common theme ties together the disparate literary and scientific quotations about whales in the passage?  \nHow does John Hunter\u2019s description of the whale\u2019s blood compare to Paley\u2019s theological comparison of whale blood to water at London Bridge?  \nWhich author explicitly describes a whale as \u201ca mammiferous animal without hind feet\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.1867512136668665,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922855.6200187,
+      "question_id": "q_chunk_13_0",
+      "response_text": "What thematic connections can be identified among the various whale-related quotations presented in the text?  \nHow does the linguistic style differ across the excerpts, and what might this indicate about their respective authors or time periods?  \nIn what ways do the quoted passages reflect contemporary human attitudes toward marine life and the environment?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.1867512136668665,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922855.6200233,
+      "question_id": "q_chunk_13_1",
+      "response_text": "What thematic connections can be identified among the various whale-related quotations presented in the text?  \nHow does the linguistic style differ across the excerpts, and what might this indicate about their respective authors or time periods?  \nIn what ways do the quoted passages reflect contemporary human attitudes toward marine life and the environment?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.1867512136668665,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763922855.6200252,
+      "question_id": "q_chunk_13_2",
+      "response_text": "What thematic connections can be identified among the various whale-related quotations presented in the text?  \nHow does the linguistic style differ across the excerpts, and what might this indicate about their respective authors or time periods?  \nIn what ways do the quoted passages reflect contemporary human attitudes toward marine life and the environment?"
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "export_timestamp": "2025-11-23T20:16:59.770697",
+  "export_timestamp_readable": "2025-11-23 20:16:59",
+  "num_metrics": 22,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.4338896770059364,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763928940.2665825,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.2053053730051033,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763928941.4721437,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.3018063420022372,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763928942.7742221,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.145527715998469,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763928943.920029,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.9996397220093058,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763928944.919947,
+      "chunk_id": "chunk_4",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0148029230040265,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763928945.9350247,
+      "chunk_id": "chunk_5",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0451797889982117,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763928946.9804769,
+      "chunk_id": "chunk_6",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.025078061997192,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763928948.0059814,
+      "chunk_id": "chunk_7",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.024278344004415,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763928949.0306823,
+      "chunk_id": "chunk_8",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0378647350007668,
+      "token_counts": {
+        "input_tokens": 460,
+        "actual_input_tokens": 460,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763928950.0689523,
+      "chunk_id": "chunk_9",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.033134372002678,
+      "token_counts": {
+        "input_tokens": 451,
+        "actual_input_tokens": 451,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763928951.1023502,
+      "chunk_id": "chunk_10",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 25.644666015999974,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928976.7479107,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date of the Project Gutenberg eBook of Moby Dick?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.440505395992659,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928981.189118,
+      "question_id": "q_chunk_1_0",
+      "response_text": "Which chapter title directly follows \u201cThe Battering\u2011Ram\u201d in the provided list?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.041850829991745,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928985.2316725,
+      "question_id": "q_chunk_2_0",
+      "response_text": "Which chapter title references Ahab\u2019s leg?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.5943824280111585,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928988.8268695,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the significance of the repeated chapter titles referring to specific ship parts and events, such as \u201cThe Forecastle Bulwarks\u201d and \u201cThe Chase\u2014Third Day,\u201d in the structure of this text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.141638026005239,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928992.969243,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What is the significance of the term \u201cSub-Sub\u2011Librarian\u201d in the context of the passage?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.738073472995893,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763928997.7081623,
+      "question_id": "q_chunk_5_0",
+      "response_text": "Which biblical books are quoted in the extracts that reference Leviathan?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.694386913994094,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929003.4032607,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What creature is referred to as the \u201cpiercing serpent\u201d that the Lord will punish with his sword in Isaiah?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.002843998998287,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929007.4070585,
+      "question_id": "q_chunk_7_0",
+      "response_text": "What common theme connects the various historical references to whales and spermaceti in the quoted passages?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.234931583996513,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929010.6428287,
+      "question_id": "q_chunk_8_0",
+      "response_text": "What literary sources are quoted in the passage to depict Leviathan and whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.4158506259991555,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929016.0595791,
+      "question_id": "q_chunk_9_0",
+      "response_text": "Which 17th\u2011century source mentions a whale that was \u201cwhite all over\u201d near Spitzbergen?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.7077590730041265,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929019.7680497,
+      "question_id": "q_chunk_10_0",
+      "response_text": "What does Richard Strafford\u2019s claim about attempting to master and kill a Sperma\u2011ceti whale reveal about contemporary attitudes toward the size and ferocity of whales?"
+    }
+  ]
+}

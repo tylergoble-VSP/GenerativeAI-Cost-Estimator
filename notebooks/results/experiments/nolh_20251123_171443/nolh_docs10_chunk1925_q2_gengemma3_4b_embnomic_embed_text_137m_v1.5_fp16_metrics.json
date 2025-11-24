@@ -1,0 +1,407 @@
+{
+  "export_timestamp": "2025-11-23T22:25:19.873647",
+  "export_timestamp_readable": "2025-11-23 22:25:19",
+  "num_metrics": 30,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.7905921759956982,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936710.6198075,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.05393864899815526,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936710.674013,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.03952360700350255,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936710.7138178,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.027972137002507225,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936710.7420661,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.025475001995800994,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936710.7678192,
+      "chunk_id": "chunk_4",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.02592761600681115,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936710.7940319,
+      "chunk_id": "chunk_5",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.027251104009337723,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936710.8215532,
+      "chunk_id": "chunk_6",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.05112299798929598,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936710.8729708,
+      "chunk_id": "chunk_7",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.048542197997448966,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936710.9218028,
+      "chunk_id": "chunk_8",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.025745837003341876,
+      "token_counts": {
+        "input_tokens": 460,
+        "actual_input_tokens": 460,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936710.9478154,
+      "chunk_id": "chunk_9",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2117638120034826,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936713.372131,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date of this eBook?\nWhat is the primary focus of the text regarding whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2117638120034826,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936713.3721373,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the release date of this eBook?\nWhat is the primary focus of the text regarding whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.3597083679997013,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936714.0923471,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of \"Enter Ahab; to Him, Stubb\"?\nWhat are some of the different ways whales are depicted in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.3597083679997013,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936714.092352,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of \"Enter Ahab; to Him, Stubb\"?\nWhat are some of the different ways whales are depicted in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.3825253605027683,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936714.8583076,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the significance of the title \"The Right Whale\u2019s Head\"?\nWhat are some of the different activities or trades mentioned within the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.3825253605027683,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936714.8583143,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the significance of the title \"The Right Whale\u2019s Head\"?\nWhat are some of the different activities or trades mentioned within the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2816641500030528,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936715.4225557,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the origin of the word \"whale\"?\nWhat chapters are detailed in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2816641500030528,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936715.4225605,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the origin of the word \"whale\"?\nWhat chapters are detailed in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.3155705114986631,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936716.0544446,
+      "question_id": "q_chunk_4_0",
+      "response_text": "From what languages does the word \u201cwhale\u201d derive its meaning?\nWhat is the primary purpose of the extracts presented in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.3155705114986631,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936716.0544548,
+      "question_id": "q_chunk_4_1",
+      "response_text": "From what languages does the word \u201cwhale\u201d derive its meaning?\nWhat is the primary purpose of the extracts presented in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.3450443865003763,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936716.7453268,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the primary purpose of the extracts presented in the text?\nWhat is the tone of the commentator's address to the \"Sub-Subs\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.3450443865003763,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936716.745332,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the primary purpose of the extracts presented in the text?\nWhat is the tone of the commentator's address to the \"Sub-Subs\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.3498147895006696,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936717.4456737,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What is the description of the whale's behavior as it approached the narrator?\nWhat was the purpose of the whale hunts described in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.3498147895006696,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936717.4456768,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What is the description of the whale's behavior as it approached the narrator?\nWhat was the purpose of the whale hunts described in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.4036342199979117,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936718.253849,
+      "question_id": "q_chunk_7_0",
+      "response_text": "What is the significance of the sea-gudgeon\u2019s behavior within the whale\u2019s mouth?\nHow is the whale described in terms of its size and potential impact on the ocean?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.4036342199979117,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936718.2538564,
+      "question_id": "q_chunk_7_1",
+      "response_text": "What is the significance of the sea-gudgeon\u2019s behavior within the whale\u2019s mouth?\nHow is the whale described in terms of its size and potential impact on the ocean?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.3665284429953317,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936718.9878669,
+      "question_id": "q_chunk_8_0",
+      "response_text": "What is the significance of the Leviathan as described across multiple texts?\n\nHow do different authors conceptualize the relationship between the whale and the concept of a \u201cCommonwealth\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.3665284429953317,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936718.9878712,
+      "question_id": "q_chunk_8_1",
+      "response_text": "What is the significance of the Leviathan as described across multiple texts?\n\nHow do different authors conceptualize the relationship between the whale and the concept of a \u201cCommonwealth\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.44001441150612663,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936719.8688035,
+      "question_id": "q_chunk_9_0",
+      "response_text": "What was observed regarding the behavior of whales in Schouten\u2019s Sixth Circumnavigation?\nHow did sailors react to the presence of large whale populations, as described in Strafford\u2019s Letter from the Bermudas?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.44001441150612663,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936719.8688097,
+      "question_id": "q_chunk_9_1",
+      "response_text": "What was observed regarding the behavior of whales in Schouten\u2019s Sixth Circumnavigation?\nHow did sailors react to the presence of large whale populations, as described in Strafford\u2019s Letter from the Bermudas?"
+    }
+  ]
+}

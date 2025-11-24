@@ -1,0 +1,1987 @@
+{
+  "export_timestamp": "2025-11-23T21:20:43.901473",
+  "export_timestamp_readable": "2025-11-23 21:20:43",
+  "num_metrics": 144,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.372569781000493,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763932645.151074,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.2167633270000806,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763932646.3681018,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.2897342029900756,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763932647.6581154,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.1546738389879465,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763932648.813068,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0338826200022595,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763932649.8472297,
+      "chunk_id": "chunk_4",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.042945974986651,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763932650.890468,
+      "chunk_id": "chunk_5",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0455952549964422,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763932651.9363422,
+      "chunk_id": "chunk_6",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0337180289934622,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763932652.970362,
+      "chunk_id": "chunk_7",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0543153640028322,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763932654.0249572,
+      "chunk_id": "chunk_8",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0194782940088771,
+      "token_counts": {
+        "input_tokens": 460,
+        "actual_input_tokens": 460,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763932655.0447102,
+      "chunk_id": "chunk_9",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0170426779950503,
+      "token_counts": {
+        "input_tokens": 451,
+        "actual_input_tokens": 451,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763932656.0620205,
+      "chunk_id": "chunk_10",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0233213000028627,
+      "token_counts": {
+        "input_tokens": 465,
+        "actual_input_tokens": 465,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763932657.085636,
+      "chunk_id": "chunk_11",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.060019362004823,
+      "token_counts": {
+        "input_tokens": 508,
+        "actual_input_tokens": 508,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763932658.1459556,
+      "chunk_id": "chunk_12",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0320391209970694,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763932659.1782885,
+      "chunk_id": "chunk_13",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0384900140052196,
+      "token_counts": {
+        "input_tokens": 497,
+        "actual_input_tokens": 497,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763932660.2170591,
+      "chunk_id": "chunk_14",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.1097966349916533,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763932661.3271456,
+      "chunk_id": "chunk_15",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.102272639007424,
+      "token_counts": {
+        "input_tokens": 508,
+        "actual_input_tokens": 508,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763932662.4297147,
+      "chunk_id": "chunk_16",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.9104079829994589,
+      "token_counts": {
+        "input_tokens": 441,
+        "actual_input_tokens": 441,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763932663.3403845,
+      "chunk_id": "chunk_17",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7320510752844192,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932675.4658072,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nWhen was the eBook released?\nWhat organization distributes this eBook?\nWhat should readers outside the United States do before using this eBook?\nWhat is listed as being supplied by a Sub-Sub-Librarian?\nWhat is the first chapter of the book called?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7320510752844192,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932675.4658124,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nWhen was the eBook released?\nWhat organization distributes this eBook?\nWhat should readers outside the United States do before using this eBook?\nWhat is listed as being supplied by a Sub-Sub-Librarian?\nWhat is the first chapter of the book called?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7320510752844192,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932675.4658146,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nWhen was the eBook released?\nWhat organization distributes this eBook?\nWhat should readers outside the United States do before using this eBook?\nWhat is listed as being supplied by a Sub-Sub-Librarian?\nWhat is the first chapter of the book called?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7320510752844192,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932675.4658158,
+      "question_id": "q_chunk_0_3",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nWhen was the eBook released?\nWhat organization distributes this eBook?\nWhat should readers outside the United States do before using this eBook?\nWhat is listed as being supplied by a Sub-Sub-Librarian?\nWhat is the first chapter of the book called?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7320510752844192,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932675.465817,
+      "question_id": "q_chunk_0_4",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nWhen was the eBook released?\nWhat organization distributes this eBook?\nWhat should readers outside the United States do before using this eBook?\nWhat is listed as being supplied by a Sub-Sub-Librarian?\nWhat is the first chapter of the book called?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7320510752844192,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932675.4658186,
+      "question_id": "q_chunk_0_5",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nWhen was the eBook released?\nWhat organization distributes this eBook?\nWhat should readers outside the United States do before using this eBook?\nWhat is listed as being supplied by a Sub-Sub-Librarian?\nWhat is the first chapter of the book called?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7320510752844192,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932675.4658198,
+      "question_id": "q_chunk_0_6",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nWhen was the eBook released?\nWhat organization distributes this eBook?\nWhat should readers outside the United States do before using this eBook?\nWhat is listed as being supplied by a Sub-Sub-Librarian?\nWhat is the first chapter of the book called?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0860235247153989,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932683.0687299,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What character is introduced at the very beginning of the provided text?\nWhich chapter focuses on the topic of cetology?\nWhat is the subject of Chapter 55?\nWhat does Chapter 66 describe?\nWhat is the central topic of Chapter 74?\nIn which chapter is Fedallah mentioned?\nWhat is the focus of Chapter 71?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0860235247153989,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932683.0687344,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What character is introduced at the very beginning of the provided text?\nWhich chapter focuses on the topic of cetology?\nWhat is the subject of Chapter 55?\nWhat does Chapter 66 describe?\nWhat is the central topic of Chapter 74?\nIn which chapter is Fedallah mentioned?\nWhat is the focus of Chapter 71?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0860235247153989,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932683.0687356,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What character is introduced at the very beginning of the provided text?\nWhich chapter focuses on the topic of cetology?\nWhat is the subject of Chapter 55?\nWhat does Chapter 66 describe?\nWhat is the central topic of Chapter 74?\nIn which chapter is Fedallah mentioned?\nWhat is the focus of Chapter 71?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0860235247153989,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932683.068736,
+      "question_id": "q_chunk_1_3",
+      "response_text": "What character is introduced at the very beginning of the provided text?\nWhich chapter focuses on the topic of cetology?\nWhat is the subject of Chapter 55?\nWhat does Chapter 66 describe?\nWhat is the central topic of Chapter 74?\nIn which chapter is Fedallah mentioned?\nWhat is the focus of Chapter 71?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0860235247153989,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932683.0687368,
+      "question_id": "q_chunk_1_4",
+      "response_text": "What character is introduced at the very beginning of the provided text?\nWhich chapter focuses on the topic of cetology?\nWhat is the subject of Chapter 55?\nWhat does Chapter 66 describe?\nWhat is the central topic of Chapter 74?\nIn which chapter is Fedallah mentioned?\nWhat is the focus of Chapter 71?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0860235247153989,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932683.0687373,
+      "question_id": "q_chunk_1_5",
+      "response_text": "What character is introduced at the very beginning of the provided text?\nWhich chapter focuses on the topic of cetology?\nWhat is the subject of Chapter 55?\nWhat does Chapter 66 describe?\nWhat is the central topic of Chapter 74?\nIn which chapter is Fedallah mentioned?\nWhat is the focus of Chapter 71?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0860235247153989,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932683.0687377,
+      "question_id": "q_chunk_1_6",
+      "response_text": "What character is introduced at the very beginning of the provided text?\nWhich chapter focuses on the topic of cetology?\nWhat is the subject of Chapter 55?\nWhat does Chapter 66 describe?\nWhat is the central topic of Chapter 74?\nIn which chapter is Fedallah mentioned?\nWhat is the focus of Chapter 71?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2017971629996151,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932691.482304,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is contrasted in Chapter 75?\nWhat is the significance of the \"Great Heidelburgh Tun\"?\nWhat does Chapter 89 distinguish between?\nWhat is explored in Chapter 105 regarding the whale?\nWhat character is the focus of Chapter 106?\nWhat is the setting of Chapter 111?\nWhat happens during the events of Chapter 116?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2017971629996151,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932691.4823084,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is contrasted in Chapter 75?\nWhat is the significance of the \"Great Heidelburgh Tun\"?\nWhat does Chapter 89 distinguish between?\nWhat is explored in Chapter 105 regarding the whale?\nWhat character is the focus of Chapter 106?\nWhat is the setting of Chapter 111?\nWhat happens during the events of Chapter 116?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2017971629996151,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932691.4823103,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What is contrasted in Chapter 75?\nWhat is the significance of the \"Great Heidelburgh Tun\"?\nWhat does Chapter 89 distinguish between?\nWhat is explored in Chapter 105 regarding the whale?\nWhat character is the focus of Chapter 106?\nWhat is the setting of Chapter 111?\nWhat happens during the events of Chapter 116?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2017971629996151,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932691.4823117,
+      "question_id": "q_chunk_2_3",
+      "response_text": "What is contrasted in Chapter 75?\nWhat is the significance of the \"Great Heidelburgh Tun\"?\nWhat does Chapter 89 distinguish between?\nWhat is explored in Chapter 105 regarding the whale?\nWhat character is the focus of Chapter 106?\nWhat is the setting of Chapter 111?\nWhat happens during the events of Chapter 116?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2017971629996151,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932691.482313,
+      "question_id": "q_chunk_2_4",
+      "response_text": "What is contrasted in Chapter 75?\nWhat is the significance of the \"Great Heidelburgh Tun\"?\nWhat does Chapter 89 distinguish between?\nWhat is explored in Chapter 105 regarding the whale?\nWhat character is the focus of Chapter 106?\nWhat is the setting of Chapter 111?\nWhat happens during the events of Chapter 116?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2017971629996151,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932691.4823146,
+      "question_id": "q_chunk_2_5",
+      "response_text": "What is contrasted in Chapter 75?\nWhat is the significance of the \"Great Heidelburgh Tun\"?\nWhat does Chapter 89 distinguish between?\nWhat is explored in Chapter 105 regarding the whale?\nWhat character is the focus of Chapter 106?\nWhat is the setting of Chapter 111?\nWhat happens during the events of Chapter 116?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2017971629996151,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932691.4823158,
+      "question_id": "q_chunk_2_6",
+      "response_text": "What is contrasted in Chapter 75?\nWhat is the significance of the \"Great Heidelburgh Tun\"?\nWhat does Chapter 89 distinguish between?\nWhat is explored in Chapter 105 regarding the whale?\nWhat character is the focus of Chapter 106?\nWhat is the setting of Chapter 111?\nWhat happens during the events of Chapter 116?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2257949537140251,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932700.0639153,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What location is mentioned at the very beginning of the text?\nWhat is being dusted by the pale Usher?\nAccording to Hackluyt, what error is made when teaching about whales?\nWhat languages are cited as sources for the etymology of \"whale\"?\nWhat does the Usher\u2019s dusting of grammars remind him of?\nWhat two projects contributed to this text?\nWhat is mentioned in the Epilogue?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2257949537140251,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932700.0639215,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What location is mentioned at the very beginning of the text?\nWhat is being dusted by the pale Usher?\nAccording to Hackluyt, what error is made when teaching about whales?\nWhat languages are cited as sources for the etymology of \"whale\"?\nWhat does the Usher\u2019s dusting of grammars remind him of?\nWhat two projects contributed to this text?\nWhat is mentioned in the Epilogue?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2257949537140251,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932700.063924,
+      "question_id": "q_chunk_3_2",
+      "response_text": "What location is mentioned at the very beginning of the text?\nWhat is being dusted by the pale Usher?\nAccording to Hackluyt, what error is made when teaching about whales?\nWhat languages are cited as sources for the etymology of \"whale\"?\nWhat does the Usher\u2019s dusting of grammars remind him of?\nWhat two projects contributed to this text?\nWhat is mentioned in the Epilogue?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2257949537140251,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932700.0639255,
+      "question_id": "q_chunk_3_3",
+      "response_text": "What location is mentioned at the very beginning of the text?\nWhat is being dusted by the pale Usher?\nAccording to Hackluyt, what error is made when teaching about whales?\nWhat languages are cited as sources for the etymology of \"whale\"?\nWhat does the Usher\u2019s dusting of grammars remind him of?\nWhat two projects contributed to this text?\nWhat is mentioned in the Epilogue?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2257949537140251,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932700.063927,
+      "question_id": "q_chunk_3_4",
+      "response_text": "What location is mentioned at the very beginning of the text?\nWhat is being dusted by the pale Usher?\nAccording to Hackluyt, what error is made when teaching about whales?\nWhat languages are cited as sources for the etymology of \"whale\"?\nWhat does the Usher\u2019s dusting of grammars remind him of?\nWhat two projects contributed to this text?\nWhat is mentioned in the Epilogue?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2257949537140251,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932700.0639284,
+      "question_id": "q_chunk_3_5",
+      "response_text": "What location is mentioned at the very beginning of the text?\nWhat is being dusted by the pale Usher?\nAccording to Hackluyt, what error is made when teaching about whales?\nWhat languages are cited as sources for the etymology of \"whale\"?\nWhat does the Usher\u2019s dusting of grammars remind him of?\nWhat two projects contributed to this text?\nWhat is mentioned in the Epilogue?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2257949537140251,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932700.0639296,
+      "question_id": "q_chunk_3_6",
+      "response_text": "What location is mentioned at the very beginning of the text?\nWhat is being dusted by the pale Usher?\nAccording to Hackluyt, what error is made when teaching about whales?\nWhat languages are cited as sources for the etymology of \"whale\"?\nWhat does the Usher\u2019s dusting of grammars remind him of?\nWhat two projects contributed to this text?\nWhat is mentioned in the Epilogue?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7033160161434873,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932711.9882522,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What does Webster\u2019s Dictionary suggest is the origin of the name \"whale\"?\nAccording to Richardson\u2019s Dictionary, from what languages does \"whale\" originate?\nWhat languages are represented in the list of whale names with variations of \"HVAL\"?\nWhat is the role of the Sub-Sub-Librarian in relation to the provided extracts?\nWhat caution does the author give regarding the authenticity of the extracts?\nWhat is the author\u2019s perspective on the value of the ancient authors' writings about whales?\nHow does the author address the Sub-Sub-Librarian at the conclusion of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7033160161434873,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932711.988262,
+      "question_id": "q_chunk_4_1",
+      "response_text": "What does Webster\u2019s Dictionary suggest is the origin of the name \"whale\"?\nAccording to Richardson\u2019s Dictionary, from what languages does \"whale\" originate?\nWhat languages are represented in the list of whale names with variations of \"HVAL\"?\nWhat is the role of the Sub-Sub-Librarian in relation to the provided extracts?\nWhat caution does the author give regarding the authenticity of the extracts?\nWhat is the author\u2019s perspective on the value of the ancient authors' writings about whales?\nHow does the author address the Sub-Sub-Librarian at the conclusion of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7033160161434873,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932711.9882636,
+      "question_id": "q_chunk_4_2",
+      "response_text": "What does Webster\u2019s Dictionary suggest is the origin of the name \"whale\"?\nAccording to Richardson\u2019s Dictionary, from what languages does \"whale\" originate?\nWhat languages are represented in the list of whale names with variations of \"HVAL\"?\nWhat is the role of the Sub-Sub-Librarian in relation to the provided extracts?\nWhat caution does the author give regarding the authenticity of the extracts?\nWhat is the author\u2019s perspective on the value of the ancient authors' writings about whales?\nHow does the author address the Sub-Sub-Librarian at the conclusion of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7033160161434873,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932711.9882655,
+      "question_id": "q_chunk_4_3",
+      "response_text": "What does Webster\u2019s Dictionary suggest is the origin of the name \"whale\"?\nAccording to Richardson\u2019s Dictionary, from what languages does \"whale\" originate?\nWhat languages are represented in the list of whale names with variations of \"HVAL\"?\nWhat is the role of the Sub-Sub-Librarian in relation to the provided extracts?\nWhat caution does the author give regarding the authenticity of the extracts?\nWhat is the author\u2019s perspective on the value of the ancient authors' writings about whales?\nHow does the author address the Sub-Sub-Librarian at the conclusion of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7033160161434873,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932711.988267,
+      "question_id": "q_chunk_4_4",
+      "response_text": "What does Webster\u2019s Dictionary suggest is the origin of the name \"whale\"?\nAccording to Richardson\u2019s Dictionary, from what languages does \"whale\" originate?\nWhat languages are represented in the list of whale names with variations of \"HVAL\"?\nWhat is the role of the Sub-Sub-Librarian in relation to the provided extracts?\nWhat caution does the author give regarding the authenticity of the extracts?\nWhat is the author\u2019s perspective on the value of the ancient authors' writings about whales?\nHow does the author address the Sub-Sub-Librarian at the conclusion of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7033160161434873,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932711.9882684,
+      "question_id": "q_chunk_4_5",
+      "response_text": "What does Webster\u2019s Dictionary suggest is the origin of the name \"whale\"?\nAccording to Richardson\u2019s Dictionary, from what languages does \"whale\" originate?\nWhat languages are represented in the list of whale names with variations of \"HVAL\"?\nWhat is the role of the Sub-Sub-Librarian in relation to the provided extracts?\nWhat caution does the author give regarding the authenticity of the extracts?\nWhat is the author\u2019s perspective on the value of the ancient authors' writings about whales?\nHow does the author address the Sub-Sub-Librarian at the conclusion of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7033160161434873,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932711.98827,
+      "question_id": "q_chunk_4_6",
+      "response_text": "What does Webster\u2019s Dictionary suggest is the origin of the name \"whale\"?\nAccording to Richardson\u2019s Dictionary, from what languages does \"whale\" originate?\nWhat languages are represented in the list of whale names with variations of \"HVAL\"?\nWhat is the role of the Sub-Sub-Librarian in relation to the provided extracts?\nWhat caution does the author give regarding the authenticity of the extracts?\nWhat is the author\u2019s perspective on the value of the ancient authors' writings about whales?\nHow does the author address the Sub-Sub-Librarian at the conclusion of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.6317108134285914,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932723.4112418,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the primary value of the extracts mentioned in the first paragraph?\nTo whom does the author address the phrase \"Give it up, Sub-Subs!\"?\nWhat does the author suggest would be a desirable action regarding Hampton Court and the Tuileries?\nWhat are the \u201cSub-Subs\u201d compared to in terms of warmth and color?\nFrom which biblical book is the quote \"And God created great whales\" taken?\nWhat is Leviathan described as in the quote from Isaiah?\nWhat are the \u201cSub-Subs\u201d expected to do after \u201cgulping down your tears\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.6317108134285914,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932723.4112487,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the primary value of the extracts mentioned in the first paragraph?\nTo whom does the author address the phrase \"Give it up, Sub-Subs!\"?\nWhat does the author suggest would be a desirable action regarding Hampton Court and the Tuileries?\nWhat are the \u201cSub-Subs\u201d compared to in terms of warmth and color?\nFrom which biblical book is the quote \"And God created great whales\" taken?\nWhat is Leviathan described as in the quote from Isaiah?\nWhat are the \u201cSub-Subs\u201d expected to do after \u201cgulping down your tears\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.6317108134285914,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932723.4112506,
+      "question_id": "q_chunk_5_2",
+      "response_text": "What is the primary value of the extracts mentioned in the first paragraph?\nTo whom does the author address the phrase \"Give it up, Sub-Subs!\"?\nWhat does the author suggest would be a desirable action regarding Hampton Court and the Tuileries?\nWhat are the \u201cSub-Subs\u201d compared to in terms of warmth and color?\nFrom which biblical book is the quote \"And God created great whales\" taken?\nWhat is Leviathan described as in the quote from Isaiah?\nWhat are the \u201cSub-Subs\u201d expected to do after \u201cgulping down your tears\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.6317108134285914,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932723.411252,
+      "question_id": "q_chunk_5_3",
+      "response_text": "What is the primary value of the extracts mentioned in the first paragraph?\nTo whom does the author address the phrase \"Give it up, Sub-Subs!\"?\nWhat does the author suggest would be a desirable action regarding Hampton Court and the Tuileries?\nWhat are the \u201cSub-Subs\u201d compared to in terms of warmth and color?\nFrom which biblical book is the quote \"And God created great whales\" taken?\nWhat is Leviathan described as in the quote from Isaiah?\nWhat are the \u201cSub-Subs\u201d expected to do after \u201cgulping down your tears\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.6317108134285914,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932723.4112532,
+      "question_id": "q_chunk_5_4",
+      "response_text": "What is the primary value of the extracts mentioned in the first paragraph?\nTo whom does the author address the phrase \"Give it up, Sub-Subs!\"?\nWhat does the author suggest would be a desirable action regarding Hampton Court and the Tuileries?\nWhat are the \u201cSub-Subs\u201d compared to in terms of warmth and color?\nFrom which biblical book is the quote \"And God created great whales\" taken?\nWhat is Leviathan described as in the quote from Isaiah?\nWhat are the \u201cSub-Subs\u201d expected to do after \u201cgulping down your tears\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.6317108134285914,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932723.4112546,
+      "question_id": "q_chunk_5_5",
+      "response_text": "What is the primary value of the extracts mentioned in the first paragraph?\nTo whom does the author address the phrase \"Give it up, Sub-Subs!\"?\nWhat does the author suggest would be a desirable action regarding Hampton Court and the Tuileries?\nWhat are the \u201cSub-Subs\u201d compared to in terms of warmth and color?\nFrom which biblical book is the quote \"And God created great whales\" taken?\nWhat is Leviathan described as in the quote from Isaiah?\nWhat are the \u201cSub-Subs\u201d expected to do after \u201cgulping down your tears\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.6317108134285914,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932723.4112556,
+      "question_id": "q_chunk_5_6",
+      "response_text": "What is the primary value of the extracts mentioned in the first paragraph?\nTo whom does the author address the phrase \"Give it up, Sub-Subs!\"?\nWhat does the author suggest would be a desirable action regarding Hampton Court and the Tuileries?\nWhat are the \u201cSub-Subs\u201d compared to in terms of warmth and color?\nFrom which biblical book is the quote \"And God created great whales\" taken?\nWhat is Leviathan described as in the quote from Isaiah?\nWhat are the \u201cSub-Subs\u201d expected to do after \u201cgulping down your tears\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.6785189644288039,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932735.161905,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What creature is described as a piercing and crooked serpent?\nWhat happens to anything entering the monster\u2019s mouth according to Holland\u2019s Plutarch\u2019s Morals?\nWhat is the approximate size of the largest whales according to Holland\u2019s Pliny?\nWhat did the creature observed in Tooke\u2019s Lucian do as it approached?\nWhat valuable part of horse-whales did the visitor collect?\nHow many whales did the group kill in two days, according to the narrative taken down by King Alfred?\nWhat unique behavior does the sea-gudgeon exhibit within the monster\u2019s mouth?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.6785189644288039,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932735.1619115,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What creature is described as a piercing and crooked serpent?\nWhat happens to anything entering the monster\u2019s mouth according to Holland\u2019s Plutarch\u2019s Morals?\nWhat is the approximate size of the largest whales according to Holland\u2019s Pliny?\nWhat did the creature observed in Tooke\u2019s Lucian do as it approached?\nWhat valuable part of horse-whales did the visitor collect?\nHow many whales did the group kill in two days, according to the narrative taken down by King Alfred?\nWhat unique behavior does the sea-gudgeon exhibit within the monster\u2019s mouth?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.6785189644288039,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932735.1619134,
+      "question_id": "q_chunk_6_2",
+      "response_text": "What creature is described as a piercing and crooked serpent?\nWhat happens to anything entering the monster\u2019s mouth according to Holland\u2019s Plutarch\u2019s Morals?\nWhat is the approximate size of the largest whales according to Holland\u2019s Pliny?\nWhat did the creature observed in Tooke\u2019s Lucian do as it approached?\nWhat valuable part of horse-whales did the visitor collect?\nHow many whales did the group kill in two days, according to the narrative taken down by King Alfred?\nWhat unique behavior does the sea-gudgeon exhibit within the monster\u2019s mouth?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.6785189644288039,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932735.1619146,
+      "question_id": "q_chunk_6_3",
+      "response_text": "What creature is described as a piercing and crooked serpent?\nWhat happens to anything entering the monster\u2019s mouth according to Holland\u2019s Plutarch\u2019s Morals?\nWhat is the approximate size of the largest whales according to Holland\u2019s Pliny?\nWhat did the creature observed in Tooke\u2019s Lucian do as it approached?\nWhat valuable part of horse-whales did the visitor collect?\nHow many whales did the group kill in two days, according to the narrative taken down by King Alfred?\nWhat unique behavior does the sea-gudgeon exhibit within the monster\u2019s mouth?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.6785189644288039,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932735.161916,
+      "question_id": "q_chunk_6_4",
+      "response_text": "What creature is described as a piercing and crooked serpent?\nWhat happens to anything entering the monster\u2019s mouth according to Holland\u2019s Plutarch\u2019s Morals?\nWhat is the approximate size of the largest whales according to Holland\u2019s Pliny?\nWhat did the creature observed in Tooke\u2019s Lucian do as it approached?\nWhat valuable part of horse-whales did the visitor collect?\nHow many whales did the group kill in two days, according to the narrative taken down by King Alfred?\nWhat unique behavior does the sea-gudgeon exhibit within the monster\u2019s mouth?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.6785189644288039,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932735.1619177,
+      "question_id": "q_chunk_6_5",
+      "response_text": "What creature is described as a piercing and crooked serpent?\nWhat happens to anything entering the monster\u2019s mouth according to Holland\u2019s Plutarch\u2019s Morals?\nWhat is the approximate size of the largest whales according to Holland\u2019s Pliny?\nWhat did the creature observed in Tooke\u2019s Lucian do as it approached?\nWhat valuable part of horse-whales did the visitor collect?\nHow many whales did the group kill in two days, according to the narrative taken down by King Alfred?\nWhat unique behavior does the sea-gudgeon exhibit within the monster\u2019s mouth?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.6785189644288039,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932735.1619189,
+      "question_id": "q_chunk_6_6",
+      "response_text": "What creature is described as a piercing and crooked serpent?\nWhat happens to anything entering the monster\u2019s mouth according to Holland\u2019s Plutarch\u2019s Morals?\nWhat is the approximate size of the largest whales according to Holland\u2019s Pliny?\nWhat did the creature observed in Tooke\u2019s Lucian do as it approached?\nWhat valuable part of horse-whales did the visitor collect?\nHow many whales did the group kill in two days, according to the narrative taken down by King Alfred?\nWhat unique behavior does the sea-gudgeon exhibit within the monster\u2019s mouth?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.655848876001463,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932746.7537708,
+      "question_id": "q_chunk_7_0",
+      "response_text": "What does Montaigne say happens to everything entering the whale's mouth except the sea-gudgeon?\nAccording to Rabelais, what biblical figure's description does the whale evoke?\nWhat quantity of liver is mentioned in Stowe\u2019s Annals?\nWhat imagery does Lord Bacon use to describe the whale\u2019s impact on the sea?\nWhat does the text state is known about the whale\u2019s fat content?\nAccording to King Henry, what is considered the \u201csovereignest thing on earth\u201d?\nHow does *The Fairie Queen* describe the wounded whale\u2019s behavior?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.655848876001463,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932746.7537735,
+      "question_id": "q_chunk_7_1",
+      "response_text": "What does Montaigne say happens to everything entering the whale's mouth except the sea-gudgeon?\nAccording to Rabelais, what biblical figure's description does the whale evoke?\nWhat quantity of liver is mentioned in Stowe\u2019s Annals?\nWhat imagery does Lord Bacon use to describe the whale\u2019s impact on the sea?\nWhat does the text state is known about the whale\u2019s fat content?\nAccording to King Henry, what is considered the \u201csovereignest thing on earth\u201d?\nHow does *The Fairie Queen* describe the wounded whale\u2019s behavior?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.655848876001463,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932746.7537744,
+      "question_id": "q_chunk_7_2",
+      "response_text": "What does Montaigne say happens to everything entering the whale's mouth except the sea-gudgeon?\nAccording to Rabelais, what biblical figure's description does the whale evoke?\nWhat quantity of liver is mentioned in Stowe\u2019s Annals?\nWhat imagery does Lord Bacon use to describe the whale\u2019s impact on the sea?\nWhat does the text state is known about the whale\u2019s fat content?\nAccording to King Henry, what is considered the \u201csovereignest thing on earth\u201d?\nHow does *The Fairie Queen* describe the wounded whale\u2019s behavior?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.655848876001463,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932746.7537751,
+      "question_id": "q_chunk_7_3",
+      "response_text": "What does Montaigne say happens to everything entering the whale's mouth except the sea-gudgeon?\nAccording to Rabelais, what biblical figure's description does the whale evoke?\nWhat quantity of liver is mentioned in Stowe\u2019s Annals?\nWhat imagery does Lord Bacon use to describe the whale\u2019s impact on the sea?\nWhat does the text state is known about the whale\u2019s fat content?\nAccording to King Henry, what is considered the \u201csovereignest thing on earth\u201d?\nHow does *The Fairie Queen* describe the wounded whale\u2019s behavior?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.655848876001463,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932746.7537758,
+      "question_id": "q_chunk_7_4",
+      "response_text": "What does Montaigne say happens to everything entering the whale's mouth except the sea-gudgeon?\nAccording to Rabelais, what biblical figure's description does the whale evoke?\nWhat quantity of liver is mentioned in Stowe\u2019s Annals?\nWhat imagery does Lord Bacon use to describe the whale\u2019s impact on the sea?\nWhat does the text state is known about the whale\u2019s fat content?\nAccording to King Henry, what is considered the \u201csovereignest thing on earth\u201d?\nHow does *The Fairie Queen* describe the wounded whale\u2019s behavior?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.655848876001463,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932746.7537763,
+      "question_id": "q_chunk_7_5",
+      "response_text": "What does Montaigne say happens to everything entering the whale's mouth except the sea-gudgeon?\nAccording to Rabelais, what biblical figure's description does the whale evoke?\nWhat quantity of liver is mentioned in Stowe\u2019s Annals?\nWhat imagery does Lord Bacon use to describe the whale\u2019s impact on the sea?\nWhat does the text state is known about the whale\u2019s fat content?\nAccording to King Henry, what is considered the \u201csovereignest thing on earth\u201d?\nHow does *The Fairie Queen* describe the wounded whale\u2019s behavior?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.655848876001463,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932746.7537773,
+      "question_id": "q_chunk_7_6",
+      "response_text": "What does Montaigne say happens to everything entering the whale's mouth except the sea-gudgeon?\nAccording to Rabelais, what biblical figure's description does the whale evoke?\nWhat quantity of liver is mentioned in Stowe\u2019s Annals?\nWhat imagery does Lord Bacon use to describe the whale\u2019s impact on the sea?\nWhat does the text state is known about the whale\u2019s fat content?\nAccording to King Henry, what is considered the \u201csovereignest thing on earth\u201d?\nHow does *The Fairie Queen* describe the wounded whale\u2019s behavior?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4765156300002542,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932757.090382,
+      "question_id": "q_chunk_8_0",
+      "response_text": "What work contains the quote about Mansoul swallowing something without chewing?\nAccording to Fuller, what swims both in and within whales?\nWhat does Hobbes compare a Commonwealth or State to?\nFrom what work is the quote about whales sporting and \u201cfuzzing up the water\u201d taken?\nWhat is done with a whale\u2019s head after it is floating at the stern of a ship?\nWhich poet describes Leviathan as stretching like a promontory?\nWhat does Waller\u2019s poem describe Leviathan as threatening with its tail?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4765156300002542,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932757.09039,
+      "question_id": "q_chunk_8_1",
+      "response_text": "What work contains the quote about Mansoul swallowing something without chewing?\nAccording to Fuller, what swims both in and within whales?\nWhat does Hobbes compare a Commonwealth or State to?\nFrom what work is the quote about whales sporting and \u201cfuzzing up the water\u201d taken?\nWhat is done with a whale\u2019s head after it is floating at the stern of a ship?\nWhich poet describes Leviathan as stretching like a promontory?\nWhat does Waller\u2019s poem describe Leviathan as threatening with its tail?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4765156300002542,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932757.090392,
+      "question_id": "q_chunk_8_2",
+      "response_text": "What work contains the quote about Mansoul swallowing something without chewing?\nAccording to Fuller, what swims both in and within whales?\nWhat does Hobbes compare a Commonwealth or State to?\nFrom what work is the quote about whales sporting and \u201cfuzzing up the water\u201d taken?\nWhat is done with a whale\u2019s head after it is floating at the stern of a ship?\nWhich poet describes Leviathan as stretching like a promontory?\nWhat does Waller\u2019s poem describe Leviathan as threatening with its tail?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4765156300002542,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932757.0903952,
+      "question_id": "q_chunk_8_3",
+      "response_text": "What work contains the quote about Mansoul swallowing something without chewing?\nAccording to Fuller, what swims both in and within whales?\nWhat does Hobbes compare a Commonwealth or State to?\nFrom what work is the quote about whales sporting and \u201cfuzzing up the water\u201d taken?\nWhat is done with a whale\u2019s head after it is floating at the stern of a ship?\nWhich poet describes Leviathan as stretching like a promontory?\nWhat does Waller\u2019s poem describe Leviathan as threatening with its tail?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4765156300002542,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932757.0903964,
+      "question_id": "q_chunk_8_4",
+      "response_text": "What work contains the quote about Mansoul swallowing something without chewing?\nAccording to Fuller, what swims both in and within whales?\nWhat does Hobbes compare a Commonwealth or State to?\nFrom what work is the quote about whales sporting and \u201cfuzzing up the water\u201d taken?\nWhat is done with a whale\u2019s head after it is floating at the stern of a ship?\nWhich poet describes Leviathan as stretching like a promontory?\nWhat does Waller\u2019s poem describe Leviathan as threatening with its tail?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4765156300002542,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932757.0903976,
+      "question_id": "q_chunk_8_5",
+      "response_text": "What work contains the quote about Mansoul swallowing something without chewing?\nAccording to Fuller, what swims both in and within whales?\nWhat does Hobbes compare a Commonwealth or State to?\nFrom what work is the quote about whales sporting and \u201cfuzzing up the water\u201d taken?\nWhat is done with a whale\u2019s head after it is floating at the stern of a ship?\nWhich poet describes Leviathan as stretching like a promontory?\nWhat does Waller\u2019s poem describe Leviathan as threatening with its tail?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4765156300002542,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932757.0903993,
+      "question_id": "q_chunk_8_6",
+      "response_text": "What work contains the quote about Mansoul swallowing something without chewing?\nAccording to Fuller, what swims both in and within whales?\nWhat does Hobbes compare a Commonwealth or State to?\nFrom what work is the quote about whales sporting and \u201cfuzzing up the water\u201d taken?\nWhat is done with a whale\u2019s head after it is floating at the stern of a ship?\nWhich poet describes Leviathan as stretching like a promontory?\nWhat does Waller\u2019s poem describe Leviathan as threatening with its tail?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3906435438569003,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932766.8259156,
+      "question_id": "q_chunk_9_0",
+      "response_text": "What did observers note about whales \u201csporting\u201d in the ocean?\nWhat precaution did sailors take when encountering large groups of whales?\nWhat reward was offered for spotting a whale on the ship *The Jonas-in-the-Whale*?\nWhat was found inside a whale caught near Shetland?\nHow long was the whale that washed ashore in Fife?\nWhat motivated Richard Strafford to hunt a sperm whale?\nWhat does the *N. E. Primer* suggest about whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3906435438569003,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932766.8259237,
+      "question_id": "q_chunk_9_1",
+      "response_text": "What did observers note about whales \u201csporting\u201d in the ocean?\nWhat precaution did sailors take when encountering large groups of whales?\nWhat reward was offered for spotting a whale on the ship *The Jonas-in-the-Whale*?\nWhat was found inside a whale caught near Shetland?\nHow long was the whale that washed ashore in Fife?\nWhat motivated Richard Strafford to hunt a sperm whale?\nWhat does the *N. E. Primer* suggest about whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3906435438569003,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932766.8259254,
+      "question_id": "q_chunk_9_2",
+      "response_text": "What did observers note about whales \u201csporting\u201d in the ocean?\nWhat precaution did sailors take when encountering large groups of whales?\nWhat reward was offered for spotting a whale on the ship *The Jonas-in-the-Whale*?\nWhat was found inside a whale caught near Shetland?\nHow long was the whale that washed ashore in Fife?\nWhat motivated Richard Strafford to hunt a sperm whale?\nWhat does the *N. E. Primer* suggest about whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3906435438569003,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932766.825927,
+      "question_id": "q_chunk_9_3",
+      "response_text": "What did observers note about whales \u201csporting\u201d in the ocean?\nWhat precaution did sailors take when encountering large groups of whales?\nWhat reward was offered for spotting a whale on the ship *The Jonas-in-the-Whale*?\nWhat was found inside a whale caught near Shetland?\nHow long was the whale that washed ashore in Fife?\nWhat motivated Richard Strafford to hunt a sperm whale?\nWhat does the *N. E. Primer* suggest about whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3906435438569003,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932766.8259282,
+      "question_id": "q_chunk_9_4",
+      "response_text": "What did observers note about whales \u201csporting\u201d in the ocean?\nWhat precaution did sailors take when encountering large groups of whales?\nWhat reward was offered for spotting a whale on the ship *The Jonas-in-the-Whale*?\nWhat was found inside a whale caught near Shetland?\nHow long was the whale that washed ashore in Fife?\nWhat motivated Richard Strafford to hunt a sperm whale?\nWhat does the *N. E. Primer* suggest about whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3906435438569003,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932766.8259296,
+      "question_id": "q_chunk_9_5",
+      "response_text": "What did observers note about whales \u201csporting\u201d in the ocean?\nWhat precaution did sailors take when encountering large groups of whales?\nWhat reward was offered for spotting a whale on the ship *The Jonas-in-the-Whale*?\nWhat was found inside a whale caught near Shetland?\nHow long was the whale that washed ashore in Fife?\nWhat motivated Richard Strafford to hunt a sperm whale?\nWhat does the *N. E. Primer* suggest about whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3906435438569003,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932766.825931,
+      "question_id": "q_chunk_9_6",
+      "response_text": "What did observers note about whales \u201csporting\u201d in the ocean?\nWhat precaution did sailors take when encountering large groups of whales?\nWhat reward was offered for spotting a whale on the ship *The Jonas-in-the-Whale*?\nWhat was found inside a whale caught near Shetland?\nHow long was the whale that washed ashore in Fife?\nWhat motivated Richard Strafford to hunt a sperm whale?\nWhat does the *N. E. Primer* suggest about whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4413901350011915,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932776.916626,
+      "question_id": "q_chunk_10_0",
+      "response_text": "What was Richard Strafford attempting to do?\nAccording to the N.E. Primer, whose commands do whales follow?\nAccording to Captain Cowley, where were more whales observed?\nWhat physical effect could a whale's breath have, according to Ulloa?\nWhat item in *The Rape of the Lock* is reinforced with whalebone?\nAccording to Goldsmith, how do whales compare in size to land animals?\nWhat were the Asiatics doing with the dead whale in Cook\u2019s account?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4413901350011915,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932776.9166322,
+      "question_id": "q_chunk_10_1",
+      "response_text": "What was Richard Strafford attempting to do?\nAccording to the N.E. Primer, whose commands do whales follow?\nAccording to Captain Cowley, where were more whales observed?\nWhat physical effect could a whale's breath have, according to Ulloa?\nWhat item in *The Rape of the Lock* is reinforced with whalebone?\nAccording to Goldsmith, how do whales compare in size to land animals?\nWhat were the Asiatics doing with the dead whale in Cook\u2019s account?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4413901350011915,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932776.9166338,
+      "question_id": "q_chunk_10_2",
+      "response_text": "What was Richard Strafford attempting to do?\nAccording to the N.E. Primer, whose commands do whales follow?\nAccording to Captain Cowley, where were more whales observed?\nWhat physical effect could a whale's breath have, according to Ulloa?\nWhat item in *The Rape of the Lock* is reinforced with whalebone?\nAccording to Goldsmith, how do whales compare in size to land animals?\nWhat were the Asiatics doing with the dead whale in Cook\u2019s account?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4413901350011915,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932776.9166353,
+      "question_id": "q_chunk_10_3",
+      "response_text": "What was Richard Strafford attempting to do?\nAccording to the N.E. Primer, whose commands do whales follow?\nAccording to Captain Cowley, where were more whales observed?\nWhat physical effect could a whale's breath have, according to Ulloa?\nWhat item in *The Rape of the Lock* is reinforced with whalebone?\nAccording to Goldsmith, how do whales compare in size to land animals?\nWhat were the Asiatics doing with the dead whale in Cook\u2019s account?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4413901350011915,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932776.9166367,
+      "question_id": "q_chunk_10_4",
+      "response_text": "What was Richard Strafford attempting to do?\nAccording to the N.E. Primer, whose commands do whales follow?\nAccording to Captain Cowley, where were more whales observed?\nWhat physical effect could a whale's breath have, according to Ulloa?\nWhat item in *The Rape of the Lock* is reinforced with whalebone?\nAccording to Goldsmith, how do whales compare in size to land animals?\nWhat were the Asiatics doing with the dead whale in Cook\u2019s account?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4413901350011915,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932776.91664,
+      "question_id": "q_chunk_10_5",
+      "response_text": "What was Richard Strafford attempting to do?\nAccording to the N.E. Primer, whose commands do whales follow?\nAccording to Captain Cowley, where were more whales observed?\nWhat physical effect could a whale's breath have, according to Ulloa?\nWhat item in *The Rape of the Lock* is reinforced with whalebone?\nAccording to Goldsmith, how do whales compare in size to land animals?\nWhat were the Asiatics doing with the dead whale in Cook\u2019s account?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4413901350011915,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932776.9166412,
+      "question_id": "q_chunk_10_6",
+      "response_text": "What was Richard Strafford attempting to do?\nAccording to the N.E. Primer, whose commands do whales follow?\nAccording to Captain Cowley, where were more whales observed?\nWhat physical effect could a whale's breath have, according to Ulloa?\nWhat item in *The Rape of the Lock* is reinforced with whalebone?\nAccording to Goldsmith, how do whales compare in size to land animals?\nWhat were the Asiatics doing with the dead whale in Cook\u2019s account?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.304921076714111,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932786.0519085,
+      "question_id": "q_chunk_11_0",
+      "response_text": "What did people initially believe the object at sea to be?\nWhat items did sailors carry in their boats to ward off whales?\nAccording to Thomas Jefferson, what characterizes the Spermacetti Whale?\nWhat did Edmund Burke compare the Nantucket Whale-Fishery to?\nWhat does Blackstone identify as \"royal fish\"?\nWhat is described as being suspended over someone's head in Falconer's poem?\nWhat visual elements are highlighted in the description of the scene?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.304921076714111,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932786.0519133,
+      "question_id": "q_chunk_11_1",
+      "response_text": "What did people initially believe the object at sea to be?\nWhat items did sailors carry in their boats to ward off whales?\nAccording to Thomas Jefferson, what characterizes the Spermacetti Whale?\nWhat did Edmund Burke compare the Nantucket Whale-Fishery to?\nWhat does Blackstone identify as \"royal fish\"?\nWhat is described as being suspended over someone's head in Falconer's poem?\nWhat visual elements are highlighted in the description of the scene?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.304921076714111,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932786.0519142,
+      "question_id": "q_chunk_11_2",
+      "response_text": "What did people initially believe the object at sea to be?\nWhat items did sailors carry in their boats to ward off whales?\nAccording to Thomas Jefferson, what characterizes the Spermacetti Whale?\nWhat did Edmund Burke compare the Nantucket Whale-Fishery to?\nWhat does Blackstone identify as \"royal fish\"?\nWhat is described as being suspended over someone's head in Falconer's poem?\nWhat visual elements are highlighted in the description of the scene?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.304921076714111,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932786.0519147,
+      "question_id": "q_chunk_11_3",
+      "response_text": "What did people initially believe the object at sea to be?\nWhat items did sailors carry in their boats to ward off whales?\nAccording to Thomas Jefferson, what characterizes the Spermacetti Whale?\nWhat did Edmund Burke compare the Nantucket Whale-Fishery to?\nWhat does Blackstone identify as \"royal fish\"?\nWhat is described as being suspended over someone's head in Falconer's poem?\nWhat visual elements are highlighted in the description of the scene?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.304921076714111,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932786.0519154,
+      "question_id": "q_chunk_11_4",
+      "response_text": "What did people initially believe the object at sea to be?\nWhat items did sailors carry in their boats to ward off whales?\nAccording to Thomas Jefferson, what characterizes the Spermacetti Whale?\nWhat did Edmund Burke compare the Nantucket Whale-Fishery to?\nWhat does Blackstone identify as \"royal fish\"?\nWhat is described as being suspended over someone's head in Falconer's poem?\nWhat visual elements are highlighted in the description of the scene?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.304921076714111,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932786.0519161,
+      "question_id": "q_chunk_11_5",
+      "response_text": "What did people initially believe the object at sea to be?\nWhat items did sailors carry in their boats to ward off whales?\nAccording to Thomas Jefferson, what characterizes the Spermacetti Whale?\nWhat did Edmund Burke compare the Nantucket Whale-Fishery to?\nWhat does Blackstone identify as \"royal fish\"?\nWhat is described as being suspended over someone's head in Falconer's poem?\nWhat visual elements are highlighted in the description of the scene?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.304921076714111,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932786.0519168,
+      "question_id": "q_chunk_11_6",
+      "response_text": "What did people initially believe the object at sea to be?\nWhat items did sailors carry in their boats to ward off whales?\nAccording to Thomas Jefferson, what characterizes the Spermacetti Whale?\nWhat did Edmund Burke compare the Nantucket Whale-Fishery to?\nWhat does Blackstone identify as \"royal fish\"?\nWhat is described as being suspended over someone's head in Falconer's poem?\nWhat visual elements are highlighted in the description of the scene?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.5620495788565936,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932796.987158,
+      "question_id": "q_chunk_12_0",
+      "response_text": "What is described as being suspended over the crews in Falconer\u2019s Shipwreck?\nWhat imagery does Cowper use to describe the Queen\u2019s visit to London?\nAccording to John Hunter, how much blood is ejected from a whale's heart at once?\nHow does Paley compare the aorta of a whale to the water-works at London Bridge?\nWhat physical characteristic of whales does Baron Cuvier identify?\nWhen did Colnett's voyage begin taking Spermacetti Whales?\nWhat creatures assault the fishes described in Montgomery's text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.5620495788565936,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932796.987162,
+      "question_id": "q_chunk_12_1",
+      "response_text": "What is described as being suspended over the crews in Falconer\u2019s Shipwreck?\nWhat imagery does Cowper use to describe the Queen\u2019s visit to London?\nAccording to John Hunter, how much blood is ejected from a whale's heart at once?\nHow does Paley compare the aorta of a whale to the water-works at London Bridge?\nWhat physical characteristic of whales does Baron Cuvier identify?\nWhen did Colnett's voyage begin taking Spermacetti Whales?\nWhat creatures assault the fishes described in Montgomery's text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.5620495788565936,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932796.9871628,
+      "question_id": "q_chunk_12_2",
+      "response_text": "What is described as being suspended over the crews in Falconer\u2019s Shipwreck?\nWhat imagery does Cowper use to describe the Queen\u2019s visit to London?\nAccording to John Hunter, how much blood is ejected from a whale's heart at once?\nHow does Paley compare the aorta of a whale to the water-works at London Bridge?\nWhat physical characteristic of whales does Baron Cuvier identify?\nWhen did Colnett's voyage begin taking Spermacetti Whales?\nWhat creatures assault the fishes described in Montgomery's text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.5620495788565936,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932796.9871635,
+      "question_id": "q_chunk_12_3",
+      "response_text": "What is described as being suspended over the crews in Falconer\u2019s Shipwreck?\nWhat imagery does Cowper use to describe the Queen\u2019s visit to London?\nAccording to John Hunter, how much blood is ejected from a whale's heart at once?\nHow does Paley compare the aorta of a whale to the water-works at London Bridge?\nWhat physical characteristic of whales does Baron Cuvier identify?\nWhen did Colnett's voyage begin taking Spermacetti Whales?\nWhat creatures assault the fishes described in Montgomery's text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.5620495788565936,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932796.9871643,
+      "question_id": "q_chunk_12_4",
+      "response_text": "What is described as being suspended over the crews in Falconer\u2019s Shipwreck?\nWhat imagery does Cowper use to describe the Queen\u2019s visit to London?\nAccording to John Hunter, how much blood is ejected from a whale's heart at once?\nHow does Paley compare the aorta of a whale to the water-works at London Bridge?\nWhat physical characteristic of whales does Baron Cuvier identify?\nWhen did Colnett's voyage begin taking Spermacetti Whales?\nWhat creatures assault the fishes described in Montgomery's text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.5620495788565936,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932796.987165,
+      "question_id": "q_chunk_12_5",
+      "response_text": "What is described as being suspended over the crews in Falconer\u2019s Shipwreck?\nWhat imagery does Cowper use to describe the Queen\u2019s visit to London?\nAccording to John Hunter, how much blood is ejected from a whale's heart at once?\nHow does Paley compare the aorta of a whale to the water-works at London Bridge?\nWhat physical characteristic of whales does Baron Cuvier identify?\nWhen did Colnett's voyage begin taking Spermacetti Whales?\nWhat creatures assault the fishes described in Montgomery's text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.5620495788565936,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932796.9871655,
+      "question_id": "q_chunk_12_6",
+      "response_text": "What is described as being suspended over the crews in Falconer\u2019s Shipwreck?\nWhat imagery does Cowper use to describe the Queen\u2019s visit to London?\nAccording to John Hunter, how much blood is ejected from a whale's heart at once?\nHow does Paley compare the aorta of a whale to the water-works at London Bridge?\nWhat physical characteristic of whales does Baron Cuvier identify?\nWhen did Colnett's voyage begin taking Spermacetti Whales?\nWhat creatures assault the fishes described in Montgomery's text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2229623277131136,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932805.548738,
+      "question_id": "q_chunk_13_0",
+      "response_text": "What does Montgomery describe as impossible to capture with language?\nWhat does Lamb identify as being notable about the whale he sings of?\nAccording to Macy, what future use was predicted for the sea?\nWhat material did Hawthorne use to construct a gateway?\nWhat tragic event prompted a woman to commission a monument?\nHow did Tom identify the whale he observed?\nWhat new venue had whales appeared in, according to Eckermann?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2229623277131136,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932805.5487418,
+      "question_id": "q_chunk_13_1",
+      "response_text": "What does Montgomery describe as impossible to capture with language?\nWhat does Lamb identify as being notable about the whale he sings of?\nAccording to Macy, what future use was predicted for the sea?\nWhat material did Hawthorne use to construct a gateway?\nWhat tragic event prompted a woman to commission a monument?\nHow did Tom identify the whale he observed?\nWhat new venue had whales appeared in, according to Eckermann?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2229623277131136,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932805.5487428,
+      "question_id": "q_chunk_13_2",
+      "response_text": "What does Montgomery describe as impossible to capture with language?\nWhat does Lamb identify as being notable about the whale he sings of?\nAccording to Macy, what future use was predicted for the sea?\nWhat material did Hawthorne use to construct a gateway?\nWhat tragic event prompted a woman to commission a monument?\nHow did Tom identify the whale he observed?\nWhat new venue had whales appeared in, according to Eckermann?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2229623277131136,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932805.5487437,
+      "question_id": "q_chunk_13_3",
+      "response_text": "What does Montgomery describe as impossible to capture with language?\nWhat does Lamb identify as being notable about the whale he sings of?\nAccording to Macy, what future use was predicted for the sea?\nWhat material did Hawthorne use to construct a gateway?\nWhat tragic event prompted a woman to commission a monument?\nHow did Tom identify the whale he observed?\nWhat new venue had whales appeared in, according to Eckermann?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2229623277131136,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932805.5487444,
+      "question_id": "q_chunk_13_4",
+      "response_text": "What does Montgomery describe as impossible to capture with language?\nWhat does Lamb identify as being notable about the whale he sings of?\nAccording to Macy, what future use was predicted for the sea?\nWhat material did Hawthorne use to construct a gateway?\nWhat tragic event prompted a woman to commission a monument?\nHow did Tom identify the whale he observed?\nWhat new venue had whales appeared in, according to Eckermann?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2229623277131136,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932805.548745,
+      "question_id": "q_chunk_13_5",
+      "response_text": "What does Montgomery describe as impossible to capture with language?\nWhat does Lamb identify as being notable about the whale he sings of?\nAccording to Macy, what future use was predicted for the sea?\nWhat material did Hawthorne use to construct a gateway?\nWhat tragic event prompted a woman to commission a monument?\nHow did Tom identify the whale he observed?\nWhat new venue had whales appeared in, according to Eckermann?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2229623277131136,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932805.5487456,
+      "question_id": "q_chunk_13_6",
+      "response_text": "What does Montgomery describe as impossible to capture with language?\nWhat does Lamb identify as being notable about the whale he sings of?\nAccording to Macy, what future use was predicted for the sea?\nWhat material did Hawthorne use to construct a gateway?\nWhat tragic event prompted a woman to commission a monument?\nHow did Tom identify the whale he observed?\nWhat new venue had whales appeared in, according to Eckermann?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7023425854276866,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932817.466013,
+      "question_id": "q_chunk_14_0",
+      "response_text": "From which work does the quote \u201cHe\u2019s a raal oil-butt, that fellow!\u201d originate?\nAccording to Eckermann\u2019s Conversations with Goethe, where were whales being presented?\nWhat caused the shipwreck described in the narrative by Owen Chace?\nIn Elizabeth Oakes Smith\u2019s poem, what illuminated the wake of the whale?\nHow many yards of line were withdrawn during the capture of the whale mentioned by Scoresby?\nAccording to Scoresby, how far could the sound of a whale\u2019s tail cracking be heard?\nWhat does Thomas Beale lament was lacking regarding the study of Sperm Whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7023425854276866,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932817.4660175,
+      "question_id": "q_chunk_14_1",
+      "response_text": "From which work does the quote \u201cHe\u2019s a raal oil-butt, that fellow!\u201d originate?\nAccording to Eckermann\u2019s Conversations with Goethe, where were whales being presented?\nWhat caused the shipwreck described in the narrative by Owen Chace?\nIn Elizabeth Oakes Smith\u2019s poem, what illuminated the wake of the whale?\nHow many yards of line were withdrawn during the capture of the whale mentioned by Scoresby?\nAccording to Scoresby, how far could the sound of a whale\u2019s tail cracking be heard?\nWhat does Thomas Beale lament was lacking regarding the study of Sperm Whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7023425854276866,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932817.4660182,
+      "question_id": "q_chunk_14_2",
+      "response_text": "From which work does the quote \u201cHe\u2019s a raal oil-butt, that fellow!\u201d originate?\nAccording to Eckermann\u2019s Conversations with Goethe, where were whales being presented?\nWhat caused the shipwreck described in the narrative by Owen Chace?\nIn Elizabeth Oakes Smith\u2019s poem, what illuminated the wake of the whale?\nHow many yards of line were withdrawn during the capture of the whale mentioned by Scoresby?\nAccording to Scoresby, how far could the sound of a whale\u2019s tail cracking be heard?\nWhat does Thomas Beale lament was lacking regarding the study of Sperm Whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7023425854276866,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932817.466019,
+      "question_id": "q_chunk_14_3",
+      "response_text": "From which work does the quote \u201cHe\u2019s a raal oil-butt, that fellow!\u201d originate?\nAccording to Eckermann\u2019s Conversations with Goethe, where were whales being presented?\nWhat caused the shipwreck described in the narrative by Owen Chace?\nIn Elizabeth Oakes Smith\u2019s poem, what illuminated the wake of the whale?\nHow many yards of line were withdrawn during the capture of the whale mentioned by Scoresby?\nAccording to Scoresby, how far could the sound of a whale\u2019s tail cracking be heard?\nWhat does Thomas Beale lament was lacking regarding the study of Sperm Whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7023425854276866,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932817.4660196,
+      "question_id": "q_chunk_14_4",
+      "response_text": "From which work does the quote \u201cHe\u2019s a raal oil-butt, that fellow!\u201d originate?\nAccording to Eckermann\u2019s Conversations with Goethe, where were whales being presented?\nWhat caused the shipwreck described in the narrative by Owen Chace?\nIn Elizabeth Oakes Smith\u2019s poem, what illuminated the wake of the whale?\nHow many yards of line were withdrawn during the capture of the whale mentioned by Scoresby?\nAccording to Scoresby, how far could the sound of a whale\u2019s tail cracking be heard?\nWhat does Thomas Beale lament was lacking regarding the study of Sperm Whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7023425854276866,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932817.46602,
+      "question_id": "q_chunk_14_5",
+      "response_text": "From which work does the quote \u201cHe\u2019s a raal oil-butt, that fellow!\u201d originate?\nAccording to Eckermann\u2019s Conversations with Goethe, where were whales being presented?\nWhat caused the shipwreck described in the narrative by Owen Chace?\nIn Elizabeth Oakes Smith\u2019s poem, what illuminated the wake of the whale?\nHow many yards of line were withdrawn during the capture of the whale mentioned by Scoresby?\nAccording to Scoresby, how far could the sound of a whale\u2019s tail cracking be heard?\nWhat does Thomas Beale lament was lacking regarding the study of Sperm Whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7023425854276866,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932817.4660206,
+      "question_id": "q_chunk_14_6",
+      "response_text": "From which work does the quote \u201cHe\u2019s a raal oil-butt, that fellow!\u201d originate?\nAccording to Eckermann\u2019s Conversations with Goethe, where were whales being presented?\nWhat caused the shipwreck described in the narrative by Owen Chace?\nIn Elizabeth Oakes Smith\u2019s poem, what illuminated the wake of the whale?\nHow many yards of line were withdrawn during the capture of the whale mentioned by Scoresby?\nAccording to Scoresby, how far could the sound of a whale\u2019s tail cracking be heard?\nWhat does Thomas Beale lament was lacking regarding the study of Sperm Whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4105667154300525,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932827.3410969,
+      "question_id": "q_chunk_15_0",
+      "response_text": "What did Thomas Beale find surprising about the Sperm Whale?\nAccording to Bennett, how does the Sperm Whale compare to other whales in terms of weaponry?\nWhat phrase was repeatedly sung out from the mast-head?\nHow far away were the Sperm Whales when first sighted?\nFrom which island did the Whale-ship Globe originate?\nWhat event is the \u201cNarrative of the Globe Mutiny\u201d about to detail?\nWhat year was the \u201cNarrative of the Globe Mutiny\u201d published?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4105667154300525,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932827.341104,
+      "question_id": "q_chunk_15_1",
+      "response_text": "What did Thomas Beale find surprising about the Sperm Whale?\nAccording to Bennett, how does the Sperm Whale compare to other whales in terms of weaponry?\nWhat phrase was repeatedly sung out from the mast-head?\nHow far away were the Sperm Whales when first sighted?\nFrom which island did the Whale-ship Globe originate?\nWhat event is the \u201cNarrative of the Globe Mutiny\u201d about to detail?\nWhat year was the \u201cNarrative of the Globe Mutiny\u201d published?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4105667154300525,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932827.341106,
+      "question_id": "q_chunk_15_2",
+      "response_text": "What did Thomas Beale find surprising about the Sperm Whale?\nAccording to Bennett, how does the Sperm Whale compare to other whales in terms of weaponry?\nWhat phrase was repeatedly sung out from the mast-head?\nHow far away were the Sperm Whales when first sighted?\nFrom which island did the Whale-ship Globe originate?\nWhat event is the \u201cNarrative of the Globe Mutiny\u201d about to detail?\nWhat year was the \u201cNarrative of the Globe Mutiny\u201d published?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4105667154300525,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932827.3411074,
+      "question_id": "q_chunk_15_3",
+      "response_text": "What did Thomas Beale find surprising about the Sperm Whale?\nAccording to Bennett, how does the Sperm Whale compare to other whales in terms of weaponry?\nWhat phrase was repeatedly sung out from the mast-head?\nHow far away were the Sperm Whales when first sighted?\nFrom which island did the Whale-ship Globe originate?\nWhat event is the \u201cNarrative of the Globe Mutiny\u201d about to detail?\nWhat year was the \u201cNarrative of the Globe Mutiny\u201d published?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4105667154300525,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932827.3411093,
+      "question_id": "q_chunk_15_4",
+      "response_text": "What did Thomas Beale find surprising about the Sperm Whale?\nAccording to Bennett, how does the Sperm Whale compare to other whales in terms of weaponry?\nWhat phrase was repeatedly sung out from the mast-head?\nHow far away were the Sperm Whales when first sighted?\nFrom which island did the Whale-ship Globe originate?\nWhat event is the \u201cNarrative of the Globe Mutiny\u201d about to detail?\nWhat year was the \u201cNarrative of the Globe Mutiny\u201d published?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4105667154300525,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932827.3411107,
+      "question_id": "q_chunk_15_5",
+      "response_text": "What did Thomas Beale find surprising about the Sperm Whale?\nAccording to Bennett, how does the Sperm Whale compare to other whales in terms of weaponry?\nWhat phrase was repeatedly sung out from the mast-head?\nHow far away were the Sperm Whales when first sighted?\nFrom which island did the Whale-ship Globe originate?\nWhat event is the \u201cNarrative of the Globe Mutiny\u201d about to detail?\nWhat year was the \u201cNarrative of the Globe Mutiny\u201d published?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4105667154300525,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932827.3411155,
+      "question_id": "q_chunk_15_6",
+      "response_text": "What did Thomas Beale find surprising about the Sperm Whale?\nAccording to Bennett, how does the Sperm Whale compare to other whales in terms of weaponry?\nWhat phrase was repeatedly sung out from the mast-head?\nHow far away were the Sperm Whales when first sighted?\nFrom which island did the Whale-ship Globe originate?\nWhat event is the \u201cNarrative of the Globe Mutiny\u201d about to detail?\nWhat year was the \u201cNarrative of the Globe Mutiny\u201d published?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2292571029995867,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932835.9467556,
+      "question_id": "q_chunk_16_0",
+      "response_text": "What island does the whale-ship Globe belong to?\nHow did the sailors preserve themselves from the whale\u2019s assault?\nAccording to Webster, what contributes to the National wealth?\nWhat likely happened to the man the whale fell over?\nWhat threat did Samuel Comstock make?\nWhat did Dutch and English voyages unintentionally reveal?\nWhat is suggested about the relationship between finding whale haunts and the North-West Passage?\n\n\n\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2292571029995867,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932835.9467597,
+      "question_id": "q_chunk_16_1",
+      "response_text": "What island does the whale-ship Globe belong to?\nHow did the sailors preserve themselves from the whale\u2019s assault?\nAccording to Webster, what contributes to the National wealth?\nWhat likely happened to the man the whale fell over?\nWhat threat did Samuel Comstock make?\nWhat did Dutch and English voyages unintentionally reveal?\nWhat is suggested about the relationship between finding whale haunts and the North-West Passage?\n\n\n\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2292571029995867,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932835.9467604,
+      "question_id": "q_chunk_16_2",
+      "response_text": "What island does the whale-ship Globe belong to?\nHow did the sailors preserve themselves from the whale\u2019s assault?\nAccording to Webster, what contributes to the National wealth?\nWhat likely happened to the man the whale fell over?\nWhat threat did Samuel Comstock make?\nWhat did Dutch and English voyages unintentionally reveal?\nWhat is suggested about the relationship between finding whale haunts and the North-West Passage?\n\n\n\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2292571029995867,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932835.9467611,
+      "question_id": "q_chunk_16_3",
+      "response_text": "What island does the whale-ship Globe belong to?\nHow did the sailors preserve themselves from the whale\u2019s assault?\nAccording to Webster, what contributes to the National wealth?\nWhat likely happened to the man the whale fell over?\nWhat threat did Samuel Comstock make?\nWhat did Dutch and English voyages unintentionally reveal?\nWhat is suggested about the relationship between finding whale haunts and the North-West Passage?\n\n\n\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2292571029995867,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932835.9467618,
+      "question_id": "q_chunk_16_4",
+      "response_text": "What island does the whale-ship Globe belong to?\nHow did the sailors preserve themselves from the whale\u2019s assault?\nAccording to Webster, what contributes to the National wealth?\nWhat likely happened to the man the whale fell over?\nWhat threat did Samuel Comstock make?\nWhat did Dutch and English voyages unintentionally reveal?\nWhat is suggested about the relationship between finding whale haunts and the North-West Passage?\n\n\n\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2292571029995867,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932835.9467626,
+      "question_id": "q_chunk_16_5",
+      "response_text": "What island does the whale-ship Globe belong to?\nHow did the sailors preserve themselves from the whale\u2019s assault?\nAccording to Webster, what contributes to the National wealth?\nWhat likely happened to the man the whale fell over?\nWhat threat did Samuel Comstock make?\nWhat did Dutch and English voyages unintentionally reveal?\nWhat is suggested about the relationship between finding whale haunts and the North-West Passage?\n\n\n\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2292571029995867,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932835.946763,
+      "question_id": "q_chunk_16_6",
+      "response_text": "What island does the whale-ship Globe belong to?\nHow did the sailors preserve themselves from the whale\u2019s assault?\nAccording to Webster, what contributes to the National wealth?\nWhat likely happened to the man the whale fell over?\nWhat threat did Samuel Comstock make?\nWhat did Dutch and English voyages unintentionally reveal?\nWhat is suggested about the relationship between finding whale haunts and the North-West Passage?\n\n\n\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1355350668558717,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932843.8962665,
+      "question_id": "q_chunk_17_0",
+      "response_text": "What reciprocal action is described in the first excerpt?\nHow does a whale-ship\u2019s appearance differ from other vessels?\nWhat were large curved bones sometimes used for near London?\nWho was found among the crew after the boats returned?\nWhat is generally known about the fate of whaling crews?\nWhat suddenly emerged from the water?\nWhat is the whale\u2019s harpooning compared to?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1355350668558717,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932843.8962693,
+      "question_id": "q_chunk_17_1",
+      "response_text": "What reciprocal action is described in the first excerpt?\nHow does a whale-ship\u2019s appearance differ from other vessels?\nWhat were large curved bones sometimes used for near London?\nWho was found among the crew after the boats returned?\nWhat is generally known about the fate of whaling crews?\nWhat suddenly emerged from the water?\nWhat is the whale\u2019s harpooning compared to?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1355350668558717,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932843.89627,
+      "question_id": "q_chunk_17_2",
+      "response_text": "What reciprocal action is described in the first excerpt?\nHow does a whale-ship\u2019s appearance differ from other vessels?\nWhat were large curved bones sometimes used for near London?\nWho was found among the crew after the boats returned?\nWhat is generally known about the fate of whaling crews?\nWhat suddenly emerged from the water?\nWhat is the whale\u2019s harpooning compared to?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1355350668558717,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932843.8962708,
+      "question_id": "q_chunk_17_3",
+      "response_text": "What reciprocal action is described in the first excerpt?\nHow does a whale-ship\u2019s appearance differ from other vessels?\nWhat were large curved bones sometimes used for near London?\nWho was found among the crew after the boats returned?\nWhat is generally known about the fate of whaling crews?\nWhat suddenly emerged from the water?\nWhat is the whale\u2019s harpooning compared to?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1355350668558717,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932843.8962715,
+      "question_id": "q_chunk_17_4",
+      "response_text": "What reciprocal action is described in the first excerpt?\nHow does a whale-ship\u2019s appearance differ from other vessels?\nWhat were large curved bones sometimes used for near London?\nWho was found among the crew after the boats returned?\nWhat is generally known about the fate of whaling crews?\nWhat suddenly emerged from the water?\nWhat is the whale\u2019s harpooning compared to?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1355350668558717,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932843.896272,
+      "question_id": "q_chunk_17_5",
+      "response_text": "What reciprocal action is described in the first excerpt?\nHow does a whale-ship\u2019s appearance differ from other vessels?\nWhat were large curved bones sometimes used for near London?\nWho was found among the crew after the boats returned?\nWhat is generally known about the fate of whaling crews?\nWhat suddenly emerged from the water?\nWhat is the whale\u2019s harpooning compared to?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1355350668558717,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763932843.8962727,
+      "question_id": "q_chunk_17_6",
+      "response_text": "What reciprocal action is described in the first excerpt?\nHow does a whale-ship\u2019s appearance differ from other vessels?\nWhat were large curved bones sometimes used for near London?\nWho was found among the crew after the boats returned?\nWhat is generally known about the fate of whaling crews?\nWhat suddenly emerged from the water?\nWhat is the whale\u2019s harpooning compared to?"
+    }
+  ]
+}

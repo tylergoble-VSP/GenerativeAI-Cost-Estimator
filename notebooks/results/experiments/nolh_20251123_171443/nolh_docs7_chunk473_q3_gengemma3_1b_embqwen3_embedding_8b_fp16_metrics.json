@@ -1,0 +1,385 @@
+{
+  "export_timestamp": "2025-11-23T20:55:51.692931",
+  "export_timestamp_readable": "2025-11-23 20:55:51",
+  "num_metrics": 28,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.3552980450040195,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763931340.1385252,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.215086578988121,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763931341.353869,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.321989393007243,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763931342.676135,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.1298153899988392,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763931343.806233,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0509073110006284,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763931344.8574247,
+      "chunk_id": "chunk_4",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0558252229966456,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763931345.9135368,
+      "chunk_id": "chunk_5",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0468629810056882,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763931346.960681,
+      "chunk_id": "chunk_6",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.573762835333279,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931348.682653,
+      "question_id": "q_chunk_0_0",
+      "response_text": "1. What is the cost of the ebook?\n2. What is the release date of the ebook?\n3. Where can you obtain the ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.573762835333279,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931348.6826558,
+      "question_id": "q_chunk_0_1",
+      "response_text": "1. What is the cost of the ebook?\n2. What is the release date of the ebook?\n3. Where can you obtain the ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.573762835333279,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931348.6826568,
+      "question_id": "q_chunk_0_2",
+      "response_text": "1. What is the cost of the ebook?\n2. What is the release date of the ebook?\n3. Where can you obtain the ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.14545943966853278,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931349.1196666,
+      "question_id": "q_chunk_1_0",
+      "response_text": "1.  What does Stubb do to Ahab?\n2.  What is the name of Ahab\u2019s ship?\n3.  What is the main subject of the text\u2019s first half?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.14545943966853278,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931349.119671,
+      "question_id": "q_chunk_1_1",
+      "response_text": "1.  What does Stubb do to Ahab?\n2.  What is the name of Ahab\u2019s ship?\n3.  What is the main subject of the text\u2019s first half?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.14545943966853278,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931349.1196718,
+      "question_id": "q_chunk_1_2",
+      "response_text": "1.  What does Stubb do to Ahab?\n2.  What is the name of Ahab\u2019s ship?\n3.  What is the main subject of the text\u2019s first half?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.17427536633234317,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931349.6430972,
+      "question_id": "q_chunk_2_0",
+      "response_text": "1. What is the primary focus of the text\u2019s first 75 chapters?\n2. What is the significance of \u201cThe Pequod Meets The Virgin\u201d?\n3. What is the core theme or conflict explored in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.17427536633234317,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931349.6430995,
+      "question_id": "q_chunk_2_1",
+      "response_text": "1. What is the primary focus of the text\u2019s first 75 chapters?\n2. What is the significance of \u201cThe Pequod Meets The Virgin\u201d?\n3. What is the core theme or conflict explored in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.17427536633234317,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931349.6431005,
+      "question_id": "q_chunk_2_2",
+      "response_text": "1. What is the primary focus of the text\u2019s first 75 chapters?\n2. What is the significance of \u201cThe Pequod Meets The Virgin\u201d?\n3. What is the core theme or conflict explored in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1530358250020072,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931350.102995,
+      "question_id": "q_chunk_3_0",
+      "response_text": "1. What is the text about?\n2. What does the original transcriber\u2019s note mention about the character?\n3. What is the meaning of \u201cWHALE\u201d as defined in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1530358250020072,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931350.1030023,
+      "question_id": "q_chunk_3_1",
+      "response_text": "1. What is the text about?\n2. What does the original transcriber\u2019s note mention about the character?\n3. What is the meaning of \u201cWHALE\u201d as defined in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1530358250020072,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931350.1030042,
+      "question_id": "q_chunk_3_2",
+      "response_text": "1. What is the text about?\n2. What does the original transcriber\u2019s note mention about the character?\n3. What is the meaning of \u201cWHALE\u201d as defined in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.15412531066976953,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931350.566044,
+      "question_id": "q_chunk_4_0",
+      "response_text": "1. What is the meaning of \u201cwallow\u201d in the context of whale names?\n2. What is the source of the whale names?\n3. What is the primary purpose of the extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.15412531066976953,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931350.5660503,
+      "question_id": "q_chunk_4_1",
+      "response_text": "1. What is the meaning of \u201cwallow\u201d in the context of whale names?\n2. What is the source of the whale names?\n3. What is the primary purpose of the extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.15412531066976953,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931350.566051,
+      "question_id": "q_chunk_4_2",
+      "response_text": "1. What is the meaning of \u201cwallow\u201d in the context of whale names?\n2. What is the source of the whale names?\n3. What is the primary purpose of the extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1703621996663666,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931351.0779154,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the purpose of the extracts?\nWhat is Leviathan?\nWhat punishment is planned for Leviathan?\nWhat does the text imply about the relationship between the author and the Sub-Subs?\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1703621996663666,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931351.0779195,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the purpose of the extracts?\nWhat is Leviathan?\nWhat punishment is planned for Leviathan?\nWhat does the text imply about the relationship between the author and the Sub-Subs?\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1703621996663666,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931351.0779214,
+      "question_id": "q_chunk_5_2",
+      "response_text": "What is the purpose of the extracts?\nWhat is Leviathan?\nWhat punishment is planned for Leviathan?\nWhat does the text imply about the relationship between the author and the Sub-Subs?\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2032362063328037,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931351.6884642,
+      "question_id": "q_chunk_6_0",
+      "response_text": "1.  What is the nature of the \u201csorrow\u201d described in Isaiah?\n2.  What does Holland\u2019s Plutarch\u2019s Morals say about the \u201cchaos of this monster\u2019s mouth\u201d?\n3.  What is the significance of the sea-gudgeon\u2019s retreat into the gulf?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2032362063328037,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931351.6884716,
+      "question_id": "q_chunk_6_1",
+      "response_text": "1.  What is the nature of the \u201csorrow\u201d described in Isaiah?\n2.  What does Holland\u2019s Plutarch\u2019s Morals say about the \u201cchaos of this monster\u2019s mouth\u201d?\n3.  What is the significance of the sea-gudgeon\u2019s retreat into the gulf?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2032362063328037,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931351.6884737,
+      "question_id": "q_chunk_6_2",
+      "response_text": "1.  What is the nature of the \u201csorrow\u201d described in Isaiah?\n2.  What does Holland\u2019s Plutarch\u2019s Morals say about the \u201cchaos of this monster\u2019s mouth\u201d?\n3.  What is the significance of the sea-gudgeon\u2019s retreat into the gulf?"
+    }
+  ]
+}

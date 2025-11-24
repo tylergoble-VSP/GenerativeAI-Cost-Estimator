@@ -1,0 +1,1067 @@
+{
+  "export_timestamp": "2025-11-23T20:51:58.380893",
+  "export_timestamp_readable": "2025-11-23 20:51:58",
+  "num_metrics": 77,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.8628220679966034,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763931108.3222892,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.12562478199834004,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763931108.4481757,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1534602809988428,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763931108.6019058,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1307832089951262,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763931108.7329552,
+      "chunk_id": "chunk_3",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.10611577599775046,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763931108.8393497,
+      "chunk_id": "chunk_4",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.13553846899594646,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763931108.9751608,
+      "chunk_id": "chunk_5",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.15954942400276195,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763931109.1349785,
+      "chunk_id": "chunk_6",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1298396460042568,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763931109.2651043,
+      "chunk_id": "chunk_7",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.13132266399043147,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763931109.3967183,
+      "chunk_id": "chunk_8",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.29810356812413374,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931111.7823017,
+      "question_id": "q_chunk_0_0",
+      "response_text": "1.  What is the release date of the ebook?\n2.  Where can the ebook be accessed?\n3.  What is the copyright status of the ebook?\n4.  What is the language of the ebook?\n5.  What is the title of the book?\n6.  Who wrote the book?\n7.  What is the format of the ebook?\n8.  What is the content of the first chapter?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.29810356812413374,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931111.7823045,
+      "question_id": "q_chunk_0_1",
+      "response_text": "1.  What is the release date of the ebook?\n2.  Where can the ebook be accessed?\n3.  What is the copyright status of the ebook?\n4.  What is the language of the ebook?\n5.  What is the title of the book?\n6.  Who wrote the book?\n7.  What is the format of the ebook?\n8.  What is the content of the first chapter?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.29810356812413374,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931111.7823052,
+      "question_id": "q_chunk_0_2",
+      "response_text": "1.  What is the release date of the ebook?\n2.  Where can the ebook be accessed?\n3.  What is the copyright status of the ebook?\n4.  What is the language of the ebook?\n5.  What is the title of the book?\n6.  Who wrote the book?\n7.  What is the format of the ebook?\n8.  What is the content of the first chapter?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.29810356812413374,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931111.782306,
+      "question_id": "q_chunk_0_3",
+      "response_text": "1.  What is the release date of the ebook?\n2.  Where can the ebook be accessed?\n3.  What is the copyright status of the ebook?\n4.  What is the language of the ebook?\n5.  What is the title of the book?\n6.  Who wrote the book?\n7.  What is the format of the ebook?\n8.  What is the content of the first chapter?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.29810356812413374,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931111.782307,
+      "question_id": "q_chunk_0_4",
+      "response_text": "1.  What is the release date of the ebook?\n2.  Where can the ebook be accessed?\n3.  What is the copyright status of the ebook?\n4.  What is the language of the ebook?\n5.  What is the title of the book?\n6.  Who wrote the book?\n7.  What is the format of the ebook?\n8.  What is the content of the first chapter?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.29810356812413374,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931111.7823074,
+      "question_id": "q_chunk_0_5",
+      "response_text": "1.  What is the release date of the ebook?\n2.  Where can the ebook be accessed?\n3.  What is the copyright status of the ebook?\n4.  What is the language of the ebook?\n5.  What is the title of the book?\n6.  Who wrote the book?\n7.  What is the format of the ebook?\n8.  What is the content of the first chapter?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.29810356812413374,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931111.7823079,
+      "question_id": "q_chunk_0_6",
+      "response_text": "1.  What is the release date of the ebook?\n2.  Where can the ebook be accessed?\n3.  What is the copyright status of the ebook?\n4.  What is the language of the ebook?\n5.  What is the title of the book?\n6.  Who wrote the book?\n7.  What is the format of the ebook?\n8.  What is the content of the first chapter?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.29810356812413374,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931111.782309,
+      "question_id": "q_chunk_0_7",
+      "response_text": "1.  What is the release date of the ebook?\n2.  Where can the ebook be accessed?\n3.  What is the copyright status of the ebook?\n4.  What is the language of the ebook?\n5.  What is the title of the book?\n6.  Who wrote the book?\n7.  What is the format of the ebook?\n8.  What is the content of the first chapter?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11011765900002501,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931112.6643164,
+      "question_id": "q_chunk_1_0",
+      "response_text": "1.  What does Stubb do to Ahab?\n2.  What is the name of the character\u2019s ship?\n3.  What is the subject of the first chapter?\n4.  What is the purpose of the \u201cChart\u201d?\n5.  What is the significance of the \u201cWhiteness of the Whale\u201d?\n6.  What is the context of \u201cThe Specksnyder?\u201d\n7.  What is Ahab\u2019s primary focus in the text?\n8.  What action does Ahab undertake in the final chapter?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11011765900002501,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931112.6643202,
+      "question_id": "q_chunk_1_1",
+      "response_text": "1.  What does Stubb do to Ahab?\n2.  What is the name of the character\u2019s ship?\n3.  What is the subject of the first chapter?\n4.  What is the purpose of the \u201cChart\u201d?\n5.  What is the significance of the \u201cWhiteness of the Whale\u201d?\n6.  What is the context of \u201cThe Specksnyder?\u201d\n7.  What is Ahab\u2019s primary focus in the text?\n8.  What action does Ahab undertake in the final chapter?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11011765900002501,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931112.6643221,
+      "question_id": "q_chunk_1_2",
+      "response_text": "1.  What does Stubb do to Ahab?\n2.  What is the name of the character\u2019s ship?\n3.  What is the subject of the first chapter?\n4.  What is the purpose of the \u201cChart\u201d?\n5.  What is the significance of the \u201cWhiteness of the Whale\u201d?\n6.  What is the context of \u201cThe Specksnyder?\u201d\n7.  What is Ahab\u2019s primary focus in the text?\n8.  What action does Ahab undertake in the final chapter?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11011765900002501,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931112.6643236,
+      "question_id": "q_chunk_1_3",
+      "response_text": "1.  What does Stubb do to Ahab?\n2.  What is the name of the character\u2019s ship?\n3.  What is the subject of the first chapter?\n4.  What is the purpose of the \u201cChart\u201d?\n5.  What is the significance of the \u201cWhiteness of the Whale\u201d?\n6.  What is the context of \u201cThe Specksnyder?\u201d\n7.  What is Ahab\u2019s primary focus in the text?\n8.  What action does Ahab undertake in the final chapter?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11011765900002501,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931112.6643245,
+      "question_id": "q_chunk_1_4",
+      "response_text": "1.  What does Stubb do to Ahab?\n2.  What is the name of the character\u2019s ship?\n3.  What is the subject of the first chapter?\n4.  What is the purpose of the \u201cChart\u201d?\n5.  What is the significance of the \u201cWhiteness of the Whale\u201d?\n6.  What is the context of \u201cThe Specksnyder?\u201d\n7.  What is Ahab\u2019s primary focus in the text?\n8.  What action does Ahab undertake in the final chapter?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11011765900002501,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931112.6643262,
+      "question_id": "q_chunk_1_5",
+      "response_text": "1.  What does Stubb do to Ahab?\n2.  What is the name of the character\u2019s ship?\n3.  What is the subject of the first chapter?\n4.  What is the purpose of the \u201cChart\u201d?\n5.  What is the significance of the \u201cWhiteness of the Whale\u201d?\n6.  What is the context of \u201cThe Specksnyder?\u201d\n7.  What is Ahab\u2019s primary focus in the text?\n8.  What action does Ahab undertake in the final chapter?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11011765900002501,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931112.6643271,
+      "question_id": "q_chunk_1_6",
+      "response_text": "1.  What does Stubb do to Ahab?\n2.  What is the name of the character\u2019s ship?\n3.  What is the subject of the first chapter?\n4.  What is the purpose of the \u201cChart\u201d?\n5.  What is the significance of the \u201cWhiteness of the Whale\u201d?\n6.  What is the context of \u201cThe Specksnyder?\u201d\n7.  What is Ahab\u2019s primary focus in the text?\n8.  What action does Ahab undertake in the final chapter?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11011765900002501,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931112.6643283,
+      "question_id": "q_chunk_1_7",
+      "response_text": "1.  What does Stubb do to Ahab?\n2.  What is the name of the character\u2019s ship?\n3.  What is the subject of the first chapter?\n4.  What is the purpose of the \u201cChart\u201d?\n5.  What is the significance of the \u201cWhiteness of the Whale\u201d?\n6.  What is the context of \u201cThe Specksnyder?\u201d\n7.  What is Ahab\u2019s primary focus in the text?\n8.  What action does Ahab undertake in the final chapter?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12063439974917856,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931113.6301165,
+      "question_id": "q_chunk_2_0",
+      "response_text": "1.  What is the primary focus of the text\u2019s first 75 chapters?\n2.  What is the significance of the \u201cGreat Heidelburgh Tun\u201d?\n3.  What is the role of the Pequod in the narrative?\n4.  What does the text suggest about the whaling industry?\n5.  What is the significance of the \u201cWhale Watch\u201d?\n6.  What is the theme of the \u201cNights Watch\u201d?\n7.  What is the central conflict presented in the text?\n8.  What is the meaning of \u201cThe Blacksmith\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12063439974917856,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931113.6301188,
+      "question_id": "q_chunk_2_1",
+      "response_text": "1.  What is the primary focus of the text\u2019s first 75 chapters?\n2.  What is the significance of the \u201cGreat Heidelburgh Tun\u201d?\n3.  What is the role of the Pequod in the narrative?\n4.  What does the text suggest about the whaling industry?\n5.  What is the significance of the \u201cWhale Watch\u201d?\n6.  What is the theme of the \u201cNights Watch\u201d?\n7.  What is the central conflict presented in the text?\n8.  What is the meaning of \u201cThe Blacksmith\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12063439974917856,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931113.6301196,
+      "question_id": "q_chunk_2_2",
+      "response_text": "1.  What is the primary focus of the text\u2019s first 75 chapters?\n2.  What is the significance of the \u201cGreat Heidelburgh Tun\u201d?\n3.  What is the role of the Pequod in the narrative?\n4.  What does the text suggest about the whaling industry?\n5.  What is the significance of the \u201cWhale Watch\u201d?\n6.  What is the theme of the \u201cNights Watch\u201d?\n7.  What is the central conflict presented in the text?\n8.  What is the meaning of \u201cThe Blacksmith\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12063439974917856,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931113.6301203,
+      "question_id": "q_chunk_2_3",
+      "response_text": "1.  What is the primary focus of the text\u2019s first 75 chapters?\n2.  What is the significance of the \u201cGreat Heidelburgh Tun\u201d?\n3.  What is the role of the Pequod in the narrative?\n4.  What does the text suggest about the whaling industry?\n5.  What is the significance of the \u201cWhale Watch\u201d?\n6.  What is the theme of the \u201cNights Watch\u201d?\n7.  What is the central conflict presented in the text?\n8.  What is the meaning of \u201cThe Blacksmith\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12063439974917856,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931113.630121,
+      "question_id": "q_chunk_2_4",
+      "response_text": "1.  What is the primary focus of the text\u2019s first 75 chapters?\n2.  What is the significance of the \u201cGreat Heidelburgh Tun\u201d?\n3.  What is the role of the Pequod in the narrative?\n4.  What does the text suggest about the whaling industry?\n5.  What is the significance of the \u201cWhale Watch\u201d?\n6.  What is the theme of the \u201cNights Watch\u201d?\n7.  What is the central conflict presented in the text?\n8.  What is the meaning of \u201cThe Blacksmith\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12063439974917856,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931113.6301215,
+      "question_id": "q_chunk_2_5",
+      "response_text": "1.  What is the primary focus of the text\u2019s first 75 chapters?\n2.  What is the significance of the \u201cGreat Heidelburgh Tun\u201d?\n3.  What is the role of the Pequod in the narrative?\n4.  What does the text suggest about the whaling industry?\n5.  What is the significance of the \u201cWhale Watch\u201d?\n6.  What is the theme of the \u201cNights Watch\u201d?\n7.  What is the central conflict presented in the text?\n8.  What is the meaning of \u201cThe Blacksmith\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12063439974917856,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931113.6301222,
+      "question_id": "q_chunk_2_6",
+      "response_text": "1.  What is the primary focus of the text\u2019s first 75 chapters?\n2.  What is the significance of the \u201cGreat Heidelburgh Tun\u201d?\n3.  What is the role of the Pequod in the narrative?\n4.  What does the text suggest about the whaling industry?\n5.  What is the significance of the \u201cWhale Watch\u201d?\n6.  What is the theme of the \u201cNights Watch\u201d?\n7.  What is the central conflict presented in the text?\n8.  What is the meaning of \u201cThe Blacksmith\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12063439974917856,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931113.6301227,
+      "question_id": "q_chunk_2_7",
+      "response_text": "1.  What is the primary focus of the text\u2019s first 75 chapters?\n2.  What is the significance of the \u201cGreat Heidelburgh Tun\u201d?\n3.  What is the role of the Pequod in the narrative?\n4.  What does the text suggest about the whaling industry?\n5.  What is the significance of the \u201cWhale Watch\u201d?\n6.  What is the theme of the \u201cNights Watch\u201d?\n7.  What is the central conflict presented in the text?\n8.  What is the meaning of \u201cThe Blacksmith\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11841928187459416,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931114.578186,
+      "question_id": "q_chunk_3_0",
+      "response_text": "1. What is the primary subject of the text?\n2. What is the significance of the \u201cpale Usher\u201d?\n3. What does \u201cWHALE. * * * Sw. and Dan. _hval_\u201d mean?\n4. What is the context of the text regarding the Pequod and the Rachel?\n5. What does the text suggest about the narrator\u2019s perspective?\n6. What is the purpose of the \u201cChase\u201d sequences in the text?\n7. What is the relationship between the text and Project Gutenberg?\n8. What does the text imply about the significance of the Log and Line?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11841928187459416,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931114.578189,
+      "question_id": "q_chunk_3_1",
+      "response_text": "1. What is the primary subject of the text?\n2. What is the significance of the \u201cpale Usher\u201d?\n3. What does \u201cWHALE. * * * Sw. and Dan. _hval_\u201d mean?\n4. What is the context of the text regarding the Pequod and the Rachel?\n5. What does the text suggest about the narrator\u2019s perspective?\n6. What is the purpose of the \u201cChase\u201d sequences in the text?\n7. What is the relationship between the text and Project Gutenberg?\n8. What does the text imply about the significance of the Log and Line?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11841928187459416,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931114.5781896,
+      "question_id": "q_chunk_3_2",
+      "response_text": "1. What is the primary subject of the text?\n2. What is the significance of the \u201cpale Usher\u201d?\n3. What does \u201cWHALE. * * * Sw. and Dan. _hval_\u201d mean?\n4. What is the context of the text regarding the Pequod and the Rachel?\n5. What does the text suggest about the narrator\u2019s perspective?\n6. What is the purpose of the \u201cChase\u201d sequences in the text?\n7. What is the relationship between the text and Project Gutenberg?\n8. What does the text imply about the significance of the Log and Line?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11841928187459416,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931114.5781908,
+      "question_id": "q_chunk_3_3",
+      "response_text": "1. What is the primary subject of the text?\n2. What is the significance of the \u201cpale Usher\u201d?\n3. What does \u201cWHALE. * * * Sw. and Dan. _hval_\u201d mean?\n4. What is the context of the text regarding the Pequod and the Rachel?\n5. What does the text suggest about the narrator\u2019s perspective?\n6. What is the purpose of the \u201cChase\u201d sequences in the text?\n7. What is the relationship between the text and Project Gutenberg?\n8. What does the text imply about the significance of the Log and Line?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11841928187459416,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931114.5781925,
+      "question_id": "q_chunk_3_4",
+      "response_text": "1. What is the primary subject of the text?\n2. What is the significance of the \u201cpale Usher\u201d?\n3. What does \u201cWHALE. * * * Sw. and Dan. _hval_\u201d mean?\n4. What is the context of the text regarding the Pequod and the Rachel?\n5. What does the text suggest about the narrator\u2019s perspective?\n6. What is the purpose of the \u201cChase\u201d sequences in the text?\n7. What is the relationship between the text and Project Gutenberg?\n8. What does the text imply about the significance of the Log and Line?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11841928187459416,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931114.5781932,
+      "question_id": "q_chunk_3_5",
+      "response_text": "1. What is the primary subject of the text?\n2. What is the significance of the \u201cpale Usher\u201d?\n3. What does \u201cWHALE. * * * Sw. and Dan. _hval_\u201d mean?\n4. What is the context of the text regarding the Pequod and the Rachel?\n5. What does the text suggest about the narrator\u2019s perspective?\n6. What is the purpose of the \u201cChase\u201d sequences in the text?\n7. What is the relationship between the text and Project Gutenberg?\n8. What does the text imply about the significance of the Log and Line?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11841928187459416,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931114.5781937,
+      "question_id": "q_chunk_3_6",
+      "response_text": "1. What is the primary subject of the text?\n2. What is the significance of the \u201cpale Usher\u201d?\n3. What does \u201cWHALE. * * * Sw. and Dan. _hval_\u201d mean?\n4. What is the context of the text regarding the Pequod and the Rachel?\n5. What does the text suggest about the narrator\u2019s perspective?\n6. What is the purpose of the \u201cChase\u201d sequences in the text?\n7. What is the relationship between the text and Project Gutenberg?\n8. What does the text imply about the significance of the Log and Line?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11841928187459416,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931114.5781941,
+      "question_id": "q_chunk_3_7",
+      "response_text": "1. What is the primary subject of the text?\n2. What is the significance of the \u201cpale Usher\u201d?\n3. What does \u201cWHALE. * * * Sw. and Dan. _hval_\u201d mean?\n4. What is the context of the text regarding the Pequod and the Rachel?\n5. What does the text suggest about the narrator\u2019s perspective?\n6. What is the purpose of the \u201cChase\u201d sequences in the text?\n7. What is the relationship between the text and Project Gutenberg?\n8. What does the text imply about the significance of the Log and Line?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.099252042500666,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931115.372993,
+      "question_id": "q_chunk_4_0",
+      "response_text": "1. What is the animal named?\n2. What does \u2018roundness or rolling\u2019 refer to?\n3. What is \u2018WHALE\u2019 in the context of the text?\n4. What does \u2018Richardson\u2019s Dictionary\u2019 define \u2018WHALE\u2019?\n5. What does \u2018HEVELDY\u2019 mean?\n6. What does \u2018VERITABLE GOSPEL CETOLOGY\u2019 refer to?\n7. What is the purpose of the extracts?\n8. What is the author\u2019s sentiment towards the Sub-Sub?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.099252042500666,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931115.3729992,
+      "question_id": "q_chunk_4_1",
+      "response_text": "1. What is the animal named?\n2. What does \u2018roundness or rolling\u2019 refer to?\n3. What is \u2018WHALE\u2019 in the context of the text?\n4. What does \u2018Richardson\u2019s Dictionary\u2019 define \u2018WHALE\u2019?\n5. What does \u2018HEVELDY\u2019 mean?\n6. What does \u2018VERITABLE GOSPEL CETOLOGY\u2019 refer to?\n7. What is the purpose of the extracts?\n8. What is the author\u2019s sentiment towards the Sub-Sub?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.099252042500666,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931115.373,
+      "question_id": "q_chunk_4_2",
+      "response_text": "1. What is the animal named?\n2. What does \u2018roundness or rolling\u2019 refer to?\n3. What is \u2018WHALE\u2019 in the context of the text?\n4. What does \u2018Richardson\u2019s Dictionary\u2019 define \u2018WHALE\u2019?\n5. What does \u2018HEVELDY\u2019 mean?\n6. What does \u2018VERITABLE GOSPEL CETOLOGY\u2019 refer to?\n7. What is the purpose of the extracts?\n8. What is the author\u2019s sentiment towards the Sub-Sub?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.099252042500666,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931115.3730009,
+      "question_id": "q_chunk_4_3",
+      "response_text": "1. What is the animal named?\n2. What does \u2018roundness or rolling\u2019 refer to?\n3. What is \u2018WHALE\u2019 in the context of the text?\n4. What does \u2018Richardson\u2019s Dictionary\u2019 define \u2018WHALE\u2019?\n5. What does \u2018HEVELDY\u2019 mean?\n6. What does \u2018VERITABLE GOSPEL CETOLOGY\u2019 refer to?\n7. What is the purpose of the extracts?\n8. What is the author\u2019s sentiment towards the Sub-Sub?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.099252042500666,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931115.3730018,
+      "question_id": "q_chunk_4_4",
+      "response_text": "1. What is the animal named?\n2. What does \u2018roundness or rolling\u2019 refer to?\n3. What is \u2018WHALE\u2019 in the context of the text?\n4. What does \u2018Richardson\u2019s Dictionary\u2019 define \u2018WHALE\u2019?\n5. What does \u2018HEVELDY\u2019 mean?\n6. What does \u2018VERITABLE GOSPEL CETOLOGY\u2019 refer to?\n7. What is the purpose of the extracts?\n8. What is the author\u2019s sentiment towards the Sub-Sub?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.099252042500666,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931115.3730025,
+      "question_id": "q_chunk_4_5",
+      "response_text": "1. What is the animal named?\n2. What does \u2018roundness or rolling\u2019 refer to?\n3. What is \u2018WHALE\u2019 in the context of the text?\n4. What does \u2018Richardson\u2019s Dictionary\u2019 define \u2018WHALE\u2019?\n5. What does \u2018HEVELDY\u2019 mean?\n6. What does \u2018VERITABLE GOSPEL CETOLOGY\u2019 refer to?\n7. What is the purpose of the extracts?\n8. What is the author\u2019s sentiment towards the Sub-Sub?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.099252042500666,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931115.373003,
+      "question_id": "q_chunk_4_6",
+      "response_text": "1. What is the animal named?\n2. What does \u2018roundness or rolling\u2019 refer to?\n3. What is \u2018WHALE\u2019 in the context of the text?\n4. What does \u2018Richardson\u2019s Dictionary\u2019 define \u2018WHALE\u2019?\n5. What does \u2018HEVELDY\u2019 mean?\n6. What does \u2018VERITABLE GOSPEL CETOLOGY\u2019 refer to?\n7. What is the purpose of the extracts?\n8. What is the author\u2019s sentiment towards the Sub-Sub?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.099252042500666,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931115.3730035,
+      "question_id": "q_chunk_4_7",
+      "response_text": "1. What is the animal named?\n2. What does \u2018roundness or rolling\u2019 refer to?\n3. What is \u2018WHALE\u2019 in the context of the text?\n4. What does \u2018Richardson\u2019s Dictionary\u2019 define \u2018WHALE\u2019?\n5. What does \u2018HEVELDY\u2019 mean?\n6. What does \u2018VERITABLE GOSPEL CETOLOGY\u2019 refer to?\n7. What is the purpose of the extracts?\n8. What is the author\u2019s sentiment towards the Sub-Sub?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10310602674871916,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931115.7862322,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the purpose of the extracts?\nWhat does Leviathan symbolize?\nWhat is the Lord punishing?\nWho is slaying the dragon?\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10310602674871916,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931115.7862368,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the purpose of the extracts?\nWhat does Leviathan symbolize?\nWhat is the Lord punishing?\nWho is slaying the dragon?\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10310602674871916,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931115.7862384,
+      "question_id": "q_chunk_5_2",
+      "response_text": "What is the purpose of the extracts?\nWhat does Leviathan symbolize?\nWhat is the Lord punishing?\nWho is slaying the dragon?\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10310602674871916,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931115.78624,
+      "question_id": "q_chunk_5_3",
+      "response_text": "What is the purpose of the extracts?\nWhat does Leviathan symbolize?\nWhat is the Lord punishing?\nWho is slaying the dragon?\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11886521199994604,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931116.7378712,
+      "question_id": "q_chunk_6_0",
+      "response_text": "1. What is the primary focus of Isaiah\u2019s prophecy?\n2. What does Holland\u2019s Plutarch\u2019s Morals suggest about the creature\u2019s mouth?\n3. What is the significance of the \u201cwhale\u2019s\u201d value for their teeth?\n4. What does Montaigne say about the sea-gudgeon?\n5. What is the core conflict described in the text?\n6. What does the text imply about the creature's power?\n7. How does the text describe the creature\u2019s appearance?\n8. What is the purpose of the \u201cLet us fly\u201d instruction?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11886521199994604,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931116.7378736,
+      "question_id": "q_chunk_6_1",
+      "response_text": "1. What is the primary focus of Isaiah\u2019s prophecy?\n2. What does Holland\u2019s Plutarch\u2019s Morals suggest about the creature\u2019s mouth?\n3. What is the significance of the \u201cwhale\u2019s\u201d value for their teeth?\n4. What does Montaigne say about the sea-gudgeon?\n5. What is the core conflict described in the text?\n6. What does the text imply about the creature's power?\n7. How does the text describe the creature\u2019s appearance?\n8. What is the purpose of the \u201cLet us fly\u201d instruction?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11886521199994604,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931116.7378745,
+      "question_id": "q_chunk_6_2",
+      "response_text": "1. What is the primary focus of Isaiah\u2019s prophecy?\n2. What does Holland\u2019s Plutarch\u2019s Morals suggest about the creature\u2019s mouth?\n3. What is the significance of the \u201cwhale\u2019s\u201d value for their teeth?\n4. What does Montaigne say about the sea-gudgeon?\n5. What is the core conflict described in the text?\n6. What does the text imply about the creature's power?\n7. How does the text describe the creature\u2019s appearance?\n8. What is the purpose of the \u201cLet us fly\u201d instruction?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11886521199994604,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931116.7378752,
+      "question_id": "q_chunk_6_3",
+      "response_text": "1. What is the primary focus of Isaiah\u2019s prophecy?\n2. What does Holland\u2019s Plutarch\u2019s Morals suggest about the creature\u2019s mouth?\n3. What is the significance of the \u201cwhale\u2019s\u201d value for their teeth?\n4. What does Montaigne say about the sea-gudgeon?\n5. What is the core conflict described in the text?\n6. What does the text imply about the creature's power?\n7. How does the text describe the creature\u2019s appearance?\n8. What is the purpose of the \u201cLet us fly\u201d instruction?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11886521199994604,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931116.7378757,
+      "question_id": "q_chunk_6_4",
+      "response_text": "1. What is the primary focus of Isaiah\u2019s prophecy?\n2. What does Holland\u2019s Plutarch\u2019s Morals suggest about the creature\u2019s mouth?\n3. What is the significance of the \u201cwhale\u2019s\u201d value for their teeth?\n4. What does Montaigne say about the sea-gudgeon?\n5. What is the core conflict described in the text?\n6. What does the text imply about the creature's power?\n7. How does the text describe the creature\u2019s appearance?\n8. What is the purpose of the \u201cLet us fly\u201d instruction?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11886521199994604,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931116.7378764,
+      "question_id": "q_chunk_6_5",
+      "response_text": "1. What is the primary focus of Isaiah\u2019s prophecy?\n2. What does Holland\u2019s Plutarch\u2019s Morals suggest about the creature\u2019s mouth?\n3. What is the significance of the \u201cwhale\u2019s\u201d value for their teeth?\n4. What does Montaigne say about the sea-gudgeon?\n5. What is the core conflict described in the text?\n6. What does the text imply about the creature's power?\n7. How does the text describe the creature\u2019s appearance?\n8. What is the purpose of the \u201cLet us fly\u201d instruction?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11886521199994604,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931116.737877,
+      "question_id": "q_chunk_6_6",
+      "response_text": "1. What is the primary focus of Isaiah\u2019s prophecy?\n2. What does Holland\u2019s Plutarch\u2019s Morals suggest about the creature\u2019s mouth?\n3. What is the significance of the \u201cwhale\u2019s\u201d value for their teeth?\n4. What does Montaigne say about the sea-gudgeon?\n5. What is the core conflict described in the text?\n6. What does the text imply about the creature's power?\n7. How does the text describe the creature\u2019s appearance?\n8. What is the purpose of the \u201cLet us fly\u201d instruction?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11886521199994604,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931116.7378776,
+      "question_id": "q_chunk_6_7",
+      "response_text": "1. What is the primary focus of Isaiah\u2019s prophecy?\n2. What does Holland\u2019s Plutarch\u2019s Morals suggest about the creature\u2019s mouth?\n3. What is the significance of the \u201cwhale\u2019s\u201d value for their teeth?\n4. What does Montaigne say about the sea-gudgeon?\n5. What is the core conflict described in the text?\n6. What does the text imply about the creature's power?\n7. How does the text describe the creature\u2019s appearance?\n8. What is the purpose of the \u201cLet us fly\u201d instruction?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.09683867812418612,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931117.5133243,
+      "question_id": "q_chunk_7_0",
+      "response_text": "1. What happens to the sea-gudgeon?\n2. What is the significance of the text?\n3. What is the whale\u2019s liver described as?\n4. What is the focus of the text?\n5. What does the text imply about the whale\u2019s size?\n6. What is the significance of \u201cNescio quid sit\u201d?\n7. What does the text suggest about the whale\u2019s movement?\n8. What is the main concern mentioned in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.09683867812418612,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931117.513327,
+      "question_id": "q_chunk_7_1",
+      "response_text": "1. What happens to the sea-gudgeon?\n2. What is the significance of the text?\n3. What is the whale\u2019s liver described as?\n4. What is the focus of the text?\n5. What does the text imply about the whale\u2019s size?\n6. What is the significance of \u201cNescio quid sit\u201d?\n7. What does the text suggest about the whale\u2019s movement?\n8. What is the main concern mentioned in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.09683867812418612,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931117.5133276,
+      "question_id": "q_chunk_7_2",
+      "response_text": "1. What happens to the sea-gudgeon?\n2. What is the significance of the text?\n3. What is the whale\u2019s liver described as?\n4. What is the focus of the text?\n5. What does the text imply about the whale\u2019s size?\n6. What is the significance of \u201cNescio quid sit\u201d?\n7. What does the text suggest about the whale\u2019s movement?\n8. What is the main concern mentioned in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.09683867812418612,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931117.513328,
+      "question_id": "q_chunk_7_3",
+      "response_text": "1. What happens to the sea-gudgeon?\n2. What is the significance of the text?\n3. What is the whale\u2019s liver described as?\n4. What is the focus of the text?\n5. What does the text imply about the whale\u2019s size?\n6. What is the significance of \u201cNescio quid sit\u201d?\n7. What does the text suggest about the whale\u2019s movement?\n8. What is the main concern mentioned in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.09683867812418612,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931117.5133293,
+      "question_id": "q_chunk_7_4",
+      "response_text": "1. What happens to the sea-gudgeon?\n2. What is the significance of the text?\n3. What is the whale\u2019s liver described as?\n4. What is the focus of the text?\n5. What does the text imply about the whale\u2019s size?\n6. What is the significance of \u201cNescio quid sit\u201d?\n7. What does the text suggest about the whale\u2019s movement?\n8. What is the main concern mentioned in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.09683867812418612,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931117.51333,
+      "question_id": "q_chunk_7_5",
+      "response_text": "1. What happens to the sea-gudgeon?\n2. What is the significance of the text?\n3. What is the whale\u2019s liver described as?\n4. What is the focus of the text?\n5. What does the text imply about the whale\u2019s size?\n6. What is the significance of \u201cNescio quid sit\u201d?\n7. What does the text suggest about the whale\u2019s movement?\n8. What is the main concern mentioned in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.09683867812418612,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931117.5133307,
+      "question_id": "q_chunk_7_6",
+      "response_text": "1. What happens to the sea-gudgeon?\n2. What is the significance of the text?\n3. What is the whale\u2019s liver described as?\n4. What is the focus of the text?\n5. What does the text imply about the whale\u2019s size?\n6. What is the significance of \u201cNescio quid sit\u201d?\n7. What does the text suggest about the whale\u2019s movement?\n8. What is the main concern mentioned in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.09683867812418612,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931117.5133312,
+      "question_id": "q_chunk_7_7",
+      "response_text": "1. What happens to the sea-gudgeon?\n2. What is the significance of the text?\n3. What is the whale\u2019s liver described as?\n4. What is the focus of the text?\n5. What does the text imply about the whale\u2019s size?\n6. What is the significance of \u201cNescio quid sit\u201d?\n7. What does the text suggest about the whale\u2019s movement?\n8. What is the main concern mentioned in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10728435737473774,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931118.3723178,
+      "question_id": "q_chunk_8_0",
+      "response_text": "1.  What is the subject of the text?\n2.  What does the text describe the Leviathan as?\n3.  What does the text suggest about the Leviathan\u2019s appearance?\n4.  How does the text describe the Leviathan\u2019s behavior?\n5.  What is the significance of the \u201cpikes\u201d on the Leviathan\u2019s back?\n6.  What is the text comparing the Leviathan to?\n7.  What does the text suggest about the Leviathan\u2019s creation?\n8.  What is the context of the passage?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10728435737473774,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931118.3723214,
+      "question_id": "q_chunk_8_1",
+      "response_text": "1.  What is the subject of the text?\n2.  What does the text describe the Leviathan as?\n3.  What does the text suggest about the Leviathan\u2019s appearance?\n4.  How does the text describe the Leviathan\u2019s behavior?\n5.  What is the significance of the \u201cpikes\u201d on the Leviathan\u2019s back?\n6.  What is the text comparing the Leviathan to?\n7.  What does the text suggest about the Leviathan\u2019s creation?\n8.  What is the context of the passage?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10728435737473774,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931118.3723223,
+      "question_id": "q_chunk_8_2",
+      "response_text": "1.  What is the subject of the text?\n2.  What does the text describe the Leviathan as?\n3.  What does the text suggest about the Leviathan\u2019s appearance?\n4.  How does the text describe the Leviathan\u2019s behavior?\n5.  What is the significance of the \u201cpikes\u201d on the Leviathan\u2019s back?\n6.  What is the text comparing the Leviathan to?\n7.  What does the text suggest about the Leviathan\u2019s creation?\n8.  What is the context of the passage?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10728435737473774,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931118.3723228,
+      "question_id": "q_chunk_8_3",
+      "response_text": "1.  What is the subject of the text?\n2.  What does the text describe the Leviathan as?\n3.  What does the text suggest about the Leviathan\u2019s appearance?\n4.  How does the text describe the Leviathan\u2019s behavior?\n5.  What is the significance of the \u201cpikes\u201d on the Leviathan\u2019s back?\n6.  What is the text comparing the Leviathan to?\n7.  What does the text suggest about the Leviathan\u2019s creation?\n8.  What is the context of the passage?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10728435737473774,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931118.3723233,
+      "question_id": "q_chunk_8_4",
+      "response_text": "1.  What is the subject of the text?\n2.  What does the text describe the Leviathan as?\n3.  What does the text suggest about the Leviathan\u2019s appearance?\n4.  How does the text describe the Leviathan\u2019s behavior?\n5.  What is the significance of the \u201cpikes\u201d on the Leviathan\u2019s back?\n6.  What is the text comparing the Leviathan to?\n7.  What does the text suggest about the Leviathan\u2019s creation?\n8.  What is the context of the passage?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10728435737473774,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931118.372324,
+      "question_id": "q_chunk_8_5",
+      "response_text": "1.  What is the subject of the text?\n2.  What does the text describe the Leviathan as?\n3.  What does the text suggest about the Leviathan\u2019s appearance?\n4.  How does the text describe the Leviathan\u2019s behavior?\n5.  What is the significance of the \u201cpikes\u201d on the Leviathan\u2019s back?\n6.  What is the text comparing the Leviathan to?\n7.  What does the text suggest about the Leviathan\u2019s creation?\n8.  What is the context of the passage?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10728435737473774,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931118.3723247,
+      "question_id": "q_chunk_8_6",
+      "response_text": "1.  What is the subject of the text?\n2.  What does the text describe the Leviathan as?\n3.  What does the text suggest about the Leviathan\u2019s appearance?\n4.  How does the text describe the Leviathan\u2019s behavior?\n5.  What is the significance of the \u201cpikes\u201d on the Leviathan\u2019s back?\n6.  What is the text comparing the Leviathan to?\n7.  What does the text suggest about the Leviathan\u2019s creation?\n8.  What is the context of the passage?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10728435737473774,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763931118.3723252,
+      "question_id": "q_chunk_8_7",
+      "response_text": "1.  What is the subject of the text?\n2.  What does the text describe the Leviathan as?\n3.  What does the text suggest about the Leviathan\u2019s appearance?\n4.  How does the text describe the Leviathan\u2019s behavior?\n5.  What is the significance of the \u201cpikes\u201d on the Leviathan\u2019s back?\n6.  What is the text comparing the Leviathan to?\n7.  What does the text suggest about the Leviathan\u2019s creation?\n8.  What is the context of the passage?"
+    }
+  ]
+}

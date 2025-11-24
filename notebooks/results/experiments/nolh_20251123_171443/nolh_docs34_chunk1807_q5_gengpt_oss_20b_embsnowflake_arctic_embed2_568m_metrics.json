@@ -1,0 +1,2795 @@
+{
+  "export_timestamp": "2025-11-23T19:50:04.175712",
+  "export_timestamp_readable": "2025-11-23 19:50:04",
+  "num_metrics": 204,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.9349906429997645,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763927188.0769289,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.139649605989689,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763927188.2168329,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.13038055200013332,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763927188.3474934,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1703394020005362,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763927188.5181065,
+      "chunk_id": "chunk_3",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.13489909400232136,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763927188.653294,
+      "chunk_id": "chunk_4",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.13923832500586286,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763927188.7928102,
+      "chunk_id": "chunk_5",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.15287428900774103,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763927188.9460776,
+      "chunk_id": "chunk_6",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1580593940016115,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763927189.1044173,
+      "chunk_id": "chunk_7",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.17570982000324875,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763927189.2805502,
+      "chunk_id": "chunk_8",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1278779360000044,
+      "token_counts": {
+        "input_tokens": 460,
+        "actual_input_tokens": 460,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763927189.4087026,
+      "chunk_id": "chunk_9",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.13663471600739285,
+      "token_counts": {
+        "input_tokens": 451,
+        "actual_input_tokens": 451,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763927189.5456307,
+      "chunk_id": "chunk_10",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.15756792099273298,
+      "token_counts": {
+        "input_tokens": 465,
+        "actual_input_tokens": 465,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763927189.703482,
+      "chunk_id": "chunk_11",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.12709521299984772,
+      "token_counts": {
+        "input_tokens": 508,
+        "actual_input_tokens": 508,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763927189.8308687,
+      "chunk_id": "chunk_12",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1284531700075604,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763927189.9596229,
+      "chunk_id": "chunk_13",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.16064591400208883,
+      "token_counts": {
+        "input_tokens": 497,
+        "actual_input_tokens": 497,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763927190.120564,
+      "chunk_id": "chunk_14",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.12876995498663746,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763927190.2496269,
+      "chunk_id": "chunk_15",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.15133951600000728,
+      "token_counts": {
+        "input_tokens": 508,
+        "actual_input_tokens": 508,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763927190.4012587,
+      "chunk_id": "chunk_16",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1267886840068968,
+      "token_counts": {
+        "input_tokens": 441,
+        "actual_input_tokens": 441,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763927190.528309,
+      "chunk_id": "chunk_17",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1505577700008871,
+      "token_counts": {
+        "input_tokens": 497,
+        "actual_input_tokens": 497,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763927190.679303,
+      "chunk_id": "chunk_18",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.14593281000270508,
+      "token_counts": {
+        "input_tokens": 480,
+        "actual_input_tokens": 480,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763927190.8255231,
+      "chunk_id": "chunk_19",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.13215427000250202,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763927190.9579484,
+      "chunk_id": "chunk_20",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1521692309906939,
+      "token_counts": {
+        "input_tokens": 488,
+        "actual_input_tokens": 488,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763927191.110385,
+      "chunk_id": "chunk_21",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.12780958399525844,
+      "token_counts": {
+        "input_tokens": 503,
+        "actual_input_tokens": 503,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763927191.238611,
+      "chunk_id": "chunk_22",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.13398797198897228,
+      "token_counts": {
+        "input_tokens": 512,
+        "actual_input_tokens": 512,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763927191.3728828,
+      "chunk_id": "chunk_23",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.10487338100210764,
+      "token_counts": {
+        "input_tokens": 378,
+        "actual_input_tokens": 378,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763927191.4781015,
+      "chunk_id": "chunk_24",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.16642178999609314,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763927191.64495,
+      "chunk_id": "chunk_25",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1731577469909098,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763927191.8185437,
+      "chunk_id": "chunk_26",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.15322091399866622,
+      "token_counts": {
+        "input_tokens": 503,
+        "actual_input_tokens": 503,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763927191.9721692,
+      "chunk_id": "chunk_27",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1471158229978755,
+      "token_counts": {
+        "input_tokens": 510,
+        "actual_input_tokens": 510,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763927192.1195993,
+      "chunk_id": "chunk_28",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.13468842199654318,
+      "token_counts": {
+        "input_tokens": 488,
+        "actual_input_tokens": 488,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763927192.254571,
+      "chunk_id": "chunk_29",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.12572410500433762,
+      "token_counts": {
+        "input_tokens": 478,
+        "actual_input_tokens": 478,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763927192.3805654,
+      "chunk_id": "chunk_30",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1280462249997072,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763927192.5089092,
+      "chunk_id": "chunk_31",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1251193990028696,
+      "token_counts": {
+        "input_tokens": 472,
+        "actual_input_tokens": 472,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763927192.6342976,
+      "chunk_id": "chunk_32",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.13028055199538358,
+      "token_counts": {
+        "input_tokens": 489,
+        "actual_input_tokens": 489,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763927192.7648625,
+      "chunk_id": "chunk_33",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7381115302006946,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927201.456323,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the title and subtitle of the eBook listed in the Project Gutenberg entry?  \nWho are credited for the production of this eBook, and what are their roles?  \nOn what date was this eBook released and when was it most recently updated according to the listing?  \nWhich chapters are mentioned as having duplicate entries (e.g., Knights and Squires)?  \nAccording to the Project Gutenberg license text, what must a non\u2011U.S. user do before using the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7381115302006946,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927201.4563284,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the title and subtitle of the eBook listed in the Project Gutenberg entry?  \nWho are credited for the production of this eBook, and what are their roles?  \nOn what date was this eBook released and when was it most recently updated according to the listing?  \nWhich chapters are mentioned as having duplicate entries (e.g., Knights and Squires)?  \nAccording to the Project Gutenberg license text, what must a non\u2011U.S. user do before using the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7381115302006946,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927201.456329,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the title and subtitle of the eBook listed in the Project Gutenberg entry?  \nWho are credited for the production of this eBook, and what are their roles?  \nOn what date was this eBook released and when was it most recently updated according to the listing?  \nWhich chapters are mentioned as having duplicate entries (e.g., Knights and Squires)?  \nAccording to the Project Gutenberg license text, what must a non\u2011U.S. user do before using the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7381115302006946,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927201.45633,
+      "question_id": "q_chunk_0_3",
+      "response_text": "What is the title and subtitle of the eBook listed in the Project Gutenberg entry?  \nWho are credited for the production of this eBook, and what are their roles?  \nOn what date was this eBook released and when was it most recently updated according to the listing?  \nWhich chapters are mentioned as having duplicate entries (e.g., Knights and Squires)?  \nAccording to the Project Gutenberg license text, what must a non\u2011U.S. user do before using the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7381115302006946,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927201.4563308,
+      "question_id": "q_chunk_0_4",
+      "response_text": "What is the title and subtitle of the eBook listed in the Project Gutenberg entry?  \nWho are credited for the production of this eBook, and what are their roles?  \nOn what date was this eBook released and when was it most recently updated according to the listing?  \nWhich chapters are mentioned as having duplicate entries (e.g., Knights and Squires)?  \nAccording to the Project Gutenberg license text, what must a non\u2011U.S. user do before using the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7796051445999183,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927205.3551733,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What themes are suggested by the chapter titles from \"The Pipe\" to \"Cistern and Buckets\"?  \nHow might the chapter \"Stubb Kills a Whale\" reflect the novel\u2019s exploration of violence?  \nIn what ways does the chapter \"Of the Monstrous Pictures of Whales\" comment on representation?  \nWhy is the chapter \"The Whiteness of the Whale\" significant to the novel\u2019s symbolism?  \nHow does the progression from \"The Specksnyder\" to \"The Monkey-Rope\" illustrate the narrative arc?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7796051445999183,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927205.3551784,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What themes are suggested by the chapter titles from \"The Pipe\" to \"Cistern and Buckets\"?  \nHow might the chapter \"Stubb Kills a Whale\" reflect the novel\u2019s exploration of violence?  \nIn what ways does the chapter \"Of the Monstrous Pictures of Whales\" comment on representation?  \nWhy is the chapter \"The Whiteness of the Whale\" significant to the novel\u2019s symbolism?  \nHow does the progression from \"The Specksnyder\" to \"The Monkey-Rope\" illustrate the narrative arc?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7796051445999183,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927205.3551805,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What themes are suggested by the chapter titles from \"The Pipe\" to \"Cistern and Buckets\"?  \nHow might the chapter \"Stubb Kills a Whale\" reflect the novel\u2019s exploration of violence?  \nIn what ways does the chapter \"Of the Monstrous Pictures of Whales\" comment on representation?  \nWhy is the chapter \"The Whiteness of the Whale\" significant to the novel\u2019s symbolism?  \nHow does the progression from \"The Specksnyder\" to \"The Monkey-Rope\" illustrate the narrative arc?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7796051445999183,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927205.355181,
+      "question_id": "q_chunk_1_3",
+      "response_text": "What themes are suggested by the chapter titles from \"The Pipe\" to \"Cistern and Buckets\"?  \nHow might the chapter \"Stubb Kills a Whale\" reflect the novel\u2019s exploration of violence?  \nIn what ways does the chapter \"Of the Monstrous Pictures of Whales\" comment on representation?  \nWhy is the chapter \"The Whiteness of the Whale\" significant to the novel\u2019s symbolism?  \nHow does the progression from \"The Specksnyder\" to \"The Monkey-Rope\" illustrate the narrative arc?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7796051445999183,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927205.355182,
+      "question_id": "q_chunk_1_4",
+      "response_text": "What themes are suggested by the chapter titles from \"The Pipe\" to \"Cistern and Buckets\"?  \nHow might the chapter \"Stubb Kills a Whale\" reflect the novel\u2019s exploration of violence?  \nIn what ways does the chapter \"Of the Monstrous Pictures of Whales\" comment on representation?  \nWhy is the chapter \"The Whiteness of the Whale\" significant to the novel\u2019s symbolism?  \nHow does the progression from \"The Specksnyder\" to \"The Monkey-Rope\" illustrate the narrative arc?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7222258867986966,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927208.9673545,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What themes are suggested by the juxtaposition of \"The Right Whale\u2019s Head\" and \"The Battering-Ram\"?  \nHow does the chapter titled \"The Great Heidelburgh Tun\" connect to whaling history or maritime culture?  \nIn what way does the title \"The Pequod Meets The Virgin\" imply a symbolic or narrative significance within the series?  \nWhat might be the significance of including a chapter simply titled \"The Log and Line\" in the context of whaling?  \nHow does the progression of chapter titles reflect a shift from maritime practice to the personal stories of whaling crew members?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7222258867986966,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927208.9673584,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What themes are suggested by the juxtaposition of \"The Right Whale\u2019s Head\" and \"The Battering-Ram\"?  \nHow does the chapter titled \"The Great Heidelburgh Tun\" connect to whaling history or maritime culture?  \nIn what way does the title \"The Pequod Meets The Virgin\" imply a symbolic or narrative significance within the series?  \nWhat might be the significance of including a chapter simply titled \"The Log and Line\" in the context of whaling?  \nHow does the progression of chapter titles reflect a shift from maritime practice to the personal stories of whaling crew members?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7222258867986966,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927208.9673605,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What themes are suggested by the juxtaposition of \"The Right Whale\u2019s Head\" and \"The Battering-Ram\"?  \nHow does the chapter titled \"The Great Heidelburgh Tun\" connect to whaling history or maritime culture?  \nIn what way does the title \"The Pequod Meets The Virgin\" imply a symbolic or narrative significance within the series?  \nWhat might be the significance of including a chapter simply titled \"The Log and Line\" in the context of whaling?  \nHow does the progression of chapter titles reflect a shift from maritime practice to the personal stories of whaling crew members?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7222258867986966,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927208.9673622,
+      "question_id": "q_chunk_2_3",
+      "response_text": "What themes are suggested by the juxtaposition of \"The Right Whale\u2019s Head\" and \"The Battering-Ram\"?  \nHow does the chapter titled \"The Great Heidelburgh Tun\" connect to whaling history or maritime culture?  \nIn what way does the title \"The Pequod Meets The Virgin\" imply a symbolic or narrative significance within the series?  \nWhat might be the significance of including a chapter simply titled \"The Log and Line\" in the context of whaling?  \nHow does the progression of chapter titles reflect a shift from maritime practice to the personal stories of whaling crew members?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7222258867986966,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927208.9673634,
+      "question_id": "q_chunk_2_4",
+      "response_text": "What themes are suggested by the juxtaposition of \"The Right Whale\u2019s Head\" and \"The Battering-Ram\"?  \nHow does the chapter titled \"The Great Heidelburgh Tun\" connect to whaling history or maritime culture?  \nIn what way does the title \"The Pequod Meets The Virgin\" imply a symbolic or narrative significance within the series?  \nWhat might be the significance of including a chapter simply titled \"The Log and Line\" in the context of whaling?  \nHow does the progression of chapter titles reflect a shift from maritime practice to the personal stories of whaling crew members?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.1337123426026663,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927219.6369855,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What event is described in Chapter 128 of the text?  \nWhich languages are cited in the etymology section when discussing the word \u201cwhale\u201d?  \nWhich institution is acknowledged for its role in preserving the Virginia Tech version?  \nWhat themes are introduced in Chapter 133 titled \u201cThe Symphony\u201d?  \nFrom which now-defunct project was one of the etexts sourced?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.1337123426026663,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927219.6369927,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What event is described in Chapter 128 of the text?  \nWhich languages are cited in the etymology section when discussing the word \u201cwhale\u201d?  \nWhich institution is acknowledged for its role in preserving the Virginia Tech version?  \nWhat themes are introduced in Chapter 133 titled \u201cThe Symphony\u201d?  \nFrom which now-defunct project was one of the etexts sourced?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.1337123426026663,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927219.6369956,
+      "question_id": "q_chunk_3_2",
+      "response_text": "What event is described in Chapter 128 of the text?  \nWhich languages are cited in the etymology section when discussing the word \u201cwhale\u201d?  \nWhich institution is acknowledged for its role in preserving the Virginia Tech version?  \nWhat themes are introduced in Chapter 133 titled \u201cThe Symphony\u201d?  \nFrom which now-defunct project was one of the etexts sourced?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.1337123426026663,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927219.6369972,
+      "question_id": "q_chunk_3_3",
+      "response_text": "What event is described in Chapter 128 of the text?  \nWhich languages are cited in the etymology section when discussing the word \u201cwhale\u201d?  \nWhich institution is acknowledged for its role in preserving the Virginia Tech version?  \nWhat themes are introduced in Chapter 133 titled \u201cThe Symphony\u201d?  \nFrom which now-defunct project was one of the etexts sourced?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.1337123426026663,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927219.6369996,
+      "question_id": "q_chunk_3_4",
+      "response_text": "What event is described in Chapter 128 of the text?  \nWhich languages are cited in the etymology section when discussing the word \u201cwhale\u201d?  \nWhich institution is acknowledged for its role in preserving the Virginia Tech version?  \nWhat themes are introduced in Chapter 133 titled \u201cThe Symphony\u201d?  \nFrom which now-defunct project was one of the etexts sourced?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3760271844017553,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927226.5181897,
+      "question_id": "q_chunk_4_0",
+      "response_text": "According to Richardson\u2019s Dictionary, what is the etymological origin of the word \u201cwhale\u201d?  \nWhich languages are listed in the text as having terms for whale, and what are those terms?  \nWhat caution does the author give about taking the whale statements found in the extracts?  \nWhich dictionaries are quoted at the beginning of the excerpt and what do they say about the word \u201cwhale\u201d?  \nWhat is the role of the Sub-Sub-Librarian in the context of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3760271844017553,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927226.5181947,
+      "question_id": "q_chunk_4_1",
+      "response_text": "According to Richardson\u2019s Dictionary, what is the etymological origin of the word \u201cwhale\u201d?  \nWhich languages are listed in the text as having terms for whale, and what are those terms?  \nWhat caution does the author give about taking the whale statements found in the extracts?  \nWhich dictionaries are quoted at the beginning of the excerpt and what do they say about the word \u201cwhale\u201d?  \nWhat is the role of the Sub-Sub-Librarian in the context of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3760271844017553,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927226.5181968,
+      "question_id": "q_chunk_4_2",
+      "response_text": "According to Richardson\u2019s Dictionary, what is the etymological origin of the word \u201cwhale\u201d?  \nWhich languages are listed in the text as having terms for whale, and what are those terms?  \nWhat caution does the author give about taking the whale statements found in the extracts?  \nWhich dictionaries are quoted at the beginning of the excerpt and what do they say about the word \u201cwhale\u201d?  \nWhat is the role of the Sub-Sub-Librarian in the context of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3760271844017553,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927226.5181983,
+      "question_id": "q_chunk_4_3",
+      "response_text": "According to Richardson\u2019s Dictionary, what is the etymological origin of the word \u201cwhale\u201d?  \nWhich languages are listed in the text as having terms for whale, and what are those terms?  \nWhat caution does the author give about taking the whale statements found in the extracts?  \nWhich dictionaries are quoted at the beginning of the excerpt and what do they say about the word \u201cwhale\u201d?  \nWhat is the role of the Sub-Sub-Librarian in the context of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3760271844017553,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927226.5182,
+      "question_id": "q_chunk_4_4",
+      "response_text": "According to Richardson\u2019s Dictionary, what is the etymological origin of the word \u201cwhale\u201d?  \nWhich languages are listed in the text as having terms for whale, and what are those terms?  \nWhat caution does the author give about taking the whale statements found in the extracts?  \nWhich dictionaries are quoted at the beginning of the excerpt and what do they say about the word \u201cwhale\u201d?  \nWhat is the role of the Sub-Sub-Librarian in the context of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3909684048005146,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927233.4741113,
+      "question_id": "q_chunk_5_0",
+      "response_text": "How does the author use biblical references to portray Leviathan across different ancient texts?  \nWhat tone does the passage adopt toward the \"Sub-Sub\" figure, and how is this conveyed through diction?  \nIn what way does the author juxtapose historical grandeur (Hampton Court, Tuileries) with the emotional state of the readers?  \nHow does the repeated motif of \"tears\" and \"glass\" contribute to the overall metaphorical structure of the passage?  \nWhat might the author intend by labeling the extracts as \"solely valuable or entertaining\" in relation to ancient authors and poets?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3909684048005146,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927233.47412,
+      "question_id": "q_chunk_5_1",
+      "response_text": "How does the author use biblical references to portray Leviathan across different ancient texts?  \nWhat tone does the passage adopt toward the \"Sub-Sub\" figure, and how is this conveyed through diction?  \nIn what way does the author juxtapose historical grandeur (Hampton Court, Tuileries) with the emotional state of the readers?  \nHow does the repeated motif of \"tears\" and \"glass\" contribute to the overall metaphorical structure of the passage?  \nWhat might the author intend by labeling the extracts as \"solely valuable or entertaining\" in relation to ancient authors and poets?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3909684048005146,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927233.4741218,
+      "question_id": "q_chunk_5_2",
+      "response_text": "How does the author use biblical references to portray Leviathan across different ancient texts?  \nWhat tone does the passage adopt toward the \"Sub-Sub\" figure, and how is this conveyed through diction?  \nIn what way does the author juxtapose historical grandeur (Hampton Court, Tuileries) with the emotional state of the readers?  \nHow does the repeated motif of \"tears\" and \"glass\" contribute to the overall metaphorical structure of the passage?  \nWhat might the author intend by labeling the extracts as \"solely valuable or entertaining\" in relation to ancient authors and poets?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3909684048005146,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927233.4741232,
+      "question_id": "q_chunk_5_3",
+      "response_text": "How does the author use biblical references to portray Leviathan across different ancient texts?  \nWhat tone does the passage adopt toward the \"Sub-Sub\" figure, and how is this conveyed through diction?  \nIn what way does the author juxtapose historical grandeur (Hampton Court, Tuileries) with the emotional state of the readers?  \nHow does the repeated motif of \"tears\" and \"glass\" contribute to the overall metaphorical structure of the passage?  \nWhat might the author intend by labeling the extracts as \"solely valuable or entertaining\" in relation to ancient authors and poets?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3909684048005146,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927233.4741244,
+      "question_id": "q_chunk_5_4",
+      "response_text": "How does the author use biblical references to portray Leviathan across different ancient texts?  \nWhat tone does the passage adopt toward the \"Sub-Sub\" figure, and how is this conveyed through diction?  \nIn what way does the author juxtapose historical grandeur (Hampton Court, Tuileries) with the emotional state of the readers?  \nHow does the repeated motif of \"tears\" and \"glass\" contribute to the overall metaphorical structure of the passage?  \nWhat might the author intend by labeling the extracts as \"solely valuable or entertaining\" in relation to ancient authors and poets?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0921174563991372,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927238.9357688,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What creature is described as being punished by the Lord in the Isaiah excerpt?  \nHow does Holland\u2019s Plutarch describe what happens to objects that enter the monster\u2019s mouth?  \nAccording to Holland\u2019s Pliny, which sea is said to produce the largest fishes, and what are those fishes called?  \nIn Tooke\u2019s Lucian account, how do the whales react as they approach the narrator?  \nWhat number of whales did the narrator claim to have killed in two days, as reported to King Alfred?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0921174563991372,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927238.9357798,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What creature is described as being punished by the Lord in the Isaiah excerpt?  \nHow does Holland\u2019s Plutarch describe what happens to objects that enter the monster\u2019s mouth?  \nAccording to Holland\u2019s Pliny, which sea is said to produce the largest fishes, and what are those fishes called?  \nIn Tooke\u2019s Lucian account, how do the whales react as they approach the narrator?  \nWhat number of whales did the narrator claim to have killed in two days, as reported to King Alfred?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0921174563991372,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927238.935782,
+      "question_id": "q_chunk_6_2",
+      "response_text": "What creature is described as being punished by the Lord in the Isaiah excerpt?  \nHow does Holland\u2019s Plutarch describe what happens to objects that enter the monster\u2019s mouth?  \nAccording to Holland\u2019s Pliny, which sea is said to produce the largest fishes, and what are those fishes called?  \nIn Tooke\u2019s Lucian account, how do the whales react as they approach the narrator?  \nWhat number of whales did the narrator claim to have killed in two days, as reported to King Alfred?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0921174563991372,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927238.935784,
+      "question_id": "q_chunk_6_3",
+      "response_text": "What creature is described as being punished by the Lord in the Isaiah excerpt?  \nHow does Holland\u2019s Plutarch describe what happens to objects that enter the monster\u2019s mouth?  \nAccording to Holland\u2019s Pliny, which sea is said to produce the largest fishes, and what are those fishes called?  \nIn Tooke\u2019s Lucian account, how do the whales react as they approach the narrator?  \nWhat number of whales did the narrator claim to have killed in two days, as reported to King Alfred?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0921174563991372,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927238.9357908,
+      "question_id": "q_chunk_6_4",
+      "response_text": "What creature is described as being punished by the Lord in the Isaiah excerpt?  \nHow does Holland\u2019s Plutarch describe what happens to objects that enter the monster\u2019s mouth?  \nAccording to Holland\u2019s Pliny, which sea is said to produce the largest fishes, and what are those fishes called?  \nIn Tooke\u2019s Lucian account, how do the whales react as they approach the narrator?  \nWhat number of whales did the narrator claim to have killed in two days, as reported to King Alfred?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.5634684958000435,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927246.7543092,
+      "question_id": "q_chunk_7_0",
+      "response_text": "In Montaigne's quotation, what is the significance of the \"sea\u2011gudgeon\" sleeping in the whale's mouth?  \nHow does Rabelais' comparison of Old Nick to Leviathan reflect the author's perspective on mortality?  \nAccording to Stowe's Annals, what is the approximate weight of a whale's liver, and why might that detail be important historically?  \nWhat is the main theme explored in Sir William Davenant's preface to Gondibert regarding whale motion and oceanic disturbance?  \nHow do the various literary sources in the passage collectively portray whales as symbols of both danger and wonder?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.5634684958000435,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927246.7543166,
+      "question_id": "q_chunk_7_1",
+      "response_text": "In Montaigne's quotation, what is the significance of the \"sea\u2011gudgeon\" sleeping in the whale's mouth?  \nHow does Rabelais' comparison of Old Nick to Leviathan reflect the author's perspective on mortality?  \nAccording to Stowe's Annals, what is the approximate weight of a whale's liver, and why might that detail be important historically?  \nWhat is the main theme explored in Sir William Davenant's preface to Gondibert regarding whale motion and oceanic disturbance?  \nHow do the various literary sources in the passage collectively portray whales as symbols of both danger and wonder?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.5634684958000435,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927246.7543185,
+      "question_id": "q_chunk_7_2",
+      "response_text": "In Montaigne's quotation, what is the significance of the \"sea\u2011gudgeon\" sleeping in the whale's mouth?  \nHow does Rabelais' comparison of Old Nick to Leviathan reflect the author's perspective on mortality?  \nAccording to Stowe's Annals, what is the approximate weight of a whale's liver, and why might that detail be important historically?  \nWhat is the main theme explored in Sir William Davenant's preface to Gondibert regarding whale motion and oceanic disturbance?  \nHow do the various literary sources in the passage collectively portray whales as symbols of both danger and wonder?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.5634684958000435,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927246.754321,
+      "question_id": "q_chunk_7_3",
+      "response_text": "In Montaigne's quotation, what is the significance of the \"sea\u2011gudgeon\" sleeping in the whale's mouth?  \nHow does Rabelais' comparison of Old Nick to Leviathan reflect the author's perspective on mortality?  \nAccording to Stowe's Annals, what is the approximate weight of a whale's liver, and why might that detail be important historically?  \nWhat is the main theme explored in Sir William Davenant's preface to Gondibert regarding whale motion and oceanic disturbance?  \nHow do the various literary sources in the passage collectively portray whales as symbols of both danger and wonder?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.5634684958000435,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927246.7543228,
+      "question_id": "q_chunk_7_4",
+      "response_text": "In Montaigne's quotation, what is the significance of the \"sea\u2011gudgeon\" sleeping in the whale's mouth?  \nHow does Rabelais' comparison of Old Nick to Leviathan reflect the author's perspective on mortality?  \nAccording to Stowe's Annals, what is the approximate weight of a whale's liver, and why might that detail be important historically?  \nWhat is the main theme explored in Sir William Davenant's preface to Gondibert regarding whale motion and oceanic disturbance?  \nHow do the various literary sources in the passage collectively portray whales as symbols of both danger and wonder?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.5391214606002905,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927254.4509826,
+      "question_id": "q_chunk_8_0",
+      "response_text": "How do the various quotations depict the Leviathan or whale in relation to human concepts of state and power?  \n\nWhat recurring imagery is used to describe the whale\u2019s physical presence across the different authors?  \n\nIn what ways do the cited passages reflect the evolution of maritime literature from the 17th to the 19th centuries?  \n\nHow does the metaphor of a whale as an \"artificial man\" in Hobbes' Leviathan influence the interpretation of the other quotations?  \n\nWhat significance does the repeated mention of \"gills,\" \"breath,\" and \"oil\" have in connecting mythological and practical views of whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.5391214606002905,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927254.4509928,
+      "question_id": "q_chunk_8_1",
+      "response_text": "How do the various quotations depict the Leviathan or whale in relation to human concepts of state and power?  \n\nWhat recurring imagery is used to describe the whale\u2019s physical presence across the different authors?  \n\nIn what ways do the cited passages reflect the evolution of maritime literature from the 17th to the 19th centuries?  \n\nHow does the metaphor of a whale as an \"artificial man\" in Hobbes' Leviathan influence the interpretation of the other quotations?  \n\nWhat significance does the repeated mention of \"gills,\" \"breath,\" and \"oil\" have in connecting mythological and practical views of whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.5391214606002905,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927254.4509947,
+      "question_id": "q_chunk_8_2",
+      "response_text": "How do the various quotations depict the Leviathan or whale in relation to human concepts of state and power?  \n\nWhat recurring imagery is used to describe the whale\u2019s physical presence across the different authors?  \n\nIn what ways do the cited passages reflect the evolution of maritime literature from the 17th to the 19th centuries?  \n\nHow does the metaphor of a whale as an \"artificial man\" in Hobbes' Leviathan influence the interpretation of the other quotations?  \n\nWhat significance does the repeated mention of \"gills,\" \"breath,\" and \"oil\" have in connecting mythological and practical views of whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.5391214606002905,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927254.450998,
+      "question_id": "q_chunk_8_3",
+      "response_text": "How do the various quotations depict the Leviathan or whale in relation to human concepts of state and power?  \n\nWhat recurring imagery is used to describe the whale\u2019s physical presence across the different authors?  \n\nIn what ways do the cited passages reflect the evolution of maritime literature from the 17th to the 19th centuries?  \n\nHow does the metaphor of a whale as an \"artificial man\" in Hobbes' Leviathan influence the interpretation of the other quotations?  \n\nWhat significance does the repeated mention of \"gills,\" \"breath,\" and \"oil\" have in connecting mythological and practical views of whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.5391214606002905,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927254.4509993,
+      "question_id": "q_chunk_8_4",
+      "response_text": "How do the various quotations depict the Leviathan or whale in relation to human concepts of state and power?  \n\nWhat recurring imagery is used to describe the whale\u2019s physical presence across the different authors?  \n\nIn what ways do the cited passages reflect the evolution of maritime literature from the 17th to the 19th centuries?  \n\nHow does the metaphor of a whale as an \"artificial man\" in Hobbes' Leviathan influence the interpretation of the other quotations?  \n\nWhat significance does the repeated mention of \"gills,\" \"breath,\" and \"oil\" have in connecting mythological and practical views of whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1229643722006586,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927260.0668235,
+      "question_id": "q_chunk_9_0",
+      "response_text": "What descriptions do the cited authors provide about whales' behavior in the ocean?  \nHow did the sailors in Schouten\u2019s account adjust their navigation in response to the whale sightings?  \nWhich specific anecdotes about whales are mentioned in the 1671 voyage to Greenland?  \nWhat unusual features of the whale that appeared in Fife in 1652 are highlighted by Sibbald?  \nWhy did Richard Strafford consider attempting to kill a sperm whale noteworthy, according to his letter?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1229643722006586,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927260.0668283,
+      "question_id": "q_chunk_9_1",
+      "response_text": "What descriptions do the cited authors provide about whales' behavior in the ocean?  \nHow did the sailors in Schouten\u2019s account adjust their navigation in response to the whale sightings?  \nWhich specific anecdotes about whales are mentioned in the 1671 voyage to Greenland?  \nWhat unusual features of the whale that appeared in Fife in 1652 are highlighted by Sibbald?  \nWhy did Richard Strafford consider attempting to kill a sperm whale noteworthy, according to his letter?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1229643722006586,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927260.0668304,
+      "question_id": "q_chunk_9_2",
+      "response_text": "What descriptions do the cited authors provide about whales' behavior in the ocean?  \nHow did the sailors in Schouten\u2019s account adjust their navigation in response to the whale sightings?  \nWhich specific anecdotes about whales are mentioned in the 1671 voyage to Greenland?  \nWhat unusual features of the whale that appeared in Fife in 1652 are highlighted by Sibbald?  \nWhy did Richard Strafford consider attempting to kill a sperm whale noteworthy, according to his letter?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1229643722006586,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927260.0668318,
+      "question_id": "q_chunk_9_3",
+      "response_text": "What descriptions do the cited authors provide about whales' behavior in the ocean?  \nHow did the sailors in Schouten\u2019s account adjust their navigation in response to the whale sightings?  \nWhich specific anecdotes about whales are mentioned in the 1671 voyage to Greenland?  \nWhat unusual features of the whale that appeared in Fife in 1652 are highlighted by Sibbald?  \nWhy did Richard Strafford consider attempting to kill a sperm whale noteworthy, according to his letter?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1229643722006586,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927260.0668333,
+      "question_id": "q_chunk_9_4",
+      "response_text": "What descriptions do the cited authors provide about whales' behavior in the ocean?  \nHow did the sailors in Schouten\u2019s account adjust their navigation in response to the whale sightings?  \nWhich specific anecdotes about whales are mentioned in the 1671 voyage to Greenland?  \nWhat unusual features of the whale that appeared in Fife in 1652 are highlighted by Sibbald?  \nWhy did Richard Strafford consider attempting to kill a sperm whale noteworthy, according to his letter?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2242292823997558,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927266.1889431,
+      "question_id": "q_chunk_10_0",
+      "response_text": "How does the 1668 letter by Richard Strafford reflect early attitudes toward hunting large whales?  \nIn what ways do the quotes illustrate the perceived size and power of whales compared to land animals?  \nWhat is the significance of the mention of \"Sperma-ceti\" in the context of 17th\u2011century maritime literature?  \nHow do the different authors use whale imagery to convey moral or philosophical ideas?  \nWhat evidence in the text suggests that whales were both feared and revered by sailors of the era?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2242292823997558,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927266.188949,
+      "question_id": "q_chunk_10_1",
+      "response_text": "How does the 1668 letter by Richard Strafford reflect early attitudes toward hunting large whales?  \nIn what ways do the quotes illustrate the perceived size and power of whales compared to land animals?  \nWhat is the significance of the mention of \"Sperma-ceti\" in the context of 17th\u2011century maritime literature?  \nHow do the different authors use whale imagery to convey moral or philosophical ideas?  \nWhat evidence in the text suggests that whales were both feared and revered by sailors of the era?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2242292823997558,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927266.1889508,
+      "question_id": "q_chunk_10_2",
+      "response_text": "How does the 1668 letter by Richard Strafford reflect early attitudes toward hunting large whales?  \nIn what ways do the quotes illustrate the perceived size and power of whales compared to land animals?  \nWhat is the significance of the mention of \"Sperma-ceti\" in the context of 17th\u2011century maritime literature?  \nHow do the different authors use whale imagery to convey moral or philosophical ideas?  \nWhat evidence in the text suggests that whales were both feared and revered by sailors of the era?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2242292823997558,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927266.188952,
+      "question_id": "q_chunk_10_3",
+      "response_text": "How does the 1668 letter by Richard Strafford reflect early attitudes toward hunting large whales?  \nIn what ways do the quotes illustrate the perceived size and power of whales compared to land animals?  \nWhat is the significance of the mention of \"Sperma-ceti\" in the context of 17th\u2011century maritime literature?  \nHow do the different authors use whale imagery to convey moral or philosophical ideas?  \nWhat evidence in the text suggests that whales were both feared and revered by sailors of the era?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2242292823997558,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927266.1889536,
+      "question_id": "q_chunk_10_4",
+      "response_text": "How does the 1668 letter by Richard Strafford reflect early attitudes toward hunting large whales?  \nIn what ways do the quotes illustrate the perceived size and power of whales compared to land animals?  \nWhat is the significance of the mention of \"Sperma-ceti\" in the context of 17th\u2011century maritime literature?  \nHow do the different authors use whale imagery to convey moral or philosophical ideas?  \nWhat evidence in the text suggests that whales were both feared and revered by sailors of the era?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.608314549800707,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927269.2315245,
+      "question_id": "q_chunk_11_0",
+      "response_text": "Who are the primary authors mentioned in the quoted passages?  \nWhat is the significance of the whale as a symbol in Cook\u2019s voyage account?  \nHow do the descriptions of whale behavior differ between the various historical sources?  \nWhat does Blackstone\u2019s passage reveal about the economic and legal status of whales in the 18th century?  \nIn what ways do the final two poetic lines reflect the broader maritime culture of the era?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.608314549800707,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927269.2315314,
+      "question_id": "q_chunk_11_1",
+      "response_text": "Who are the primary authors mentioned in the quoted passages?  \nWhat is the significance of the whale as a symbol in Cook\u2019s voyage account?  \nHow do the descriptions of whale behavior differ between the various historical sources?  \nWhat does Blackstone\u2019s passage reveal about the economic and legal status of whales in the 18th century?  \nIn what ways do the final two poetic lines reflect the broader maritime culture of the era?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.608314549800707,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927269.231534,
+      "question_id": "q_chunk_11_2",
+      "response_text": "Who are the primary authors mentioned in the quoted passages?  \nWhat is the significance of the whale as a symbol in Cook\u2019s voyage account?  \nHow do the descriptions of whale behavior differ between the various historical sources?  \nWhat does Blackstone\u2019s passage reveal about the economic and legal status of whales in the 18th century?  \nIn what ways do the final two poetic lines reflect the broader maritime culture of the era?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.608314549800707,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927269.2315357,
+      "question_id": "q_chunk_11_3",
+      "response_text": "Who are the primary authors mentioned in the quoted passages?  \nWhat is the significance of the whale as a symbol in Cook\u2019s voyage account?  \nHow do the descriptions of whale behavior differ between the various historical sources?  \nWhat does Blackstone\u2019s passage reveal about the economic and legal status of whales in the 18th century?  \nIn what ways do the final two poetic lines reflect the broader maritime culture of the era?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.608314549800707,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927269.2315414,
+      "question_id": "q_chunk_11_4",
+      "response_text": "Who are the primary authors mentioned in the quoted passages?  \nWhat is the significance of the whale as a symbol in Cook\u2019s voyage account?  \nHow do the descriptions of whale behavior differ between the various historical sources?  \nWhat does Blackstone\u2019s passage reveal about the economic and legal status of whales in the 18th century?  \nIn what ways do the final two poetic lines reflect the broader maritime culture of the era?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1247389403986745,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927274.8563256,
+      "question_id": "q_chunk_12_0",
+      "response_text": "What common theme ties together the descriptions of whales across the various excerpts?  \nHow does the language used to describe whale anatomy differ between John Hunter and Paley?  \nIn what ways does the imagery of water and fire appear in the passages about whales and maritime settings?  \nWhich authors or historical figures are cited as sources in the text, and what is their relevance to the subject of whales?  \nHow does the depiction of whale characteristics evolve from the early passages to Montgomery\u2019s World before the Flood?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1247389403986745,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927274.85633,
+      "question_id": "q_chunk_12_1",
+      "response_text": "What common theme ties together the descriptions of whales across the various excerpts?  \nHow does the language used to describe whale anatomy differ between John Hunter and Paley?  \nIn what ways does the imagery of water and fire appear in the passages about whales and maritime settings?  \nWhich authors or historical figures are cited as sources in the text, and what is their relevance to the subject of whales?  \nHow does the depiction of whale characteristics evolve from the early passages to Montgomery\u2019s World before the Flood?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1247389403986745,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927274.8563318,
+      "question_id": "q_chunk_12_2",
+      "response_text": "What common theme ties together the descriptions of whales across the various excerpts?  \nHow does the language used to describe whale anatomy differ between John Hunter and Paley?  \nIn what ways does the imagery of water and fire appear in the passages about whales and maritime settings?  \nWhich authors or historical figures are cited as sources in the text, and what is their relevance to the subject of whales?  \nHow does the depiction of whale characteristics evolve from the early passages to Montgomery\u2019s World before the Flood?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1247389403986745,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927274.8563333,
+      "question_id": "q_chunk_12_3",
+      "response_text": "What common theme ties together the descriptions of whales across the various excerpts?  \nHow does the language used to describe whale anatomy differ between John Hunter and Paley?  \nIn what ways does the imagery of water and fire appear in the passages about whales and maritime settings?  \nWhich authors or historical figures are cited as sources in the text, and what is their relevance to the subject of whales?  \nHow does the depiction of whale characteristics evolve from the early passages to Montgomery\u2019s World before the Flood?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1247389403986745,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927274.8563344,
+      "question_id": "q_chunk_12_4",
+      "response_text": "What common theme ties together the descriptions of whales across the various excerpts?  \nHow does the language used to describe whale anatomy differ between John Hunter and Paley?  \nIn what ways does the imagery of water and fire appear in the passages about whales and maritime settings?  \nWhich authors or historical figures are cited as sources in the text, and what is their relevance to the subject of whales?  \nHow does the depiction of whale characteristics evolve from the early passages to Montgomery\u2019s World before the Flood?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3327621093980269,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927281.5212023,
+      "question_id": "q_chunk_13_0",
+      "response_text": "What creatures are described as \"Fishes of every colour, form, and kind\" in the first excerpt?  \nWhich author is credited with the text titled \u201cMontgomery\u2019s World before the Flood\u201d?  \nIn Charles Lamb\u2019s Triumph of the Whale, who is called the \"finny people\u2019s king\"?  \nHow does Hawthorne\u2019s Twice Told Tales depict the use of a whale\u2019s jaw in building a cottage?  \nWhat event involving whales is reported in the Berlin Gazette according to Eckermann\u2019s Conversations with Goethe?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3327621093980269,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927281.5212104,
+      "question_id": "q_chunk_13_1",
+      "response_text": "What creatures are described as \"Fishes of every colour, form, and kind\" in the first excerpt?  \nWhich author is credited with the text titled \u201cMontgomery\u2019s World before the Flood\u201d?  \nIn Charles Lamb\u2019s Triumph of the Whale, who is called the \"finny people\u2019s king\"?  \nHow does Hawthorne\u2019s Twice Told Tales depict the use of a whale\u2019s jaw in building a cottage?  \nWhat event involving whales is reported in the Berlin Gazette according to Eckermann\u2019s Conversations with Goethe?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3327621093980269,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927281.521212,
+      "question_id": "q_chunk_13_2",
+      "response_text": "What creatures are described as \"Fishes of every colour, form, and kind\" in the first excerpt?  \nWhich author is credited with the text titled \u201cMontgomery\u2019s World before the Flood\u201d?  \nIn Charles Lamb\u2019s Triumph of the Whale, who is called the \"finny people\u2019s king\"?  \nHow does Hawthorne\u2019s Twice Told Tales depict the use of a whale\u2019s jaw in building a cottage?  \nWhat event involving whales is reported in the Berlin Gazette according to Eckermann\u2019s Conversations with Goethe?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3327621093980269,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927281.5212138,
+      "question_id": "q_chunk_13_3",
+      "response_text": "What creatures are described as \"Fishes of every colour, form, and kind\" in the first excerpt?  \nWhich author is credited with the text titled \u201cMontgomery\u2019s World before the Flood\u201d?  \nIn Charles Lamb\u2019s Triumph of the Whale, who is called the \"finny people\u2019s king\"?  \nHow does Hawthorne\u2019s Twice Told Tales depict the use of a whale\u2019s jaw in building a cottage?  \nWhat event involving whales is reported in the Berlin Gazette according to Eckermann\u2019s Conversations with Goethe?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3327621093980269,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927281.521215,
+      "question_id": "q_chunk_13_4",
+      "response_text": "What creatures are described as \"Fishes of every colour, form, and kind\" in the first excerpt?  \nWhich author is credited with the text titled \u201cMontgomery\u2019s World before the Flood\u201d?  \nIn Charles Lamb\u2019s Triumph of the Whale, who is called the \"finny people\u2019s king\"?  \nHow does Hawthorne\u2019s Twice Told Tales depict the use of a whale\u2019s jaw in building a cottage?  \nWhat event involving whales is reported in the Berlin Gazette according to Eckermann\u2019s Conversations with Goethe?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0551720539981033,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927286.7981167,
+      "question_id": "q_chunk_14_0",
+      "response_text": "What is the significance of the phrase \u201craal oil\u2011butt\u201d in Cooper\u2019s Pilot?  \nWhich newspaper reported that whales had been introduced on the stage in Berlin?  \nHow many yards of line were used to capture the whale described by Scoresby?  \nAccording to Thomas Beale, what behaviors does a sperm whale exhibit when it is attacked?  \nIn what year was the Narrative of the Shipwreck of the Whale Ship Essex published?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0551720539981033,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927286.7981205,
+      "question_id": "q_chunk_14_1",
+      "response_text": "What is the significance of the phrase \u201craal oil\u2011butt\u201d in Cooper\u2019s Pilot?  \nWhich newspaper reported that whales had been introduced on the stage in Berlin?  \nHow many yards of line were used to capture the whale described by Scoresby?  \nAccording to Thomas Beale, what behaviors does a sperm whale exhibit when it is attacked?  \nIn what year was the Narrative of the Shipwreck of the Whale Ship Essex published?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0551720539981033,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927286.7981224,
+      "question_id": "q_chunk_14_2",
+      "response_text": "What is the significance of the phrase \u201craal oil\u2011butt\u201d in Cooper\u2019s Pilot?  \nWhich newspaper reported that whales had been introduced on the stage in Berlin?  \nHow many yards of line were used to capture the whale described by Scoresby?  \nAccording to Thomas Beale, what behaviors does a sperm whale exhibit when it is attacked?  \nIn what year was the Narrative of the Shipwreck of the Whale Ship Essex published?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0551720539981033,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927286.798124,
+      "question_id": "q_chunk_14_3",
+      "response_text": "What is the significance of the phrase \u201craal oil\u2011butt\u201d in Cooper\u2019s Pilot?  \nWhich newspaper reported that whales had been introduced on the stage in Berlin?  \nHow many yards of line were used to capture the whale described by Scoresby?  \nAccording to Thomas Beale, what behaviors does a sperm whale exhibit when it is attacked?  \nIn what year was the Narrative of the Shipwreck of the Whale Ship Essex published?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0551720539981033,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927286.798126,
+      "question_id": "q_chunk_14_4",
+      "response_text": "What is the significance of the phrase \u201craal oil\u2011butt\u201d in Cooper\u2019s Pilot?  \nWhich newspaper reported that whales had been introduced on the stage in Berlin?  \nHow many yards of line were used to capture the whale described by Scoresby?  \nAccording to Thomas Beale, what behaviors does a sperm whale exhibit when it is attacked?  \nIn what year was the Narrative of the Shipwreck of the Whale Ship Essex published?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.532861921802396,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927294.463479,
+      "question_id": "q_chunk_15_0",
+      "response_text": "What is the central focus of Thomas Beale\u2019s 1839 statement regarding the sperm whale?  \nWhich 1840 source describes the sperm whale as possessing a \u201cformidable weapon\u201d at each extremity of its body?  \nHow does Frederick Debell Bennett characterize the sperm whale\u2019s disposition toward using its weapons offensively?  \nIn J. Ross Browne\u2019s 1846 account, how close are the whales described as blowing and breaching?  \nWhich ship is mentioned in the 1828 Narrative of the Globe Mutiny, and what is its island of origin?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.532861921802396,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927294.463485,
+      "question_id": "q_chunk_15_1",
+      "response_text": "What is the central focus of Thomas Beale\u2019s 1839 statement regarding the sperm whale?  \nWhich 1840 source describes the sperm whale as possessing a \u201cformidable weapon\u201d at each extremity of its body?  \nHow does Frederick Debell Bennett characterize the sperm whale\u2019s disposition toward using its weapons offensively?  \nIn J. Ross Browne\u2019s 1846 account, how close are the whales described as blowing and breaching?  \nWhich ship is mentioned in the 1828 Narrative of the Globe Mutiny, and what is its island of origin?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.532861921802396,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927294.4634867,
+      "question_id": "q_chunk_15_2",
+      "response_text": "What is the central focus of Thomas Beale\u2019s 1839 statement regarding the sperm whale?  \nWhich 1840 source describes the sperm whale as possessing a \u201cformidable weapon\u201d at each extremity of its body?  \nHow does Frederick Debell Bennett characterize the sperm whale\u2019s disposition toward using its weapons offensively?  \nIn J. Ross Browne\u2019s 1846 account, how close are the whales described as blowing and breaching?  \nWhich ship is mentioned in the 1828 Narrative of the Globe Mutiny, and what is its island of origin?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.532861921802396,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927294.463488,
+      "question_id": "q_chunk_15_3",
+      "response_text": "What is the central focus of Thomas Beale\u2019s 1839 statement regarding the sperm whale?  \nWhich 1840 source describes the sperm whale as possessing a \u201cformidable weapon\u201d at each extremity of its body?  \nHow does Frederick Debell Bennett characterize the sperm whale\u2019s disposition toward using its weapons offensively?  \nIn J. Ross Browne\u2019s 1846 account, how close are the whales described as blowing and breaching?  \nWhich ship is mentioned in the 1828 Narrative of the Globe Mutiny, and what is its island of origin?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.532861921802396,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927294.4634893,
+      "question_id": "q_chunk_15_4",
+      "response_text": "What is the central focus of Thomas Beale\u2019s 1839 statement regarding the sperm whale?  \nWhich 1840 source describes the sperm whale as possessing a \u201cformidable weapon\u201d at each extremity of its body?  \nHow does Frederick Debell Bennett characterize the sperm whale\u2019s disposition toward using its weapons offensively?  \nIn J. Ross Browne\u2019s 1846 account, how close are the whales described as blowing and breaching?  \nWhich ship is mentioned in the 1828 Narrative of the Globe Mutiny, and what is its island of origin?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7823803569976007,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927303.3764215,
+      "question_id": "q_chunk_16_0",
+      "response_text": "What is the significance of the whale-ship Globe as described in the 1828 Narrative of the Globe Mutiny?  \nHow did the crew manage to escape the whale according to the Missionary Journal of Tyerman and Bennett?  \nWhat economic role does Daniel Webster claim Nantucket's inhabitants play in the United States?  \nWhat is the described fate of the man struck by the whale in Rev. Henry T. Cheever's account?  \nIn what way do the passages about the Northwest Passage and whale hunting reflect each other?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7823803569976007,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927303.3764286,
+      "question_id": "q_chunk_16_1",
+      "response_text": "What is the significance of the whale-ship Globe as described in the 1828 Narrative of the Globe Mutiny?  \nHow did the crew manage to escape the whale according to the Missionary Journal of Tyerman and Bennett?  \nWhat economic role does Daniel Webster claim Nantucket's inhabitants play in the United States?  \nWhat is the described fate of the man struck by the whale in Rev. Henry T. Cheever's account?  \nIn what way do the passages about the Northwest Passage and whale hunting reflect each other?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7823803569976007,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927303.3764307,
+      "question_id": "q_chunk_16_2",
+      "response_text": "What is the significance of the whale-ship Globe as described in the 1828 Narrative of the Globe Mutiny?  \nHow did the crew manage to escape the whale according to the Missionary Journal of Tyerman and Bennett?  \nWhat economic role does Daniel Webster claim Nantucket's inhabitants play in the United States?  \nWhat is the described fate of the man struck by the whale in Rev. Henry T. Cheever's account?  \nIn what way do the passages about the Northwest Passage and whale hunting reflect each other?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7823803569976007,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927303.3764324,
+      "question_id": "q_chunk_16_3",
+      "response_text": "What is the significance of the whale-ship Globe as described in the 1828 Narrative of the Globe Mutiny?  \nHow did the crew manage to escape the whale according to the Missionary Journal of Tyerman and Bennett?  \nWhat economic role does Daniel Webster claim Nantucket's inhabitants play in the United States?  \nWhat is the described fate of the man struck by the whale in Rev. Henry T. Cheever's account?  \nIn what way do the passages about the Northwest Passage and whale hunting reflect each other?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7823803569976007,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927303.3764338,
+      "question_id": "q_chunk_16_4",
+      "response_text": "What is the significance of the whale-ship Globe as described in the 1828 Narrative of the Globe Mutiny?  \nHow did the crew manage to escape the whale according to the Missionary Journal of Tyerman and Bennett?  \nWhat economic role does Daniel Webster claim Nantucket's inhabitants play in the United States?  \nWhat is the described fate of the man struck by the whale in Rev. Henry T. Cheever's account?  \nIn what way do the passages about the Northwest Passage and whale hunting reflect each other?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1934364179993282,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927309.3446321,
+      "question_id": "q_chunk_17_0",
+      "response_text": "How do the excerpts collectively portray the relationship between whalers and whales?  \nWhich passage suggests that whale bones were used in London\u2019s architectural features, and what is its significance?  \nWhat tension is implied in the statement that few whaling crew members return to their original ships?  \nIn what way does the \u201cmystic North\u2011West Passage\u201d metaphor connect to whaling expeditions?  \nHow does the description of a whale\u2019s sudden appearance reflect contemporary perceptions of the animal?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1934364179993282,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927309.3446367,
+      "question_id": "q_chunk_17_1",
+      "response_text": "How do the excerpts collectively portray the relationship between whalers and whales?  \nWhich passage suggests that whale bones were used in London\u2019s architectural features, and what is its significance?  \nWhat tension is implied in the statement that few whaling crew members return to their original ships?  \nIn what way does the \u201cmystic North\u2011West Passage\u201d metaphor connect to whaling expeditions?  \nHow does the description of a whale\u2019s sudden appearance reflect contemporary perceptions of the animal?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1934364179993282,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927309.3446383,
+      "question_id": "q_chunk_17_2",
+      "response_text": "How do the excerpts collectively portray the relationship between whalers and whales?  \nWhich passage suggests that whale bones were used in London\u2019s architectural features, and what is its significance?  \nWhat tension is implied in the statement that few whaling crew members return to their original ships?  \nIn what way does the \u201cmystic North\u2011West Passage\u201d metaphor connect to whaling expeditions?  \nHow does the description of a whale\u2019s sudden appearance reflect contemporary perceptions of the animal?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1934364179993282,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927309.3446395,
+      "question_id": "q_chunk_17_3",
+      "response_text": "How do the excerpts collectively portray the relationship between whalers and whales?  \nWhich passage suggests that whale bones were used in London\u2019s architectural features, and what is its significance?  \nWhat tension is implied in the statement that few whaling crew members return to their original ships?  \nIn what way does the \u201cmystic North\u2011West Passage\u201d metaphor connect to whaling expeditions?  \nHow does the description of a whale\u2019s sudden appearance reflect contemporary perceptions of the animal?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1934364179993282,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927309.3446407,
+      "question_id": "q_chunk_17_4",
+      "response_text": "How do the excerpts collectively portray the relationship between whalers and whales?  \nWhich passage suggests that whale bones were used in London\u2019s architectural features, and what is its significance?  \nWhat tension is implied in the statement that few whaling crew members return to their original ships?  \nIn what way does the \u201cmystic North\u2011West Passage\u201d metaphor connect to whaling expeditions?  \nHow does the description of a whale\u2019s sudden appearance reflect contemporary perceptions of the animal?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.6848941848002141,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927317.7701542,
+      "question_id": "q_chunk_18_0",
+      "response_text": "How does the author use whale imagery to convey themes of adventure and danger in the excerpt?  \nIn what way does the passage from \u201cMoby\u2011Dick\u201d reflect Ishmael\u2019s psychological state before setting sail?  \nWhat role does the \u201cwhale song\u201d play in juxtaposing the awe of nature with human endeavors in the text?  \nHow do the various quoted passages illustrate different perspectives on whaling, from the hunter\u2019s viewpoint to the naturalist\u2019s observations?  \nWhich literary techniques can be identified in Ishmael\u2019s narration that signal a transition from introspection to action?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.6848941848002141,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927317.770159,
+      "question_id": "q_chunk_18_1",
+      "response_text": "How does the author use whale imagery to convey themes of adventure and danger in the excerpt?  \nIn what way does the passage from \u201cMoby\u2011Dick\u201d reflect Ishmael\u2019s psychological state before setting sail?  \nWhat role does the \u201cwhale song\u201d play in juxtaposing the awe of nature with human endeavors in the text?  \nHow do the various quoted passages illustrate different perspectives on whaling, from the hunter\u2019s viewpoint to the naturalist\u2019s observations?  \nWhich literary techniques can be identified in Ishmael\u2019s narration that signal a transition from introspection to action?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.6848941848002141,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927317.770161,
+      "question_id": "q_chunk_18_2",
+      "response_text": "How does the author use whale imagery to convey themes of adventure and danger in the excerpt?  \nIn what way does the passage from \u201cMoby\u2011Dick\u201d reflect Ishmael\u2019s psychological state before setting sail?  \nWhat role does the \u201cwhale song\u201d play in juxtaposing the awe of nature with human endeavors in the text?  \nHow do the various quoted passages illustrate different perspectives on whaling, from the hunter\u2019s viewpoint to the naturalist\u2019s observations?  \nWhich literary techniques can be identified in Ishmael\u2019s narration that signal a transition from introspection to action?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.6848941848002141,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927317.770162,
+      "question_id": "q_chunk_18_3",
+      "response_text": "How does the author use whale imagery to convey themes of adventure and danger in the excerpt?  \nIn what way does the passage from \u201cMoby\u2011Dick\u201d reflect Ishmael\u2019s psychological state before setting sail?  \nWhat role does the \u201cwhale song\u201d play in juxtaposing the awe of nature with human endeavors in the text?  \nHow do the various quoted passages illustrate different perspectives on whaling, from the hunter\u2019s viewpoint to the naturalist\u2019s observations?  \nWhich literary techniques can be identified in Ishmael\u2019s narration that signal a transition from introspection to action?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.6848941848002141,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927317.7701635,
+      "question_id": "q_chunk_18_4",
+      "response_text": "How does the author use whale imagery to convey themes of adventure and danger in the excerpt?  \nIn what way does the passage from \u201cMoby\u2011Dick\u201d reflect Ishmael\u2019s psychological state before setting sail?  \nWhat role does the \u201cwhale song\u201d play in juxtaposing the awe of nature with human endeavors in the text?  \nHow do the various quoted passages illustrate different perspectives on whaling, from the hunter\u2019s viewpoint to the naturalist\u2019s observations?  \nWhich literary techniques can be identified in Ishmael\u2019s narration that signal a transition from introspection to action?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1133788408013061,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927323.338104,
+      "question_id": "q_chunk_19_0",
+      "response_text": "What emotional state does the narrator describe as prompting them to seek the sea?  \nHow does the narrator compare their desire for the ocean to a \"substitute for pistol and ball\"?  \nIn what ways does the narrator depict Manhattan as an insular city surrounded by water?  \nWhat observations does the narrator make about the crowds on the waterfront during a \"dreamy Sabbath afternoon\"?  \nHow does the narrator contrast the lives of the \"landmen\" with those who are drawn to the sea?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1133788408013061,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927323.3381104,
+      "question_id": "q_chunk_19_1",
+      "response_text": "What emotional state does the narrator describe as prompting them to seek the sea?  \nHow does the narrator compare their desire for the ocean to a \"substitute for pistol and ball\"?  \nIn what ways does the narrator depict Manhattan as an insular city surrounded by water?  \nWhat observations does the narrator make about the crowds on the waterfront during a \"dreamy Sabbath afternoon\"?  \nHow does the narrator contrast the lives of the \"landmen\" with those who are drawn to the sea?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1133788408013061,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927323.338112,
+      "question_id": "q_chunk_19_2",
+      "response_text": "What emotional state does the narrator describe as prompting them to seek the sea?  \nHow does the narrator compare their desire for the ocean to a \"substitute for pistol and ball\"?  \nIn what ways does the narrator depict Manhattan as an insular city surrounded by water?  \nWhat observations does the narrator make about the crowds on the waterfront during a \"dreamy Sabbath afternoon\"?  \nHow does the narrator contrast the lives of the \"landmen\" with those who are drawn to the sea?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1133788408013061,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927323.3381135,
+      "question_id": "q_chunk_19_3",
+      "response_text": "What emotional state does the narrator describe as prompting them to seek the sea?  \nHow does the narrator compare their desire for the ocean to a \"substitute for pistol and ball\"?  \nIn what ways does the narrator depict Manhattan as an insular city surrounded by water?  \nWhat observations does the narrator make about the crowds on the waterfront during a \"dreamy Sabbath afternoon\"?  \nHow does the narrator contrast the lives of the \"landmen\" with those who are drawn to the sea?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1133788408013061,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927323.3381147,
+      "question_id": "q_chunk_19_4",
+      "response_text": "What emotional state does the narrator describe as prompting them to seek the sea?  \nHow does the narrator compare their desire for the ocean to a \"substitute for pistol and ball\"?  \nIn what ways does the narrator depict Manhattan as an insular city surrounded by water?  \nWhat observations does the narrator make about the crowds on the waterfront during a \"dreamy Sabbath afternoon\"?  \nHow does the narrator contrast the lives of the \"landmen\" with those who are drawn to the sea?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.2706539250008064,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927334.6924083,
+      "question_id": "q_chunk_20_0",
+      "response_text": "How are the landsmen depicted as being constrained during the week days in the passage?  \nWhy do crowds of inlanders crowd toward the water according to the text?  \nWhat does the passage say will inevitably lead an absent\u2011minded man to water in a dale?  \nAccording to the artist in the passage, what is the chief element he uses to paint the most enchanting landscape?  \nHow does the text describe the relationship between meditation and water?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.2706539250008064,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927334.692414,
+      "question_id": "q_chunk_20_1",
+      "response_text": "How are the landsmen depicted as being constrained during the week days in the passage?  \nWhy do crowds of inlanders crowd toward the water according to the text?  \nWhat does the passage say will inevitably lead an absent\u2011minded man to water in a dale?  \nAccording to the artist in the passage, what is the chief element he uses to paint the most enchanting landscape?  \nHow does the text describe the relationship between meditation and water?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.2706539250008064,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927334.692416,
+      "question_id": "q_chunk_20_2",
+      "response_text": "How are the landsmen depicted as being constrained during the week days in the passage?  \nWhy do crowds of inlanders crowd toward the water according to the text?  \nWhat does the passage say will inevitably lead an absent\u2011minded man to water in a dale?  \nAccording to the artist in the passage, what is the chief element he uses to paint the most enchanting landscape?  \nHow does the text describe the relationship between meditation and water?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.2706539250008064,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927334.692418,
+      "question_id": "q_chunk_20_3",
+      "response_text": "How are the landsmen depicted as being constrained during the week days in the passage?  \nWhy do crowds of inlanders crowd toward the water according to the text?  \nWhat does the passage say will inevitably lead an absent\u2011minded man to water in a dale?  \nAccording to the artist in the passage, what is the chief element he uses to paint the most enchanting landscape?  \nHow does the text describe the relationship between meditation and water?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.2706539250008064,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927334.6924198,
+      "question_id": "q_chunk_20_4",
+      "response_text": "How are the landsmen depicted as being constrained during the week days in the passage?  \nWhy do crowds of inlanders crowd toward the water according to the text?  \nWhat does the passage say will inevitably lead an absent\u2011minded man to water in a dale?  \nAccording to the artist in the passage, what is the chief element he uses to paint the most enchanting landscape?  \nHow does the text describe the relationship between meditation and water?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0659394128015265,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927340.0231175,
+      "question_id": "q_chunk_21_0",
+      "response_text": "What symbolic significance might the hollow tree trunks hold in the passage?  \nHow does the narrator use natural imagery to convey the idea of longing or desire?  \nIn what ways does the text suggest a connection between the sea and human spirituality?  \nWhat does the narrator imply about the value of experiences versus material possessions when referencing the poet in Tennessee?  \nHow is the concept of an \"ungraspable phantom of life\" represented through the description of rivers and oceans?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0659394128015265,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927340.0231216,
+      "question_id": "q_chunk_21_1",
+      "response_text": "What symbolic significance might the hollow tree trunks hold in the passage?  \nHow does the narrator use natural imagery to convey the idea of longing or desire?  \nIn what ways does the text suggest a connection between the sea and human spirituality?  \nWhat does the narrator imply about the value of experiences versus material possessions when referencing the poet in Tennessee?  \nHow is the concept of an \"ungraspable phantom of life\" represented through the description of rivers and oceans?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0659394128015265,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927340.0231235,
+      "question_id": "q_chunk_21_2",
+      "response_text": "What symbolic significance might the hollow tree trunks hold in the passage?  \nHow does the narrator use natural imagery to convey the idea of longing or desire?  \nIn what ways does the text suggest a connection between the sea and human spirituality?  \nWhat does the narrator imply about the value of experiences versus material possessions when referencing the poet in Tennessee?  \nHow is the concept of an \"ungraspable phantom of life\" represented through the description of rivers and oceans?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0659394128015265,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927340.0231247,
+      "question_id": "q_chunk_21_3",
+      "response_text": "What symbolic significance might the hollow tree trunks hold in the passage?  \nHow does the narrator use natural imagery to convey the idea of longing or desire?  \nIn what ways does the text suggest a connection between the sea and human spirituality?  \nWhat does the narrator imply about the value of experiences versus material possessions when referencing the poet in Tennessee?  \nHow is the concept of an \"ungraspable phantom of life\" represented through the description of rivers and oceans?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0659394128015265,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927340.0231261,
+      "question_id": "q_chunk_21_4",
+      "response_text": "What symbolic significance might the hollow tree trunks hold in the passage?  \nHow does the narrator use natural imagery to convey the idea of longing or desire?  \nIn what ways does the text suggest a connection between the sea and human spirituality?  \nWhat does the narrator imply about the value of experiences versus material possessions when referencing the poet in Tennessee?  \nHow is the concept of an \"ungraspable phantom of life\" represented through the description of rivers and oceans?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6306002569996053,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927343.177181,
+      "question_id": "q_chunk_22_0",
+      "response_text": "What does the narrator mean by \u201cgoing to sea whenever I begin to grow hazy about the eyes\u201d?\n\nWhy does the narrator refuse to be a passenger or hold any official position on a ship?\n\nHow does the narrator describe his feelings toward the \u201chonorable respectable toils, trials, and tribulations\u201d of ship life?\n\nWhat humorous comparison does the narrator make between cooking a broiled fowl and ancient Egyptian practices?\n\nHow does the narrator feel about being forced to jump from spar to spar on a ship?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6306002569996053,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927343.1771896,
+      "question_id": "q_chunk_22_1",
+      "response_text": "What does the narrator mean by \u201cgoing to sea whenever I begin to grow hazy about the eyes\u201d?\n\nWhy does the narrator refuse to be a passenger or hold any official position on a ship?\n\nHow does the narrator describe his feelings toward the \u201chonorable respectable toils, trials, and tribulations\u201d of ship life?\n\nWhat humorous comparison does the narrator make between cooking a broiled fowl and ancient Egyptian practices?\n\nHow does the narrator feel about being forced to jump from spar to spar on a ship?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6306002569996053,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927343.1771917,
+      "question_id": "q_chunk_22_2",
+      "response_text": "What does the narrator mean by \u201cgoing to sea whenever I begin to grow hazy about the eyes\u201d?\n\nWhy does the narrator refuse to be a passenger or hold any official position on a ship?\n\nHow does the narrator describe his feelings toward the \u201chonorable respectable toils, trials, and tribulations\u201d of ship life?\n\nWhat humorous comparison does the narrator make between cooking a broiled fowl and ancient Egyptian practices?\n\nHow does the narrator feel about being forced to jump from spar to spar on a ship?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6306002569996053,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927343.1771932,
+      "question_id": "q_chunk_22_3",
+      "response_text": "What does the narrator mean by \u201cgoing to sea whenever I begin to grow hazy about the eyes\u201d?\n\nWhy does the narrator refuse to be a passenger or hold any official position on a ship?\n\nHow does the narrator describe his feelings toward the \u201chonorable respectable toils, trials, and tribulations\u201d of ship life?\n\nWhat humorous comparison does the narrator make between cooking a broiled fowl and ancient Egyptian practices?\n\nHow does the narrator feel about being forced to jump from spar to spar on a ship?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6306002569996053,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927343.1771946,
+      "question_id": "q_chunk_22_4",
+      "response_text": "What does the narrator mean by \u201cgoing to sea whenever I begin to grow hazy about the eyes\u201d?\n\nWhy does the narrator refuse to be a passenger or hold any official position on a ship?\n\nHow does the narrator describe his feelings toward the \u201chonorable respectable toils, trials, and tribulations\u201d of ship life?\n\nWhat humorous comparison does the narrator make between cooking a broiled fowl and ancient Egyptian practices?\n\nHow does the narrator feel about being forced to jump from spar to spar on a ship?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.840455885999836,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927347.380482,
+      "question_id": "q_chunk_23_0",
+      "response_text": "What emotions does the narrator describe when transitioning from a country schoolmaster to a sailor?  \nHow does the narrator interpret the indignity of being ordered to perform menial tasks by a sea captain?  \nIn what way does the narrator connect obedience to a sea captain with the New Testament's perspective on servitude?  \nWhat contrast does the narrator draw between paying for services and being paid for one's labor?  \nHow does the narrator reconcile the belief that money is the root of all earthly ills with the necessity of earning a living at sea?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.840455885999836,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927347.3804862,
+      "question_id": "q_chunk_23_1",
+      "response_text": "What emotions does the narrator describe when transitioning from a country schoolmaster to a sailor?  \nHow does the narrator interpret the indignity of being ordered to perform menial tasks by a sea captain?  \nIn what way does the narrator connect obedience to a sea captain with the New Testament's perspective on servitude?  \nWhat contrast does the narrator draw between paying for services and being paid for one's labor?  \nHow does the narrator reconcile the belief that money is the root of all earthly ills with the necessity of earning a living at sea?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.840455885999836,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927347.3804877,
+      "question_id": "q_chunk_23_2",
+      "response_text": "What emotions does the narrator describe when transitioning from a country schoolmaster to a sailor?  \nHow does the narrator interpret the indignity of being ordered to perform menial tasks by a sea captain?  \nIn what way does the narrator connect obedience to a sea captain with the New Testament's perspective on servitude?  \nWhat contrast does the narrator draw between paying for services and being paid for one's labor?  \nHow does the narrator reconcile the belief that money is the root of all earthly ills with the necessity of earning a living at sea?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.840455885999836,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927347.380489,
+      "question_id": "q_chunk_23_3",
+      "response_text": "What emotions does the narrator describe when transitioning from a country schoolmaster to a sailor?  \nHow does the narrator interpret the indignity of being ordered to perform menial tasks by a sea captain?  \nIn what way does the narrator connect obedience to a sea captain with the New Testament's perspective on servitude?  \nWhat contrast does the narrator draw between paying for services and being paid for one's labor?  \nHow does the narrator reconcile the belief that money is the root of all earthly ills with the necessity of earning a living at sea?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.840455885999836,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927347.3804903,
+      "question_id": "q_chunk_23_4",
+      "response_text": "What emotions does the narrator describe when transitioning from a country schoolmaster to a sailor?  \nHow does the narrator interpret the indignity of being ordered to perform menial tasks by a sea captain?  \nIn what way does the narrator connect obedience to a sea captain with the New Testament's perspective on servitude?  \nWhat contrast does the narrator draw between paying for services and being paid for one's labor?  \nHow does the narrator reconcile the belief that money is the root of all earthly ills with the necessity of earning a living at sea?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3474940379994222,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927354.1187665,
+      "question_id": "q_chunk_24_0",
+      "response_text": "What does the narrator suggest about the relationship between money and moral virtue?  \nHow does the sailor\u2019s experience on the forecastle serve as a metaphor for leadership dynamics?  \nWhy does the narrator reference the Pythagorean maxim in the context of wind direction?  \nIn what way does the narrator attribute his decision to go on a whaling voyage to fate or Providence?  \nWhat might the juxtaposition of a presidential election and a whaling voyage imply about the text\u2019s underlying themes?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3474940379994222,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927354.1187727,
+      "question_id": "q_chunk_24_1",
+      "response_text": "What does the narrator suggest about the relationship between money and moral virtue?  \nHow does the sailor\u2019s experience on the forecastle serve as a metaphor for leadership dynamics?  \nWhy does the narrator reference the Pythagorean maxim in the context of wind direction?  \nIn what way does the narrator attribute his decision to go on a whaling voyage to fate or Providence?  \nWhat might the juxtaposition of a presidential election and a whaling voyage imply about the text\u2019s underlying themes?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3474940379994222,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927354.1187735,
+      "question_id": "q_chunk_24_2",
+      "response_text": "What does the narrator suggest about the relationship between money and moral virtue?  \nHow does the sailor\u2019s experience on the forecastle serve as a metaphor for leadership dynamics?  \nWhy does the narrator reference the Pythagorean maxim in the context of wind direction?  \nIn what way does the narrator attribute his decision to go on a whaling voyage to fate or Providence?  \nWhat might the juxtaposition of a presidential election and a whaling voyage imply about the text\u2019s underlying themes?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3474940379994222,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927354.118775,
+      "question_id": "q_chunk_24_3",
+      "response_text": "What does the narrator suggest about the relationship between money and moral virtue?  \nHow does the sailor\u2019s experience on the forecastle serve as a metaphor for leadership dynamics?  \nWhy does the narrator reference the Pythagorean maxim in the context of wind direction?  \nIn what way does the narrator attribute his decision to go on a whaling voyage to fate or Providence?  \nWhat might the juxtaposition of a presidential election and a whaling voyage imply about the text\u2019s underlying themes?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3474940379994222,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927354.1187754,
+      "question_id": "q_chunk_24_4",
+      "response_text": "What does the narrator suggest about the relationship between money and moral virtue?  \nHow does the sailor\u2019s experience on the forecastle serve as a metaphor for leadership dynamics?  \nWhy does the narrator reference the Pythagorean maxim in the context of wind direction?  \nIn what way does the narrator attribute his decision to go on a whaling voyage to fate or Providence?  \nWhat might the juxtaposition of a presidential election and a whaling voyage imply about the text\u2019s underlying themes?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1169569574005436,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927359.7046158,
+      "question_id": "q_chunk_25_0",
+      "response_text": "What was the context in which the author performed the brief interlude described in the text?  \nHow does the author explain the choice of the whaling voyage role over other roles?  \nWhat specific motives does the author identify as influencing his decision to perform the whaling voyage?  \nWhich aspects of the whale and the sea does the author find particularly compelling in motivating him?  \nHow does the author describe the psychological effect of the whaling voyage on his inner self?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1169569574005436,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927359.704625,
+      "question_id": "q_chunk_25_1",
+      "response_text": "What was the context in which the author performed the brief interlude described in the text?  \nHow does the author explain the choice of the whaling voyage role over other roles?  \nWhat specific motives does the author identify as influencing his decision to perform the whaling voyage?  \nWhich aspects of the whale and the sea does the author find particularly compelling in motivating him?  \nHow does the author describe the psychological effect of the whaling voyage on his inner self?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1169569574005436,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927359.704627,
+      "question_id": "q_chunk_25_2",
+      "response_text": "What was the context in which the author performed the brief interlude described in the text?  \nHow does the author explain the choice of the whaling voyage role over other roles?  \nWhat specific motives does the author identify as influencing his decision to perform the whaling voyage?  \nWhich aspects of the whale and the sea does the author find particularly compelling in motivating him?  \nHow does the author describe the psychological effect of the whaling voyage on his inner self?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1169569574005436,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927359.7046285,
+      "question_id": "q_chunk_25_3",
+      "response_text": "What was the context in which the author performed the brief interlude described in the text?  \nHow does the author explain the choice of the whaling voyage role over other roles?  \nWhat specific motives does the author identify as influencing his decision to perform the whaling voyage?  \nWhich aspects of the whale and the sea does the author find particularly compelling in motivating him?  \nHow does the author describe the psychological effect of the whaling voyage on his inner self?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1169569574005436,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927359.70463,
+      "question_id": "q_chunk_25_4",
+      "response_text": "What was the context in which the author performed the brief interlude described in the text?  \nHow does the author explain the choice of the whaling voyage role over other roles?  \nWhat specific motives does the author identify as influencing his decision to perform the whaling voyage?  \nWhich aspects of the whale and the sea does the author find particularly compelling in motivating him?  \nHow does the author describe the psychological effect of the whaling voyage on his inner self?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.6806755817990051,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927368.1088827,
+      "question_id": "q_chunk_26_0",
+      "response_text": "What reasons does the narrator give for choosing to sail from New Bedford rather than Manhattan?  \nHow does the narrator describe his emotional connection to Nantucket and its impact on his plans?  \nIn what ways does the text contrast the historical significance of Nantucket with the contemporary rise of New\u202fBedford in the whaling industry?  \nWhat role does the \u201ccarpet-bag\u201d play in establishing the narrator\u2019s personal story and sense of adventure?  \nHow does the author use the opening excerpt to set the tone for the rest of the novel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.6806755817990051,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927368.1088872,
+      "question_id": "q_chunk_26_1",
+      "response_text": "What reasons does the narrator give for choosing to sail from New Bedford rather than Manhattan?  \nHow does the narrator describe his emotional connection to Nantucket and its impact on his plans?  \nIn what ways does the text contrast the historical significance of Nantucket with the contemporary rise of New\u202fBedford in the whaling industry?  \nWhat role does the \u201ccarpet-bag\u201d play in establishing the narrator\u2019s personal story and sense of adventure?  \nHow does the author use the opening excerpt to set the tone for the rest of the novel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.6806755817990051,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927368.1088886,
+      "question_id": "q_chunk_26_2",
+      "response_text": "What reasons does the narrator give for choosing to sail from New Bedford rather than Manhattan?  \nHow does the narrator describe his emotional connection to Nantucket and its impact on his plans?  \nIn what ways does the text contrast the historical significance of Nantucket with the contemporary rise of New\u202fBedford in the whaling industry?  \nWhat role does the \u201ccarpet-bag\u201d play in establishing the narrator\u2019s personal story and sense of adventure?  \nHow does the author use the opening excerpt to set the tone for the rest of the novel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.6806755817990051,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927368.108889,
+      "question_id": "q_chunk_26_3",
+      "response_text": "What reasons does the narrator give for choosing to sail from New Bedford rather than Manhattan?  \nHow does the narrator describe his emotional connection to Nantucket and its impact on his plans?  \nIn what ways does the text contrast the historical significance of Nantucket with the contemporary rise of New\u202fBedford in the whaling industry?  \nWhat role does the \u201ccarpet-bag\u201d play in establishing the narrator\u2019s personal story and sense of adventure?  \nHow does the author use the opening excerpt to set the tone for the rest of the novel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.6806755817990051,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927368.10889,
+      "question_id": "q_chunk_26_4",
+      "response_text": "What reasons does the narrator give for choosing to sail from New Bedford rather than Manhattan?  \nHow does the narrator describe his emotional connection to Nantucket and its impact on his plans?  \nIn what ways does the text contrast the historical significance of Nantucket with the contemporary rise of New\u202fBedford in the whaling industry?  \nWhat role does the \u201ccarpet-bag\u201d play in establishing the narrator\u2019s personal story and sense of adventure?  \nHow does the author use the opening excerpt to set the tone for the rest of the novel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7571918592002476,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927371.8957038,
+      "question_id": "q_chunk_27_0",
+      "response_text": "What significance does the mention of Nantucket have in the narrator\u2019s journey?  \nHow does the narrator\u2019s description of New Bedford\u2019s streets reflect his mood and surroundings?  \nWhat clues in the passage hint at the narrator\u2019s financial situation and its impact on his choices?  \nWhy does the narrator repeatedly remind himself of \u201cIshmael\u201d throughout the narrative?  \nHow do the \u201cCrossed Harpoons\u201d and the \u201cSword\u2011Fish Inn\u201d symbolize the narrator\u2019s struggle to find accommodation?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7571918592002476,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927371.8957098,
+      "question_id": "q_chunk_27_1",
+      "response_text": "What significance does the mention of Nantucket have in the narrator\u2019s journey?  \nHow does the narrator\u2019s description of New Bedford\u2019s streets reflect his mood and surroundings?  \nWhat clues in the passage hint at the narrator\u2019s financial situation and its impact on his choices?  \nWhy does the narrator repeatedly remind himself of \u201cIshmael\u201d throughout the narrative?  \nHow do the \u201cCrossed Harpoons\u201d and the \u201cSword\u2011Fish Inn\u201d symbolize the narrator\u2019s struggle to find accommodation?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7571918592002476,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927371.8957105,
+      "question_id": "q_chunk_27_2",
+      "response_text": "What significance does the mention of Nantucket have in the narrator\u2019s journey?  \nHow does the narrator\u2019s description of New Bedford\u2019s streets reflect his mood and surroundings?  \nWhat clues in the passage hint at the narrator\u2019s financial situation and its impact on his choices?  \nWhy does the narrator repeatedly remind himself of \u201cIshmael\u201d throughout the narrative?  \nHow do the \u201cCrossed Harpoons\u201d and the \u201cSword\u2011Fish Inn\u201d symbolize the narrator\u2019s struggle to find accommodation?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7571918592002476,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927371.895711,
+      "question_id": "q_chunk_27_3",
+      "response_text": "What significance does the mention of Nantucket have in the narrator\u2019s journey?  \nHow does the narrator\u2019s description of New Bedford\u2019s streets reflect his mood and surroundings?  \nWhat clues in the passage hint at the narrator\u2019s financial situation and its impact on his choices?  \nWhy does the narrator repeatedly remind himself of \u201cIshmael\u201d throughout the narrative?  \nHow do the \u201cCrossed Harpoons\u201d and the \u201cSword\u2011Fish Inn\u201d symbolize the narrator\u2019s struggle to find accommodation?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7571918592002476,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927371.8957167,
+      "question_id": "q_chunk_27_4",
+      "response_text": "What significance does the mention of Nantucket have in the narrator\u2019s journey?  \nHow does the narrator\u2019s description of New Bedford\u2019s streets reflect his mood and surroundings?  \nWhat clues in the passage hint at the narrator\u2019s financial situation and its impact on his choices?  \nWhy does the narrator repeatedly remind himself of \u201cIshmael\u201d throughout the narrative?  \nHow do the \u201cCrossed Harpoons\u201d and the \u201cSword\u2011Fish Inn\u201d symbolize the narrator\u2019s struggle to find accommodation?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6398344501998509,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927375.0959723,
+      "question_id": "q_chunk_28_0",
+      "response_text": "What significance does the narrator's \"patched boots\" hold in the setting of the story?  \nHow does the narrator interpret the symbols \"The Crossed Harpoons\" and \"The Sword-Fish\"?  \nWhat role does the \"black Angel of Doom\" play in the described Black Parliament scene?  \nWhy does the narrator mention the name \"Peter Coffin\" in relation to the Spouter Inn?  \nWhat atmospheric details convey the sense of dread and mystery throughout the narrator's journey?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6398344501998509,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927375.095977,
+      "question_id": "q_chunk_28_1",
+      "response_text": "What significance does the narrator's \"patched boots\" hold in the setting of the story?  \nHow does the narrator interpret the symbols \"The Crossed Harpoons\" and \"The Sword-Fish\"?  \nWhat role does the \"black Angel of Doom\" play in the described Black Parliament scene?  \nWhy does the narrator mention the name \"Peter Coffin\" in relation to the Spouter Inn?  \nWhat atmospheric details convey the sense of dread and mystery throughout the narrator's journey?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6398344501998509,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927375.0959787,
+      "question_id": "q_chunk_28_2",
+      "response_text": "What significance does the narrator's \"patched boots\" hold in the setting of the story?  \nHow does the narrator interpret the symbols \"The Crossed Harpoons\" and \"The Sword-Fish\"?  \nWhat role does the \"black Angel of Doom\" play in the described Black Parliament scene?  \nWhy does the narrator mention the name \"Peter Coffin\" in relation to the Spouter Inn?  \nWhat atmospheric details convey the sense of dread and mystery throughout the narrator's journey?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6398344501998509,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927375.0959804,
+      "question_id": "q_chunk_28_3",
+      "response_text": "What significance does the narrator's \"patched boots\" hold in the setting of the story?  \nHow does the narrator interpret the symbols \"The Crossed Harpoons\" and \"The Sword-Fish\"?  \nWhat role does the \"black Angel of Doom\" play in the described Black Parliament scene?  \nWhy does the narrator mention the name \"Peter Coffin\" in relation to the Spouter Inn?  \nWhat atmospheric details convey the sense of dread and mystery throughout the narrator's journey?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6398344501998509,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927375.0959816,
+      "question_id": "q_chunk_28_4",
+      "response_text": "What significance does the narrator's \"patched boots\" hold in the setting of the story?  \nHow does the narrator interpret the symbols \"The Crossed Harpoons\" and \"The Sword-Fish\"?  \nWhat role does the \"black Angel of Doom\" play in the described Black Parliament scene?  \nWhy does the narrator mention the name \"Peter Coffin\" in relation to the Spouter Inn?  \nWhat atmospheric details convey the sense of dread and mystery throughout the narrator's journey?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2068728048005142,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927381.1314466,
+      "question_id": "q_chunk_29_0",
+      "response_text": "What does the narrator describe as the appearance and condition of the Spouter Inn?  \nHow does the narrator compare the wind Euroclydon to other winds, and what effect does it have on the setting?  \nIn what way does the narrator interpret the metaphor involving \u201ceyes are windows\u201d in the passage about the writer's observation?  \nWhat significance might the name \u201cPeter Coffin\u201d hold within the context of the story\u2019s setting and atmosphere?  \nHow does the narrator\u2019s perspective shift from skepticism to acceptance when deciding to stay at the Inn?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2068728048005142,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927381.1314588,
+      "question_id": "q_chunk_29_1",
+      "response_text": "What does the narrator describe as the appearance and condition of the Spouter Inn?  \nHow does the narrator compare the wind Euroclydon to other winds, and what effect does it have on the setting?  \nIn what way does the narrator interpret the metaphor involving \u201ceyes are windows\u201d in the passage about the writer's observation?  \nWhat significance might the name \u201cPeter Coffin\u201d hold within the context of the story\u2019s setting and atmosphere?  \nHow does the narrator\u2019s perspective shift from skepticism to acceptance when deciding to stay at the Inn?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2068728048005142,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927381.1314611,
+      "question_id": "q_chunk_29_2",
+      "response_text": "What does the narrator describe as the appearance and condition of the Spouter Inn?  \nHow does the narrator compare the wind Euroclydon to other winds, and what effect does it have on the setting?  \nIn what way does the narrator interpret the metaphor involving \u201ceyes are windows\u201d in the passage about the writer's observation?  \nWhat significance might the name \u201cPeter Coffin\u201d hold within the context of the story\u2019s setting and atmosphere?  \nHow does the narrator\u2019s perspective shift from skepticism to acceptance when deciding to stay at the Inn?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2068728048005142,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927381.1314626,
+      "question_id": "q_chunk_29_3",
+      "response_text": "What does the narrator describe as the appearance and condition of the Spouter Inn?  \nHow does the narrator compare the wind Euroclydon to other winds, and what effect does it have on the setting?  \nIn what way does the narrator interpret the metaphor involving \u201ceyes are windows\u201d in the passage about the writer's observation?  \nWhat significance might the name \u201cPeter Coffin\u201d hold within the context of the story\u2019s setting and atmosphere?  \nHow does the narrator\u2019s perspective shift from skepticism to acceptance when deciding to stay at the Inn?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2068728048005142,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927381.1314642,
+      "question_id": "q_chunk_29_4",
+      "response_text": "What does the narrator describe as the appearance and condition of the Spouter Inn?  \nHow does the narrator compare the wind Euroclydon to other winds, and what effect does it have on the setting?  \nIn what way does the narrator interpret the metaphor involving \u201ceyes are windows\u201d in the passage about the writer's observation?  \nWhat significance might the name \u201cPeter Coffin\u201d hold within the context of the story\u2019s setting and atmosphere?  \nHow does the narrator\u2019s perspective shift from skepticism to acceptance when deciding to stay at the Inn?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4414392266015057,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927388.3395195,
+      "question_id": "q_chunk_30_0",
+      "response_text": "Who is the \u201cold writer\u201d mentioned in the passage, and why is his single surviving copy of works significant?  \nHow does the narrator use the metaphor of windows to describe the experience of the Euroclydon?  \nWhat might Lazarus\u2019s attempts to block the storm with rags and a corn\u2011cob symbolize in the narrative?  \nIn what way does the juxtaposition of Orion, northern lights, and Sumatra highlight contrasting climates in the text?  \nWhat is the intended meaning of the phrase \u201ciceberg should be moored to one of the Moluccas,\u201d and how does it relate to Lazarus\u2019s situation?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4414392266015057,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927388.3395221,
+      "question_id": "q_chunk_30_1",
+      "response_text": "Who is the \u201cold writer\u201d mentioned in the passage, and why is his single surviving copy of works significant?  \nHow does the narrator use the metaphor of windows to describe the experience of the Euroclydon?  \nWhat might Lazarus\u2019s attempts to block the storm with rags and a corn\u2011cob symbolize in the narrative?  \nIn what way does the juxtaposition of Orion, northern lights, and Sumatra highlight contrasting climates in the text?  \nWhat is the intended meaning of the phrase \u201ciceberg should be moored to one of the Moluccas,\u201d and how does it relate to Lazarus\u2019s situation?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4414392266015057,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927388.3395228,
+      "question_id": "q_chunk_30_2",
+      "response_text": "Who is the \u201cold writer\u201d mentioned in the passage, and why is his single surviving copy of works significant?  \nHow does the narrator use the metaphor of windows to describe the experience of the Euroclydon?  \nWhat might Lazarus\u2019s attempts to block the storm with rags and a corn\u2011cob symbolize in the narrative?  \nIn what way does the juxtaposition of Orion, northern lights, and Sumatra highlight contrasting climates in the text?  \nWhat is the intended meaning of the phrase \u201ciceberg should be moored to one of the Moluccas,\u201d and how does it relate to Lazarus\u2019s situation?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4414392266015057,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927388.3395236,
+      "question_id": "q_chunk_30_3",
+      "response_text": "Who is the \u201cold writer\u201d mentioned in the passage, and why is his single surviving copy of works significant?  \nHow does the narrator use the metaphor of windows to describe the experience of the Euroclydon?  \nWhat might Lazarus\u2019s attempts to block the storm with rags and a corn\u2011cob symbolize in the narrative?  \nIn what way does the juxtaposition of Orion, northern lights, and Sumatra highlight contrasting climates in the text?  \nWhat is the intended meaning of the phrase \u201ciceberg should be moored to one of the Moluccas,\u201d and how does it relate to Lazarus\u2019s situation?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4414392266015057,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927388.339524,
+      "question_id": "q_chunk_30_4",
+      "response_text": "Who is the \u201cold writer\u201d mentioned in the passage, and why is his single surviving copy of works significant?  \nHow does the narrator use the metaphor of windows to describe the experience of the Euroclydon?  \nWhat might Lazarus\u2019s attempts to block the storm with rags and a corn\u2011cob symbolize in the narrative?  \nIn what way does the juxtaposition of Orion, northern lights, and Sumatra highlight contrasting climates in the text?  \nWhat is the intended meaning of the phrase \u201ciceberg should be moored to one of the Moluccas,\u201d and how does it relate to Lazarus\u2019s situation?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8299646842002403,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927392.4904623,
+      "question_id": "q_chunk_31_0",
+      "response_text": "Who is Dives and why does he live in an ice palace made of frozen sighs?  \nWhat is the significance of the \"Spouter-Inn\" and its described architectural features?  \nWhat might the \"long, limber, portentous, black mass\" in the center of the painting represent?  \nHow does the narrator\u2019s journey from the fiery pit to the Spouter-Inn reflect the theme of cold and warmth?  \nWhat role does the temperance society play in the story\u2019s portrayal of Dives and the setting?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8299646842002403,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927392.4904704,
+      "question_id": "q_chunk_31_1",
+      "response_text": "Who is Dives and why does he live in an ice palace made of frozen sighs?  \nWhat is the significance of the \"Spouter-Inn\" and its described architectural features?  \nWhat might the \"long, limber, portentous, black mass\" in the center of the painting represent?  \nHow does the narrator\u2019s journey from the fiery pit to the Spouter-Inn reflect the theme of cold and warmth?  \nWhat role does the temperance society play in the story\u2019s portrayal of Dives and the setting?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8299646842002403,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927392.4904728,
+      "question_id": "q_chunk_31_2",
+      "response_text": "Who is Dives and why does he live in an ice palace made of frozen sighs?  \nWhat is the significance of the \"Spouter-Inn\" and its described architectural features?  \nWhat might the \"long, limber, portentous, black mass\" in the center of the painting represent?  \nHow does the narrator\u2019s journey from the fiery pit to the Spouter-Inn reflect the theme of cold and warmth?  \nWhat role does the temperance society play in the story\u2019s portrayal of Dives and the setting?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8299646842002403,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927392.4904745,
+      "question_id": "q_chunk_31_3",
+      "response_text": "Who is Dives and why does he live in an ice palace made of frozen sighs?  \nWhat is the significance of the \"Spouter-Inn\" and its described architectural features?  \nWhat might the \"long, limber, portentous, black mass\" in the center of the painting represent?  \nHow does the narrator\u2019s journey from the fiery pit to the Spouter-Inn reflect the theme of cold and warmth?  \nWhat role does the temperance society play in the story\u2019s portrayal of Dives and the setting?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8299646842002403,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927392.490476,
+      "question_id": "q_chunk_31_4",
+      "response_text": "Who is Dives and why does he live in an ice palace made of frozen sighs?  \nWhat is the significance of the \"Spouter-Inn\" and its described architectural features?  \nWhat might the \"long, limber, portentous, black mass\" in the center of the painting represent?  \nHow does the narrator\u2019s journey from the fiery pit to the Spouter-Inn reflect the theme of cold and warmth?  \nWhat role does the temperance society play in the story\u2019s portrayal of Dives and the setting?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1261744626011931,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927398.1221814,
+      "question_id": "q_chunk_32_0",
+      "response_text": "What scene is the narrator trying to interpret in the painting?  \nHow does the narrator describe the various fanciful interpretations before settling on the final one?  \nWhat is the role of the whale in the painting according to the narrator?  \nWhat kind of objects are displayed on the opposite wall and why might they be significant?  \nWho is Nathan Swain and what is his connection to the weapons described?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1261744626011931,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927398.122186,
+      "question_id": "q_chunk_32_1",
+      "response_text": "What scene is the narrator trying to interpret in the painting?  \nHow does the narrator describe the various fanciful interpretations before settling on the final one?  \nWhat is the role of the whale in the painting according to the narrator?  \nWhat kind of objects are displayed on the opposite wall and why might they be significant?  \nWho is Nathan Swain and what is his connection to the weapons described?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1261744626011931,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927398.1221867,
+      "question_id": "q_chunk_32_2",
+      "response_text": "What scene is the narrator trying to interpret in the painting?  \nHow does the narrator describe the various fanciful interpretations before settling on the final one?  \nWhat is the role of the whale in the painting according to the narrator?  \nWhat kind of objects are displayed on the opposite wall and why might they be significant?  \nWho is Nathan Swain and what is his connection to the weapons described?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1261744626011931,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927398.1221876,
+      "question_id": "q_chunk_32_3",
+      "response_text": "What scene is the narrator trying to interpret in the painting?  \nHow does the narrator describe the various fanciful interpretations before settling on the final one?  \nWhat is the role of the whale in the painting according to the narrator?  \nWhat kind of objects are displayed on the opposite wall and why might they be significant?  \nWho is Nathan Swain and what is his connection to the weapons described?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1261744626011931,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927398.122188,
+      "question_id": "q_chunk_32_4",
+      "response_text": "What scene is the narrator trying to interpret in the painting?  \nHow does the narrator describe the various fanciful interpretations before settling on the final one?  \nWhat is the role of the whale in the painting according to the narrator?  \nWhat kind of objects are displayed on the opposite wall and why might they be significant?  \nWho is Nathan Swain and what is his connection to the weapons described?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2075395281979582,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927404.1608343,
+      "question_id": "q_chunk_33_0",
+      "response_text": "Who was Nathan Swain and what did he accomplish with the lance described in the passage?  \nWhat is the significance of the harpoon described as a corkscrew, and where was it ultimately found?  \nHow does the narrator describe the architectural features of the public room and the bar within the \"old ark\"?  \nWhat kind of items are displayed on the shelf-like table in the public room, and what atmosphere does the setting evoke?  \nHow is the character referred to as \"another cursed Jonah\" portrayed in relation to the bar's contents and his interaction with sailors?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2075395281979582,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927404.1608424,
+      "question_id": "q_chunk_33_1",
+      "response_text": "Who was Nathan Swain and what did he accomplish with the lance described in the passage?  \nWhat is the significance of the harpoon described as a corkscrew, and where was it ultimately found?  \nHow does the narrator describe the architectural features of the public room and the bar within the \"old ark\"?  \nWhat kind of items are displayed on the shelf-like table in the public room, and what atmosphere does the setting evoke?  \nHow is the character referred to as \"another cursed Jonah\" portrayed in relation to the bar's contents and his interaction with sailors?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2075395281979582,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927404.1608455,
+      "question_id": "q_chunk_33_2",
+      "response_text": "Who was Nathan Swain and what did he accomplish with the lance described in the passage?  \nWhat is the significance of the harpoon described as a corkscrew, and where was it ultimately found?  \nHow does the narrator describe the architectural features of the public room and the bar within the \"old ark\"?  \nWhat kind of items are displayed on the shelf-like table in the public room, and what atmosphere does the setting evoke?  \nHow is the character referred to as \"another cursed Jonah\" portrayed in relation to the bar's contents and his interaction with sailors?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2075395281979582,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927404.1608472,
+      "question_id": "q_chunk_33_3",
+      "response_text": "Who was Nathan Swain and what did he accomplish with the lance described in the passage?  \nWhat is the significance of the harpoon described as a corkscrew, and where was it ultimately found?  \nHow does the narrator describe the architectural features of the public room and the bar within the \"old ark\"?  \nWhat kind of items are displayed on the shelf-like table in the public room, and what atmosphere does the setting evoke?  \nHow is the character referred to as \"another cursed Jonah\" portrayed in relation to the bar's contents and his interaction with sailors?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2075395281979582,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763927404.1608489,
+      "question_id": "q_chunk_33_4",
+      "response_text": "Who was Nathan Swain and what did he accomplish with the lance described in the passage?  \nWhat is the significance of the harpoon described as a corkscrew, and where was it ultimately found?  \nHow does the narrator describe the architectural features of the public room and the bar within the \"old ark\"?  \nWhat kind of items are displayed on the shelf-like table in the public room, and what atmosphere does the setting evoke?  \nHow is the character referred to as \"another cursed Jonah\" portrayed in relation to the bar's contents and his interaction with sailors?"
+    }
+  ]
+}

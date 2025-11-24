@@ -1,0 +1,3819 @@
+{
+  "export_timestamp": "2025-11-23T22:17:23.398034",
+  "export_timestamp_readable": "2025-11-23 22:17:23",
+  "num_metrics": 279,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.598251881005126,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936202.1650887,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.4390818730025785,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936202.6044385,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.44902971500414424,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936203.0537481,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.33948930900078267,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936203.3935256,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.42319073699763976,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936203.8169968,
+      "chunk_id": "chunk_4",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.23221341300813947,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936204.0495012,
+      "chunk_id": "chunk_5",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.23830643598921597,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936204.288209,
+      "chunk_id": "chunk_6",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.2400141380057903,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936204.528533,
+      "chunk_id": "chunk_7",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.24139634899620432,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936204.7703414,
+      "chunk_id": "chunk_8",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.21122085099341348,
+      "token_counts": {
+        "input_tokens": 460,
+        "actual_input_tokens": 460,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936204.9819605,
+      "chunk_id": "chunk_9",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.24693206801021006,
+      "token_counts": {
+        "input_tokens": 451,
+        "actual_input_tokens": 451,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936205.2291524,
+      "chunk_id": "chunk_10",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.2022036440030206,
+      "token_counts": {
+        "input_tokens": 465,
+        "actual_input_tokens": 465,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936205.431631,
+      "chunk_id": "chunk_11",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.24764740599493962,
+      "token_counts": {
+        "input_tokens": 508,
+        "actual_input_tokens": 508,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936205.6795938,
+      "chunk_id": "chunk_12",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.28891002299496904,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936205.968937,
+      "chunk_id": "chunk_13",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.2343048789916793,
+      "token_counts": {
+        "input_tokens": 497,
+        "actual_input_tokens": 497,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936206.2035344,
+      "chunk_id": "chunk_14",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.31810302700614557,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936206.5219238,
+      "chunk_id": "chunk_15",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.2483821180067025,
+      "token_counts": {
+        "input_tokens": 508,
+        "actual_input_tokens": 508,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936206.7707593,
+      "chunk_id": "chunk_16",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.19665986100153532,
+      "token_counts": {
+        "input_tokens": 441,
+        "actual_input_tokens": 441,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936206.9678402,
+      "chunk_id": "chunk_17",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.22980302799260244,
+      "token_counts": {
+        "input_tokens": 497,
+        "actual_input_tokens": 497,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936207.1980712,
+      "chunk_id": "chunk_18",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.21278078999603167,
+      "token_counts": {
+        "input_tokens": 480,
+        "actual_input_tokens": 480,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936207.411121,
+      "chunk_id": "chunk_19",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.22823140700347722,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936207.6396286,
+      "chunk_id": "chunk_20",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.2121832780103432,
+      "token_counts": {
+        "input_tokens": 488,
+        "actual_input_tokens": 488,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936207.8522,
+      "chunk_id": "chunk_21",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.2011029889981728,
+      "token_counts": {
+        "input_tokens": 503,
+        "actual_input_tokens": 503,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936208.0537298,
+      "chunk_id": "chunk_22",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.19769875299243722,
+      "token_counts": {
+        "input_tokens": 512,
+        "actual_input_tokens": 512,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936208.2517362,
+      "chunk_id": "chunk_23",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.15468468800827395,
+      "token_counts": {
+        "input_tokens": 378,
+        "actual_input_tokens": 378,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936208.4067805,
+      "chunk_id": "chunk_24",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.2397550289897481,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936208.6469605,
+      "chunk_id": "chunk_25",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.2363917689945083,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936208.88365,
+      "chunk_id": "chunk_26",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.21143005100020673,
+      "token_counts": {
+        "input_tokens": 503,
+        "actual_input_tokens": 503,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936209.09535,
+      "chunk_id": "chunk_27",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1951216790039325,
+      "token_counts": {
+        "input_tokens": 510,
+        "actual_input_tokens": 510,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936209.2907426,
+      "chunk_id": "chunk_28",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.2115355090063531,
+      "token_counts": {
+        "input_tokens": 488,
+        "actual_input_tokens": 488,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936209.502566,
+      "chunk_id": "chunk_29",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.213702752997051,
+      "token_counts": {
+        "input_tokens": 478,
+        "actual_input_tokens": 478,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936209.7166872,
+      "chunk_id": "chunk_30",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.24180407900712453,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936209.9589245,
+      "chunk_id": "chunk_31",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1696771550050471,
+      "token_counts": {
+        "input_tokens": 472,
+        "actual_input_tokens": 472,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936210.1289954,
+      "chunk_id": "chunk_32",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.20821760898979846,
+      "token_counts": {
+        "input_tokens": 489,
+        "actual_input_tokens": 489,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936210.3375123,
+      "chunk_id": "chunk_33",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.2291944099997636,
+      "token_counts": {
+        "input_tokens": 489,
+        "actual_input_tokens": 489,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936210.5669699,
+      "chunk_id": "chunk_34",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.22875176499655936,
+      "token_counts": {
+        "input_tokens": 469,
+        "actual_input_tokens": 469,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936210.7959826,
+      "chunk_id": "chunk_35",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.22872472400194965,
+      "token_counts": {
+        "input_tokens": 508,
+        "actual_input_tokens": 508,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936211.024984,
+      "chunk_id": "chunk_36",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.2444961770088412,
+      "token_counts": {
+        "input_tokens": 505,
+        "actual_input_tokens": 505,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936211.2698648,
+      "chunk_id": "chunk_37",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.17172482899331953,
+      "token_counts": {
+        "input_tokens": 477,
+        "actual_input_tokens": 477,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936211.4418545,
+      "chunk_id": "chunk_38",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.23010290101228748,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936211.672343,
+      "chunk_id": "chunk_39",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.22424984899407718,
+      "token_counts": {
+        "input_tokens": 469,
+        "actual_input_tokens": 469,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936211.8968394,
+      "chunk_id": "chunk_40",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1499275529931765,
+      "token_counts": {
+        "input_tokens": 408,
+        "actual_input_tokens": 408,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936212.0469873,
+      "chunk_id": "chunk_41",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.18198062600276899,
+      "token_counts": {
+        "input_tokens": 431,
+        "actual_input_tokens": 431,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936212.2293074,
+      "chunk_id": "chunk_42",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.19892521500878502,
+      "token_counts": {
+        "input_tokens": 495,
+        "actual_input_tokens": 495,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936212.4285166,
+      "chunk_id": "chunk_43",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.2035767159977695,
+      "token_counts": {
+        "input_tokens": 505,
+        "actual_input_tokens": 505,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936212.6324818,
+      "chunk_id": "chunk_44",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.19215095099934842,
+      "token_counts": {
+        "input_tokens": 499,
+        "actual_input_tokens": 499,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936212.8250196,
+      "chunk_id": "chunk_45",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.19396590298856609,
+      "token_counts": {
+        "input_tokens": 497,
+        "actual_input_tokens": 497,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763936213.0192559,
+      "chunk_id": "chunk_46",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.35596844980027526,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936214.7998016,
+      "question_id": "q_chunk_0_0",
+      "response_text": "1.  Where can the eBook be legally used?\n2.  What is the release date of the eBook?\n3.  What is the author\u2019s name?\n4.  What is the title of the eBook?\n5.  What is the language of the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.35596844980027526,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936214.7998042,
+      "question_id": "q_chunk_0_1",
+      "response_text": "1.  Where can the eBook be legally used?\n2.  What is the release date of the eBook?\n3.  What is the author\u2019s name?\n4.  What is the title of the eBook?\n5.  What is the language of the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.35596844980027526,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936214.799805,
+      "question_id": "q_chunk_0_2",
+      "response_text": "1.  Where can the eBook be legally used?\n2.  What is the release date of the eBook?\n3.  What is the author\u2019s name?\n4.  What is the title of the eBook?\n5.  What is the language of the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.35596844980027526,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936214.7998056,
+      "question_id": "q_chunk_0_3",
+      "response_text": "1.  Where can the eBook be legally used?\n2.  What is the release date of the eBook?\n3.  What is the author\u2019s name?\n4.  What is the title of the eBook?\n5.  What is the language of the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.35596844980027526,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936214.799806,
+      "question_id": "q_chunk_0_4",
+      "response_text": "1.  Where can the eBook be legally used?\n2.  What is the release date of the eBook?\n3.  What is the author\u2019s name?\n4.  What is the title of the eBook?\n5.  What is the language of the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.131269273799262,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936215.4569328,
+      "question_id": "q_chunk_1_0",
+      "response_text": "1.  What does Stubb do to Ahab?\n2.  What is the title of the chapter where the Pipe is mentioned?\n3.  What is the primary subject of the text?\n4.  What is the significance of the \u201cWhiteness of the Whale\u201d in the text?\n5.  What is the central event described in chapter 73?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.131269273799262,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936215.456937,
+      "question_id": "q_chunk_1_1",
+      "response_text": "1.  What does Stubb do to Ahab?\n2.  What is the title of the chapter where the Pipe is mentioned?\n3.  What is the primary subject of the text?\n4.  What is the significance of the \u201cWhiteness of the Whale\u201d in the text?\n5.  What is the central event described in chapter 73?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.131269273799262,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936215.456939,
+      "question_id": "q_chunk_1_2",
+      "response_text": "1.  What does Stubb do to Ahab?\n2.  What is the title of the chapter where the Pipe is mentioned?\n3.  What is the primary subject of the text?\n4.  What is the significance of the \u201cWhiteness of the Whale\u201d in the text?\n5.  What is the central event described in chapter 73?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.131269273799262,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936215.4569407,
+      "question_id": "q_chunk_1_3",
+      "response_text": "1.  What does Stubb do to Ahab?\n2.  What is the title of the chapter where the Pipe is mentioned?\n3.  What is the primary subject of the text?\n4.  What is the significance of the \u201cWhiteness of the Whale\u201d in the text?\n5.  What is the central event described in chapter 73?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.131269273799262,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936215.4569418,
+      "question_id": "q_chunk_1_4",
+      "response_text": "1.  What does Stubb do to Ahab?\n2.  What is the title of the chapter where the Pipe is mentioned?\n3.  What is the primary subject of the text?\n4.  What is the significance of the \u201cWhiteness of the Whale\u201d in the text?\n5.  What is the central event described in chapter 73?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.13538201519986615,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936216.134476,
+      "question_id": "q_chunk_2_0",
+      "response_text": "1. What is the main focus of the first chapter?\n2. What is the significance of \u201cThe Pequod Meets The Virgin\u201d?\n3. In chapter 76, what is the primary activity described?\n4. What is the relationship between Ahab and the Carpenter?\n5. What is the overall tone or atmosphere of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.13538201519986615,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936216.1344798,
+      "question_id": "q_chunk_2_1",
+      "response_text": "1. What is the main focus of the first chapter?\n2. What is the significance of \u201cThe Pequod Meets The Virgin\u201d?\n3. In chapter 76, what is the primary activity described?\n4. What is the relationship between Ahab and the Carpenter?\n5. What is the overall tone or atmosphere of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.13538201519986615,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936216.134481,
+      "question_id": "q_chunk_2_2",
+      "response_text": "1. What is the main focus of the first chapter?\n2. What is the significance of \u201cThe Pequod Meets The Virgin\u201d?\n3. In chapter 76, what is the primary activity described?\n4. What is the relationship between Ahab and the Carpenter?\n5. What is the overall tone or atmosphere of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.13538201519986615,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936216.1344817,
+      "question_id": "q_chunk_2_3",
+      "response_text": "1. What is the main focus of the first chapter?\n2. What is the significance of \u201cThe Pequod Meets The Virgin\u201d?\n3. In chapter 76, what is the primary activity described?\n4. What is the relationship between Ahab and the Carpenter?\n5. What is the overall tone or atmosphere of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.13538201519986615,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936216.1344826,
+      "question_id": "q_chunk_2_4",
+      "response_text": "1. What is the main focus of the first chapter?\n2. What is the significance of \u201cThe Pequod Meets The Virgin\u201d?\n3. In chapter 76, what is the primary activity described?\n4. What is the relationship between Ahab and the Carpenter?\n5. What is the overall tone or atmosphere of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11022871160239447,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936216.686267,
+      "question_id": "q_chunk_3_0",
+      "response_text": "1. What is the text about?\n2. What does the late Usher observe in the text?\n3. What is the significance of the letter \u201cH\u201d?\n4. What is the purpose of the text?\n5. What is the meaning of \u201cWHALE\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11022871160239447,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936216.6862695,
+      "question_id": "q_chunk_3_1",
+      "response_text": "1. What is the text about?\n2. What does the late Usher observe in the text?\n3. What is the significance of the letter \u201cH\u201d?\n4. What is the purpose of the text?\n5. What is the meaning of \u201cWHALE\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11022871160239447,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936216.6862705,
+      "question_id": "q_chunk_3_2",
+      "response_text": "1. What is the text about?\n2. What does the late Usher observe in the text?\n3. What is the significance of the letter \u201cH\u201d?\n4. What is the purpose of the text?\n5. What is the meaning of \u201cWHALE\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11022871160239447,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936216.6862714,
+      "question_id": "q_chunk_3_3",
+      "response_text": "1. What is the text about?\n2. What does the late Usher observe in the text?\n3. What is the significance of the letter \u201cH\u201d?\n4. What is the purpose of the text?\n5. What is the meaning of \u201cWHALE\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11022871160239447,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936216.686272,
+      "question_id": "q_chunk_3_4",
+      "response_text": "1. What is the text about?\n2. What does the late Usher observe in the text?\n3. What is the significance of the letter \u201cH\u201d?\n4. What is the purpose of the text?\n5. What is the meaning of \u201cWHALE\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11866117320023477,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936217.280256,
+      "question_id": "q_chunk_4_0",
+      "response_text": "1. What is the animal\u2019s name derived from?\n2. What does \u201cWallen\u201d mean in the context of the text?\n3. What does \u201cWHALE\u201d mean in the context of the text?\n4. What does \u201cEXTRACTS\u201d refer to?\n5. What is the author\u2019s attitude toward whale statements?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11866117320023477,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936217.28026,
+      "question_id": "q_chunk_4_1",
+      "response_text": "1. What is the animal\u2019s name derived from?\n2. What does \u201cWallen\u201d mean in the context of the text?\n3. What does \u201cWHALE\u201d mean in the context of the text?\n4. What does \u201cEXTRACTS\u201d refer to?\n5. What is the author\u2019s attitude toward whale statements?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11866117320023477,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936217.2802608,
+      "question_id": "q_chunk_4_2",
+      "response_text": "1. What is the animal\u2019s name derived from?\n2. What does \u201cWallen\u201d mean in the context of the text?\n3. What does \u201cWHALE\u201d mean in the context of the text?\n4. What does \u201cEXTRACTS\u201d refer to?\n5. What is the author\u2019s attitude toward whale statements?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11866117320023477,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936217.2802615,
+      "question_id": "q_chunk_4_3",
+      "response_text": "1. What is the animal\u2019s name derived from?\n2. What does \u201cWallen\u201d mean in the context of the text?\n3. What does \u201cWHALE\u201d mean in the context of the text?\n4. What does \u201cEXTRACTS\u201d refer to?\n5. What is the author\u2019s attitude toward whale statements?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11866117320023477,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936217.2802622,
+      "question_id": "q_chunk_4_4",
+      "response_text": "1. What is the animal\u2019s name derived from?\n2. What does \u201cWallen\u201d mean in the context of the text?\n3. What does \u201cWHALE\u201d mean in the context of the text?\n4. What does \u201cEXTRACTS\u201d refer to?\n5. What is the author\u2019s attitude toward whale statements?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1110346049972577,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936217.7252498,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the purpose of the extracts?\nWhat is the significance of \u201cLeviathan\u201d?\nWhat does the Lord intend to do with Leviathan?\nWhat is the image of the \u201cgreat fish\u201d?\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1110346049972577,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936217.7252564,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the purpose of the extracts?\nWhat is the significance of \u201cLeviathan\u201d?\nWhat does the Lord intend to do with Leviathan?\nWhat is the image of the \u201cgreat fish\u201d?\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1110346049972577,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936217.7252584,
+      "question_id": "q_chunk_5_2",
+      "response_text": "What is the purpose of the extracts?\nWhat is the significance of \u201cLeviathan\u201d?\nWhat does the Lord intend to do with Leviathan?\nWhat is the image of the \u201cgreat fish\u201d?\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1110346049972577,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936217.7252598,
+      "question_id": "q_chunk_5_3",
+      "response_text": "What is the purpose of the extracts?\nWhat is the significance of \u201cLeviathan\u201d?\nWhat does the Lord intend to do with Leviathan?\nWhat is the image of the \u201cgreat fish\u201d?\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12989747599931434,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936218.3753564,
+      "question_id": "q_chunk_6_0",
+      "response_text": "1.  What is the primary focus of the text?\n2.  What does the text describe as a \u201cmonster\u2019s\u201d mouth?\n3.  What is the significance of the \u201cwhale\u2019s\u201d bones for the king?\n4.  What does MONTAIGNE say about the sea-gudgeon?\n5.  What does the text imply about the nature of Leviathan?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12989747599931434,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936218.37536,
+      "question_id": "q_chunk_6_1",
+      "response_text": "1.  What is the primary focus of the text?\n2.  What does the text describe as a \u201cmonster\u2019s\u201d mouth?\n3.  What is the significance of the \u201cwhale\u2019s\u201d bones for the king?\n4.  What does MONTAIGNE say about the sea-gudgeon?\n5.  What does the text imply about the nature of Leviathan?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12989747599931434,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936218.3753607,
+      "question_id": "q_chunk_6_2",
+      "response_text": "1.  What is the primary focus of the text?\n2.  What does the text describe as a \u201cmonster\u2019s\u201d mouth?\n3.  What is the significance of the \u201cwhale\u2019s\u201d bones for the king?\n4.  What does MONTAIGNE say about the sea-gudgeon?\n5.  What does the text imply about the nature of Leviathan?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12989747599931434,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936218.3753614,
+      "question_id": "q_chunk_6_3",
+      "response_text": "1.  What is the primary focus of the text?\n2.  What does the text describe as a \u201cmonster\u2019s\u201d mouth?\n3.  What is the significance of the \u201cwhale\u2019s\u201d bones for the king?\n4.  What does MONTAIGNE say about the sea-gudgeon?\n5.  What does the text imply about the nature of Leviathan?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12989747599931434,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936218.3753622,
+      "question_id": "q_chunk_6_4",
+      "response_text": "1.  What is the primary focus of the text?\n2.  What does the text describe as a \u201cmonster\u2019s\u201d mouth?\n3.  What is the significance of the \u201cwhale\u2019s\u201d bones for the king?\n4.  What does MONTAIGNE say about the sea-gudgeon?\n5.  What does the text imply about the nature of Leviathan?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.14522606559912674,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936219.1020825,
+      "question_id": "q_chunk_7_0",
+      "response_text": "1.  What is the sea-gudgeon\u2019s position in the monster\u2019s mouth?\n2.  What is the whale\u2019s liver described as?\n3.  What is the significance of the whale\u2019s \u201cfat\u201d in the text?\n4.  What is the point of the passage concerning the whale?\n5.  What is the reference to \u2018Sir T. Browne\u2019 and \u2018Sperma Ceti\u2019?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.14522606559912674,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936219.102085,
+      "question_id": "q_chunk_7_1",
+      "response_text": "1.  What is the sea-gudgeon\u2019s position in the monster\u2019s mouth?\n2.  What is the whale\u2019s liver described as?\n3.  What is the significance of the whale\u2019s \u201cfat\u201d in the text?\n4.  What is the point of the passage concerning the whale?\n5.  What is the reference to \u2018Sir T. Browne\u2019 and \u2018Sperma Ceti\u2019?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.14522606559912674,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936219.1020858,
+      "question_id": "q_chunk_7_2",
+      "response_text": "1.  What is the sea-gudgeon\u2019s position in the monster\u2019s mouth?\n2.  What is the whale\u2019s liver described as?\n3.  What is the significance of the whale\u2019s \u201cfat\u201d in the text?\n4.  What is the point of the passage concerning the whale?\n5.  What is the reference to \u2018Sir T. Browne\u2019 and \u2018Sperma Ceti\u2019?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.14522606559912674,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936219.1020863,
+      "question_id": "q_chunk_7_3",
+      "response_text": "1.  What is the sea-gudgeon\u2019s position in the monster\u2019s mouth?\n2.  What is the whale\u2019s liver described as?\n3.  What is the significance of the whale\u2019s \u201cfat\u201d in the text?\n4.  What is the point of the passage concerning the whale?\n5.  What is the reference to \u2018Sir T. Browne\u2019 and \u2018Sperma Ceti\u2019?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.14522606559912674,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936219.1020873,
+      "question_id": "q_chunk_7_4",
+      "response_text": "1.  What is the sea-gudgeon\u2019s position in the monster\u2019s mouth?\n2.  What is the whale\u2019s liver described as?\n3.  What is the significance of the whale\u2019s \u201cfat\u201d in the text?\n4.  What is the point of the passage concerning the whale?\n5.  What is the reference to \u2018Sir T. Browne\u2019 and \u2018Sperma Ceti\u2019?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.13636805880232714,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936219.7847264,
+      "question_id": "q_chunk_8_0",
+      "response_text": "1.  What is the primary subject of the text?\n2.  What is the significance of the \u201cpikes\u201d on the Leviathan\u2019s back?\n3.  How does the text describe the Leviathan\u2019s appearance?\n4.  What is the purpose of the text about the Leviathan?\n5.  What is the implication of the text about the Leviathan\u2019s behavior?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.13636805880232714,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936219.7847302,
+      "question_id": "q_chunk_8_1",
+      "response_text": "1.  What is the primary subject of the text?\n2.  What is the significance of the \u201cpikes\u201d on the Leviathan\u2019s back?\n3.  How does the text describe the Leviathan\u2019s appearance?\n4.  What is the purpose of the text about the Leviathan?\n5.  What is the implication of the text about the Leviathan\u2019s behavior?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.13636805880232714,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936219.7847319,
+      "question_id": "q_chunk_8_2",
+      "response_text": "1.  What is the primary subject of the text?\n2.  What is the significance of the \u201cpikes\u201d on the Leviathan\u2019s back?\n3.  How does the text describe the Leviathan\u2019s appearance?\n4.  What is the purpose of the text about the Leviathan?\n5.  What is the implication of the text about the Leviathan\u2019s behavior?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.13636805880232714,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936219.7847333,
+      "question_id": "q_chunk_8_3",
+      "response_text": "1.  What is the primary subject of the text?\n2.  What is the significance of the \u201cpikes\u201d on the Leviathan\u2019s back?\n3.  How does the text describe the Leviathan\u2019s appearance?\n4.  What is the purpose of the text about the Leviathan?\n5.  What is the implication of the text about the Leviathan\u2019s behavior?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.13636805880232714,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936219.7847345,
+      "question_id": "q_chunk_8_4",
+      "response_text": "1.  What is the primary subject of the text?\n2.  What is the significance of the \u201cpikes\u201d on the Leviathan\u2019s back?\n3.  How does the text describe the Leviathan\u2019s appearance?\n4.  What is the purpose of the text about the Leviathan?\n5.  What is the implication of the text about the Leviathan\u2019s behavior?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12345002820075024,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936220.40284,
+      "question_id": "q_chunk_9_0",
+      "response_text": "1.  What was the primary concern expressed regarding the whales?\n2.  What did the explorers frequently do to observe the whales?\n3.  What significant discovery was made regarding the whale?\n4.  What was the purpose of the letter from Richard Strafford?\n5.  What does the text suggest about the whales\u2019 nature?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12345002820075024,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936220.4028456,
+      "question_id": "q_chunk_9_1",
+      "response_text": "1.  What was the primary concern expressed regarding the whales?\n2.  What did the explorers frequently do to observe the whales?\n3.  What significant discovery was made regarding the whale?\n4.  What was the purpose of the letter from Richard Strafford?\n5.  What does the text suggest about the whales\u2019 nature?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12345002820075024,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936220.4028492,
+      "question_id": "q_chunk_9_2",
+      "response_text": "1.  What was the primary concern expressed regarding the whales?\n2.  What did the explorers frequently do to observe the whales?\n3.  What significant discovery was made regarding the whale?\n4.  What was the purpose of the letter from Richard Strafford?\n5.  What does the text suggest about the whales\u2019 nature?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12345002820075024,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936220.4028516,
+      "question_id": "q_chunk_9_3",
+      "response_text": "1.  What was the primary concern expressed regarding the whales?\n2.  What did the explorers frequently do to observe the whales?\n3.  What significant discovery was made regarding the whale?\n4.  What was the purpose of the letter from Richard Strafford?\n5.  What does the text suggest about the whales\u2019 nature?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12345002820075024,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936220.402853,
+      "question_id": "q_chunk_9_4",
+      "response_text": "1.  What was the primary concern expressed regarding the whales?\n2.  What did the explorers frequently do to observe the whales?\n3.  What significant discovery was made regarding the whale?\n4.  What was the purpose of the letter from Richard Strafford?\n5.  What does the text suggest about the whales\u2019 nature?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.157399909599917,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936221.19067,
+      "question_id": "q_chunk_10_0",
+      "response_text": "1.  What is Richard Strafford\u2019s motivation for attempting to master and kill the sperm whale?\n2.  How many whales were reported to be abundant in the southern seas compared to the north?\n3.  What is the primary sensory detail described as causing a disorder of the brain?\n4.  What is the significance of the whale\u2019s breath described as causing a disorder?\n5.  According to the text, what is the whale\u2019s size compared to land animals?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.157399909599917,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936221.1906748,
+      "question_id": "q_chunk_10_1",
+      "response_text": "1.  What is Richard Strafford\u2019s motivation for attempting to master and kill the sperm whale?\n2.  How many whales were reported to be abundant in the southern seas compared to the north?\n3.  What is the primary sensory detail described as causing a disorder of the brain?\n4.  What is the significance of the whale\u2019s breath described as causing a disorder?\n5.  According to the text, what is the whale\u2019s size compared to land animals?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.157399909599917,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936221.1906767,
+      "question_id": "q_chunk_10_2",
+      "response_text": "1.  What is Richard Strafford\u2019s motivation for attempting to master and kill the sperm whale?\n2.  How many whales were reported to be abundant in the southern seas compared to the north?\n3.  What is the primary sensory detail described as causing a disorder of the brain?\n4.  What is the significance of the whale\u2019s breath described as causing a disorder?\n5.  According to the text, what is the whale\u2019s size compared to land animals?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.157399909599917,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936221.1906781,
+      "question_id": "q_chunk_10_3",
+      "response_text": "1.  What is Richard Strafford\u2019s motivation for attempting to master and kill the sperm whale?\n2.  How many whales were reported to be abundant in the southern seas compared to the north?\n3.  What is the primary sensory detail described as causing a disorder of the brain?\n4.  What is the significance of the whale\u2019s breath described as causing a disorder?\n5.  According to the text, what is the whale\u2019s size compared to land animals?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.157399909599917,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936221.1906793,
+      "question_id": "q_chunk_10_4",
+      "response_text": "1.  What is Richard Strafford\u2019s motivation for attempting to master and kill the sperm whale?\n2.  How many whales were reported to be abundant in the southern seas compared to the north?\n3.  What is the primary sensory detail described as causing a disorder of the brain?\n4.  What is the significance of the whale\u2019s breath described as causing a disorder?\n5.  According to the text, what is the whale\u2019s size compared to land animals?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1260906478011748,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936221.8217828,
+      "question_id": "q_chunk_11_0",
+      "response_text": "1.  What was found to be a dead whale?\n2.  What did the Asiatics attempt to do while hiding behind the whale?\n3.  What was the Spermacetti Whale described as?\n4.  What is the right to fish defined as?\n5.  What is the significance of the \u201crockets blew self-driven\u201d line?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1260906478011748,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936221.8217866,
+      "question_id": "q_chunk_11_1",
+      "response_text": "1.  What was found to be a dead whale?\n2.  What did the Asiatics attempt to do while hiding behind the whale?\n3.  What was the Spermacetti Whale described as?\n4.  What is the right to fish defined as?\n5.  What is the significance of the \u201crockets blew self-driven\u201d line?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1260906478011748,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936221.8217874,
+      "question_id": "q_chunk_11_2",
+      "response_text": "1.  What was found to be a dead whale?\n2.  What did the Asiatics attempt to do while hiding behind the whale?\n3.  What was the Spermacetti Whale described as?\n4.  What is the right to fish defined as?\n5.  What is the significance of the \u201crockets blew self-driven\u201d line?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1260906478011748,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936221.821788,
+      "question_id": "q_chunk_11_3",
+      "response_text": "1.  What was found to be a dead whale?\n2.  What did the Asiatics attempt to do while hiding behind the whale?\n3.  What was the Spermacetti Whale described as?\n4.  What is the right to fish defined as?\n5.  What is the significance of the \u201crockets blew self-driven\u201d line?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1260906478011748,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936221.821789,
+      "question_id": "q_chunk_11_4",
+      "response_text": "1.  What was found to be a dead whale?\n2.  What did the Asiatics attempt to do while hiding behind the whale?\n3.  What was the Spermacetti Whale described as?\n4.  What is the right to fish defined as?\n5.  What is the significance of the \u201crockets blew self-driven\u201d line?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.13092102400260047,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936222.4773228,
+      "question_id": "q_chunk_12_0",
+      "response_text": "1. What is the primary focus of the text?\n2. What does the text imply about the whale\u2019s size compared to London Bridge?\n3. What is the significance of the \u201cblood\u201d being thrown out of the whale\u2019s heart?\n4. What does the text suggest about the relationship between whales and the sea?\n5. What is the tone of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.13092102400260047,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936222.4773302,
+      "question_id": "q_chunk_12_1",
+      "response_text": "1. What is the primary focus of the text?\n2. What does the text imply about the whale\u2019s size compared to London Bridge?\n3. What is the significance of the \u201cblood\u201d being thrown out of the whale\u2019s heart?\n4. What does the text suggest about the relationship between whales and the sea?\n5. What is the tone of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.13092102400260047,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936222.4773326,
+      "question_id": "q_chunk_12_2",
+      "response_text": "1. What is the primary focus of the text?\n2. What does the text imply about the whale\u2019s size compared to London Bridge?\n3. What is the significance of the \u201cblood\u201d being thrown out of the whale\u2019s heart?\n4. What does the text suggest about the relationship between whales and the sea?\n5. What is the tone of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.13092102400260047,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936222.4773364,
+      "question_id": "q_chunk_12_3",
+      "response_text": "1. What is the primary focus of the text?\n2. What does the text imply about the whale\u2019s size compared to London Bridge?\n3. What is the significance of the \u201cblood\u201d being thrown out of the whale\u2019s heart?\n4. What does the text suggest about the relationship between whales and the sea?\n5. What is the tone of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.13092102400260047,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936222.4773378,
+      "question_id": "q_chunk_12_4",
+      "response_text": "1. What is the primary focus of the text?\n2. What does the text imply about the whale\u2019s size compared to London Bridge?\n3. What is the significance of the \u201cblood\u201d being thrown out of the whale\u2019s heart?\n4. What does the text suggest about the relationship between whales and the sea?\n5. What is the tone of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1260316961997887,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936223.10838,
+      "question_id": "q_chunk_13_0",
+      "response_text": "1. What type of creatures are mentioned in the text?\n2. Where did Montgomery\u2019s World before the Flood describe the whales?\n3. What is the significance of the Gothic Arch in Hawthorne\u2019s tale?\n4. What is the context surrounding Macy\u2019s History of Nantucket?\n5. What is the tone of Tom\u2019s response to the whale?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1260316961997887,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936223.108385,
+      "question_id": "q_chunk_13_1",
+      "response_text": "1. What type of creatures are mentioned in the text?\n2. Where did Montgomery\u2019s World before the Flood describe the whales?\n3. What is the significance of the Gothic Arch in Hawthorne\u2019s tale?\n4. What is the context surrounding Macy\u2019s History of Nantucket?\n5. What is the tone of Tom\u2019s response to the whale?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1260316961997887,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936223.1083872,
+      "question_id": "q_chunk_13_2",
+      "response_text": "1. What type of creatures are mentioned in the text?\n2. Where did Montgomery\u2019s World before the Flood describe the whales?\n3. What is the significance of the Gothic Arch in Hawthorne\u2019s tale?\n4. What is the context surrounding Macy\u2019s History of Nantucket?\n5. What is the tone of Tom\u2019s response to the whale?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1260316961997887,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936223.108389,
+      "question_id": "q_chunk_13_3",
+      "response_text": "1. What type of creatures are mentioned in the text?\n2. Where did Montgomery\u2019s World before the Flood describe the whales?\n3. What is the significance of the Gothic Arch in Hawthorne\u2019s tale?\n4. What is the context surrounding Macy\u2019s History of Nantucket?\n5. What is the tone of Tom\u2019s response to the whale?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1260316961997887,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936223.1083903,
+      "question_id": "q_chunk_13_4",
+      "response_text": "1. What type of creatures are mentioned in the text?\n2. Where did Montgomery\u2019s World before the Flood describe the whales?\n3. What is the significance of the Gothic Arch in Hawthorne\u2019s tale?\n4. What is the context surrounding Macy\u2019s History of Nantucket?\n5. What is the tone of Tom\u2019s response to the whale?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12766969820077065,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936223.7474432,
+      "question_id": "q_chunk_14_0",
+      "response_text": "1. What is Cooper\u2019s Pilot describing as \u201craal oil-butt\u201d?\n2. What event is described in the Berlin Gazette?\n3. What is the primary focus of Chace\u2019s narration?\n4. What does the whale\u2019s tail cracking sound produce?\n5. What is the significance of the whale\u2019s behavior according to the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12766969820077065,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936223.7474463,
+      "question_id": "q_chunk_14_1",
+      "response_text": "1. What is Cooper\u2019s Pilot describing as \u201craal oil-butt\u201d?\n2. What event is described in the Berlin Gazette?\n3. What is the primary focus of Chace\u2019s narration?\n4. What does the whale\u2019s tail cracking sound produce?\n5. What is the significance of the whale\u2019s behavior according to the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12766969820077065,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936223.7474542,
+      "question_id": "q_chunk_14_2",
+      "response_text": "1. What is Cooper\u2019s Pilot describing as \u201craal oil-butt\u201d?\n2. What event is described in the Berlin Gazette?\n3. What is the primary focus of Chace\u2019s narration?\n4. What does the whale\u2019s tail cracking sound produce?\n5. What is the significance of the whale\u2019s behavior according to the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12766969820077065,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936223.7474551,
+      "question_id": "q_chunk_14_3",
+      "response_text": "1. What is Cooper\u2019s Pilot describing as \u201craal oil-butt\u201d?\n2. What event is described in the Berlin Gazette?\n3. What is the primary focus of Chace\u2019s narration?\n4. What does the whale\u2019s tail cracking sound produce?\n5. What is the significance of the whale\u2019s behavior according to the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12766969820077065,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936223.7474558,
+      "question_id": "q_chunk_14_4",
+      "response_text": "1. What is Cooper\u2019s Pilot describing as \u201craal oil-butt\u201d?\n2. What event is described in the Berlin Gazette?\n3. What is the primary focus of Chace\u2019s narration?\n4. What does the whale\u2019s tail cracking sound produce?\n5. What is the significance of the whale\u2019s behavior according to the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.13217146859969944,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936224.408962,
+      "question_id": "q_chunk_15_0",
+      "response_text": "1.  What is the primary focus of the text?\n2.  According to the text, what is the Cachalot (Sperm Whale) known for?\n3.  What is the significance of the observation described in the text?\n4.  What is the tone of the text concerning the Sperm Whale?\n5.  Where did the \u201chorrible transactions\u201d occur?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.13217146859969944,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936224.4089649,
+      "question_id": "q_chunk_15_1",
+      "response_text": "1.  What is the primary focus of the text?\n2.  According to the text, what is the Cachalot (Sperm Whale) known for?\n3.  What is the significance of the observation described in the text?\n4.  What is the tone of the text concerning the Sperm Whale?\n5.  Where did the \u201chorrible transactions\u201d occur?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.13217146859969944,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936224.4089656,
+      "question_id": "q_chunk_15_2",
+      "response_text": "1.  What is the primary focus of the text?\n2.  According to the text, what is the Cachalot (Sperm Whale) known for?\n3.  What is the significance of the observation described in the text?\n4.  What is the tone of the text concerning the Sperm Whale?\n5.  Where did the \u201chorrible transactions\u201d occur?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.13217146859969944,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936224.4089663,
+      "question_id": "q_chunk_15_3",
+      "response_text": "1.  What is the primary focus of the text?\n2.  According to the text, what is the Cachalot (Sperm Whale) known for?\n3.  What is the significance of the observation described in the text?\n4.  What is the tone of the text concerning the Sperm Whale?\n5.  Where did the \u201chorrible transactions\u201d occur?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.13217146859969944,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936224.408967,
+      "question_id": "q_chunk_15_4",
+      "response_text": "1.  What is the primary focus of the text?\n2.  According to the text, what is the Cachalot (Sperm Whale) known for?\n3.  What is the significance of the observation described in the text?\n4.  What is the tone of the text concerning the Sperm Whale?\n5.  Where did the \u201chorrible transactions\u201d occur?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12964448840066325,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936225.05786,
+      "question_id": "q_chunk_16_0",
+      "response_text": "1.  What island was the whale-ship Globe located on?\n2.  What was the primary reason for the whale\u2019s attack on the boat?\n3.  What was Mr. Webster\u2019s stated interest in Nantucket?\n4.  What did Rev. Henry T. Cheever describe Nantucket as?\n5.  What did the whale-ship Globe narrative suggest about the voyages?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12964448840066325,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936225.0578635,
+      "question_id": "q_chunk_16_1",
+      "response_text": "1.  What island was the whale-ship Globe located on?\n2.  What was the primary reason for the whale\u2019s attack on the boat?\n3.  What was Mr. Webster\u2019s stated interest in Nantucket?\n4.  What did Rev. Henry T. Cheever describe Nantucket as?\n5.  What did the whale-ship Globe narrative suggest about the voyages?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12964448840066325,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936225.0578644,
+      "question_id": "q_chunk_16_2",
+      "response_text": "1.  What island was the whale-ship Globe located on?\n2.  What was the primary reason for the whale\u2019s attack on the boat?\n3.  What was Mr. Webster\u2019s stated interest in Nantucket?\n4.  What did Rev. Henry T. Cheever describe Nantucket as?\n5.  What did the whale-ship Globe narrative suggest about the voyages?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12964448840066325,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936225.0578666,
+      "question_id": "q_chunk_16_3",
+      "response_text": "1.  What island was the whale-ship Globe located on?\n2.  What was the primary reason for the whale\u2019s attack on the boat?\n3.  What was Mr. Webster\u2019s stated interest in Nantucket?\n4.  What did Rev. Henry T. Cheever describe Nantucket as?\n5.  What did the whale-ship Globe narrative suggest about the voyages?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12964448840066325,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936225.057867,
+      "question_id": "q_chunk_16_4",
+      "response_text": "1.  What island was the whale-ship Globe located on?\n2.  What was the primary reason for the whale\u2019s attack on the boat?\n3.  What was Mr. Webster\u2019s stated interest in Nantucket?\n4.  What did Rev. Henry T. Cheever describe Nantucket as?\n5.  What did the whale-ship Globe narrative suggest about the voyages?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.13254634339828045,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936225.721221,
+      "question_id": "q_chunk_17_0",
+      "response_text": "1.  What is the core theme of the text?\n2.  What detail does the text suggest about the whales?\n3.  What is the significance of the \u201cbloody possession\u201d of the whaling ship?\n4.  What is the implied relationship between the whaling vessels and the savages?\n5.  How does the text establish the rarity of whale hunters returning to ships?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.13254634339828045,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936225.721227,
+      "question_id": "q_chunk_17_1",
+      "response_text": "1.  What is the core theme of the text?\n2.  What detail does the text suggest about the whales?\n3.  What is the significance of the \u201cbloody possession\u201d of the whaling ship?\n4.  What is the implied relationship between the whaling vessels and the savages?\n5.  How does the text establish the rarity of whale hunters returning to ships?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.13254634339828045,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936225.721228,
+      "question_id": "q_chunk_17_2",
+      "response_text": "1.  What is the core theme of the text?\n2.  What detail does the text suggest about the whales?\n3.  What is the significance of the \u201cbloody possession\u201d of the whaling ship?\n4.  What is the implied relationship between the whaling vessels and the savages?\n5.  How does the text establish the rarity of whale hunters returning to ships?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.13254634339828045,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936225.7212286,
+      "question_id": "q_chunk_17_3",
+      "response_text": "1.  What is the core theme of the text?\n2.  What detail does the text suggest about the whales?\n3.  What is the significance of the \u201cbloody possession\u201d of the whaling ship?\n4.  What is the implied relationship between the whaling vessels and the savages?\n5.  How does the text establish the rarity of whale hunters returning to ships?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.13254634339828045,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936225.721229,
+      "question_id": "q_chunk_17_4",
+      "response_text": "1.  What is the core theme of the text?\n2.  What detail does the text suggest about the whales?\n3.  What is the significance of the \u201cbloody possession\u201d of the whaling ship?\n4.  What is the implied relationship between the whaling vessels and the savages?\n5.  How does the text establish the rarity of whale hunters returning to ships?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.13297551999858115,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936226.3867905,
+      "question_id": "q_chunk_18_0",
+      "response_text": "1.  What is Ishmael\u2019s primary reason for sailing around the world?\n2.  What is the purpose of Ishmael\u2019s activity?\n3.  What does Ishmael associate with a gloomy state of mind?\n4.  What does Ishmael consider a high-stakes situation?\n5.  What does Ishmael use as a substitute for a pistol and ball?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.13297551999858115,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936226.386794,
+      "question_id": "q_chunk_18_1",
+      "response_text": "1.  What is Ishmael\u2019s primary reason for sailing around the world?\n2.  What is the purpose of Ishmael\u2019s activity?\n3.  What does Ishmael associate with a gloomy state of mind?\n4.  What does Ishmael consider a high-stakes situation?\n5.  What does Ishmael use as a substitute for a pistol and ball?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.13297551999858115,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936226.3867948,
+      "question_id": "q_chunk_18_2",
+      "response_text": "1.  What is Ishmael\u2019s primary reason for sailing around the world?\n2.  What is the purpose of Ishmael\u2019s activity?\n3.  What does Ishmael associate with a gloomy state of mind?\n4.  What does Ishmael consider a high-stakes situation?\n5.  What does Ishmael use as a substitute for a pistol and ball?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.13297551999858115,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936226.3867955,
+      "question_id": "q_chunk_18_3",
+      "response_text": "1.  What is Ishmael\u2019s primary reason for sailing around the world?\n2.  What is the purpose of Ishmael\u2019s activity?\n3.  What does Ishmael associate with a gloomy state of mind?\n4.  What does Ishmael consider a high-stakes situation?\n5.  What does Ishmael use as a substitute for a pistol and ball?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.13297551999858115,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936226.386796,
+      "question_id": "q_chunk_18_4",
+      "response_text": "1.  What is Ishmael\u2019s primary reason for sailing around the world?\n2.  What is the purpose of Ishmael\u2019s activity?\n3.  What does Ishmael associate with a gloomy state of mind?\n4.  What does Ishmael consider a high-stakes situation?\n5.  What does Ishmael use as a substitute for a pistol and ball?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.134445286198752,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936227.0598848,
+      "question_id": "q_chunk_19_0",
+      "response_text": "1. What is Cato\u2019s substitute for a pistol and ball?\n2. What does the text suggest about the Manhattoes\u2019 commerce?\n3. What are the characteristics of the Manhattoes\u2019 downtown area?\n4. What is the primary activity of the crowds pacing for the water?\n5. What does the text imply about the state of the green fields?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.134445286198752,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936227.0598886,
+      "question_id": "q_chunk_19_1",
+      "response_text": "1. What is Cato\u2019s substitute for a pistol and ball?\n2. What does the text suggest about the Manhattoes\u2019 commerce?\n3. What are the characteristics of the Manhattoes\u2019 downtown area?\n4. What is the primary activity of the crowds pacing for the water?\n5. What does the text imply about the state of the green fields?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.134445286198752,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936227.0598905,
+      "question_id": "q_chunk_19_2",
+      "response_text": "1. What is Cato\u2019s substitute for a pistol and ball?\n2. What does the text suggest about the Manhattoes\u2019 commerce?\n3. What are the characteristics of the Manhattoes\u2019 downtown area?\n4. What is the primary activity of the crowds pacing for the water?\n5. What does the text imply about the state of the green fields?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.134445286198752,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936227.059892,
+      "question_id": "q_chunk_19_3",
+      "response_text": "1. What is Cato\u2019s substitute for a pistol and ball?\n2. What does the text suggest about the Manhattoes\u2019 commerce?\n3. What are the characteristics of the Manhattoes\u2019 downtown area?\n4. What is the primary activity of the crowds pacing for the water?\n5. What does the text imply about the state of the green fields?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.134445286198752,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936227.0598931,
+      "question_id": "q_chunk_19_4",
+      "response_text": "1. What is Cato\u2019s substitute for a pistol and ball?\n2. What does the text suggest about the Manhattoes\u2019 commerce?\n3. What are the characteristics of the Manhattoes\u2019 downtown area?\n4. What is the primary activity of the crowds pacing for the water?\n5. What does the text imply about the state of the green fields?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.129183505801484,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936227.70648,
+      "question_id": "q_chunk_20_0",
+      "response_text": "1.  What is the primary characteristic of the described landsmen?\n2.  What does the text imply about the green fields?\n3.  What is the artist\u2019s primary focus in his landscape?\n4.  What is the significance of the hermit and crucifix in the trees?\n5.  What is the role of water in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.129183505801484,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936227.7064857,
+      "question_id": "q_chunk_20_1",
+      "response_text": "1.  What is the primary characteristic of the described landsmen?\n2.  What does the text imply about the green fields?\n3.  What is the artist\u2019s primary focus in his landscape?\n4.  What is the significance of the hermit and crucifix in the trees?\n5.  What is the role of water in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.129183505801484,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936227.7064865,
+      "question_id": "q_chunk_20_2",
+      "response_text": "1.  What is the primary characteristic of the described landsmen?\n2.  What does the text imply about the green fields?\n3.  What is the artist\u2019s primary focus in his landscape?\n4.  What is the significance of the hermit and crucifix in the trees?\n5.  What is the role of water in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.129183505801484,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936227.7064886,
+      "question_id": "q_chunk_20_3",
+      "response_text": "1.  What is the primary characteristic of the described landsmen?\n2.  What does the text imply about the green fields?\n3.  What is the artist\u2019s primary focus in his landscape?\n4.  What is the significance of the hermit and crucifix in the trees?\n5.  What is the role of water in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.129183505801484,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936227.706489,
+      "question_id": "q_chunk_20_4",
+      "response_text": "1.  What is the primary characteristic of the described landsmen?\n2.  What does the text imply about the green fields?\n3.  What is the artist\u2019s primary focus in his landscape?\n4.  What is the significance of the hermit and crucifix in the trees?\n5.  What is the role of water in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10458640519937035,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936228.2300723,
+      "question_id": "q_chunk_21_0",
+      "response_text": "1. What is the primary focus of the text?\n2. What is the significance of the \u201cmagic stream\u201d?\n3. What is the overall message of the text?\n4. What does the text suggest about the poet of Tennessee?\n5. What is the significance of the Narcissus image?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10458640519937035,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936228.2300773,
+      "question_id": "q_chunk_21_1",
+      "response_text": "1. What is the primary focus of the text?\n2. What is the significance of the \u201cmagic stream\u201d?\n3. What is the overall message of the text?\n4. What does the text suggest about the poet of Tennessee?\n5. What is the significance of the Narcissus image?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10458640519937035,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936228.230078,
+      "question_id": "q_chunk_21_2",
+      "response_text": "1. What is the primary focus of the text?\n2. What is the significance of the \u201cmagic stream\u201d?\n3. What is the overall message of the text?\n4. What does the text suggest about the poet of Tennessee?\n5. What is the significance of the Narcissus image?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10458640519937035,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936228.2300787,
+      "question_id": "q_chunk_21_3",
+      "response_text": "1. What is the primary focus of the text?\n2. What is the significance of the \u201cmagic stream\u201d?\n3. What is the overall message of the text?\n4. What does the text suggest about the poet of Tennessee?\n5. What is the significance of the Narcissus image?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10458640519937035,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936228.2300794,
+      "question_id": "q_chunk_21_4",
+      "response_text": "1. What is the primary focus of the text?\n2. What is the significance of the \u201cmagic stream\u201d?\n3. What is the overall message of the text?\n4. What does the text suggest about the poet of Tennessee?\n5. What is the significance of the Narcissus image?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1536928667977918,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936228.9992282,
+      "question_id": "q_chunk_22_0",
+      "response_text": "1.  What does the speaker mean when they say \u201cI do not mean to have it inferred that I ever go to sea as a passenger?\u201d\n2.  What are the negative qualities associated with passengers on a ship?\n3.  What is the speaker\u2019s primary motivation for not going to sea as a Commodore or Captain?\n4.  What is the significance of the mummies of creatures broiled in ancient Egypt?\n5.  What does the speaker primarily engage in during his time at sea?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1536928667977918,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936228.9992316,
+      "question_id": "q_chunk_22_1",
+      "response_text": "1.  What does the speaker mean when they say \u201cI do not mean to have it inferred that I ever go to sea as a passenger?\u201d\n2.  What are the negative qualities associated with passengers on a ship?\n3.  What is the speaker\u2019s primary motivation for not going to sea as a Commodore or Captain?\n4.  What is the significance of the mummies of creatures broiled in ancient Egypt?\n5.  What does the speaker primarily engage in during his time at sea?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1536928667977918,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936228.9992323,
+      "question_id": "q_chunk_22_2",
+      "response_text": "1.  What does the speaker mean when they say \u201cI do not mean to have it inferred that I ever go to sea as a passenger?\u201d\n2.  What are the negative qualities associated with passengers on a ship?\n3.  What is the speaker\u2019s primary motivation for not going to sea as a Commodore or Captain?\n4.  What is the significance of the mummies of creatures broiled in ancient Egypt?\n5.  What does the speaker primarily engage in during his time at sea?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1536928667977918,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936228.999233,
+      "question_id": "q_chunk_22_3",
+      "response_text": "1.  What does the speaker mean when they say \u201cI do not mean to have it inferred that I ever go to sea as a passenger?\u201d\n2.  What are the negative qualities associated with passengers on a ship?\n3.  What is the speaker\u2019s primary motivation for not going to sea as a Commodore or Captain?\n4.  What is the significance of the mummies of creatures broiled in ancient Egypt?\n5.  What does the speaker primarily engage in during his time at sea?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1536928667977918,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936228.9992335,
+      "question_id": "q_chunk_22_4",
+      "response_text": "1.  What does the speaker mean when they say \u201cI do not mean to have it inferred that I ever go to sea as a passenger?\u201d\n2.  What are the negative qualities associated with passengers on a ship?\n3.  What is the speaker\u2019s primary motivation for not going to sea as a Commodore or Captain?\n4.  What is the significance of the mummies of creatures broiled in ancient Egypt?\n5.  What does the speaker primarily engage in during his time at sea?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1401100757997483,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936229.7007406,
+      "question_id": "q_chunk_23_0",
+      "response_text": "1.  What is the primary source of discomfort the speaker experiences?\n2.  What does the speaker mean when he says \u201cthe transition is a keen one\u201d?\n3.  What does the speaker suggest about the relationship between sailors and sea captains?\n4.  What is the significance of the phrase \u201cthe universal thump is passed round\u201d?\n5.  What is the significance of the speaker\u2019s statement about paying versus being paid?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1401100757997483,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936229.7007465,
+      "question_id": "q_chunk_23_1",
+      "response_text": "1.  What is the primary source of discomfort the speaker experiences?\n2.  What does the speaker mean when he says \u201cthe transition is a keen one\u201d?\n3.  What does the speaker suggest about the relationship between sailors and sea captains?\n4.  What is the significance of the phrase \u201cthe universal thump is passed round\u201d?\n5.  What is the significance of the speaker\u2019s statement about paying versus being paid?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1401100757997483,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936229.7007482,
+      "question_id": "q_chunk_23_2",
+      "response_text": "1.  What is the primary source of discomfort the speaker experiences?\n2.  What does the speaker mean when he says \u201cthe transition is a keen one\u201d?\n3.  What does the speaker suggest about the relationship between sailors and sea captains?\n4.  What is the significance of the phrase \u201cthe universal thump is passed round\u201d?\n5.  What is the significance of the speaker\u2019s statement about paying versus being paid?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1401100757997483,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936229.7007499,
+      "question_id": "q_chunk_23_3",
+      "response_text": "1.  What is the primary source of discomfort the speaker experiences?\n2.  What does the speaker mean when he says \u201cthe transition is a keen one\u201d?\n3.  What does the speaker suggest about the relationship between sailors and sea captains?\n4.  What is the significance of the phrase \u201cthe universal thump is passed round\u201d?\n5.  What is the significance of the speaker\u2019s statement about paying versus being paid?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1401100757997483,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936229.7007515,
+      "question_id": "q_chunk_23_4",
+      "response_text": "1.  What is the primary source of discomfort the speaker experiences?\n2.  What does the speaker mean when he says \u201cthe transition is a keen one\u201d?\n3.  What does the speaker suggest about the relationship between sailors and sea captains?\n4.  What is the significance of the phrase \u201cthe universal thump is passed round\u201d?\n5.  What is the significance of the speaker\u2019s statement about paying versus being paid?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11638907640008256,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936230.2834404,
+      "question_id": "q_chunk_24_0",
+      "response_text": "1. What is the text primarily focused on?\n2. Why does the author feel money is important?\n3. What does the author believe about the influence of the Fates?\n4. What is the author\u2019s motivation for undertaking a whaling voyage?\n5. How does the author describe the experience of whaling?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11638907640008256,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936230.2834458,
+      "question_id": "q_chunk_24_1",
+      "response_text": "1. What is the text primarily focused on?\n2. Why does the author feel money is important?\n3. What does the author believe about the influence of the Fates?\n4. What is the author\u2019s motivation for undertaking a whaling voyage?\n5. How does the author describe the experience of whaling?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11638907640008256,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936230.283458,
+      "question_id": "q_chunk_24_2",
+      "response_text": "1. What is the text primarily focused on?\n2. Why does the author feel money is important?\n3. What does the author believe about the influence of the Fates?\n4. What is the author\u2019s motivation for undertaking a whaling voyage?\n5. How does the author describe the experience of whaling?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11638907640008256,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936230.2834609,
+      "question_id": "q_chunk_24_3",
+      "response_text": "1. What is the text primarily focused on?\n2. Why does the author feel money is important?\n3. What does the author believe about the influence of the Fates?\n4. What is the author\u2019s motivation for undertaking a whaling voyage?\n5. How does the author describe the experience of whaling?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11638907640008256,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936230.2834628,
+      "question_id": "q_chunk_24_4",
+      "response_text": "1. What is the text primarily focused on?\n2. Why does the author feel money is important?\n3. What does the author believe about the influence of the Fates?\n4. What is the author\u2019s motivation for undertaking a whaling voyage?\n5. How does the author describe the experience of whaling?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.15945507866854314,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936230.762717,
+      "question_id": "q_chunk_25_0",
+      "response_text": "1. What was the primary reason the writer was placed on this whaling voyage?\n2. What was the main focus of the whaling voyage according to the text?\n3. What is the writer\u2019s overall attitude towards the whaling voyage?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.15945507866854314,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936230.762722,
+      "question_id": "q_chunk_25_1",
+      "response_text": "1. What was the primary reason the writer was placed on this whaling voyage?\n2. What was the main focus of the whaling voyage according to the text?\n3. What is the writer\u2019s overall attitude towards the whaling voyage?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.15945507866854314,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936230.7627265,
+      "question_id": "q_chunk_25_2",
+      "response_text": "1. What was the primary reason the writer was placed on this whaling voyage?\n2. What was the main focus of the whaling voyage according to the text?\n3. What is the writer\u2019s overall attitude towards the whaling voyage?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10551747900026384,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936231.2911792,
+      "question_id": "q_chunk_26_0",
+      "response_text": "1. What was the release date of the book?\n2. When was the book last updated?\n3. What was the author\u2019s primary focus in the book?\n4. What was the author\u2019s inspiration for whaling?\n5. Where did the first American whale strand?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10551747900026384,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936231.2911835,
+      "question_id": "q_chunk_26_1",
+      "response_text": "1. What was the release date of the book?\n2. When was the book last updated?\n3. What was the author\u2019s primary focus in the book?\n4. What was the author\u2019s inspiration for whaling?\n5. Where did the first American whale strand?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10551747900026384,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936231.291185,
+      "question_id": "q_chunk_26_2",
+      "response_text": "1. What was the release date of the book?\n2. When was the book last updated?\n3. What was the author\u2019s primary focus in the book?\n4. What was the author\u2019s inspiration for whaling?\n5. Where did the first American whale strand?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10551747900026384,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936231.2911863,
+      "question_id": "q_chunk_26_3",
+      "response_text": "1. What was the release date of the book?\n2. When was the book last updated?\n3. What was the author\u2019s primary focus in the book?\n4. What was the author\u2019s inspiration for whaling?\n5. Where did the first American whale strand?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10551747900026384,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936231.291188,
+      "question_id": "q_chunk_26_4",
+      "response_text": "1. What was the release date of the book?\n2. When was the book last updated?\n3. What was the author\u2019s primary focus in the book?\n4. What was the author\u2019s inspiration for whaling?\n5. Where did the first American whale strand?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10903349260042887,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936231.8372052,
+      "question_id": "q_chunk_27_0",
+      "response_text": "1.  What was the purpose of the first voyage?\n2.  Where did the first adventure take place?\n3.  What was the feeling of the night Ishmael experienced?\n4.  What did Ishmael do to find accommodation?\n5.  What did Ishmael do after finding inns?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10903349260042887,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936231.837212,
+      "question_id": "q_chunk_27_1",
+      "response_text": "1.  What was the purpose of the first voyage?\n2.  Where did the first adventure take place?\n3.  What was the feeling of the night Ishmael experienced?\n4.  What did Ishmael do to find accommodation?\n5.  What did Ishmael do after finding inns?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10903349260042887,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936231.837214,
+      "question_id": "q_chunk_27_2",
+      "response_text": "1.  What was the purpose of the first voyage?\n2.  Where did the first adventure take place?\n3.  What was the feeling of the night Ishmael experienced?\n4.  What did Ishmael do to find accommodation?\n5.  What did Ishmael do after finding inns?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10903349260042887,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936231.8372154,
+      "question_id": "q_chunk_27_3",
+      "response_text": "1.  What was the purpose of the first voyage?\n2.  Where did the first adventure take place?\n3.  What was the feeling of the night Ishmael experienced?\n4.  What did Ishmael do to find accommodation?\n5.  What did Ishmael do after finding inns?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10903349260042887,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936231.8372169,
+      "question_id": "q_chunk_27_4",
+      "response_text": "1.  What was the purpose of the first voyage?\n2.  Where did the first adventure take place?\n3.  What was the feeling of the night Ishmael experienced?\n4.  What did Ishmael do to find accommodation?\n5.  What did Ishmael do after finding inns?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11188113580283243,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936232.3974464,
+      "question_id": "q_chunk_28_0",
+      "response_text": "1. What was the speaker\u2019s initial goal?\n2. What did the speaker do upon entering the building?\n3. What did the sign on the door say?\n4. What was the speaker\u2019s initial reaction to the sign?\n5. Where did the speaker eventually go?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11188113580283243,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936232.3974717,
+      "question_id": "q_chunk_28_1",
+      "response_text": "1. What was the speaker\u2019s initial goal?\n2. What did the speaker do upon entering the building?\n3. What did the sign on the door say?\n4. What was the speaker\u2019s initial reaction to the sign?\n5. Where did the speaker eventually go?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11188113580283243,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936232.3974736,
+      "question_id": "q_chunk_28_2",
+      "response_text": "1. What was the speaker\u2019s initial goal?\n2. What did the speaker do upon entering the building?\n3. What did the sign on the door say?\n4. What was the speaker\u2019s initial reaction to the sign?\n5. Where did the speaker eventually go?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11188113580283243,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936232.397475,
+      "question_id": "q_chunk_28_3",
+      "response_text": "1. What was the speaker\u2019s initial goal?\n2. What did the speaker do upon entering the building?\n3. What did the sign on the door say?\n4. What was the speaker\u2019s initial reaction to the sign?\n5. Where did the speaker eventually go?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11188113580283243,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936232.3974762,
+      "question_id": "q_chunk_28_4",
+      "response_text": "1. What was the speaker\u2019s initial goal?\n2. What did the speaker do upon entering the building?\n3. What did the sign on the door say?\n4. What was the speaker\u2019s initial reaction to the sign?\n5. Where did the speaker eventually go?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10917660440027248,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936232.9441829,
+      "question_id": "q_chunk_29_0",
+      "response_text": "1. What is the central theme of the passage?\n2. What does the sign on the door represent?\n3. What is the writer\u2019s opinion of the wind?\n4. What is the setting of the story?\n5. What does the passage suggest about the location?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10917660440027248,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936232.9441879,
+      "question_id": "q_chunk_29_1",
+      "response_text": "1. What is the central theme of the passage?\n2. What does the sign on the door represent?\n3. What is the writer\u2019s opinion of the wind?\n4. What is the setting of the story?\n5. What does the passage suggest about the location?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10917660440027248,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936232.9441898,
+      "question_id": "q_chunk_29_2",
+      "response_text": "1. What is the central theme of the passage?\n2. What does the sign on the door represent?\n3. What is the writer\u2019s opinion of the wind?\n4. What is the setting of the story?\n5. What does the passage suggest about the location?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10917660440027248,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936232.9441915,
+      "question_id": "q_chunk_29_3",
+      "response_text": "1. What is the central theme of the passage?\n2. What does the sign on the door represent?\n3. What is the writer\u2019s opinion of the wind?\n4. What is the setting of the story?\n5. What does the passage suggest about the location?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10917660440027248,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936232.9441924,
+      "question_id": "q_chunk_29_4",
+      "response_text": "1. What is the central theme of the passage?\n2. What does the sign on the door represent?\n3. What is the writer\u2019s opinion of the wind?\n4. What is the setting of the story?\n5. What does the passage suggest about the location?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12676732539839577,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936233.578851,
+      "question_id": "q_chunk_30_0",
+      "response_text": "1.  What does the old writer believe the wind is?\n2.  What does the passage suggest about Lazarus\u2019s situation?\n3.  What is the significance of the \u201ccrannies\u201d in the wind?\n4.  What does the old writer mean by \u201cpushing in a little lint\u201d?\n5.  What does Lazarus seem to prefer over Sumatra?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12676732539839577,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936233.5788565,
+      "question_id": "q_chunk_30_1",
+      "response_text": "1.  What does the old writer believe the wind is?\n2.  What does the passage suggest about Lazarus\u2019s situation?\n3.  What is the significance of the \u201ccrannies\u201d in the wind?\n4.  What does the old writer mean by \u201cpushing in a little lint\u201d?\n5.  What does Lazarus seem to prefer over Sumatra?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12676732539839577,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936233.5788581,
+      "question_id": "q_chunk_30_2",
+      "response_text": "1.  What does the old writer believe the wind is?\n2.  What does the passage suggest about Lazarus\u2019s situation?\n3.  What is the significance of the \u201ccrannies\u201d in the wind?\n4.  What does the old writer mean by \u201cpushing in a little lint\u201d?\n5.  What does Lazarus seem to prefer over Sumatra?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12676732539839577,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936233.5788598,
+      "question_id": "q_chunk_30_3",
+      "response_text": "1.  What does the old writer believe the wind is?\n2.  What does the passage suggest about Lazarus\u2019s situation?\n3.  What is the significance of the \u201ccrannies\u201d in the wind?\n4.  What does the old writer mean by \u201cpushing in a little lint\u201d?\n5.  What does Lazarus seem to prefer over Sumatra?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12676732539839577,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936233.578861,
+      "question_id": "q_chunk_30_4",
+      "response_text": "1.  What does the old writer believe the wind is?\n2.  What does the passage suggest about Lazarus\u2019s situation?\n3.  What is the significance of the \u201ccrannies\u201d in the wind?\n4.  What does the old writer mean by \u201cpushing in a little lint\u201d?\n5.  What does Lazarus seem to prefer over Sumatra?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12799180519941727,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936234.2196684,
+      "question_id": "q_chunk_31_0",
+      "response_text": "1. What is the primary reason for the group\u2019s journey?\n2. What is the \u201cSpouter\u201d known for?\n3. What is the significance of the painting in the Spouter-Inn?\n4. What is the overall mood or atmosphere of the text?\n5. What is the \u201cboggy, soggy, squitchy\u201d nature of the painting described?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12799180519941727,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936234.219673,
+      "question_id": "q_chunk_31_1",
+      "response_text": "1. What is the primary reason for the group\u2019s journey?\n2. What is the \u201cSpouter\u201d known for?\n3. What is the significance of the painting in the Spouter-Inn?\n4. What is the overall mood or atmosphere of the text?\n5. What is the \u201cboggy, soggy, squitchy\u201d nature of the painting described?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12799180519941727,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936234.2196753,
+      "question_id": "q_chunk_31_2",
+      "response_text": "1. What is the primary reason for the group\u2019s journey?\n2. What is the \u201cSpouter\u201d known for?\n3. What is the significance of the painting in the Spouter-Inn?\n4. What is the overall mood or atmosphere of the text?\n5. What is the \u201cboggy, soggy, squitchy\u201d nature of the painting described?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12799180519941727,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936234.219677,
+      "question_id": "q_chunk_31_3",
+      "response_text": "1. What is the primary reason for the group\u2019s journey?\n2. What is the \u201cSpouter\u201d known for?\n3. What is the significance of the painting in the Spouter-Inn?\n4. What is the overall mood or atmosphere of the text?\n5. What is the \u201cboggy, soggy, squitchy\u201d nature of the painting described?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12799180519941727,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936234.2196782,
+      "question_id": "q_chunk_31_4",
+      "response_text": "1. What is the primary reason for the group\u2019s journey?\n2. What is the \u201cSpouter\u201d known for?\n3. What is the significance of the painting in the Spouter-Inn?\n4. What is the overall mood or atmosphere of the text?\n5. What is the \u201cboggy, soggy, squitchy\u201d nature of the painting described?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11638335360039491,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936234.802248,
+      "question_id": "q_chunk_32_0",
+      "response_text": "1. What was the initial effect of the painting?\n2. What specific elements were depicted in the painting?\n3. What was the artist\u2019s intended theory behind the painting?\n4. What kind of weapons were present in the scene?\n5. What did the artist\u2019s design suggest about the nature of the painting?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11638335360039491,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936234.8022525,
+      "question_id": "q_chunk_32_1",
+      "response_text": "1. What was the initial effect of the painting?\n2. What specific elements were depicted in the painting?\n3. What was the artist\u2019s intended theory behind the painting?\n4. What kind of weapons were present in the scene?\n5. What did the artist\u2019s design suggest about the nature of the painting?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11638335360039491,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936234.8022532,
+      "question_id": "q_chunk_32_2",
+      "response_text": "1. What was the initial effect of the painting?\n2. What specific elements were depicted in the painting?\n3. What was the artist\u2019s intended theory behind the painting?\n4. What kind of weapons were present in the scene?\n5. What did the artist\u2019s design suggest about the nature of the painting?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11638335360039491,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936234.8022547,
+      "question_id": "q_chunk_32_3",
+      "response_text": "1. What was the initial effect of the painting?\n2. What specific elements were depicted in the painting?\n3. What was the artist\u2019s intended theory behind the painting?\n4. What kind of weapons were present in the scene?\n5. What did the artist\u2019s design suggest about the nature of the painting?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11638335360039491,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936234.8022552,
+      "question_id": "q_chunk_32_4",
+      "response_text": "1. What was the initial effect of the painting?\n2. What specific elements were depicted in the painting?\n3. What was the artist\u2019s intended theory behind the painting?\n4. What kind of weapons were present in the scene?\n5. What did the artist\u2019s design suggest about the nature of the painting?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10707195579889231,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936235.3384187,
+      "question_id": "q_chunk_33_0",
+      "response_text": "1. What type of weapons were scattered among the rusted lances?\n2. What was the significance of the harpoon?\n3. What was the length of the original iron lance?\n4. What is the description of the room\u2019s atmosphere?\n5. What is the purpose of the bar?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10707195579889231,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936235.3384256,
+      "question_id": "q_chunk_33_1",
+      "response_text": "1. What type of weapons were scattered among the rusted lances?\n2. What was the significance of the harpoon?\n3. What was the length of the original iron lance?\n4. What is the description of the room\u2019s atmosphere?\n5. What is the purpose of the bar?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10707195579889231,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936235.3384273,
+      "question_id": "q_chunk_33_2",
+      "response_text": "1. What type of weapons were scattered among the rusted lances?\n2. What was the significance of the harpoon?\n3. What was the length of the original iron lance?\n4. What is the description of the room\u2019s atmosphere?\n5. What is the purpose of the bar?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10707195579889231,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936235.3384287,
+      "question_id": "q_chunk_33_3",
+      "response_text": "1. What type of weapons were scattered among the rusted lances?\n2. What was the significance of the harpoon?\n3. What was the length of the original iron lance?\n4. What is the description of the room\u2019s atmosphere?\n5. What is the purpose of the bar?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10707195579889231,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936235.33843,
+      "question_id": "q_chunk_33_4",
+      "response_text": "1. What type of weapons were scattered among the rusted lances?\n2. What was the significance of the harpoon?\n3. What was the length of the original iron lance?\n4. What is the description of the room\u2019s atmosphere?\n5. What is the purpose of the bar?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11893097359861712,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936235.9339037,
+      "question_id": "q_chunk_34_0",
+      "response_text": "1. What is the overall theme of the text?\n2. What is the landlord\u2019s attitude towards the narrator?\n3. What is the significance of the \u201charpooneer\u2019s blanket\u201d mentioned?\n4. How does the narrator describe the setting?\n5. What is the significance of the man carving the ship?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11893097359861712,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936235.9339106,
+      "question_id": "q_chunk_34_1",
+      "response_text": "1. What is the overall theme of the text?\n2. What is the landlord\u2019s attitude towards the narrator?\n3. What is the significance of the \u201charpooneer\u2019s blanket\u201d mentioned?\n4. How does the narrator describe the setting?\n5. What is the significance of the man carving the ship?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11893097359861712,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936235.9339125,
+      "question_id": "q_chunk_34_2",
+      "response_text": "1. What is the overall theme of the text?\n2. What is the landlord\u2019s attitude towards the narrator?\n3. What is the significance of the \u201charpooneer\u2019s blanket\u201d mentioned?\n4. How does the narrator describe the setting?\n5. What is the significance of the man carving the ship?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11893097359861712,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936235.9339147,
+      "question_id": "q_chunk_34_3",
+      "response_text": "1. What is the overall theme of the text?\n2. What is the landlord\u2019s attitude towards the narrator?\n3. What is the significance of the \u201charpooneer\u2019s blanket\u201d mentioned?\n4. How does the narrator describe the setting?\n5. What is the significance of the man carving the ship?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11893097359861712,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936235.9339163,
+      "question_id": "q_chunk_34_4",
+      "response_text": "1. What is the overall theme of the text?\n2. What is the landlord\u2019s attitude towards the narrator?\n3. What is the significance of the \u201charpooneer\u2019s blanket\u201d mentioned?\n4. How does the narrator describe the setting?\n5. What is the significance of the man carving the ship?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11906048539967742,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936236.529865,
+      "question_id": "q_chunk_35_0",
+      "response_text": "1. What was the weather like at the meal?\n2. What was the landlord\u2019s stated reason for not affording the room?\n3. What was the food served at the meal?\n4. How did the narrator feel about the landlord?\n5. What did the narrator resolve to do in the evening?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11906048539967742,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936236.5298703,
+      "question_id": "q_chunk_35_1",
+      "response_text": "1. What was the weather like at the meal?\n2. What was the landlord\u2019s stated reason for not affording the room?\n3. What was the food served at the meal?\n4. How did the narrator feel about the landlord?\n5. What did the narrator resolve to do in the evening?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11906048539967742,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936236.529871,
+      "question_id": "q_chunk_35_2",
+      "response_text": "1. What was the weather like at the meal?\n2. What was the landlord\u2019s stated reason for not affording the room?\n3. What was the food served at the meal?\n4. How did the narrator feel about the landlord?\n5. What did the narrator resolve to do in the evening?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11906048539967742,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936236.529872,
+      "question_id": "q_chunk_35_3",
+      "response_text": "1. What was the weather like at the meal?\n2. What was the landlord\u2019s stated reason for not affording the room?\n3. What was the food served at the meal?\n4. How did the narrator feel about the landlord?\n5. What did the narrator resolve to do in the evening?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11906048539967742,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936236.5298724,
+      "question_id": "q_chunk_35_4",
+      "response_text": "1. What was the weather like at the meal?\n2. What was the landlord\u2019s stated reason for not affording the room?\n3. What was the food served at the meal?\n4. How did the narrator feel about the landlord?\n5. What did the narrator resolve to do in the evening?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12588186660141218,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936237.1601515,
+      "question_id": "q_chunk_36_0",
+      "response_text": "1.  What was the first thing the mariners did upon entering the house?\n2.  What did the mariners drink?\n3.  What was the man\u2019s appearance described as?\n4.  What did the narrator observe about the man\u2019s face?\n5.  What does the narrator think the man might be?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12588186660141218,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936237.1601582,
+      "question_id": "q_chunk_36_1",
+      "response_text": "1.  What was the first thing the mariners did upon entering the house?\n2.  What did the mariners drink?\n3.  What was the man\u2019s appearance described as?\n4.  What did the narrator observe about the man\u2019s face?\n5.  What does the narrator think the man might be?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12588186660141218,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936237.16016,
+      "question_id": "q_chunk_36_2",
+      "response_text": "1.  What was the first thing the mariners did upon entering the house?\n2.  What did the mariners drink?\n3.  What was the man\u2019s appearance described as?\n4.  What did the narrator observe about the man\u2019s face?\n5.  What does the narrator think the man might be?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12588186660141218,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936237.1601613,
+      "question_id": "q_chunk_36_3",
+      "response_text": "1.  What was the first thing the mariners did upon entering the house?\n2.  What did the mariners drink?\n3.  What was the man\u2019s appearance described as?\n4.  What did the narrator observe about the man\u2019s face?\n5.  What does the narrator think the man might be?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12588186660141218,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936237.1601624,
+      "question_id": "q_chunk_36_4",
+      "response_text": "1.  What was the first thing the mariners did upon entering the house?\n2.  What did the mariners drink?\n3.  What was the man\u2019s appearance described as?\n4.  What did the narrator observe about the man\u2019s face?\n5.  What does the narrator think the man might be?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1134155223990092,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936237.7278764,
+      "question_id": "q_chunk_37_0",
+      "response_text": "1. What was the man\u2019s face described as?\n2. What did the man\u2019s eyes contain?\n3. What was the man\u2019s voice announcing?\n4. What did the men do after the man slipped away?\n5. What was the man\u2019s apparent preference regarding sleeping with someone?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1134155223990092,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936237.7278793,
+      "question_id": "q_chunk_37_1",
+      "response_text": "1. What was the man\u2019s face described as?\n2. What did the man\u2019s eyes contain?\n3. What was the man\u2019s voice announcing?\n4. What did the men do after the man slipped away?\n5. What was the man\u2019s apparent preference regarding sleeping with someone?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1134155223990092,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936237.72788,
+      "question_id": "q_chunk_37_2",
+      "response_text": "1. What was the man\u2019s face described as?\n2. What did the man\u2019s eyes contain?\n3. What was the man\u2019s voice announcing?\n4. What did the men do after the man slipped away?\n5. What was the man\u2019s apparent preference regarding sleeping with someone?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1134155223990092,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936237.7278807,
+      "question_id": "q_chunk_37_3",
+      "response_text": "1. What was the man\u2019s face described as?\n2. What did the man\u2019s eyes contain?\n3. What was the man\u2019s voice announcing?\n4. What did the men do after the man slipped away?\n5. What was the man\u2019s apparent preference regarding sleeping with someone?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.1134155223990092,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936237.7278824,
+      "question_id": "q_chunk_37_4",
+      "response_text": "1. What was the man\u2019s face described as?\n2. What did the man\u2019s eyes contain?\n3. What was the man\u2019s voice announcing?\n4. What did the men do after the man slipped away?\n5. What was the man\u2019s apparent preference regarding sleeping with someone?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12985855159931817,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936238.3778286,
+      "question_id": "q_chunk_38_0",
+      "response_text": "1. What is the harpooneer\u2019s condition described as?\n2. What does the harpooneer do when the landlord arrives?\n3. What is the significance of the \u201cfoot too narrow\u201d bench?\n4. How does the harpooneer react to the landlord\u2019s actions?\n5. What does the harpooneer do with the shavings?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12985855159931817,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936238.3778322,
+      "question_id": "q_chunk_38_1",
+      "response_text": "1. What is the harpooneer\u2019s condition described as?\n2. What does the harpooneer do when the landlord arrives?\n3. What is the significance of the \u201cfoot too narrow\u201d bench?\n4. How does the harpooneer react to the landlord\u2019s actions?\n5. What does the harpooneer do with the shavings?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12985855159931817,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936238.377833,
+      "question_id": "q_chunk_38_2",
+      "response_text": "1. What is the harpooneer\u2019s condition described as?\n2. What does the harpooneer do when the landlord arrives?\n3. What is the significance of the \u201cfoot too narrow\u201d bench?\n4. How does the harpooneer react to the landlord\u2019s actions?\n5. What does the harpooneer do with the shavings?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12985855159931817,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936238.3778338,
+      "question_id": "q_chunk_38_3",
+      "response_text": "1. What is the harpooneer\u2019s condition described as?\n2. What does the harpooneer do when the landlord arrives?\n3. What is the significance of the \u201cfoot too narrow\u201d bench?\n4. How does the harpooneer react to the landlord\u2019s actions?\n5. What does the harpooneer do with the shavings?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12985855159931817,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936238.3778343,
+      "question_id": "q_chunk_38_4",
+      "response_text": "1. What is the harpooneer\u2019s condition described as?\n2. What does the harpooneer do when the landlord arrives?\n3. What is the significance of the \u201cfoot too narrow\u201d bench?\n4. How does the harpooneer react to the landlord\u2019s actions?\n5. What does the harpooneer do with the shavings?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12347552459978033,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936238.9960196,
+      "question_id": "q_chunk_39_0",
+      "response_text": "1. What was the initial problem with the first bench?\n2. What was the draft of cold air causing the problem?\n3. What was the landlord\u2019s reaction to the situation?\n4. What was the landlord\u2019s comment about the harpooneer\u2019s hours?\n5. What did the narrator think about the harpooneer?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12347552459978033,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936238.9960265,
+      "question_id": "q_chunk_39_1",
+      "response_text": "1. What was the initial problem with the first bench?\n2. What was the draft of cold air causing the problem?\n3. What was the landlord\u2019s reaction to the situation?\n4. What was the landlord\u2019s comment about the harpooneer\u2019s hours?\n5. What did the narrator think about the harpooneer?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12347552459978033,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936238.9960284,
+      "question_id": "q_chunk_39_2",
+      "response_text": "1. What was the initial problem with the first bench?\n2. What was the draft of cold air causing the problem?\n3. What was the landlord\u2019s reaction to the situation?\n4. What was the landlord\u2019s comment about the harpooneer\u2019s hours?\n5. What did the narrator think about the harpooneer?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12347552459978033,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936238.9960299,
+      "question_id": "q_chunk_39_3",
+      "response_text": "1. What was the initial problem with the first bench?\n2. What was the draft of cold air causing the problem?\n3. What was the landlord\u2019s reaction to the situation?\n4. What was the landlord\u2019s comment about the harpooneer\u2019s hours?\n5. What did the narrator think about the harpooneer?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.12347552459978033,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936238.9960315,
+      "question_id": "q_chunk_39_4",
+      "response_text": "1. What was the initial problem with the first bench?\n2. What was the draft of cold air causing the problem?\n3. What was the landlord\u2019s reaction to the situation?\n4. What was the landlord\u2019s comment about the harpooneer\u2019s hours?\n5. What did the narrator think about the harpooneer?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.14535313280066475,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936239.7236347,
+      "question_id": "q_chunk_40_0",
+      "response_text": "1.  What is the landlord\u2019s general behavior described in the passage?\n2.  What does the landlord say is the reason the harpooneer is late?\n3.  What does the landlord say is the reason the harpooneer can\u2019t sell his head?\n4.  How does the speaker react to the landlord\u2019s story?\n5.  What is the speaker\u2019s request to the landlord?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.14535313280066475,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936239.7236407,
+      "question_id": "q_chunk_40_1",
+      "response_text": "1.  What is the landlord\u2019s general behavior described in the passage?\n2.  What does the landlord say is the reason the harpooneer is late?\n3.  What does the landlord say is the reason the harpooneer can\u2019t sell his head?\n4.  How does the speaker react to the landlord\u2019s story?\n5.  What is the speaker\u2019s request to the landlord?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.14535313280066475,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936239.7236426,
+      "question_id": "q_chunk_40_2",
+      "response_text": "1.  What is the landlord\u2019s general behavior described in the passage?\n2.  What does the landlord say is the reason the harpooneer is late?\n3.  What does the landlord say is the reason the harpooneer can\u2019t sell his head?\n4.  How does the speaker react to the landlord\u2019s story?\n5.  What is the speaker\u2019s request to the landlord?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.14535313280066475,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936239.723644,
+      "question_id": "q_chunk_40_3",
+      "response_text": "1.  What is the landlord\u2019s general behavior described in the passage?\n2.  What does the landlord say is the reason the harpooneer is late?\n3.  What does the landlord say is the reason the harpooneer can\u2019t sell his head?\n4.  How does the speaker react to the landlord\u2019s story?\n5.  What is the speaker\u2019s request to the landlord?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.14535313280066475,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936239.7236457,
+      "question_id": "q_chunk_40_4",
+      "response_text": "1.  What is the landlord\u2019s general behavior described in the passage?\n2.  What does the landlord say is the reason the harpooneer is late?\n3.  What does the landlord say is the reason the harpooneer can\u2019t sell his head?\n4.  How does the speaker react to the landlord\u2019s story?\n5.  What is the speaker\u2019s request to the landlord?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.13529919759894254,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936240.4009256,
+      "question_id": "q_chunk_41_0",
+      "response_text": "1.  What is the specific discomfort the speaker feels towards the landlord?\n2.  What is the nature of the connection the speaker desires?\n3.  What is the landlord\u2019s responsibility regarding the harpooneer?\n4.  What is the significance of the harpooneer\u2019s arrival?\n5.  What does the landlord\u2019s response indicate about his position?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.13529919759894254,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936240.400931,
+      "question_id": "q_chunk_41_1",
+      "response_text": "1.  What is the specific discomfort the speaker feels towards the landlord?\n2.  What is the nature of the connection the speaker desires?\n3.  What is the landlord\u2019s responsibility regarding the harpooneer?\n4.  What is the significance of the harpooneer\u2019s arrival?\n5.  What does the landlord\u2019s response indicate about his position?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.13529919759894254,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936240.4009328,
+      "question_id": "q_chunk_41_2",
+      "response_text": "1.  What is the specific discomfort the speaker feels towards the landlord?\n2.  What is the nature of the connection the speaker desires?\n3.  What is the landlord\u2019s responsibility regarding the harpooneer?\n4.  What is the significance of the harpooneer\u2019s arrival?\n5.  What does the landlord\u2019s response indicate about his position?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.13529919759894254,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936240.4009342,
+      "question_id": "q_chunk_41_3",
+      "response_text": "1.  What is the specific discomfort the speaker feels towards the landlord?\n2.  What is the nature of the connection the speaker desires?\n3.  What is the landlord\u2019s responsibility regarding the harpooneer?\n4.  What is the significance of the harpooneer\u2019s arrival?\n5.  What does the landlord\u2019s response indicate about his position?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.13529919759894254,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936240.4009356,
+      "question_id": "q_chunk_41_4",
+      "response_text": "1.  What is the specific discomfort the speaker feels towards the landlord?\n2.  What is the nature of the connection the speaker desires?\n3.  What is the landlord\u2019s responsibility regarding the harpooneer?\n4.  What is the significance of the harpooneer\u2019s arrival?\n5.  What does the landlord\u2019s response indicate about his position?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11634205559967085,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936240.9833806,
+      "question_id": "q_chunk_42_0",
+      "response_text": "1. What is the harpooneer\u2019s business?\n2. What is the significance of the Sunday\u2019s sale?\n3. What is the landlord\u2019s reaction to the harpooneer\u2019s behavior?\n4. What detail about Sam\u2019s injury does the landlord emphasize?\n5. What is the atmosphere described in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11634205559967085,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936240.983385,
+      "question_id": "q_chunk_42_1",
+      "response_text": "1. What is the harpooneer\u2019s business?\n2. What is the significance of the Sunday\u2019s sale?\n3. What is the landlord\u2019s reaction to the harpooneer\u2019s behavior?\n4. What detail about Sam\u2019s injury does the landlord emphasize?\n5. What is the atmosphere described in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11634205559967085,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936240.983387,
+      "question_id": "q_chunk_42_2",
+      "response_text": "1. What is the harpooneer\u2019s business?\n2. What is the significance of the Sunday\u2019s sale?\n3. What is the landlord\u2019s reaction to the harpooneer\u2019s behavior?\n4. What detail about Sam\u2019s injury does the landlord emphasize?\n5. What is the atmosphere described in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11634205559967085,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936240.9833882,
+      "question_id": "q_chunk_42_3",
+      "response_text": "1. What is the harpooneer\u2019s business?\n2. What is the significance of the Sunday\u2019s sale?\n3. What is the landlord\u2019s reaction to the harpooneer\u2019s behavior?\n4. What detail about Sam\u2019s injury does the landlord emphasize?\n5. What is the atmosphere described in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11634205559967085,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936240.9833894,
+      "question_id": "q_chunk_42_4",
+      "response_text": "1. What is the harpooneer\u2019s business?\n2. What is the significance of the Sunday\u2019s sale?\n3. What is the landlord\u2019s reaction to the harpooneer\u2019s behavior?\n4. What detail about Sam\u2019s injury does the landlord emphasize?\n5. What is the atmosphere described in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11984149900090416,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936241.583386,
+      "question_id": "q_chunk_43_0",
+      "response_text": "1.  What did Sal offer to do to the narrator?\n2.  Where did the narrator go after Sal offered to lead the way?\n3.  What did the landlord do after Sal disappeared?\n4.  What was the strange object on the chest?\n5.  What did the narrator smell when examining the chest?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11984149900090416,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936241.5833893,
+      "question_id": "q_chunk_43_1",
+      "response_text": "1.  What did Sal offer to do to the narrator?\n2.  Where did the narrator go after Sal offered to lead the way?\n3.  What did the landlord do after Sal disappeared?\n4.  What was the strange object on the chest?\n5.  What did the narrator smell when examining the chest?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11984149900090416,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936241.583391,
+      "question_id": "q_chunk_43_2",
+      "response_text": "1.  What did Sal offer to do to the narrator?\n2.  Where did the narrator go after Sal offered to lead the way?\n3.  What did the landlord do after Sal disappeared?\n4.  What was the strange object on the chest?\n5.  What did the narrator smell when examining the chest?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11984149900090416,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936241.5833926,
+      "question_id": "q_chunk_43_3",
+      "response_text": "1.  What did Sal offer to do to the narrator?\n2.  Where did the narrator go after Sal offered to lead the way?\n3.  What did the landlord do after Sal disappeared?\n4.  What was the strange object on the chest?\n5.  What did the narrator smell when examining the chest?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11984149900090416,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936241.5833936,
+      "question_id": "q_chunk_43_4",
+      "response_text": "1.  What did Sal offer to do to the narrator?\n2.  Where did the narrator go after Sal offered to lead the way?\n3.  What did the landlord do after Sal disappeared?\n4.  What was the strange object on the chest?\n5.  What did the narrator smell when examining the chest?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11767697179748211,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936242.1725543,
+      "question_id": "q_chunk_44_0",
+      "response_text": "1. What did the narrator do with the door mat?\n2. What was the narrator\u2019s initial reaction to the door mat?\n3. What was the narrator doing when they heard the heavy footfall?\n4. What did the narrator do immediately after hearing the footfall?\n5. What was the narrator\u2019s final state of mind?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11767697179748211,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936242.1725583,
+      "question_id": "q_chunk_44_1",
+      "response_text": "1. What did the narrator do with the door mat?\n2. What was the narrator\u2019s initial reaction to the door mat?\n3. What was the narrator doing when they heard the heavy footfall?\n4. What did the narrator do immediately after hearing the footfall?\n5. What was the narrator\u2019s final state of mind?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11767697179748211,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936242.1725605,
+      "question_id": "q_chunk_44_2",
+      "response_text": "1. What did the narrator do with the door mat?\n2. What was the narrator\u2019s initial reaction to the door mat?\n3. What was the narrator doing when they heard the heavy footfall?\n4. What did the narrator do immediately after hearing the footfall?\n5. What was the narrator\u2019s final state of mind?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11767697179748211,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936242.1725616,
+      "question_id": "q_chunk_44_3",
+      "response_text": "1. What did the narrator do with the door mat?\n2. What was the narrator\u2019s initial reaction to the door mat?\n3. What was the narrator doing when they heard the heavy footfall?\n4. What did the narrator do immediately after hearing the footfall?\n5. What was the narrator\u2019s final state of mind?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.11767697179748211,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936242.1725628,
+      "question_id": "q_chunk_44_4",
+      "response_text": "1. What did the narrator do with the door mat?\n2. What was the narrator\u2019s initial reaction to the door mat?\n3. What was the narrator doing when they heard the heavy footfall?\n4. What did the narrator do immediately after hearing the footfall?\n5. What was the narrator\u2019s final state of mind?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.132319407799514,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936242.8349822,
+      "question_id": "q_chunk_45_0",
+      "response_text": "1. What happened to the Lord\u2019s eagerness to see the stranger?\n2. What did the stranger do with the bag\u2019s mouth?\n3. What does the description of the stranger\u2019s face suggest?\n4. What story did the Lord recall about the man?\n5. What is the significance of the stranger\u2019s complex face?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.132319407799514,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936242.8349898,
+      "question_id": "q_chunk_45_1",
+      "response_text": "1. What happened to the Lord\u2019s eagerness to see the stranger?\n2. What did the stranger do with the bag\u2019s mouth?\n3. What does the description of the stranger\u2019s face suggest?\n4. What story did the Lord recall about the man?\n5. What is the significance of the stranger\u2019s complex face?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.132319407799514,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936242.8349922,
+      "question_id": "q_chunk_45_2",
+      "response_text": "1. What happened to the Lord\u2019s eagerness to see the stranger?\n2. What did the stranger do with the bag\u2019s mouth?\n3. What does the description of the stranger\u2019s face suggest?\n4. What story did the Lord recall about the man?\n5. What is the significance of the stranger\u2019s complex face?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.132319407799514,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936242.8349936,
+      "question_id": "q_chunk_45_3",
+      "response_text": "1. What happened to the Lord\u2019s eagerness to see the stranger?\n2. What did the stranger do with the bag\u2019s mouth?\n3. What does the description of the stranger\u2019s face suggest?\n4. What story did the Lord recall about the man?\n5. What is the significance of the stranger\u2019s complex face?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.132319407799514,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936242.834995,
+      "question_id": "q_chunk_45_4",
+      "response_text": "1. What happened to the Lord\u2019s eagerness to see the stranger?\n2. What did the stranger do with the bag\u2019s mouth?\n3. What does the description of the stranger\u2019s face suggest?\n4. What story did the Lord recall about the man?\n5. What is the significance of the stranger\u2019s complex face?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10895669519959483,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936243.3805587,
+      "question_id": "q_chunk_46_0",
+      "response_text": "1. What is the stranger\u2019s complexion?\n2. What did the stranger pull out of the bag?\n3. What did the stranger do with the New Zealand head?\n4. How did the narrator feel about the stranger?\n5. What did the narrator fear the most?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10895669519959483,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936243.3805647,
+      "question_id": "q_chunk_46_1",
+      "response_text": "1. What is the stranger\u2019s complexion?\n2. What did the stranger pull out of the bag?\n3. What did the stranger do with the New Zealand head?\n4. How did the narrator feel about the stranger?\n5. What did the narrator fear the most?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10895669519959483,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936243.3805668,
+      "question_id": "q_chunk_46_2",
+      "response_text": "1. What is the stranger\u2019s complexion?\n2. What did the stranger pull out of the bag?\n3. What did the stranger do with the New Zealand head?\n4. How did the narrator feel about the stranger?\n5. What did the narrator fear the most?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10895669519959483,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936243.3805683,
+      "question_id": "q_chunk_46_3",
+      "response_text": "1. What is the stranger\u2019s complexion?\n2. What did the stranger pull out of the bag?\n3. What did the stranger do with the New Zealand head?\n4. How did the narrator feel about the stranger?\n5. What did the narrator fear the most?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.10895669519959483,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763936243.3805697,
+      "question_id": "q_chunk_46_4",
+      "response_text": "1. What is the stranger\u2019s complexion?\n2. What did the stranger pull out of the bag?\n3. What did the stranger do with the New Zealand head?\n4. How did the narrator feel about the stranger?\n5. What did the narrator fear the most?"
+    }
+  ]
+}

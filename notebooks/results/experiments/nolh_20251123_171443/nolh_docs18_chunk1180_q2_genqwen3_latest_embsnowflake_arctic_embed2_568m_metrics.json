@@ -1,0 +1,727 @@
+{
+  "export_timestamp": "2025-11-23T20:21:08.941897",
+  "export_timestamp_readable": "2025-11-23 20:21:08",
+  "num_metrics": 54,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.8212477439956274,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763929023.711817,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.16080884799885098,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763929023.8728962,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.12676639699202497,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763929023.9999537,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.13642044800508302,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763929024.1366673,
+      "chunk_id": "chunk_3",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.10936392100120429,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763929024.2463124,
+      "chunk_id": "chunk_4",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.20077809899521526,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763929024.4473765,
+      "chunk_id": "chunk_5",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.13489168700471055,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763929024.5825512,
+      "chunk_id": "chunk_6",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.15906480701232795,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763929024.7419174,
+      "chunk_id": "chunk_7",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1276085779973073,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763929024.8698022,
+      "chunk_id": "chunk_8",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.11334142999839969,
+      "token_counts": {
+        "input_tokens": 460,
+        "actual_input_tokens": 460,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763929024.9834185,
+      "chunk_id": "chunk_9",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.13203690500813536,
+      "token_counts": {
+        "input_tokens": 451,
+        "actual_input_tokens": 451,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763929025.1157289,
+      "chunk_id": "chunk_10",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.16258447399013676,
+      "token_counts": {
+        "input_tokens": 465,
+        "actual_input_tokens": 465,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763929025.2786043,
+      "chunk_id": "chunk_11",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.13400021099369042,
+      "token_counts": {
+        "input_tokens": 508,
+        "actual_input_tokens": 508,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763929025.4129095,
+      "chunk_id": "chunk_12",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.15570955698785838,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763929025.5689087,
+      "chunk_id": "chunk_13",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1579995060019428,
+      "token_counts": {
+        "input_tokens": 497,
+        "actual_input_tokens": 497,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763929025.7271967,
+      "chunk_id": "chunk_14",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.17175961000612006,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763929025.8992548,
+      "chunk_id": "chunk_15",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.15822371499962173,
+      "token_counts": {
+        "input_tokens": 508,
+        "actual_input_tokens": 508,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763929026.0577545,
+      "chunk_id": "chunk_16",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1305837769905338,
+      "token_counts": {
+        "input_tokens": 441,
+        "actual_input_tokens": 441,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763929026.1886098,
+      "chunk_id": "chunk_17",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.314653790497687,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929038.8186805,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What are the terms of the Project Gutenberg License mentioned in the text?  \nWhat is the release date and most recent update date of the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.314653790497687,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929038.8186848,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What are the terms of the Project Gutenberg License mentioned in the text?  \nWhat is the release date and most recent update date of the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.954519250997691,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929054.7284398,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What do the chapters from 30 to 79 reveal about the narrative structure and thematic development in *Moby-Dick*?  \nHow does the author use the chapters titled \"The Pipe,\" \"Queen Mab,\" and \"Cetology\" to explore the themes of obsession and the nature of the whale?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.954519250997691,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929054.728444,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What do the chapters from 30 to 79 reveal about the narrative structure and thematic development in *Moby-Dick*?  \nHow does the author use the chapters titled \"The Pipe,\" \"Queen Mab,\" and \"Cetology\" to explore the themes of obsession and the nature of the whale?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.378360211499967,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929075.48591,
+      "question_id": "q_chunk_2_0",
+      "response_text": "Which chapter discusses the philosophical question of whether the whale's magnitude diminishes?  \nWhat chapter focuses on the encounter between the Pequod and the ship The Virgin?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.378360211499967,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929075.4859145,
+      "question_id": "q_chunk_2_1",
+      "response_text": "Which chapter discusses the philosophical question of whether the whale's magnitude diminishes?  \nWhat chapter focuses on the encounter between the Pequod and the ship The Virgin?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.985756837500958,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929085.4581718,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What event occurs when the Pequod meets the Rachel?  \nWhat languages are cited in the etymology of the word \"whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.985756837500958,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929085.4581766,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What event occurs when the Pequod meets the Rachel?  \nWhat languages are cited in the etymology of the word \"whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.88959868249367,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929095.238112,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What are the linguistic origins of the word \"whale\" according to the dictionaries cited in the text?  \nWhat is the author's caution regarding the reliability of the extracted statements about whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.88959868249367,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929095.2381155,
+      "question_id": "q_chunk_4_1",
+      "response_text": "What are the linguistic origins of the word \"whale\" according to the dictionaries cited in the text?  \nWhat is the author's caution regarding the reliability of the extracted statements about whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.910055902997556,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929105.058957,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the significance of the extracts provided in the text?  \nWhat does the metaphor of \"splintered hearts\" and \"unsplinterable glasses\" symbolize in the context of the passage?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.910055902997556,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929105.0589614,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the significance of the extracts provided in the text?  \nWhat does the metaphor of \"splintered hearts\" and \"unsplinterable glasses\" symbolize in the context of the passage?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.102595738499076,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929119.2650304,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What is the symbolic connection between Leviathan and the whale's destructive behavior as described in the text?  \nHow does the description of the sea-gudgeon's safety within the whale's mouth contrast with the fate of other sea creatures?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.102595738499076,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929119.2650366,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What is the symbolic connection between Leviathan and the whale's destructive behavior as described in the text?  \nHow does the description of the sea-gudgeon's safety within the whale's mouth contrast with the fate of other sea creatures?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.601242764001654,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929128.4684112,
+      "question_id": "q_chunk_7_0",
+      "response_text": "What specific details about the whale's size and characteristics are mentioned across the sources?  \nWhich authors reference Leviathan and how do they associate the whale with this biblical creature?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.601242764001654,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929128.468418,
+      "question_id": "q_chunk_7_1",
+      "response_text": "What specific details about the whale's size and characteristics are mentioned across the sources?  \nWhich authors reference Leviathan and how do they associate the whale with this biblical creature?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.632929725499707,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929143.734991,
+      "question_id": "q_chunk_8_0",
+      "response_text": "What is the symbolic significance of Leviathan in the literary references provided?  \nHow do the historical accounts describe the behavior and physical characteristics of whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.632929725499707,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929143.734996,
+      "question_id": "q_chunk_8_1",
+      "response_text": "What is the symbolic significance of Leviathan in the literary references provided?  \nHow do the historical accounts describe the behavior and physical characteristics of whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.547845035500359,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929158.8313756,
+      "question_id": "q_chunk_9_0",
+      "response_text": "What locations are mentioned in the text where whales were encountered?  \nWhat methods or rewards were associated with whale hunting in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.547845035500359,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929158.8313794,
+      "question_id": "q_chunk_9_1",
+      "response_text": "What locations are mentioned in the text where whales were encountered?  \nWhat methods or rewards were associated with whale hunting in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.6047732410006574,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929166.0416615,
+      "question_id": "q_chunk_10_0",
+      "response_text": "What historical accounts or observations are mentioned regarding the size and behavior of whales in the text?  \nWhat cultural or literary references to whales are highlighted in the provided excerpts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.6047732410006574,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929166.041665,
+      "question_id": "q_chunk_10_1",
+      "response_text": "What historical accounts or observations are mentioned regarding the size and behavior of whales in the text?  \nWhat cultural or literary references to whales are highlighted in the provided excerpts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.951814330001071,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929179.9460247,
+      "question_id": "q_chunk_11_0",
+      "response_text": "What different perspectives on whales and their interactions with humans are presented in the texts?  \nWhat legal status did Blackstone assign to whales and sturgeon regarding royal fish?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.951814330001071,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929179.9460278,
+      "question_id": "q_chunk_11_1",
+      "response_text": "What different perspectives on whales and their interactions with humans are presented in the texts?  \nWhat legal status did Blackstone assign to whales and sturgeon regarding royal fish?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.618344360002084,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929203.1837404,
+      "question_id": "q_chunk_12_0",
+      "response_text": "What comparison does Paley make between the whale's aorta and the water-works at London Bridge?  \nAccording to Baron Cuvier, what anatomical feature distinguishes the whale as a mammiferous animal?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.618344360002084,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929203.1837468,
+      "question_id": "q_chunk_12_1",
+      "response_text": "What comparison does Paley make between the whale's aorta and the water-works at London Bridge?  \nAccording to Baron Cuvier, what anatomical feature distinguishes the whale as a mammiferous animal?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.287659698500647,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929213.7598348,
+      "question_id": "q_chunk_13_0",
+      "response_text": "What do the various texts reveal about the cultural and literary significance of whales in different historical and geographical contexts?  \nHow do the descriptions of whales in Montgomery\u2019s and Cooper\u2019s works reflect differing perspectives on their biology and utility?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.287659698500647,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929213.7598386,
+      "question_id": "q_chunk_13_1",
+      "response_text": "What do the various texts reveal about the cultural and literary significance of whales in different historical and geographical contexts?  \nHow do the descriptions of whales in Montgomery\u2019s and Cooper\u2019s works reflect differing perspectives on their biology and utility?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.109631525003351,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929229.9799633,
+      "question_id": "q_chunk_14_0",
+      "response_text": "Which authors and works are cited in the text regarding the Sperm Whale?  \nWhat specific physical behaviors of the Sperm Whale are described in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.109631525003351,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929229.9799676,
+      "question_id": "q_chunk_14_1",
+      "response_text": "Which authors and works are cited in the text regarding the Sperm Whale?  \nWhat specific physical behaviors of the Sperm Whale are described in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.159912995499326,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929244.3006968,
+      "question_id": "q_chunk_15_0",
+      "response_text": "Why was the study of the Sperm Whale's habits so neglected despite its commercial importance?  \nWhat specific characteristics of the Sperm Whale made it considered the most dangerous whale species?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.159912995499326,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929244.3007026,
+      "question_id": "q_chunk_15_1",
+      "response_text": "Why was the study of the Sperm Whale's habits so neglected despite its commercial importance?  \nWhat specific characteristics of the Sperm Whale made it considered the most dangerous whale species?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.10660077999637,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929254.5148346,
+      "question_id": "q_chunk_16_0",
+      "response_text": "Which sources describe the events related to the Whale-ship Globe and its mutiny?  \nHow does the text connect whaling activities to the discovery of the North-West Passage?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.10660077999637,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929254.5148408,
+      "question_id": "q_chunk_16_1",
+      "response_text": "Which sources describe the events related to the Whale-ship Globe and its mutiny?  \nHow does the text connect whaling activities to the discovery of the North-West Passage?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.209816677495837,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929268.9353561,
+      "question_id": "q_chunk_17_0",
+      "response_text": "What is the connection between the whalemen's activities and the discovery of the North-West Passage?  \nWhat is the historical or cultural significance of the large curved bones found in the earth near London?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.209816677495837,
+      "token_counts": {
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763929268.935363,
+      "question_id": "q_chunk_17_1",
+      "response_text": "What is the connection between the whalemen's activities and the discovery of the North-West Passage?  \nWhat is the historical or cultural significance of the large curved bones found in the earth near London?"
+    }
+  ]
+}
