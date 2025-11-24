@@ -1,0 +1,167 @@
+{
+  "export_timestamp": "2025-11-24T03:27:04.813787",
+  "export_timestamp_readable": "2025-11-24 03:27:04",
+  "num_metrics": 12,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.6836672779900255,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954818.943183,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.863886381004704,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954820.1224575,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 6.10844936799549,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954821.368664,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.525931480995496,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954822.4694767,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8437741015004576,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 16,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954824.1588805,
+      "question_id": "q_chunk_1_0",
+      "response_text": "1.  What is Ahab\u2019s designation, and what does he represent?\n2.  What is the significance of \u201cStubb\u201d in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8437741015004576,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 16,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954824.1588833,
+      "question_id": "q_chunk_1_1",
+      "response_text": "1.  What is Ahab\u2019s designation, and what does he represent?\n2.  What is the significance of \u201cStubb\u201d in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.9483205319993431,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954824.3677092,
+      "question_id": "q_chunk_0_0",
+      "response_text": "1.  What is the release date of the ebook?\n2.  What is the text for?\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.9483205319993431,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954824.3677144,
+      "question_id": "q_chunk_0_1",
+      "response_text": "1.  What is the release date of the ebook?\n2.  What is the text for?\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.076339866995113,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 17,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954824.624682,
+      "question_id": "q_chunk_2_0",
+      "response_text": "1.  What is the significance of the \u201cRight Whale\u2019s Head\u201d in the text?\n2.  What is the core conflict driving the narrative of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.076339866995113,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 17,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954824.6246884,
+      "question_id": "q_chunk_2_1",
+      "response_text": "1.  What is the significance of the \u201cRight Whale\u2019s Head\u201d in the text?\n2.  What is the core conflict driving the narrative of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.32552890149963787,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 11,
+        "total_tokens": 533,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954824.8108628,
+      "question_id": "q_chunk_3_0",
+      "response_text": "1. What is the text primarily about?\n2. What does the Late Usher describe about the original text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.32552890149963787,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 11,
+        "total_tokens": 533,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954824.8108683,
+      "question_id": "q_chunk_3_1",
+      "response_text": "1. What is the text primarily about?\n2. What does the Late Usher describe about the original text?"
+    }
+  ]
+}

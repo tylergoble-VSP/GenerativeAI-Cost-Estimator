@@ -1,0 +1,551 @@
+{
+  "export_timestamp": "2025-11-24T03:17:12.413850",
+  "export_timestamp_readable": "2025-11-24 03:17:12",
+  "num_metrics": 40,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.3510836710047442,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954221.0427237,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.7672628250002163,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954221.4571106,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.160190602997318,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954221.8510077,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0673267859965563,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954222.1105452,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.9939247089932906,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954222.4513953,
+      "chunk_id": "chunk_4",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.7963371999940136,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954222.6477191,
+      "chunk_id": "chunk_5",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.707327381009236,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954222.8182101,
+      "chunk_id": "chunk_6",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.5671110010007396,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954223.0189905,
+      "chunk_id": "chunk_7",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6794703224986733,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954225.7386303,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the publication date of this ebook?\nWhat are the credited authors of this Project Gutenberg eBook?\nUnder what conditions can this ebook be copied and distributed?\nWhat is the title of the book?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6794703224986733,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954225.738633,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the publication date of this ebook?\nWhat are the credited authors of this Project Gutenberg eBook?\nUnder what conditions can this ebook be copied and distributed?\nWhat is the title of the book?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6794703224986733,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954225.7386336,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the publication date of this ebook?\nWhat are the credited authors of this Project Gutenberg eBook?\nUnder what conditions can this ebook be copied and distributed?\nWhat is the title of the book?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6794703224986733,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954225.7386346,
+      "question_id": "q_chunk_0_3",
+      "response_text": "What is the publication date of this ebook?\nWhat are the credited authors of this Project Gutenberg eBook?\nUnder what conditions can this ebook be copied and distributed?\nWhat is the title of the book?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.89195836475119,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954226.5897343,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of \"Ahab; to Him, Stubb\"?\nWhat chapters discuss whale imagery and depictions?\nWhich chapters detail specific incidents involving whale killing?\nWhat items or locations are mentioned in relation to whale hunting?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.89195836475119,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954226.589741,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of \"Ahab; to Him, Stubb\"?\nWhat chapters discuss whale imagery and depictions?\nWhich chapters detail specific incidents involving whale killing?\nWhat items or locations are mentioned in relation to whale hunting?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.89195836475119,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954226.5897431,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What is the significance of \"Ahab; to Him, Stubb\"?\nWhat chapters discuss whale imagery and depictions?\nWhich chapters detail specific incidents involving whale killing?\nWhat items or locations are mentioned in relation to whale hunting?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.89195836475119,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954226.589745,
+      "question_id": "q_chunk_1_3",
+      "response_text": "What is the significance of \"Ahab; to Him, Stubb\"?\nWhat chapters discuss whale imagery and depictions?\nWhich chapters detail specific incidents involving whale killing?\nWhat items or locations are mentioned in relation to whale hunting?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.126912090498081,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 12,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954227.5302515,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the significance of \u201cThe Right Whale\u2019s Head\u201d?\nWhat is the \u201cBattering-Ram\u201d referred to in Chapter 76?\nWhich chapters discuss measurement of the whale\u2019s skeleton?\nWhat events occur during the \u201cFirst Night Watch\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.126912090498081,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 12,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954227.5302563,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the significance of \u201cThe Right Whale\u2019s Head\u201d?\nWhat is the \u201cBattering-Ram\u201d referred to in Chapter 76?\nWhich chapters discuss measurement of the whale\u2019s skeleton?\nWhat events occur during the \u201cFirst Night Watch\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.126912090498081,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 12,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954227.5302572,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What is the significance of \u201cThe Right Whale\u2019s Head\u201d?\nWhat is the \u201cBattering-Ram\u201d referred to in Chapter 76?\nWhich chapters discuss measurement of the whale\u2019s skeleton?\nWhat events occur during the \u201cFirst Night Watch\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.126912090498081,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 12,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954227.5302584,
+      "question_id": "q_chunk_2_3",
+      "response_text": "What is the significance of \u201cThe Right Whale\u2019s Head\u201d?\nWhat is the \u201cBattering-Ram\u201d referred to in Chapter 76?\nWhich chapters discuss measurement of the whale\u2019s skeleton?\nWhat events occur during the \u201cFirst Night Watch\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6641659315027937,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 12,
+        "total_tokens": 534,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954228.3961625,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the title of the first chapter?\nWhat does the narrator describe the Usher as looking like?\nAccording to the text, from which languages is the word \"whale\" derived?\nWhat is the Usher\u2019s preoccupation with his possessions?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6641659315027937,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 12,
+        "total_tokens": 534,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954228.3961654,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the title of the first chapter?\nWhat does the narrator describe the Usher as looking like?\nAccording to the text, from which languages is the word \"whale\" derived?\nWhat is the Usher\u2019s preoccupation with his possessions?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6641659315027937,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 12,
+        "total_tokens": 534,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954228.3961663,
+      "question_id": "q_chunk_3_2",
+      "response_text": "What is the title of the first chapter?\nWhat does the narrator describe the Usher as looking like?\nAccording to the text, from which languages is the word \"whale\" derived?\nWhat is the Usher\u2019s preoccupation with his possessions?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6641659315027937,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 12,
+        "total_tokens": 534,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954228.3961673,
+      "question_id": "q_chunk_3_3",
+      "response_text": "What is the title of the first chapter?\nWhat does the narrator describe the Usher as looking like?\nAccording to the text, from which languages is the word \"whale\" derived?\nWhat is the Usher\u2019s preoccupation with his possessions?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6908833480010799,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 14,
+        "total_tokens": 513,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954229.3544395,
+      "question_id": "q_chunk_4_0",
+      "response_text": "From what does the animal \"whale\" derive its name?\nWhat languages contributed to the etymology of the word \"whale\"?\nAccording to the text, what should one not consider when examining these whale statements?\nWhat is the primary purpose of the extracts cited in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6908833480010799,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 14,
+        "total_tokens": 513,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954229.3544438,
+      "question_id": "q_chunk_4_1",
+      "response_text": "From what does the animal \"whale\" derive its name?\nWhat languages contributed to the etymology of the word \"whale\"?\nAccording to the text, what should one not consider when examining these whale statements?\nWhat is the primary purpose of the extracts cited in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6908833480010799,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 14,
+        "total_tokens": 513,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954229.354446,
+      "question_id": "q_chunk_4_2",
+      "response_text": "From what does the animal \"whale\" derive its name?\nWhat languages contributed to the etymology of the word \"whale\"?\nAccording to the text, what should one not consider when examining these whale statements?\nWhat is the primary purpose of the extracts cited in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6908833480010799,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 14,
+        "total_tokens": 513,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954229.3544536,
+      "question_id": "q_chunk_4_3",
+      "response_text": "From what does the animal \"whale\" derive its name?\nWhat languages contributed to the etymology of the word \"whale\"?\nAccording to the text, what should one not consider when examining these whale statements?\nWhat is the primary purpose of the extracts cited in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.742431501748797,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 14,
+        "total_tokens": 530,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954230.5008285,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the primary purpose of the extracts presented?\nWhat does the narrator intend when addressing the \u201cSub-Subs\u201d?\nAccording to the text, what is the ultimate fate of those who strive for worldly approval?\nWhat imagery is used to describe the final judgment of Leviathan?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.742431501748797,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 14,
+        "total_tokens": 530,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954230.5008307,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the primary purpose of the extracts presented?\nWhat does the narrator intend when addressing the \u201cSub-Subs\u201d?\nAccording to the text, what is the ultimate fate of those who strive for worldly approval?\nWhat imagery is used to describe the final judgment of Leviathan?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.742431501748797,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 14,
+        "total_tokens": 530,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954230.5008316,
+      "question_id": "q_chunk_5_2",
+      "response_text": "What is the primary purpose of the extracts presented?\nWhat does the narrator intend when addressing the \u201cSub-Subs\u201d?\nAccording to the text, what is the ultimate fate of those who strive for worldly approval?\nWhat imagery is used to describe the final judgment of Leviathan?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.742431501748797,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 14,
+        "total_tokens": 530,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954230.5008323,
+      "question_id": "q_chunk_5_3",
+      "response_text": "What is the primary purpose of the extracts presented?\nWhat does the narrator intend when addressing the \u201cSub-Subs\u201d?\nAccording to the text, what is the ultimate fate of those who strive for worldly approval?\nWhat imagery is used to describe the final judgment of Leviathan?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7894695292488905,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 14,
+        "total_tokens": 530,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954231.5551312,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What does the text describe as the Lord\u2019s action against Leviathan?\nWhat does the \u201cdreadful gulf\u201d of the whale\u2019s mouth do to other objects?\nAccording to the narrative, what was one whale\u2019s approximate size?\nWhat was the primary purpose of catching whales in this account?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7894695292488905,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 14,
+        "total_tokens": 530,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954231.5551374,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What does the text describe as the Lord\u2019s action against Leviathan?\nWhat does the \u201cdreadful gulf\u201d of the whale\u2019s mouth do to other objects?\nAccording to the narrative, what was one whale\u2019s approximate size?\nWhat was the primary purpose of catching whales in this account?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7894695292488905,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 14,
+        "total_tokens": 530,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954231.5551393,
+      "question_id": "q_chunk_6_2",
+      "response_text": "What does the text describe as the Lord\u2019s action against Leviathan?\nWhat does the \u201cdreadful gulf\u201d of the whale\u2019s mouth do to other objects?\nAccording to the narrative, what was one whale\u2019s approximate size?\nWhat was the primary purpose of catching whales in this account?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7894695292488905,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 14,
+        "total_tokens": 530,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954231.5551405,
+      "question_id": "q_chunk_6_3",
+      "response_text": "What does the text describe as the Lord\u2019s action against Leviathan?\nWhat does the \u201cdreadful gulf\u201d of the whale\u2019s mouth do to other objects?\nAccording to the narrative, what was one whale\u2019s approximate size?\nWhat was the primary purpose of catching whales in this account?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7630426249997981,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 11,
+        "total_tokens": 543,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954232.4076896,
+      "question_id": "q_chunk_7_0",
+      "response_text": "What happens to other creatures that enter the whale\u2019s mouth?\nHow is the whale described in the text?\nWhat is the significance of \"spermacetti\"?\nWhat is the effect of the whale\u2019s movement on the ocean?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7630426249997981,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 11,
+        "total_tokens": 543,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954232.4076962,
+      "question_id": "q_chunk_7_1",
+      "response_text": "What happens to other creatures that enter the whale\u2019s mouth?\nHow is the whale described in the text?\nWhat is the significance of \"spermacetti\"?\nWhat is the effect of the whale\u2019s movement on the ocean?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7630426249997981,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 11,
+        "total_tokens": 543,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954232.4076982,
+      "question_id": "q_chunk_7_2",
+      "response_text": "What happens to other creatures that enter the whale\u2019s mouth?\nHow is the whale described in the text?\nWhat is the significance of \"spermacetti\"?\nWhat is the effect of the whale\u2019s movement on the ocean?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7630426249997981,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 11,
+        "total_tokens": 543,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954232.4076998,
+      "question_id": "q_chunk_7_3",
+      "response_text": "What happens to other creatures that enter the whale\u2019s mouth?\nHow is the whale described in the text?\nWhat is the significance of \"spermacetti\"?\nWhat is the effect of the whale\u2019s movement on the ocean?"
+    }
+  ]
+}

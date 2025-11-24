@@ -1,0 +1,207 @@
+{
+  "export_timestamp": "2025-11-24T02:45:15.558059",
+  "export_timestamp_readable": "2025-11-24 02:45:15",
+  "num_metrics": 15,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.028760653003701,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952255.8102603,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.084432563002338,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952255.8690877,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.144001496999408,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952255.9270947,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.17391764599597082,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952255.9845054,
+      "chunk_id": "chunk_3",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1562206660019001,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952256.0258272,
+      "chunk_id": "chunk_4",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.74910139250278,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 18,
+        "total_tokens": 561,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952269.5269299,
+      "question_id": "q_chunk_0_0",
+      "response_text": "Who is the author of *Moby Dick; Or, The Whale*?  \nUnder which license is the eBook *Moby Dick; Or, The Whale* made available?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.74910139250278,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 18,
+        "total_tokens": 561,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952269.5269363,
+      "question_id": "q_chunk_0_1",
+      "response_text": "Who is the author of *Moby Dick; Or, The Whale*?  \nUnder which license is the eBook *Moby Dick; Or, The Whale* made available?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 15.57926763699652,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 19,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952287.1883235,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the significance of the chapter titled \"The Battering-Ram\" in the narrative?  \nHow does the chapter \"The Fossil Whale\" contribute to the themes of the novel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 15.57926763699652,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 19,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952287.1883295,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the significance of the chapter titled \"The Battering-Ram\" in the narrative?  \nHow does the chapter \"The Fossil Whale\" contribute to the themes of the novel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 19.693733419502678,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 19,
+        "total_tokens": 562,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952295.4166532,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of the chapter titled \"The Whiteness of the Whale\" in the narrative?  \nHow does the structure of the chapters contribute to the overall themes of the novel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 19.693733419502678,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 19,
+        "total_tokens": 562,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952295.4166572,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of the chapter titled \"The Whiteness of the Whale\" in the narrative?  \nHow does the structure of the chapters contribute to the overall themes of the novel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 18.760449458495714,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 22,
+        "total_tokens": 544,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952307.0489364,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the significance of the chapter titles in the text, and how do they contribute to the narrative?  \nHow does the etymology of the word \"whale\" as discussed in the text reflect its linguistic origins?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 18.760449458495714,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 22,
+        "total_tokens": 544,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952307.048943,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the significance of the chapter titles in the text, and how do they contribute to the narrative?  \nHow does the etymology of the word \"whale\" as discussed in the text reflect its linguistic origins?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 14.18194686100469,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 22,
+        "total_tokens": 521,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952315.55337,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What are the etymological origins of the word \"whale\" according to the dictionaries mentioned?  \nWhat is the significance of the Sub-Sub-Librarian's collection of extracts regarding the term \"whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 14.18194686100469,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 22,
+        "total_tokens": 521,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952315.5533757,
+      "question_id": "q_chunk_4_1",
+      "response_text": "What are the etymological origins of the word \"whale\" according to the dictionaries mentioned?  \nWhat is the significance of the Sub-Sub-Librarian's collection of extracts regarding the term \"whale\"?"
+    }
+  ]
+}

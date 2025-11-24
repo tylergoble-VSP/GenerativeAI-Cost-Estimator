@@ -1,0 +1,33 @@
+{
+  "export_timestamp": "2025-11-24T03:52:53.723797",
+  "export_timestamp_readable": "2025-11-24 03:52:53",
+  "num_metrics": 2,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.8737872600031551,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956369.938352,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.7810733980004443,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956373.7211456,
+      "question_id": "q_chunk_0_0",
+      "response_text": "Which chapter in Moby Dick is titled \u201cCetology\u201d?"
+    }
+  ]
+}

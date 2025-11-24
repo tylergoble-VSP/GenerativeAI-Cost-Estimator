@@ -1,0 +1,137 @@
+{
+  "export_timestamp": "2025-11-24T02:38:22.925110",
+  "export_timestamp_readable": "2025-11-24 02:38:22",
+  "num_metrics": 10,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.9942152120056562,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951898.1360652,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.0531668499897933,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951898.1967332,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.1126625860051718,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951898.2553666,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.17826216800312977,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951898.3146548,
+      "chunk_id": "chunk_3",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1580603769980371,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951898.3551342,
+      "chunk_id": "chunk_4",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1425152689917013,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951899.5009108,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of \"Moby Dick\" within the chapter list?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.9504867039941018,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 9,
+        "total_tokens": 548,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951900.3095212,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the subject of Chapter 126?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.749578222006676,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951901.1069,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the Project Gutenberg License\u2019s intended purpose?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.6173447750043124,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 18,
+        "total_tokens": 540,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951902.1193783,
+      "question_id": "q_chunk_3_0",
+      "response_text": "According to the etymology section, what does \"hvalt\" mean in Danish?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.6094978830078617,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 14,
+        "total_tokens": 513,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951902.9201612,
+      "question_id": "q_chunk_4_0",
+      "response_text": "According to the text, why is the animal named \"whale\"?"
+    }
+  ]
+}

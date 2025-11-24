@@ -1,0 +1,493 @@
+{
+  "export_timestamp": "2025-11-24T02:47:26.189304",
+  "export_timestamp_readable": "2025-11-24 02:47:26",
+  "num_metrics": 36,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.255726497998694,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952371.0690918,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.3171063240006333,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952371.131289,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.3821363229944836,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952371.1972249,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1830054729944095,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952371.252608,
+      "chunk_id": "chunk_3",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.16252184599579778,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952371.2943046,
+      "chunk_id": "chunk_4",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.18646630299917888,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952371.3840175,
+      "chunk_id": "chunk_5",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.22121697399416007,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952371.4742942,
+      "chunk_id": "chunk_6",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.24280226900009438,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952371.5374742,
+      "chunk_id": "chunk_7",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.21176804300921503,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952371.596143,
+      "chunk_id": "chunk_8",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.04967360199953,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 21,
+        "total_tokens": 564,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952401.7467635,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date and most recent update date listed for the Project Gutenberg eBook of *Moby\u2011Dick*?  \nUnder what license may readers copy, give away, or re\u2011use this eBook according to the notice?  \nWhich chapter titles appear consecutively as chapters 26 and 27 in the contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.04967360199953,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 21,
+        "total_tokens": 564,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952401.746767,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the release date and most recent update date listed for the Project Gutenberg eBook of *Moby\u2011Dick*?  \nUnder what license may readers copy, give away, or re\u2011use this eBook according to the notice?  \nWhich chapter titles appear consecutively as chapters 26 and 27 in the contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.04967360199953,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 21,
+        "total_tokens": 564,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952401.7467682,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the release date and most recent update date listed for the Project Gutenberg eBook of *Moby\u2011Dick*?  \nUnder what license may readers copy, give away, or re\u2011use this eBook according to the notice?  \nWhich chapter titles appear consecutively as chapters 26 and 27 in the contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.57403319599689,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 12,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952406.3215349,
+      "question_id": "q_chunk_2_0",
+      "response_text": "Which chapter is titled \u201cThe Right Whale\u2019s Head\u2014Contrasted View\u201d?  \nWhat is the title of Chapter 110?  \nWhich chapters include Ahab\u2019s name in their titles?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.57403319599689,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 12,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952406.3215399,
+      "question_id": "q_chunk_2_1",
+      "response_text": "Which chapter is titled \u201cThe Right Whale\u2019s Head\u2014Contrasted View\u201d?  \nWhat is the title of Chapter 110?  \nWhich chapters include Ahab\u2019s name in their titles?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.57403319599689,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 12,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952406.3215415,
+      "question_id": "q_chunk_2_2",
+      "response_text": "Which chapter is titled \u201cThe Right Whale\u2019s Head\u2014Contrasted View\u201d?  \nWhat is the title of Chapter 110?  \nWhich chapters include Ahab\u2019s name in their titles?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 14.327155585667546,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 25,
+        "total_tokens": 568,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952414.5801015,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of the repeated mention of Stubb in multiple chapter titles?\n\nHow do the chapter titles transition from thematic descriptions (e.g., \"The Whiteness of the Whale\") to more specific events (e.g., \"Stubb Kills a Whale\")?\n\nWhich chapter title appears to be incomplete or missing content, and what might that indicate about the source text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 14.327155585667546,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 25,
+        "total_tokens": 568,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952414.5801053,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of the repeated mention of Stubb in multiple chapter titles?\n\nHow do the chapter titles transition from thematic descriptions (e.g., \"The Whiteness of the Whale\") to more specific events (e.g., \"Stubb Kills a Whale\")?\n\nWhich chapter title appears to be incomplete or missing content, and what might that indicate about the source text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 14.327155585667546,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 25,
+        "total_tokens": 568,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952414.5801063,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What is the significance of the repeated mention of Stubb in multiple chapter titles?\n\nHow do the chapter titles transition from thematic descriptions (e.g., \"The Whiteness of the Whale\") to more specific events (e.g., \"Stubb Kills a Whale\")?\n\nWhich chapter title appears to be incomplete or missing content, and what might that indicate about the source text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.294175079664758,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 17,
+        "total_tokens": 539,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952420.630209,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the title of Chapter 128 and which ship does it involve?  \nAccording to the etymology section, from which languages is the word \u201cwhale\u201d derived?  \nWhich organizations contributed to the transcription and preservation of the presented e\u2011text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.294175079664758,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 17,
+        "total_tokens": 539,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952420.6302116,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the title of Chapter 128 and which ship does it involve?  \nAccording to the etymology section, from which languages is the word \u201cwhale\u201d derived?  \nWhich organizations contributed to the transcription and preservation of the presented e\u2011text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.294175079664758,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 17,
+        "total_tokens": 539,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952420.6302125,
+      "question_id": "q_chunk_3_2",
+      "response_text": "What is the title of Chapter 128 and which ship does it involve?  \nAccording to the etymology section, from which languages is the word \u201cwhale\u201d derived?  \nWhich organizations contributed to the transcription and preservation of the presented e\u2011text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.307690538664853,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 15,
+        "total_tokens": 514,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952425.2457702,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What linguistic origins for the word \u201cwhale\u201d are presented in the quoted dictionary entries?  \nWhich languages are listed in the multilingual table of whale names?  \nWhat caution does the author give regarding the authenticity of the supplied extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.307690538664853,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 15,
+        "total_tokens": 514,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952425.245778,
+      "question_id": "q_chunk_4_1",
+      "response_text": "What linguistic origins for the word \u201cwhale\u201d are presented in the quoted dictionary entries?  \nWhich languages are listed in the multilingual table of whale names?  \nWhat caution does the author give regarding the authenticity of the supplied extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.307690538664853,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 15,
+        "total_tokens": 514,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952425.2457802,
+      "question_id": "q_chunk_4_2",
+      "response_text": "What linguistic origins for the word \u201cwhale\u201d are presented in the quoted dictionary entries?  \nWhich languages are listed in the multilingual table of whale names?  \nWhat caution does the author give regarding the authenticity of the supplied extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.6299514946683,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 25,
+        "total_tokens": 541,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952431.4710023,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What tone does the narrator adopt when addressing the \u201cSub\u2011Sub,\u201d and what does this reveal about their attitude toward the subject?  \nWhich biblical books are quoted in the EXTRACTS section, and what shared theme do these passages convey?  \nHow does the passage contrast \u201csplintered hearts\u201d with \u201cunsplinterable glasses,\u201d and what might this juxtaposition signify?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.6299514946683,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 25,
+        "total_tokens": 541,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952431.471008,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What tone does the narrator adopt when addressing the \u201cSub\u2011Sub,\u201d and what does this reveal about their attitude toward the subject?  \nWhich biblical books are quoted in the EXTRACTS section, and what shared theme do these passages convey?  \nHow does the passage contrast \u201csplintered hearts\u201d with \u201cunsplinterable glasses,\u201d and what might this juxtaposition signify?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.6299514946683,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 25,
+        "total_tokens": 541,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952431.4710097,
+      "question_id": "q_chunk_5_2",
+      "response_text": "What tone does the narrator adopt when addressing the \u201cSub\u2011Sub,\u201d and what does this reveal about their attitude toward the subject?  \nWhich biblical books are quoted in the EXTRACTS section, and what shared theme do these passages convey?  \nHow does the passage contrast \u201csplintered hearts\u201d with \u201cunsplinterable glasses,\u201d and what might this juxtaposition signify?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.030203652999869,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 21,
+        "total_tokens": 537,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952435.7218792,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What common themes link the biblical reference to Leviathan with the later descriptions of massive sea creatures in the other quotations?  \nHow do the varying measurements and descriptions of whales in the excerpts reflect the historical understanding of marine life?  \nIn what ways might the quoted passages illustrate the evolution of myth versus observation in early maritime narratives?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.030203652999869,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 21,
+        "total_tokens": 537,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952435.7218854,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What common themes link the biblical reference to Leviathan with the later descriptions of massive sea creatures in the other quotations?  \nHow do the varying measurements and descriptions of whales in the excerpts reflect the historical understanding of marine life?  \nIn what ways might the quoted passages illustrate the evolution of myth versus observation in early maritime narratives?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.030203652999869,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 21,
+        "total_tokens": 537,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952435.7218876,
+      "question_id": "q_chunk_6_2",
+      "response_text": "What common themes link the biblical reference to Leviathan with the later descriptions of massive sea creatures in the other quotations?  \nHow do the varying measurements and descriptions of whales in the excerpts reflect the historical understanding of marine life?  \nIn what ways might the quoted passages illustrate the evolution of myth versus observation in early maritime narratives?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.3103765153306695,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 21,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952441.1778505,
+      "question_id": "q_chunk_7_0",
+      "response_text": "What literary or historical significance do the varied references to whales and Leviathan hold within the compiled quotations?  \nHow does the repeated mention of spermaceti reflect contemporary understandings of whale anatomy and its uses?  \nIn what ways do the excerpts illustrate changing perceptions of whales from mythic monsters to objects of scientific inquiry?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.3103765153306695,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 21,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952441.177856,
+      "question_id": "q_chunk_7_1",
+      "response_text": "What literary or historical significance do the varied references to whales and Leviathan hold within the compiled quotations?  \nHow does the repeated mention of spermaceti reflect contemporary understandings of whale anatomy and its uses?  \nIn what ways do the excerpts illustrate changing perceptions of whales from mythic monsters to objects of scientific inquiry?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.3103765153306695,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 21,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952441.1778579,
+      "question_id": "q_chunk_7_2",
+      "response_text": "What literary or historical significance do the varied references to whales and Leviathan hold within the compiled quotations?  \nHow does the repeated mention of spermaceti reflect contemporary understandings of whale anatomy and its uses?  \nIn what ways do the excerpts illustrate changing perceptions of whales from mythic monsters to objects of scientific inquiry?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.903836804665237,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 20,
+        "total_tokens": 547,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952446.1835444,
+      "question_id": "q_chunk_8_0",
+      "response_text": "What common theme links the various literary excerpts about Leviathan and whales in the text?  \nHow does Hobbes\u2019s definition of a commonwealth as an \u201cartificial man\u201d relate to the Leviathan imagery presented?  \nWhich source describes the practice of cutting off a whale\u2019s head and towing it near shore?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.903836804665237,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 20,
+        "total_tokens": 547,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952446.1835482,
+      "question_id": "q_chunk_8_1",
+      "response_text": "What common theme links the various literary excerpts about Leviathan and whales in the text?  \nHow does Hobbes\u2019s definition of a commonwealth as an \u201cartificial man\u201d relate to the Leviathan imagery presented?  \nWhich source describes the practice of cutting off a whale\u2019s head and towing it near shore?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.903836804665237,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 20,
+        "total_tokens": 547,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952446.1835501,
+      "question_id": "q_chunk_8_2",
+      "response_text": "What common theme links the various literary excerpts about Leviathan and whales in the text?  \nHow does Hobbes\u2019s definition of a commonwealth as an \u201cartificial man\u201d relate to the Leviathan imagery presented?  \nWhich source describes the practice of cutting off a whale\u2019s head and towing it near shore?"
+    }
+  ]
+}

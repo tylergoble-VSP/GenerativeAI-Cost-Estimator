@@ -1,0 +1,439 @@
+{
+  "export_timestamp": "2025-11-24T02:21:48.812693",
+  "export_timestamp_readable": "2025-11-24 02:21:48",
+  "num_metrics": 32,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.178448512000614,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763950891.9670587,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.23855299600109,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763950892.0286634,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.300340415997198,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763950892.088025,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.17960651000612415,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763950892.1469636,
+      "chunk_id": "chunk_3",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.15897281900106464,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763950892.1881127,
+      "chunk_id": "chunk_4",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.20452395999745931,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763950892.2929902,
+      "chunk_id": "chunk_5",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.20486625299963634,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763950892.3521092,
+      "chunk_id": "chunk_6",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.2568316679971758,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763950892.4453955,
+      "chunk_id": "chunk_7",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5604602456684612,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950894.1289246,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of Chapter 41?\nWho is Fedallah?\nWhat is the subject of Chapters 55-57?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5604602456684612,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950894.1289296,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of Chapter 41?\nWho is Fedallah?\nWhat is the subject of Chapters 55-57?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5604602456684612,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950894.1289306,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What is the significance of Chapter 41?\nWho is Fedallah?\nWhat is the subject of Chapters 55-57?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2185186226658213,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950896.1029813,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the purpose of Project Gutenberg, according to this text?\nWho is the author of Moby Dick; Or, The Whale?\nWhat is listed in the \"CONTENTS\" section of the ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2185186226658213,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950896.1029873,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the purpose of Project Gutenberg, according to this text?\nWho is the author of Moby Dick; Or, The Whale?\nWhat is listed in the \"CONTENTS\" section of the ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2185186226658213,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950896.102988,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the purpose of Project Gutenberg, according to this text?\nWho is the author of Moby Dick; Or, The Whale?\nWhat is listed in the \"CONTENTS\" section of the ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7785105879981227,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 11,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950897.784422,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the significance of \"The Doubloon\"?\nWhich chapter details \"A Bower in the Arsacides\"?\nWhat does \"The Forge\" refer to?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7785105879981227,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 11,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950897.7844267,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the significance of \"The Doubloon\"?\nWhich chapter details \"A Bower in the Arsacides\"?\nWhat does \"The Forge\" refer to?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7785105879981227,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 11,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950897.7844286,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What is the significance of \"The Doubloon\"?\nWhich chapter details \"A Bower in the Arsacides\"?\nWhat does \"The Forge\" refer to?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.043381028333291,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 19,
+        "total_tokens": 541,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950900.2602103,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What does the Usher's handkerchief represent?\nAccording to Hackluyt, what is the significance of the letter \"H\" in relation to the word \"whale\"?\nWhat is the etymological origin of the word \"whale\" according to Webster\u2019s Dictionary?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.043381028333291,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 19,
+        "total_tokens": 541,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950900.2602167,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What does the Usher's handkerchief represent?\nAccording to Hackluyt, what is the significance of the letter \"H\" in relation to the word \"whale\"?\nWhat is the etymological origin of the word \"whale\" according to Webster\u2019s Dictionary?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.043381028333291,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 19,
+        "total_tokens": 541,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950900.260219,
+      "question_id": "q_chunk_3_2",
+      "response_text": "What does the Usher's handkerchief represent?\nAccording to Hackluyt, what is the significance of the letter \"H\" in relation to the word \"whale\"?\nWhat is the etymological origin of the word \"whale\" according to Webster\u2019s Dictionary?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.30514403799801,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 21,
+        "total_tokens": 520,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950903.0195909,
+      "question_id": "q_chunk_4_0",
+      "response_text": "According to the text, what is the etymological basis for the animal\u2019s name relating to roundness or rolling?\nWhat does the narrator describe the \u201cpoor devil of a Sub-Sub\u201d as doing in his research?\nWhat does the narrator state is the value of the extracts from ancient authors and poets?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.30514403799801,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 21,
+        "total_tokens": 520,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950903.019599,
+      "question_id": "q_chunk_4_1",
+      "response_text": "According to the text, what is the etymological basis for the animal\u2019s name relating to roundness or rolling?\nWhat does the narrator describe the \u201cpoor devil of a Sub-Sub\u201d as doing in his research?\nWhat does the narrator state is the value of the extracts from ancient authors and poets?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.30514403799801,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 21,
+        "total_tokens": 520,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950903.0196013,
+      "question_id": "q_chunk_4_2",
+      "response_text": "According to the text, what is the etymological basis for the animal\u2019s name relating to roundness or rolling?\nWhat does the narrator describe the \u201cpoor devil of a Sub-Sub\u201d as doing in his research?\nWhat does the narrator state is the value of the extracts from ancient authors and poets?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.3795407690001107,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 14,
+        "total_tokens": 530,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950904.9239383,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the primary value of the ancient authors and poets mentioned?\nWhat does the author suggest about the \u201cSub-Subs\u201d?\nAccording to the text, what are Gabriel, Michael, and Raphael doing?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.3795407690001107,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 14,
+        "total_tokens": 530,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950904.9239445,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the primary value of the ancient authors and poets mentioned?\nWhat does the author suggest about the \u201cSub-Subs\u201d?\nAccording to the text, what are Gabriel, Michael, and Raphael doing?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.3795407690001107,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 14,
+        "total_tokens": 530,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950904.9239452,
+      "question_id": "q_chunk_5_2",
+      "response_text": "What is the primary value of the ancient authors and poets mentioned?\nWhat does the author suggest about the \u201cSub-Subs\u201d?\nAccording to the text, what are Gabriel, Michael, and Raphael doing?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.100582897333273,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 10,
+        "total_tokens": 526,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950906.562788,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What is Leviathan described as?\nWhat was the purpose of visiting certain countries?\nWhat is unusual about the sea-gudgeon's interaction with the monster?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.100582897333273,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 10,
+        "total_tokens": 526,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950906.5627942,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What is Leviathan described as?\nWhat was the purpose of visiting certain countries?\nWhat is unusual about the sea-gudgeon's interaction with the monster?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.100582897333273,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 10,
+        "total_tokens": 526,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950906.562795,
+      "question_id": "q_chunk_6_2",
+      "response_text": "What is Leviathan described as?\nWhat was the purpose of visiting certain countries?\nWhat is unusual about the sea-gudgeon's interaction with the monster?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.9287958093336783,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 16,
+        "total_tokens": 548,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950908.8070304,
+      "question_id": "q_chunk_7_0",
+      "response_text": "What does Montaigne suggest about the sea-gudgeon's experience within the whale's mouth?\nAccording to Rabelais, what biblical figure is Leviathan associated with?\nWhat does Sir T. Browne question about spermacetti?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.9287958093336783,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 16,
+        "total_tokens": 548,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950908.8070364,
+      "question_id": "q_chunk_7_1",
+      "response_text": "What does Montaigne suggest about the sea-gudgeon's experience within the whale's mouth?\nAccording to Rabelais, what biblical figure is Leviathan associated with?\nWhat does Sir T. Browne question about spermacetti?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.9287958093336783,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 16,
+        "total_tokens": 548,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950908.8070388,
+      "question_id": "q_chunk_7_2",
+      "response_text": "What does Montaigne suggest about the sea-gudgeon's experience within the whale's mouth?\nAccording to Rabelais, what biblical figure is Leviathan associated with?\nWhat does Sir T. Browne question about spermacetti?"
+    }
+  ]
+}

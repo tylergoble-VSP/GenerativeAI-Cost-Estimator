@@ -1,0 +1,407 @@
+{
+  "export_timestamp": "2025-11-24T03:28:31.830205",
+  "export_timestamp_readable": "2025-11-24 03:28:31",
+  "num_metrics": 30,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.860322927008383,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954855.8063385,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.8867866289947415,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954855.8339918,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.9045161210087826,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954855.8496077,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.059038580002379604,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954855.865807,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.04699544400500599,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954855.8814194,
+      "chunk_id": "chunk_4",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.046638895990327,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954855.8965216,
+      "chunk_id": "chunk_5",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.04650779099029023,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954855.9127584,
+      "chunk_id": "chunk_6",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.06746502600435633,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954855.9493709,
+      "chunk_id": "chunk_7",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.08981129700259771,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954855.986663,
+      "chunk_id": "chunk_8",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.08943105299840681,
+      "token_counts": {
+        "input_tokens": 460,
+        "actual_input_tokens": 460,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954856.0026588,
+      "chunk_id": "chunk_9",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.162215105505311,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 17,
+        "total_tokens": 560,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954868.3285947,
+      "question_id": "q_chunk_0_0",
+      "response_text": "Which chapters in this edition of Moby\u202fDick have identical titles?  \nWho are credited for the creation of this Project Gutenberg eBook of Moby\u202fDick?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.162215105505311,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 17,
+        "total_tokens": 560,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954868.3286011,
+      "question_id": "q_chunk_0_1",
+      "response_text": "Which chapters in this edition of Moby\u202fDick have identical titles?  \nWho are credited for the creation of this Project Gutenberg eBook of Moby\u202fDick?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 9.919920574000571,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 24,
+        "total_tokens": 567,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954875.8441937,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What thematic significance might the chapters \u201cThe Whiteness of the Whale\u201d and \u201cThe Sperm Whale\u2019s Head\u2014Contrasted View\u201d hold within the narrative?  \nWhich chapter titles suggest a progression from exploration to conflict in the story?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 9.919920574000571,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 24,
+        "total_tokens": 567,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954875.8441987,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What thematic significance might the chapters \u201cThe Whiteness of the Whale\u201d and \u201cThe Sperm Whale\u2019s Head\u2014Contrasted View\u201d hold within the narrative?  \nWhich chapter titles suggest a progression from exploration to conflict in the story?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.208106106503692,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 19,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954880.4205024,
+      "question_id": "q_chunk_2_0",
+      "response_text": "Which chapter titles in the list refer to specific whaling equipment or vessels?  \nWhat recurring motifs or themes can be inferred from the sequence of chapter titles between chapters 75 and 126?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.208106106503692,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 19,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954880.4205067,
+      "question_id": "q_chunk_2_1",
+      "response_text": "Which chapter titles in the list refer to specific whaling equipment or vessels?  \nWhat recurring motifs or themes can be inferred from the sequence of chapter titles between chapters 75 and 126?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.264429042501433,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 16,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954884.8585637,
+      "question_id": "q_chunk_3_0",
+      "response_text": "How many chapters are enumerated in the provided chapter list?  \nAccording to the transcriber's notes, which two projects contributed to the creation of this etext?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.264429042501433,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 16,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954884.858569,
+      "question_id": "q_chunk_3_1",
+      "response_text": "How many chapters are enumerated in the provided chapter list?  \nAccording to the transcriber's notes, which two projects contributed to the creation of this etext?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.745144363500003,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 19,
+        "total_tokens": 518,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954889.3355567,
+      "question_id": "q_chunk_4_0",
+      "response_text": "How does the author explain the etymology of the word \u201cwhale\u201d across different languages?  \nWhy does the author advise against treating the whale statements in the extracts as definitive cetology?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.745144363500003,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 19,
+        "total_tokens": 518,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954889.3355668,
+      "question_id": "q_chunk_4_1",
+      "response_text": "How does the author explain the etymology of the word \u201cwhale\u201d across different languages?  \nWhy does the author advise against treating the whale statements in the extracts as definitive cetology?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.7360170550018665,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 14,
+        "total_tokens": 530,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954891.893356,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What biblical passages are referenced in the extracts about Leviathan?  \nHow does the narrator portray the Sub-Sub and their relationship with society?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.7360170550018665,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 14,
+        "total_tokens": 530,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954891.893359,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What biblical passages are referenced in the extracts about Leviathan?  \nHow does the narrator portray the Sub-Sub and their relationship with society?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.135524421995797,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 21,
+        "total_tokens": 537,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954895.1304722,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What common motif links the descriptions of Leviathan, whales, and sea monsters across these excerpts?  \nHow do the various authors portray the size and significance of whales in the Indian Sea compared to the other creatures mentioned?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.135524421995797,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 21,
+        "total_tokens": 537,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954895.1304746,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What common motif links the descriptions of Leviathan, whales, and sea monsters across these excerpts?  \nHow do the various authors portray the size and significance of whales in the Indian Sea compared to the other creatures mentioned?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.623764794501767,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 19,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954902.5841343,
+      "question_id": "q_chunk_7_0",
+      "response_text": "Which author is credited with the line \"The great Leviathan that maketh the seas to seethe like boiling pan\"?  \nWhich quote describes a whale's liver as being \"two cartloads\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.623764794501767,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 19,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954902.58414,
+      "question_id": "q_chunk_7_1",
+      "response_text": "Which author is credited with the line \"The great Leviathan that maketh the seas to seethe like boiling pan\"?  \nWhich quote describes a whale's liver as being \"two cartloads\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.626029008999467,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 13,
+        "total_tokens": 540,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954905.1462383,
+      "question_id": "q_chunk_8_0",
+      "response_text": "What common theme ties together the quoted passages in the text?  \nWhich literary works referenced in the text describe Leviathan or whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.626029008999467,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 13,
+        "total_tokens": 540,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954905.1462405,
+      "question_id": "q_chunk_8_1",
+      "response_text": "What common theme ties together the quoted passages in the text?  \nWhich literary works referenced in the text describe Leviathan or whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.34757768149575,
+      "token_counts": {
+        "prompt_tokens": 493,
+        "response_tokens": 24,
+        "total_tokens": 517,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954911.8265734,
+      "question_id": "q_chunk_9_0",
+      "response_text": "How do the various accounts describe the size and behavior of whales encountered by sailors in the 17th century?\n\nWhat motivations or incentives are mentioned for sailors to observe or hunt whales, as seen in the excerpts about masts and ducats?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.34757768149575,
+      "token_counts": {
+        "prompt_tokens": 493,
+        "response_tokens": 24,
+        "total_tokens": 517,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954911.826578,
+      "question_id": "q_chunk_9_1",
+      "response_text": "How do the various accounts describe the size and behavior of whales encountered by sailors in the 17th century?\n\nWhat motivations or incentives are mentioned for sailors to observe or hunt whales, as seen in the excerpts about masts and ducats?"
+    }
+  ]
+}

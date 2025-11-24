@@ -1,0 +1,439 @@
+{
+  "export_timestamp": "2025-11-24T02:50:26.583282",
+  "export_timestamp_readable": "2025-11-24 02:50:26",
+  "num_metrics": 32,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.1000857610051753,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952588.2725556,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.1636815870006103,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952588.333503,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.2225280239945278,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952588.3940022,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.18100441100250464,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952588.4540503,
+      "chunk_id": "chunk_3",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.16009787999792024,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952588.4939601,
+      "chunk_id": "chunk_4",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.2172494060068857,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952588.6116064,
+      "chunk_id": "chunk_5",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.17682018000050448,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952588.6712525,
+      "chunk_id": "chunk_7",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.2747360710054636,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952588.729128,
+      "chunk_id": "chunk_6",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4555978403319993,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952593.0977798,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the title of the book described in the text?\nAccording to the text, who are some of the contributors to this eBook?\nWhat is mentioned about the legal considerations for using this eBook outside of the United States?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4555978403319993,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952593.0977852,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the title of the book described in the text?\nAccording to the text, who are some of the contributors to this eBook?\nWhat is mentioned about the legal considerations for using this eBook outside of the United States?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4555978403319993,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952593.0977874,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the title of the book described in the text?\nAccording to the text, who are some of the contributors to this eBook?\nWhat is mentioned about the legal considerations for using this eBook outside of the United States?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.0237114263339513,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952597.8028972,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What character is introduced at the very beginning of the provided text?\nWhat is the subject matter of chapters 55 and 56?\nWhat does chapter 73 detail regarding Stubb and Flask?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.0237114263339513,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952597.8029027,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What character is introduced at the very beginning of the provided text?\nWhat is the subject matter of chapters 55 and 56?\nWhat does chapter 73 detail regarding Stubb and Flask?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.0237114263339513,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952597.8029048,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What character is introduced at the very beginning of the provided text?\nWhat is the subject matter of chapters 55 and 56?\nWhat does chapter 73 detail regarding Stubb and Flask?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.6267355913344845,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 14,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952602.612528,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What objects or concepts are repeatedly referenced as chapters?\nHow does the text alternate between descriptions of the whale and ship life?\nWhat is the significance of encountering other ships, like The Virgin or The Rose-Bud?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.6267355913344845,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 14,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952602.6125333,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What objects or concepts are repeatedly referenced as chapters?\nHow does the text alternate between descriptions of the whale and ship life?\nWhat is the significance of encountering other ships, like The Virgin or The Rose-Bud?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.6267355913344845,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 14,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952602.612535,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What objects or concepts are repeatedly referenced as chapters?\nHow does the text alternate between descriptions of the whale and ship life?\nWhat is the significance of encountering other ships, like The Virgin or The Rose-Bud?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.697603685335101,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 14,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952607.1915567,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the source of this text a combination of?\nWho is the \"pale Usher\" described in the etymology?\nAccording to Hackluyt, what error is made when teaching about whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.697603685335101,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 14,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952607.191562,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the source of this text a combination of?\nWho is the \"pale Usher\" described in the etymology?\nAccording to Hackluyt, what error is made when teaching about whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.697603685335101,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 14,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952607.191564,
+      "question_id": "q_chunk_3_2",
+      "response_text": "What is the source of this text a combination of?\nWho is the \"pale Usher\" described in the etymology?\nAccording to Hackluyt, what error is made when teaching about whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.029870134666756,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 18,
+        "total_tokens": 517,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952612.8933148,
+      "question_id": "q_chunk_4_0",
+      "response_text": "According to the text, from what languages does the word \"whale\" originate?\nWhat does the text suggest about the reliability of the \"whale statements\" in the extracts?\nWhat is the role of the Sub-Sub-Librarian in relation to the provided text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.029870134666756,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 18,
+        "total_tokens": 517,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952612.893319,
+      "question_id": "q_chunk_4_1",
+      "response_text": "According to the text, from what languages does the word \"whale\" originate?\nWhat does the text suggest about the reliability of the \"whale statements\" in the extracts?\nWhat is the role of the Sub-Sub-Librarian in relation to the provided text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.029870134666756,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 18,
+        "total_tokens": 517,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952612.8933198,
+      "question_id": "q_chunk_4_2",
+      "response_text": "According to the text, from what languages does the word \"whale\" originate?\nWhat does the text suggest about the reliability of the \"whale statements\" in the extracts?\nWhat is the role of the Sub-Sub-Librarian in relation to the provided text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.887433674002144,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 13,
+        "total_tokens": 529,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952617.2756233,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the author\u2019s attitude toward the \u201cSub-Subs\u201d?\nAccording to the text, what does Leviathan cause to shine?\nFrom which books of the Bible are the provided extracts taken?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.887433674002144,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 13,
+        "total_tokens": 529,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952617.2756267,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the author\u2019s attitude toward the \u201cSub-Subs\u201d?\nAccording to the text, what does Leviathan cause to shine?\nFrom which books of the Bible are the provided extracts taken?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.887433674002144,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 13,
+        "total_tokens": 529,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952617.2756279,
+      "question_id": "q_chunk_5_2",
+      "response_text": "What is the author\u2019s attitude toward the \u201cSub-Subs\u201d?\nAccording to the text, what does Leviathan cause to shine?\nFrom which books of the Bible are the provided extracts taken?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.733682935669397,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 12,
+        "total_tokens": 528,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952621.393551,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What creatures are repeatedly described as immense and monstrous?\nHow do the texts describe the fate of things consumed by these creatures?\nWhat specific valuable resource is mentioned as being obtained from whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.733682935669397,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 12,
+        "total_tokens": 528,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952621.3935556,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What creatures are repeatedly described as immense and monstrous?\nHow do the texts describe the fate of things consumed by these creatures?\nWhat specific valuable resource is mentioned as being obtained from whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.733682935669397,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 12,
+        "total_tokens": 528,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952621.393558,
+      "question_id": "q_chunk_6_2",
+      "response_text": "What creatures are repeatedly described as immense and monstrous?\nHow do the texts describe the fate of things consumed by these creatures?\nWhat specific valuable resource is mentioned as being obtained from whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.560912838666506,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 15,
+        "total_tokens": 547,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952626.576877,
+      "question_id": "q_chunk_7_0",
+      "response_text": "What does Montaigne claim happens to sea-gudgeons entering the whale\u2019s mouth?\nAccording to Rabelais, what does someone claim Leviathan is described as?\nWhat substance is described as potentially doubtful even by a learned scholar?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.560912838666506,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 15,
+        "total_tokens": 547,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952626.5768795,
+      "question_id": "q_chunk_7_1",
+      "response_text": "What does Montaigne claim happens to sea-gudgeons entering the whale\u2019s mouth?\nAccording to Rabelais, what does someone claim Leviathan is described as?\nWhat substance is described as potentially doubtful even by a learned scholar?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.560912838666506,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 15,
+        "total_tokens": 547,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952626.5768807,
+      "question_id": "q_chunk_7_2",
+      "response_text": "What does Montaigne claim happens to sea-gudgeons entering the whale\u2019s mouth?\nAccording to Rabelais, what does someone claim Leviathan is described as?\nWhat substance is described as potentially doubtful even by a learned scholar?"
+    }
+  ]
+}

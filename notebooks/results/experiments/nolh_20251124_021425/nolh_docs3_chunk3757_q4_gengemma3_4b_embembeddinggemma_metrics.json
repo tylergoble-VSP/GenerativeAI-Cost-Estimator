@@ -1,0 +1,211 @@
+{
+  "export_timestamp": "2025-11-24T03:22:33.841416",
+  "export_timestamp_readable": "2025-11-24 03:22:33",
+  "num_metrics": 15,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.968531719991006,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954548.1965394,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.3569600689952495,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954548.5842884,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.7510436580050737,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954548.977719,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.824903043503582,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954552.2792783,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date of this ebook?\nWhat is the author\u2019s name of the book?\nUnder what terms can this ebook be copied and shared?\nWhat is the language of the book?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.824903043503582,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954552.2792852,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the release date of this ebook?\nWhat is the author\u2019s name of the book?\nUnder what terms can this ebook be copied and shared?\nWhat is the language of the book?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.824903043503582,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954552.2792873,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the release date of this ebook?\nWhat is the author\u2019s name of the book?\nUnder what terms can this ebook be copied and shared?\nWhat is the language of the book?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.824903043503582,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954552.2792885,
+      "question_id": "q_chunk_0_3",
+      "response_text": "What is the release date of this ebook?\nWhat is the author\u2019s name of the book?\nUnder what terms can this ebook be copied and shared?\nWhat is the language of the book?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0087885089997144,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954553.0152295,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What characters are mentioned in the initial entry?\nWhich chapters focus on whale depictions?\nWhat events involve the killing of whales?\nWhat is the significance of the \u201cGreat Heidelburgh Tun\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0087885089997144,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954553.0152333,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What characters are mentioned in the initial entry?\nWhich chapters focus on whale depictions?\nWhat events involve the killing of whales?\nWhat is the significance of the \u201cGreat Heidelburgh Tun\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0087885089997144,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954553.0152342,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What characters are mentioned in the initial entry?\nWhich chapters focus on whale depictions?\nWhat events involve the killing of whales?\nWhat is the significance of the \u201cGreat Heidelburgh Tun\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0087885089997144,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954553.0152347,
+      "question_id": "q_chunk_1_3",
+      "response_text": "What characters are mentioned in the initial entry?\nWhich chapters focus on whale depictions?\nWhat events involve the killing of whales?\nWhat is the significance of the \u201cGreat Heidelburgh Tun\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2138137422516593,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 9,
+        "total_tokens": 548,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954553.8360066,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the primary focus of Chapter 75?\nWhat does Chapter 77 describe?\nWhich chapter details the measurement of a whale's skeleton?\nHow does Chapter 121 contribute to the narrative?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2138137422516593,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 9,
+        "total_tokens": 548,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954553.8360105,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the primary focus of Chapter 75?\nWhat does Chapter 77 describe?\nWhich chapter details the measurement of a whale's skeleton?\nHow does Chapter 121 contribute to the narrative?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2138137422516593,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 9,
+        "total_tokens": 548,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954553.8360112,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What is the primary focus of Chapter 75?\nWhat does Chapter 77 describe?\nWhich chapter details the measurement of a whale's skeleton?\nHow does Chapter 121 contribute to the narrative?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2138137422516593,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 9,
+        "total_tokens": 548,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954553.8360121,
+      "question_id": "q_chunk_2_3",
+      "response_text": "What is the primary focus of Chapter 75?\nWhat does Chapter 77 describe?\nWhich chapter details the measurement of a whale's skeleton?\nHow does Chapter 121 contribute to the narrative?"
+    }
+  ]
+}

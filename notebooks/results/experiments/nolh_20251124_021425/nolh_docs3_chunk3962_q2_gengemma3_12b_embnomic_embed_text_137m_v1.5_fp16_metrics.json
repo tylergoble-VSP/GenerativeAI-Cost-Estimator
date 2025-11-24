@@ -1,0 +1,127 @@
+{
+  "export_timestamp": "2025-11-24T04:12:36.589705",
+  "export_timestamp_readable": "2025-11-24 04:12:36",
+  "num_metrics": 9,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.026756375998957083,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957549.7232137,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.041427663003560156,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957549.7385592,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.05737738900643308,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957549.7553098,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.187095365494315,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 8,
+        "total_tokens": 547,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957554.14446,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the significance of Chapter 106?\nWhat does Chapter 115 describe?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.187095365494315,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 8,
+        "total_tokens": 547,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957554.1444654,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the significance of Chapter 106?\nWhat does Chapter 115 describe?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.7183996884996304,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957555.2055714,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the Project Gutenberg License?\nWho are the credited contributors to this ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.7183996884996304,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957555.205581,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the Project Gutenberg License?\nWho are the credited contributors to this ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.402599642504356,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957556.574722,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of \"Moby Dick\" within the chapter list?\nWhat characters are mentioned in the initial text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.402599642504356,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957556.574726,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of \"Moby Dick\" within the chapter list?\nWhat characters are mentioned in the initial text?"
+    }
+  ]
+}

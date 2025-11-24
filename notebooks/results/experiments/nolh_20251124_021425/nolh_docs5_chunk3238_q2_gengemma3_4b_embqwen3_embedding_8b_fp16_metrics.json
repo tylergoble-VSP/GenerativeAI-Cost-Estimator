@@ -1,0 +1,207 @@
+{
+  "export_timestamp": "2025-11-24T04:06:58.311558",
+  "export_timestamp_readable": "2025-11-24 04:06:58",
+  "num_metrics": 15,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.2933650970080635,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957210.3755214,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 5.467677929002093,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957211.5507953,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 6.7196546380000655,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957212.8036938,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.530483170005027,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957213.9063659,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.3330377530073747,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957214.8843405,
+      "chunk_id": "chunk_4",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.4343450560045312,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 17,
+        "total_tokens": 560,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957215.7565763,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of the repeated naming of characters like \u201cAhab\u201d and \u201cStubb\u201d?\n\nWhat are the various materials used to depict whales mentioned throughout the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.4343450560045312,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 17,
+        "total_tokens": 560,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957215.7565846,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of the repeated naming of characters like \u201cAhab\u201d and \u201cStubb\u201d?\n\nWhat are the various materials used to depict whales mentioned throughout the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.9554288344952511,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 30,
+        "total_tokens": 569,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957216.799667,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the significance of chapters focusing on whale anatomy, such as \"The Right Whale\u2019s Head\" and \"Measurement of The Whale\u2019s Skeleton\"?\n\nHow do the chapters relating to whaling techniques, like \"Cistern and Buckets\" and \"Pitchpoling,\" contribute to the overall narrative?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.9554288344952511,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 30,
+        "total_tokens": 569,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957216.799674,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the significance of chapters focusing on whale anatomy, such as \"The Right Whale\u2019s Head\" and \"Measurement of The Whale\u2019s Skeleton\"?\n\nHow do the chapters relating to whaling techniques, like \"Cistern and Buckets\" and \"Pitchpoling,\" contribute to the overall narrative?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1960910215057083,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957217.278611,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date of this Project Gutenberg eBook?\nWhat are the credited authors for this Project Gutenberg eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1960910215057083,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957217.2786202,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the release date of this Project Gutenberg eBook?\nWhat are the credited authors for this Project Gutenberg eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0174510190045112,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 14,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957217.7924883,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the origin of the word \u201cwhale\u201d?\nWhat is the significance of the \u201cpale Usher\u201d described in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0174510190045112,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 14,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957217.7924917,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the origin of the word \u201cwhale\u201d?\nWhat is the significance of the \u201cpale Usher\u201d described in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7483373465001932,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 13,
+        "total_tokens": 512,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957218.2974615,
+      "question_id": "q_chunk_4_0",
+      "response_text": "From what languages does the word \"whale\" derive its meaning?\nWhat is the primary purpose of the extracts presented in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7483373465001932,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 13,
+        "total_tokens": 512,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957218.297472,
+      "question_id": "q_chunk_4_1",
+      "response_text": "From what languages does the word \"whale\" derive its meaning?\nWhat is the primary purpose of the extracts presented in the text?"
+    }
+  ]
+}

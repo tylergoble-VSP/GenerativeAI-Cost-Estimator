@@ -1,0 +1,61 @@
+{
+  "export_timestamp": "2025-11-24T03:05:48.188294",
+  "export_timestamp_readable": "2025-11-24 03:05:48",
+  "num_metrics": 4,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 5.506472416993347,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953543.0481565,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.711667076665132,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 18,
+        "total_tokens": 561,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953548.1844277,
+      "question_id": "q_chunk_0_0",
+      "response_text": "Who is credited as the author of the Project Gutenberg eBook of Moby Dick?  \nWhat are the release date and the most recent update date for this eBook on Project Gutenberg?  \nWhich chapters in the table of contents include the word \"Knight\" or \"Knights\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.711667076665132,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 18,
+        "total_tokens": 561,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953548.1844313,
+      "question_id": "q_chunk_0_1",
+      "response_text": "Who is credited as the author of the Project Gutenberg eBook of Moby Dick?  \nWhat are the release date and the most recent update date for this eBook on Project Gutenberg?  \nWhich chapters in the table of contents include the word \"Knight\" or \"Knights\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.711667076665132,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 18,
+        "total_tokens": 561,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953548.1844323,
+      "question_id": "q_chunk_0_2",
+      "response_text": "Who is credited as the author of the Project Gutenberg eBook of Moby Dick?  \nWhat are the release date and the most recent update date for this eBook on Project Gutenberg?  \nWhich chapters in the table of contents include the word \"Knight\" or \"Knights\"?"
+    }
+  ]
+}

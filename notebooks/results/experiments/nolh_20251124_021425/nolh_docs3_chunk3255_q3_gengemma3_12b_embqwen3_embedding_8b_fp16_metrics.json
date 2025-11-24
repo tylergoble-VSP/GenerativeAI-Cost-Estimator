@@ -1,0 +1,169 @@
+{
+  "export_timestamp": "2025-11-24T02:33:33.761576",
+  "export_timestamp_readable": "2025-11-24 02:33:33",
+  "num_metrics": 12,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.2498194439976942,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951606.1053967,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.4367816829908406,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951607.2909195,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.6937425270007225,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951608.5506146,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6695683110010577,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951610.562178,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the purpose of Project Gutenberg, according to the text?\nWho is the author of Moby Dick; Or, The Whale?\nWhat is the release date of this eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6695683110010577,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951610.5621827,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the purpose of Project Gutenberg, according to the text?\nWho is the author of Moby Dick; Or, The Whale?\nWhat is the release date of this eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6695683110010577,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951610.5621834,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the purpose of Project Gutenberg, according to the text?\nWho is the author of Moby Dick; Or, The Whale?\nWhat is the release date of this eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2272869363368955,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 9,
+        "total_tokens": 548,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951612.2374637,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the subject of Chapter 75?\nWhat is the subject of Chapter 110?\nWhat is the subject of Chapter 122?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2272869363368955,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 9,
+        "total_tokens": 548,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951612.2374678,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the subject of Chapter 75?\nWhat is the subject of Chapter 110?\nWhat is the subject of Chapter 122?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2272869363368955,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 9,
+        "total_tokens": 548,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951612.2374687,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What is the subject of Chapter 75?\nWhat is the subject of Chapter 110?\nWhat is the subject of Chapter 122?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7344631626668463,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951613.7582457,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What event marks the beginning of the text?\nWhat is the subject matter of Chapter 55?\nWhat occurs in Chapter 61?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7344631626668463,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951613.7582512,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What event marks the beginning of the text?\nWhat is the subject matter of Chapter 55?\nWhat occurs in Chapter 61?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7344631626668463,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951613.7582538,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What event marks the beginning of the text?\nWhat is the subject matter of Chapter 55?\nWhat occurs in Chapter 61?"
+    }
+  ]
+}

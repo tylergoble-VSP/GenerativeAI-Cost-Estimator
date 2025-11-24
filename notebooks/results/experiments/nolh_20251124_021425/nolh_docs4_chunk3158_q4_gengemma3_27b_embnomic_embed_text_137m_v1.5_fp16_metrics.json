@@ -1,0 +1,279 @@
+{
+  "export_timestamp": "2025-11-24T02:31:59.291824",
+  "export_timestamp_readable": "2025-11-24 02:31:59",
+  "num_metrics": 20,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.9447298309969483,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951497.557382,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.9815332959988154,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951497.5954247,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0204965650045779,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951497.6332169,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.09213882900075987,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951497.649836,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.167396856497362,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951502.3210497,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nWhen was this particular eBook released?\nAccording to the text, what are users allowed to do with this eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.167396856497362,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951502.3210537,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nWhen was this particular eBook released?\nAccording to the text, what are users allowed to do with this eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.167396856497362,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951502.3210547,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nWhen was this particular eBook released?\nAccording to the text, what are users allowed to do with this eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.167396856497362,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951502.3210554,
+      "question_id": "q_chunk_0_3",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nWhen was this particular eBook released?\nAccording to the text, what are users allowed to do with this eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.5585444067510252,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 12,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951507.886582,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What objects are repeatedly referenced beyond just whales?\nWhich chapters suggest encounters with other ships?\nWhat is the significance of Chapter 106, \"Ahab\u2019s Leg\"?\nHow does the text transition from descriptive chapters to those focused on specific characters?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.5585444067510252,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 12,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951507.8865864,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What objects are repeatedly referenced beyond just whales?\nWhich chapters suggest encounters with other ships?\nWhat is the significance of Chapter 106, \"Ahab\u2019s Leg\"?\nHow does the text transition from descriptive chapters to those focused on specific characters?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.5585444067510252,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 12,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951507.8865874,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What objects are repeatedly referenced beyond just whales?\nWhich chapters suggest encounters with other ships?\nWhat is the significance of Chapter 106, \"Ahab\u2019s Leg\"?\nHow does the text transition from descriptive chapters to those focused on specific characters?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.5585444067510252,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 12,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951507.886588,
+      "question_id": "q_chunk_2_3",
+      "response_text": "What objects are repeatedly referenced beyond just whales?\nWhich chapters suggest encounters with other ships?\nWhat is the significance of Chapter 106, \"Ahab\u2019s Leg\"?\nHow does the text transition from descriptive chapters to those focused on specific characters?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.9218043924993253,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951513.3390815,
+      "question_id": "q_chunk_1_0",
+      "response_text": "Which character is introduced at the very beginning of the provided text?\nWhat is the subject matter of Chapter 55?\nWhat does Chapter 77 compare the sperm whale to?\nIn which chapter does the story of the Jeroboam appear?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.9218043924993253,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951513.3390865,
+      "question_id": "q_chunk_1_1",
+      "response_text": "Which character is introduced at the very beginning of the provided text?\nWhat is the subject matter of Chapter 55?\nWhat does Chapter 77 compare the sperm whale to?\nIn which chapter does the story of the Jeroboam appear?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.9218043924993253,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951513.3390884,
+      "question_id": "q_chunk_1_2",
+      "response_text": "Which character is introduced at the very beginning of the provided text?\nWhat is the subject matter of Chapter 55?\nWhat does Chapter 77 compare the sperm whale to?\nIn which chapter does the story of the Jeroboam appear?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.9218043924993253,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951513.3390899,
+      "question_id": "q_chunk_1_3",
+      "response_text": "Which character is introduced at the very beginning of the provided text?\nWhat is the subject matter of Chapter 55?\nWhat does Chapter 77 compare the sperm whale to?\nIn which chapter does the story of the Jeroboam appear?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.241067066246615,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 14,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951519.2863674,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the source of this text a combination of?\nWho is the \u201cpale Usher\u201d described in the etymology?\nWhat does Hackluyt criticize regarding the teaching of whale names?\nAccording to Webster\u2019s Dictionary, what is the origin of the word \"whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.241067066246615,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 14,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951519.2863736,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the source of this text a combination of?\nWho is the \u201cpale Usher\u201d described in the etymology?\nWhat does Hackluyt criticize regarding the teaching of whale names?\nAccording to Webster\u2019s Dictionary, what is the origin of the word \"whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.241067066246615,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 14,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951519.286376,
+      "question_id": "q_chunk_3_2",
+      "response_text": "What is the source of this text a combination of?\nWho is the \u201cpale Usher\u201d described in the etymology?\nWhat does Hackluyt criticize regarding the teaching of whale names?\nAccording to Webster\u2019s Dictionary, what is the origin of the word \"whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.241067066246615,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 14,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951519.2863777,
+      "question_id": "q_chunk_3_3",
+      "response_text": "What is the source of this text a combination of?\nWho is the \u201cpale Usher\u201d described in the etymology?\nWhat does Hackluyt criticize regarding the teaching of whale names?\nAccording to Webster\u2019s Dictionary, what is the origin of the word \"whale\"?"
+    }
+  ]
+}

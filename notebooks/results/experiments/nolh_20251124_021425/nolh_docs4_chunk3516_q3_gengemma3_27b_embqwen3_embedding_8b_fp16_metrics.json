@@ -1,0 +1,223 @@
+{
+  "export_timestamp": "2025-11-24T02:30:43.089415",
+  "export_timestamp_readable": "2025-11-24 02:30:43",
+  "num_metrics": 16,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.5010494419984752,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951421.5722373,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.761628645006567,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951422.8334272,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 5.954949869992561,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951424.0248966,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.550010769002256,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951425.122699,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0952879576652776,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951428.4106932,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nWhat date was this eBook released?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0952879576652776,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951428.4106987,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nWhat date was this eBook released?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0952879576652776,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951428.410701,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nWhat date was this eBook released?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.094150412667659,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 19,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951434.4088144,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What objects or concepts are repeatedly referenced as encounters for the Pequod?\nHow do chapters focusing on specific people (e.g., The Carpenter, Ahab) differ from those describing objects or phenomena?\nWhat is the potential significance of the chapters\u2019 titles being so varied in subject matter?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.094150412667659,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 19,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951434.4088182,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What objects or concepts are repeatedly referenced as encounters for the Pequod?\nHow do chapters focusing on specific people (e.g., The Carpenter, Ahab) differ from those describing objects or phenomena?\nWhat is the potential significance of the chapters\u2019 titles being so varied in subject matter?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.094150412667659,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 19,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951434.4088192,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What objects or concepts are repeatedly referenced as encounters for the Pequod?\nHow do chapters focusing on specific people (e.g., The Carpenter, Ahab) differ from those describing objects or phenomena?\nWhat is the potential significance of the chapters\u2019 titles being so varied in subject matter?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.650539485000384,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951439.0766096,
+      "question_id": "q_chunk_1_0",
+      "response_text": "Which character is introduced at the very beginning of the provided text?\nWhat broad subject does the majority of these chapter titles suggest?\nWhat is the subject of both Chapter 74 and Chapter 75?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.650539485000384,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951439.0766144,
+      "question_id": "q_chunk_1_1",
+      "response_text": "Which character is introduced at the very beginning of the provided text?\nWhat broad subject does the majority of these chapter titles suggest?\nWhat is the subject of both Chapter 74 and Chapter 75?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.650539485000384,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951439.0766165,
+      "question_id": "q_chunk_1_2",
+      "response_text": "Which character is introduced at the very beginning of the provided text?\nWhat broad subject does the majority of these chapter titles suggest?\nWhat is the subject of both Chapter 74 and Chapter 75?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.89161529999789,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 12,
+        "total_tokens": 534,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951443.0863545,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the source of this text comprised of?\nWho is the \"pale Usher\" described in the etymology?\nWhat does the quote from Hackluyt criticize?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.89161529999789,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 12,
+        "total_tokens": 534,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951443.0863588,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the source of this text comprised of?\nWho is the \"pale Usher\" described in the etymology?\nWhat does the quote from Hackluyt criticize?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.89161529999789,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 12,
+        "total_tokens": 534,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951443.0863597,
+      "question_id": "q_chunk_3_2",
+      "response_text": "What is the source of this text comprised of?\nWho is the \"pale Usher\" described in the etymology?\nWhat does the quote from Hackluyt criticize?"
+    }
+  ]
+}

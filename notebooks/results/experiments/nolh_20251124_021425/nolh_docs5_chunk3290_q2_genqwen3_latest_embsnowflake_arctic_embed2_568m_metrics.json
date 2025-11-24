@@ -1,0 +1,207 @@
+{
+  "export_timestamp": "2025-11-24T02:25:16.666728",
+  "export_timestamp_readable": "2025-11-24 02:25:16",
+  "num_metrics": 15,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.120485967010609,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951056.4931204,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.179567083992879,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951056.5535283,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.2407544669986237,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951056.614093,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.17687131500861142,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951056.6702943,
+      "chunk_id": "chunk_3",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1568700850039022,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951056.7107375,
+      "chunk_id": "chunk_4",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.8152696449978976,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951064.3441665,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of the chapters listed in the text?  \nWhat symbolic meaning does the whale hold in the context of the narrative?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.8152696449978976,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951064.3441715,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of the chapters listed in the text?  \nWhat symbolic meaning does the whale hold in the context of the narrative?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 17.496016125995084,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 15,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951091.7066936,
+      "question_id": "q_chunk_2_0",
+      "response_text": "Which chapter discusses the historical regard of Jonah?  \nWhat is the significance of the chapter titled \"The Fossil Whale\" in the context of the novel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 17.496016125995084,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 15,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951091.706699,
+      "question_id": "q_chunk_2_1",
+      "response_text": "Which chapter discusses the historical regard of Jonah?  \nWhat is the significance of the chapter titled \"The Fossil Whale\" in the context of the novel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 21.388112849497702,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951099.489793,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What are the terms of the Project Gutenberg License for this eBook?  \nWhich chapter introduces the character Ahab?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 21.388112849497702,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951099.4897966,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What are the terms of the Project Gutenberg License for this eBook?  \nWhich chapter introduces the character Ahab?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 22.13940889150399,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 17,
+        "total_tokens": 539,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951108.6239703,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What chapter discusses the encounter between the Pequod and the Rachel?  \nWhat is the etymological origin of the word \"whale\" according to the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 22.13940889150399,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 17,
+        "total_tokens": 539,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951108.6239736,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What chapter discusses the encounter between the Pequod and the Rachel?  \nWhat is the etymological origin of the word \"whale\" according to the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.477806173003046,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 20,
+        "total_tokens": 519,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951116.663496,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What are the linguistic origins of the word \"whale\" according to the text?  \nWhat is the significance of the extracts provided by the Sub-Sub Librarian in the context of cetology?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.477806173003046,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 20,
+        "total_tokens": 519,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951116.6635027,
+      "question_id": "q_chunk_4_1",
+      "response_text": "What are the linguistic origins of the word \"whale\" according to the text?  \nWhat is the significance of the extracts provided by the Sub-Sub Librarian in the context of cetology?"
+    }
+  ]
+}

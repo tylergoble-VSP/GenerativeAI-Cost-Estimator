@@ -1,0 +1,619 @@
+{
+  "export_timestamp": "2025-11-24T02:55:02.545709",
+  "export_timestamp_readable": "2025-11-24 02:55:02",
+  "num_metrics": 45,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.14047321199905127,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952850.0565975,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.20041027999832295,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952850.115284,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.25798408400441986,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952850.1752243,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.17701343999942765,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952850.2340884,
+      "chunk_id": "chunk_3",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1572670910099987,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952850.2730417,
+      "chunk_id": "chunk_4",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.19079712299571838,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952850.3663585,
+      "chunk_id": "chunk_5",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1993543840071652,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952850.4339094,
+      "chunk_id": "chunk_6",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.22036875800404232,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952850.4939096,
+      "chunk_id": "chunk_7",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1855764779902529,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952850.5522642,
+      "chunk_id": "chunk_8",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.2910604567514383,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 11,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952859.7191901,
+      "question_id": "q_chunk_2_0",
+      "response_text": "Which chapter title references a \"Fossil Whale\"?  \nIn which chapter does the Pequod meet the Rose\u2011Bud?  \nWhat is the significance of chapter 108?  \nWhich chapter mentions a \"Blacksmith\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.2910604567514383,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 11,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952859.7191944,
+      "question_id": "q_chunk_2_1",
+      "response_text": "Which chapter title references a \"Fossil Whale\"?  \nIn which chapter does the Pequod meet the Rose\u2011Bud?  \nWhat is the significance of chapter 108?  \nWhich chapter mentions a \"Blacksmith\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.2910604567514383,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 11,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952859.7191951,
+      "question_id": "q_chunk_2_2",
+      "response_text": "Which chapter title references a \"Fossil Whale\"?  \nIn which chapter does the Pequod meet the Rose\u2011Bud?  \nWhat is the significance of chapter 108?  \nWhich chapter mentions a \"Blacksmith\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.2910604567514383,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 11,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952859.7191958,
+      "question_id": "q_chunk_2_3",
+      "response_text": "Which chapter title references a \"Fossil Whale\"?  \nIn which chapter does the Pequod meet the Rose\u2011Bud?  \nWhat is the significance of chapter 108?  \nWhich chapter mentions a \"Blacksmith\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.496255969501362,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952868.5391898,
+      "question_id": "q_chunk_1_0",
+      "response_text": "Which chapter is titled \u201cThe Sphynx\u201d?  \nWhich chapter refers to \u201cFedallah\u201d?  \nWhich chapter number appears without a title?  \nWhich chapter discusses \u201cThe Whiteness of the Whale\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.496255969501362,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952868.5391924,
+      "question_id": "q_chunk_1_1",
+      "response_text": "Which chapter is titled \u201cThe Sphynx\u201d?  \nWhich chapter refers to \u201cFedallah\u201d?  \nWhich chapter number appears without a title?  \nWhich chapter discusses \u201cThe Whiteness of the Whale\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.496255969501362,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952868.5391934,
+      "question_id": "q_chunk_1_2",
+      "response_text": "Which chapter is titled \u201cThe Sphynx\u201d?  \nWhich chapter refers to \u201cFedallah\u201d?  \nWhich chapter number appears without a title?  \nWhich chapter discusses \u201cThe Whiteness of the Whale\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.496255969501362,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952868.539194,
+      "question_id": "q_chunk_1_3",
+      "response_text": "Which chapter is titled \u201cThe Sphynx\u201d?  \nWhich chapter refers to \u201cFedallah\u201d?  \nWhich chapter number appears without a title?  \nWhich chapter discusses \u201cThe Whiteness of the Whale\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.1912622725030815,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952871.3186662,
+      "question_id": "q_chunk_0_0",
+      "response_text": "When was the Project Gutenberg eBook of *Moby Dick* most recently updated?  \nWhich chapters in the eBook are titled \"Knights and Squires\"?  \nWho are the individuals credited for this Project Gutenberg eBook?  \nWhat is the license that allows copying, giving away, or re\u2011using this eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.1912622725030815,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952871.3186688,
+      "question_id": "q_chunk_0_1",
+      "response_text": "When was the Project Gutenberg eBook of *Moby Dick* most recently updated?  \nWhich chapters in the eBook are titled \"Knights and Squires\"?  \nWho are the individuals credited for this Project Gutenberg eBook?  \nWhat is the license that allows copying, giving away, or re\u2011using this eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.1912622725030815,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952871.3186698,
+      "question_id": "q_chunk_0_2",
+      "response_text": "When was the Project Gutenberg eBook of *Moby Dick* most recently updated?  \nWhich chapters in the eBook are titled \"Knights and Squires\"?  \nWho are the individuals credited for this Project Gutenberg eBook?  \nWhat is the license that allows copying, giving away, or re\u2011using this eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.1912622725030815,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952871.3186705,
+      "question_id": "q_chunk_0_3",
+      "response_text": "When was the Project Gutenberg eBook of *Moby Dick* most recently updated?  \nWhich chapters in the eBook are titled \"Knights and Squires\"?  \nWho are the individuals credited for this Project Gutenberg eBook?  \nWhat is the license that allows copying, giving away, or re\u2011using this eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.967952224502369,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 13,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952875.5918486,
+      "question_id": "q_chunk_3_0",
+      "response_text": "Which project provided the etext version of the text?  \nWhat is the significance of the chapter titled \"The Needle\"?  \nWho supplied the etymology section of this text?  \nHow does Hackluyt's quotation relate to the meaning of \"whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.967952224502369,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 13,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952875.5918512,
+      "question_id": "q_chunk_3_1",
+      "response_text": "Which project provided the etext version of the text?  \nWhat is the significance of the chapter titled \"The Needle\"?  \nWho supplied the etymology section of this text?  \nHow does Hackluyt's quotation relate to the meaning of \"whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.967952224502369,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 13,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952875.591852,
+      "question_id": "q_chunk_3_2",
+      "response_text": "Which project provided the etext version of the text?  \nWhat is the significance of the chapter titled \"The Needle\"?  \nWho supplied the etymology section of this text?  \nHow does Hackluyt's quotation relate to the meaning of \"whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.967952224502369,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 13,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952875.591853,
+      "question_id": "q_chunk_3_3",
+      "response_text": "Which project provided the etext version of the text?  \nWhat is the significance of the chapter titled \"The Needle\"?  \nWho supplied the etymology section of this text?  \nHow does Hackluyt's quotation relate to the meaning of \"whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.7016548555002373,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 24,
+        "total_tokens": 523,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952879.3467247,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What is the significance of the repeated references to \u201chiggledy-piggledy whale statements\u201d in the text?  \nHow does the author use the list of linguistic variations (e.g., Hebrew, Greek, Latin) to support the etymological claim?  \nWhat tone does the author employ when describing themselves as a \u201cpoor devil of a Sub-Sub\u201d?  \nWhy does the author caution readers not to treat the extracted whale statements as \u201cveritable gospel cetology\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.7016548555002373,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 24,
+        "total_tokens": 523,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952879.3467288,
+      "question_id": "q_chunk_4_1",
+      "response_text": "What is the significance of the repeated references to \u201chiggledy-piggledy whale statements\u201d in the text?  \nHow does the author use the list of linguistic variations (e.g., Hebrew, Greek, Latin) to support the etymological claim?  \nWhat tone does the author employ when describing themselves as a \u201cpoor devil of a Sub-Sub\u201d?  \nWhy does the author caution readers not to treat the extracted whale statements as \u201cveritable gospel cetology\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.7016548555002373,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 24,
+        "total_tokens": 523,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952879.3467295,
+      "question_id": "q_chunk_4_2",
+      "response_text": "What is the significance of the repeated references to \u201chiggledy-piggledy whale statements\u201d in the text?  \nHow does the author use the list of linguistic variations (e.g., Hebrew, Greek, Latin) to support the etymological claim?  \nWhat tone does the author employ when describing themselves as a \u201cpoor devil of a Sub-Sub\u201d?  \nWhy does the author caution readers not to treat the extracted whale statements as \u201cveritable gospel cetology\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.7016548555002373,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 24,
+        "total_tokens": 523,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952879.3467302,
+      "question_id": "q_chunk_4_3",
+      "response_text": "What is the significance of the repeated references to \u201chiggledy-piggledy whale statements\u201d in the text?  \nHow does the author use the list of linguistic variations (e.g., Hebrew, Greek, Latin) to support the etymological claim?  \nWhat tone does the author employ when describing themselves as a \u201cpoor devil of a Sub-Sub\u201d?  \nWhy does the author caution readers not to treat the extracted whale statements as \u201cveritable gospel cetology\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.690469325749291,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 18,
+        "total_tokens": 534,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952886.0814297,
+      "question_id": "q_chunk_5_0",
+      "response_text": "Who is described as the \"Sub-Sub\" in the narrator\u2019s lament?  \nWhich biblical passages are quoted as references to Leviathan?  \nWhat is the primary emotional tone conveyed when the narrator speaks about \u201cSub-Subs\u201d?  \nHow does the author use the phrase \u201cclear out the seven-storied heavens\u201d in relation to the theme of Leviathan?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.690469325749291,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 18,
+        "total_tokens": 534,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952886.081432,
+      "question_id": "q_chunk_5_1",
+      "response_text": "Who is described as the \"Sub-Sub\" in the narrator\u2019s lament?  \nWhich biblical passages are quoted as references to Leviathan?  \nWhat is the primary emotional tone conveyed when the narrator speaks about \u201cSub-Subs\u201d?  \nHow does the author use the phrase \u201cclear out the seven-storied heavens\u201d in relation to the theme of Leviathan?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.690469325749291,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 18,
+        "total_tokens": 534,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952886.081433,
+      "question_id": "q_chunk_5_2",
+      "response_text": "Who is described as the \"Sub-Sub\" in the narrator\u2019s lament?  \nWhich biblical passages are quoted as references to Leviathan?  \nWhat is the primary emotional tone conveyed when the narrator speaks about \u201cSub-Subs\u201d?  \nHow does the author use the phrase \u201cclear out the seven-storied heavens\u201d in relation to the theme of Leviathan?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.690469325749291,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 18,
+        "total_tokens": 534,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952886.0814338,
+      "question_id": "q_chunk_5_3",
+      "response_text": "Who is described as the \"Sub-Sub\" in the narrator\u2019s lament?  \nWhich biblical passages are quoted as references to Leviathan?  \nWhat is the primary emotional tone conveyed when the narrator speaks about \u201cSub-Subs\u201d?  \nHow does the author use the phrase \u201cclear out the seven-storied heavens\u201d in relation to the theme of Leviathan?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.227711051498773,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 18,
+        "total_tokens": 534,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952892.503534,
+      "question_id": "q_chunk_6_0",
+      "response_text": "Who is described as slaying Leviathan in the Isaiah excerpt?  \nAccording to Holland\u2019s Plutarch\u2019s Morals, what happens to anything that enters the monster\u2019s mouth?  \nWhat is the length of the largest whales mentioned in Holland\u2019s Pliny?  \nHow many whales did the narrator claim to have killed in two days according to the account from King Alfred?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.227711051498773,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 18,
+        "total_tokens": 534,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952892.5035381,
+      "question_id": "q_chunk_6_1",
+      "response_text": "Who is described as slaying Leviathan in the Isaiah excerpt?  \nAccording to Holland\u2019s Plutarch\u2019s Morals, what happens to anything that enters the monster\u2019s mouth?  \nWhat is the length of the largest whales mentioned in Holland\u2019s Pliny?  \nHow many whales did the narrator claim to have killed in two days according to the account from King Alfred?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.227711051498773,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 18,
+        "total_tokens": 534,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952892.503539,
+      "question_id": "q_chunk_6_2",
+      "response_text": "Who is described as slaying Leviathan in the Isaiah excerpt?  \nAccording to Holland\u2019s Plutarch\u2019s Morals, what happens to anything that enters the monster\u2019s mouth?  \nWhat is the length of the largest whales mentioned in Holland\u2019s Pliny?  \nHow many whales did the narrator claim to have killed in two days according to the account from King Alfred?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.227711051498773,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 18,
+        "total_tokens": 534,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952892.50354,
+      "question_id": "q_chunk_6_3",
+      "response_text": "Who is described as slaying Leviathan in the Isaiah excerpt?  \nAccording to Holland\u2019s Plutarch\u2019s Morals, what happens to anything that enters the monster\u2019s mouth?  \nWhat is the length of the largest whales mentioned in Holland\u2019s Pliny?  \nHow many whales did the narrator claim to have killed in two days according to the account from King Alfred?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.555335618748359,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 18,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952897.569047,
+      "question_id": "q_chunk_7_0",
+      "response_text": "Which author refers to the whale's liver as two cartloads?  \nWhat is the significance of the term \u201cspermacetti\u201d in the quoted passages?  \nHow does the depiction of whales differ between Montaigne\u2019s and Bacon\u2019s quotes?  \nWhat literary device is employed in the line \u201cLike as the wounded whale to shore flies thro\u2019 the maine\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.555335618748359,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 18,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952897.569058,
+      "question_id": "q_chunk_7_1",
+      "response_text": "Which author refers to the whale's liver as two cartloads?  \nWhat is the significance of the term \u201cspermacetti\u201d in the quoted passages?  \nHow does the depiction of whales differ between Montaigne\u2019s and Bacon\u2019s quotes?  \nWhat literary device is employed in the line \u201cLike as the wounded whale to shore flies thro\u2019 the maine\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.555335618748359,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 18,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952897.5690591,
+      "question_id": "q_chunk_7_2",
+      "response_text": "Which author refers to the whale's liver as two cartloads?  \nWhat is the significance of the term \u201cspermacetti\u201d in the quoted passages?  \nHow does the depiction of whales differ between Montaigne\u2019s and Bacon\u2019s quotes?  \nWhat literary device is employed in the line \u201cLike as the wounded whale to shore flies thro\u2019 the maine\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.555335618748359,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 18,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952897.56906,
+      "question_id": "q_chunk_7_3",
+      "response_text": "Which author refers to the whale's liver as two cartloads?  \nWhat is the significance of the term \u201cspermacetti\u201d in the quoted passages?  \nHow does the depiction of whales differ between Montaigne\u2019s and Bacon\u2019s quotes?  \nWhat literary device is employed in the line \u201cLike as the wounded whale to shore flies thro\u2019 the maine\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.1146319795007,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 18,
+        "total_tokens": 545,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952902.540807,
+      "question_id": "q_chunk_8_0",
+      "response_text": "Which philosophical work uses the phrase \u201cart is created that great Leviathan\u201d to describe a state?  \nHow does the text portray the Leviathan in comparison to other sea creatures?  \nWhich quote describes a whale's breath as \u201cspouts out a sea\u201d?  \nWhat does the passage from Thomas Edge\u2019s Ten Voyages describe about the treatment of a whale\u2019s head?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.1146319795007,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 18,
+        "total_tokens": 545,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952902.5408094,
+      "question_id": "q_chunk_8_1",
+      "response_text": "Which philosophical work uses the phrase \u201cart is created that great Leviathan\u201d to describe a state?  \nHow does the text portray the Leviathan in comparison to other sea creatures?  \nWhich quote describes a whale's breath as \u201cspouts out a sea\u201d?  \nWhat does the passage from Thomas Edge\u2019s Ten Voyages describe about the treatment of a whale\u2019s head?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.1146319795007,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 18,
+        "total_tokens": 545,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952902.5408103,
+      "question_id": "q_chunk_8_2",
+      "response_text": "Which philosophical work uses the phrase \u201cart is created that great Leviathan\u201d to describe a state?  \nHow does the text portray the Leviathan in comparison to other sea creatures?  \nWhich quote describes a whale's breath as \u201cspouts out a sea\u201d?  \nWhat does the passage from Thomas Edge\u2019s Ten Voyages describe about the treatment of a whale\u2019s head?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.1146319795007,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 18,
+        "total_tokens": 545,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952902.540811,
+      "question_id": "q_chunk_8_3",
+      "response_text": "Which philosophical work uses the phrase \u201cart is created that great Leviathan\u201d to describe a state?  \nHow does the text portray the Leviathan in comparison to other sea creatures?  \nWhich quote describes a whale's breath as \u201cspouts out a sea\u201d?  \nWhat does the passage from Thomas Edge\u2019s Ten Voyages describe about the treatment of a whale\u2019s head?"
+    }
+  ]
+}

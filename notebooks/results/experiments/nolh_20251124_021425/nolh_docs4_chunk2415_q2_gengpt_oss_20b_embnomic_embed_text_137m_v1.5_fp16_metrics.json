@@ -1,0 +1,167 @@
+{
+  "export_timestamp": "2025-11-24T03:20:31.805920",
+  "export_timestamp_readable": "2025-11-24 03:20:31",
+  "num_metrics": 12,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.9795184520044131,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954418.8129241,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.9961694800003897,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954418.8279753,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.030580384991481,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954418.8628674,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.06676450700615533,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954418.880022,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2412324125034502,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 16,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954421.364938,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What overarching themes can be inferred from the progression of chapter titles in this text?  \nWhich chapter titles suggest a transition from narrative action to reflective or descriptive commentary?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2412324125034502,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 16,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954421.364945,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What overarching themes can be inferred from the progression of chapter titles in this text?  \nWhich chapter titles suggest a transition from narrative action to reflective or descriptive commentary?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.9772161495056935,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 19,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954424.8370302,
+      "question_id": "q_chunk_2_0",
+      "response_text": "Which chapter title references a famous biblical figure, and what historical perspective does it offer?  \nWhat is the thematic significance of the repeated motif \"The Pequod Meets ...\" across multiple chapters?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.9772161495056935,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 19,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954424.8370326,
+      "question_id": "q_chunk_2_1",
+      "response_text": "Which chapter title references a famous biblical figure, and what historical perspective does it offer?  \nWhat is the thematic significance of the repeated motif \"The Pequod Meets ...\" across multiple chapters?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.305017758495524,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 17,
+        "total_tokens": 560,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954429.4916553,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date and most recent update date of the Project Gutenberg eBook of Moby Dick?  \nWho are the credited contributors mentioned in the eBook's information section?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.305017758495524,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 17,
+        "total_tokens": 560,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954429.491661,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the release date and most recent update date of the Project Gutenberg eBook of Moby Dick?  \nWho are the credited contributors mentioned in the eBook's information section?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.217626196499623,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 15,
+        "total_tokens": 537,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954431.801271,
+      "question_id": "q_chunk_3_0",
+      "response_text": "Which chapter describes the Pequod meeting the Rachel?  \nWhat is the origin of the etymology section provided in the original transcriber\u2019s notes?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.217626196499623,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 15,
+        "total_tokens": 537,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954431.8012748,
+      "question_id": "q_chunk_3_1",
+      "response_text": "Which chapter describes the Pequod meeting the Rachel?  \nWhat is the origin of the etymology section provided in the original transcriber\u2019s notes?"
+    }
+  ]
+}

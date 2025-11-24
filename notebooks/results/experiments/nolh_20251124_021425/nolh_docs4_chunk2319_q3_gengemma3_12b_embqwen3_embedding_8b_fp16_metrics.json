@@ -1,0 +1,223 @@
+{
+  "export_timestamp": "2025-11-24T03:45:08.649887",
+  "export_timestamp_readable": "2025-11-24 03:45:08",
+  "num_metrics": 16,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 6.911225158008165,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955893.1373866,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 8.136306244006846,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955894.3629732,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 9.424779995999415,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955895.6522083,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.648720390003291,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955896.786485,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.102049806334738,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955903.0944276,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the purpose of Project Gutenberg, according to the text?\nWho is the author of Moby Dick; Or, The Whale?\nWhat is the release date of this ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.102049806334738,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955903.094432,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the purpose of Project Gutenberg, according to the text?\nWho is the author of Moby Dick; Or, The Whale?\nWhat is the release date of this ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.102049806334738,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955903.0944338,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the purpose of Project Gutenberg, according to the text?\nWho is the author of Moby Dick; Or, The Whale?\nWhat is the release date of this ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.5938564596678284,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955904.570094,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of \"Enter Ahab\"?\nWhich chapter focuses on cetology?\nWhat event occurs in Chapter 61?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.5938564596678284,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955904.570098,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of \"Enter Ahab\"?\nWhich chapter focuses on cetology?\nWhat event occurs in Chapter 61?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.5938564596678284,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955904.5700998,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What is the significance of \"Enter Ahab\"?\nWhich chapter focuses on cetology?\nWhat event occurs in Chapter 61?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.150548047667447,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 8,
+        "total_tokens": 547,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955906.2415986,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is discussed in Chapter 82?\nWhat event occurs in Chapter 115?\nWhat is the subject of Chapter 106?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.150548047667447,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 8,
+        "total_tokens": 547,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955906.2416046,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is discussed in Chapter 82?\nWhat event occurs in Chapter 115?\nWhat is the subject of Chapter 106?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.150548047667447,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 8,
+        "total_tokens": 547,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955906.2416067,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What is discussed in Chapter 82?\nWhat event occurs in Chapter 115?\nWhat is the subject of Chapter 106?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.8497534023335902,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 17,
+        "total_tokens": 539,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955908.6445663,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What does the Usher do to his old lexicons and grammars?\nWhat is the significance of the letter \"H\" in relation to the word \"whale\"?\nAccording to Webster's Dictionary, what is the origin of the word \"whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.8497534023335902,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 17,
+        "total_tokens": 539,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955908.64457,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What does the Usher do to his old lexicons and grammars?\nWhat is the significance of the letter \"H\" in relation to the word \"whale\"?\nAccording to Webster's Dictionary, what is the origin of the word \"whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.8497534023335902,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 17,
+        "total_tokens": 539,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955908.6445708,
+      "question_id": "q_chunk_3_2",
+      "response_text": "What does the Usher do to his old lexicons and grammars?\nWhat is the significance of the letter \"H\" in relation to the word \"whale\"?\nAccording to Webster's Dictionary, what is the origin of the word \"whale\"?"
+    }
+  ]
+}

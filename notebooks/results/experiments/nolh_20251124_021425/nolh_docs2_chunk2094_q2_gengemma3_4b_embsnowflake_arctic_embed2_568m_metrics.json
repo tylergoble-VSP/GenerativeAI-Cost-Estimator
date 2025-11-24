@@ -1,0 +1,87 @@
+{
+  "export_timestamp": "2025-11-24T03:16:10.120721",
+  "export_timestamp_readable": "2025-11-24 03:16:10",
+  "num_metrics": 6,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.0284338789933827,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954166.7995384,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.087982489989372,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954166.8599818,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3140259200008586,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954169.48944,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date of this Project Gutenberg eBook?\nWhat is the author's name of the book \"Moby Dick; Or, The Whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3140259200008586,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954169.4894426,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the release date of this Project Gutenberg eBook?\nWhat is the author's name of the book \"Moby Dick; Or, The Whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.6282299290032825,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 16,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954170.1180136,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of the repeated entries of \"Ahab; to Him, Stubb\"?\nWhat types of materials are mentioned as being used to depict whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.6282299290032825,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 16,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954170.1180162,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of the repeated entries of \"Ahab; to Him, Stubb\"?\nWhat types of materials are mentioned as being used to depict whales?"
+    }
+  ]
+}

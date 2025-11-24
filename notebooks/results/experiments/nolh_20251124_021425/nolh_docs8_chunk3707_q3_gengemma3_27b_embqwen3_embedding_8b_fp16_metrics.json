@@ -1,0 +1,439 @@
+{
+  "export_timestamp": "2025-11-24T03:51:32.272458",
+  "export_timestamp_readable": "2025-11-24 03:51:32",
+  "num_metrics": 32,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.5620095819904236,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956243.04144,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.804156680009328,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956244.2837944,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 5.9770224090025295,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956245.4556737,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.4964419070020085,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956246.538213,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.229624936997425,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956247.5137985,
+      "chunk_id": "chunk_4",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.039319773000898,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956248.4954944,
+      "chunk_id": "chunk_5",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.9454073640081333,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956249.4840457,
+      "chunk_id": "chunk_6",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.959150457987562,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956250.4732876,
+      "chunk_id": "chunk_7",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.8803561730019283,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956259.1161182,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the title of the book described in the text?\nAccording to the text, who is the author of this eBook?\nWhat website is mentioned regarding the Project Gutenberg License?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.8803561730019283,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956259.1161249,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the title of the book described in the text?\nAccording to the text, who is the author of this eBook?\nWhat website is mentioned regarding the Project Gutenberg License?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.8803561730019283,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956259.116126,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the title of the book described in the text?\nAccording to the text, who is the author of this eBook?\nWhat website is mentioned regarding the Project Gutenberg License?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.404051291998864,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956263.6874776,
+      "question_id": "q_chunk_1_0",
+      "response_text": "Which character is introduced at the very beginning of the provided text?\nWhat broad topic does the majority of these chapter titles suggest?\nWhat is the significance of chapter 79 being only a number?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.404051291998864,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956263.6874845,
+      "question_id": "q_chunk_1_1",
+      "response_text": "Which character is introduced at the very beginning of the provided text?\nWhat broad topic does the majority of these chapter titles suggest?\nWhat is the significance of chapter 79 being only a number?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.404051291998864,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956263.6874866,
+      "question_id": "q_chunk_1_2",
+      "response_text": "Which character is introduced at the very beginning of the provided text?\nWhat broad topic does the majority of these chapter titles suggest?\nWhat is the significance of chapter 79 being only a number?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.811304962335271,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 11,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956267.9095228,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What objects or concepts are repeatedly referenced as chapters?\nHow does the text structure suggest a progression of events or themes?\nWhat is the significance of repeatedly naming encounters with other ships?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.811304962335271,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 11,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956267.9095259,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What objects or concepts are repeatedly referenced as chapters?\nHow does the text structure suggest a progression of events or themes?\nWhat is the significance of repeatedly naming encounters with other ships?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.811304962335271,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 11,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956267.9095268,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What objects or concepts are repeatedly referenced as chapters?\nHow does the text structure suggest a progression of events or themes?\nWhat is the significance of repeatedly naming encounters with other ships?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.353171584332206,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 12,
+        "total_tokens": 534,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956272.176542,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the origin of the word \"whale\" according to Webster\u2019s Dictionary?\nFrom what sources was this text compiled?\nWhat detail is highlighted about the \"pale Usher?\"\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.353171584332206,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 12,
+        "total_tokens": 534,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956272.176548,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the origin of the word \"whale\" according to Webster\u2019s Dictionary?\nFrom what sources was this text compiled?\nWhat detail is highlighted about the \"pale Usher?\"\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.353171584332206,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 12,
+        "total_tokens": 534,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956272.176549,
+      "question_id": "q_chunk_3_2",
+      "response_text": "What is the origin of the word \"whale\" according to Webster\u2019s Dictionary?\nFrom what sources was this text compiled?\nWhat detail is highlighted about the \"pale Usher?\"\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.717151534001459,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 18,
+        "total_tokens": 517,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956277.8400853,
+      "question_id": "q_chunk_4_0",
+      "response_text": "According to the text, from what languages does the word \"whale\" originate?\nWhat does the text suggest about the reliability of the \"whale statements\" in the extracts?\nWhat is the role of the Sub-Sub-Librarian, according to the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.717151534001459,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 18,
+        "total_tokens": 517,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956277.8400905,
+      "question_id": "q_chunk_4_1",
+      "response_text": "According to the text, from what languages does the word \"whale\" originate?\nWhat does the text suggest about the reliability of the \"whale statements\" in the extracts?\nWhat is the role of the Sub-Sub-Librarian, according to the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.717151534001459,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 18,
+        "total_tokens": 517,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956277.8400927,
+      "question_id": "q_chunk_4_2",
+      "response_text": "According to the text, from what languages does the word \"whale\" originate?\nWhat does the text suggest about the reliability of the \"whale statements\" in the extracts?\nWhat is the role of the Sub-Sub-Librarian, according to the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.9347091696642265,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 15,
+        "total_tokens": 531,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956282.7145457,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the primary value of the extracts presented in the text?\nTo whom is the author addressing the plea to \"Give it up, Sub-Subs!\"?\nFrom which biblical books are the extracts concerning Leviathan taken?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.9347091696642265,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 15,
+        "total_tokens": 531,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956282.7145503,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the primary value of the extracts presented in the text?\nTo whom is the author addressing the plea to \"Give it up, Sub-Subs!\"?\nFrom which biblical books are the extracts concerning Leviathan taken?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.9347091696642265,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 15,
+        "total_tokens": 531,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956282.7145512,
+      "question_id": "q_chunk_5_2",
+      "response_text": "What is the primary value of the extracts presented in the text?\nTo whom is the author addressing the plea to \"Give it up, Sub-Subs!\"?\nFrom which biblical books are the extracts concerning Leviathan taken?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.956312673001473,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 12,
+        "total_tokens": 528,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956287.0465703,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What creatures are consistently described as enormous in the provided texts?\nHow do the texts portray the dangers associated with these sea creatures?\nWhat specific body parts of the whales are mentioned as being valuable?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.956312673001473,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 12,
+        "total_tokens": 528,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956287.046577,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What creatures are consistently described as enormous in the provided texts?\nHow do the texts portray the dangers associated with these sea creatures?\nWhat specific body parts of the whales are mentioned as being valuable?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.956312673001473,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 12,
+        "total_tokens": 528,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956287.0465791,
+      "question_id": "q_chunk_6_2",
+      "response_text": "What creatures are consistently described as enormous in the provided texts?\nHow do the texts portray the dangers associated with these sea creatures?\nWhat specific body parts of the whales are mentioned as being valuable?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.808313126666083,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 15,
+        "total_tokens": 547,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956292.2660043,
+      "question_id": "q_chunk_7_0",
+      "response_text": "What does the text suggest about the fate of most things entering a whale's mouth?\nAccording to the text, what is spermacetti considered by some to be?\nHow does the text describe the whale\u2019s impact on the ocean?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.808313126666083,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 15,
+        "total_tokens": 547,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956292.266009,
+      "question_id": "q_chunk_7_1",
+      "response_text": "What does the text suggest about the fate of most things entering a whale's mouth?\nAccording to the text, what is spermacetti considered by some to be?\nHow does the text describe the whale\u2019s impact on the ocean?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.808313126666083,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 15,
+        "total_tokens": 547,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956292.26601,
+      "question_id": "q_chunk_7_2",
+      "response_text": "What does the text suggest about the fate of most things entering a whale's mouth?\nAccording to the text, what is spermacetti considered by some to be?\nHow does the text describe the whale\u2019s impact on the ocean?"
+    }
+  ]
+}

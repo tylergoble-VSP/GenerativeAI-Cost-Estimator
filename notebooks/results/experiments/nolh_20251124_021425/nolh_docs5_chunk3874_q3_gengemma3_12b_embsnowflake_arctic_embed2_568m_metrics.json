@@ -1,0 +1,277 @@
+{
+  "export_timestamp": "2025-11-24T03:53:24.561330",
+  "export_timestamp_readable": "2025-11-24 03:53:24",
+  "num_metrics": 20,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.9242300710029667,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956394.0702782,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.9821008299913956,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956394.1294098,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.0427907729899744,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956394.1895378,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.17747018700174522,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956394.2482321,
+      "chunk_id": "chunk_3",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.15814708000107203,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956394.287857,
+      "chunk_id": "chunk_4",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6076635166682536,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 9,
+        "total_tokens": 548,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956396.1137474,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the subject of Chapter 75?\nWhich two ships does the Pequod encounter?\nWhat is the topic of Chapter 106?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6076635166682536,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 9,
+        "total_tokens": 548,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956396.11375,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the subject of Chapter 75?\nWhich two ships does the Pequod encounter?\nWhat is the topic of Chapter 106?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6076635166682536,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 9,
+        "total_tokens": 548,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956396.113751,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What is the subject of Chapter 75?\nWhich two ships does the Pequod encounter?\nWhat is the topic of Chapter 106?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2668762510002125,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956398.0906231,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the purpose of Project Gutenberg, according to this text?\nWho is the author of Moby Dick; Or, The Whale?\nWhat is the most recent update date for this ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2668762510002125,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956398.090627,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the purpose of Project Gutenberg, according to this text?\nWho is the author of Moby Dick; Or, The Whale?\nWhat is the most recent update date for this ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2668762510002125,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956398.090629,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the purpose of Project Gutenberg, according to this text?\nWho is the author of Moby Dick; Or, The Whale?\nWhat is the most recent update date for this ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.8775318463352353,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956399.9224794,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of Chapter 41?\nWhich character is associated with \u201cAhab\u2019s Boat and Crew\u201d?\nWhat is the subject of Chapter 55?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.8775318463352353,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956399.9224834,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of Chapter 41?\nWhich character is associated with \u201cAhab\u2019s Boat and Crew\u201d?\nWhat is the subject of Chapter 55?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.8775318463352353,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956399.9224844,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What is the significance of Chapter 41?\nWhich character is associated with \u201cAhab\u2019s Boat and Crew\u201d?\nWhat is the subject of Chapter 55?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.847527206336963,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 10,
+        "total_tokens": 532,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956401.6571906,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What does the Usher enjoy dusting?\nAccording to Webster\u2019s Dictionary, what does \u201cwhale\u201d signify?\nWhich two ships meet in Chapter 128?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.847527206336963,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 10,
+        "total_tokens": 532,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956401.6571932,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What does the Usher enjoy dusting?\nAccording to Webster\u2019s Dictionary, what does \u201cwhale\u201d signify?\nWhich two ships meet in Chapter 128?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.847527206336963,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 10,
+        "total_tokens": 532,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956401.6571941,
+      "question_id": "q_chunk_3_2",
+      "response_text": "What does the Usher enjoy dusting?\nAccording to Webster\u2019s Dictionary, what does \u201cwhale\u201d signify?\nWhich two ships meet in Chapter 128?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.1555244633345865,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 20,
+        "total_tokens": 519,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956404.5581303,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What is the meaning of the word \"whale\" according to Webster\u2019s Dictionary?\nAccording to the text, what is the role of the \"Sub-Sub-Librarian\"?\nWhat is the author's perspective on the \"higgledy-piggledy whale statements\" in the extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.1555244633345865,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 20,
+        "total_tokens": 519,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956404.5581338,
+      "question_id": "q_chunk_4_1",
+      "response_text": "What is the meaning of the word \"whale\" according to Webster\u2019s Dictionary?\nAccording to the text, what is the role of the \"Sub-Sub-Librarian\"?\nWhat is the author's perspective on the \"higgledy-piggledy whale statements\" in the extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.1555244633345865,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 20,
+        "total_tokens": 519,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956404.5581346,
+      "question_id": "q_chunk_4_2",
+      "response_text": "What is the meaning of the word \"whale\" according to Webster\u2019s Dictionary?\nAccording to the text, what is the role of the \"Sub-Sub-Librarian\"?\nWhat is the author's perspective on the \"higgledy-piggledy whale statements\" in the extracts?"
+    }
+  ]
+}

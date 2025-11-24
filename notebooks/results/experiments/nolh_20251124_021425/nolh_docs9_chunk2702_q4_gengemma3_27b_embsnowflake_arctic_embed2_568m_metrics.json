@@ -1,0 +1,619 @@
+{
+  "export_timestamp": "2025-11-24T03:00:23.255281",
+  "export_timestamp_readable": "2025-11-24 03:00:23",
+  "num_metrics": 45,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.024193635006668,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953166.662735,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.0846454159909626,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953166.7236779,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.1463776669988874,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953166.7842455,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.17961320299946237,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953166.8428748,
+      "chunk_id": "chunk_3",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1591863840003498,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953166.8832157,
+      "chunk_id": "chunk_4",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.21610161600983702,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953167.0008519,
+      "chunk_id": "chunk_5",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.24610957599361427,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953167.089461,
+      "chunk_id": "chunk_6",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.2664296419970924,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953167.149957,
+      "chunk_id": "chunk_7",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.21213680898654275,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953167.213315,
+      "chunk_id": "chunk_8",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.8752929269976448,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953174.7159252,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nWhen was the eBook released?\nWhat is mentioned regarding legal restrictions for users outside the United States?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.8752929269976448,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953174.7159276,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nWhen was the eBook released?\nWhat is mentioned regarding legal restrictions for users outside the United States?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.8752929269976448,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953174.7159286,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nWhen was the eBook released?\nWhat is mentioned regarding legal restrictions for users outside the United States?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.8752929269976448,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953174.7159293,
+      "question_id": "q_chunk_0_3",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nWhen was the eBook released?\nWhat is mentioned regarding legal restrictions for users outside the United States?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.2984001322511176,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 13,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953180.4101503,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What objects are repeatedly referenced alongside encounters with other ships?\nWhat chapter focuses on a historical interpretation of a biblical figure?\nBesides whaling itself, what other skilled trades are highlighted in these chapters?\nWhat physical part of the whale is specifically examined in multiple chapter titles?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.2984001322511176,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 13,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953180.4101555,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What objects are repeatedly referenced alongside encounters with other ships?\nWhat chapter focuses on a historical interpretation of a biblical figure?\nBesides whaling itself, what other skilled trades are highlighted in these chapters?\nWhat physical part of the whale is specifically examined in multiple chapter titles?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.2984001322511176,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 13,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953180.4101572,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What objects are repeatedly referenced alongside encounters with other ships?\nWhat chapter focuses on a historical interpretation of a biblical figure?\nBesides whaling itself, what other skilled trades are highlighted in these chapters?\nWhat physical part of the whale is specifically examined in multiple chapter titles?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.2984001322511176,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 13,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953180.4101589,
+      "question_id": "q_chunk_2_3",
+      "response_text": "What objects are repeatedly referenced alongside encounters with other ships?\nWhat chapter focuses on a historical interpretation of a biblical figure?\nBesides whaling itself, what other skilled trades are highlighted in these chapters?\nWhat physical part of the whale is specifically examined in multiple chapter titles?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.7193633347524155,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953186.0931365,
+      "question_id": "q_chunk_1_0",
+      "response_text": "Which character is introduced at the very beginning of the provided text?\nWhat is the subject of Chapter 32?\nWhat creature is featured in both Chapter 59 and Chapter 66?\nWhich chapter details a narrative told by the Town-Ho?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.7193633347524155,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953186.0931416,
+      "question_id": "q_chunk_1_1",
+      "response_text": "Which character is introduced at the very beginning of the provided text?\nWhat is the subject of Chapter 32?\nWhat creature is featured in both Chapter 59 and Chapter 66?\nWhich chapter details a narrative told by the Town-Ho?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.7193633347524155,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953186.0931435,
+      "question_id": "q_chunk_1_2",
+      "response_text": "Which character is introduced at the very beginning of the provided text?\nWhat is the subject of Chapter 32?\nWhat creature is featured in both Chapter 59 and Chapter 66?\nWhich chapter details a narrative told by the Town-Ho?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.7193633347524155,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953186.093145,
+      "question_id": "q_chunk_1_3",
+      "response_text": "Which character is introduced at the very beginning of the provided text?\nWhat is the subject of Chapter 32?\nWhat creature is featured in both Chapter 59 and Chapter 66?\nWhich chapter details a narrative told by the Town-Ho?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.233800442001666,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 13,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953191.6522489,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the source of this text a combination of?\nWho is the \u201cpale Usher\u201d described in the etymology?\nAccording to Hackluyt, what error does teaching others involve?\nWhat languages are cited as origins for the word \"whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.233800442001666,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 13,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953191.652254,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the source of this text a combination of?\nWho is the \u201cpale Usher\u201d described in the etymology?\nAccording to Hackluyt, what error does teaching others involve?\nWhat languages are cited as origins for the word \"whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.233800442001666,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 13,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953191.6522565,
+      "question_id": "q_chunk_3_2",
+      "response_text": "What is the source of this text a combination of?\nWho is the \u201cpale Usher\u201d described in the etymology?\nAccording to Hackluyt, what error does teaching others involve?\nWhat languages are cited as origins for the word \"whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.233800442001666,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 13,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953191.6522584,
+      "question_id": "q_chunk_3_3",
+      "response_text": "What is the source of this text a combination of?\nWho is the \u201cpale Usher\u201d described in the etymology?\nAccording to Hackluyt, what error does teaching others involve?\nWhat languages are cited as origins for the word \"whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.32490324875107,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 14,
+        "total_tokens": 513,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953197.7106576,
+      "question_id": "q_chunk_4_0",
+      "response_text": "According to Webster\u2019s Dictionary, from what characteristic is the animal named?\nWhat languages does the text indicate \u201cwhale\u201d or similar terms originate from?\nWhat does the author describe the Sub-Sub-Librarian as?\nAccording to the text, how should the extracts be interpreted?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.32490324875107,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 14,
+        "total_tokens": 513,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953197.7106616,
+      "question_id": "q_chunk_4_1",
+      "response_text": "According to Webster\u2019s Dictionary, from what characteristic is the animal named?\nWhat languages does the text indicate \u201cwhale\u201d or similar terms originate from?\nWhat does the author describe the Sub-Sub-Librarian as?\nAccording to the text, how should the extracts be interpreted?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.32490324875107,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 14,
+        "total_tokens": 513,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953197.7106624,
+      "question_id": "q_chunk_4_2",
+      "response_text": "According to Webster\u2019s Dictionary, from what characteristic is the animal named?\nWhat languages does the text indicate \u201cwhale\u201d or similar terms originate from?\nWhat does the author describe the Sub-Sub-Librarian as?\nAccording to the text, how should the extracts be interpreted?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.32490324875107,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 14,
+        "total_tokens": 513,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953197.710663,
+      "question_id": "q_chunk_4_3",
+      "response_text": "According to Webster\u2019s Dictionary, from what characteristic is the animal named?\nWhat languages does the text indicate \u201cwhale\u201d or similar terms originate from?\nWhat does the author describe the Sub-Sub-Librarian as?\nAccording to the text, how should the extracts be interpreted?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.255545577998419,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 13,
+        "total_tokens": 529,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953203.1163697,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the primary value of the extracts presented?\nTo what group does the author refer when using the term \u201cSub-Subs\u201d?\nWhat does the author suggest would not help the \u201cSub-Subs\u201d?\nFrom which books are the provided extracts taken?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.255545577998419,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 13,
+        "total_tokens": 529,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953203.1163747,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the primary value of the extracts presented?\nTo what group does the author refer when using the term \u201cSub-Subs\u201d?\nWhat does the author suggest would not help the \u201cSub-Subs\u201d?\nFrom which books are the provided extracts taken?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.255545577998419,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 13,
+        "total_tokens": 529,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953203.116377,
+      "question_id": "q_chunk_5_2",
+      "response_text": "What is the primary value of the extracts presented?\nTo what group does the author refer when using the term \u201cSub-Subs\u201d?\nWhat does the author suggest would not help the \u201cSub-Subs\u201d?\nFrom which books are the provided extracts taken?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.255545577998419,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 13,
+        "total_tokens": 529,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953203.1163788,
+      "question_id": "q_chunk_5_3",
+      "response_text": "What is the primary value of the extracts presented?\nTo what group does the author refer when using the term \u201cSub-Subs\u201d?\nWhat does the author suggest would not help the \u201cSub-Subs\u201d?\nFrom which books are the provided extracts taken?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.598820911251096,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 15,
+        "total_tokens": 531,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953210.0486355,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What creature is described as a \u201cpiercing serpent\u201d?\nWhat happens to anything entering the monster\u2019s mouth, according to Holland\u2019s Plutarch\u2019s Morals?\nHow large were some of the whales caught in King Alfred's time?\nWhat unique behavior does Montaigne attribute to the sea-gudgeon?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.598820911251096,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 15,
+        "total_tokens": 531,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953210.048641,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What creature is described as a \u201cpiercing serpent\u201d?\nWhat happens to anything entering the monster\u2019s mouth, according to Holland\u2019s Plutarch\u2019s Morals?\nHow large were some of the whales caught in King Alfred's time?\nWhat unique behavior does Montaigne attribute to the sea-gudgeon?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.598820911251096,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 15,
+        "total_tokens": 531,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953210.0486434,
+      "question_id": "q_chunk_6_2",
+      "response_text": "What creature is described as a \u201cpiercing serpent\u201d?\nWhat happens to anything entering the monster\u2019s mouth, according to Holland\u2019s Plutarch\u2019s Morals?\nHow large were some of the whales caught in King Alfred's time?\nWhat unique behavior does Montaigne attribute to the sea-gudgeon?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.598820911251096,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 15,
+        "total_tokens": 531,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953210.0486448,
+      "question_id": "q_chunk_6_3",
+      "response_text": "What creature is described as a \u201cpiercing serpent\u201d?\nWhat happens to anything entering the monster\u2019s mouth, according to Holland\u2019s Plutarch\u2019s Morals?\nHow large were some of the whales caught in King Alfred's time?\nWhat unique behavior does Montaigne attribute to the sea-gudgeon?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.889520080749207,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 17,
+        "total_tokens": 549,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953217.2696445,
+      "question_id": "q_chunk_7_0",
+      "response_text": "What does Montaigne claim happens to creatures entering the whale\u2019s mouth, aside from the sea-gudgeon?\nAccording to Rabelais, what biblical figure\u2019s description does the whale evoke?\nWhat substance is mentioned as being incredibly valuable for internal injuries?\nHow does Davenant describe the impact of a whale's movement on the ocean?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.889520080749207,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 17,
+        "total_tokens": 549,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953217.2696495,
+      "question_id": "q_chunk_7_1",
+      "response_text": "What does Montaigne claim happens to creatures entering the whale\u2019s mouth, aside from the sea-gudgeon?\nAccording to Rabelais, what biblical figure\u2019s description does the whale evoke?\nWhat substance is mentioned as being incredibly valuable for internal injuries?\nHow does Davenant describe the impact of a whale's movement on the ocean?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.889520080749207,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 17,
+        "total_tokens": 549,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953217.2696505,
+      "question_id": "q_chunk_7_2",
+      "response_text": "What does Montaigne claim happens to creatures entering the whale\u2019s mouth, aside from the sea-gudgeon?\nAccording to Rabelais, what biblical figure\u2019s description does the whale evoke?\nWhat substance is mentioned as being incredibly valuable for internal injuries?\nHow does Davenant describe the impact of a whale's movement on the ocean?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.889520080749207,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 17,
+        "total_tokens": 549,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953217.2696512,
+      "question_id": "q_chunk_7_3",
+      "response_text": "What does Montaigne claim happens to creatures entering the whale\u2019s mouth, aside from the sea-gudgeon?\nAccording to Rabelais, what biblical figure\u2019s description does the whale evoke?\nWhat substance is mentioned as being incredibly valuable for internal injuries?\nHow does Davenant describe the impact of a whale's movement on the ocean?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.032884312749957,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 14,
+        "total_tokens": 541,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953223.2489836,
+      "question_id": "q_chunk_8_0",
+      "response_text": "What comparison does Fuller make regarding whales and oil?\nAccording to Thomas Edge, how deep of water will ground a whale's head?\nWhat does Hobbes compare a Commonwealth/State to?\nIn Dryden\u2019s Annus Mirabilis, what do Leviathans do with their prey?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.032884312749957,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 14,
+        "total_tokens": 541,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953223.2489903,
+      "question_id": "q_chunk_8_1",
+      "response_text": "What comparison does Fuller make regarding whales and oil?\nAccording to Thomas Edge, how deep of water will ground a whale's head?\nWhat does Hobbes compare a Commonwealth/State to?\nIn Dryden\u2019s Annus Mirabilis, what do Leviathans do with their prey?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.032884312749957,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 14,
+        "total_tokens": 541,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953223.2489927,
+      "question_id": "q_chunk_8_2",
+      "response_text": "What comparison does Fuller make regarding whales and oil?\nAccording to Thomas Edge, how deep of water will ground a whale's head?\nWhat does Hobbes compare a Commonwealth/State to?\nIn Dryden\u2019s Annus Mirabilis, what do Leviathans do with their prey?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.032884312749957,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 14,
+        "total_tokens": 541,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953223.2489944,
+      "question_id": "q_chunk_8_3",
+      "response_text": "What comparison does Fuller make regarding whales and oil?\nAccording to Thomas Edge, how deep of water will ground a whale's head?\nWhat does Hobbes compare a Commonwealth/State to?\nIn Dryden\u2019s Annus Mirabilis, what do Leviathans do with their prey?"
+    }
+  ]
+}

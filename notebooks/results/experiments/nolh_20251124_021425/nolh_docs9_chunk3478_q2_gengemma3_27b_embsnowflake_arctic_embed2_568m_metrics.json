@@ -1,0 +1,367 @@
+{
+  "export_timestamp": "2025-11-24T04:03:57.957435",
+  "export_timestamp_readable": "2025-11-24 04:03:57",
+  "num_metrics": 27,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.893132246012101,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957002.1161506,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.951737688999856,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957002.17557,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.013036434989772,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957002.2350152,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1769985870050732,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957002.293503,
+      "chunk_id": "chunk_3",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1584165189997293,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957002.3343313,
+      "chunk_id": "chunk_4",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.18509059298958164,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957002.4204566,
+      "chunk_id": "chunk_5",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.2111821529979352,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957002.5051608,
+      "chunk_id": "chunk_6",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.25487040300504304,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957002.5896893,
+      "chunk_id": "chunk_7",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.25772793099167757,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957002.6786597,
+      "chunk_id": "chunk_8",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.360493086001952,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 15,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957009.403029,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What objects or concepts are repeatedly referenced as encounters for The Pequod?\nBesides whaling itself, what other crafts or professions are highlighted through dedicated chapters?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.360493086001952,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 15,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957009.4030325,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What objects or concepts are repeatedly referenced as encounters for The Pequod?\nBesides whaling itself, what other crafts or professions are highlighted through dedicated chapters?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.904389449504379,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957012.4893188,
+      "question_id": "q_chunk_0_0",
+      "response_text": "Who is the author of Moby Dick?\nWhat is mentioned regarding the use of this eBook outside of the United States?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.904389449504379,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957012.489325,
+      "question_id": "q_chunk_0_1",
+      "response_text": "Who is the author of Moby Dick?\nWhat is mentioned regarding the use of this eBook outside of the United States?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.588611238999874,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957015.8584745,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What character is introduced at the very beginning of the provided text?\nWhich chapter focuses specifically on the depiction of whales in various art forms?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.588611238999874,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957015.8584788,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What character is introduced at the very beginning of the provided text?\nWhich chapter focuses specifically on the depiction of whales in various art forms?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.116094256496581,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 17,
+        "total_tokens": 539,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957019.6361704,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the origin of the word \"whale\" according to Webster's Dictionary?\nWhat did the pale Usher dust, and what was peculiar about his handkerchief?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.116094256496581,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 17,
+        "total_tokens": 539,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957019.636174,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the origin of the word \"whale\" according to Webster's Dictionary?\nWhat did the pale Usher dust, and what was peculiar about his handkerchief?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.533175633499923,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 18,
+        "total_tokens": 517,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957023.5566795,
+      "question_id": "q_chunk_4_0",
+      "response_text": "According to the text, from what languages does the word \"whale\" originate?\nWhat does the text suggest about the reliability of the \"whale statements\" found in the extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.533175633499923,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 18,
+        "total_tokens": 517,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957023.5566852,
+      "question_id": "q_chunk_4_1",
+      "response_text": "According to the text, from what languages does the word \"whale\" originate?\nWhat does the text suggest about the reliability of the \"whale statements\" found in the extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.5017999460033025,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 14,
+        "total_tokens": 530,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957026.8631968,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the author\u2019s attitude toward the \u201cSub-Subs\u201d?\nAccording to the text, what biblical books contain references to Leviathan?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.5017999460033025,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 14,
+        "total_tokens": 530,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957026.8632033,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the author\u2019s attitude toward the \u201cSub-Subs\u201d?\nAccording to the text, what biblical books contain references to Leviathan?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.405319830497319,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 15,
+        "total_tokens": 531,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957030.447782,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What creatures are repeatedly described as immense and dangerous in the provided texts?\nHow do the texts portray the fate of those things consumed by these large creatures?\n\n\n\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.405319830497319,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 15,
+        "total_tokens": 531,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957030.4477894,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What creatures are repeatedly described as immense and dangerous in the provided texts?\nHow do the texts portray the fate of those things consumed by these large creatures?\n\n\n\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.960742739000125,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 12,
+        "total_tokens": 544,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957033.4789925,
+      "question_id": "q_chunk_7_0",
+      "response_text": "What is spermacetti, according to the text?\nHow does the text describe the whale's impact on the ocean?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.960742739000125,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 12,
+        "total_tokens": 544,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957033.478996,
+      "question_id": "q_chunk_7_1",
+      "response_text": "What is spermacetti, according to the text?\nHow does the text describe the whale's impact on the ocean?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.539505344997451,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 21,
+        "total_tokens": 548,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957037.943281,
+      "question_id": "q_chunk_8_0",
+      "response_text": "What creatures are repeatedly compared to or described as large, powerful entities in the provided text?\nWhat practical action regarding whales is detailed in the excerpt from Thomas Edge\u2019s *Ten Voyages to Spitzbergen*?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.539505344997451,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 21,
+        "total_tokens": 548,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957037.9432893,
+      "question_id": "q_chunk_8_1",
+      "response_text": "What creatures are repeatedly compared to or described as large, powerful entities in the provided text?\nWhat practical action regarding whales is detailed in the excerpt from Thomas Edge\u2019s *Ten Voyages to Spitzbergen*?"
+    }
+  ]
+}

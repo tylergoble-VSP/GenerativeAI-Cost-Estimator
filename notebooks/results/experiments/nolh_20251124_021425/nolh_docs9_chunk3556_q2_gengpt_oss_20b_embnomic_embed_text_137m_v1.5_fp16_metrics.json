@@ -1,0 +1,367 @@
+{
+  "export_timestamp": "2025-11-24T03:16:59.569453",
+  "export_timestamp_readable": "2025-11-24 03:16:59",
+  "num_metrics": 27,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.8080796680005733,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954171.0428088,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.8474107399961213,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954171.0830176,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.8632737489970168,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954171.099955,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.07337911699141841,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954171.11651,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.04627743799937889,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954171.1296177,
+      "chunk_id": "chunk_4",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.044399126010830514,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954171.144672,
+      "chunk_id": "chunk_5",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.04359006699814927,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954171.160382,
+      "chunk_id": "chunk_6",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.06872615400061477,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954171.1987016,
+      "chunk_id": "chunk_7",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.0923028100078227,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954171.23743,
+      "chunk_id": "chunk_8",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.0773773594992235,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 21,
+        "total_tokens": 564,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954175.3947713,
+      "question_id": "q_chunk_1_0",
+      "response_text": "How does the sequence of chapter titles reflect the progression of the narrative in this excerpt?  \nWhich chapters seem to focus on the physical aspects of whaling, and what might that indicate about the author's priorities?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.0773773594992235,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 21,
+        "total_tokens": 564,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954175.3947806,
+      "question_id": "q_chunk_1_1",
+      "response_text": "How does the sequence of chapter titles reflect the progression of the narrative in this excerpt?  \nWhich chapters seem to focus on the physical aspects of whaling, and what might that indicate about the author's priorities?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.840903734999301,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954182.9210718,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the full title of the Project Gutenberg eBook described above?  \nWhich chapter titles appear twice in the table of contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.840903734999301,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954182.9210804,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the full title of the Project Gutenberg eBook described above?  \nWhich chapter titles appear twice in the table of contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.279554324006313,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 11,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954191.7995892,
+      "question_id": "q_chunk_2_0",
+      "response_text": "Which chapter title refers to the biblical figure Jonah?  \nWhich chapter title deals with measuring the whale\u2019s skeleton?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.279554324006313,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 11,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954191.799594,
+      "question_id": "q_chunk_2_1",
+      "response_text": "Which chapter title refers to the biblical figure Jonah?  \nWhich chapter title deals with measuring the whale\u2019s skeleton?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.523989193497982,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 19,
+        "total_tokens": 541,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954198.4436154,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What are the chapter titles listed in the text from Chapter\u202f122 to the Epilogue?  \nWhich languages and dictionaries are referenced in the etymology section regarding the word \u201cwhale\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.523989193497982,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 19,
+        "total_tokens": 541,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954198.4436183,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What are the chapter titles listed in the text from Chapter\u202f122 to the Epilogue?  \nWhich languages and dictionaries are referenced in the etymology section regarding the word \u201cwhale\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.226595931497286,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954203.3753045,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What linguistic evidence does the text provide for the etymology of the word \u201cwhale\u201d?  \nHow does the author evaluate the credibility of the whale references compiled in the excerpts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.226595931497286,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954203.3753104,
+      "question_id": "q_chunk_4_1",
+      "response_text": "What linguistic evidence does the text provide for the etymology of the word \u201cwhale\u201d?  \nHow does the author evaluate the credibility of the whale references compiled in the excerpts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.723682791998726,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 27,
+        "total_tokens": 543,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954209.2480025,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the significance of the phrase \u201cSub-Sub\u201d in the narrator\u2019s critique, and how does it relate to the broader theme of Leviathan?  \nHow do the biblical excerpts presented in the text illustrate contrasting perceptions of Leviathan\u2019s nature and role across different scriptures?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.723682791998726,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 27,
+        "total_tokens": 543,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954209.2480097,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the significance of the phrase \u201cSub-Sub\u201d in the narrator\u2019s critique, and how does it relate to the broader theme of Leviathan?  \nHow do the biblical excerpts presented in the text illustrate contrasting perceptions of Leviathan\u2019s nature and role across different scriptures?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.765130461499211,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 20,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954213.9748435,
+      "question_id": "q_chunk_6_0",
+      "response_text": "How does the biblical description of Leviathan contrast with the medieval accounts of whales in the text?  \nWhat role does the motif of swallowing or entering a \u201cgulf\u201d play in the various excerpts provided?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.765130461499211,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 20,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954213.974849,
+      "question_id": "q_chunk_6_1",
+      "response_text": "How does the biblical description of Leviathan contrast with the medieval accounts of whales in the text?  \nWhat role does the motif of swallowing or entering a \u201cgulf\u201d play in the various excerpts provided?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.569864806995611,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 16,
+        "total_tokens": 548,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954216.5159256,
+      "question_id": "q_chunk_7_0",
+      "response_text": "Which literary work does the quote about the sea-gudgeon originate from?  \nHow does the text portray the size and impact of whales in comparison to other creatures?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.569864806995611,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 16,
+        "total_tokens": 548,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954216.5159285,
+      "question_id": "q_chunk_7_1",
+      "response_text": "Which literary work does the quote about the sea-gudgeon originate from?  \nHow does the text portray the size and impact of whales in comparison to other creatures?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.158659993001493,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 14,
+        "total_tokens": 541,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954219.5662053,
+      "question_id": "q_chunk_8_0",
+      "response_text": "What common mythological creature is referenced throughout these quotations?  \nHow do the quotations reflect different literary periods and styles when describing the Leviathan?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.158659993001493,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 14,
+        "total_tokens": 541,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954219.566209,
+      "question_id": "q_chunk_8_1",
+      "response_text": "What common mythological creature is referenced throughout these quotations?  \nHow do the quotations reflect different literary periods and styles when describing the Leviathan?"
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "export_timestamp": "2025-11-24T02:53:24.976201",
+  "export_timestamp_readable": "2025-11-24 02:53:24",
+  "num_metrics": 27,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.8944600090035237,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952694.553948,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.9543351309985155,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952694.6135242,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.0150578920001863,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952694.6754138,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.18005808899761178,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952694.7345126,
+      "chunk_id": "chunk_3",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.16110257200489286,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952694.775138,
+      "chunk_id": "chunk_4",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.22352409800805617,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952694.89942,
+      "chunk_id": "chunk_5",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.25708426600613166,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952694.9920685,
+      "chunk_id": "chunk_6",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.27436767300241627,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952695.049859,
+      "chunk_id": "chunk_7",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.21063400599814486,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952695.1105487,
+      "chunk_id": "chunk_8",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.60000734750065,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 22,
+        "total_tokens": 561,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952706.3140028,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the significance of the chapter titled \"The Fossil Whale\" in the context of the novel?  \nHow do the chapters from 75 to 126 contribute to the overall narrative and thematic development of the story?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.60000734750065,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 22,
+        "total_tokens": 561,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952706.314007,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the significance of the chapter titled \"The Fossil Whale\" in the context of the novel?  \nHow do the chapters from 75 to 126 contribute to the overall narrative and thematic development of the story?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 14.598892286005139,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 21,
+        "total_tokens": 564,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952724.3109014,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of the chapters listed from 30 to 79 in the context of the novel?  \nWhat role does the chapter titled \"Moby Dick\" play in the narrative structure of the novel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 14.598892286005139,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 21,
+        "total_tokens": 564,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952724.3109093,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of the chapters listed from 30 to 79 in the context of the novel?  \nWhat role does the chapter titled \"Moby Dick\" play in the narrative structure of the novel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 17.410248874497483,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952729.9327874,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the purpose of the Project Gutenberg License mentioned in the text?  \nWhat are the first three chapters listed in the contents of the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 17.410248874497483,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952729.9327912,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the purpose of the Project Gutenberg License mentioned in the text?  \nWhat are the first three chapters listed in the contents of the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 21.23484705100418,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 18,
+        "total_tokens": 540,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952748.7848203,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the significance of the etymology section in relation to the chapters about the whale?  \nHow do the chapters detailing the chase contribute to the overall tension and development of the story?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 21.23484705100418,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 18,
+        "total_tokens": 540,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952748.7848253,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the significance of the etymology section in relation to the chapters about the whale?  \nHow do the chapters detailing the chase contribute to the overall tension and development of the story?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 17.118220060998283,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952758.5483093,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What are the origins of the word \"whale\" according to the dictionaries mentioned?  \nWhat is the purpose of the extracts provided by the Sub-Sub-Librarian?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 17.118220060998283,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952758.5483143,
+      "question_id": "q_chunk_4_1",
+      "response_text": "What are the origins of the word \"whale\" according to the dictionaries mentioned?  \nWhat is the purpose of the extracts provided by the Sub-Sub-Librarian?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 18.336878337497183,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 16,
+        "total_tokens": 532,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952766.607413,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the significance of the biblical references to Leviathan in the text?  \nWhat does the author imply about the futility of seeking approval from the world?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 18.336878337497183,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 16,
+        "total_tokens": 532,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952766.6074173,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the significance of the biblical references to Leviathan in the text?  \nWhat does the author imply about the futility of seeking approval from the world?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.01005271000031,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 27,
+        "total_tokens": 543,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952774.806017,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What is the significance of Leviathan being described as a \"piercing serpent\" and how does it compare to the depiction of the whale in the text?  \nHow does the behavior of the sea-gudgeon contrast with other sea creatures when interacting with the whale?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.01005271000031,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 27,
+        "total_tokens": 543,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952774.806022,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What is the significance of Leviathan being described as a \"piercing serpent\" and how does it compare to the depiction of the whale in the text?  \nHow does the behavior of the sea-gudgeon contrast with other sea creatures when interacting with the whale?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 18.170821608502592,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 14,
+        "total_tokens": 546,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952794.8910162,
+      "question_id": "q_chunk_7_0",
+      "response_text": "What physical characteristic of the whale is described as being two cartloads?  \nWhich biblical reference is used to describe the whale as Leviathan?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 18.170821608502592,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 14,
+        "total_tokens": 546,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952794.8910215,
+      "question_id": "q_chunk_7_1",
+      "response_text": "What physical characteristic of the whale is described as being two cartloads?  \nWhich biblical reference is used to describe the whale as Leviathan?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 19.181214247000753,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 17,
+        "total_tokens": 544,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952804.9707623,
+      "question_id": "q_chunk_8_0",
+      "response_text": "Which literary works are referenced in the descriptions of Leviathan and whales within the text?  \nWhat symbolic or metaphorical meanings are attributed to Leviathan in the provided quotations?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 19.181214247000753,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 17,
+        "total_tokens": 544,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952804.970767,
+      "question_id": "q_chunk_8_1",
+      "response_text": "Which literary works are referenced in the descriptions of Leviathan and whales within the text?  \nWhat symbolic or metaphorical meanings are attributed to Leviathan in the provided quotations?"
+    }
+  ]
+}

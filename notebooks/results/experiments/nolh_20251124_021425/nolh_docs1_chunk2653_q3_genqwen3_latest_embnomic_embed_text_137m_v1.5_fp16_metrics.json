@@ -1,0 +1,61 @@
+{
+  "export_timestamp": "2025-11-24T02:29:27.837696",
+  "export_timestamp_readable": "2025-11-24 02:29:27",
+  "num_metrics": 4,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.755266741005471,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951359.403843,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.809730982665011,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951367.835,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the Project Gutenberg License mentioned in the text?  \nWhat is the release date of the eBook according to the text?  \nWhat is the title of the first chapter listed in the table of contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.809730982665011,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951367.8350067,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the Project Gutenberg License mentioned in the text?  \nWhat is the release date of the eBook according to the text?  \nWhat is the title of the first chapter listed in the table of contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.809730982665011,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951367.8350089,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the Project Gutenberg License mentioned in the text?  \nWhat is the release date of the eBook according to the text?  \nWhat is the title of the first chapter listed in the table of contents?"
+    }
+  ]
+}

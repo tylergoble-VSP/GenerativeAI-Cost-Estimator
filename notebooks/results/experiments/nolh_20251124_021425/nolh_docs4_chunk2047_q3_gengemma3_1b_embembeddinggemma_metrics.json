@@ -1,0 +1,223 @@
+{
+  "export_timestamp": "2025-11-24T02:33:00.006135",
+  "export_timestamp_readable": "2025-11-24 02:33:00",
+  "num_metrics": 16,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.145611806001398,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951576.1549132,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.546465253995848,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951576.553998,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.8955332129989984,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951576.9039059,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0003572819987312,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951577.1556292,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6310762586654164,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951579.0506384,
+      "question_id": "q_chunk_0_0",
+      "response_text": "1. What is the cost of the ebook?\n2. Where can you obtain the ebook?\n3. What is the release date of the ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6310762586654164,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951579.0506413,
+      "question_id": "q_chunk_0_1",
+      "response_text": "1. What is the cost of the ebook?\n2. Where can you obtain the ebook?\n3. What is the release date of the ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6310762586654164,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951579.0506425,
+      "question_id": "q_chunk_0_2",
+      "response_text": "1. What is the cost of the ebook?\n2. Where can you obtain the ebook?\n3. What is the release date of the ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7414645316651635,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951579.3830633,
+      "question_id": "q_chunk_1_0",
+      "response_text": "1.  What does Stubb do to Ahab?\n2.  What is the title of the chapter where the \u201cPipe\u201d is discussed?\n3.  What is the primary subject of the text\u2019s final scene?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7414645316651635,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951579.383067,
+      "question_id": "q_chunk_1_1",
+      "response_text": "1.  What does Stubb do to Ahab?\n2.  What is the title of the chapter where the \u201cPipe\u201d is discussed?\n3.  What is the primary subject of the text\u2019s final scene?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7414645316651635,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951579.383069,
+      "question_id": "q_chunk_1_2",
+      "response_text": "1.  What does Stubb do to Ahab?\n2.  What is the title of the chapter where the \u201cPipe\u201d is discussed?\n3.  What is the primary subject of the text\u2019s final scene?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8697351176670054,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 20,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951579.7689455,
+      "question_id": "q_chunk_2_0",
+      "response_text": "1.  What is the primary focus of the text\u2019s first seven chapters?\n2.  What is the significance of the \u201cGreat Heidelburgh Tun\u201d in the text?\n3.  What is the core conflict presented in the narrative of the Pequod Meets The Rose-Bud?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8697351176670054,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 20,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951579.7689502,
+      "question_id": "q_chunk_2_1",
+      "response_text": "1.  What is the primary focus of the text\u2019s first seven chapters?\n2.  What is the significance of the \u201cGreat Heidelburgh Tun\u201d in the text?\n3.  What is the core conflict presented in the narrative of the Pequod Meets The Rose-Bud?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8697351176670054,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 20,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951579.7689524,
+      "question_id": "q_chunk_2_2",
+      "response_text": "1.  What is the primary focus of the text\u2019s first seven chapters?\n2.  What is the significance of the \u201cGreat Heidelburgh Tun\u201d in the text?\n3.  What is the core conflict presented in the narrative of the Pequod Meets The Rose-Bud?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.31704215466743335,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 11,
+        "total_tokens": 533,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951580.0025086,
+      "question_id": "q_chunk_3_0",
+      "response_text": "1. What is the text primarily about?\n2. What does the \u201cpale Usher\u201d represent?\n3. What does the text suggest about whaling?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.31704215466743335,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 11,
+        "total_tokens": 533,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951580.002511,
+      "question_id": "q_chunk_3_1",
+      "response_text": "1. What is the text primarily about?\n2. What does the \u201cpale Usher\u201d represent?\n3. What does the text suggest about whaling?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.31704215466743335,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 11,
+        "total_tokens": 533,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951580.0025122,
+      "question_id": "q_chunk_3_2",
+      "response_text": "1. What is the text primarily about?\n2. What does the \u201cpale Usher\u201d represent?\n3. What does the text suggest about whaling?"
+    }
+  ]
+}

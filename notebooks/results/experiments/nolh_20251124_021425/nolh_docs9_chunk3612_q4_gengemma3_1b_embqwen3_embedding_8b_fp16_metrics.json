@@ -1,0 +1,619 @@
+{
+  "export_timestamp": "2025-11-24T04:05:36.354628",
+  "export_timestamp_readable": "2025-11-24 04:05:36",
+  "num_metrics": 45,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.310285355008091,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957122.8551383,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 5.503291061002528,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957124.0472298,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 6.691699603994493,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957125.2349532,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.4989724469924113,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957126.3544528,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.295128907993785,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957127.3427384,
+      "chunk_id": "chunk_4",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.0982366370008094,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957128.3335416,
+      "chunk_id": "chunk_5",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.98511093200068,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957129.3399024,
+      "chunk_id": "chunk_6",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.002364768006373,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957130.3454547,
+      "chunk_id": "chunk_7",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.0159161310002673,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957131.3497946,
+      "chunk_id": "chunk_8",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5319292037493142,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 16,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957133.4807863,
+      "question_id": "q_chunk_2_0",
+      "response_text": "1.  What is the main focus of the text\u2019s first seven chapters?\n2.  What is the significance of \u2018The Pequod Meets The Virgin\u2019?\n3.  What is the main event driving Ahab\u2019s actions in the text?\n4.  What is the significance of \u2018The Dying Whale\u2019?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5319292037493142,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 16,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957133.4807892,
+      "question_id": "q_chunk_2_1",
+      "response_text": "1.  What is the main focus of the text\u2019s first seven chapters?\n2.  What is the significance of \u2018The Pequod Meets The Virgin\u2019?\n3.  What is the main event driving Ahab\u2019s actions in the text?\n4.  What is the significance of \u2018The Dying Whale\u2019?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5319292037493142,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 16,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957133.4807904,
+      "question_id": "q_chunk_2_2",
+      "response_text": "1.  What is the main focus of the text\u2019s first seven chapters?\n2.  What is the significance of \u2018The Pequod Meets The Virgin\u2019?\n3.  What is the main event driving Ahab\u2019s actions in the text?\n4.  What is the significance of \u2018The Dying Whale\u2019?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5319292037493142,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 16,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957133.4807909,
+      "question_id": "q_chunk_2_3",
+      "response_text": "1.  What is the main focus of the text\u2019s first seven chapters?\n2.  What is the significance of \u2018The Pequod Meets The Virgin\u2019?\n3.  What is the main event driving Ahab\u2019s actions in the text?\n4.  What is the significance of \u2018The Dying Whale\u2019?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.622023654748773,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957133.840255,
+      "question_id": "q_chunk_1_0",
+      "response_text": "1.  What does Stubb do to Ahab?\n2.  What is the name of the character who is killed in the story?\n3.  What is the context of the chapter?\n4.  What is the primary subject of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.622023654748773,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957133.8402584,
+      "question_id": "q_chunk_1_1",
+      "response_text": "1.  What does Stubb do to Ahab?\n2.  What is the name of the character who is killed in the story?\n3.  What is the context of the chapter?\n4.  What is the primary subject of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.622023654748773,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957133.8402593,
+      "question_id": "q_chunk_1_2",
+      "response_text": "1.  What does Stubb do to Ahab?\n2.  What is the name of the character who is killed in the story?\n3.  What is the context of the chapter?\n4.  What is the primary subject of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.622023654748773,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957133.8402598,
+      "question_id": "q_chunk_1_3",
+      "response_text": "1.  What does Stubb do to Ahab?\n2.  What is the name of the character who is killed in the story?\n3.  What is the context of the chapter?\n4.  What is the primary subject of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7002994092508743,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957134.1528084,
+      "question_id": "q_chunk_0_0",
+      "response_text": "1.  What is the cost of the eBook?\n2.  What is the release date of the eBook?\n3.  Where can you obtain the eBook?\n4.  What is the stated license for the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7002994092508743,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957134.152812,
+      "question_id": "q_chunk_0_1",
+      "response_text": "1.  What is the cost of the eBook?\n2.  What is the release date of the eBook?\n3.  Where can you obtain the eBook?\n4.  What is the stated license for the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7002994092508743,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957134.152814,
+      "question_id": "q_chunk_0_2",
+      "response_text": "1.  What is the cost of the eBook?\n2.  What is the release date of the eBook?\n3.  Where can you obtain the eBook?\n4.  What is the stated license for the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7002994092508743,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957134.1528153,
+      "question_id": "q_chunk_0_3",
+      "response_text": "1.  What is the cost of the eBook?\n2.  What is the release date of the eBook?\n3.  Where can you obtain the eBook?\n4.  What is the stated license for the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2567168314999435,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 13,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957134.508563,
+      "question_id": "q_chunk_3_0",
+      "response_text": "1. What is the text primarily about?\n2. What does the \u201cpale Usher\u201d symbolize?\n3. What is the significance of the \u201cH\u201d in \u201cwhale\u201d as described in the text?\n4. What is the setting of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2567168314999435,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 13,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957134.5085673,
+      "question_id": "q_chunk_3_1",
+      "response_text": "1. What is the text primarily about?\n2. What does the \u201cpale Usher\u201d symbolize?\n3. What is the significance of the \u201cH\u201d in \u201cwhale\u201d as described in the text?\n4. What is the setting of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2567168314999435,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 13,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957134.508569,
+      "question_id": "q_chunk_3_2",
+      "response_text": "1. What is the text primarily about?\n2. What does the \u201cpale Usher\u201d symbolize?\n3. What is the significance of the \u201cH\u201d in \u201cwhale\u201d as described in the text?\n4. What is the setting of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2567168314999435,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 13,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957134.5085707,
+      "question_id": "q_chunk_3_3",
+      "response_text": "1. What is the text primarily about?\n2. What does the \u201cpale Usher\u201d symbolize?\n3. What is the significance of the \u201cH\u201d in \u201cwhale\u201d as described in the text?\n4. What is the setting of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.25079719350105734,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 13,
+        "total_tokens": 512,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957134.844227,
+      "question_id": "q_chunk_4_0",
+      "response_text": "1. What does the text say about the animal\u2019s shape?\n2. What is the Hebrew word for \u201croll\u201d or \u201cwallow\u201d?\n3. What is the Latin word for \u201cwhale\u201d?\n4. What is the purpose of the extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.25079719350105734,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 13,
+        "total_tokens": 512,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957134.8442297,
+      "question_id": "q_chunk_4_1",
+      "response_text": "1. What does the text say about the animal\u2019s shape?\n2. What is the Hebrew word for \u201croll\u201d or \u201cwallow\u201d?\n3. What is the Latin word for \u201cwhale\u201d?\n4. What is the purpose of the extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.25079719350105734,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 13,
+        "total_tokens": 512,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957134.8442304,
+      "question_id": "q_chunk_4_2",
+      "response_text": "1. What does the text say about the animal\u2019s shape?\n2. What is the Hebrew word for \u201croll\u201d or \u201cwallow\u201d?\n3. What is the Latin word for \u201cwhale\u201d?\n4. What is the purpose of the extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.25079719350105734,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 13,
+        "total_tokens": 512,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957134.8442311,
+      "question_id": "q_chunk_4_3",
+      "response_text": "1. What does the text say about the animal\u2019s shape?\n2. What is the Hebrew word for \u201croll\u201d or \u201cwallow\u201d?\n3. What is the Latin word for \u201cwhale\u201d?\n4. What is the purpose of the extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2547179180000967,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 12,
+        "total_tokens": 528,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957135.1724708,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the primary purpose of the text?\nWhat does the text suggest about the Leviathan?\nWhat does the text imply about the people who are thankful for the Leviathan?\nWhat does the text say about the \u2018sallow tribe\u2019?\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2547179180000967,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 12,
+        "total_tokens": 528,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957135.1724749,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the primary purpose of the text?\nWhat does the text suggest about the Leviathan?\nWhat does the text imply about the people who are thankful for the Leviathan?\nWhat does the text say about the \u2018sallow tribe\u2019?\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2547179180000967,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 12,
+        "total_tokens": 528,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957135.1724758,
+      "question_id": "q_chunk_5_2",
+      "response_text": "What is the primary purpose of the text?\nWhat does the text suggest about the Leviathan?\nWhat does the text imply about the people who are thankful for the Leviathan?\nWhat does the text say about the \u2018sallow tribe\u2019?\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2547179180000967,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 12,
+        "total_tokens": 528,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957135.1724768,
+      "question_id": "q_chunk_5_3",
+      "response_text": "What is the primary purpose of the text?\nWhat does the text suggest about the Leviathan?\nWhat does the text imply about the people who are thankful for the Leviathan?\nWhat does the text say about the \u2018sallow tribe\u2019?\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.254430457498529,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 13,
+        "total_tokens": 529,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957135.527252,
+      "question_id": "q_chunk_6_0",
+      "response_text": "1. What is the primary focus of the text?\n2. What is the significance of the \u2018chaos of this monster\u2019s mouth\u2019?\n3. What is the function of the whale bones?\n4. What does the text suggest about the sea\u2019s security?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.254430457498529,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 13,
+        "total_tokens": 529,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957135.5272584,
+      "question_id": "q_chunk_6_1",
+      "response_text": "1. What is the primary focus of the text?\n2. What is the significance of the \u2018chaos of this monster\u2019s mouth\u2019?\n3. What is the function of the whale bones?\n4. What does the text suggest about the sea\u2019s security?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.254430457498529,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 13,
+        "total_tokens": 529,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957135.5272608,
+      "question_id": "q_chunk_6_2",
+      "response_text": "1. What is the primary focus of the text?\n2. What is the significance of the \u2018chaos of this monster\u2019s mouth\u2019?\n3. What is the function of the whale bones?\n4. What does the text suggest about the sea\u2019s security?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.254430457498529,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 13,
+        "total_tokens": 529,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957135.5272622,
+      "question_id": "q_chunk_6_3",
+      "response_text": "1. What is the primary focus of the text?\n2. What is the significance of the \u2018chaos of this monster\u2019s mouth\u2019?\n3. What is the function of the whale bones?\n4. What does the text suggest about the sea\u2019s security?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2717798722514999,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 15,
+        "total_tokens": 547,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957135.9322813,
+      "question_id": "q_chunk_7_0",
+      "response_text": "1.  What happens to the sea-gudgeon after it enters the monster\u2019s mouth?\n2.  What is the significance of the whale being described by Moses?\n3.  What is the \u2018great Leviathan\u2019 described as?\n4.  What is the main point of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2717798722514999,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 15,
+        "total_tokens": 547,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957135.9322855,
+      "question_id": "q_chunk_7_1",
+      "response_text": "1.  What happens to the sea-gudgeon after it enters the monster\u2019s mouth?\n2.  What is the significance of the whale being described by Moses?\n3.  What is the \u2018great Leviathan\u2019 described as?\n4.  What is the main point of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2717798722514999,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 15,
+        "total_tokens": 547,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957135.9322872,
+      "question_id": "q_chunk_7_2",
+      "response_text": "1.  What happens to the sea-gudgeon after it enters the monster\u2019s mouth?\n2.  What is the significance of the whale being described by Moses?\n3.  What is the \u2018great Leviathan\u2019 described as?\n4.  What is the main point of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2717798722514999,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 15,
+        "total_tokens": 547,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957135.932289,
+      "question_id": "q_chunk_7_3",
+      "response_text": "1.  What happens to the sea-gudgeon after it enters the monster\u2019s mouth?\n2.  What is the significance of the whale being described by Moses?\n3.  What is the \u2018great Leviathan\u2019 described as?\n4.  What is the main point of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2906276797511964,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 15,
+        "total_tokens": 542,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957136.3357377,
+      "question_id": "q_chunk_8_0",
+      "response_text": "1.  What is the text referencing?\n2.  What is the nature of the \u201cpponderous tail\u201d described in the text?\n3.  What does the text suggest about the Leviathan\u2019s character?\n4.  What is the significance of the \u201csea of oil\u201d mentioned?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2906276797511964,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 15,
+        "total_tokens": 542,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957136.3357418,
+      "question_id": "q_chunk_8_1",
+      "response_text": "1.  What is the text referencing?\n2.  What is the nature of the \u201cpponderous tail\u201d described in the text?\n3.  What does the text suggest about the Leviathan\u2019s character?\n4.  What is the significance of the \u201csea of oil\u201d mentioned?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2906276797511964,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 15,
+        "total_tokens": 542,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957136.3357425,
+      "question_id": "q_chunk_8_2",
+      "response_text": "1.  What is the text referencing?\n2.  What is the nature of the \u201cpponderous tail\u201d described in the text?\n3.  What does the text suggest about the Leviathan\u2019s character?\n4.  What is the significance of the \u201csea of oil\u201d mentioned?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2906276797511964,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 15,
+        "total_tokens": 542,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957136.3357432,
+      "question_id": "q_chunk_8_3",
+      "response_text": "1.  What is the text referencing?\n2.  What is the nature of the \u201cpponderous tail\u201d described in the text?\n3.  What does the text suggest about the Leviathan\u2019s character?\n4.  What is the significance of the \u201csea of oil\u201d mentioned?"
+    }
+  ]
+}

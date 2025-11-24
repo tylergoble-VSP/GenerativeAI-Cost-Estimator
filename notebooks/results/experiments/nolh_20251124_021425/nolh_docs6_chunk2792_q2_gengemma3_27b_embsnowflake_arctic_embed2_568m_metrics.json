@@ -1,0 +1,247 @@
+{
+  "export_timestamp": "2025-11-24T04:03:19.067716",
+  "export_timestamp_readable": "2025-11-24 04:03:19",
+  "num_metrics": 18,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.2517379600030836,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956974.0248265,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.3089436650043353,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956974.0834012,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.3703588850039523,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956974.1416132,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1753007100051036,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956974.200487,
+      "chunk_id": "chunk_3",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1579882469959557,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956974.2419086,
+      "chunk_id": "chunk_4",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.16775393699936103,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956974.3098552,
+      "chunk_id": "chunk_5",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.2706208574963966,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956980.8526537,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What character is introduced at the very beginning of the provided list?\nWhich chapter focuses specifically on the depiction of whales in various artistic mediums?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.2706208574963966,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956980.8526568,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What character is introduced at the very beginning of the provided list?\nWhich chapter focuses specifically on the depiction of whales in various artistic mediums?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.094536461503594,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 16,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956984.5011601,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What objects or concepts are repeatedly referenced as encounters for the Pequod?\nBesides whaling itself, what other professions or skilled trades are highlighted in these chapters?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.094536461503594,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 16,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956984.5011652,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What objects or concepts are repeatedly referenced as encounters for the Pequod?\nBesides whaling itself, what other professions or skilled trades are highlighted in these chapters?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.036650265501521,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 16,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956988.3847604,
+      "question_id": "q_chunk_0_0",
+      "response_text": "Who is the author of Moby Dick?\nAccording to the text, what should a user do if they are not located in the United States before using the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.036650265501521,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 16,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956988.3847656,
+      "question_id": "q_chunk_0_1",
+      "response_text": "Who is the author of Moby Dick?\nAccording to the text, what should a user do if they are not located in the United States before using the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.616359297499002,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 16,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956992.086386,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the origin of the word \"whale\" according to Webster's Dictionary?\nWho is the \"pale Usher\" described in the etymology section?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.616359297499002,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 16,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956992.0863914,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the origin of the word \"whale\" according to Webster's Dictionary?\nWho is the \"pale Usher\" described in the etymology section?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.7538108234948595,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 18,
+        "total_tokens": 517,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956996.009836,
+      "question_id": "q_chunk_4_0",
+      "response_text": "According to the text, from what languages does the word \"whale\" originate?\nWhat does the author suggest about the reliability of the \u201cwhale statements\u201d found in the extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.7538108234948595,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 18,
+        "total_tokens": 517,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956996.009843,
+      "question_id": "q_chunk_4_1",
+      "response_text": "According to the text, from what languages does the word \"whale\" originate?\nWhat does the author suggest about the reliability of the \u201cwhale statements\u201d found in the extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.333606063497427,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 13,
+        "total_tokens": 529,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956999.0529416,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the author\u2019s attitude toward the \u201cSub-Subs\u201d?\nWhat biblical book is cited most frequently in the extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.333606063497427,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 13,
+        "total_tokens": 529,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956999.0529475,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the author\u2019s attitude toward the \u201cSub-Subs\u201d?\nWhat biblical book is cited most frequently in the extracts?"
+    }
+  ]
+}

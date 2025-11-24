@@ -1,0 +1,87 @@
+{
+  "export_timestamp": "2025-11-24T03:25:32.896390",
+  "export_timestamp_readable": "2025-11-24 03:25:32",
+  "num_metrics": 6,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.786474858992733,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954730.4276805,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.19239377300255,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954730.8327537,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8970297749983729,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954732.6282494,
+      "question_id": "q_chunk_0_0",
+      "response_text": "1.  What is the release date of the ebook?\n2.  What is the text about?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8970297749983729,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954732.6282516,
+      "question_id": "q_chunk_0_1",
+      "response_text": "1.  What is the release date of the ebook?\n2.  What is the text about?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0294192970031872,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 17,
+        "total_tokens": 560,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954732.893951,
+      "question_id": "q_chunk_1_0",
+      "response_text": "1.  What is Ahab\u2019s title, and what does it signify?\n2.  What is the significance of \u2018Stubb\u2019 in the context of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0294192970031872,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 17,
+        "total_tokens": 560,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954732.8939543,
+      "question_id": "q_chunk_1_1",
+      "response_text": "1.  What is Ahab\u2019s title, and what does it signify?\n2.  What is the significance of \u2018Stubb\u2019 in the context of the text?"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "export_timestamp": "2025-11-24T03:16:04.612427",
+  "export_timestamp_readable": "2025-11-24 03:16:04",
+  "num_metrics": 6,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.7362785620061914,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954154.0970623,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.120156043994939,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954154.481734,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.1917733779991977,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954160.8679981,
+      "question_id": "q_chunk_1_0",
+      "response_text": "Which character is introduced at the very beginning of the provided text?\nWhat is a recurring subject matter demonstrated through many of the chapter titles?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.1917733779991977,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954160.868004,
+      "question_id": "q_chunk_1_1",
+      "response_text": "Which character is introduced at the very beginning of the provided text?\nWhat is a recurring subject matter demonstrated through many of the chapter titles?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.062819884995406,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954164.6091034,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the title of the book described in the text?\nAccording to the text, what should readers outside of the United States do before using this eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.062819884995406,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954164.609108,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the title of the book described in the text?\nAccording to the text, what should readers outside of the United States do before using this eBook?"
+    }
+  ]
+}

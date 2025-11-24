@@ -1,0 +1,327 @@
+{
+  "export_timestamp": "2025-11-24T02:58:05.689467",
+  "export_timestamp_readable": "2025-11-24 02:58:05",
+  "num_metrics": 24,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.970401143989875,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953078.87878,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.9866920890053734,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953078.8955479,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0043926910002483,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953078.9120512,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.048681041997042485,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953078.9277794,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.04612921900115907,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953078.9420216,
+      "chunk_id": "chunk_4",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.04597867399570532,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953078.9584968,
+      "chunk_id": "chunk_5",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.04600872199807782,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953078.974101,
+      "chunk_id": "chunk_6",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.06904527499864344,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953079.0113995,
+      "chunk_id": "chunk_7",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4269461404983304,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 17,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953081.8687894,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the significance of chapters 75 and 76 regarding whale anatomy?\nWhat are the different contexts in which the term \"Pequod\" appears within the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4269461404983304,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 17,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953081.8687918,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the significance of chapters 75 and 76 regarding whale anatomy?\nWhat are the different contexts in which the term \"Pequod\" appears within the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7199532504964736,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953082.4537652,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of the repeated naming of characters like Ahab and Stubb?\n\nWhat types of materials are described as being used to represent whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7199532504964736,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953082.453769,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of the repeated naming of characters like Ahab and Stubb?\n\nWhat types of materials are described as being used to represent whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.9438370210045832,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953082.9007757,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date of this eBook?\nWhat are the credited authors of this Project Gutenberg eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.9438370210045832,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953082.9007783,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the release date of this eBook?\nWhat are the credited authors of this Project Gutenberg eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8169450385030359,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 17,
+        "total_tokens": 539,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953083.5037227,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the etymological origin of the word \u201cwhale\u201d?\nWhat is the significance of the \u201cpale Usher\u201d\u2019s actions regarding the grammars?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8169450385030359,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 17,
+        "total_tokens": 539,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953083.5037298,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the etymological origin of the word \u201cwhale\u201d?\nWhat is the significance of the \u201cpale Usher\u201d\u2019s actions regarding the grammars?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7784941610007081,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 13,
+        "total_tokens": 512,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953084.0116537,
+      "question_id": "q_chunk_4_0",
+      "response_text": "From what languages does the word \"whale\" derive its meaning?\nWhat is the primary purpose of the extracts presented in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7784941610007081,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 13,
+        "total_tokens": 512,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953084.0116577,
+      "question_id": "q_chunk_4_1",
+      "response_text": "From what languages does the word \"whale\" derive its meaning?\nWhat is the primary purpose of the extracts presented in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8171913485057303,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 13,
+        "total_tokens": 529,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953084.5359905,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the primary purpose of the extracts presented in the text?\nWhat is the speaker's attitude towards the \"Sub-Subs\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8171913485057303,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 13,
+        "total_tokens": 529,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953084.5359945,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the primary purpose of the extracts presented in the text?\nWhat is the speaker's attitude towards the \"Sub-Subs\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8205697989978944,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 15,
+        "total_tokens": 531,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953085.1459475,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What does the text describe as happening to things that enter a whale's mouth?\nWhat was the size of the largest whale described in Tooke\u2019s account?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8205697989978944,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 15,
+        "total_tokens": 531,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953085.1459527,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What does the text describe as happening to things that enter a whale's mouth?\nWhat was the size of the largest whale described in Tooke\u2019s account?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8367786930029979,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 14,
+        "total_tokens": 546,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953085.6860871,
+      "question_id": "q_chunk_7_0",
+      "response_text": "How does the text describe the behavior of the whale?\nWhat is the significance of the \"spermacetti\" mentioned in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8367786930029979,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 14,
+        "total_tokens": 546,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953085.686091,
+      "question_id": "q_chunk_7_1",
+      "response_text": "How does the text describe the behavior of the whale?\nWhat is the significance of the \"spermacetti\" mentioned in the text?"
+    }
+  ]
+}

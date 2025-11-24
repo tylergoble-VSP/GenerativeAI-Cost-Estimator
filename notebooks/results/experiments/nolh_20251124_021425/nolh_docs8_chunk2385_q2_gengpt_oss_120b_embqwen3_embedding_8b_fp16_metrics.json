@@ -1,0 +1,327 @@
+{
+  "export_timestamp": "2025-11-24T02:27:00.929629",
+  "export_timestamp_readable": "2025-11-24 02:27:00",
+  "num_metrics": 24,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.291037488001166,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951142.1824305,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 5.598139372988953,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951143.4906924,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 6.826600155996857,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951144.7163572,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.6627770909981336,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951145.8456821,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.3742897100019036,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951146.8652906,
+      "chunk_id": "chunk_4",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.1753734670055564,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951147.8920348,
+      "chunk_id": "chunk_5",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.078773289002129,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951148.9248862,
+      "chunk_id": "chunk_6",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.0906868560123257,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951149.9562716,
+      "chunk_id": "chunk_7",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 17.665361111496168,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 17,
+        "total_tokens": 560,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951185.2898068,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date and most recent update date listed for this eBook of\u202fMoby\u202fDick?  \nWho are the individuals credited for this Project Gutenberg edition?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 17.665361111496168,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 17,
+        "total_tokens": 560,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951185.2898145,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the release date and most recent update date listed for this eBook of\u202fMoby\u202fDick?  \nWho are the individuals credited for this Project Gutenberg edition?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 20.27318450599705,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 17,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951190.5074618,
+      "question_id": "q_chunk_2_0",
+      "response_text": "Which chapter title suggests a discussion about the physical size and potential extinction of whales?  \nHow many chapters in the list have titles that directly reference a specific character from the novel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 20.27318450599705,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 17,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951190.5074677,
+      "question_id": "q_chunk_2_1",
+      "response_text": "Which chapter title suggests a discussion about the physical size and potential extinction of whales?  \nHow many chapters in the list have titles that directly reference a specific character from the novel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 22.059626276000927,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951194.0790584,
+      "question_id": "q_chunk_1_0",
+      "response_text": "Which chapter title follows \u201cThe Whale as a Dish\u201d in the list?  \nWhat is the title of chapter 55 in the provided text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 22.059626276000927,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951194.079061,
+      "question_id": "q_chunk_1_1",
+      "response_text": "Which chapter title follows \u201cThe Whale as a Dish\u201d in the list?  \nWhat is the title of chapter 55 in the provided text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.060618926494499,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 22,
+        "total_tokens": 544,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951199.4120004,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the significance of the chapter titled \u201cThe Pequod Meets The Rachel\u201d in the context of the narrative?  \nWhich languages are cited in the etymology section as sources for the word \u201cwhale\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.060618926494499,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 22,
+        "total_tokens": 544,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951199.4120076,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the significance of the chapter titled \u201cThe Pequod Meets The Rachel\u201d in the context of the narrative?  \nWhich languages are cited in the etymology section as sources for the word \u201cwhale\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.995020094997017,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 20,
+        "total_tokens": 519,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951204.4984314,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What linguistic connection do the listed terms (Hebrew, Greek, Latin, etc.) share regarding the animal described?  \nWhy does the author caution against treating the provided extracts as authoritative cetological sources?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.995020094997017,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 20,
+        "total_tokens": 519,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951204.4984384,
+      "question_id": "q_chunk_4_1",
+      "response_text": "What linguistic connection do the listed terms (Hebrew, Greek, Latin, etc.) share regarding the animal described?  \nWhy does the author caution against treating the provided extracts as authoritative cetological sources?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.897144279500935,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 36,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951211.87408,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the significance of the repeated phrase \u201cSub\u2011Sub\u201d in the speaker\u2019s lament, and how does it relate to the broader theme of hopelessness in the passage?  \nHow do the biblical extracts quoted (Genesis, Job, Jonah, Psalms, Isaiah) contribute to the author\u2019s portrayal of Leviathan and its symbolic role across different traditions?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.897144279500935,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 36,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951211.874084,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the significance of the repeated phrase \u201cSub\u2011Sub\u201d in the speaker\u2019s lament, and how does it relate to the broader theme of hopelessness in the passage?  \nHow do the biblical extracts quoted (Genesis, Job, Jonah, Psalms, Isaiah) contribute to the author\u2019s portrayal of Leviathan and its symbolic role across different traditions?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.099358985498839,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 24,
+        "total_tokens": 540,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951215.611528,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What symbolic meanings might the \"piercing serpent\" Leviathan and the whale represent across the varied historical sources quoted?  \nHow do the differing descriptions of the whale\u2019s size and behavior reflect the cultural or mythological contexts of the authors cited?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.099358985498839,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 24,
+        "total_tokens": 540,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951215.6115346,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What symbolic meanings might the \"piercing serpent\" Leviathan and the whale represent across the varied historical sources quoted?  \nHow do the differing descriptions of the whale\u2019s size and behavior reflect the cultural or mythological contexts of the authors cited?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.21256408499903,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 19,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951220.9244156,
+      "question_id": "q_chunk_7_0",
+      "response_text": "What common theme links the various historical quotations about whales and Leviathan in the passage?  \nHow does the text use the term \u201cspermacetti\u201d to illustrate uncertainty in scientific knowledge?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.21256408499903,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 19,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951220.9244194,
+      "question_id": "q_chunk_7_1",
+      "response_text": "What common theme links the various historical quotations about whales and Leviathan in the passage?  \nHow does the text use the term \u201cspermacetti\u201d to illustrate uncertainty in scientific knowledge?"
+    }
+  ]
+}

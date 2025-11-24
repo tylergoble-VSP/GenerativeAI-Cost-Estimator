@@ -1,0 +1,85 @@
+{
+  "export_timestamp": "2025-11-24T03:20:17.691940",
+  "export_timestamp_readable": "2025-11-24 03:20:17",
+  "num_metrics": 6,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.7519148549909005,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954414.8327003,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.812792458003969,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954414.893379,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.8734447329916293,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954414.9535003,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.9851273880049121,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 9,
+        "total_tokens": 548,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954415.9421673,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the subject of Chapter 111?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.8159743819996947,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954416.771705,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date of this Project Gutenberg eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.731256465005572,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954417.6878264,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of the chapter titled \"Moby Dick\"?"
+    }
+  ]
+}

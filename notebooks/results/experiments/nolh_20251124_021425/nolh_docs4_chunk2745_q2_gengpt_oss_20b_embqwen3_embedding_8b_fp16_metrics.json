@@ -1,0 +1,167 @@
+{
+  "export_timestamp": "2025-11-24T04:10:51.078923",
+  "export_timestamp_readable": "2025-11-24 04:10:51",
+  "num_metrics": 12,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.6708963020064402,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957421.0342197,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.914646608987823,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957422.2781944,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 6.098954922010307,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957423.4614058,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.518909694001195,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957424.5534837,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.5121427414997015,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 14,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957433.5810518,
+      "question_id": "q_chunk_2_0",
+      "response_text": "Which chapter describes the Pequod's encounter with the Virgin?  \nWhat is the focus of chapter 106, \u201cAhab\u2019s Leg\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.5121427414997015,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 14,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957433.581057,
+      "question_id": "q_chunk_2_1",
+      "response_text": "Which chapter describes the Pequod's encounter with the Virgin?  \nWhat is the focus of chapter 106, \u201cAhab\u2019s Leg\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.122070893005002,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 18,
+        "total_tokens": 561,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957440.7997153,
+      "question_id": "q_chunk_1_0",
+      "response_text": "Which chapters in the list reference specific types of whales, and how many are there?  \nWhich chapter title appears to describe a mythical or supernatural element, and what might it refer to?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.122070893005002,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 18,
+        "total_tokens": 561,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957440.7997212,
+      "question_id": "q_chunk_1_1",
+      "response_text": "Which chapters in the list reference specific types of whales, and how many are there?  \nWhich chapter title appears to describe a mythical or supernatural element, and what might it refer to?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.676858786500816,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 16,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957447.9090385,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the most recent update date listed for the Project Gutenberg eBook of Moby Dick?  \nWhich two consecutive chapters in the table of contents have identical titles?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.676858786500816,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 16,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957447.9090455,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the most recent update date listed for the Project Gutenberg eBook of Moby Dick?  \nWhich two consecutive chapters in the table of contents have identical titles?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.741832451996743,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 16,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957451.065637,
+      "question_id": "q_chunk_3_0",
+      "response_text": "Which chapter title in the text refers to a musical event?  \nWhat is the origin of the word \"whale\" as discussed in the etymology section?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.741832451996743,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 16,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957451.065643,
+      "question_id": "q_chunk_3_1",
+      "response_text": "Which chapter title in the text refers to a musical event?  \nWhat is the origin of the word \"whale\" as discussed in the etymology section?"
+    }
+  ]
+}

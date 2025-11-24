@@ -1,0 +1,385 @@
+{
+  "export_timestamp": "2025-11-24T02:28:38.285966",
+  "export_timestamp_readable": "2025-11-24 02:28:38",
+  "num_metrics": 28,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 5.986667670003953,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951227.0451143,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 7.253755957004614,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951228.3129032,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 8.451355930010322,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951229.5089025,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.5857045110024046,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951230.6312711,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.312032440007897,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951231.6252365,
+      "chunk_id": "chunk_4",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.114036473009037,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951232.6233342,
+      "chunk_id": "chunk_5",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.996558268991066,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951233.6282527,
+      "chunk_id": "chunk_6",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.089363729333854,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 22,
+        "total_tokens": 565,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951251.8990636,
+      "question_id": "q_chunk_1_0",
+      "response_text": "How does the structure of the chapters in the text contribute to the narrative progression?  \nWhat is the significance of the chapter titled \"The Whiteness of the Whale\" in the context of the story?  \nHow do the chapters related to Ahab's obsession with Moby Dick reflect the novel's themes of obsession and vengeance?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.089363729333854,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 22,
+        "total_tokens": 565,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951251.8990679,
+      "question_id": "q_chunk_1_1",
+      "response_text": "How does the structure of the chapters in the text contribute to the narrative progression?  \nWhat is the significance of the chapter titled \"The Whiteness of the Whale\" in the context of the story?  \nHow do the chapters related to Ahab's obsession with Moby Dick reflect the novel's themes of obsession and vengeance?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.089363729333854,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 22,
+        "total_tokens": 565,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951251.8990688,
+      "question_id": "q_chunk_1_2",
+      "response_text": "How does the structure of the chapters in the text contribute to the narrative progression?  \nWhat is the significance of the chapter titled \"The Whiteness of the Whale\" in the context of the story?  \nHow do the chapters related to Ahab's obsession with Moby Dick reflect the novel's themes of obsession and vengeance?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.220111884331951,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951264.2906828,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the title of the first chapter listed in the table of contents?  \nWho are the contributors credited in the text?  \nWhat is the release date of the eBook according to the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.220111884331951,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951264.2906861,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the title of the first chapter listed in the table of contents?  \nWho are the contributors credited in the text?  \nWhat is the release date of the eBook according to the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.220111884331951,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951264.2906873,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the title of the first chapter listed in the table of contents?  \nWho are the contributors credited in the text?  \nWhat is the release date of the eBook according to the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.82592230400284,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 24,
+        "total_tokens": 563,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951275.1095328,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the significance of the chapter titled \"The Pequod Meets The Virgin\" in the context of the novel's plot?  \nHow does the chapter \"Ahab\u2019s Leg\" contribute to the exploration of obsession and revenge in the narrative?  \nWhat symbolic meaning does the chapter \"Ambergris\" hold within the broader narrative of the novel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.82592230400284,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 24,
+        "total_tokens": 563,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951275.109537,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the significance of the chapter titled \"The Pequod Meets The Virgin\" in the context of the novel's plot?  \nHow does the chapter \"Ahab\u2019s Leg\" contribute to the exploration of obsession and revenge in the narrative?  \nWhat symbolic meaning does the chapter \"Ambergris\" hold within the broader narrative of the novel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.82592230400284,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 24,
+        "total_tokens": 563,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951275.1095378,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What is the significance of the chapter titled \"The Pequod Meets The Virgin\" in the context of the novel's plot?  \nHow does the chapter \"Ahab\u2019s Leg\" contribute to the exploration of obsession and revenge in the narrative?  \nWhat symbolic meaning does the chapter \"Ambergris\" hold within the broader narrative of the novel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.37543701500302,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 21,
+        "total_tokens": 543,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951289.0263674,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the significance of the chapters titled \"The Pequod Meets The Rachel\" and \"The Pequod Meets The Delight\"?  \nHow does the etymology of the word \"whale\" reflect its historical linguistic roots?  \nWhat role did the University of Adelaide Library play in the transcription process?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.37543701500302,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 21,
+        "total_tokens": 543,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951289.0263724,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the significance of the chapters titled \"The Pequod Meets The Rachel\" and \"The Pequod Meets The Delight\"?  \nHow does the etymology of the word \"whale\" reflect its historical linguistic roots?  \nWhat role did the University of Adelaide Library play in the transcription process?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.37543701500302,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 21,
+        "total_tokens": 543,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951289.0263746,
+      "question_id": "q_chunk_3_2",
+      "response_text": "What is the significance of the chapters titled \"The Pequod Meets The Rachel\" and \"The Pequod Meets The Delight\"?  \nHow does the etymology of the word \"whale\" reflect its historical linguistic roots?  \nWhat role did the University of Adelaide Library play in the transcription process?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.52726751700296,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 16,
+        "total_tokens": 515,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951298.8733253,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What languages are cited as sources for the etymology of \"whale\"?  \nWhat is the role of the Sub-Sub-Librarian according to the text?  \nWhy should the extracts not be taken as veritable gospel cetology?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.52726751700296,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 16,
+        "total_tokens": 515,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951298.8733299,
+      "question_id": "q_chunk_4_1",
+      "response_text": "What languages are cited as sources for the etymology of \"whale\"?  \nWhat is the role of the Sub-Sub-Librarian according to the text?  \nWhy should the extracts not be taken as veritable gospel cetology?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.52726751700296,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 16,
+        "total_tokens": 515,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951298.8733308,
+      "question_id": "q_chunk_4_2",
+      "response_text": "What languages are cited as sources for the etymology of \"whale\"?  \nWhat is the role of the Sub-Sub-Librarian according to the text?  \nWhy should the extracts not be taken as veritable gospel cetology?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.61222175800261,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 20,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951306.9470038,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the purpose of the extracts provided in the text?  \nWhat metaphorical message is conveyed through the reference to the \"Sub-Sub\" and the mention of \"splintered hearts\"?  \nHow do the biblical references to Leviathan reflect the text's exploration of human perception and divine imagery?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.61222175800261,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 20,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951306.9470084,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the purpose of the extracts provided in the text?  \nWhat metaphorical message is conveyed through the reference to the \"Sub-Sub\" and the mention of \"splintered hearts\"?  \nHow do the biblical references to Leviathan reflect the text's exploration of human perception and divine imagery?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.61222175800261,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 20,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951306.9470093,
+      "question_id": "q_chunk_5_2",
+      "response_text": "What is the purpose of the extracts provided in the text?  \nWhat metaphorical message is conveyed through the reference to the \"Sub-Sub\" and the mention of \"splintered hearts\"?  \nHow do the biblical references to Leviathan reflect the text's exploration of human perception and divine imagery?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 9.751282720666495,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 17,
+        "total_tokens": 533,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951318.2811542,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What is the significance of Leviathan in the context of the biblical text?  \nHow do the descriptions of whales in the historical accounts compare in terms of size?  \nWhy is the sea-gudgeon described as retreating into the whale's mouth without harm?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 9.751282720666495,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 17,
+        "total_tokens": 533,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951318.281161,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What is the significance of Leviathan in the context of the biblical text?  \nHow do the descriptions of whales in the historical accounts compare in terms of size?  \nWhy is the sea-gudgeon described as retreating into the whale's mouth without harm?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 9.751282720666495,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 17,
+        "total_tokens": 533,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951318.2811632,
+      "question_id": "q_chunk_6_2",
+      "response_text": "What is the significance of Leviathan in the context of the biblical text?  \nHow do the descriptions of whales in the historical accounts compare in terms of size?  \nWhy is the sea-gudgeon described as retreating into the whale's mouth without harm?"
+    }
+  ]
+}

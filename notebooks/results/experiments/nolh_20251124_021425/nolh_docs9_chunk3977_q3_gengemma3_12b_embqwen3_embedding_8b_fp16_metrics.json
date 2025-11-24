@@ -1,0 +1,493 @@
+{
+  "export_timestamp": "2025-11-24T02:29:12.450361",
+  "export_timestamp_readable": "2025-11-24 02:29:12",
+  "num_metrics": 36,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.4624956229963573,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951327.1838953,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.650366456000484,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951328.3716354,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 5.916594348993385,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951329.6384113,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.557420964993071,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951330.7416148,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.3582535669993376,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951331.7303433,
+      "chunk_id": "chunk_4",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.0932050389965298,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951332.7320611,
+      "chunk_id": "chunk_5",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.995721904997481,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951333.737622,
+      "chunk_id": "chunk_6",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.0097268209938193,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951334.74053,
+      "chunk_id": "chunk_7",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.016743296000641,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951335.749227,
+      "chunk_id": "chunk_8",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.578873072998249,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951337.4879577,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date of this ebook?\nWho are the credited contributors to this ebook?\nWhat is the title of the work contained within this ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.578873072998249,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951337.4879634,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the release date of this ebook?\nWho are the credited contributors to this ebook?\nWhat is the title of the work contained within this ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.578873072998249,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951337.4879649,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the release date of this ebook?\nWho are the credited contributors to this ebook?\nWhat is the title of the work contained within this ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2255442530004075,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 11,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951339.4291854,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the subject of Chapter 75?\nWhich chapter details a meeting between the Pequod and The Rose-Bud?\nWhat do Chapters 122 and 123 describe?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2255442530004075,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 11,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951339.4291914,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the subject of Chapter 75?\nWhich chapter details a meeting between the Pequod and The Rose-Bud?\nWhat do Chapters 122 and 123 describe?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2255442530004075,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 11,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951339.4291935,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What is the subject of Chapter 75?\nWhich chapter details a meeting between the Pequod and The Rose-Bud?\nWhat do Chapters 122 and 123 describe?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.772362758332747,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951341.0689247,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of Chapter 41?\nWhich character is associated with Fedallah?\nWhat is the subject of Chapters 55-57?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.772362758332747,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951341.0689306,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of Chapter 41?\nWhich character is associated with Fedallah?\nWhat is the subject of Chapters 55-57?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.772362758332747,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951341.0689313,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What is the significance of Chapter 41?\nWhich character is associated with Fedallah?\nWhat is the subject of Chapters 55-57?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.75768296099947,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 12,
+        "total_tokens": 534,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951342.761909,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the significance of the Usher\u2019s handkerchief?\nWhat does the etymology reveal about the word \"whale\"?\nWhat are two ships that the Pequod encounters?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.75768296099947,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 12,
+        "total_tokens": 534,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951342.7619128,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the significance of the Usher\u2019s handkerchief?\nWhat does the etymology reveal about the word \"whale\"?\nWhat are two ships that the Pequod encounters?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.75768296099947,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 12,
+        "total_tokens": 534,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951342.7619138,
+      "question_id": "q_chunk_3_2",
+      "response_text": "What is the significance of the Usher\u2019s handkerchief?\nWhat does the etymology reveal about the word \"whale\"?\nWhat are two ships that the Pequod encounters?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.8285962709972712,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 16,
+        "total_tokens": 515,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951344.915919,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What is the meaning of \"hvalt\" according to Webster\u2019s Dictionary?\nAccording to the text, what is the role of the \u201cpoor devil of a Sub-Sub\u201d?\nWhat do the extracts from ancient authors and poets offer?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.8285962709972712,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 16,
+        "total_tokens": 515,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951344.9159229,
+      "question_id": "q_chunk_4_1",
+      "response_text": "What is the meaning of \"hvalt\" according to Webster\u2019s Dictionary?\nAccording to the text, what is the role of the \u201cpoor devil of a Sub-Sub\u201d?\nWhat do the extracts from ancient authors and poets offer?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.8285962709972712,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 16,
+        "total_tokens": 515,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951344.915924,
+      "question_id": "q_chunk_4_2",
+      "response_text": "What is the meaning of \"hvalt\" according to Webster\u2019s Dictionary?\nAccording to the text, what is the role of the \u201cpoor devil of a Sub-Sub\u201d?\nWhat do the extracts from ancient authors and poets offer?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.9786684540013084,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 15,
+        "total_tokens": 531,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951347.0057833,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the primary value of the extracts described in the text?\nAccording to the author, what fate awaits those who strive to please the world?\nWhat biblical figures are being displaced by the arrival of the \"Sub-Subs?\""
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.9786684540013084,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 15,
+        "total_tokens": 531,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951347.0057862,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the primary value of the extracts described in the text?\nAccording to the author, what fate awaits those who strive to please the world?\nWhat biblical figures are being displaced by the arrival of the \"Sub-Subs?\""
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.9786684540013084,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 15,
+        "total_tokens": 531,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951347.005787,
+      "question_id": "q_chunk_5_2",
+      "response_text": "What is the primary value of the extracts described in the text?\nAccording to the author, what fate awaits those who strive to please the world?\nWhat biblical figures are being displaced by the arrival of the \"Sub-Subs?\""
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.0225781593374754,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 12,
+        "total_tokens": 528,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951348.830456,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What is Leviathan described as?\nAccording to Montaigne, what creature finds security within the whale\u2019s mouth?\nWhat was the primary reason for visiting the country mentioned in the fifth text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.0225781593374754,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 12,
+        "total_tokens": 528,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951348.8304603,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What is Leviathan described as?\nAccording to Montaigne, what creature finds security within the whale\u2019s mouth?\nWhat was the primary reason for visiting the country mentioned in the fifth text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.0225781593374754,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 12,
+        "total_tokens": 528,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951348.8304615,
+      "question_id": "q_chunk_6_2",
+      "response_text": "What is Leviathan described as?\nAccording to Montaigne, what creature finds security within the whale\u2019s mouth?\nWhat was the primary reason for visiting the country mentioned in the fifth text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.9744606866685597,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 14,
+        "total_tokens": 546,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951350.840332,
+      "question_id": "q_chunk_7_0",
+      "response_text": "What does Montaigne describe the sea-gudgeon doing within the whale\u2019s mouth?\nAccording to Rabelais, who is the whale described as?\nWhat does Sir Thomas Browne question regarding spermacetti?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.9744606866685597,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 14,
+        "total_tokens": 546,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951350.840341,
+      "question_id": "q_chunk_7_1",
+      "response_text": "What does Montaigne describe the sea-gudgeon doing within the whale\u2019s mouth?\nAccording to Rabelais, who is the whale described as?\nWhat does Sir Thomas Browne question regarding spermacetti?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.9744606866685597,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 14,
+        "total_tokens": 546,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951350.840343,
+      "question_id": "q_chunk_7_2",
+      "response_text": "What does Montaigne describe the sea-gudgeon doing within the whale\u2019s mouth?\nAccording to Rabelais, who is the whale described as?\nWhat does Sir Thomas Browne question regarding spermacetti?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.8125064433309792,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 11,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951352.4440904,
+      "question_id": "q_chunk_8_0",
+      "response_text": "What is the primary subject explored across the cited texts?\nAccording to Hobbes, what is a commonwealth or state?\nWhat does Thomas Edge describe regarding whales and ships?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.8125064433309792,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 11,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951352.4440958,
+      "question_id": "q_chunk_8_1",
+      "response_text": "What is the primary subject explored across the cited texts?\nAccording to Hobbes, what is a commonwealth or state?\nWhat does Thomas Edge describe regarding whales and ships?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.8125064433309792,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 11,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951352.4440968,
+      "question_id": "q_chunk_8_2",
+      "response_text": "What is the primary subject explored across the cited texts?\nAccording to Hobbes, what is a commonwealth or state?\nWhat does Thomas Edge describe regarding whales and ships?"
+    }
+  ]
+}

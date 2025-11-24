@@ -1,0 +1,247 @@
+{
+  "export_timestamp": "2025-11-24T03:18:07.575641",
+  "export_timestamp_readable": "2025-11-24 03:18:07",
+  "num_metrics": 18,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.3385096130077727,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954277.471606,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.3983090719993925,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954277.5304244,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.4561171940003987,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954277.59047,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.17836318700574338,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954277.6504781,
+      "chunk_id": "chunk_3",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1589327560068341,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954277.6898823,
+      "chunk_id": "chunk_4",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.18746746399847325,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954277.7784238,
+      "chunk_id": "chunk_5",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7879390195012093,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954279.3562703,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of \u201cMoby Dick\u201d within this list?\nWhat characters are mentioned in the initial line?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7879390195012093,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954279.356275,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of \u201cMoby Dick\u201d within this list?\nWhat characters are mentioned in the initial line?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.5295332579989918,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 13,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954280.8401887,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the significance of \"The Doubloon\"?\nWhich chapter details a meeting between the Pequod and The Rose-Bud?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.5295332579989918,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 13,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954280.8401935,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the significance of \"The Doubloon\"?\nWhich chapter details a meeting between the Pequod and The Rose-Bud?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.2880890689993976,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954282.3562,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the purpose of Project Gutenberg, according to the text?\nWhat is the author of Moby Dick; Or, The Whale?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.2880890689993976,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954282.3562026,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the purpose of Project Gutenberg, according to the text?\nWhat is the author of Moby Dick; Or, The Whale?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.2666706119998707,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 14,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954283.8906543,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What does the Usher do to his old lexicons and grammars?\nAccording to Webster\u2019s Dictionary, what does \u201cwhale\u201d signify?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.2666706119998707,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 14,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954283.8906598,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What does the Usher do to his old lexicons and grammars?\nAccording to Webster\u2019s Dictionary, what does \u201cwhale\u201d signify?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.543705909498385,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 21,
+        "total_tokens": 520,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954285.928651,
+      "question_id": "q_chunk_4_0",
+      "response_text": "According to the text, what is the proposed origin of the word \"whale\" based on its shape?\nWhat is the role of the \"Sub-Sub-Librarian\" as described in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.543705909498385,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 21,
+        "total_tokens": 520,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954285.9286573,
+      "question_id": "q_chunk_4_1",
+      "response_text": "According to the text, what is the proposed origin of the word \"whale\" based on its shape?\nWhat is the role of the \"Sub-Sub-Librarian\" as described in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.607534622999083,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 16,
+        "total_tokens": 532,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954287.5720692,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the primary value of the extracts according to the text?\nWhat does the author suggest about the fate of those he refers to as \"Sub-Subs\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.607534622999083,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 16,
+        "total_tokens": 532,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954287.5720727,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the primary value of the extracts according to the text?\nWhat does the author suggest about the fate of those he refers to as \"Sub-Subs\"?"
+    }
+  ]
+}

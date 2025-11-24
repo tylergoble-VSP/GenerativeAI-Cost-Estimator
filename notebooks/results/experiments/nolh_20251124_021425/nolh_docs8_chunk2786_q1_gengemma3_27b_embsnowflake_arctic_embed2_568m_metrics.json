@@ -1,0 +1,215 @@
+{
+  "export_timestamp": "2025-11-24T03:54:46.111758",
+  "export_timestamp_readable": "2025-11-24 03:54:46",
+  "num_metrics": 16,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.2628761939995456,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956463.8353565,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.323049781000009,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956463.8948445,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.3812170040037017,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956463.9543035,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.17704248400696088,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956464.0127347,
+      "chunk_id": "chunk_3",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.15833811700576916,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956464.0536768,
+      "chunk_id": "chunk_4",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.21294893900630996,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956464.1675923,
+      "chunk_id": "chunk_5",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.24585437000496313,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956464.2589164,
+      "chunk_id": "chunk_6",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.26432767999358475,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956464.318361,
+      "chunk_id": "chunk_7",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.557316131002153,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956470.87719,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the range of chapter numbers covered in the provided list?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.952749920004862,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 17,
+        "total_tokens": 560,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956473.2725391,
+      "question_id": "q_chunk_0_0",
+      "response_text": "According to the text, what are the general terms regarding usage rights for this eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.105502537000575,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 11,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956475.426333,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What topics are covered in chapters 75-126?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.470810764003545,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 12,
+        "total_tokens": 534,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956477.34895,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What items or locations are listed as chapters within this text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.318580513994675,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 18,
+        "total_tokens": 517,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956479.5920753,
+      "question_id": "q_chunk_4_0",
+      "response_text": "According to the text, from what languages does the word \"whale\" potentially originate?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.527060542997788,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 19,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956481.954215,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What biblical figures are mentioned as being displaced to make way for the \"Sub-Subs\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.586710329997004,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 15,
+        "total_tokens": 531,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956483.936582,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What common element connects the various depictions of sea creatures in these excerpts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.514858840004308,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 16,
+        "total_tokens": 548,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956486.1080773,
+      "question_id": "q_chunk_7_0",
+      "response_text": "What varied perspectives and beliefs about whales are reflected in the provided collection of quotes?"
+    }
+  ]
+}

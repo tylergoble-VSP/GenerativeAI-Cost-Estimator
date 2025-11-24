@@ -1,0 +1,163 @@
+{
+  "export_timestamp": "2025-11-24T02:23:55.234779",
+  "export_timestamp_readable": "2025-11-24 02:23:55",
+  "num_metrics": 12,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.5931017520051682,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763950910.5436132,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.002785157004837,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763950910.9512424,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.365494019992184,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763950911.3152711,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.031462428989471,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763950911.5753753,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.985101862999727,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763950911.9366715,
+      "chunk_id": "chunk_4",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.818656520001241,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763950912.1343865,
+      "chunk_id": "chunk_5",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 26.603285275006783,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950938.7395341,
+      "question_id": "q_chunk_0_0",
+      "response_text": "Who is the author of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 43.8684253179963,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 15,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950956.0065625,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the significance of the chapter titles in the progression of the narrative?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 73.45029269900988,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 26,
+        "total_tokens": 569,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950985.5869024,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of the chapter titled \"The Whiteness of the Whale\" in the context of the novel's themes?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 59.594710566001595,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 24,
+        "total_tokens": 546,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950998.3353388,
+      "question_id": "q_chunk_3_0",
+      "response_text": "According to the etymology section, what is the origin of the word \"whale\" and what does it signify?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 65.3344707369979,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 18,
+        "total_tokens": 517,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951021.3420284,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What are the linguistic origins of the word \"whale\" as described in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 49.6424267560069,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 15,
+        "total_tokens": 531,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951035.23039,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the significance of including biblical references to Leviathan in the text?"
+    }
+  ]
+}

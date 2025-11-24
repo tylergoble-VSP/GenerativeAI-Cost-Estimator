@@ -1,0 +1,277 @@
+{
+  "export_timestamp": "2025-11-24T04:10:12.711184",
+  "export_timestamp_readable": "2025-11-24 04:10:12",
+  "num_metrics": 20,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.8208479320019251,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957348.120332,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.8377402490004897,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957348.136481,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.8642664229992079,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957348.1646667,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.06059810500300955,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957348.1812592,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.059006883995607495,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957348.1959157,
+      "chunk_id": "chunk_4",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.54239234966614,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957361.825317,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What are the terms of the Project Gutenberg License mentioned in the text?  \nWho is the author of \"Moby Dick; Or, The Whale\"?  \nWhat are some of the chapters included in the table of contents of the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.54239234966614,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957361.825324,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What are the terms of the Project Gutenberg License mentioned in the text?  \nWho is the author of \"Moby Dick; Or, The Whale\"?  \nWhat are some of the chapters included in the table of contents of the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.54239234966614,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957361.8253264,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What are the terms of the Project Gutenberg License mentioned in the text?  \nWho is the author of \"Moby Dick; Or, The Whale\"?  \nWhat are some of the chapters included in the table of contents of the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.5353641299977125,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 20,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957370.8057876,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What symbolic significance does \"The Right Whale\u2019s Head\u2014Contrasted View\" hold in the narrative?  \nHow does the encounter with The Virgin in Chapter 81 reflect the themes of whaling and human obsession?  \nWhat role does Ahab\u2019s leg play in illustrating the novel\u2019s exploration of man versus nature?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.5353641299977125,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 20,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957370.805793,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What symbolic significance does \"The Right Whale\u2019s Head\u2014Contrasted View\" hold in the narrative?  \nHow does the encounter with The Virgin in Chapter 81 reflect the themes of whaling and human obsession?  \nWhat role does Ahab\u2019s leg play in illustrating the novel\u2019s exploration of man versus nature?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.5353641299977125,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 20,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957370.8057947,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What symbolic significance does \"The Right Whale\u2019s Head\u2014Contrasted View\" hold in the narrative?  \nHow does the encounter with The Virgin in Chapter 81 reflect the themes of whaling and human obsession?  \nWhat role does Ahab\u2019s leg play in illustrating the novel\u2019s exploration of man versus nature?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 15.12181187600072,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 32,
+        "total_tokens": 575,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957393.5644174,
+      "question_id": "q_chunk_1_0",
+      "response_text": "How do the chapter titles in Moby-Dick contribute to the novel's exploration of themes such as obsession and the sublime?  \nWhat role does the character of Ahab play in the narrative, and how does his obsession with Moby Dick drive the story's progression?  \nIn what ways does the detailed description of the whale's anatomy in chapters like \"The Sperm Whale\u2019s Head\u2014Contrasted View\" reflect the novel's thematic focus on the intersection of science and mysticism?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 15.12181187600072,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 32,
+        "total_tokens": 575,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957393.5644228,
+      "question_id": "q_chunk_1_1",
+      "response_text": "How do the chapter titles in Moby-Dick contribute to the novel's exploration of themes such as obsession and the sublime?  \nWhat role does the character of Ahab play in the narrative, and how does his obsession with Moby Dick drive the story's progression?  \nIn what ways does the detailed description of the whale's anatomy in chapters like \"The Sperm Whale\u2019s Head\u2014Contrasted View\" reflect the novel's thematic focus on the intersection of science and mysticism?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 15.12181187600072,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 32,
+        "total_tokens": 575,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957393.5644248,
+      "question_id": "q_chunk_1_2",
+      "response_text": "How do the chapter titles in Moby-Dick contribute to the novel's exploration of themes such as obsession and the sublime?  \nWhat role does the character of Ahab play in the narrative, and how does his obsession with Moby Dick drive the story's progression?  \nIn what ways does the detailed description of the whale's anatomy in chapters like \"The Sperm Whale\u2019s Head\u2014Contrasted View\" reflect the novel's thematic focus on the intersection of science and mysticism?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 14.61152669932926,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 16,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957405.660936,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What event occurs in Chapter 128 of the text?  \nWhat is the etymology of the word \"whale\" as described in the text?  \nWhich sources were combined in the transcription according to the original Transcriber\u2019s Notes?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 14.61152669932926,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 16,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957405.660941,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What event occurs in Chapter 128 of the text?  \nWhat is the etymology of the word \"whale\" as described in the text?  \nWhich sources were combined in the transcription according to the original Transcriber\u2019s Notes?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 14.61152669932926,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 16,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957405.6609428,
+      "question_id": "q_chunk_3_2",
+      "response_text": "What event occurs in Chapter 128 of the text?  \nWhat is the etymology of the word \"whale\" as described in the text?  \nWhich sources were combined in the transcription according to the original Transcriber\u2019s Notes?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.964725422668076,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957412.7010267,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What are the linguistic origins of the word \"whale\" according to the text?  \nWhat role did the Sub-Sub-Librarian play in compiling the extracts?  \nWhat is the author's warning regarding the interpretation of the collected whale-related allusions?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.964725422668076,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957412.7010326,
+      "question_id": "q_chunk_4_1",
+      "response_text": "What are the linguistic origins of the word \"whale\" according to the text?  \nWhat role did the Sub-Sub-Librarian play in compiling the extracts?  \nWhat is the author's warning regarding the interpretation of the collected whale-related allusions?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.964725422668076,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957412.7010348,
+      "question_id": "q_chunk_4_2",
+      "response_text": "What are the linguistic origins of the word \"whale\" according to the text?  \nWhat role did the Sub-Sub-Librarian play in compiling the extracts?  \nWhat is the author's warning regarding the interpretation of the collected whale-related allusions?"
+    }
+  ]
+}

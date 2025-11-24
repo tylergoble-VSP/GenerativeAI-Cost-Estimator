@@ -1,0 +1,207 @@
+{
+  "export_timestamp": "2025-11-24T02:34:58.811854",
+  "export_timestamp_readable": "2025-11-24 02:34:58",
+  "num_metrics": 15,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.5095902339962777,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951686.64893,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.698423066001851,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951687.8375251,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 5.96419649499876,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951689.1036062,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.559536961998674,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951690.2089543,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.365003411003272,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951691.2030487,
+      "chunk_id": "chunk_4",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7954063109937124,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951692.7970014,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of \"Moby Dick\" within the chapter list?\nWhich character is mentioned in conjunction with \"The Pipe\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7954063109937124,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951692.7970076,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of \"Moby Dick\" within the chapter list?\nWhich character is mentioned in conjunction with \"The Pipe\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3629818960034754,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951693.9312704,
+      "question_id": "q_chunk_0_0",
+      "response_text": "Who is the author of Moby Dick?\nWhat is the purpose of the Project Gutenberg License?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3629818960034754,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951693.9312747,
+      "question_id": "q_chunk_0_1",
+      "response_text": "Who is the author of Moby Dick?\nWhat is the purpose of the Project Gutenberg License?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.0864686615022947,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 10,
+        "total_tokens": 549,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951695.3798084,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the significance of Chapter 126?\nWhat is the relationship between Chapters 108 and 109?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.0864686615022947,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 10,
+        "total_tokens": 549,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951695.3798134,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the significance of Chapter 126?\nWhat is the relationship between Chapters 108 and 109?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.0977543794942903,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 16,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951696.9936295,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What does the Usher do to his old lexicons and grammars?\nAccording to Webster's Dictionary, from what languages does the word \"whale\" originate?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.0977543794942903,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 16,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951696.993636,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What does the Usher do to his old lexicons and grammars?\nAccording to Webster's Dictionary, from what languages does the word \"whale\" originate?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.437492653996742,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 19,
+        "total_tokens": 518,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951698.8074293,
+      "question_id": "q_chunk_4_0",
+      "response_text": "According to the text, what is one proposed origin of the name \"whale\"?\nWhat is the narrator's opinion of the \"Sub-Sub-Librarian\" who compiled the extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.437492653996742,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 19,
+        "total_tokens": 518,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951698.8074343,
+      "question_id": "q_chunk_4_1",
+      "response_text": "According to the text, what is one proposed origin of the name \"whale\"?\nWhat is the narrator's opinion of the \"Sub-Sub-Librarian\" who compiled the extracts?"
+    }
+  ]
+}

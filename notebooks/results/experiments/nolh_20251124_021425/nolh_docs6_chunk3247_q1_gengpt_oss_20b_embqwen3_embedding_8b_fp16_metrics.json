@@ -1,0 +1,163 @@
+{
+  "export_timestamp": "2025-11-24T02:46:08.697743",
+  "export_timestamp_readable": "2025-11-24 02:46:08",
+  "num_metrics": 12,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.37488360000134,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952339.4372106,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.6194065529998625,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952340.6839385,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 5.800270339997951,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952341.8638768,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.532552634991589,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952342.970113,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.2717625070072245,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952343.9560592,
+      "chunk_id": "chunk_4",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.0876791610062355,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952344.952023,
+      "chunk_id": "chunk_5",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.411204028001521,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 18,
+        "total_tokens": 561,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952349.365286,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the most recent update date listed for the Project Gutenberg eBook of Moby Dick?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 9.109274242000538,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 8,
+        "total_tokens": 547,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952354.065035,
+      "question_id": "q_chunk_2_0",
+      "response_text": "Which chapter title references thunder and lightning?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 15.025129440997262,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952359.9798646,
+      "question_id": "q_chunk_1_0",
+      "response_text": "Which chapter title refers to \u201cStubb Kills a Whale\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.54234976900625,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 14,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952361.9087276,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the title of Chapter\u202f128 in the provided text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.567936926992843,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 15,
+        "total_tokens": 514,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952365.6340687,
+      "question_id": "q_chunk_4_0",
+      "response_text": "Which languages are represented in the list of whale names provided in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.71268777899968,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 15,
+        "total_tokens": 531,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952368.6934304,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the role of the biblical references to Leviathan throughout the passage?"
+    }
+  ]
+}

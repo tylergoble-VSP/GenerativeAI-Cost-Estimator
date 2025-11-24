@@ -1,0 +1,137 @@
+{
+  "export_timestamp": "2025-11-24T03:23:14.998125",
+  "export_timestamp_readable": "2025-11-24 03:23:14",
+  "num_metrics": 10,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.4069092489953618,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954566.8531303,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.7710377720068209,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954567.2176604,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.1870417460013414,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954567.632433,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0341302070009988,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954567.8877616,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0215119630011031,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954568.239728,
+      "chunk_id": "chunk_4",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.541068110993365,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 10,
+        "total_tokens": 549,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954572.7841468,
+      "question_id": "q_chunk_2_0",
+      "response_text": "Which chapter title refers to the whale's tail?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.62158073700266,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 18,
+        "total_tokens": 561,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954578.8631747,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the title of chapter 16 in the Project Gutenberg eBook of Moby Dick?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 16.380982776012388,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 21,
+        "total_tokens": 564,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954584.622625,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the title of Chapter\u202f56, and what does it reveal about depictions of whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 16.58474126899091,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 19,
+        "total_tokens": 541,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954589.3698792,
+      "question_id": "q_chunk_3_0",
+      "response_text": "According to the supplied etymology, from which languages is the word \u201cwhale\u201d derived?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 16.1291604579892,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 22,
+        "total_tokens": 521,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954594.9934013,
+      "question_id": "q_chunk_4_0",
+      "response_text": "According to the text, which languages are cited as sources for the etymology of the word \"whale\"?"
+    }
+  ]
+}

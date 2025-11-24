@@ -1,0 +1,169 @@
+{
+  "export_timestamp": "2025-11-24T02:50:35.437143",
+  "export_timestamp_readable": "2025-11-24 02:50:35",
+  "num_metrics": 12,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.6654173550050473,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952630.4012885,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.91718762301025,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952631.6547952,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 6.10333332499431,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952632.8383696,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6483815856675695,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952634.7856858,
+      "question_id": "q_chunk_0_0",
+      "response_text": "1.  What is the cost of the eBook?\n2.  Where can one obtain the eBook?\n3.  What is the release date of the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6483815856675695,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952634.7856894,
+      "question_id": "q_chunk_0_1",
+      "response_text": "1.  What is the cost of the eBook?\n2.  Where can one obtain the eBook?\n3.  What is the release date of the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6483815856675695,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952634.7856903,
+      "question_id": "q_chunk_0_2",
+      "response_text": "1.  What is the cost of the eBook?\n2.  Where can one obtain the eBook?\n3.  What is the release date of the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7471168933310158,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952635.0821295,
+      "question_id": "q_chunk_1_0",
+      "response_text": "1.  What does Stubb do to Ahab?\n2.  What is the significance of \u201cTo Him, Stubb?\u201d\n3.  What is the context of the text\u2019s beginning?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7471168933310158,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952635.0821319,
+      "question_id": "q_chunk_1_1",
+      "response_text": "1.  What does Stubb do to Ahab?\n2.  What is the significance of \u201cTo Him, Stubb?\u201d\n3.  What is the context of the text\u2019s beginning?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7471168933310158,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952635.0821328,
+      "question_id": "q_chunk_1_2",
+      "response_text": "1.  What does Stubb do to Ahab?\n2.  What is the significance of \u201cTo Him, Stubb?\u201d\n3.  What is the context of the text\u2019s beginning?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8634583883346446,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 16,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952635.4325683,
+      "question_id": "q_chunk_2_0",
+      "response_text": "1.  What is the primary subject of the first chapter?\n2.  What is the central conflict described in the second chapter?\n3.  What is the significance of the \u201cPequod Meets The Rose-Bud\u201d scene?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8634583883346446,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 16,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952635.4325736,
+      "question_id": "q_chunk_2_1",
+      "response_text": "1.  What is the primary subject of the first chapter?\n2.  What is the central conflict described in the second chapter?\n3.  What is the significance of the \u201cPequod Meets The Rose-Bud\u201d scene?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8634583883346446,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 16,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952635.4325757,
+      "question_id": "q_chunk_2_2",
+      "response_text": "1.  What is the primary subject of the first chapter?\n2.  What is the central conflict described in the second chapter?\n3.  What is the significance of the \u201cPequod Meets The Rose-Bud\u201d scene?"
+    }
+  ]
+}

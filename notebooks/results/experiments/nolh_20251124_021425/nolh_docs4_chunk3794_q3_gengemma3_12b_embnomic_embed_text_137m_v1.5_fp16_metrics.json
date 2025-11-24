@@ -1,0 +1,223 @@
+{
+  "export_timestamp": "2025-11-24T03:53:33.914488",
+  "export_timestamp_readable": "2025-11-24 03:53:33",
+  "num_metrics": 16,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.9406071720004547,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956405.6363792,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.9591366749955341,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956405.6530468,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.9982019470044179,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956405.6931005,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.07164153299527243,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956405.7083251,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6752301736657197,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956407.736339,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of the chapter titled \"Moby Dick\"?\nWhich characters are mentioned in the opening line?\nWhat is the subject matter explored in Chapter 55?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6752301736657197,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956407.736342,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of the chapter titled \"Moby Dick\"?\nWhich characters are mentioned in the opening line?\nWhat is the subject matter explored in Chapter 55?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6752301736657197,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956407.7363431,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What is the significance of the chapter titled \"Moby Dick\"?\nWhich characters are mentioned in the opening line?\nWhat is the subject matter explored in Chapter 55?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3029760080001627,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 11,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956409.6203935,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the significance of \"The Doubloon\"?\nWhat is the purpose of Chapter 122?\nWhich chapter details a meeting between the Pequod and another vessel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3029760080001627,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 11,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956409.6203995,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the significance of \"The Doubloon\"?\nWhat is the purpose of Chapter 122?\nWhich chapter details a meeting between the Pequod and another vessel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3029760080001627,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 11,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956409.6204016,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What is the significance of \"The Doubloon\"?\nWhat is the purpose of Chapter 122?\nWhich chapter details a meeting between the Pequod and another vessel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.9742341656674398,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956411.6330562,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the purpose of Project Gutenberg, as described in the text?\nWho is the author of Moby Dick; Or, The Whale?\nWhat is the most recent update date for this ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.9742341656674398,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956411.6330612,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the purpose of Project Gutenberg, as described in the text?\nWho is the author of Moby Dick; Or, The Whale?\nWhat is the most recent update date for this ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.9742341656674398,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956411.633063,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the purpose of Project Gutenberg, as described in the text?\nWho is the author of Moby Dick; Or, The Whale?\nWhat is the most recent update date for this ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.0579992633332345,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 16,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956413.9112275,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What does the Usher do to his old lexicons and grammars?\nAccording to Hackluyt, what is overlooked when defining \"whale-fish\"?\nWhat is the Dan. word for whale, and what does it signify?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.0579992633332345,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 16,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956413.9112315,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What does the Usher do to his old lexicons and grammars?\nAccording to Hackluyt, what is overlooked when defining \"whale-fish\"?\nWhat is the Dan. word for whale, and what does it signify?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.0579992633332345,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 16,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956413.9112325,
+      "question_id": "q_chunk_3_2",
+      "response_text": "What does the Usher do to his old lexicons and grammars?\nAccording to Hackluyt, what is overlooked when defining \"whale-fish\"?\nWhat is the Dan. word for whale, and what does it signify?"
+    }
+  ]
+}

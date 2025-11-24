@@ -1,0 +1,87 @@
+{
+  "export_timestamp": "2025-11-24T03:03:42.760258",
+  "export_timestamp_readable": "2025-11-24 03:03:42",
+  "num_metrics": 6,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.0909237599989865,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953395.620033,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.1515276769932825,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953395.679753,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.83056492349715,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953405.343137,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the Project Gutenberg License mentioned in the text?  \nWhat are the release date and most recent update date of the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.83056492349715,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953405.3431401,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the Project Gutenberg License mentioned in the text?  \nWhat are the release date and most recent update date of the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.537239190001856,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953422.7574756,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of the chapter titles in the text?  \nHow do the characters Ahab and Stubb contribute to the narrative?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.537239190001856,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953422.7574806,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of the chapter titles in the text?  \nHow do the characters Ahab and Stubb contribute to the narrative?"
+    }
+  ]
+}

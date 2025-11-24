@@ -1,0 +1,87 @@
+{
+  "export_timestamp": "2025-11-24T03:57:26.004816",
+  "export_timestamp_readable": "2025-11-24 03:57:26",
+  "num_metrics": 6,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.13174467199132778,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956642.7325814,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.19111555299605243,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956642.7928014,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2920753750004224,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956645.3788838,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date of this Project Gutenberg eBook?\nWhat are the authors credited with creating this book?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2920753750004224,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956645.3788886,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the release date of this Project Gutenberg eBook?\nWhat are the authors credited with creating this book?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.6026090320010553,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956646.0010128,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of the repeated names \"Ahab\" and \"Stubb\"?\n\nWhat types of materials are described as being used to depict whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.6026090320010553,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956646.001018,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of the repeated names \"Ahab\" and \"Stubb\"?\n\nWhat types of materials are described as being used to depict whales?"
+    }
+  ]
+}

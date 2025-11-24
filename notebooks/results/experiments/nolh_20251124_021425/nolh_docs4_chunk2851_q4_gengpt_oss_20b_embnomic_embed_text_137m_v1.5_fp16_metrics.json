@@ -1,0 +1,279 @@
+{
+  "export_timestamp": "2025-11-24T03:10:42.651808",
+  "export_timestamp_readable": "2025-11-24 03:10:42",
+  "num_metrics": 20,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.2845263189956313,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953821.887178,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.3020383800030686,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953821.9031212,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.3177672629972221,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953821.9211686,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.04997223299869802,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953821.937662,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.812734611248743,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953829.1902754,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the Project Gutenberg eBook number for Moby Dick?  \nWhich chapter number is titled \"The Spouter-Inn\" in this eBook's contents?  \nWho are credited for the ebook according to the Project Gutenberg listing?  \nOn what date was the most recent update to this eBook made?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.812734611248743,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953829.190285,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the Project Gutenberg eBook number for Moby Dick?  \nWhich chapter number is titled \"The Spouter-Inn\" in this eBook's contents?  \nWho are credited for the ebook according to the Project Gutenberg listing?  \nOn what date was the most recent update to this eBook made?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.812734611248743,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953829.190287,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the Project Gutenberg eBook number for Moby Dick?  \nWhich chapter number is titled \"The Spouter-Inn\" in this eBook's contents?  \nWho are credited for the ebook according to the Project Gutenberg listing?  \nOn what date was the most recent update to this eBook made?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.812734611248743,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953829.1902885,
+      "question_id": "q_chunk_0_3",
+      "response_text": "What is the Project Gutenberg eBook number for Moby Dick?  \nWhich chapter number is titled \"The Spouter-Inn\" in this eBook's contents?  \nWho are credited for the ebook according to the Project Gutenberg listing?  \nOn what date was the most recent update to this eBook made?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.455108731999644,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 23,
+        "total_tokens": 566,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953835.7595825,
+      "question_id": "q_chunk_1_0",
+      "response_text": "Which chapter title refers to the ship's highest point and what might that signify in the narrative?  \nIn which chapter does the text mention various materials used to depict whales, and what is the broader context?  \nHow does chapter 61 titled \"Stubb Kills a Whale\" reflect the themes of violence and fate in the novel?  \nWhich chapter discusses the fate of the whale in a culinary context and what does that reveal about the crew's relationship with their prey?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.455108731999644,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 23,
+        "total_tokens": 566,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953835.759586,
+      "question_id": "q_chunk_1_1",
+      "response_text": "Which chapter title refers to the ship's highest point and what might that signify in the narrative?  \nIn which chapter does the text mention various materials used to depict whales, and what is the broader context?  \nHow does chapter 61 titled \"Stubb Kills a Whale\" reflect the themes of violence and fate in the novel?  \nWhich chapter discusses the fate of the whale in a culinary context and what does that reveal about the crew's relationship with their prey?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.455108731999644,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 23,
+        "total_tokens": 566,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953835.7595868,
+      "question_id": "q_chunk_1_2",
+      "response_text": "Which chapter title refers to the ship's highest point and what might that signify in the narrative?  \nIn which chapter does the text mention various materials used to depict whales, and what is the broader context?  \nHow does chapter 61 titled \"Stubb Kills a Whale\" reflect the themes of violence and fate in the novel?  \nWhich chapter discusses the fate of the whale in a culinary context and what does that reveal about the crew's relationship with their prey?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.455108731999644,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 23,
+        "total_tokens": 566,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953835.759588,
+      "question_id": "q_chunk_1_3",
+      "response_text": "Which chapter title refers to the ship's highest point and what might that signify in the narrative?  \nIn which chapter does the text mention various materials used to depict whales, and what is the broader context?  \nHow does chapter 61 titled \"Stubb Kills a Whale\" reflect the themes of violence and fate in the novel?  \nWhich chapter discusses the fate of the whale in a culinary context and what does that reveal about the crew's relationship with their prey?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.11131146225307,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 14,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953838.38497,
+      "question_id": "q_chunk_2_0",
+      "response_text": "Which chapter title suggests a discussion about the physical dimensions of whales?  \nWhich chapter appears to address the historical figure Jonah and his significance?  \nWhat is the likely subject of Chapter 116 based on its title?  \nWhich chapter title implies a focus on navigational tools used at sea?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.11131146225307,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 14,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953838.3849785,
+      "question_id": "q_chunk_2_1",
+      "response_text": "Which chapter title suggests a discussion about the physical dimensions of whales?  \nWhich chapter appears to address the historical figure Jonah and his significance?  \nWhat is the likely subject of Chapter 116 based on its title?  \nWhich chapter title implies a focus on navigational tools used at sea?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.11131146225307,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 14,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953838.3849795,
+      "question_id": "q_chunk_2_2",
+      "response_text": "Which chapter title suggests a discussion about the physical dimensions of whales?  \nWhich chapter appears to address the historical figure Jonah and his significance?  \nWhat is the likely subject of Chapter 116 based on its title?  \nWhich chapter title implies a focus on navigational tools used at sea?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.11131146225307,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 14,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953838.38498,
+      "question_id": "q_chunk_2_3",
+      "response_text": "Which chapter title suggests a discussion about the physical dimensions of whales?  \nWhich chapter appears to address the historical figure Jonah and his significance?  \nWhat is the likely subject of Chapter 116 based on its title?  \nWhich chapter title implies a focus on navigational tools used at sea?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.36374544525097,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 17,
+        "total_tokens": 539,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953842.6463892,
+      "question_id": "q_chunk_3_0",
+      "response_text": "Which chapters in the text correspond to the ship Pequod meeting other vessels?  \nFrom which sources was the combined etext of this passage created?  \nWhat is the primary linguistic explanation for the word \"whale\" presented in the etymology section?  \nWhich library preserved the Virginia Tech version referenced in the proofreaders' notes?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.36374544525097,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 17,
+        "total_tokens": 539,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953842.6463947,
+      "question_id": "q_chunk_3_1",
+      "response_text": "Which chapters in the text correspond to the ship Pequod meeting other vessels?  \nFrom which sources was the combined etext of this passage created?  \nWhat is the primary linguistic explanation for the word \"whale\" presented in the etymology section?  \nWhich library preserved the Virginia Tech version referenced in the proofreaders' notes?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.36374544525097,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 17,
+        "total_tokens": 539,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953842.6463966,
+      "question_id": "q_chunk_3_2",
+      "response_text": "Which chapters in the text correspond to the ship Pequod meeting other vessels?  \nFrom which sources was the combined etext of this passage created?  \nWhat is the primary linguistic explanation for the word \"whale\" presented in the etymology section?  \nWhich library preserved the Virginia Tech version referenced in the proofreaders' notes?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.36374544525097,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 17,
+        "total_tokens": 539,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953842.6463985,
+      "question_id": "q_chunk_3_3",
+      "response_text": "Which chapters in the text correspond to the ship Pequod meeting other vessels?  \nFrom which sources was the combined etext of this passage created?  \nWhat is the primary linguistic explanation for the word \"whale\" presented in the etymology section?  \nWhich library preserved the Virginia Tech version referenced in the proofreaders' notes?"
+    }
+  ]
+}

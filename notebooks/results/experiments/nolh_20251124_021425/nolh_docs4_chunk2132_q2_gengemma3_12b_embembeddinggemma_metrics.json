@@ -1,0 +1,167 @@
+{
+  "export_timestamp": "2025-11-24T02:32:07.945485",
+  "export_timestamp_readable": "2025-11-24 02:32:07",
+  "num_metrics": 12,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.650285438998253,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951521.0880497,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.031089158001123,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951521.4698126,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.408671126991976,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951521.8468459,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.010825635996298,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951522.0993724,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6994626390005578,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 11,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951523.5012195,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the significance of \"The Doubloon\"?\nWhich chapter depicts Queequeg in his coffin?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6994626390005578,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 11,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951523.5012233,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the significance of \"The Doubloon\"?\nWhich chapter depicts Queequeg in his coffin?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3694822709949221,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951524.8411272,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of \"Moby Dick\" within the listed chapters?\nWhat characters are mentioned in the introductory line?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3694822709949221,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951524.8411338,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of \"Moby Dick\" within the listed chapters?\nWhat characters are mentioned in the introductory line?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.09314167949924,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951526.2879846,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the purpose of Project Gutenberg, according to this text?\nWho is the author of Moby Dick; Or, The Whale?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.09314167949924,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951526.2879918,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the purpose of Project Gutenberg, according to this text?\nWho is the author of Moby Dick; Or, The Whale?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.218899968502228,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 16,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951527.940099,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What does the late consumptive usher do to his old lexicons and grammars?\nAccording to Webster\u2019s Dictionary, what does the word \"whale\" signify?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.218899968502228,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 16,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951527.9401035,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What does the late consumptive usher do to his old lexicons and grammars?\nAccording to Webster\u2019s Dictionary, what does the word \"whale\" signify?"
+    }
+  ]
+}

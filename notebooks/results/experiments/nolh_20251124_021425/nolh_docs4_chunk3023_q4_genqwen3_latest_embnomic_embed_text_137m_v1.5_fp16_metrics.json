@@ -1,0 +1,279 @@
+{
+  "export_timestamp": "2025-11-24T02:30:17.937891",
+  "export_timestamp_readable": "2025-11-24 02:30:17",
+  "num_metrics": 20,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.783515022994834,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951368.740132,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.8232188200054225,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951368.7786188,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.8391282410011627,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951368.7941902,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.06978340999921784,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951368.8103087,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.3858694437512895,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 11,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951382.358131,
+      "question_id": "q_chunk_2_0",
+      "response_text": "Which chapter discusses the measurement of the whale\u2019s skeleton?  \nWhat event is described in Chapter 116?  \nWhich chapter focuses on the try-works of the Pequod?  \nWhat is the significance of Chapter 105?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.3858694437512895,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 11,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951382.3581371,
+      "question_id": "q_chunk_2_1",
+      "response_text": "Which chapter discusses the measurement of the whale\u2019s skeleton?  \nWhat event is described in Chapter 116?  \nWhich chapter focuses on the try-works of the Pequod?  \nWhat is the significance of Chapter 105?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.3858694437512895,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 11,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951382.3581388,
+      "question_id": "q_chunk_2_2",
+      "response_text": "Which chapter discusses the measurement of the whale\u2019s skeleton?  \nWhat event is described in Chapter 116?  \nWhich chapter focuses on the try-works of the Pequod?  \nWhat is the significance of Chapter 105?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.3858694437512895,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 11,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951382.3581405,
+      "question_id": "q_chunk_2_3",
+      "response_text": "Which chapter discusses the measurement of the whale\u2019s skeleton?  \nWhat event is described in Chapter 116?  \nWhich chapter focuses on the try-works of the Pequod?  \nWhat is the significance of Chapter 105?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.7486099425004795,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 25,
+        "total_tokens": 568,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951399.8083994,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of the chapter titled \"Queen Mab\" in the context of the novel's themes?  \nHow does the white whale, Moby Dick, symbolize the central themes of the story?  \nWhat role does the narrative of \"The Town-Ho\u2019s Story\" play in the broader narrative of Moby-Dick?  \nHow does the contrast between the different views of the sperm whale's head in Chapters 74 and 75 reflect the novel's exploration of perception and reality?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.7486099425004795,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 25,
+        "total_tokens": 568,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951399.8084054,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of the chapter titled \"Queen Mab\" in the context of the novel's themes?  \nHow does the white whale, Moby Dick, symbolize the central themes of the story?  \nWhat role does the narrative of \"The Town-Ho\u2019s Story\" play in the broader narrative of Moby-Dick?  \nHow does the contrast between the different views of the sperm whale's head in Chapters 74 and 75 reflect the novel's exploration of perception and reality?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.7486099425004795,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 25,
+        "total_tokens": 568,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951399.8084075,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What is the significance of the chapter titled \"Queen Mab\" in the context of the novel's themes?  \nHow does the white whale, Moby Dick, symbolize the central themes of the story?  \nWhat role does the narrative of \"The Town-Ho\u2019s Story\" play in the broader narrative of Moby-Dick?  \nHow does the contrast between the different views of the sperm whale's head in Chapters 74 and 75 reflect the novel's exploration of perception and reality?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.7486099425004795,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 25,
+        "total_tokens": 568,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951399.808409,
+      "question_id": "q_chunk_1_3",
+      "response_text": "What is the significance of the chapter titled \"Queen Mab\" in the context of the novel's themes?  \nHow does the white whale, Moby Dick, symbolize the central themes of the story?  \nWhat role does the narrative of \"The Town-Ho\u2019s Story\" play in the broader narrative of Moby-Dick?  \nHow does the contrast between the different views of the sperm whale's head in Chapters 74 and 75 reflect the novel's exploration of perception and reality?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.271882396751607,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951409.8999653,
+      "question_id": "q_chunk_0_0",
+      "response_text": "Who is the author of *Moby Dick; Or, The Whale*?  \nWhat is the release date of the eBook according to the text?  \nUnder what license is the eBook made available?  \nWhich chapters are listed in the contents of the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.271882396751607,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951409.8999698,
+      "question_id": "q_chunk_0_1",
+      "response_text": "Who is the author of *Moby Dick; Or, The Whale*?  \nWhat is the release date of the eBook according to the text?  \nUnder what license is the eBook made available?  \nWhich chapters are listed in the contents of the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.271882396751607,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951409.8999708,
+      "question_id": "q_chunk_0_2",
+      "response_text": "Who is the author of *Moby Dick; Or, The Whale*?  \nWhat is the release date of the eBook according to the text?  \nUnder what license is the eBook made available?  \nWhich chapters are listed in the contents of the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.271882396751607,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951409.8999715,
+      "question_id": "q_chunk_0_3",
+      "response_text": "Who is the author of *Moby Dick; Or, The Whale*?  \nWhat is the release date of the eBook according to the text?  \nUnder what license is the eBook made available?  \nWhich chapters are listed in the contents of the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.893297569000424,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 14,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951417.9324799,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the significance of the chapter titles in the text?  \nWhat does the etymology section reveal about the word \"whale\"?  \nHow does the original Transcriber\u2019s Note describe the source of the text?  \nWhat role does the Usher play in the etymology section?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.893297569000424,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 14,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951417.9324849,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the significance of the chapter titles in the text?  \nWhat does the etymology section reveal about the word \"whale\"?  \nHow does the original Transcriber\u2019s Note describe the source of the text?  \nWhat role does the Usher play in the etymology section?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.893297569000424,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 14,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951417.9324875,
+      "question_id": "q_chunk_3_2",
+      "response_text": "What is the significance of the chapter titles in the text?  \nWhat does the etymology section reveal about the word \"whale\"?  \nHow does the original Transcriber\u2019s Note describe the source of the text?  \nWhat role does the Usher play in the etymology section?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.893297569000424,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 14,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951417.9324887,
+      "question_id": "q_chunk_3_3",
+      "response_text": "What is the significance of the chapter titles in the text?  \nWhat does the etymology section reveal about the word \"whale\"?  \nHow does the original Transcriber\u2019s Note describe the source of the text?  \nWhat role does the Usher play in the etymology section?"
+    }
+  ]
+}

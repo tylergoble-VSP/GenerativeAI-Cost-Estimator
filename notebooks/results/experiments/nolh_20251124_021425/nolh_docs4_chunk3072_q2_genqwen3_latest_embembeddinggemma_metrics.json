@@ -1,0 +1,167 @@
+{
+  "export_timestamp": "2025-11-24T04:11:55.976685",
+  "export_timestamp_readable": "2025-11-24 04:11:55",
+  "num_metrics": 12,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.6712682119978126,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957452.8603983,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.092776411998784,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957453.2789352,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.4720129649940645,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957453.6598172,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0484338070091326,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957453.9093263,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.14783734500088,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957480.206973,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the Project Gutenberg License mentioned in the text?  \nHow many chapters are listed in the contents of the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.14783734500088,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957480.2069788,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the Project Gutenberg License mentioned in the text?  \nHow many chapters are listed in the contents of the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 20.18988224900386,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 20,
+        "total_tokens": 563,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957494.2916923,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of the chapter titled \"The Whiteness of the Whale\" in the narrative?  \nHow does the author use the chapter titles to reflect the themes and symbolism in the novel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 20.18988224900386,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 20,
+        "total_tokens": 563,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957494.291696,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of the chapter titled \"The Whiteness of the Whale\" in the narrative?  \nHow does the author use the chapter titles to reflect the themes and symbolism in the novel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 26.05830921549932,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 24,
+        "total_tokens": 563,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957506.0294037,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the significance of the chapter titled \"The Fossil Whale\" in the context of the novel's themes?  \nHow do the encounters with ships such as *The Virgin* and *The Bachelor* contribute to the narrative's development?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 26.05830921549932,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 24,
+        "total_tokens": 563,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957506.0294075,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the significance of the chapter titled \"The Fossil Whale\" in the context of the novel's themes?  \nHow do the encounters with ships such as *The Virgin* and *The Bachelor* contribute to the narrative's development?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 17.881760183998267,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 18,
+        "total_tokens": 540,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957515.9716241,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the significance of the chapter titles in the context of the novel?  \nHow does the etymology of the word \"whale\" contribute to the themes of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 17.881760183998267,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 18,
+        "total_tokens": 540,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957515.9716291,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the significance of the chapter titles in the context of the novel?  \nHow does the etymology of the word \"whale\" contribute to the themes of the text?"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "export_timestamp": "2025-11-24T02:34:43.027186",
+  "export_timestamp_readable": "2025-11-24 02:34:43",
+  "num_metrics": 8,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.2317269699997269,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951678.4223204,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.430645635991823,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951679.6202657,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.9470029666651195,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951682.4635496,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What characters are introduced in the first paragraph?\nWhat chapters focus on whale depictions and their various forms?\nWhat is the significance of the repeated mention of \"whale\" throughout the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.9470029666651195,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951682.463554,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What characters are introduced in the first paragraph?\nWhat chapters focus on whale depictions and their various forms?\nWhat is the significance of the repeated mention of \"whale\" throughout the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.9470029666651195,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951682.4635558,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What characters are introduced in the first paragraph?\nWhat chapters focus on whale depictions and their various forms?\nWhat is the significance of the repeated mention of \"whale\" throughout the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1339648366653516,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951683.0239692,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date of this ebook?\nWhat are the authors of the ebook?\nWhere can the Project Gutenberg License be found?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1339648366653516,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951683.023972,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the release date of this ebook?\nWhat are the authors of the ebook?\nWhere can the Project Gutenberg License be found?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1339648366653516,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951683.0239732,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the release date of this ebook?\nWhat are the authors of the ebook?\nWhere can the Project Gutenberg License be found?"
+    }
+  ]
+}

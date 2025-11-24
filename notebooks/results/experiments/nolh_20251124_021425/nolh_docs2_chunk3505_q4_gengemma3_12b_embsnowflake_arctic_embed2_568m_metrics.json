@@ -1,0 +1,143 @@
+{
+  "export_timestamp": "2025-11-24T02:53:59.073976",
+  "export_timestamp_readable": "2025-11-24 02:53:59",
+  "num_metrics": 10,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.6792676659970311,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952834.5894978,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.7401609389926307,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952834.651054,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6193657990006614,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952837.1303432,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the purpose of Project Gutenberg?\nWho is the author of Moby Dick; Or, The Whale?\nWhat is the release date of this ebook?\nWhat is the significance of \"Cetology\" in the contents list?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6193657990006614,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952837.1303504,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the purpose of Project Gutenberg?\nWho is the author of Moby Dick; Or, The Whale?\nWhat is the release date of this ebook?\nWhat is the significance of \"Cetology\" in the contents list?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6193657990006614,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952837.1303525,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the purpose of Project Gutenberg?\nWho is the author of Moby Dick; Or, The Whale?\nWhat is the release date of this ebook?\nWhat is the significance of \"Cetology\" in the contents list?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6193657990006614,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952837.1303544,
+      "question_id": "q_chunk_0_3",
+      "response_text": "What is the purpose of Project Gutenberg?\nWho is the author of Moby Dick; Or, The Whale?\nWhat is the release date of this ebook?\nWhat is the significance of \"Cetology\" in the contents list?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1039644237498578,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952839.069311,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of \"Enter Ahab\"?\nWhat is the subject of Chapter 32?\nWhat character appears in Chapter 50?\nWhat does Chapter 61 describe?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1039644237498578,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952839.0693157,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of \"Enter Ahab\"?\nWhat is the subject of Chapter 32?\nWhat character appears in Chapter 50?\nWhat does Chapter 61 describe?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1039644237498578,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952839.0693166,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What is the significance of \"Enter Ahab\"?\nWhat is the subject of Chapter 32?\nWhat character appears in Chapter 50?\nWhat does Chapter 61 describe?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1039644237498578,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952839.0693176,
+      "question_id": "q_chunk_1_3",
+      "response_text": "What is the significance of \"Enter Ahab\"?\nWhat is the subject of Chapter 32?\nWhat character appears in Chapter 50?\nWhat does Chapter 61 describe?"
+    }
+  ]
+}

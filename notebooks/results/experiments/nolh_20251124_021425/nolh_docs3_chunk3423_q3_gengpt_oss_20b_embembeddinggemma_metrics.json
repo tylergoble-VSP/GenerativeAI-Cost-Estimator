@@ -1,0 +1,169 @@
+{
+  "export_timestamp": "2025-11-24T03:26:26.190394",
+  "export_timestamp_readable": "2025-11-24 03:26:26",
+  "num_metrics": 12,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.611915607994888,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954776.32322,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.9888681169977644,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954776.701179,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.348608180996962,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954777.0619824,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1217219020036282,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954780.4302669,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What themes are suggested by the chapter titles listed?  \nHow does the ordering of chapters reflect the narrative progression in Moby-Dick?  \nWhich chapters indicate the focus on whaling techniques and equipment?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1217219020036282,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954780.430271,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What themes are suggested by the chapter titles listed?  \nHow does the ordering of chapters reflect the narrative progression in Moby-Dick?  \nWhich chapters indicate the focus on whaling techniques and equipment?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1217219020036282,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954780.430273,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What themes are suggested by the chapter titles listed?  \nHow does the ordering of chapters reflect the narrative progression in Moby-Dick?  \nWhich chapters indicate the focus on whaling techniques and equipment?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7490605459994792,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954782.3113658,
+      "question_id": "q_chunk_0_0",
+      "response_text": "Who is the author of the Project Gutenberg eBook of Moby Dick?  \nWhat is the release date of this eBook and when was it most recently updated?  \nWhich chapters are duplicated in the provided table of contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7490605459994792,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954782.3113718,
+      "question_id": "q_chunk_0_1",
+      "response_text": "Who is the author of the Project Gutenberg eBook of Moby Dick?  \nWhat is the release date of this eBook and when was it most recently updated?  \nWhich chapters are duplicated in the provided table of contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7490605459994792,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954782.3113737,
+      "question_id": "q_chunk_0_2",
+      "response_text": "Who is the author of the Project Gutenberg eBook of Moby Dick?  \nWhat is the release date of this eBook and when was it most recently updated?  \nWhich chapters are duplicated in the provided table of contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.039970367002146,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 17,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954786.1856103,
+      "question_id": "q_chunk_2_0",
+      "response_text": "Which chapter discusses the historical perception of Jonah?  \nHow does chapter 86, \"The Tail,\" contribute to the novel's symbolism of pursuit?  \nIn what ways does chapter 106, \"Ahab\u2019s Leg,\" foreshadow the climax of the story?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.039970367002146,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 17,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954786.1856139,
+      "question_id": "q_chunk_2_1",
+      "response_text": "Which chapter discusses the historical perception of Jonah?  \nHow does chapter 86, \"The Tail,\" contribute to the novel's symbolism of pursuit?  \nIn what ways does chapter 106, \"Ahab\u2019s Leg,\" foreshadow the climax of the story?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.039970367002146,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 17,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954786.1856146,
+      "question_id": "q_chunk_2_2",
+      "response_text": "Which chapter discusses the historical perception of Jonah?  \nHow does chapter 86, \"The Tail,\" contribute to the novel's symbolism of pursuit?  \nIn what ways does chapter 106, \"Ahab\u2019s Leg,\" foreshadow the climax of the story?"
+    }
+  ]
+}

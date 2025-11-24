@@ -1,0 +1,483 @@
+{
+  "export_timestamp": "2025-11-24T03:54:21.464049",
+  "export_timestamp_readable": "2025-11-24 03:54:21",
+  "num_metrics": 35,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.286157024995191,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956452.485013,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.3036324419954326,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956452.5011628,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.3182045480061788,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956452.5182593,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.0496257560007507,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956452.5349574,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.04839594200893771,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956452.5499005,
+      "chunk_id": "chunk_4",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.046136682998621836,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956452.5646544,
+      "chunk_id": "chunk_5",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.045141412992961705,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956452.5803576,
+      "chunk_id": "chunk_6",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8032074347502203,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956455.795629,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What are the chapter titles listed in the text?\nWhat are some of the different representations of whales discussed?\nWhich crew members are mentioned in the text?\nWhat events involve the killing of whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8032074347502203,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956455.7956333,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What are the chapter titles listed in the text?\nWhat are some of the different representations of whales discussed?\nWhich crew members are mentioned in the text?\nWhat events involve the killing of whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8032074347502203,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956455.7956343,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What are the chapter titles listed in the text?\nWhat are some of the different representations of whales discussed?\nWhich crew members are mentioned in the text?\nWhat events involve the killing of whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8032074347502203,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956455.795635,
+      "question_id": "q_chunk_1_3",
+      "response_text": "What are the chapter titles listed in the text?\nWhat are some of the different representations of whales discussed?\nWhich crew members are mentioned in the text?\nWhat events involve the killing of whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.9818722837517271,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956456.5096374,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date of this ebook?\nWhat is the title of the book?\nWho are the credited authors of this ebook?\nWhere can the Project Gutenberg License be found?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.9818722837517271,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956456.5096436,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the release date of this ebook?\nWhat is the title of the book?\nWho are the credited authors of this ebook?\nWhere can the Project Gutenberg License be found?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.9818722837517271,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956456.5096455,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the release date of this ebook?\nWhat is the title of the book?\nWho are the credited authors of this ebook?\nWhere can the Project Gutenberg License be found?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.9818722837517271,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956456.5096471,
+      "question_id": "q_chunk_0_3",
+      "response_text": "What is the release date of this ebook?\nWhat is the title of the book?\nWho are the credited authors of this ebook?\nWhere can the Project Gutenberg License be found?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2408819532502093,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 13,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956457.5473554,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the significance of the Right Whale\u2019s head being contrasted?\nWhat is the \"Battering-Ram\" referred to in Chapter 76?\nWhat role does the \"Pequod\" play in the narrative?\nWhat is being measured in Chapter 103?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2408819532502093,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 13,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956457.5473619,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the significance of the Right Whale\u2019s head being contrasted?\nWhat is the \"Battering-Ram\" referred to in Chapter 76?\nWhat role does the \"Pequod\" play in the narrative?\nWhat is being measured in Chapter 103?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2408819532502093,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 13,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956457.5473638,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What is the significance of the Right Whale\u2019s head being contrasted?\nWhat is the \"Battering-Ram\" referred to in Chapter 76?\nWhat role does the \"Pequod\" play in the narrative?\nWhat is being measured in Chapter 103?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2408819532502093,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 13,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956457.5473654,
+      "question_id": "q_chunk_2_3",
+      "response_text": "What is the significance of the Right Whale\u2019s head being contrasted?\nWhat is the \"Battering-Ram\" referred to in Chapter 76?\nWhat role does the \"Pequod\" play in the narrative?\nWhat is being measured in Chapter 103?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7130456152517581,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 16,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956458.6486192,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the name of the whale-fish in our tongue, according to the Usher?\nWhat language did the word \u201cwhale\u201d originate from, according to the dictionary?\nWhich chapters detail the encounter between the Pequod and the Rachel?\nWhat does the Usher\u2019s habit of dusting his grammars symbolize?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7130456152517581,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 16,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956458.6486237,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the name of the whale-fish in our tongue, according to the Usher?\nWhat language did the word \u201cwhale\u201d originate from, according to the dictionary?\nWhich chapters detail the encounter between the Pequod and the Rachel?\nWhat does the Usher\u2019s habit of dusting his grammars symbolize?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7130456152517581,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 16,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956458.6486244,
+      "question_id": "q_chunk_3_2",
+      "response_text": "What is the name of the whale-fish in our tongue, according to the Usher?\nWhat language did the word \u201cwhale\u201d originate from, according to the dictionary?\nWhich chapters detail the encounter between the Pequod and the Rachel?\nWhat does the Usher\u2019s habit of dusting his grammars symbolize?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7130456152517581,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 16,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956458.6486251,
+      "question_id": "q_chunk_3_3",
+      "response_text": "What is the name of the whale-fish in our tongue, according to the Usher?\nWhat language did the word \u201cwhale\u201d originate from, according to the dictionary?\nWhich chapters detail the encounter between the Pequod and the Rachel?\nWhat does the Usher\u2019s habit of dusting his grammars symbolize?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7749934700004815,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 13,
+        "total_tokens": 512,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956459.61056,
+      "question_id": "q_chunk_4_0",
+      "response_text": "From what does the animal named \"whale\" derive its name?\nWhat languages contribute to the origins of the word \"whale\"?\nWhat does the text advise regarding the use of the extracted statements about whales?\nWhat is the Sub-Sub-Librarian described as?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7749934700004815,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 13,
+        "total_tokens": 512,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956459.610564,
+      "question_id": "q_chunk_4_1",
+      "response_text": "From what does the animal named \"whale\" derive its name?\nWhat languages contribute to the origins of the word \"whale\"?\nWhat does the text advise regarding the use of the extracted statements about whales?\nWhat is the Sub-Sub-Librarian described as?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7749934700004815,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 13,
+        "total_tokens": 512,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956459.610566,
+      "question_id": "q_chunk_4_2",
+      "response_text": "From what does the animal named \"whale\" derive its name?\nWhat languages contribute to the origins of the word \"whale\"?\nWhat does the text advise regarding the use of the extracted statements about whales?\nWhat is the Sub-Sub-Librarian described as?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7749934700004815,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 13,
+        "total_tokens": 512,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956459.6105673,
+      "question_id": "q_chunk_4_3",
+      "response_text": "From what does the animal named \"whale\" derive its name?\nWhat languages contribute to the origins of the word \"whale\"?\nWhat does the text advise regarding the use of the extracted statements about whales?\nWhat is the Sub-Sub-Librarian described as?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7360339557490079,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 12,
+        "total_tokens": 528,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956460.492469,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the primary purpose of the extracts presented?\nWhat is the commentator's attitude towards the \"Sub-Subs\"?\nHow does the text describe the potential outcome of efforts to please the world?\nWhat biblical references are included in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7360339557490079,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 12,
+        "total_tokens": 528,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956460.4924748,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the primary purpose of the extracts presented?\nWhat is the commentator's attitude towards the \"Sub-Subs\"?\nHow does the text describe the potential outcome of efforts to please the world?\nWhat biblical references are included in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7360339557490079,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 12,
+        "total_tokens": 528,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956460.492477,
+      "question_id": "q_chunk_5_2",
+      "response_text": "What is the primary purpose of the extracts presented?\nWhat is the commentator's attitude towards the \"Sub-Subs\"?\nHow does the text describe the potential outcome of efforts to please the world?\nWhat biblical references are included in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7360339557490079,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 12,
+        "total_tokens": 528,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956460.4924786,
+      "question_id": "q_chunk_5_3",
+      "response_text": "What is the primary purpose of the extracts presented?\nWhat is the commentator's attitude towards the \"Sub-Subs\"?\nHow does the text describe the potential outcome of efforts to please the world?\nWhat biblical references are included in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7001961652495083,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 13,
+        "total_tokens": 529,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956461.4502022,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What does the text describe as Leviathan's actions?\nWhat was the approximate size of the Balaene whales mentioned?\nAccording to the text, what happens to objects that enter a whale's mouth?\nWhat was the primary motivation for the individual\u2019s maritime activities?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7001961652495083,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 13,
+        "total_tokens": 529,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956461.4502058,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What does the text describe as Leviathan's actions?\nWhat was the approximate size of the Balaene whales mentioned?\nAccording to the text, what happens to objects that enter a whale's mouth?\nWhat was the primary motivation for the individual\u2019s maritime activities?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7001961652495083,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 13,
+        "total_tokens": 529,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956461.4502065,
+      "question_id": "q_chunk_6_2",
+      "response_text": "What does the text describe as Leviathan's actions?\nWhat was the approximate size of the Balaene whales mentioned?\nAccording to the text, what happens to objects that enter a whale's mouth?\nWhat was the primary motivation for the individual\u2019s maritime activities?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7001961652495083,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 13,
+        "total_tokens": 529,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956461.4502072,
+      "question_id": "q_chunk_6_3",
+      "response_text": "What does the text describe as Leviathan's actions?\nWhat was the approximate size of the Balaene whales mentioned?\nAccording to the text, what happens to objects that enter a whale's mouth?\nWhat was the primary motivation for the individual\u2019s maritime activities?"
+    }
+  ]
+}

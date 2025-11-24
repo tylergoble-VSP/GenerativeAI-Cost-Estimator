@@ -1,0 +1,75 @@
+{
+  "export_timestamp": "2025-11-24T02:28:43.621123",
+  "export_timestamp_readable": "2025-11-24 02:28:43",
+  "num_metrics": 5,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.1137545249948744,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951321.5178483,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5248166727506032,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951323.6186793,
+      "question_id": "q_chunk_0_0",
+      "response_text": "1. What is the cost of the ebook?\n2. Where can you obtain the ebook?\n3. What is the release date of the ebook?\n4. What is the language of the ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5248166727506032,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951323.6186817,
+      "question_id": "q_chunk_0_1",
+      "response_text": "1. What is the cost of the ebook?\n2. Where can you obtain the ebook?\n3. What is the release date of the ebook?\n4. What is the language of the ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5248166727506032,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951323.6186826,
+      "question_id": "q_chunk_0_2",
+      "response_text": "1. What is the cost of the ebook?\n2. Where can you obtain the ebook?\n3. What is the release date of the ebook?\n4. What is the language of the ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5248166727506032,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951323.6186836,
+      "question_id": "q_chunk_0_3",
+      "response_text": "1. What is the cost of the ebook?\n2. Where can you obtain the ebook?\n3. What is the release date of the ebook?\n4. What is the language of the ebook?"
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "export_timestamp": "2025-11-24T02:41:18.283253",
+  "export_timestamp_readable": "2025-11-24 02:41:18",
+  "num_metrics": 18,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0011352029978298,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952038.9776266,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0435168419935508,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952039.0193198,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0608229479985312,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952039.035896,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.07309268300014082,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952039.0510569,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.04584267700556666,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952039.065515,
+      "chunk_id": "chunk_4",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.04590602099779062,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952039.082224,
+      "chunk_id": "chunk_5",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.8990536330020404,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952046.8828104,
+      "question_id": "q_chunk_1_0",
+      "response_text": "Which chapter discusses the concept of \"The Whiteness of the Whale\"?  \nWhich chapters in this excerpt are titled with a single noun?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.8990536330020404,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952046.882818,
+      "question_id": "q_chunk_1_1",
+      "response_text": "Which chapter discusses the concept of \"The Whiteness of the Whale\"?  \nWhich chapters in this excerpt are titled with a single noun?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.300329635501839,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 29,
+        "total_tokens": 572,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952049.6847575,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What are the licensing terms under which the Project Gutenberg eBook of Moby Dick can be used, and how does this differ for users outside the United States?  \nWhich chapter in the table of contents contains the title \u201cCetology,\u201d and what is its significance in the context of the novel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.300329635501839,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 29,
+        "total_tokens": 572,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952049.684761,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What are the licensing terms under which the Project Gutenberg eBook of Moby Dick can be used, and how does this differ for users outside the United States?  \nWhich chapter in the table of contents contains the title \u201cCetology,\u201d and what is its significance in the context of the novel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.533542067998496,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 15,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952064.1521397,
+      "question_id": "q_chunk_2_0",
+      "response_text": "Which chapter title refers to the process of turning whale oil into a usable form?  \nWhat chapter title refers to the process of measuring a whale's skeleton?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.533542067998496,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 15,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952064.1521478,
+      "question_id": "q_chunk_2_1",
+      "response_text": "Which chapter title refers to the process of turning whale oil into a usable form?  \nWhat chapter title refers to the process of measuring a whale's skeleton?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.304733534503612,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 31,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952069.4935784,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What themes or motifs might be inferred from the sequence of chapter titles, ranging from \u201cMidnight Aloft\u201d to \u201cThe Chase\u2014Third Day,\u201d in this excerpt?  \n\nHow do the transcriber's notes and the brief etymology section illustrate the challenges and concerns involved in preserving and publishing this text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.304733534503612,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 31,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952069.4935834,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What themes or motifs might be inferred from the sequence of chapter titles, ranging from \u201cMidnight Aloft\u201d to \u201cThe Chase\u2014Third Day,\u201d in this excerpt?  \n\nHow do the transcriber's notes and the brief etymology section illustrate the challenges and concerns involved in preserving and publishing this text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.078982427003211,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 16,
+        "total_tokens": 515,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952073.8438628,
+      "question_id": "q_chunk_4_0",
+      "response_text": "Which etymological origins does the text attribute to the English word \u201cwhale\u201d?\n\nHow does the author describe the reliability of the extracted whale\u2011related statements?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.078982427003211,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 16,
+        "total_tokens": 515,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952073.8438666,
+      "question_id": "q_chunk_4_1",
+      "response_text": "Which etymological origins does the text attribute to the English word \u201cwhale\u201d?\n\nHow does the author describe the reliability of the extracted whale\u2011related statements?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.06259011849761,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 19,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952078.2784188,
+      "question_id": "q_chunk_5_0",
+      "response_text": "How does the author use the concept of Leviathan to comment on human attempts to please the world?  \nWhich biblical passages are cited in the extracts, and what common theme do they share?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.06259011849761,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 19,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952078.2784398,
+      "question_id": "q_chunk_5_1",
+      "response_text": "How does the author use the concept of Leviathan to comment on human attempts to please the world?  \nWhich biblical passages are cited in the extracts, and what common theme do they share?"
+    }
+  ]
+}

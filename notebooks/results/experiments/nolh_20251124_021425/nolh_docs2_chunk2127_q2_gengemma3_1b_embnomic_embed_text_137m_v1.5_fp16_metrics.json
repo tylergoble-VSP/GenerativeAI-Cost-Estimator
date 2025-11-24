@@ -1,0 +1,87 @@
+{
+  "export_timestamp": "2025-11-24T03:00:25.988547",
+  "export_timestamp_readable": "2025-11-24 03:00:25",
+  "num_metrics": 6,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.6600603419938125,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953224.0714998,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.6758378519880353,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953224.0868828,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8543651875006617,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953225.7971592,
+      "question_id": "q_chunk_1_0",
+      "response_text": "1.  What does Stubb do to Ahab?\n2.  What is the setting for the first part of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8543651875006617,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953225.7971644,
+      "question_id": "q_chunk_1_1",
+      "response_text": "1.  What does Stubb do to Ahab?\n2.  What is the setting for the first part of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.9484507390006911,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953225.985312,
+      "question_id": "q_chunk_0_0",
+      "response_text": "1. What is the cost of the eBook?\n2. What is the release date of the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.9484507390006911,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953225.985316,
+      "question_id": "q_chunk_0_1",
+      "response_text": "1. What is the cost of the eBook?\n2. What is the release date of the eBook?"
+    }
+  ]
+}

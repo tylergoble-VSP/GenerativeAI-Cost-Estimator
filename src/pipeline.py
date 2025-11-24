@@ -10,6 +10,7 @@ This module provides functions to:
 """
 
 import re
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import Dict, List, Optional
 
@@ -299,8 +300,76 @@ def chunk_text(text: str, config: Config) -> List[Dict[str, any]]:
         raise ValueError(f"Unknown chunking strategy: {strategy}")
 
 
+def _embed_single_chunk(chunk: Dict[str, any], config: Config, 
+                       thread_metrics_store: MetricsStore) -> Dict[str, any]:
+    """
+    Helper function to embed a single chunk.
+    
+    This is used by the parallel processing implementation to process
+    individual chunks in separate threads.
+    
+    Args:
+        chunk: Single chunk dictionary with 'text' and 'chunk_id'
+        config: Configuration object with model names and endpoint
+        thread_metrics_store: MetricsStore for this thread to record metrics
+    
+    Returns:
+        Chunk dictionary with added 'embedding' field containing the vector
+    """
+    chunk_text = chunk["text"]
+    chunk_id = chunk["chunk_id"]
+    
+    # Time the embedding call
+    with TimingContext() as timer:
+        # Call Ollama API to get embedding
+        embedding, metadata = get_embedding(
+            chunk_text,
+            config.embedding_model,
+            config.ollama_endpoint
+        )
+    
+    # Get the duration from the timer
+    duration = timer.duration
+    
+    # Extract usage from metadata (contains actual token counts from Ollama)
+    usage = metadata.get("usage", {})
+    
+    # Get actual tokens from usage field, with fallback to estimation
+    # Priority: Ollama actual → tiktoken → simple estimation
+    actual_tokens, token_method = estimate_embedding_tokens(
+        chunk_text,
+        usage=usage
+    )
+    
+    # Also get estimated tokens for comparison (if we have actual)
+    estimated_tokens = None
+    if token_method == "ollama_actual":
+        # Get estimated tokens for comparison
+        estimated_tokens, _ = estimate_embedding_tokens(chunk_text, usage=None)
+    
+    # Get embedding size (length of the vector)
+    embedding_size = len(embedding) if embedding else None
+    
+    # Add embedding to chunk dictionary
+    chunk_with_embedding = chunk.copy()
+    chunk_with_embedding["embedding"] = embedding
+    chunk_with_embedding["embedding_size"] = embedding_size
+    
+    # Record metrics with actual tokens (primary) and estimated (for comparison)
+    thread_metrics_store.add_embedding_metric(
+        duration=duration,
+        actual_tokens=actual_tokens,
+        estimated_tokens=estimated_tokens,
+        token_method=token_method,
+        chunk_id=chunk_id,
+        embedding_size=embedding_size
+    )
+    
+    return chunk_with_embedding
+
+
 def embed_chunks(chunks: List[Dict[str, any]], config: Config,
-                metrics_store: MetricsStore) -> List[Dict[str, any]]:
+                metrics_store: MetricsStore, concurrency: int = 1) -> List[Dict[str, any]]:
     """
     Embed all chunks using Ollama, with full token and time tracking.
     
@@ -314,64 +383,121 @@ def embed_chunks(chunks: List[Dict[str, any]], config: Config,
         chunks: List of chunk dictionaries (from chunk_text)
         config: Configuration object with model names and endpoint
         metrics_store: MetricsStore to record timing and token metrics
+        concurrency: Number of parallel threads to use (default: 1 for sequential)
     
     Returns:
         List of chunk dictionaries with added 'embedding' field containing the vector
     """
-    embedded_chunks = []
-    
-    # Process each chunk
-    for chunk in chunks:
-        chunk_text = chunk["text"]
-        chunk_id = chunk["chunk_id"]
-        
-        # Time the embedding call
-        with TimingContext() as timer:
-            # Call Ollama API to get embedding
-            embedding, metadata = get_embedding(
+    # If concurrency is 1, process sequentially (backward compatible)
+    if concurrency == 1:
+        embedded_chunks = []
+        for chunk in chunks:
+            chunk_text = chunk["text"]
+            chunk_id = chunk["chunk_id"]
+            
+            # Time the embedding call
+            with TimingContext() as timer:
+                # Call Ollama API to get embedding
+                embedding, metadata = get_embedding(
+                    chunk_text,
+                    config.embedding_model,
+                    config.ollama_endpoint
+                )
+            
+            # Get the duration from the timer
+            duration = timer.duration
+            
+            # Extract usage from metadata (contains actual token counts from Ollama)
+            usage = metadata.get("usage", {})
+            
+            # Get actual tokens from usage field, with fallback to estimation
+            # Priority: Ollama actual → tiktoken → simple estimation
+            actual_tokens, token_method = estimate_embedding_tokens(
                 chunk_text,
-                config.embedding_model,
-                config.ollama_endpoint
+                usage=usage
             )
+            
+            # Also get estimated tokens for comparison (if we have actual)
+            estimated_tokens = None
+            if token_method == "ollama_actual":
+                # Get estimated tokens for comparison
+                estimated_tokens, _ = estimate_embedding_tokens(chunk_text, usage=None)
+            
+            # Get embedding size (length of the vector)
+            embedding_size = len(embedding) if embedding else None
+            
+            # Add embedding to chunk dictionary
+            chunk_with_embedding = chunk.copy()
+            chunk_with_embedding["embedding"] = embedding
+            chunk_with_embedding["embedding_size"] = embedding_size
+            
+            # Record metrics with actual tokens (primary) and estimated (for comparison)
+            metrics_store.add_embedding_metric(
+                duration=duration,
+                actual_tokens=actual_tokens,
+                estimated_tokens=estimated_tokens,
+                token_method=token_method,
+                chunk_id=chunk_id,
+                embedding_size=embedding_size
+            )
+            
+            embedded_chunks.append(chunk_with_embedding)
         
-        # Get the duration from the timer
-        duration = timer.duration
+        return embedded_chunks
+    
+    # Parallel processing with ThreadPoolExecutor
+    # Create a list to store results in order
+    embedded_chunks = [None] * len(chunks)
+    
+    # Use ThreadPoolExecutor to process chunks in parallel
+    # Each thread gets its own MetricsStore to avoid thread-safety issues
+    import time
+    start_time = time.time()
+    completed_count = 0
+    
+    with ThreadPoolExecutor(max_workers=concurrency) as executor:
+        # Create a MetricsStore for each thread (we'll merge them later)
+        thread_stores = {}
         
-        # Extract usage from metadata (contains actual token counts from Ollama)
-        usage = metadata.get("usage", {})
+        # Submit all tasks
+        future_to_index = {}
+        for idx, chunk in enumerate(chunks):
+            # Create a new MetricsStore for this thread
+            thread_store = MetricsStore()
+            thread_stores[idx] = thread_store
+            
+            # Submit the task
+            future = executor.submit(_embed_single_chunk, chunk, config, thread_store)
+            future_to_index[future] = idx
         
-        # Get actual tokens from usage field, with fallback to estimation
-        # Priority: Ollama actual → tiktoken → simple estimation
-        actual_tokens, token_method = estimate_embedding_tokens(
-            chunk_text,
-            usage=usage
-        )
-        
-        # Also get estimated tokens for comparison (if we have actual)
-        estimated_tokens = None
-        if token_method == "ollama_actual":
-            # Get estimated tokens for comparison
-            estimated_tokens, _ = estimate_embedding_tokens(chunk_text, usage=None)
-        
-        # Get embedding size (length of the vector)
-        embedding_size = len(embedding) if embedding else None
-        
-        # Add embedding to chunk dictionary
-        chunk_with_embedding = chunk.copy()
-        chunk_with_embedding["embedding"] = embedding
-        chunk_with_embedding["embedding_size"] = embedding_size
-        
-        # Record metrics with actual tokens (primary) and estimated (for comparison)
-        metrics_store.add_embedding_metric(
-            duration=duration,
-            actual_tokens=actual_tokens,
-            estimated_tokens=estimated_tokens,
-            token_method=token_method,
-            chunk_id=chunk_id,
-            embedding_size=embedding_size
-        )
-        
-        embedded_chunks.append(chunk_with_embedding)
+        # Collect results as they complete
+        for future in as_completed(future_to_index):
+            idx = future_to_index[future]
+            try:
+                embedded_chunk = future.result()
+                embedded_chunks[idx] = embedded_chunk
+                completed_count += 1
+                
+                # Progress indicator (only print every 10% or every 5 chunks, whichever is more frequent)
+                if completed_count % max(1, len(chunks) // 10) == 0 or completed_count % 5 == 0:
+                    elapsed = time.time() - start_time
+                    rate = completed_count / elapsed if elapsed > 0 else 0
+                    print(f"  Progress: {completed_count}/{len(chunks)} chunks ({completed_count*100//len(chunks)}%) - {rate:.1f} chunks/sec", end='\r')
+                
+                # Merge metrics from this thread's store into the main store
+                thread_store = thread_stores[idx]
+                for metric in thread_store.metrics:
+                    metrics_store.metrics.append(metric)
+            except Exception as e:
+                # If a chunk fails, we'll leave it as None and handle it below
+                print(f"\nWarning: Failed to embed chunk at index {idx}: {e}")
+    
+    # Print final progress
+    elapsed = time.time() - start_time
+    print(f"  Completed: {completed_count}/{len(chunks)} chunks in {elapsed:.2f}s ({completed_count/elapsed:.1f} chunks/sec)" if elapsed > 0 else f"  Completed: {completed_count}/{len(chunks)} chunks")
+    
+    # Filter out any None values (failed chunks) and return
+    embedded_chunks = [chunk for chunk in embedded_chunks if chunk is not None]
     
     return embedded_chunks
 
@@ -437,14 +563,23 @@ Questions:"""
     prompt_method = token_counts.get("prompt_method", "unknown")
     response_method = token_counts.get("response_method", "unknown")
     
+    # Determine if we have actual tokens from Ollama
+    has_actual_tokens = (prompt_method == "ollama_actual" or response_method == "ollama_actual")
+    
     # Get estimated tokens for comparison if we have actual
+    # Otherwise, the tokens we have ARE the estimated tokens (from tiktoken or simple estimation)
     estimated_prompt_tokens = None
     estimated_response_tokens = None
-    if prompt_method == "ollama_actual" or response_method == "ollama_actual":
+    if has_actual_tokens:
         # Get estimated tokens for comparison
         estimated_counts = count_prompt_and_response(prompt, response_text, usage=None)
         estimated_prompt_tokens = estimated_counts["prompt_tokens"]
         estimated_response_tokens = estimated_counts["response_tokens"]
+    else:
+        # The tokens we have are estimated (from tiktoken or simple estimation)
+        # Use them as the primary values
+        estimated_prompt_tokens = prompt_tokens
+        estimated_response_tokens = response_tokens
     
     # Parse questions from response with better filtering
     # Split by newlines and process each line
@@ -549,12 +684,22 @@ Questions:"""
         # Divide duration and tokens by number of questions found
         # Note: We use the same token counts for all questions from this generation
         # since they all came from the same API call
+        # Calculate per-question token counts
+        per_question_prompt_tokens = prompt_tokens  # Prompt is the same for all questions
+        per_question_response_tokens = response_tokens // num_questions_found if num_questions_found > 0 else response_tokens
+        per_question_estimated_prompt = estimated_prompt_tokens if estimated_prompt_tokens is not None else prompt_tokens
+        per_question_estimated_response = (estimated_response_tokens // num_questions_found) if (num_questions_found > 0 and estimated_response_tokens is not None) else (estimated_response_tokens if estimated_response_tokens is not None else response_tokens)
+        
         metrics_store.add_inference_metric(
             duration=duration / num_questions_found,  # Average duration per question
-            actual_prompt_tokens=prompt_tokens if prompt_method == "ollama_actual" else None,
-            actual_response_tokens=response_tokens // num_questions_found if num_questions_found > 0 and response_method == "ollama_actual" else (response_tokens if response_method == "ollama_actual" else None),
-            estimated_prompt_tokens=estimated_prompt_tokens,
-            estimated_response_tokens=estimated_response_tokens // num_questions_found if num_questions_found > 0 and estimated_response_tokens is not None else estimated_response_tokens,
+            actual_prompt_tokens=per_question_prompt_tokens if prompt_method == "ollama_actual" else None,
+            actual_response_tokens=per_question_response_tokens if response_method == "ollama_actual" else None,
+            # Pass estimated tokens - these will be used as primary if actual is None
+            estimated_prompt_tokens=per_question_estimated_prompt,
+            estimated_response_tokens=per_question_estimated_response,
+            # Also pass as prompt_tokens/response_tokens for backward compatibility
+            prompt_tokens=per_question_prompt_tokens,
+            response_tokens=per_question_response_tokens,
             prompt_method=prompt_method,
             response_method=response_method,
             question_id=question_id,

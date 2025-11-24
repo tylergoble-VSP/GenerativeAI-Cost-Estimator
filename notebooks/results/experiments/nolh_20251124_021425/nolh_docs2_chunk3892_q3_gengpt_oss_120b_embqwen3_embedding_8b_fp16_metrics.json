@@ -1,0 +1,115 @@
+{
+  "export_timestamp": "2025-11-24T03:54:11.066299",
+  "export_timestamp_readable": "2025-11-24 03:54:11",
+  "num_metrics": 8,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.489119837002363,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956417.5379894,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.665117452997947,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956418.7148836,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.918779421670479,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956445.4740684,
+      "question_id": "q_chunk_1_0",
+      "response_text": "Which chapter titles in the list explicitly mention the character Stubb?\n\nWhat is the title of Chapter\u202f40 according to the provided text?\n\nHow many chapter titles in the list include the word \u201cWhale\u201d in their wording?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.918779421670479,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956445.4740741,
+      "question_id": "q_chunk_1_1",
+      "response_text": "Which chapter titles in the list explicitly mention the character Stubb?\n\nWhat is the title of Chapter\u202f40 according to the provided text?\n\nHow many chapter titles in the list include the word \u201cWhale\u201d in their wording?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.918779421670479,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956445.4740763,
+      "question_id": "q_chunk_1_2",
+      "response_text": "Which chapter titles in the list explicitly mention the character Stubb?\n\nWhat is the title of Chapter\u202f40 according to the provided text?\n\nHow many chapter titles in the list include the word \u201cWhale\u201d in their wording?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.778473933668769,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956451.0521617,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date and most recent update date of this eBook?  \nWho are the credited individuals for this Project Gutenberg edition?  \nWhich chapter titles appear twice in the table of contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.778473933668769,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956451.0521688,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the release date and most recent update date of this eBook?  \nWho are the credited individuals for this Project Gutenberg edition?  \nWhich chapter titles appear twice in the table of contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.778473933668769,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956451.0521708,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the release date and most recent update date of this eBook?  \nWho are the credited individuals for this Project Gutenberg edition?  \nWhich chapter titles appear twice in the table of contents?"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "export_timestamp": "2025-11-24T02:16:31.363724",
+  "export_timestamp_readable": "2025-11-24 02:16:31",
+  "num_metrics": 12,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.1605710059957346,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763950578.9002051,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.2199868759926176,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763950578.9620097,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.280321090001962,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763950579.02131,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.575491434331828,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950583.7503984,
+      "question_id": "q_chunk_1_0",
+      "response_text": "Which character is introduced at the very beginning of the provided text?\nWhat broad subject matter appears to be the focus of many of the chapter titles?\nWhat chapter title suggests a narrative told by another ship?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.575491434331828,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950583.7504013,
+      "question_id": "q_chunk_1_1",
+      "response_text": "Which character is introduced at the very beginning of the provided text?\nWhat broad subject matter appears to be the focus of many of the chapter titles?\nWhat chapter title suggests a narrative told by another ship?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.575491434331828,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950583.7504022,
+      "question_id": "q_chunk_1_2",
+      "response_text": "Which character is introduced at the very beginning of the provided text?\nWhat broad subject matter appears to be the focus of many of the chapter titles?\nWhat chapter title suggests a narrative told by another ship?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.0262293126628115,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 12,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950588.1034262,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What objects are repeatedly referenced alongside encounters with other ships?\nWhat specific body parts are highlighted in multiple chapter titles?\nBesides whaling itself, what other trades or professions are mentioned through chapter titles?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.0262293126628115,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 12,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950588.103433,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What objects are repeatedly referenced alongside encounters with other ships?\nWhat specific body parts are highlighted in multiple chapter titles?\nBesides whaling itself, what other trades or professions are mentioned through chapter titles?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.0262293126628115,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 12,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950588.103435,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What objects are repeatedly referenced alongside encounters with other ships?\nWhat specific body parts are highlighted in multiple chapter titles?\nBesides whaling itself, what other trades or professions are mentioned through chapter titles?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.112175216330797,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950591.359667,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nWhat date was the eBook originally released?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.112175216330797,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950591.3596716,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nWhat date was the eBook originally released?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.112175216330797,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950591.3596725,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nWhat date was the eBook originally released?"
+    }
+  ]
+}

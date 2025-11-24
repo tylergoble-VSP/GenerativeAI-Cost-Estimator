@@ -1,0 +1,167 @@
+{
+  "export_timestamp": "2025-11-24T03:03:12.390782",
+  "export_timestamp_readable": "2025-11-24 03:03:12",
+  "num_metrics": 12,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.4892138639988843,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953339.4345691,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.896261946996674,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953339.840901,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.2670353639987297,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953340.213789,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0299164059979375,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953340.464971,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.271934459502518,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 23,
+        "total_tokens": 566,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953357.0114398,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of the chapter titled \"The Whiteness of the Whale\" in the context of the narrative?  \nHow does the structure of the chapters from 30 to 79 contribute to the thematic development of the story?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.271934459502518,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 23,
+        "total_tokens": 566,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953357.0114446,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of the chapter titled \"The Whiteness of the Whale\" in the context of the narrative?  \nHow does the structure of the chapters from 30 to 79 contribute to the thematic development of the story?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.290949977003038,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 12,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953367.0502005,
+      "question_id": "q_chunk_2_0",
+      "response_text": "Which chapter discusses the historical perspective on Jonah?  \nWhat chapter describes the encounter between the Pequod and the Virgin?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.290949977003038,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 12,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953367.0502062,
+      "question_id": "q_chunk_2_1",
+      "response_text": "Which chapter discusses the historical perspective on Jonah?  \nWhat chapter describes the encounter between the Pequod and the Virgin?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 17.791682881499582,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953376.05041,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What are the terms of the Project Gutenberg License mentioned in the text?  \nWhich chapter in the book is titled \"ETYMOLOGY\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 17.791682881499582,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953376.050415,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What are the terms of the Project Gutenberg License mentioned in the text?  \nWhich chapter in the book is titled \"ETYMOLOGY\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 17.686877139996795,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 19,
+        "total_tokens": 541,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953392.3861701,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the etymological origin of the word \"whale\" as described in the text?  \nHow does the Usher's description in the etymology section contribute to the narrative?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 17.686877139996795,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 19,
+        "total_tokens": 541,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953392.386175,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the etymological origin of the word \"whale\" as described in the text?  \nHow does the Usher's description in the etymology section contribute to the narrative?"
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "export_timestamp": "2025-11-24T03:03:54.010730",
+  "export_timestamp_readable": "2025-11-24 03:03:54",
+  "num_metrics": 16,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1523085110093234,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953423.0382712,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.21070561399392318,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953423.097999,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.27303083399601746,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953423.159625,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.17953321999812033,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953423.2181318,
+      "chunk_id": "chunk_3",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7433936360030202,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 9,
+        "total_tokens": 548,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953428.4519248,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the subject of Chapter 75?\nWhat do Chapters 115 and 116 describe?\nWhich chapter details Ahab\u2019s leg?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7433936360030202,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 9,
+        "total_tokens": 548,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953428.4519317,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the subject of Chapter 75?\nWhat do Chapters 115 and 116 describe?\nWhich chapter details Ahab\u2019s leg?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7433936360030202,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 9,
+        "total_tokens": 548,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953428.4519327,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What is the subject of Chapter 75?\nWhat do Chapters 115 and 116 describe?\nWhich chapter details Ahab\u2019s leg?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.30015385466686,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953430.1212926,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of \"Enter Ahab\"?\nWhat chapter introduces Moby Dick?\nWhat is being contrasted in chapters 74 and 75?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.30015385466686,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953430.1212997,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of \"Enter Ahab\"?\nWhat chapter introduces Moby Dick?\nWhat is being contrasted in chapters 74 and 75?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.30015385466686,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953430.1213007,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What is the significance of \"Enter Ahab\"?\nWhat chapter introduces Moby Dick?\nWhat is being contrasted in chapters 74 and 75?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.9239740806660848,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953431.9924335,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the purpose of Project Gutenberg, according to this text?\nWho is the author of Moby Dick; Or, The Whale?\nWhat is the release date of this ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.9239740806660848,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953431.992439,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the purpose of Project Gutenberg, according to this text?\nWho is the author of Moby Dick; Or, The Whale?\nWhat is the release date of this ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.9239740806660848,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953431.992441,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the purpose of Project Gutenberg, according to this text?\nWho is the author of Moby Dick; Or, The Whale?\nWhat is the release date of this ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.8509245389965752,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 14,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953434.0055883,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What does the Usher's handkerchief represent?\nWhat connection does Hackluyt make regarding the letter \"H\"?\nAccording to Webster\u2019s Dictionary, what is the origin of the word \"whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.8509245389965752,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 14,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953434.0055923,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What does the Usher's handkerchief represent?\nWhat connection does Hackluyt make regarding the letter \"H\"?\nAccording to Webster\u2019s Dictionary, what is the origin of the word \"whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.8509245389965752,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 14,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953434.0055938,
+      "question_id": "q_chunk_3_2",
+      "response_text": "What does the Usher's handkerchief represent?\nWhat connection does Hackluyt make regarding the letter \"H\"?\nAccording to Webster\u2019s Dictionary, what is the origin of the word \"whale\"?"
+    }
+  ]
+}

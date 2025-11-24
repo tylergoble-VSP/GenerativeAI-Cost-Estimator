@@ -1,0 +1,175 @@
+{
+  "export_timestamp": "2025-11-24T03:31:56.253677",
+  "export_timestamp_readable": "2025-11-24 03:31:56",
+  "num_metrics": 13,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.3203230340004666,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955100.0829194,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.380216624995228,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955100.1442022,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.4402930500073126,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955100.2037075,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1794466610008385,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955100.262718,
+      "chunk_id": "chunk_3",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.15966921499057207,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955100.3042305,
+      "chunk_id": "chunk_4",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.19071213899587747,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955100.3949032,
+      "chunk_id": "chunk_5",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.18901127799472306,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955100.4520478,
+      "chunk_id": "chunk_6",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.417976035998436,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955104.871994,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the range of chapter numbers presented in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.794599285000004,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 17,
+        "total_tokens": 560,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955107.247949,
+      "question_id": "q_chunk_0_0",
+      "response_text": "According to the text, what are the general terms for using and sharing this eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.323618755006464,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 13,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955109.246295,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What objects or locations are listed as chapter titles in this text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.14053042800515,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 24,
+        "total_tokens": 523,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955112.0134087,
+      "question_id": "q_chunk_4_0",
+      "response_text": "According to the text, what do the etymological origins of the word \"whale\" suggest about its meaning?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.020800365004106,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 17,
+        "total_tokens": 533,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955114.2697136,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What biblical figures are mentioned as being potentially displaced by the \u201cSub-Subs\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.003031549989828,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 14,
+        "total_tokens": 530,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955116.250248,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What common element connects the descriptions of sea creatures across these various texts?"
+    }
+  ]
+}

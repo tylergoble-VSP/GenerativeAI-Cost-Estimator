@@ -1,0 +1,287 @@
+{
+  "export_timestamp": "2025-11-24T04:13:18.251038",
+  "export_timestamp_readable": "2025-11-24 04:13:18",
+  "num_metrics": 21,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.434029381009168,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957558.1612332,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.7883029579970753,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957558.515623,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.1864084170083515,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957558.912798,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.9991422940074699,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957559.160744,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.9846269099944038,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957559.500615,
+      "chunk_id": "chunk_4",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.7727967319951858,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957559.685941,
+      "chunk_id": "chunk_5",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.7037761440005852,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957559.8649738,
+      "chunk_id": "chunk_6",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.3251180035003927,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 21,
+        "total_tokens": 560,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957564.518954,
+      "question_id": "q_chunk_2_0",
+      "response_text": "How does the chapter \"The Great Heidelburgh Tun\" reflect the maritime culture of the era?  \nWhat is the significance of the recurring motif of \"The Pequod\" appearing in multiple chapter titles?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.3251180035003927,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 21,
+        "total_tokens": 560,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957564.518959,
+      "question_id": "q_chunk_2_1",
+      "response_text": "How does the chapter \"The Great Heidelburgh Tun\" reflect the maritime culture of the era?  \nWhat is the significance of the recurring motif of \"The Pequod\" appearing in multiple chapter titles?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.15149121650029,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 16,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957572.1702504,
+      "question_id": "q_chunk_1_0",
+      "response_text": "Which chapters in the list explicitly reference whale species or parts of whales?  \nWhich chapters in the list describe scenes or events occurring on the ship's deck or structure?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.15149121650029,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 16,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957572.1702547,
+      "question_id": "q_chunk_1_1",
+      "response_text": "Which chapters in the list explicitly reference whale species or parts of whales?  \nWhich chapters in the list describe scenes or events occurring on the ship's deck or structure?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.971194143996399,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957575.809307,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What are the conditions for using this Project Gutenberg eBook of Moby Dick?  \nWhich chapter appears twice in the table of contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.971194143996399,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957575.809311,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What are the conditions for using this Project Gutenberg eBook of Moby Dick?  \nWhich chapter appears twice in the table of contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.321078695495089,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 24,
+        "total_tokens": 546,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957581.1620533,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the significance of Chapter 133, titled \u201cThe Symphony,\u201d within the context of the narrative?  \nHow do the original transcriber\u2019s notes describe the etymology of the word \u201cwhale,\u201d and which languages are referenced?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.321078695495089,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 24,
+        "total_tokens": 546,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957581.1620564,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the significance of Chapter 133, titled \u201cThe Symphony,\u201d within the context of the narrative?  \nHow do the original transcriber\u2019s notes describe the etymology of the word \u201cwhale,\u201d and which languages are referenced?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.700177671504207,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 22,
+        "total_tokens": 521,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957587.5717576,
+      "question_id": "q_chunk_4_0",
+      "response_text": "According to the text, from which linguistic roots is the English word \u201cwhale\u201d derived?  \nIn the passage, why does the author refer to the compiler as a \u201cpoor devil of a Sub\u2011Sub\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.700177671504207,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 22,
+        "total_tokens": 521,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957587.5717614,
+      "question_id": "q_chunk_4_1",
+      "response_text": "According to the text, from which linguistic roots is the English word \u201cwhale\u201d derived?  \nIn the passage, why does the author refer to the compiler as a \u201cpoor devil of a Sub\u2011Sub\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.510711453498516,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 23,
+        "total_tokens": 539,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957592.8318036,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the significance of referring to \u201cSub\u2011Sub\u201d in the context of the passage\u2019s critique of worldly praise?  \nWhich biblical passages are cited to illustrate the various depictions of Leviathan, and what themes do they emphasize?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.510711453498516,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 23,
+        "total_tokens": 539,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957592.8318093,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the significance of referring to \u201cSub\u2011Sub\u201d in the context of the passage\u2019s critique of worldly praise?  \nWhich biblical passages are cited to illustrate the various depictions of Leviathan, and what themes do they emphasize?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.535778173994913,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 22,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957598.2346616,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What is the significance of the Leviathan described in Isaiah and how does it relate to the sea monsters mentioned in the later texts?  \nHow do the various historical accounts portray the size and impact of whales and sea creatures?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.535778173994913,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 22,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957598.234667,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What is the significance of the Leviathan described in Isaiah and how does it relate to the sea monsters mentioned in the later texts?  \nHow do the various historical accounts portray the size and impact of whales and sea creatures?"
+    }
+  ]
+}

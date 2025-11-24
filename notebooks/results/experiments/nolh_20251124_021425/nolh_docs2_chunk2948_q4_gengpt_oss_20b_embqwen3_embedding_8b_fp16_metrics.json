@@ -1,0 +1,143 @@
+{
+  "export_timestamp": "2025-11-24T02:48:34.587729",
+  "export_timestamp_readable": "2025-11-24 02:48:34",
+  "num_metrics": 10,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.769085918989731,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952500.8465936,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 5.952942682997673,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952502.029725,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.3191610017493076,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952511.3088977,
+      "question_id": "q_chunk_1_0",
+      "response_text": "Which chapter discusses the \"whiteness of the whale\"?  \nIn which chapter does \"The Albatross\" appear?  \nWhich chapter is titled \"The Chart\"?  \nWhat is the chapter number that contains the title \"Stubb Kills a Whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.3191610017493076,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952511.3089051,
+      "question_id": "q_chunk_1_1",
+      "response_text": "Which chapter discusses the \"whiteness of the whale\"?  \nIn which chapter does \"The Albatross\" appear?  \nWhich chapter is titled \"The Chart\"?  \nWhat is the chapter number that contains the title \"Stubb Kills a Whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.3191610017493076,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952511.308907,
+      "question_id": "q_chunk_1_2",
+      "response_text": "Which chapter discusses the \"whiteness of the whale\"?  \nIn which chapter does \"The Albatross\" appear?  \nWhich chapter is titled \"The Chart\"?  \nWhat is the chapter number that contains the title \"Stubb Kills a Whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.3191610017493076,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952511.3089087,
+      "question_id": "q_chunk_1_3",
+      "response_text": "Which chapter discusses the \"whiteness of the whale\"?  \nIn which chapter does \"The Albatross\" appear?  \nWhich chapter is titled \"The Chart\"?  \nWhat is the chapter number that contains the title \"Stubb Kills a Whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.1380100964997837,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952514.5833952,
+      "question_id": "q_chunk_0_0",
+      "response_text": "Who is credited as the author of the Project Gutenberg eBook of Moby Dick?  \nWhat is the release date listed for this eBook?  \nWhich chapter is titled \"The Pulpit\"?  \nWhich individuals are credited for the eBook\u2019s production?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.1380100964997837,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952514.5833988,
+      "question_id": "q_chunk_0_1",
+      "response_text": "Who is credited as the author of the Project Gutenberg eBook of Moby Dick?  \nWhat is the release date listed for this eBook?  \nWhich chapter is titled \"The Pulpit\"?  \nWhich individuals are credited for the eBook\u2019s production?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.1380100964997837,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952514.5833998,
+      "question_id": "q_chunk_0_2",
+      "response_text": "Who is credited as the author of the Project Gutenberg eBook of Moby Dick?  \nWhat is the release date listed for this eBook?  \nWhich chapter is titled \"The Pulpit\"?  \nWhich individuals are credited for the eBook\u2019s production?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.1380100964997837,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952514.5834005,
+      "question_id": "q_chunk_0_3",
+      "response_text": "Who is credited as the author of the Project Gutenberg eBook of Moby Dick?  \nWhat is the release date listed for this eBook?  \nWhich chapter is titled \"The Pulpit\"?  \nWhich individuals are credited for the eBook\u2019s production?"
+    }
+  ]
+}

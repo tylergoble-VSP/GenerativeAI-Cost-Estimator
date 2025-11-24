@@ -1,0 +1,347 @@
+{
+  "export_timestamp": "2025-11-24T04:02:51.649268",
+  "export_timestamp_readable": "2025-11-24 04:02:51",
+  "num_metrics": 25,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.319222484002239,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956951.4412289,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.495636585998,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956952.6193824,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 5.74648872599937,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956953.871506,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.518798916004016,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956954.9605274,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.3317301380011486,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956955.9516351,
+      "chunk_id": "chunk_4",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3284461282491975,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 8,
+        "total_tokens": 547,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956961.268659,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the subject of Chapter 75?\nWhat happens in Chapter 81?\nWhich chapter details Ahab's leg?\nWhat is discussed in Chapter 111?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3284461282491975,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 8,
+        "total_tokens": 547,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956961.268665,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the subject of Chapter 75?\nWhat happens in Chapter 81?\nWhich chapter details Ahab's leg?\nWhat is discussed in Chapter 111?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3284461282491975,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 8,
+        "total_tokens": 547,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956961.2686677,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What is the subject of Chapter 75?\nWhat happens in Chapter 81?\nWhich chapter details Ahab's leg?\nWhat is discussed in Chapter 111?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.3284461282491975,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 8,
+        "total_tokens": 547,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956961.2686696,
+      "question_id": "q_chunk_2_3",
+      "response_text": "What is the subject of Chapter 75?\nWhat happens in Chapter 81?\nWhich chapter details Ahab's leg?\nWhat is discussed in Chapter 111?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7972557932516793,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956963.1429975,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of \"Enter Ahab\"?\nWhich chapter introduces Moby Dick?\nWhat is the subject of Chapter 55?\nWhat happens in Chapter 61?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7972557932516793,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956963.143001,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of \"Enter Ahab\"?\nWhich chapter introduces Moby Dick?\nWhat is the subject of Chapter 55?\nWhat happens in Chapter 61?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7972557932516793,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956963.1430018,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What is the significance of \"Enter Ahab\"?\nWhich chapter introduces Moby Dick?\nWhat is the subject of Chapter 55?\nWhat happens in Chapter 61?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7972557932516793,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956963.1430025,
+      "question_id": "q_chunk_1_3",
+      "response_text": "What is the significance of \"Enter Ahab\"?\nWhich chapter introduces Moby Dick?\nWhat is the subject of Chapter 55?\nWhat happens in Chapter 61?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.4389599712485506,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956965.7090755,
+      "question_id": "q_chunk_0_0",
+      "response_text": "Who is the author of Moby Dick; Or, The Whale?\nWhat is the release date of this ebook?\nAccording to the text, where is this ebook permitted for use at no cost?\nWhat is the purpose of the \u201cEXTRACTS\u201d section?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.4389599712485506,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956965.7090797,
+      "question_id": "q_chunk_0_1",
+      "response_text": "Who is the author of Moby Dick; Or, The Whale?\nWhat is the release date of this ebook?\nAccording to the text, where is this ebook permitted for use at no cost?\nWhat is the purpose of the \u201cEXTRACTS\u201d section?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.4389599712485506,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956965.709081,
+      "question_id": "q_chunk_0_2",
+      "response_text": "Who is the author of Moby Dick; Or, The Whale?\nWhat is the release date of this ebook?\nAccording to the text, where is this ebook permitted for use at no cost?\nWhat is the purpose of the \u201cEXTRACTS\u201d section?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.4389599712485506,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956965.7090816,
+      "question_id": "q_chunk_0_3",
+      "response_text": "Who is the author of Moby Dick; Or, The Whale?\nWhat is the release date of this ebook?\nAccording to the text, where is this ebook permitted for use at no cost?\nWhat is the purpose of the \u201cEXTRACTS\u201d section?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.789154608748504,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 14,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956968.4261694,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the significance of the Usher's handkerchief?\nWhat does Hackluyt criticize in the naming of a whale-fish?\nAccording to Webster's Dictionary, what does \"hvalt\" mean in Danish?\nWhat two projects contributed to the creation of this etext?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.789154608748504,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 14,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956968.4261725,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the significance of the Usher's handkerchief?\nWhat does Hackluyt criticize in the naming of a whale-fish?\nAccording to Webster's Dictionary, what does \"hvalt\" mean in Danish?\nWhat two projects contributed to the creation of this etext?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.789154608748504,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 14,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956968.4261734,
+      "question_id": "q_chunk_3_2",
+      "response_text": "What is the significance of the Usher's handkerchief?\nWhat does Hackluyt criticize in the naming of a whale-fish?\nAccording to Webster's Dictionary, what does \"hvalt\" mean in Danish?\nWhat two projects contributed to the creation of this etext?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.789154608748504,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 14,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956968.4261742,
+      "question_id": "q_chunk_3_3",
+      "response_text": "What is the significance of the Usher's handkerchief?\nWhat does Hackluyt criticize in the naming of a whale-fish?\nAccording to Webster's Dictionary, what does \"hvalt\" mean in Danish?\nWhat two projects contributed to the creation of this etext?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.122556414000428,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956971.6343186,
+      "question_id": "q_chunk_4_0",
+      "response_text": "According to Webster\u2019s Dictionary, from what characteristic is the animal named?\nWhat language is \"Wallen\" from, according to Richardson\u2019s Dictionary?\nWhat is the function of the \"poor devil of a Sub-Sub\" in the text?\nWhat is the purpose of the \"ancient authors\" and \"poets\" mentioned in the extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.122556414000428,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956971.6343246,
+      "question_id": "q_chunk_4_1",
+      "response_text": "According to Webster\u2019s Dictionary, from what characteristic is the animal named?\nWhat language is \"Wallen\" from, according to Richardson\u2019s Dictionary?\nWhat is the function of the \"poor devil of a Sub-Sub\" in the text?\nWhat is the purpose of the \"ancient authors\" and \"poets\" mentioned in the extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.122556414000428,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956971.634327,
+      "question_id": "q_chunk_4_2",
+      "response_text": "According to Webster\u2019s Dictionary, from what characteristic is the animal named?\nWhat language is \"Wallen\" from, according to Richardson\u2019s Dictionary?\nWhat is the function of the \"poor devil of a Sub-Sub\" in the text?\nWhat is the purpose of the \"ancient authors\" and \"poets\" mentioned in the extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.122556414000428,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956971.6343286,
+      "question_id": "q_chunk_4_3",
+      "response_text": "According to Webster\u2019s Dictionary, from what characteristic is the animal named?\nWhat language is \"Wallen\" from, according to Richardson\u2019s Dictionary?\nWhat is the function of the \"poor devil of a Sub-Sub\" in the text?\nWhat is the purpose of the \"ancient authors\" and \"poets\" mentioned in the extracts?"
+    }
+  ]
+}

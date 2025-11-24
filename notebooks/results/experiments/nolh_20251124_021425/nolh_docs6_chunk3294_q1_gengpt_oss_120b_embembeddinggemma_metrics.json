@@ -1,0 +1,163 @@
+{
+  "export_timestamp": "2025-11-24T02:32:53.873519",
+  "export_timestamp_readable": "2025-11-24 02:32:53",
+  "num_metrics": 12,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.4724585860094521,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951528.554461,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.8447089199908078,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951528.9285738,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.2146100509999087,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951529.2972467,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.008247981997556,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951529.563066,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.9905208400014089,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951529.9194837,
+      "chunk_id": "chunk_4",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.8306999259948498,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951530.128416,
+      "chunk_id": "chunk_5",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 24.390807124000276,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 12,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951554.5220735,
+      "question_id": "q_chunk_2_0",
+      "response_text": "Which chapter title in the list references Ahab\u2019s leg?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 27.662102870002855,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 24,
+        "total_tokens": 567,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951557.7924774,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date listed for the Project Gutenberg eBook of *Moby\u2011Dick; Or, The Whale*?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 31.17487678800535,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951561.3058078,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the title of Chapter\u202f46 in the listed chapters?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.689434583997354,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 27,
+        "total_tokens": 549,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951567.2123225,
+      "question_id": "q_chunk_3_0",
+      "response_text": "According to the etymology section, which languages are cited as sources for the word \u201cwhale\u201d and what meanings do they provide?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.041733060003025,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 22,
+        "total_tokens": 521,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951570.8352623,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What is the etymological origin of the English word \u201cwhale\u201d as described in the provided extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.561520914008725,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 17,
+        "total_tokens": 533,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951573.8682234,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the significance of the repeated references to Leviathan in the biblical extracts presented?"
+    }
+  ]
+}

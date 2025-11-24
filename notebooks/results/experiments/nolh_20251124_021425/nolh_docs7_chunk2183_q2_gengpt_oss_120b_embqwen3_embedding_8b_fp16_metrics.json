@@ -1,0 +1,287 @@
+{
+  "export_timestamp": "2025-11-24T04:06:45.951356",
+  "export_timestamp_readable": "2025-11-24 04:06:45",
+  "num_metrics": 21,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.3990551629976835,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957139.8810575,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.655250864001573,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957141.1381855,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 5.8469658690009965,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957142.328172,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.5427612790081184,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957143.4242907,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.2730812180088833,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957144.4118505,
+      "chunk_id": "chunk_4",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.0793982930044876,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957145.4079056,
+      "chunk_id": "chunk_5",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.981163251999533,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957146.4059305,
+      "chunk_id": "chunk_6",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 14.689372759501566,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957175.7878444,
+      "question_id": "q_chunk_1_0",
+      "response_text": "Which chapter is titled \u201cThe Whiteness of the Whale\u201d?\n\nWhat is the title of Chapter 58?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 14.689372759501566,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957175.7878518,
+      "question_id": "q_chunk_1_1",
+      "response_text": "Which chapter is titled \u201cThe Whiteness of the Whale\u201d?\n\nWhat is the title of Chapter 58?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 17.37344423399918,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957181.1550634,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date listed for the Project Gutenberg eBook of Moby\u202fDick?  \nWhich chapter in the contents is titled \u201cThe Ramadan\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 17.37344423399918,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957181.1550672,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the release date listed for the Project Gutenberg eBook of Moby\u202fDick?  \nWhich chapter in the contents is titled \u201cThe Ramadan\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 19.54127623000386,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 17,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957185.5025573,
+      "question_id": "q_chunk_2_0",
+      "response_text": "Which chapter title references a specific anatomical part of the whale, such as its tail or head?  \nWhich chapter titles suggest interactions between the Pequod and other ships?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 19.54127623000386,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 17,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957185.5025735,
+      "question_id": "q_chunk_2_1",
+      "response_text": "Which chapter title references a specific anatomical part of the whale, such as its tail or head?  \nWhich chapter titles suggest interactions between the Pequod and other ships?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.479049912501068,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 26,
+        "total_tokens": 548,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957190.747075,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What significance do the chapter titles such as \u201cThe Musket\u201d and \u201cThe Symphony\u201d have in the structure of the work?  \nHow does the etymology section\u2019s discussion of the word \u201cwhale\u201d reflect the narrator\u2019s perspective on language and mortality?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.479049912501068,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 26,
+        "total_tokens": 548,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957190.7470825,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What significance do the chapter titles such as \u201cThe Musket\u201d and \u201cThe Symphony\u201d have in the structure of the work?  \nHow does the etymology section\u2019s discussion of the word \u201cwhale\u201d reflect the narrator\u2019s perspective on language and mortality?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.804067433506134,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 28,
+        "total_tokens": 527,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957196.7739148,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What is the common theme linking the various foreign terms such as \u05d7\u05d5, \u03f0\u03b7\u03c4\u03bf\u03c2, CETUS, and WH\u0152L listed in the text?  \nWhy does the author advise readers not to treat the quoted whale extracts as reliable cetological information?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.804067433506134,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 28,
+        "total_tokens": 527,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957196.773921,
+      "question_id": "q_chunk_4_1",
+      "response_text": "What is the common theme linking the various foreign terms such as \u05d7\u05d5, \u03f0\u03b7\u03c4\u03bf\u03c2, CETUS, and WH\u0152L listed in the text?  \nWhy does the author advise readers not to treat the quoted whale extracts as reliable cetological information?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.4589889215058065,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 17,
+        "total_tokens": 533,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957200.4216025,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the significance of the \u201cSub\u2011Sub\u201d figure that the narrator addresses throughout the passage?  \nWhich biblical books are quoted in the extracts that reference Leviathan?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.4589889215058065,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 17,
+        "total_tokens": 533,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957200.4216104,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the significance of the \u201cSub\u2011Sub\u201d figure that the narrator addresses throughout the passage?  \nWhich biblical books are quoted in the extracts that reference Leviathan?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.594206759502413,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 22,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957205.9364228,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What common themes emerge from the different historical accounts regarding the size and nature of the sea monster described?  \nHow does the text connect the biblical reference to Leviathan with later medieval and classical descriptions of whales and other sea creatures?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.594206759502413,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 22,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957205.9364295,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What common themes emerge from the different historical accounts regarding the size and nature of the sea monster described?  \nHow does the text connect the biblical reference to Leviathan with later medieval and classical descriptions of whales and other sea creatures?"
+    }
+  ]
+}

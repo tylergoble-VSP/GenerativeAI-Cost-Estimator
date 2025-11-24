@@ -1,0 +1,115 @@
+{
+  "export_timestamp": "2025-11-24T03:57:04.140210",
+  "export_timestamp_readable": "2025-11-24 03:57:04",
+  "num_metrics": 8,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.2131622989982134,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956588.747708,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.2738301339995814,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956588.8096216,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 9.581371820667604,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 16,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956617.5550575,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What are the conditions for using the Project Gutenberg eBook of *Moby\u2011Dick* outside the United States?  \nWhen was the most recent update to this eBook version released?  \nWhich chapters in the contents list appear twice with the same title?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 9.581371820667604,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 16,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956617.5550618,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What are the conditions for using the Project Gutenberg eBook of *Moby\u2011Dick* outside the United States?  \nWhen was the most recent update to this eBook version released?  \nWhich chapters in the contents list appear twice with the same title?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 9.581371820667604,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 16,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956617.5550628,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What are the conditions for using the Project Gutenberg eBook of *Moby\u2011Dick* outside the United States?  \nWhen was the most recent update to this eBook version released?  \nWhich chapters in the contents list appear twice with the same title?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.775079274666496,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956624.137016,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the title of Chapter 31?  \nWhich chapter title mentions a creature called \u201cSquid\u201d?  \nAfter which chapter does \u201cThe Sphynx\u201d appear in the list?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.775079274666496,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956624.1370225,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the title of Chapter 31?  \nWhich chapter title mentions a creature called \u201cSquid\u201d?  \nAfter which chapter does \u201cThe Sphynx\u201d appear in the list?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.775079274666496,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956624.1370244,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What is the title of Chapter 31?  \nWhich chapter title mentions a creature called \u201cSquid\u201d?  \nAfter which chapter does \u201cThe Sphynx\u201d appear in the list?"
+    }
+  ]
+}

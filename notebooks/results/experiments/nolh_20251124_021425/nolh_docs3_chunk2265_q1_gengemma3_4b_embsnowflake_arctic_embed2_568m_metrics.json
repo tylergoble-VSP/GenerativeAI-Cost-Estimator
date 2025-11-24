@@ -1,0 +1,85 @@
+{
+  "export_timestamp": "2025-11-24T03:26:35.863099",
+  "export_timestamp_readable": "2025-11-24 03:26:35",
+  "num_metrics": 6,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.0739832209947053,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954792.6446981,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.1337623209983576,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954792.7060728,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.1944273190019885,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954792.7663755,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.3981289060029667,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954795.1661994,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date of this Project Gutenberg eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.703149166991352,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954795.472035,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What are the chapter titles that deal with whale depictions?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.090039192000404,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 15,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954795.8597927,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What specific aspects of whale anatomy are discussed in chapters 75-77?"
+    }
+  ]
+}

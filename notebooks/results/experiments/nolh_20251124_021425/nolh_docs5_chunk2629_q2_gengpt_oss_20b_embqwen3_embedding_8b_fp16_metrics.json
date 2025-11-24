@@ -1,0 +1,207 @@
+{
+  "export_timestamp": "2025-11-24T02:40:37.840751",
+  "export_timestamp_readable": "2025-11-24 02:40:37",
+  "num_metrics": 15,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.5755162999994354,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952007.1881654,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.769408268999541,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952008.3819466,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 6.029371162003372,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952009.6439135,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.556996792991413,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952010.745525,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.354437672009226,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952011.73692,
+      "chunk_id": "chunk_4",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.77453595699626,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 14,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952017.2888427,
+      "question_id": "q_chunk_2_0",
+      "response_text": "Which chapter title references Jonah\u2019s historical perspective?  \nWhat is the last entry in the chapter list, and why might it lack a subtitle?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.77453595699626,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 14,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952017.2888508,
+      "question_id": "q_chunk_2_1",
+      "response_text": "Which chapter title references Jonah\u2019s historical perspective?  \nWhat is the last entry in the chapter list, and why might it lack a subtitle?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.852485912997508,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 23,
+        "total_tokens": 566,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952025.4439754,
+      "question_id": "q_chunk_1_0",
+      "response_text": "How does the sequence of chapter titles suggest the structure of the novel's narrative?  \nWhat themes are suggested by chapters that mention animals, such as \u201cAlbatross,\u201d \u201cSperm Whale,\u201d and \u201cMonkey\u2011Rope\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.852485912997508,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 23,
+        "total_tokens": 566,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952025.4439821,
+      "question_id": "q_chunk_1_1",
+      "response_text": "How does the sequence of chapter titles suggest the structure of the novel's narrative?  \nWhat themes are suggested by chapters that mention animals, such as \u201cAlbatross,\u201d \u201cSperm Whale,\u201d and \u201cMonkey\u2011Rope\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 9.016216074000113,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952029.771257,
+      "question_id": "q_chunk_0_0",
+      "response_text": "When was the Project Gutenberg eBook of Moby Dick most recently updated?  \nWhich chapters are listed under \"CHAPTER 27\" in the provided text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 9.016216074000113,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952029.7712617,
+      "question_id": "q_chunk_0_1",
+      "response_text": "When was the Project Gutenberg eBook of Moby Dick most recently updated?  \nWhich chapters are listed under \"CHAPTER 27\" in the provided text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.387382223503664,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 20,
+        "total_tokens": 542,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952034.0647042,
+      "question_id": "q_chunk_3_0",
+      "response_text": "Which chapters in the provided list detail the Pequod's encounters with other vessels?  \nHow does the etymology section contribute to the understanding of the word \u201cwhale\u201d as presented in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.387382223503664,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 20,
+        "total_tokens": 542,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952034.0647075,
+      "question_id": "q_chunk_3_1",
+      "response_text": "Which chapters in the provided list detail the Pequod's encounters with other vessels?  \nHow does the etymology section contribute to the understanding of the word \u201cwhale\u201d as presented in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.195466457502334,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952037.8359787,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What is the origin of the English word \"whale\" according to the passage?  \nWhy does the author caution readers against treating the extracted whale statements as definitive cetology?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.195466457502334,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952037.835985,
+      "question_id": "q_chunk_4_1",
+      "response_text": "What is the origin of the English word \"whale\" according to the passage?  \nWhy does the author caution readers against treating the extracted whale statements as definitive cetology?"
+    }
+  ]
+}

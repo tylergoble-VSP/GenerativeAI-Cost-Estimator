@@ -1,0 +1,247 @@
+{
+  "export_timestamp": "2025-11-24T02:41:31.827991",
+  "export_timestamp_readable": "2025-11-24 02:41:31",
+  "num_metrics": 18,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.4552865939913318,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952085.1761062,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.8247763499966823,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952085.5462563,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.230329903992242,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952085.950361,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0296987120091217,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952086.206307,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0205778730014572,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952086.567335,
+      "chunk_id": "chunk_4",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.8190249489998678,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952086.769902,
+      "chunk_id": "chunk_5",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2750331964998622,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 14,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952089.3235524,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the primary focus of Chapters 75-77?\nWhat are some of the diverse topics explored in the chapters numbered 80-126?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2750331964998622,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 14,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952089.323556,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the primary focus of Chapters 75-77?\nWhat are some of the diverse topics explored in the chapters numbered 80-126?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.56203894749342,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952089.8962178,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of \"Enter Ahab; to Him, Stubb\"?\nWhat are some of the different materials depicted in the whale illustrations?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.56203894749342,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952089.896225,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of \"Enter Ahab; to Him, Stubb\"?\nWhat are some of the different materials depicted in the whale illustrations?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7877647940040333,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952090.347515,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date of this ebook?\nWho are the credited authors of this Project Gutenberg eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7877647940040333,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952090.3475227,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the release date of this ebook?\nWho are the credited authors of this Project Gutenberg eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7188349069983815,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 10,
+        "total_tokens": 532,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952090.762092,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the origin of the word \"whale\"?\nWhat chapters are listed in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7188349069983815,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 10,
+        "total_tokens": 532,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952090.7620957,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the origin of the word \"whale\"?\nWhat chapters are listed in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6789512995019322,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 13,
+        "total_tokens": 512,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952091.2550066,
+      "question_id": "q_chunk_4_0",
+      "response_text": "From what languages does the word \"whale\" derive its meaning?\nWhat is the purpose of the extracts presented in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6789512995019322,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 13,
+        "total_tokens": 512,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952091.2550097,
+      "question_id": "q_chunk_4_1",
+      "response_text": "From what languages does the word \"whale\" derive its meaning?\nWhat is the purpose of the extracts presented in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7371221735011204,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 15,
+        "total_tokens": 531,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952091.8228068,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the primary purpose of the extracts presented in the text?\nWhat does the speaker wish would happen to those referred to as \"Sub-Subs\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7371221735011204,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 15,
+        "total_tokens": 531,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952091.8228133,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the primary purpose of the extracts presented in the text?\nWhat does the speaker wish would happen to those referred to as \"Sub-Subs\"?"
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "export_timestamp": "2025-11-24T02:16:15.618921",
+  "export_timestamp_readable": "2025-11-24 02:16:15",
+  "num_metrics": 20,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.2267196489992784,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763950509.59515,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.415830415004166,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763950510.7829216,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.6636057540017646,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763950512.032541,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.5155802619992755,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763950513.111191,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.3178135979978833,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763950514.1011515,
+      "chunk_id": "chunk_4",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.206275277669192,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 20,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950526.7243025,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the significance of the chapter titles in reflecting the themes of the narrative?  \nHow does the chapter \"The Fossil Whale\" contribute to the overall symbolism of the story?  \nWhat role does the chapter \"Ahab's Leg\" play in illustrating the character's obsession and the novel's central conflict?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.206275277669192,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 20,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950526.7243052,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the significance of the chapter titles in reflecting the themes of the narrative?  \nHow does the chapter \"The Fossil Whale\" contribute to the overall symbolism of the story?  \nWhat role does the chapter \"Ahab's Leg\" play in illustrating the character's obsession and the novel's central conflict?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.206275277669192,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 20,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950526.7243059,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What is the significance of the chapter titles in reflecting the themes of the narrative?  \nHow does the chapter \"The Fossil Whale\" contribute to the overall symbolism of the story?  \nWhat role does the chapter \"Ahab's Leg\" play in illustrating the character's obsession and the novel's central conflict?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.679905954665932,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 18,
+        "total_tokens": 561,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950540.1427524,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the Project Gutenberg License, and how does it affect the use of this eBook?  \nWho is the author of \"Moby Dick; Or, The Whale,\" and when was this eBook released?  \nWhat are the first three chapters listed in the table of contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.679905954665932,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 18,
+        "total_tokens": 561,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950540.142758,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the Project Gutenberg License, and how does it affect the use of this eBook?  \nWho is the author of \"Moby Dick; Or, The Whale,\" and when was this eBook released?  \nWhat are the first three chapters listed in the table of contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.679905954665932,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 18,
+        "total_tokens": 561,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950540.1427588,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the Project Gutenberg License, and how does it affect the use of this eBook?  \nWho is the author of \"Moby Dick; Or, The Whale,\" and when was this eBook released?  \nWhat are the first three chapters listed in the table of contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.574139779666439,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 26,
+        "total_tokens": 569,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950554.82692,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of the chapter titled \"The Whiteness of the Whale\" in the context of the novel's themes?  \nHow do the interactions between Ahab and Stubb reflect the broader themes of obsession and humanity in \"Moby-Dick\"?  \nWhat role does the chapter \"The Sperm Whale\u2019s Head\u2014Contrasted View\" play in exploring the symbolism of the whale?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.574139779666439,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 26,
+        "total_tokens": 569,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950554.8269272,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of the chapter titled \"The Whiteness of the Whale\" in the context of the novel's themes?  \nHow do the interactions between Ahab and Stubb reflect the broader themes of obsession and humanity in \"Moby-Dick\"?  \nWhat role does the chapter \"The Sperm Whale\u2019s Head\u2014Contrasted View\" play in exploring the symbolism of the whale?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.574139779666439,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 26,
+        "total_tokens": 569,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950554.8269293,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What is the significance of the chapter titled \"The Whiteness of the Whale\" in the context of the novel's themes?  \nHow do the interactions between Ahab and Stubb reflect the broader themes of obsession and humanity in \"Moby-Dick\"?  \nWhat role does the chapter \"The Sperm Whale\u2019s Head\u2014Contrasted View\" play in exploring the symbolism of the whale?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.857469702663366,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 15,
+        "total_tokens": 537,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950568.2976139,
+      "question_id": "q_chunk_3_0",
+      "response_text": "Which chapter discusses the etymology of the word \"whale\"?  \nWhat sources are cited in the etymology section of the text?  \nHow were the etexts combined according to the original transcriber's notes?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.857469702663366,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 15,
+        "total_tokens": 537,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950568.2976162,
+      "question_id": "q_chunk_3_1",
+      "response_text": "Which chapter discusses the etymology of the word \"whale\"?  \nWhat sources are cited in the etymology section of the text?  \nHow were the etexts combined according to the original transcriber's notes?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.857469702663366,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 15,
+        "total_tokens": 537,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950568.2976172,
+      "question_id": "q_chunk_3_2",
+      "response_text": "Which chapter discusses the etymology of the word \"whale\"?  \nWhat sources are cited in the etymology section of the text?  \nHow were the etexts combined according to the original transcriber's notes?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.823713386669018,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950575.615056,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What languages are listed in the text along with their corresponding terms for \"whale\"?  \nWhat is the role of the Sub-Sub-Librarian as described in the text?  \nWhy are the extracts from ancient authors and poets considered only valuable or entertaining?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.823713386669018,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950575.6150644,
+      "question_id": "q_chunk_4_1",
+      "response_text": "What languages are listed in the text along with their corresponding terms for \"whale\"?  \nWhat is the role of the Sub-Sub-Librarian as described in the text?  \nWhy are the extracts from ancient authors and poets considered only valuable or entertaining?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.823713386669018,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950575.6150663,
+      "question_id": "q_chunk_4_2",
+      "response_text": "What languages are listed in the text along with their corresponding terms for \"whale\"?  \nWhat is the role of the Sub-Sub-Librarian as described in the text?  \nWhy are the extracts from ancient authors and poets considered only valuable or entertaining?"
+    }
+  ]
+}

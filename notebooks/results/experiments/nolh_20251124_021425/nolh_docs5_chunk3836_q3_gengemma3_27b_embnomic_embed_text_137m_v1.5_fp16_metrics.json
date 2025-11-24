@@ -1,0 +1,277 @@
+{
+  "export_timestamp": "2025-11-24T03:14:49.440947",
+  "export_timestamp_readable": "2025-11-24 03:14:49",
+  "num_metrics": 20,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.90256054000929,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954062.2758956,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.9187239989987575,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954062.2929897,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.9362486479949439,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954062.3088508,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.049067483996623196,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954062.32528,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.04668317100731656,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954062.3401659,
+      "chunk_id": "chunk_4",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.0681463850002424,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 14,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954071.5483315,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What objects or concepts are repeatedly referenced as chapters throughout this list?\nHow does the text shift from descriptions of physical things to encounters with other ships?\nWhat might the progression of chapter titles suggest about the overall narrative arc?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.0681463850002424,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 14,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954071.5483363,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What objects or concepts are repeatedly referenced as chapters throughout this list?\nHow does the text shift from descriptions of physical things to encounters with other ships?\nWhat might the progression of chapter titles suggest about the overall narrative arc?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.0681463850002424,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 14,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954071.5483384,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What objects or concepts are repeatedly referenced as chapters throughout this list?\nHow does the text shift from descriptions of physical things to encounters with other ships?\nWhat might the progression of chapter titles suggest about the overall narrative arc?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.4297472203325015,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954075.6323743,
+      "question_id": "q_chunk_1_0",
+      "response_text": "Which character is introduced at the very beginning of the provided text?\nWhat is the subject matter of most of these chapter titles?\nWhat chapter appears to be missing a number?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.4297472203325015,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954075.6323793,
+      "question_id": "q_chunk_1_1",
+      "response_text": "Which character is introduced at the very beginning of the provided text?\nWhat is the subject matter of most of these chapter titles?\nWhat chapter appears to be missing a number?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.4297472203325015,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954075.6323814,
+      "question_id": "q_chunk_1_2",
+      "response_text": "Which character is introduced at the very beginning of the provided text?\nWhat is the subject matter of most of these chapter titles?\nWhat chapter appears to be missing a number?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.755336468001285,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954079.6084034,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the title of the eBook?\nAccording to the text, who initially released this eBook?\nWhat is mentioned regarding legal considerations for users outside of the United States?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.755336468001285,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954079.6084094,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the title of the eBook?\nAccording to the text, who initially released this eBook?\nWhat is mentioned regarding legal considerations for users outside of the United States?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.755336468001285,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954079.608411,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the title of the eBook?\nAccording to the text, who initially released this eBook?\nWhat is mentioned regarding legal considerations for users outside of the United States?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.23965568766774,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 14,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954084.268287,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the origin of the word \"whale\" according to Webster\u2019s Dictionary?\nWho is the \u201cpale Usher\u201d described in the etymology?\nWhat sources were used to create this etext?\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.23965568766774,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 14,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954084.268293,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the origin of the word \"whale\" according to Webster\u2019s Dictionary?\nWho is the \u201cpale Usher\u201d described in the etymology?\nWhat sources were used to create this etext?\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.23965568766774,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 14,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954084.268295,
+      "question_id": "q_chunk_3_2",
+      "response_text": "What is the origin of the word \"whale\" according to Webster\u2019s Dictionary?\nWho is the \u201cpale Usher\u201d described in the etymology?\nWhat sources were used to create this etext?\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.600709355669096,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 16,
+        "total_tokens": 515,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954089.4355378,
+      "question_id": "q_chunk_4_0",
+      "response_text": "According to the text, from what languages does the word \"whale\" originate?\nWhat is the Sub-Sub-Librarian described as in the text?\nWhat does the author caution readers about the \u201cwhale statements\u201d in the extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.600709355669096,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 16,
+        "total_tokens": 515,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954089.4355426,
+      "question_id": "q_chunk_4_1",
+      "response_text": "According to the text, from what languages does the word \"whale\" originate?\nWhat is the Sub-Sub-Librarian described as in the text?\nWhat does the author caution readers about the \u201cwhale statements\u201d in the extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.600709355669096,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 16,
+        "total_tokens": 515,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954089.4355445,
+      "question_id": "q_chunk_4_2",
+      "response_text": "According to the text, from what languages does the word \"whale\" originate?\nWhat is the Sub-Sub-Librarian described as in the text?\nWhat does the author caution readers about the \u201cwhale statements\u201d in the extracts?"
+    }
+  ]
+}

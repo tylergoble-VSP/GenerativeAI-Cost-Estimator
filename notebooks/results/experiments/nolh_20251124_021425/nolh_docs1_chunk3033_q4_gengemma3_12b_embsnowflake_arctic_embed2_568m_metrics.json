@@ -1,0 +1,75 @@
+{
+  "export_timestamp": "2025-11-24T03:25:41.115990",
+  "export_timestamp_readable": "2025-11-24 03:25:41",
+  "num_metrics": 5,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.3311452100024326,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954735.3395758,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4423536720023549,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954741.1108398,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the purpose of this ebook according to the text?\nWho is the author of Moby Dick; Or, The Whale?\nWhat is the release date of this ebook?\nWhat is one way users can access the terms of use for this ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4423536720023549,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954741.110844,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the purpose of this ebook according to the text?\nWho is the author of Moby Dick; Or, The Whale?\nWhat is the release date of this ebook?\nWhat is one way users can access the terms of use for this ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4423536720023549,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954741.1108449,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the purpose of this ebook according to the text?\nWho is the author of Moby Dick; Or, The Whale?\nWhat is the release date of this ebook?\nWhat is one way users can access the terms of use for this ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4423536720023549,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954741.1108458,
+      "question_id": "q_chunk_0_3",
+      "response_text": "What is the purpose of this ebook according to the text?\nWho is the author of Moby Dick; Or, The Whale?\nWhat is the release date of this ebook?\nWhat is one way users can access the terms of use for this ebook?"
+    }
+  ]
+}

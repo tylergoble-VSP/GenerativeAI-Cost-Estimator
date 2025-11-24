@@ -1,0 +1,483 @@
+{
+  "export_timestamp": "2025-11-24T03:57:45.360717",
+  "export_timestamp_readable": "2025-11-24 03:57:45",
+  "num_metrics": 35,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.545780840999214,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956649.682397,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.731247921008617,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956650.8687377,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 5.980596173001686,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956652.1184652,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.551145440011169,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956653.2338762,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.3545824850007193,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956654.2335303,
+      "chunk_id": "chunk_4",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.0942027020064415,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956655.2131205,
+      "chunk_id": "chunk_5",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.969212657000753,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956656.2034059,
+      "chunk_id": "chunk_6",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8049168652505614,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 14,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956659.4263186,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the significance of the Right Whale\u2019s head being contrasted?\nWhat is a \u201cbattering-ram\u201d in the context of the text?\nHow are the \u201cPequod\u201d and \u201cThe Virgin\u201d related?\nWhat are some of the diverse activities detailed within the chapters?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8049168652505614,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 14,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956659.426325,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the significance of the Right Whale\u2019s head being contrasted?\nWhat is a \u201cbattering-ram\u201d in the context of the text?\nHow are the \u201cPequod\u201d and \u201cThe Virgin\u201d related?\nWhat are some of the diverse activities detailed within the chapters?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8049168652505614,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 14,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956659.426327,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What is the significance of the Right Whale\u2019s head being contrasted?\nWhat is a \u201cbattering-ram\u201d in the context of the text?\nHow are the \u201cPequod\u201d and \u201cThe Virgin\u201d related?\nWhat are some of the diverse activities detailed within the chapters?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8049168652505614,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 14,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956659.426329,
+      "question_id": "q_chunk_2_3",
+      "response_text": "What is the significance of the Right Whale\u2019s head being contrasted?\nWhat is a \u201cbattering-ram\u201d in the context of the text?\nHow are the \u201cPequod\u201d and \u201cThe Virgin\u201d related?\nWhat are some of the diverse activities detailed within the chapters?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0185883822523465,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956660.279611,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date of this ebook?\nWhat is the author of Moby Dick?\nUnder what terms can this ebook be copied and distributed?\nWho are the credited individuals involved in the creation of this Project Gutenberg eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0185883822523465,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956660.279614,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the release date of this ebook?\nWhat is the author of Moby Dick?\nUnder what terms can this ebook be copied and distributed?\nWho are the credited individuals involved in the creation of this Project Gutenberg eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0185883822523465,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956660.2796147,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the release date of this ebook?\nWhat is the author of Moby Dick?\nUnder what terms can this ebook be copied and distributed?\nWho are the credited individuals involved in the creation of this Project Gutenberg eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.0185883822523465,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956660.2796156,
+      "question_id": "q_chunk_0_3",
+      "response_text": "What is the release date of this ebook?\nWhat is the author of Moby Dick?\nUnder what terms can this ebook be copied and distributed?\nWho are the credited individuals involved in the creation of this Project Gutenberg eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2205238700007612,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956661.0878642,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of \"Ahab; to Him, Stubb\"?\nWhat chapters deal with depictions of whales?\nWhat events involve the killing of whales?\nWhat is the subject of Chapter 74?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2205238700007612,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956661.087868,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of \"Ahab; to Him, Stubb\"?\nWhat chapters deal with depictions of whales?\nWhat events involve the killing of whales?\nWhat is the subject of Chapter 74?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2205238700007612,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956661.087869,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What is the significance of \"Ahab; to Him, Stubb\"?\nWhat chapters deal with depictions of whales?\nWhat events involve the killing of whales?\nWhat is the subject of Chapter 74?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2205238700007612,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956661.0878696,
+      "question_id": "q_chunk_1_3",
+      "response_text": "What is the significance of \"Ahab; to Him, Stubb\"?\nWhat chapters deal with depictions of whales?\nWhat events involve the killing of whales?\nWhat is the subject of Chapter 74?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7179861635013367,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 17,
+        "total_tokens": 539,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956662.2991533,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the significance of the letter 'H' in the word \"whale\"?\nWhat is the name of the ship the Pequod encounters in Chapter 128?\nWhat is the Usher's connection to his study of lexicons and grammars?\nWhat is the origin of the word \"whale\" according to the provided etymology?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7179861635013367,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 17,
+        "total_tokens": 539,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956662.2991567,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the significance of the letter 'H' in the word \"whale\"?\nWhat is the name of the ship the Pequod encounters in Chapter 128?\nWhat is the Usher's connection to his study of lexicons and grammars?\nWhat is the origin of the word \"whale\" according to the provided etymology?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7179861635013367,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 17,
+        "total_tokens": 539,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956662.2991579,
+      "question_id": "q_chunk_3_2",
+      "response_text": "What is the significance of the letter 'H' in the word \"whale\"?\nWhat is the name of the ship the Pequod encounters in Chapter 128?\nWhat is the Usher's connection to his study of lexicons and grammars?\nWhat is the origin of the word \"whale\" according to the provided etymology?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7179861635013367,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 17,
+        "total_tokens": 539,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956662.2991583,
+      "question_id": "q_chunk_3_3",
+      "response_text": "What is the significance of the letter 'H' in the word \"whale\"?\nWhat is the name of the ship the Pequod encounters in Chapter 128?\nWhat is the Usher's connection to his study of lexicons and grammars?\nWhat is the origin of the word \"whale\" according to the provided etymology?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7345080877494183,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 13,
+        "total_tokens": 512,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956663.2187023,
+      "question_id": "q_chunk_4_0",
+      "response_text": "From what does the animal named \u201cwhale\u201d derive its name?\nWhat languages contributed to the origin of the word \"whale\"?\nWhat does the text caution against when interpreting the provided whale statements?\nWhat is the primary purpose of the extracts presented in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7345080877494183,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 13,
+        "total_tokens": 512,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956663.2187076,
+      "question_id": "q_chunk_4_1",
+      "response_text": "From what does the animal named \u201cwhale\u201d derive its name?\nWhat languages contributed to the origin of the word \"whale\"?\nWhat does the text caution against when interpreting the provided whale statements?\nWhat is the primary purpose of the extracts presented in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7345080877494183,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 13,
+        "total_tokens": 512,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956663.218709,
+      "question_id": "q_chunk_4_2",
+      "response_text": "From what does the animal named \u201cwhale\u201d derive its name?\nWhat languages contributed to the origin of the word \"whale\"?\nWhat does the text caution against when interpreting the provided whale statements?\nWhat is the primary purpose of the extracts presented in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7345080877494183,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 13,
+        "total_tokens": 512,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956663.2187102,
+      "question_id": "q_chunk_4_3",
+      "response_text": "From what does the animal named \u201cwhale\u201d derive its name?\nWhat languages contributed to the origin of the word \"whale\"?\nWhat does the text caution against when interpreting the provided whale statements?\nWhat is the primary purpose of the extracts presented in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7651583050028421,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 13,
+        "total_tokens": 529,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956664.149587,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the primary purpose of the extracts presented?\nWhat is the speaker\u2019s attitude towards the \u201cSub-Subs\u201d?\nAccording to the text, what is the ultimate consequence of trying to please the world?\nHow do the extracts relate to the concept of Leviathan?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7651583050028421,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 13,
+        "total_tokens": 529,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956664.1495914,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the primary purpose of the extracts presented?\nWhat is the speaker\u2019s attitude towards the \u201cSub-Subs\u201d?\nAccording to the text, what is the ultimate consequence of trying to please the world?\nHow do the extracts relate to the concept of Leviathan?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7651583050028421,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 13,
+        "total_tokens": 529,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956664.1495936,
+      "question_id": "q_chunk_5_2",
+      "response_text": "What is the primary purpose of the extracts presented?\nWhat is the speaker\u2019s attitude towards the \u201cSub-Subs\u201d?\nAccording to the text, what is the ultimate consequence of trying to please the world?\nHow do the extracts relate to the concept of Leviathan?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7651583050028421,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 13,
+        "total_tokens": 529,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956664.1495955,
+      "question_id": "q_chunk_5_3",
+      "response_text": "What is the primary purpose of the extracts presented?\nWhat is the speaker\u2019s attitude towards the \u201cSub-Subs\u201d?\nAccording to the text, what is the ultimate consequence of trying to please the world?\nHow do the extracts relate to the concept of Leviathan?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7610491297527915,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 17,
+        "total_tokens": 533,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956665.3444295,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What does the text describe as happening to things that enter a whale's mouth?\nWhat is the size of the Balaene whales mentioned in Holland\u2019s Pliny?\nAccording to Other or Other\u2019s narrative, how many whales did one individual kill in two days?\nWhat does Montaigne suggest regarding the safety of the sea-gudgeon?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7610491297527915,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 17,
+        "total_tokens": 533,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956665.3444343,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What does the text describe as happening to things that enter a whale's mouth?\nWhat is the size of the Balaene whales mentioned in Holland\u2019s Pliny?\nAccording to Other or Other\u2019s narrative, how many whales did one individual kill in two days?\nWhat does Montaigne suggest regarding the safety of the sea-gudgeon?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7610491297527915,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 17,
+        "total_tokens": 533,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956665.3444362,
+      "question_id": "q_chunk_6_2",
+      "response_text": "What does the text describe as happening to things that enter a whale's mouth?\nWhat is the size of the Balaene whales mentioned in Holland\u2019s Pliny?\nAccording to Other or Other\u2019s narrative, how many whales did one individual kill in two days?\nWhat does Montaigne suggest regarding the safety of the sea-gudgeon?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7610491297527915,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 17,
+        "total_tokens": 533,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956665.344438,
+      "question_id": "q_chunk_6_3",
+      "response_text": "What does the text describe as happening to things that enter a whale's mouth?\nWhat is the size of the Balaene whales mentioned in Holland\u2019s Pliny?\nAccording to Other or Other\u2019s narrative, how many whales did one individual kill in two days?\nWhat does Montaigne suggest regarding the safety of the sea-gudgeon?"
+    }
+  ]
+}

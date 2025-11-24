@@ -1,0 +1,167 @@
+{
+  "export_timestamp": "2025-11-24T03:45:13.953588",
+  "export_timestamp_readable": "2025-11-24 03:45:13",
+  "num_metrics": 12,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.47464843900525,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955911.2646792,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.5315360449894797,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955911.323191,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.590409598997212,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955911.3813646,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.17434600699925795,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955911.4393737,
+      "chunk_id": "chunk_3",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.367495811500703,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955912.1757991,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date of this Project Gutenberg eBook?\nWhat is the author of the book, \"Moby Dick; Or, The Whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.367495811500703,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955912.175803,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the release date of this Project Gutenberg eBook?\nWhat is the author of the book, \"Moby Dick; Or, The Whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6707480640034191,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955912.7824326,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of the repeated naming of characters like Ahab and Stubb?\n\nWhat types of depictions of whales are described in Chapter 57?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6707480640034191,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955912.7824352,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of the repeated naming of characters like Ahab and Stubb?\n\nWhat types of depictions of whales are described in Chapter 57?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.9741355334990658,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 15,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955913.3903885,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the significance of \u201cThe Right Whale\u2019s Head\u201d chapter title?\nWhat is the role of \u201cThe Pequod\u201d throughout the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.9741355334990658,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 15,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955913.3903918,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the significance of \u201cThe Right Whale\u2019s Head\u201d chapter title?\nWhat is the role of \u201cThe Pequod\u201d throughout the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8816887174980366,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 15,
+        "total_tokens": 537,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955913.9400468,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the etymological origin of the word \"whale\"?\nWhat is the significance of the \"pale Usher\" in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8816887174980366,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 15,
+        "total_tokens": 537,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955913.9400496,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the etymological origin of the word \"whale\"?\nWhat is the significance of the \"pale Usher\" in the text?"
+    }
+  ]
+}

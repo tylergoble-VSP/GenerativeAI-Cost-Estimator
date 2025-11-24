@@ -1,0 +1,169 @@
+{
+  "export_timestamp": "2025-11-24T02:51:19.289623",
+  "export_timestamp_readable": "2025-11-24 02:51:19",
+  "num_metrics": 12,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.082377278013155,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952637.6479068,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.1445848360017408,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952637.7096627,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.206567000001087,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952637.7705317,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 9.53333142066549,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 12,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952666.3754969,
+      "question_id": "q_chunk_2_0",
+      "response_text": "Which chapter is titled \u201cThe Right Whale\u2019s Head\u2014Contrasted View\u201d?\n\nHow many chapter titles contain the word \u201cPequod\u201d?\n\nWhat is the title of chapter 105?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 9.53333142066549,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 12,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952666.3755023,
+      "question_id": "q_chunk_2_1",
+      "response_text": "Which chapter is titled \u201cThe Right Whale\u2019s Head\u2014Contrasted View\u201d?\n\nHow many chapter titles contain the word \u201cPequod\u201d?\n\nWhat is the title of chapter 105?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 9.53333142066549,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 12,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952666.3755047,
+      "question_id": "q_chunk_2_2",
+      "response_text": "Which chapter is titled \u201cThe Right Whale\u2019s Head\u2014Contrasted View\u201d?\n\nHow many chapter titles contain the word \u201cPequod\u201d?\n\nWhat is the title of chapter 105?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.826628473669794,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 18,
+        "total_tokens": 561,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952670.2525227,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date and most recent update listed for the Project Gutenberg eBook of *Moby\u2011Dick*?  \nWho are the credited contributors for this eBook edition?  \nWhich chapter titles appear between \u201cThe Prophet\u201d and \u201cKnights and Squires\u201d in the contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.826628473669794,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 18,
+        "total_tokens": 561,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952670.2525249,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the release date and most recent update listed for the Project Gutenberg eBook of *Moby\u2011Dick*?  \nWho are the credited contributors for this eBook edition?  \nWhich chapter titles appear between \u201cThe Prophet\u201d and \u201cKnights and Squires\u201d in the contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.826628473669794,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 18,
+        "total_tokens": 561,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952670.2525258,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the release date and most recent update listed for the Project Gutenberg eBook of *Moby\u2011Dick*?  \nWho are the credited contributors for this eBook edition?  \nWhich chapter titles appear between \u201cThe Prophet\u201d and \u201cKnights and Squires\u201d in the contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.83734352166357,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952679.2867177,
+      "question_id": "q_chunk_1_0",
+      "response_text": "Which chapter title directly follows \u201cThe Pipe\u201d in the list?\n\nWhat is the title of chapter\u202f56 as shown in the text?\n\nWhich chapter number is associated with \u201cThe Monkey\u2011Rope\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.83734352166357,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952679.2867212,
+      "question_id": "q_chunk_1_1",
+      "response_text": "Which chapter title directly follows \u201cThe Pipe\u201d in the list?\n\nWhat is the title of chapter\u202f56 as shown in the text?\n\nWhich chapter number is associated with \u201cThe Monkey\u2011Rope\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.83734352166357,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952679.2867234,
+      "question_id": "q_chunk_1_2",
+      "response_text": "Which chapter title directly follows \u201cThe Pipe\u201d in the list?\n\nWhat is the title of chapter\u202f56 as shown in the text?\n\nWhich chapter number is associated with \u201cThe Monkey\u2011Rope\u201d?"
+    }
+  ]
+}

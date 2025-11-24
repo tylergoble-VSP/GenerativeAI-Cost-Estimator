@@ -1,0 +1,493 @@
+{
+  "export_timestamp": "2025-11-24T03:20:04.809326",
+  "export_timestamp_readable": "2025-11-24 03:20:04",
+  "num_metrics": 36,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.6440737920056563,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954321.7892795,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.889857141999528,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954323.0357459,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 6.069744098000228,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954324.214076,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.513461547001498,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954325.3032136,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.2489323339978,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954326.2850544,
+      "chunk_id": "chunk_4",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.062596924006357,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954327.27715,
+      "chunk_id": "chunk_5",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.9615758279978763,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954328.2652614,
+      "chunk_id": "chunk_6",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.974784712001565,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954329.2601838,
+      "chunk_id": "chunk_7",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.9794782339886297,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954330.2569816,
+      "chunk_id": "chunk_8",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 9.512637200333605,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954358.7968924,
+      "question_id": "q_chunk_0_0",
+      "response_text": "When was the eBook released and when was it most recently updated?  \nWho are the individuals credited for this Project Gutenberg edition of\u202fMoby\u2011Dick?  \nWhich chapter title appears more than once in the table of contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 9.512637200333605,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954358.7968962,
+      "question_id": "q_chunk_0_1",
+      "response_text": "When was the eBook released and when was it most recently updated?  \nWho are the individuals credited for this Project Gutenberg edition of\u202fMoby\u2011Dick?  \nWhich chapter title appears more than once in the table of contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 9.512637200333605,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954358.7968972,
+      "question_id": "q_chunk_0_2",
+      "response_text": "When was the eBook released and when was it most recently updated?  \nWho are the individuals credited for this Project Gutenberg edition of\u202fMoby\u2011Dick?  \nWhich chapter title appears more than once in the table of contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.018278558331076,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 17,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954366.3155534,
+      "question_id": "q_chunk_2_0",
+      "response_text": "Which chapter title references a biblical figure known for being swallowed by a great fish?\n\nIn which chapter does the narrative mention the tool used for measuring a whale\u2019s skeleton?\n\nWhat is the title of chapter\u202f115 that describes an encounter with a specific type of ship?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.018278558331076,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 17,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954366.3155584,
+      "question_id": "q_chunk_2_1",
+      "response_text": "Which chapter title references a biblical figure known for being swallowed by a great fish?\n\nIn which chapter does the narrative mention the tool used for measuring a whale\u2019s skeleton?\n\nWhat is the title of chapter\u202f115 that describes an encounter with a specific type of ship?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.018278558331076,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 17,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954366.3155608,
+      "question_id": "q_chunk_2_2",
+      "response_text": "Which chapter title references a biblical figure known for being swallowed by a great fish?\n\nIn which chapter does the narrative mention the tool used for measuring a whale\u2019s skeleton?\n\nWhat is the title of chapter\u202f115 that describes an encounter with a specific type of ship?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.67448865500046,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954371.2834609,
+      "question_id": "q_chunk_1_0",
+      "response_text": "Which chapter in the list is titled \u201cThe Whiteness of the Whale\u201d?\n\nWhat is the chapter number for \u201cThe Monkey\u2011Rope\u201d?\n\nWhich chapter follows \u201cThe Great Heidelburgh Tun\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.67448865500046,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954371.2834663,
+      "question_id": "q_chunk_1_1",
+      "response_text": "Which chapter in the list is titled \u201cThe Whiteness of the Whale\u201d?\n\nWhat is the chapter number for \u201cThe Monkey\u2011Rope\u201d?\n\nWhich chapter follows \u201cThe Great Heidelburgh Tun\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.67448865500046,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954371.2834685,
+      "question_id": "q_chunk_1_2",
+      "response_text": "Which chapter in the list is titled \u201cThe Whiteness of the Whale\u201d?\n\nWhat is the chapter number for \u201cThe Monkey\u2011Rope\u201d?\n\nWhich chapter follows \u201cThe Great Heidelburgh Tun\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.473428604333701,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 27,
+        "total_tokens": 549,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954378.2183423,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What significance do the chapter titles such as \u201cThe Musket\u201d and \u201cThe Symphony\u201d have in relation to the narrative structure of the work?  \nHow does the etymology section describe the origin of the word \u201cwhale\u201d according to different linguistic sources?  \nWhat role does the \u201cLate Consumptive Usher\u201d play in the transcriber\u2019s notes, and how does his description reflect themes of mortality?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.473428604333701,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 27,
+        "total_tokens": 549,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954378.21835,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What significance do the chapter titles such as \u201cThe Musket\u201d and \u201cThe Symphony\u201d have in relation to the narrative structure of the work?  \nHow does the etymology section describe the origin of the word \u201cwhale\u201d according to different linguistic sources?  \nWhat role does the \u201cLate Consumptive Usher\u201d play in the transcriber\u2019s notes, and how does his description reflect themes of mortality?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.473428604333701,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 27,
+        "total_tokens": 549,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954378.2183518,
+      "question_id": "q_chunk_3_2",
+      "response_text": "What significance do the chapter titles such as \u201cThe Musket\u201d and \u201cThe Symphony\u201d have in relation to the narrative structure of the work?  \nHow does the etymology section describe the origin of the word \u201cwhale\u201d according to different linguistic sources?  \nWhat role does the \u201cLate Consumptive Usher\u201d play in the transcriber\u2019s notes, and how does his description reflect themes of mortality?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.709207400665036,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 21,
+        "total_tokens": 520,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954383.4443028,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What linguistic origins for the word \u201cwhale\u201d are presented in the Webster\u2019s and Richardson\u2019s dictionary excerpts?  \nWhich languages and corresponding terms for \u201cwhale\u201d are listed in the series of names provided in the text?  \nWhat warning does the author give about treating the supplied extracts as reliable cetological information?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.709207400665036,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 21,
+        "total_tokens": 520,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954383.4443085,
+      "question_id": "q_chunk_4_1",
+      "response_text": "What linguistic origins for the word \u201cwhale\u201d are presented in the Webster\u2019s and Richardson\u2019s dictionary excerpts?  \nWhich languages and corresponding terms for \u201cwhale\u201d are listed in the series of names provided in the text?  \nWhat warning does the author give about treating the supplied extracts as reliable cetological information?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.709207400665036,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 21,
+        "total_tokens": 520,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954383.4443104,
+      "question_id": "q_chunk_4_2",
+      "response_text": "What linguistic origins for the word \u201cwhale\u201d are presented in the Webster\u2019s and Richardson\u2019s dictionary excerpts?  \nWhich languages and corresponding terms for \u201cwhale\u201d are listed in the series of names provided in the text?  \nWhat warning does the author give about treating the supplied extracts as reliable cetological information?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.079712809999667,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 24,
+        "total_tokens": 540,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954389.52349,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the significance of the term \u201cSub-Sub\u201d in the speaker\u2019s lamentation toward the \u201cpoor devil\u201d?\n\nHow does the author use biblical excerpts to frame the portrayal of Leviathan throughout the passage?\n\nWhat contrast does the passage draw between \u201csplintered hearts\u201d and \u201cunsplinterable glasses,\u201d and what might these images symbolize?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.079712809999667,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 24,
+        "total_tokens": 540,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954389.5234933,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the significance of the term \u201cSub-Sub\u201d in the speaker\u2019s lamentation toward the \u201cpoor devil\u201d?\n\nHow does the author use biblical excerpts to frame the portrayal of Leviathan throughout the passage?\n\nWhat contrast does the passage draw between \u201csplintered hearts\u201d and \u201cunsplinterable glasses,\u201d and what might these images symbolize?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.079712809999667,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 24,
+        "total_tokens": 540,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954389.5234945,
+      "question_id": "q_chunk_5_2",
+      "response_text": "What is the significance of the term \u201cSub-Sub\u201d in the speaker\u2019s lamentation toward the \u201cpoor devil\u201d?\n\nHow does the author use biblical excerpts to frame the portrayal of Leviathan throughout the passage?\n\nWhat contrast does the passage draw between \u201csplintered hearts\u201d and \u201cunsplinterable glasses,\u201d and what might these images symbolize?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.770896954665659,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 17,
+        "total_tokens": 533,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954395.5320823,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What does Isaiah describe Leviathan as wielding in the prophecy?  \nHow do the various historical sources characterize the size and behavior of the monstrous whales?  \nWhat role does the sea\u2011gudgeon play in Montaigne\u2019s description of the whale\u2019s mouth?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.770896954665659,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 17,
+        "total_tokens": 533,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954395.5320876,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What does Isaiah describe Leviathan as wielding in the prophecy?  \nHow do the various historical sources characterize the size and behavior of the monstrous whales?  \nWhat role does the sea\u2011gudgeon play in Montaigne\u2019s description of the whale\u2019s mouth?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.770896954665659,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 17,
+        "total_tokens": 533,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954395.5320897,
+      "question_id": "q_chunk_6_2",
+      "response_text": "What does Isaiah describe Leviathan as wielding in the prophecy?  \nHow do the various historical sources characterize the size and behavior of the monstrous whales?  \nWhat role does the sea\u2011gudgeon play in Montaigne\u2019s description of the whale\u2019s mouth?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.763226514332928,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 21,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954400.7349024,
+      "question_id": "q_chunk_7_0",
+      "response_text": "What does Montaigne mean by the sea\u2011gudgeon retiring into the whale\u2019s mouth and sleeping there?  \nWhich literary figures in the excerpt associate the whale with the biblical Leviathan?  \nWhy does Sir\u202fT.\u202fBrowne claim that the nature of spermacetti remains uncertain?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.763226514332928,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 21,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954400.734905,
+      "question_id": "q_chunk_7_1",
+      "response_text": "What does Montaigne mean by the sea\u2011gudgeon retiring into the whale\u2019s mouth and sleeping there?  \nWhich literary figures in the excerpt associate the whale with the biblical Leviathan?  \nWhy does Sir\u202fT.\u202fBrowne claim that the nature of spermacetti remains uncertain?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.763226514332928,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 21,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954400.7349062,
+      "question_id": "q_chunk_7_2",
+      "response_text": "What does Montaigne mean by the sea\u2011gudgeon retiring into the whale\u2019s mouth and sleeping there?  \nWhich literary figures in the excerpt associate the whale with the biblical Leviathan?  \nWhy does Sir\u202fT.\u202fBrowne claim that the nature of spermacetti remains uncertain?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.092943777669764,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 18,
+        "total_tokens": 545,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954404.8033576,
+      "question_id": "q_chunk_8_0",
+      "response_text": "What literary works are quoted to depict Leviathan as a massive sea creature in the passage?  \nHow does the text compare the concept of a state to an artificial man according to Hobbes?  \nWhich authors describe the physical characteristics or behaviors of whales in their voyages?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.092943777669764,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 18,
+        "total_tokens": 545,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954404.803363,
+      "question_id": "q_chunk_8_1",
+      "response_text": "What literary works are quoted to depict Leviathan as a massive sea creature in the passage?  \nHow does the text compare the concept of a state to an artificial man according to Hobbes?  \nWhich authors describe the physical characteristics or behaviors of whales in their voyages?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.092943777669764,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 18,
+        "total_tokens": 545,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954404.8033652,
+      "question_id": "q_chunk_8_2",
+      "response_text": "What literary works are quoted to depict Leviathan as a massive sea creature in the passage?  \nHow does the text compare the concept of a state to an artificial man according to Hobbes?  \nWhich authors describe the physical characteristics or behaviors of whales in their voyages?"
+    }
+  ]
+}

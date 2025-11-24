@@ -1,0 +1,115 @@
+{
+  "export_timestamp": "2025-11-24T03:46:15.946329",
+  "export_timestamp_readable": "2025-11-24 03:46:15",
+  "num_metrics": 8,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.7808392809965881,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955972.1705775,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.7990345150028588,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955972.187898,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7356340066665629,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955974.3964455,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the purpose of Project Gutenberg, according to this text?\nWho is the author of Moby Dick; Or, The Whale?\nWhat is the significance of the release date and most recent update?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7356340066665629,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955974.3964634,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the purpose of Project Gutenberg, according to this text?\nWho is the author of Moby Dick; Or, The Whale?\nWhat is the significance of the release date and most recent update?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7356340066665629,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955974.396466,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the purpose of Project Gutenberg, according to this text?\nWho is the author of Moby Dick; Or, The Whale?\nWhat is the significance of the release date and most recent update?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.250407088669211,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955975.941835,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What event marks the beginning of the text?\nWhat is the significance of Chapter 41?\nWhich character is associated with Fedallah?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.250407088669211,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955975.9418406,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What event marks the beginning of the text?\nWhat is the significance of Chapter 41?\nWhich character is associated with Fedallah?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.250407088669211,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955975.9418423,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What event marks the beginning of the text?\nWhat is the significance of Chapter 41?\nWhich character is associated with Fedallah?"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "export_timestamp": "2025-11-24T02:45:28.851432",
+  "export_timestamp_readable": "2025-11-24 02:45:28",
+  "num_metrics": 4,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.2923112220014445,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952319.9862835,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.9534034350023526,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952328.8485448,
+      "question_id": "q_chunk_0_0",
+      "response_text": "Who is the author of Moby Dick?\nWhat is the release date of this Project Gutenberg eBook?\nAccording to the text, where can users find the terms of the Project Gutenberg License?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.9534034350023526,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952328.8485496,
+      "question_id": "q_chunk_0_1",
+      "response_text": "Who is the author of Moby Dick?\nWhat is the release date of this Project Gutenberg eBook?\nAccording to the text, where can users find the terms of the Project Gutenberg License?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.9534034350023526,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952328.8485522,
+      "question_id": "q_chunk_0_2",
+      "response_text": "Who is the author of Moby Dick?\nWhat is the release date of this Project Gutenberg eBook?\nAccording to the text, where can users find the terms of the Project Gutenberg License?"
+    }
+  ]
+}

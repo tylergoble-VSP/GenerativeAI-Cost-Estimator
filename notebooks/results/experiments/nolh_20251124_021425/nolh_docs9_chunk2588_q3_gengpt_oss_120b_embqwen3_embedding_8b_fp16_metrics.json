@@ -1,0 +1,493 @@
+{
+  "export_timestamp": "2025-11-24T03:10:07.052611",
+  "export_timestamp_readable": "2025-11-24 03:10:07",
+  "num_metrics": 36,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.4712403809971875,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953724.048966,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.726042394991964,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953725.3051004,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 5.905669289000798,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953726.4840648,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.553733501001261,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953727.6031766,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.285740977007663,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953728.591195,
+      "chunk_id": "chunk_4",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.1035992670076666,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953729.5880017,
+      "chunk_id": "chunk_5",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.978410611001891,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953730.5819252,
+      "chunk_id": "chunk_6",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.9912405849900097,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953731.5827856,
+      "chunk_id": "chunk_7",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.996606797009008,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953732.5849354,
+      "chunk_id": "chunk_8",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.8165689263357,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 19,
+        "total_tokens": 562,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953759.0372884,
+      "question_id": "q_chunk_1_0",
+      "response_text": "Which chapter titles in the list reference specific characters from the novel, such as Ahab, Stubb, or Fedallah?  \nHow many chapter titles include the word \u201cWhale\u201d in their headings?  \nWhat is the significance of the missing subtitle for Chapter\u202f79 in the sequence?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.8165689263357,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 19,
+        "total_tokens": 562,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953759.0372944,
+      "question_id": "q_chunk_1_1",
+      "response_text": "Which chapter titles in the list reference specific characters from the novel, such as Ahab, Stubb, or Fedallah?  \nHow many chapter titles include the word \u201cWhale\u201d in their headings?  \nWhat is the significance of the missing subtitle for Chapter\u202f79 in the sequence?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.8165689263357,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 19,
+        "total_tokens": 562,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953759.0372963,
+      "question_id": "q_chunk_1_2",
+      "response_text": "Which chapter titles in the list reference specific characters from the novel, such as Ahab, Stubb, or Fedallah?  \nHow many chapter titles include the word \u201cWhale\u201d in their headings?  \nWhat is the significance of the missing subtitle for Chapter\u202f79 in the sequence?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.6857454200023,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 14,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953764.6456406,
+      "question_id": "q_chunk_2_0",
+      "response_text": "Which chapter title suggests a discussion of the whale\u2019s skeletal measurements?  \nHow many chapter titles reference the character Ahab directly?  \nWhat is the earliest chapter number that includes the word \u201cMidnight\u201d in its title?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.6857454200023,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 14,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953764.6456466,
+      "question_id": "q_chunk_2_1",
+      "response_text": "Which chapter title suggests a discussion of the whale\u2019s skeletal measurements?  \nHow many chapter titles reference the character Ahab directly?  \nWhat is the earliest chapter number that includes the word \u201cMidnight\u201d in its title?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.6857454200023,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 14,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953764.645649,
+      "question_id": "q_chunk_2_2",
+      "response_text": "Which chapter title suggests a discussion of the whale\u2019s skeletal measurements?  \nHow many chapter titles reference the character Ahab directly?  \nWhat is the earliest chapter number that includes the word \u201cMidnight\u201d in its title?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.236687803999908,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 20,
+        "total_tokens": 563,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953769.296915,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date and most recent update date listed for this eBook of *Moby\u2011Dick*?  \nUnder which license may readers copy, give away, or reuse this Project Gutenberg eBook?  \nWhich chapter titles appear between \u201cThe Ramadan\u201d and \u201cThe Specksnyder\u201d in the contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.236687803999908,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 20,
+        "total_tokens": 563,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953769.296921,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the release date and most recent update date listed for this eBook of *Moby\u2011Dick*?  \nUnder which license may readers copy, give away, or reuse this Project Gutenberg eBook?  \nWhich chapter titles appear between \u201cThe Ramadan\u201d and \u201cThe Specksnyder\u201d in the contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.236687803999908,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 20,
+        "total_tokens": 563,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953769.2969232,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the release date and most recent update date listed for this eBook of *Moby\u2011Dick*?  \nUnder which license may readers copy, give away, or reuse this Project Gutenberg eBook?  \nWhich chapter titles appear between \u201cThe Ramadan\u201d and \u201cThe Specksnyder\u201d in the contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.525772853332455,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 22,
+        "total_tokens": 544,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953775.6154861,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What significance do the chapter titles such as \u201cThe Musket\u201d and \u201cThe Needle\u201d have in the structure of the narrative?  \nHow does the transcriber's note explain the sources and verification process for this combined e\u2011text?  \nAccording to the etymology section, what linguistic origins are given for the word \u201cwhale\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.525772853332455,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 22,
+        "total_tokens": 544,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953775.6154912,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What significance do the chapter titles such as \u201cThe Musket\u201d and \u201cThe Needle\u201d have in the structure of the narrative?  \nHow does the transcriber's note explain the sources and verification process for this combined e\u2011text?  \nAccording to the etymology section, what linguistic origins are given for the word \u201cwhale\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.525772853332455,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 22,
+        "total_tokens": 544,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953775.6154919,
+      "question_id": "q_chunk_3_2",
+      "response_text": "What significance do the chapter titles such as \u201cThe Musket\u201d and \u201cThe Needle\u201d have in the structure of the narrative?  \nHow does the transcriber's note explain the sources and verification process for this combined e\u2011text?  \nAccording to the etymology section, what linguistic origins are given for the word \u201cwhale\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.35872516099577,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 28,
+        "total_tokens": 527,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953783.7229671,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What linguistic connections does the text highlight between the word \u201cwhale\u201d and terms from various languages such as Hebrew, Greek, and Danish?  \nHow does the author describe the reliability of the quoted whale extracts supplied by the \u201cSub\u2011Sub\u2011Librarian\u201d?  \nWhy does the passage refer to the subject as a \u201cpoor devil of a Sub\u2011Sub\u201d and what tone does this convey about the commentator\u2019s attitude?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.35872516099577,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 28,
+        "total_tokens": 527,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953783.7229726,
+      "question_id": "q_chunk_4_1",
+      "response_text": "What linguistic connections does the text highlight between the word \u201cwhale\u201d and terms from various languages such as Hebrew, Greek, and Danish?  \nHow does the author describe the reliability of the quoted whale extracts supplied by the \u201cSub\u2011Sub\u2011Librarian\u201d?  \nWhy does the passage refer to the subject as a \u201cpoor devil of a Sub\u2011Sub\u201d and what tone does this convey about the commentator\u2019s attitude?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.35872516099577,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 28,
+        "total_tokens": 527,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953783.7229745,
+      "question_id": "q_chunk_4_2",
+      "response_text": "What linguistic connections does the text highlight between the word \u201cwhale\u201d and terms from various languages such as Hebrew, Greek, and Danish?  \nHow does the author describe the reliability of the quoted whale extracts supplied by the \u201cSub\u2011Sub\u2011Librarian\u201d?  \nWhy does the passage refer to the subject as a \u201cpoor devil of a Sub\u2011Sub\u201d and what tone does this convey about the commentator\u2019s attitude?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.335481316331425,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 24,
+        "total_tokens": 540,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953788.3044288,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What does the author imply about the \u201cSub\u2011Sub\u201d tribe\u2019s capacity for gratitude and its place in the broader metaphorical hierarchy?  \nHow does the passage use biblical references to Leviathan to contrast divine creation with human perception?  \nIn what way does the author\u2019s tone shift between lamentation and satire when addressing the \u201cpoor devil of a Sub\u2011Sub\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.335481316331425,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 24,
+        "total_tokens": 540,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953788.3044336,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What does the author imply about the \u201cSub\u2011Sub\u201d tribe\u2019s capacity for gratitude and its place in the broader metaphorical hierarchy?  \nHow does the passage use biblical references to Leviathan to contrast divine creation with human perception?  \nIn what way does the author\u2019s tone shift between lamentation and satire when addressing the \u201cpoor devil of a Sub\u2011Sub\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.335481316331425,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 24,
+        "total_tokens": 540,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953788.3044355,
+      "question_id": "q_chunk_5_2",
+      "response_text": "What does the author imply about the \u201cSub\u2011Sub\u201d tribe\u2019s capacity for gratitude and its place in the broader metaphorical hierarchy?  \nHow does the passage use biblical references to Leviathan to contrast divine creation with human perception?  \nIn what way does the author\u2019s tone shift between lamentation and satire when addressing the \u201cpoor devil of a Sub\u2011Sub\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.140136329665741,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 19,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953794.0367365,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What is the significance of Leviathan in Isaiah\u2019s passage compared to the later whale descriptions?  \nHow do the various historical sources describe the size and behavior of the sea monsters they encounter?  \nWhy does Montaigne claim that the sea\u2011gudgeon finds safety within the whale\u2019s mouth?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.140136329665741,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 19,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953794.0367408,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What is the significance of Leviathan in Isaiah\u2019s passage compared to the later whale descriptions?  \nHow do the various historical sources describe the size and behavior of the sea monsters they encounter?  \nWhy does Montaigne claim that the sea\u2011gudgeon finds safety within the whale\u2019s mouth?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.140136329665741,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 19,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953794.036742,
+      "question_id": "q_chunk_6_2",
+      "response_text": "What is the significance of Leviathan in Isaiah\u2019s passage compared to the later whale descriptions?  \nHow do the various historical sources describe the size and behavior of the sea monsters they encounter?  \nWhy does Montaigne claim that the sea\u2011gudgeon finds safety within the whale\u2019s mouth?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.539315436665977,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 24,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953800.3420334,
+      "question_id": "q_chunk_7_0",
+      "response_text": "What is the significance of the \u201csea\u2011gudgeon\u201d retiring into the whale\u2019s mouth in Montaigne\u2019s excerpt?  \nWhich historical sources in the passage associate the whale with \u201cspermacetti,\u201d and what uncertainty do they express about its nature?  \nHow do the various literary quotes in the text use the whale as a metaphor for power or danger?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.539315436665977,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 24,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953800.3420396,
+      "question_id": "q_chunk_7_1",
+      "response_text": "What is the significance of the \u201csea\u2011gudgeon\u201d retiring into the whale\u2019s mouth in Montaigne\u2019s excerpt?  \nWhich historical sources in the passage associate the whale with \u201cspermacetti,\u201d and what uncertainty do they express about its nature?  \nHow do the various literary quotes in the text use the whale as a metaphor for power or danger?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.539315436665977,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 24,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953800.3420413,
+      "question_id": "q_chunk_7_2",
+      "response_text": "What is the significance of the \u201csea\u2011gudgeon\u201d retiring into the whale\u2019s mouth in Montaigne\u2019s excerpt?  \nWhich historical sources in the passage associate the whale with \u201cspermacetti,\u201d and what uncertainty do they express about its nature?  \nHow do the various literary quotes in the text use the whale as a metaphor for power or danger?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.246885989996372,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 27,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953807.0462096,
+      "question_id": "q_chunk_8_0",
+      "response_text": "What common metaphorical theme links the various literary and historical references to Leviathan and whales in the excerpts?  \nHow does the description of the whale\u2019s size and behavior in Thomas Edge\u2019s account compare to the poetic depictions in Dryden and Milton?  \nIn what way does Hobbes\u2019s use of \u201cLeviathan\u201d as a metaphor for the Commonwealth differ from the more literal whale imagery in the other quotations?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.246885989996372,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 27,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953807.0462139,
+      "question_id": "q_chunk_8_1",
+      "response_text": "What common metaphorical theme links the various literary and historical references to Leviathan and whales in the excerpts?  \nHow does the description of the whale\u2019s size and behavior in Thomas Edge\u2019s account compare to the poetic depictions in Dryden and Milton?  \nIn what way does Hobbes\u2019s use of \u201cLeviathan\u201d as a metaphor for the Commonwealth differ from the more literal whale imagery in the other quotations?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.246885989996372,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 27,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953807.0462162,
+      "question_id": "q_chunk_8_2",
+      "response_text": "What common metaphorical theme links the various literary and historical references to Leviathan and whales in the excerpts?  \nHow does the description of the whale\u2019s size and behavior in Thomas Edge\u2019s account compare to the poetic depictions in Dryden and Milton?  \nIn what way does Hobbes\u2019s use of \u201cLeviathan\u201d as a metaphor for the Commonwealth differ from the more literal whale imagery in the other quotations?"
+    }
+  ]
+}

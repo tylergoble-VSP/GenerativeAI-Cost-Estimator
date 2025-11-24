@@ -1,0 +1,169 @@
+{
+  "export_timestamp": "2025-11-24T03:23:27.239839",
+  "export_timestamp_readable": "2025-11-24 03:23:27",
+  "num_metrics": 12,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.098898034004378,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954603.0060225,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.160015571003896,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954603.066265,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.2191403479955625,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954603.126956,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8914949766670665,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954605.804011,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the title of the third chapter?\nWhich chapter details the killing of a Right Whale?\nWhat chapter discusses the different materials whales have been depicted in?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8914949766670665,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954605.8040147,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the title of the third chapter?\nWhich chapter details the killing of a Right Whale?\nWhat chapter discusses the different materials whales have been depicted in?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8914949766670665,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954605.8040156,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What is the title of the third chapter?\nWhich chapter details the killing of a Right Whale?\nWhat chapter discusses the different materials whales have been depicted in?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1618802293329888,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 14,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954606.625651,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the significance of the \"Right Whale\u2019s Head\"?\nWhat are some of the various tools and techniques described in relation to whaling?\nHow do the chapters relate to the theme of maritime exploration and discovery?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1618802293329888,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 14,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954606.625655,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the significance of the \"Right Whale\u2019s Head\"?\nWhat are some of the various tools and techniques described in relation to whaling?\nHow do the chapters relate to the theme of maritime exploration and discovery?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1618802293329888,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 14,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954606.6256564,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What is the significance of the \"Right Whale\u2019s Head\"?\nWhat are some of the various tools and techniques described in relation to whaling?\nHow do the chapters relate to the theme of maritime exploration and discovery?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.369228465666917,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954607.2368376,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date of this Project Gutenberg eBook?\nWhat is the title of the book?\nWho are the credited authors of this Project Gutenberg eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.369228465666917,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954607.2368433,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the release date of this Project Gutenberg eBook?\nWhat is the title of the book?\nWho are the credited authors of this Project Gutenberg eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.369228465666917,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954607.2368453,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the release date of this Project Gutenberg eBook?\nWhat is the title of the book?\nWho are the credited authors of this Project Gutenberg eBook?"
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "export_timestamp": "2025-11-24T03:24:55.851538",
+  "export_timestamp_readable": "2025-11-24 03:24:55",
+  "num_metrics": 24,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.5529682820051676,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954610.9095154,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.722447017993545,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954612.0774174,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 5.90508230800333,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954613.2608185,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.466596436002874,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954614.3764503,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.282519244996365,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954615.3604286,
+      "chunk_id": "chunk_4",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.090412940000533,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954616.3515751,
+      "chunk_id": "chunk_5",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.628201113000007,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 22,
+        "total_tokens": 565,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954639.2387683,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the symbolic significance of the chapter titled \"The Whiteness of the Whale\"?  \nHow does the character of Ahab's obsession with Moby Dick influence the events described in chapters 41-43?  \nWhat role does the chapter \"The Town-Ho\u2019s Story\" play in the narrative structure and themes of the novel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.628201113000007,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 22,
+        "total_tokens": 565,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954639.2387745,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the symbolic significance of the chapter titled \"The Whiteness of the Whale\"?  \nHow does the character of Ahab's obsession with Moby Dick influence the events described in chapters 41-43?  \nWhat role does the chapter \"The Town-Ho\u2019s Story\" play in the narrative structure and themes of the novel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.628201113000007,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 22,
+        "total_tokens": 565,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954639.2387762,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What is the symbolic significance of the chapter titled \"The Whiteness of the Whale\"?  \nHow does the character of Ahab's obsession with Moby Dick influence the events described in chapters 41-43?  \nWhat role does the chapter \"The Town-Ho\u2019s Story\" play in the narrative structure and themes of the novel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.831703476331313,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954651.8484983,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the title of the eBook and its author?  \nWhat are the terms of the Project Gutenberg License mentioned in the text?  \nWhich sections are included in the contents of the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.831703476331313,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954651.848503,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the title of the eBook and its author?  \nWhat are the terms of the Project Gutenberg License mentioned in the text?  \nWhich sections are included in the contents of the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.831703476331313,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954651.848504,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the title of the eBook and its author?  \nWhat are the terms of the Project Gutenberg License mentioned in the text?  \nWhich sections are included in the contents of the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 16.746951878997304,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 23,
+        "total_tokens": 562,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954666.5957365,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What thematic elements are explored through the chapter titles in chapters 75 to 126?  \nHow do the encounters with other ships, such as The Virgin and The Rose-Bud, contribute to the narrative's development?  \nWhat symbolic significance do chapters like \"Ahab\u2019s Leg\" and \"The Fossil Whale\" hold within the novel's context?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 16.746951878997304,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 23,
+        "total_tokens": 562,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954666.595742,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What thematic elements are explored through the chapter titles in chapters 75 to 126?  \nHow do the encounters with other ships, such as The Virgin and The Rose-Bud, contribute to the narrative's development?  \nWhat symbolic significance do chapters like \"Ahab\u2019s Leg\" and \"The Fossil Whale\" hold within the novel's context?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 16.746951878997304,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 23,
+        "total_tokens": 562,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954666.5957437,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What thematic elements are explored through the chapter titles in chapters 75 to 126?  \nHow do the encounters with other ships, such as The Virgin and The Rose-Bud, contribute to the narrative's development?  \nWhat symbolic significance do chapters like \"Ahab\u2019s Leg\" and \"The Fossil Whale\" hold within the novel's context?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.750383131332152,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 17,
+        "total_tokens": 539,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954677.4910536,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the significance of the chapter titles in the narrative progression?  \nWhat etymological sources are cited for the word \"whale\" in the text?  \nWhat is the purpose of the original transcriber's notes regarding the text's compilation?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.750383131332152,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 17,
+        "total_tokens": 539,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954677.4910607,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the significance of the chapter titles in the narrative progression?  \nWhat etymological sources are cited for the word \"whale\" in the text?  \nWhat is the purpose of the original transcriber's notes regarding the text's compilation?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.750383131332152,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 17,
+        "total_tokens": 539,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954677.4910629,
+      "question_id": "q_chunk_3_2",
+      "response_text": "What is the significance of the chapter titles in the narrative progression?  \nWhat etymological sources are cited for the word \"whale\" in the text?  \nWhat is the purpose of the original transcriber's notes regarding the text's compilation?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.865006557335922,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954684.444594,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What are the origins of the word \"whale\" according to Webster\u2019s Dictionary?  \nWhich languages are listed in the text along with their corresponding words for \"whale\"?  \nWhat is the significance of the extracts provided by the Sub-Sub-Librarian?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.865006557335922,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954684.4446,
+      "question_id": "q_chunk_4_1",
+      "response_text": "What are the origins of the word \"whale\" according to Webster\u2019s Dictionary?  \nWhich languages are listed in the text along with their corresponding words for \"whale\"?  \nWhat is the significance of the extracts provided by the Sub-Sub-Librarian?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.865006557335922,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954684.4446023,
+      "question_id": "q_chunk_4_2",
+      "response_text": "What are the origins of the word \"whale\" according to Webster\u2019s Dictionary?  \nWhich languages are listed in the text along with their corresponding words for \"whale\"?  \nWhat is the significance of the extracts provided by the Sub-Sub-Librarian?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 9.750431728335874,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 16,
+        "total_tokens": 532,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954695.848118,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the significance of the extracts mentioned in the text regarding Leviathan?  \nWhat is the metaphorical meaning behind the reference to celestial beings being made refugees?  \nHow do the biblical excerpts contribute to the portrayal of Leviathan across different texts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 9.750431728335874,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 16,
+        "total_tokens": 532,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954695.8481233,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the significance of the extracts mentioned in the text regarding Leviathan?  \nWhat is the metaphorical meaning behind the reference to celestial beings being made refugees?  \nHow do the biblical excerpts contribute to the portrayal of Leviathan across different texts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 9.750431728335874,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 16,
+        "total_tokens": 532,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954695.8481255,
+      "question_id": "q_chunk_5_2",
+      "response_text": "What is the significance of the extracts mentioned in the text regarding Leviathan?  \nWhat is the metaphorical meaning behind the reference to celestial beings being made refugees?  \nHow do the biblical excerpts contribute to the portrayal of Leviathan across different texts?"
+    }
+  ]
+}

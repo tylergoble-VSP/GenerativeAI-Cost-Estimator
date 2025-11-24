@@ -1,0 +1,169 @@
+{
+  "export_timestamp": "2025-11-24T04:10:17.249275",
+  "export_timestamp_readable": "2025-11-24 04:10:17",
+  "num_metrics": 12,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.1521703749895096,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957414.9989564,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.2116227070073364,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957415.0563917,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.270868605002761,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957415.1165812,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2763186716668618,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957415.9486454,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What are the chapter titles related to whales?\nWhat are some of the specific whale-related scenes described in the text?\nWhat characters are mentioned alongside the whale?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2763186716668618,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957415.94865,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What are the chapter titles related to whales?\nWhat are some of the specific whale-related scenes described in the text?\nWhat characters are mentioned alongside the whale?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2763186716668618,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957415.948652,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What are the chapter titles related to whales?\nWhat are some of the specific whale-related scenes described in the text?\nWhat characters are mentioned alongside the whale?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.45933645066300716,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957416.4964972,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date of this ebook?\nWhat are the authors of the ebook?\nWhere can the Project Gutenberg License be found?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.45933645066300716,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957416.4964998,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the release date of this ebook?\nWhat are the authors of the ebook?\nWhere can the Project Gutenberg License be found?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.45933645066300716,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957416.4965005,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the release date of this ebook?\nWhat are the authors of the ebook?\nWhere can the Project Gutenberg License be found?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7083702490005331,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 13,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957417.2458606,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the significance of the \"Right Whale\u2019s Head\"?\nWhat are some of the different techniques described in whale hunting?\nHow does the text shift between topics related to whaling and other subjects?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7083702490005331,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 13,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957417.2458673,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the significance of the \"Right Whale\u2019s Head\"?\nWhat are some of the different techniques described in whale hunting?\nHow does the text shift between topics related to whaling and other subjects?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7083702490005331,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 13,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957417.2458694,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What is the significance of the \"Right Whale\u2019s Head\"?\nWhat are some of the different techniques described in whale hunting?\nHow does the text shift between topics related to whaling and other subjects?"
+    }
+  ]
+}

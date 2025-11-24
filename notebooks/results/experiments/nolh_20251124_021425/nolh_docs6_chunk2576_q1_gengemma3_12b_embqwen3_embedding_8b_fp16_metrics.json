@@ -1,0 +1,163 @@
+{
+  "export_timestamp": "2025-11-24T03:34:37.327021",
+  "export_timestamp_readable": "2025-11-24 03:34:37",
+  "num_metrics": 12,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.3476844980032183,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955262.9746797,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.519059327998548,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955264.1442087,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 5.754355791999842,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955265.3826184,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.488570764005999,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955266.4637747,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.296959690997028,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955267.4415343,
+      "chunk_id": "chunk_4",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.0434976989927236,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955268.4264576,
+      "chunk_id": "chunk_5",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.3954536550008925,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955271.824053,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date of this Project Gutenberg eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.439337670992245,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 16,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955272.8684685,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of \"Moby Dick\" appearing as a chapter title?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.320171961007873,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 10,
+        "total_tokens": 549,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955273.7500427,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the subject matter of Chapter 126?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.1436510600033216,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 20,
+        "total_tokens": 542,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955274.9687562,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the significance of the late consumptive usher's actions regarding his lexicons and grammars?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.4526020829944173,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 27,
+        "total_tokens": 526,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955276.3219686,
+      "question_id": "q_chunk_4_0",
+      "response_text": "According to the text, what is one suggested origin of the word \"whale\" based on its connection to rolling or arching?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.573181341998861,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 18,
+        "total_tokens": 534,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955277.324111,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What does the author suggest about the fate of those identified as \"Sub-Subs\"?"
+    }
+  ]
+}

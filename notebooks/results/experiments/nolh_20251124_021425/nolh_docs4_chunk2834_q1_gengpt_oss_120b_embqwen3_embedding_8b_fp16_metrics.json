@@ -1,0 +1,111 @@
+{
+  "export_timestamp": "2025-11-24T02:44:11.660205",
+  "export_timestamp_readable": "2025-11-24 02:44:11",
+  "num_metrics": 8,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.544262447991059,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952204.1825666,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.726217057992471,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952205.3627622,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 5.909613800002262,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952206.5471425,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.4539473180047935,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952207.6370206,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 30.188021220994415,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 18,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952237.8291621,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the title of the chapter that comes immediately after \u201cThe Battering\u2011Ram\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 33.45678767800564,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 26,
+        "total_tokens": 569,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952241.0959938,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date and eBook number listed for Herman Melville's *Moby\u2011Dick* in the Project Gutenberg entry?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 39.14914434400271,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952246.7894964,
+      "question_id": "q_chunk_1_0",
+      "response_text": "Which chapter number is titled \u201cThe Whiteness of the Whale\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.826622174994554,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 14,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952251.656494,
+      "question_id": "q_chunk_3_0",
+      "response_text": "Which chapter titles indicate encounters between the Pequod and other vessels?"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "export_timestamp": "2025-11-24T03:45:23.220158",
+  "export_timestamp_readable": "2025-11-24 03:45:23",
+  "num_metrics": 9,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.240704209994874,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955921.2299001,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.300267446989892,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955921.2911153,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.3587373009941075,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955921.3497345,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.41847882849833695,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 17,
+        "total_tokens": 560,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955922.1900048,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of the repeated entries of \"Ahab; to Him, Stubb\"?\nWhat are some of the different materials depicted in the illustrations related to whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.41847882849833695,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 17,
+        "total_tokens": 560,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955922.1900089,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of the repeated entries of \"Ahab; to Him, Stubb\"?\nWhat are some of the different materials depicted in the illustrations related to whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6909085670049535,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 13,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955922.7355216,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the significance of the title \"The Right Whale\u2019s Head\"?\nWhat are the various topics explored within the chapters listed?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6909085670049535,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 13,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955922.7355268,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the significance of the title \"The Right Whale\u2019s Head\"?\nWhat are the various topics explored within the chapters listed?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.9323905045021093,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955923.2171679,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date of this Project Gutenberg eBook?\nWhat are the credited authors of this Project Gutenberg eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.9323905045021093,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955923.217171,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the release date of this Project Gutenberg eBook?\nWhat are the credited authors of this Project Gutenberg eBook?"
+    }
+  ]
+}

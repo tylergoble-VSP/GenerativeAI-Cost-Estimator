@@ -1,0 +1,439 @@
+{
+  "export_timestamp": "2025-11-24T03:01:25.574545",
+  "export_timestamp_readable": "2025-11-24 03:01:25",
+  "num_metrics": 32,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.8818420820025494,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953246.2793343,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.8978976880025584,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953246.2965574,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.9176786739990348,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953246.313709,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.049851004005176947,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953246.3296556,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.046473320995573886,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953246.3433757,
+      "chunk_id": "chunk_4",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.04407985300349537,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953246.3580995,
+      "chunk_id": "chunk_5",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.044812432999606244,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953246.3749046,
+      "chunk_id": "chunk_6",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.06942395700025372,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953246.4131374,
+      "chunk_id": "chunk_7",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.796450404333882,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953257.8048227,
+      "question_id": "q_chunk_1_0",
+      "response_text": "Which chapter title directly follows \u201cThe Mast-Head\u201d in the list?  \nWhich chapter title references a dream fairy from folklore?  \nWhich chapter title involves the discussion of \u201cThe Whiteness of the Whale\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.796450404333882,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953257.8048284,
+      "question_id": "q_chunk_1_1",
+      "response_text": "Which chapter title directly follows \u201cThe Mast-Head\u201d in the list?  \nWhich chapter title references a dream fairy from folklore?  \nWhich chapter title involves the discussion of \u201cThe Whiteness of the Whale\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.796450404333882,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953257.8048303,
+      "question_id": "q_chunk_1_2",
+      "response_text": "Which chapter title directly follows \u201cThe Mast-Head\u201d in the list?  \nWhich chapter title references a dream fairy from folklore?  \nWhich chapter title involves the discussion of \u201cThe Whiteness of the Whale\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.692339405999519,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953260.4917696,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What are the licensing conditions for using the Project Gutenberg eBook of Moby Dick?  \nWho is credited as the author of Moby Dick in this Project Gutenberg edition?  \nWhen was this eBook version of Moby Dick most recently updated?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.692339405999519,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953260.4917724,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What are the licensing conditions for using the Project Gutenberg eBook of Moby Dick?  \nWho is credited as the author of Moby Dick in this Project Gutenberg edition?  \nWhen was this eBook version of Moby Dick most recently updated?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.692339405999519,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953260.4917731,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What are the licensing conditions for using the Project Gutenberg eBook of Moby Dick?  \nWho is credited as the author of Moby Dick in this Project Gutenberg edition?  \nWhen was this eBook version of Moby Dick most recently updated?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.886529523995705,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 11,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953264.0751307,
+      "question_id": "q_chunk_2_0",
+      "response_text": "Which chapter title appears to describe a ritual involving a coffin?  \nIn what chapter does the ship encounter the \"Bachelor\"?  \nWhich chapter deals with measuring the whale's skeleton?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.886529523995705,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 11,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953264.0751345,
+      "question_id": "q_chunk_2_1",
+      "response_text": "Which chapter title appears to describe a ritual involving a coffin?  \nIn what chapter does the ship encounter the \"Bachelor\"?  \nWhich chapter deals with measuring the whale's skeleton?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.886529523995705,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 11,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953264.0751355,
+      "question_id": "q_chunk_2_2",
+      "response_text": "Which chapter title appears to describe a ritual involving a coffin?  \nIn what chapter does the ship encounter the \"Bachelor\"?  \nWhich chapter deals with measuring the whale's skeleton?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.3648090070006824,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 31,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953267.9004145,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What themes or narrative functions might be suggested by the progression of chapter titles from \u201cMidnight Aloft\u201d to \u201cThe Chase\u2014Third Day\u201d?  \nHow does the etymology section contribute to our understanding of the author's perspective on language and the word \u201cwhale\u201d?  \nWhat might the mention of the \u201cPequod Meets The Rachel\u201d and \u201cPequod Meets The Delight\u201d indicate about the Pequod\u2019s interactions within the story?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.3648090070006824,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 31,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953267.900423,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What themes or narrative functions might be suggested by the progression of chapter titles from \u201cMidnight Aloft\u201d to \u201cThe Chase\u2014Third Day\u201d?  \nHow does the etymology section contribute to our understanding of the author's perspective on language and the word \u201cwhale\u201d?  \nWhat might the mention of the \u201cPequod Meets The Rachel\u201d and \u201cPequod Meets The Delight\u201d indicate about the Pequod\u2019s interactions within the story?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.3648090070006824,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 31,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953267.9004252,
+      "question_id": "q_chunk_3_2",
+      "response_text": "What themes or narrative functions might be suggested by the progression of chapter titles from \u201cMidnight Aloft\u201d to \u201cThe Chase\u2014Third Day\u201d?  \nHow does the etymology section contribute to our understanding of the author's perspective on language and the word \u201cwhale\u201d?  \nWhat might the mention of the \u201cPequod Meets The Rachel\u201d and \u201cPequod Meets The Delight\u201d indicate about the Pequod\u2019s interactions within the story?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.654478777665645,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953271.456113,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What linguistic roots does the text identify as contributing to the modern English word \"whale\"?  \nHow does the author describe the nature of the extracts presented in the text?  \nWhich ancient or modern cultures are mentioned as having references to whales in the passage?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.654478777665645,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953271.4561164,
+      "question_id": "q_chunk_4_1",
+      "response_text": "What linguistic roots does the text identify as contributing to the modern English word \"whale\"?  \nHow does the author describe the nature of the extracts presented in the text?  \nWhich ancient or modern cultures are mentioned as having references to whales in the passage?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.654478777665645,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953271.4561174,
+      "question_id": "q_chunk_4_2",
+      "response_text": "What linguistic roots does the text identify as contributing to the modern English word \"whale\"?  \nHow does the author describe the nature of the extracts presented in the text?  \nWhich ancient or modern cultures are mentioned as having references to whales in the passage?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.241571523001767,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 25,
+        "total_tokens": 541,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953276.800652,
+      "question_id": "q_chunk_5_0",
+      "response_text": "Who is the narrator addressing when describing the \u201cSub-Sub,\u201d and what tone does the narrator adopt toward this figure?  \nWhich biblical passages are cited in the extracts, and what common theme do they share regarding Leviathan?  \nWhat does the narrator suggest the \u201cSub-Subs\u201d should do with their tears, and how does this relate to the overarching message of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.241571523001767,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 25,
+        "total_tokens": 541,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953276.8006556,
+      "question_id": "q_chunk_5_1",
+      "response_text": "Who is the narrator addressing when describing the \u201cSub-Sub,\u201d and what tone does the narrator adopt toward this figure?  \nWhich biblical passages are cited in the extracts, and what common theme do they share regarding Leviathan?  \nWhat does the narrator suggest the \u201cSub-Subs\u201d should do with their tears, and how does this relate to the overarching message of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.241571523001767,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 25,
+        "total_tokens": 541,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953276.8006566,
+      "question_id": "q_chunk_5_2",
+      "response_text": "Who is the narrator addressing when describing the \u201cSub-Sub,\u201d and what tone does the narrator adopt toward this figure?  \nWhich biblical passages are cited in the extracts, and what common theme do they share regarding Leviathan?  \nWhat does the narrator suggest the \u201cSub-Subs\u201d should do with their tears, and how does this relate to the overarching message of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.555172021001151,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 19,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953281.5669303,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What does the repeated mention of Leviathan and whales suggest about the author\u2019s view of sea monsters?  \nHow do the various sources quoted differ in their descriptions of the size and nature of these marine creatures?  \nWhy might the author juxtapose biblical prophecy with historical and literary accounts of sea monsters?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.555172021001151,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 19,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953281.5669346,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What does the repeated mention of Leviathan and whales suggest about the author\u2019s view of sea monsters?  \nHow do the various sources quoted differ in their descriptions of the size and nature of these marine creatures?  \nWhy might the author juxtapose biblical prophecy with historical and literary accounts of sea monsters?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.555172021001151,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 19,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953281.5669365,
+      "question_id": "q_chunk_6_2",
+      "response_text": "What does the repeated mention of Leviathan and whales suggest about the author\u2019s view of sea monsters?  \nHow do the various sources quoted differ in their descriptions of the size and nature of these marine creatures?  \nWhy might the author juxtapose biblical prophecy with historical and literary accounts of sea monsters?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.703497769330473,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 21,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953285.567538,
+      "question_id": "q_chunk_7_0",
+      "response_text": "Who is credited with the passage that describes the sea\u2011gudgeon retreating into a whale\u2019s mouth?  \nWhich quotation states that \u201cThis whale\u2019s liver was two cartloads\u201d?  \nWhat thematic element links the excerpts from Montaigne, Rabelais, Stowe, Bacon, and the other authors?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.703497769330473,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 21,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953285.5675404,
+      "question_id": "q_chunk_7_1",
+      "response_text": "Who is credited with the passage that describes the sea\u2011gudgeon retreating into a whale\u2019s mouth?  \nWhich quotation states that \u201cThis whale\u2019s liver was two cartloads\u201d?  \nWhat thematic element links the excerpts from Montaigne, Rabelais, Stowe, Bacon, and the other authors?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.703497769330473,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 21,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953285.5675414,
+      "question_id": "q_chunk_7_2",
+      "response_text": "Who is credited with the passage that describes the sea\u2011gudgeon retreating into a whale\u2019s mouth?  \nWhich quotation states that \u201cThis whale\u2019s liver was two cartloads\u201d?  \nWhat thematic element links the excerpts from Montaigne, Rabelais, Stowe, Bacon, and the other authors?"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "export_timestamp": "2025-11-24T02:38:33.551723",
+  "export_timestamp_readable": "2025-11-24 02:38:33",
+  "num_metrics": 6,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.16918429899669718,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951903.2750165,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.22855134498968255,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951903.333521,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.385510689498915,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951910.106366,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the title of the eBook described in the text?\nAccording to the text, where can one find the terms of the Project Gutenberg License?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.385510689498915,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951910.1063697,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the title of the eBook described in the text?\nAccording to the text, where can one find the terms of the Project Gutenberg License?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.106017567501112,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951913.5475492,
+      "question_id": "q_chunk_1_0",
+      "response_text": "Which character is introduced at the very beginning of the provided text?\nWhat is a recurring subject of the chapters, beyond simply being chapter titles?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.106017567501112,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951913.547553,
+      "question_id": "q_chunk_1_1",
+      "response_text": "Which character is introduced at the very beginning of the provided text?\nWhat is a recurring subject of the chapters, beyond simply being chapter titles?"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "export_timestamp": "2025-11-24T03:25:55.703703",
+  "export_timestamp_readable": "2025-11-24 03:25:55",
+  "num_metrics": 4,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.447614870994585,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954745.7040923,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 5.622590055005276,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954746.8798,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.444741411993164,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954753.3272886,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the range of chapter numbers included in the provided list?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.81963847100269,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 17,
+        "total_tokens": 560,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954755.7013001,
+      "question_id": "q_chunk_0_0",
+      "response_text": "According to the text, where can the terms of the Project Gutenberg License be found?"
+    }
+  ]
+}

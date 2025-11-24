@@ -1,0 +1,279 @@
+{
+  "export_timestamp": "2025-11-24T03:56:25.406782",
+  "export_timestamp_readable": "2025-11-24 03:56:25",
+  "num_metrics": 20,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.2435195589932846,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956579.2793984,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.2610540820023743,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956579.2954323,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.274777915008599,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956579.3117533,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.047875936012133025,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956579.327603,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8567467947505065,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 13,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956582.7580552,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the Right Whale\u2019s Head contrasted with?\nWhat is the significance of the \u201cBattering-Ram\u201d?\nHow does the text relate to the measurement of a whale\u2019s skeleton?\nWhat events occur during the first night watch on the Pequod?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8567467947505065,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 13,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956582.75806,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the Right Whale\u2019s Head contrasted with?\nWhat is the significance of the \u201cBattering-Ram\u201d?\nHow does the text relate to the measurement of a whale\u2019s skeleton?\nWhat events occur during the first night watch on the Pequod?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8567467947505065,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 13,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956582.7580621,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What is the Right Whale\u2019s Head contrasted with?\nWhat is the significance of the \u201cBattering-Ram\u201d?\nHow does the text relate to the measurement of a whale\u2019s skeleton?\nWhat events occur during the first night watch on the Pequod?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8567467947505065,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 13,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956582.7580633,
+      "question_id": "q_chunk_2_3",
+      "response_text": "What is the Right Whale\u2019s Head contrasted with?\nWhat is the significance of the \u201cBattering-Ram\u201d?\nHow does the text relate to the measurement of a whale\u2019s skeleton?\nWhat events occur during the first night watch on the Pequod?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.037487958001293,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956583.4793847,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date of this ebook?\nWhat is the author's name?\nWhat website provides the Project Gutenberg License?\nWho are the credited individuals involved in creating this ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.037487958001293,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956583.479389,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the release date of this ebook?\nWhat is the author's name?\nWhat website provides the Project Gutenberg License?\nWho are the credited individuals involved in creating this ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.037487958001293,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956583.4793913,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the release date of this ebook?\nWhat is the author's name?\nWhat website provides the Project Gutenberg License?\nWho are the credited individuals involved in creating this ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.037487958001293,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 8,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956583.479393,
+      "question_id": "q_chunk_0_3",
+      "response_text": "What is the release date of this ebook?\nWhat is the author's name?\nWhat website provides the Project Gutenberg License?\nWho are the credited individuals involved in creating this ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2435634872490482,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956584.304317,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What characters are mentioned in the opening lines?\nWhich chapters focus on the depiction of whales?\nWhat is the significance of \"Stubb Kills a Whale\"?\nWhat are some of the different materials used to represent whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2435634872490482,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956584.3043249,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What characters are mentioned in the opening lines?\nWhich chapters focus on the depiction of whales?\nWhat is the significance of \"Stubb Kills a Whale\"?\nWhat are some of the different materials used to represent whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2435634872490482,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956584.304327,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What characters are mentioned in the opening lines?\nWhich chapters focus on the depiction of whales?\nWhat is the significance of \"Stubb Kills a Whale\"?\nWhat are some of the different materials used to represent whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2435634872490482,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956584.3043287,
+      "question_id": "q_chunk_1_3",
+      "response_text": "What characters are mentioned in the opening lines?\nWhich chapters focus on the depiction of whales?\nWhat is the significance of \"Stubb Kills a Whale\"?\nWhat are some of the different materials used to represent whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6605670584976906,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 15,
+        "total_tokens": 537,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956585.401537,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What are the chapter titles listed in the text?\nWhat is the significance of the letter \u2018H\u2019 in the context of the whale\u2019s name?\nAccording to the text, from which languages does the word \"whale\" originate?\nWhat is the description of the \"usher\" mentioned in the etymology section?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6605670584976906,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 15,
+        "total_tokens": 537,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956585.4015436,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What are the chapter titles listed in the text?\nWhat is the significance of the letter \u2018H\u2019 in the context of the whale\u2019s name?\nAccording to the text, from which languages does the word \"whale\" originate?\nWhat is the description of the \"usher\" mentioned in the etymology section?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6605670584976906,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 15,
+        "total_tokens": 537,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956585.4015458,
+      "question_id": "q_chunk_3_2",
+      "response_text": "What are the chapter titles listed in the text?\nWhat is the significance of the letter \u2018H\u2019 in the context of the whale\u2019s name?\nAccording to the text, from which languages does the word \"whale\" originate?\nWhat is the description of the \"usher\" mentioned in the etymology section?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6605670584976906,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 15,
+        "total_tokens": 537,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956585.4015472,
+      "question_id": "q_chunk_3_3",
+      "response_text": "What are the chapter titles listed in the text?\nWhat is the significance of the letter \u2018H\u2019 in the context of the whale\u2019s name?\nAccording to the text, from which languages does the word \"whale\" originate?\nWhat is the description of the \"usher\" mentioned in the etymology section?"
+    }
+  ]
+}

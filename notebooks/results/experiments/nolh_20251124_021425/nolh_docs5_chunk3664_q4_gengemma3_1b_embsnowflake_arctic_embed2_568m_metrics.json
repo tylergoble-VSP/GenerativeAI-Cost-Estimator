@@ -1,0 +1,347 @@
+{
+  "export_timestamp": "2025-11-24T03:20:39.385896",
+  "export_timestamp_readable": "2025-11-24 03:20:39",
+  "num_metrics": 25,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.4875616850040387,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954435.4286885,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.548881163005717,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954435.4907641,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.609749102994101,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954435.5500803,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.18052262598939706,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954435.6095593,
+      "chunk_id": "chunk_3",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.15949873499630485,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954435.6506317,
+      "chunk_id": "chunk_4",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5516905555014091,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 16,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954437.8615105,
+      "question_id": "q_chunk_2_0",
+      "response_text": "1.  What is the main topic of the first seven chapters?\n2.  What is the significance of the \u201cGreat Heidelburgh Tun\u201d?\n3.  What is the primary goal of Ahab\u2019s quest?\n4.  What is the significance of the \u201cPequod Meets The Rose-Bud\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5516905555014091,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 16,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954437.8615148,
+      "question_id": "q_chunk_2_1",
+      "response_text": "1.  What is the main topic of the first seven chapters?\n2.  What is the significance of the \u201cGreat Heidelburgh Tun\u201d?\n3.  What is the primary goal of Ahab\u2019s quest?\n4.  What is the significance of the \u201cPequod Meets The Rose-Bud\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5516905555014091,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 16,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954437.8615165,
+      "question_id": "q_chunk_2_2",
+      "response_text": "1.  What is the main topic of the first seven chapters?\n2.  What is the significance of the \u201cGreat Heidelburgh Tun\u201d?\n3.  What is the primary goal of Ahab\u2019s quest?\n4.  What is the significance of the \u201cPequod Meets The Rose-Bud\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5516905555014091,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 16,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954437.8615181,
+      "question_id": "q_chunk_2_3",
+      "response_text": "1.  What is the main topic of the first seven chapters?\n2.  What is the significance of the \u201cGreat Heidelburgh Tun\u201d?\n3.  What is the primary goal of Ahab\u2019s quest?\n4.  What is the significance of the \u201cPequod Meets The Rose-Bud\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6481133772504108,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954438.2463672,
+      "question_id": "q_chunk_1_0",
+      "response_text": "1. What is Ahab\u2019s name, as mentioned in the text?\n2. What is Stubb\u2019s profession?\n3. What is the title of the chapter where the pipe is discussed?\n4. What is the main plot point of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6481133772504108,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954438.2463715,
+      "question_id": "q_chunk_1_1",
+      "response_text": "1. What is Ahab\u2019s name, as mentioned in the text?\n2. What is Stubb\u2019s profession?\n3. What is the title of the chapter where the pipe is discussed?\n4. What is the main plot point of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6481133772504108,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954438.2463734,
+      "question_id": "q_chunk_1_2",
+      "response_text": "1. What is Ahab\u2019s name, as mentioned in the text?\n2. What is Stubb\u2019s profession?\n3. What is the title of the chapter where the pipe is discussed?\n4. What is the main plot point of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6481133772504108,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954438.246375,
+      "question_id": "q_chunk_1_3",
+      "response_text": "1. What is Ahab\u2019s name, as mentioned in the text?\n2. What is Stubb\u2019s profession?\n3. What is the title of the chapter where the pipe is discussed?\n4. What is the main plot point of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7398598882500664,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954438.6124828,
+      "question_id": "q_chunk_0_0",
+      "response_text": "1.  What is the cost of the eBook?\n2.  Where can users copy, give away, or reuse the eBook?\n3.  What is the release date of the eBook?\n4.  What language is the eBook written in?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7398598882500664,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954438.6124883,
+      "question_id": "q_chunk_0_1",
+      "response_text": "1.  What is the cost of the eBook?\n2.  Where can users copy, give away, or reuse the eBook?\n3.  What is the release date of the eBook?\n4.  What language is the eBook written in?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7398598882500664,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954438.6124902,
+      "question_id": "q_chunk_0_2",
+      "response_text": "1.  What is the cost of the eBook?\n2.  Where can users copy, give away, or reuse the eBook?\n3.  What is the release date of the eBook?\n4.  What language is the eBook written in?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7398598882500664,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954438.6124918,
+      "question_id": "q_chunk_0_3",
+      "response_text": "1.  What is the cost of the eBook?\n2.  Where can users copy, give away, or reuse the eBook?\n3.  What is the release date of the eBook?\n4.  What language is the eBook written in?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.28060947449921514,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 13,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954438.9848619,
+      "question_id": "q_chunk_3_0",
+      "response_text": "1. What is the narrator\u2019s perspective regarding the text?\n2. What is the significance of the \u201cpale Usher\u201d?\n3. What does the text suggest about the importance of language?\n4. What is the textual reference to \u2018whale-fish\u2019?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.28060947449921514,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 13,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954438.98487,
+      "question_id": "q_chunk_3_1",
+      "response_text": "1. What is the narrator\u2019s perspective regarding the text?\n2. What is the significance of the \u201cpale Usher\u201d?\n3. What does the text suggest about the importance of language?\n4. What is the textual reference to \u2018whale-fish\u2019?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.28060947449921514,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 13,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954438.9848716,
+      "question_id": "q_chunk_3_2",
+      "response_text": "1. What is the narrator\u2019s perspective regarding the text?\n2. What is the significance of the \u201cpale Usher\u201d?\n3. What does the text suggest about the importance of language?\n4. What is the textual reference to \u2018whale-fish\u2019?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.28060947449921514,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 13,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954438.9848733,
+      "question_id": "q_chunk_3_3",
+      "response_text": "1. What is the narrator\u2019s perspective regarding the text?\n2. What is the significance of the \u201cpale Usher\u201d?\n3. What does the text suggest about the importance of language?\n4. What is the textual reference to \u2018whale-fish\u2019?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2813616257517424,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 13,
+        "total_tokens": 512,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954439.3727782,
+      "question_id": "q_chunk_4_0",
+      "response_text": "1.  What is the meaning of \u201crolling\u201d in the context of whale names?\n2.  From which languages does the whale name originate?\n3.  What is the primary purpose of the extracts?\n4.  What is the author\u2019s attitude toward whale statements?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2813616257517424,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 13,
+        "total_tokens": 512,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954439.3727849,
+      "question_id": "q_chunk_4_1",
+      "response_text": "1.  What is the meaning of \u201crolling\u201d in the context of whale names?\n2.  From which languages does the whale name originate?\n3.  What is the primary purpose of the extracts?\n4.  What is the author\u2019s attitude toward whale statements?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2813616257517424,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 13,
+        "total_tokens": 512,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954439.3727868,
+      "question_id": "q_chunk_4_2",
+      "response_text": "1.  What is the meaning of \u201crolling\u201d in the context of whale names?\n2.  From which languages does the whale name originate?\n3.  What is the primary purpose of the extracts?\n4.  What is the author\u2019s attitude toward whale statements?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2813616257517424,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 13,
+        "total_tokens": 512,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954439.3727882,
+      "question_id": "q_chunk_4_3",
+      "response_text": "1.  What is the meaning of \u201crolling\u201d in the context of whale names?\n2.  From which languages does the whale name originate?\n3.  What is the primary purpose of the extracts?\n4.  What is the author\u2019s attitude toward whale statements?"
+    }
+  ]
+}

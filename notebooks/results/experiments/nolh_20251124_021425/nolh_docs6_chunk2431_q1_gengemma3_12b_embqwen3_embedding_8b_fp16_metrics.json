@@ -1,0 +1,163 @@
+{
+  "export_timestamp": "2025-11-24T02:34:37.059321",
+  "export_timestamp_readable": "2025-11-24 02:34:37",
+  "num_metrics": 12,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.4648523009964265,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951665.377128,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.7271568500000285,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951666.6400063,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 5.91474787700281,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951667.8268795,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.5474670760013396,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951668.9250772,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.2811634929967113,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951669.9215229,
+      "chunk_id": "chunk_4",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.0960950479930034,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951670.9232874,
+      "chunk_id": "chunk_5",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1432540610112483,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951672.070002,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of Chapter 41, \"Moby Dick\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.9548239190044114,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 9,
+        "total_tokens": 548,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951672.88222,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the subject of Chapter 106?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.7914113070000894,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951673.7171142,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the title of the work detailed in this text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.8470230759994593,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 22,
+        "total_tokens": 544,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951674.918128,
+      "question_id": "q_chunk_3_0",
+      "response_text": "According to the provided text, what is the significance of the letter \"H\" when referring to a whale?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.0229257050086744,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 19,
+        "total_tokens": 518,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951675.9061196,
+      "question_id": "q_chunk_4_0",
+      "response_text": "According to the text, what quality is the name \"whale\" thought to derive from?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.338555695998366,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 24,
+        "total_tokens": 540,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951677.0565352,
+      "question_id": "q_chunk_5_0",
+      "response_text": "According to the text, why does the author enjoy spending time with \"poor devils of a Sub-Sub\"?"
+    }
+  ]
+}

@@ -1,0 +1,439 @@
+{
+  "export_timestamp": "2025-11-24T03:05:37.406889",
+  "export_timestamp_readable": "2025-11-24 03:05:37",
+  "num_metrics": 32,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.8206925889971899,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953460.9678524,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.8382953469990753,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953460.9843528,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.8529164409992518,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953461.0006132,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.049300031998427585,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953461.0175138,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.046528753999155015,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953461.0313926,
+      "chunk_id": "chunk_4",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.04523509900900535,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953461.046182,
+      "chunk_id": "chunk_5",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.043381522002164274,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953461.0612068,
+      "chunk_id": "chunk_6",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.07552735900389962,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953461.1074185,
+      "chunk_id": "chunk_7",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.061900519998744,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 13,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953494.2963612,
+      "question_id": "q_chunk_2_0",
+      "response_text": "Which chapter title suggests a focus on whale anatomy?  \nWhat is the title of the chapter that mentions a celestial instrument?  \nWhich chapter appears to describe a meeting with a ship named \u201cThe Virgin\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.061900519998744,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 13,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953494.2963667,
+      "question_id": "q_chunk_2_1",
+      "response_text": "Which chapter title suggests a focus on whale anatomy?  \nWhat is the title of the chapter that mentions a celestial instrument?  \nWhich chapter appears to describe a meeting with a ship named \u201cThe Virgin\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.061900519998744,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 13,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953494.2963684,
+      "question_id": "q_chunk_2_2",
+      "response_text": "Which chapter title suggests a focus on whale anatomy?  \nWhat is the title of the chapter that mentions a celestial instrument?  \nWhich chapter appears to describe a meeting with a ship named \u201cThe Virgin\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.086146024002423,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953500.3676665,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What license governs the use of this Project Gutenberg eBook?  \nWhen was the most recent update to the Moby\u202fDick eBook released?  \nWhich chapter titles appear twice in the contents list?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.086146024002423,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953500.3676717,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What license governs the use of this Project Gutenberg eBook?  \nWhen was the most recent update to the Moby\u202fDick eBook released?  \nWhich chapter titles appear twice in the contents list?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.086146024002423,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953500.3676739,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What license governs the use of this Project Gutenberg eBook?  \nWhen was the most recent update to the Moby\u202fDick eBook released?  \nWhich chapter titles appear twice in the contents list?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 14.711573871667497,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 17,
+        "total_tokens": 560,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953505.2444878,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of the recurring character Stubb in the chapter titles listed?  \nHow does the progression of chapter titles reflect the thematic shift from whale anatomy to human activities?  \nWhy does chapter 79 appear without a title, unlike the preceding chapters?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 14.711573871667497,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 17,
+        "total_tokens": 560,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953505.244493,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of the recurring character Stubb in the chapter titles listed?  \nHow does the progression of chapter titles reflect the thematic shift from whale anatomy to human activities?  \nWhy does chapter 79 appear without a title, unlike the preceding chapters?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 14.711573871667497,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 17,
+        "total_tokens": 560,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953505.2444952,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What is the significance of the recurring character Stubb in the chapter titles listed?  \nHow does the progression of chapter titles reflect the thematic shift from whale anatomy to human activities?  \nWhy does chapter 79 appear without a title, unlike the preceding chapters?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.7327321946650045,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 18,
+        "total_tokens": 540,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953511.495375,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the significance of the repeated chapter titles referencing \u201cThe Chase\u201d across three consecutive days?  \nHow does the etymology section link the word \u201cwhale\u201d to different languages and meanings?  \nWhich institutions contributed to the creation and verification of this combined etext version?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.7327321946650045,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 18,
+        "total_tokens": 540,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953511.4953783,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the significance of the repeated chapter titles referencing \u201cThe Chase\u201d across three consecutive days?  \nHow does the etymology section link the word \u201cwhale\u201d to different languages and meanings?  \nWhich institutions contributed to the creation and verification of this combined etext version?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.7327321946650045,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 18,
+        "total_tokens": 540,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953511.495379,
+      "question_id": "q_chunk_3_2",
+      "response_text": "What is the significance of the repeated chapter titles referencing \u201cThe Chase\u201d across three consecutive days?  \nHow does the etymology section link the word \u201cwhale\u201d to different languages and meanings?  \nWhich institutions contributed to the creation and verification of this combined etext version?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.236548982332654,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 20,
+        "total_tokens": 519,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953516.0785046,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What linguistic roots and meanings are traced for the word \u201cwhale\u201d across the various languages listed?  \n\nHow does the author characterize the reliability of the whale-related extracts provided by the Sub\u2011Sub\u2011Librarian?  \n\nWhat purpose does the author suggest the collection of diverse whale references serves for modern readers?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.236548982332654,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 20,
+        "total_tokens": 519,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953516.0785089,
+      "question_id": "q_chunk_4_1",
+      "response_text": "What linguistic roots and meanings are traced for the word \u201cwhale\u201d across the various languages listed?  \n\nHow does the author characterize the reliability of the whale-related extracts provided by the Sub\u2011Sub\u2011Librarian?  \n\nWhat purpose does the author suggest the collection of diverse whale references serves for modern readers?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.236548982332654,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 20,
+        "total_tokens": 519,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953516.0785108,
+      "question_id": "q_chunk_4_2",
+      "response_text": "What linguistic roots and meanings are traced for the word \u201cwhale\u201d across the various languages listed?  \n\nHow does the author characterize the reliability of the whale-related extracts provided by the Sub\u2011Sub\u2011Librarian?  \n\nWhat purpose does the author suggest the collection of diverse whale references serves for modern readers?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.892739155999152,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 19,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953522.9237263,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the author\u2019s attitude toward the \u201cSub\u2011Sub\u201d and how does it reflect in the passage?\n\nHow do the biblical extracts cited illustrate the varying portrayals of Leviathan across different books?\n\nIn what way does the opening paragraph describe the value of the collected extracts about Leviathan?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.892739155999152,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 19,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953522.9237328,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the author\u2019s attitude toward the \u201cSub\u2011Sub\u201d and how does it reflect in the passage?\n\nHow do the biblical extracts cited illustrate the varying portrayals of Leviathan across different books?\n\nIn what way does the opening paragraph describe the value of the collected extracts about Leviathan?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.892739155999152,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 19,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953522.9237347,
+      "question_id": "q_chunk_5_2",
+      "response_text": "What is the author\u2019s attitude toward the \u201cSub\u2011Sub\u201d and how does it reflect in the passage?\n\nHow do the biblical extracts cited illustrate the varying portrayals of Leviathan across different books?\n\nIn what way does the opening paragraph describe the value of the collected extracts about Leviathan?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.202231865667272,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 24,
+        "total_tokens": 540,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953530.1030807,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What biblical figure is quoted at the beginning of the passage describing Leviathan and the sea dragon?  \nWhich historical sources are cited as describing massive whales and sea monsters in the Indian Sea?  \nHow does Montaigne\u2019s \u201cApology for Raimond Sebond\u201d contrast the fate of objects swallowed by the whale with that of the sea\u2011gudgeon?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.202231865667272,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 24,
+        "total_tokens": 540,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953530.103088,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What biblical figure is quoted at the beginning of the passage describing Leviathan and the sea dragon?  \nWhich historical sources are cited as describing massive whales and sea monsters in the Indian Sea?  \nHow does Montaigne\u2019s \u201cApology for Raimond Sebond\u201d contrast the fate of objects swallowed by the whale with that of the sea\u2011gudgeon?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.202231865667272,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 24,
+        "total_tokens": 540,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953530.1030903,
+      "question_id": "q_chunk_6_2",
+      "response_text": "What biblical figure is quoted at the beginning of the passage describing Leviathan and the sea dragon?  \nWhich historical sources are cited as describing massive whales and sea monsters in the Indian Sea?  \nHow does Montaigne\u2019s \u201cApology for Raimond Sebond\u201d contrast the fate of objects swallowed by the whale with that of the sea\u2011gudgeon?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.107227000664959,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 17,
+        "total_tokens": 549,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953537.4010305,
+      "question_id": "q_chunk_7_0",
+      "response_text": "What common theme connects the diverse quotations about whales and leviathan in the text?  \nWhich historical authors or figures are cited when describing the size and power of whales?  \nHow does the passage illustrate the historical significance of spermaceti and whale oil?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.107227000664959,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 17,
+        "total_tokens": 549,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953537.4010348,
+      "question_id": "q_chunk_7_1",
+      "response_text": "What common theme connects the diverse quotations about whales and leviathan in the text?  \nWhich historical authors or figures are cited when describing the size and power of whales?  \nHow does the passage illustrate the historical significance of spermaceti and whale oil?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.107227000664959,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 17,
+        "total_tokens": 549,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953537.4010358,
+      "question_id": "q_chunk_7_2",
+      "response_text": "What common theme connects the diverse quotations about whales and leviathan in the text?  \nWhich historical authors or figures are cited when describing the size and power of whales?  \nHow does the passage illustrate the historical significance of spermaceti and whale oil?"
+    }
+  ]
+}

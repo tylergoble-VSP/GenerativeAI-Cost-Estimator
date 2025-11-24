@@ -1,0 +1,415 @@
+{
+  "export_timestamp": "2025-11-24T02:39:57.181067",
+  "export_timestamp_readable": "2025-11-24 02:39:57",
+  "num_metrics": 30,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.862499659997411,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951961.137723,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.92230545100756,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951961.1983576,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.980822147001163,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951961.2579618,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.17856571800075471,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951961.31664,
+      "chunk_id": "chunk_3",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.15841697101132013,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951961.3571365,
+      "chunk_id": "chunk_4",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.16133856799569912,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951961.4196377,
+      "chunk_id": "chunk_5",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.066196960498928,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951969.6876247,
+      "question_id": "q_chunk_1_0",
+      "response_text": "Which chapter title appears first in the provided list?  \nHow many chapter titles are listed before the chapter titled \"Moby Dick\"?  \nWhich chapters mention a specific type of whale?  \nWhat is the last chapter listed before the 'Questions:' section?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.066196960498928,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951969.6876307,
+      "question_id": "q_chunk_1_1",
+      "response_text": "Which chapter title appears first in the provided list?  \nHow many chapter titles are listed before the chapter titled \"Moby Dick\"?  \nWhich chapters mention a specific type of whale?  \nWhat is the last chapter listed before the 'Questions:' section?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.066196960498928,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951969.6876326,
+      "question_id": "q_chunk_1_2",
+      "response_text": "Which chapter title appears first in the provided list?  \nHow many chapter titles are listed before the chapter titled \"Moby Dick\"?  \nWhich chapters mention a specific type of whale?  \nWhat is the last chapter listed before the 'Questions:' section?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.066196960498928,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951969.6876345,
+      "question_id": "q_chunk_1_3",
+      "response_text": "Which chapter title appears first in the provided list?  \nHow many chapter titles are listed before the chapter titled \"Moby Dick\"?  \nWhich chapters mention a specific type of whale?  \nWhat is the last chapter listed before the 'Questions:' section?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.0249633232488122,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 33,
+        "total_tokens": 572,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951973.5236194,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What recurring theme appears across the chapters titled with actions such as \u201cThe Battering-Ram,\u201d \u201cThe Peaking,\u201d and \u201cThe Dying Whale\u201d?  \nHow does the chapter sequence reflect the progression of the Pequod\u2019s journey, from \u201cThe Pequod Meets The Virgin\u201d to \u201cThe Deck Towards the End of the First Night Watch\u201d?  \nIn what way might the inclusion of chapters like \u201cThe Fountain,\u201d \u201cThe Lamp,\u201d and \u201cThe Candles\u201d contribute to the narrative\u2019s focus on shipboard life?  \nWhich chapter titles hint at historical or mythological references, and how could those references inform the reader\u2019s understanding of the story\u2019s symbolism?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.0249633232488122,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 33,
+        "total_tokens": 572,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951973.523624,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What recurring theme appears across the chapters titled with actions such as \u201cThe Battering-Ram,\u201d \u201cThe Peaking,\u201d and \u201cThe Dying Whale\u201d?  \nHow does the chapter sequence reflect the progression of the Pequod\u2019s journey, from \u201cThe Pequod Meets The Virgin\u201d to \u201cThe Deck Towards the End of the First Night Watch\u201d?  \nIn what way might the inclusion of chapters like \u201cThe Fountain,\u201d \u201cThe Lamp,\u201d and \u201cThe Candles\u201d contribute to the narrative\u2019s focus on shipboard life?  \nWhich chapter titles hint at historical or mythological references, and how could those references inform the reader\u2019s understanding of the story\u2019s symbolism?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.0249633232488122,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 33,
+        "total_tokens": 572,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951973.5236256,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What recurring theme appears across the chapters titled with actions such as \u201cThe Battering-Ram,\u201d \u201cThe Peaking,\u201d and \u201cThe Dying Whale\u201d?  \nHow does the chapter sequence reflect the progression of the Pequod\u2019s journey, from \u201cThe Pequod Meets The Virgin\u201d to \u201cThe Deck Towards the End of the First Night Watch\u201d?  \nIn what way might the inclusion of chapters like \u201cThe Fountain,\u201d \u201cThe Lamp,\u201d and \u201cThe Candles\u201d contribute to the narrative\u2019s focus on shipboard life?  \nWhich chapter titles hint at historical or mythological references, and how could those references inform the reader\u2019s understanding of the story\u2019s symbolism?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.0249633232488122,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 33,
+        "total_tokens": 572,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951973.5236273,
+      "question_id": "q_chunk_2_3",
+      "response_text": "What recurring theme appears across the chapters titled with actions such as \u201cThe Battering-Ram,\u201d \u201cThe Peaking,\u201d and \u201cThe Dying Whale\u201d?  \nHow does the chapter sequence reflect the progression of the Pequod\u2019s journey, from \u201cThe Pequod Meets The Virgin\u201d to \u201cThe Deck Towards the End of the First Night Watch\u201d?  \nIn what way might the inclusion of chapters like \u201cThe Fountain,\u201d \u201cThe Lamp,\u201d and \u201cThe Candles\u201d contribute to the narrative\u2019s focus on shipboard life?  \nWhich chapter titles hint at historical or mythological references, and how could those references inform the reader\u2019s understanding of the story\u2019s symbolism?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.160992337998323,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 17,
+        "total_tokens": 560,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951982.0662584,
+      "question_id": "q_chunk_0_0",
+      "response_text": "Who are the individuals credited for the Project Gutenberg eBook of Moby Dick?  \nWhat are the release and most recent update dates listed for the eBook?  \nWhich chapter in the contents list is titled \u201cThe Ramadan,\u201d and what might be the intended title?  \nUnder the Project Gutenberg license, what usage rights are granted to readers in the United States?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.160992337998323,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 17,
+        "total_tokens": 560,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951982.066264,
+      "question_id": "q_chunk_0_1",
+      "response_text": "Who are the individuals credited for the Project Gutenberg eBook of Moby Dick?  \nWhat are the release and most recent update dates listed for the eBook?  \nWhich chapter in the contents list is titled \u201cThe Ramadan,\u201d and what might be the intended title?  \nUnder the Project Gutenberg license, what usage rights are granted to readers in the United States?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.160992337998323,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 17,
+        "total_tokens": 560,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951982.0662658,
+      "question_id": "q_chunk_0_2",
+      "response_text": "Who are the individuals credited for the Project Gutenberg eBook of Moby Dick?  \nWhat are the release and most recent update dates listed for the eBook?  \nWhich chapter in the contents list is titled \u201cThe Ramadan,\u201d and what might be the intended title?  \nUnder the Project Gutenberg license, what usage rights are granted to readers in the United States?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.160992337998323,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 17,
+        "total_tokens": 560,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951982.0662673,
+      "question_id": "q_chunk_0_3",
+      "response_text": "Who are the individuals credited for the Project Gutenberg eBook of Moby Dick?  \nWhat are the release and most recent update dates listed for the eBook?  \nWhich chapter in the contents list is titled \u201cThe Ramadan,\u201d and what might be the intended title?  \nUnder the Project Gutenberg license, what usage rights are granted to readers in the United States?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.195338448000257,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 15,
+        "total_tokens": 537,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951986.4700356,
+      "question_id": "q_chunk_3_0",
+      "response_text": "Which chapter describes the Pequod's encounter with the Rachel?  \nWhat is the focus of the chapter titled \"The Life\u2011Buoy\"?  \nWhich project provided the original etext used in this version?  \nWhat does the etymology section reveal about the origin of the word \"whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.195338448000257,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 15,
+        "total_tokens": 537,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951986.4700396,
+      "question_id": "q_chunk_3_1",
+      "response_text": "Which chapter describes the Pequod's encounter with the Rachel?  \nWhat is the focus of the chapter titled \"The Life\u2011Buoy\"?  \nWhich project provided the original etext used in this version?  \nWhat does the etymology section reveal about the origin of the word \"whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.195338448000257,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 15,
+        "total_tokens": 537,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951986.4700406,
+      "question_id": "q_chunk_3_2",
+      "response_text": "Which chapter describes the Pequod's encounter with the Rachel?  \nWhat is the focus of the chapter titled \"The Life\u2011Buoy\"?  \nWhich project provided the original etext used in this version?  \nWhat does the etymology section reveal about the origin of the word \"whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.195338448000257,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 15,
+        "total_tokens": 537,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951986.4700413,
+      "question_id": "q_chunk_3_3",
+      "response_text": "Which chapter describes the Pequod's encounter with the Rachel?  \nWhat is the focus of the chapter titled \"The Life\u2011Buoy\"?  \nWhich project provided the original etext used in this version?  \nWhat does the etymology section reveal about the origin of the word \"whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.55080162025115,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 25,
+        "total_tokens": 524,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951991.7279108,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What does the Danish word _HVALT_ signify in the context of whale etymology?  \nWhich languages listed in the text provide whale names that relate to the concept of \"rolling\" or \"wallowing\"?  \nWhy does the author caution readers against treating the quoted \"higgledy-piggledy whale statements\" as definitive cetological facts?  \nWho is referred to as the \"Sub-Sub-Librarian\" that supplied the extracts, and what might be the significance of that title?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.55080162025115,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 25,
+        "total_tokens": 524,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951991.7279146,
+      "question_id": "q_chunk_4_1",
+      "response_text": "What does the Danish word _HVALT_ signify in the context of whale etymology?  \nWhich languages listed in the text provide whale names that relate to the concept of \"rolling\" or \"wallowing\"?  \nWhy does the author caution readers against treating the quoted \"higgledy-piggledy whale statements\" as definitive cetological facts?  \nWho is referred to as the \"Sub-Sub-Librarian\" that supplied the extracts, and what might be the significance of that title?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.55080162025115,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 25,
+        "total_tokens": 524,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951991.7279153,
+      "question_id": "q_chunk_4_2",
+      "response_text": "What does the Danish word _HVALT_ signify in the context of whale etymology?  \nWhich languages listed in the text provide whale names that relate to the concept of \"rolling\" or \"wallowing\"?  \nWhy does the author caution readers against treating the quoted \"higgledy-piggledy whale statements\" as definitive cetological facts?  \nWho is referred to as the \"Sub-Sub-Librarian\" that supplied the extracts, and what might be the significance of that title?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.55080162025115,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 25,
+        "total_tokens": 524,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951991.727916,
+      "question_id": "q_chunk_4_3",
+      "response_text": "What does the Danish word _HVALT_ signify in the context of whale etymology?  \nWhich languages listed in the text provide whale names that relate to the concept of \"rolling\" or \"wallowing\"?  \nWhy does the author caution readers against treating the quoted \"higgledy-piggledy whale statements\" as definitive cetological facts?  \nWho is referred to as the \"Sub-Sub-Librarian\" that supplied the extracts, and what might be the significance of that title?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.7768307162514247,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 19,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951997.1747704,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the primary subject that the extracts in the text aim to provide a \u201cglancing bird\u2019s eye view\u201d of?  \nWhich ancient author is explicitly quoted with the phrase \u201cAnd God created great whales\u201d?  \nHow does the narrator describe the emotional state of the \u201cSub\u2011Sub\u201d group?  \nWhich biblical book includes the line about a \u201cgreat fish to swallow up Jonah\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.7768307162514247,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 19,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951997.1747742,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the primary subject that the extracts in the text aim to provide a \u201cglancing bird\u2019s eye view\u201d of?  \nWhich ancient author is explicitly quoted with the phrase \u201cAnd God created great whales\u201d?  \nHow does the narrator describe the emotional state of the \u201cSub\u2011Sub\u201d group?  \nWhich biblical book includes the line about a \u201cgreat fish to swallow up Jonah\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.7768307162514247,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 19,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951997.1747763,
+      "question_id": "q_chunk_5_2",
+      "response_text": "What is the primary subject that the extracts in the text aim to provide a \u201cglancing bird\u2019s eye view\u201d of?  \nWhich ancient author is explicitly quoted with the phrase \u201cAnd God created great whales\u201d?  \nHow does the narrator describe the emotional state of the \u201cSub\u2011Sub\u201d group?  \nWhich biblical book includes the line about a \u201cgreat fish to swallow up Jonah\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.7768307162514247,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 19,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951997.1747782,
+      "question_id": "q_chunk_5_3",
+      "response_text": "What is the primary subject that the extracts in the text aim to provide a \u201cglancing bird\u2019s eye view\u201d of?  \nWhich ancient author is explicitly quoted with the phrase \u201cAnd God created great whales\u201d?  \nHow does the narrator describe the emotional state of the \u201cSub\u2011Sub\u201d group?  \nWhich biblical book includes the line about a \u201cgreat fish to swallow up Jonah\u201d?"
+    }
+  ]
+}

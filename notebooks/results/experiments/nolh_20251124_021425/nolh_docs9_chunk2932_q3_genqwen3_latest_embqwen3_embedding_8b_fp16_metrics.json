@@ -1,0 +1,493 @@
+{
+  "export_timestamp": "2025-11-24T04:09:04.194616",
+  "export_timestamp_readable": "2025-11-24 04:09:04",
+  "num_metrics": 36,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.2153759659995558,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957219.634992,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.4587239640095504,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957220.8790214,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.628575014998205,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957222.0473082,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.4723925319995033,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957223.1078987,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.207362645000103,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957224.0867429,
+      "chunk_id": "chunk_4",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.023358835998806,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957225.0711849,
+      "chunk_id": "chunk_5",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.9456289500085404,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957226.05401,
+      "chunk_id": "chunk_6",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.9614083529886557,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957227.048485,
+      "chunk_id": "chunk_7",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.966651880007703,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957228.038346,
+      "chunk_id": "chunk_8",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.3829868686686195,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 17,
+        "total_tokens": 560,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957241.1894855,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of the chapter titles in reflecting the themes of the novel?  \nHow do the interactions between Ahab and Stubb contribute to the narrative's tension?  \nWhat symbolic meanings are conveyed through the detailed descriptions of whales and whaling scenes?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.3829868686686195,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 17,
+        "total_tokens": 560,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957241.1894894,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of the chapter titles in reflecting the themes of the novel?  \nHow do the interactions between Ahab and Stubb contribute to the narrative's tension?  \nWhat symbolic meanings are conveyed through the detailed descriptions of whales and whaling scenes?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.3829868686686195,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 17,
+        "total_tokens": 560,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957241.1894903,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What is the significance of the chapter titles in reflecting the themes of the novel?  \nHow do the interactions between Ahab and Stubb contribute to the narrative's tension?  \nWhat symbolic meanings are conveyed through the detailed descriptions of whales and whaling scenes?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.835357106329562,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 24,
+        "total_tokens": 563,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957260.5472088,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What symbolic significance does the chapter \"The Right Whale\u2019s Head\u2014Contrasted View\" hold in the context of the novel?  \nHow does the chapter \"Ahab\u2019s Leg\" contribute to the portrayal of Ahab's obsession with the whale?  \nWhat role does the chapter \"The Fossil Whale\" play in exploring the theme of man's relationship with nature?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.835357106329562,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 24,
+        "total_tokens": 563,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957260.547213,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What symbolic significance does the chapter \"The Right Whale\u2019s Head\u2014Contrasted View\" hold in the context of the novel?  \nHow does the chapter \"Ahab\u2019s Leg\" contribute to the portrayal of Ahab's obsession with the whale?  \nWhat role does the chapter \"The Fossil Whale\" play in exploring the theme of man's relationship with nature?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.835357106329562,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 24,
+        "total_tokens": 563,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957260.547214,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What symbolic significance does the chapter \"The Right Whale\u2019s Head\u2014Contrasted View\" hold in the context of the novel?  \nHow does the chapter \"Ahab\u2019s Leg\" contribute to the portrayal of Ahab's obsession with the whale?  \nWhat role does the chapter \"The Fossil Whale\" play in exploring the theme of man's relationship with nature?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 15.2515497639979,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957273.7952244,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the title of the first chapter listed in the table of contents?  \nWhich organization is responsible for the Project Gutenberg License mentioned in the text?  \nWho are the credited contributors to this eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 15.2515497639979,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957273.7952287,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the title of the first chapter listed in the table of contents?  \nWhich organization is responsible for the Project Gutenberg License mentioned in the text?  \nWho are the credited contributors to this eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 15.2515497639979,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957273.7952306,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the title of the first chapter listed in the table of contents?  \nWhich organization is responsible for the Project Gutenberg License mentioned in the text?  \nWho are the credited contributors to this eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 14.240272601663795,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 16,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957283.9112792,
+      "question_id": "q_chunk_3_0",
+      "response_text": "Which chapter describes the encounter between the Pequod and the Rachel?  \nWhat is the etymological origin of the word \"whale\" according to the text?  \nWhich institution is credited with preserving the Virginia Tech version of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 14.240272601663795,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 16,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957283.9112852,
+      "question_id": "q_chunk_3_1",
+      "response_text": "Which chapter describes the encounter between the Pequod and the Rachel?  \nWhat is the etymological origin of the word \"whale\" according to the text?  \nWhich institution is credited with preserving the Virginia Tech version of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 14.240272601663795,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 16,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957283.9112873,
+      "question_id": "q_chunk_3_2",
+      "response_text": "Which chapter describes the encounter between the Pequod and the Rachel?  \nWhat is the etymological origin of the word \"whale\" according to the text?  \nWhich institution is credited with preserving the Virginia Tech version of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.752148821333927,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 19,
+        "total_tokens": 518,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957298.804506,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What are the etymological origins of the word \"whale\" according to the text?  \nWhich dictionaries and languages are cited in the discussion of the word \"whale\"?  \nWhy are the extracts provided by the Sub-Sub-Librarian considered valuable or entertaining rather than authoritative?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.752148821333927,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 19,
+        "total_tokens": 518,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957298.8045094,
+      "question_id": "q_chunk_4_1",
+      "response_text": "What are the etymological origins of the word \"whale\" according to the text?  \nWhich dictionaries and languages are cited in the discussion of the word \"whale\"?  \nWhy are the extracts provided by the Sub-Sub-Librarian considered valuable or entertaining rather than authoritative?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.752148821333927,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 19,
+        "total_tokens": 518,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957298.8045104,
+      "question_id": "q_chunk_4_2",
+      "response_text": "What are the etymological origins of the word \"whale\" according to the text?  \nWhich dictionaries and languages are cited in the discussion of the word \"whale\"?  \nWhy are the extracts provided by the Sub-Sub-Librarian considered valuable or entertaining rather than authoritative?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.77940390833343,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 12,
+        "total_tokens": 528,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957309.1344898,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the purpose of the extracts mentioned in the text?  \nWhich biblical passages are cited in the extracts?  \nWhat metaphorical language is used to describe the Sub-Sub character?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.77940390833343,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 12,
+        "total_tokens": 528,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957309.1344957,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the purpose of the extracts mentioned in the text?  \nWhich biblical passages are cited in the extracts?  \nWhat metaphorical language is used to describe the Sub-Sub character?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.77940390833343,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 12,
+        "total_tokens": 528,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957309.1344981,
+      "question_id": "q_chunk_5_2",
+      "response_text": "What is the purpose of the extracts mentioned in the text?  \nWhich biblical passages are cited in the extracts?  \nWhat metaphorical language is used to describe the Sub-Sub character?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.044289348666402,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 17,
+        "total_tokens": 533,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957320.0547125,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What symbolic or literal meaning is attributed to Leviathan in the first quote?  \nHow do the descriptions of whales' sizes compare to terrestrial measurements in the text?  \nWhat unique behavior of the sea-gudgeon is mentioned in relation to the whale's mouth?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.044289348666402,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 17,
+        "total_tokens": 533,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957320.0547178,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What symbolic or literal meaning is attributed to Leviathan in the first quote?  \nHow do the descriptions of whales' sizes compare to terrestrial measurements in the text?  \nWhat unique behavior of the sea-gudgeon is mentioned in relation to the whale's mouth?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.044289348666402,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 17,
+        "total_tokens": 533,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957320.0547194,
+      "question_id": "q_chunk_6_2",
+      "response_text": "What symbolic or literal meaning is attributed to Leviathan in the first quote?  \nHow do the descriptions of whales' sizes compare to terrestrial measurements in the text?  \nWhat unique behavior of the sea-gudgeon is mentioned in relation to the whale's mouth?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.118059938332104,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 13,
+        "total_tokens": 545,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957332.1596951,
+      "question_id": "q_chunk_7_0",
+      "response_text": "How do the authors compare the whale to Leviathan?  \nWhat details are provided about the whale's liver (spermacetti)?  \nWhat does the text suggest about the uncertainty surrounding spermacetti?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.118059938332104,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 13,
+        "total_tokens": 545,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957332.159702,
+      "question_id": "q_chunk_7_1",
+      "response_text": "How do the authors compare the whale to Leviathan?  \nWhat details are provided about the whale's liver (spermacetti)?  \nWhat does the text suggest about the uncertainty surrounding spermacetti?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.118059938332104,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 13,
+        "total_tokens": 545,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957332.1597042,
+      "question_id": "q_chunk_7_2",
+      "response_text": "How do the authors compare the whale to Leviathan?  \nWhat details are provided about the whale's liver (spermacetti)?  \nWhat does the text suggest about the uncertainty surrounding spermacetti?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.684195045667972,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 17,
+        "total_tokens": 544,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957344.1879194,
+      "question_id": "q_chunk_8_0",
+      "response_text": "Which literary work describes Leviathan as \"the hugest that swim the ocean stream\"?  \nWhat historical account details the process of cutting off a whale's head during whaling?  \nHow does Pilgrim\u2019s Progress metaphorically depict a whale in relation to a fish?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.684195045667972,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 17,
+        "total_tokens": 544,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957344.1879237,
+      "question_id": "q_chunk_8_1",
+      "response_text": "Which literary work describes Leviathan as \"the hugest that swim the ocean stream\"?  \nWhat historical account details the process of cutting off a whale's head during whaling?  \nHow does Pilgrim\u2019s Progress metaphorically depict a whale in relation to a fish?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.684195045667972,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 17,
+        "total_tokens": 544,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957344.1879246,
+      "question_id": "q_chunk_8_2",
+      "response_text": "Which literary work describes Leviathan as \"the hugest that swim the ocean stream\"?  \nWhat historical account details the process of cutting off a whale's head during whaling?  \nHow does Pilgrim\u2019s Progress metaphorically depict a whale in relation to a fish?"
+    }
+  ]
+}

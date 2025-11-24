@@ -1,0 +1,163 @@
+{
+  "export_timestamp": "2025-11-24T02:36:48.399553",
+  "export_timestamp_readable": "2025-11-24 02:36:48",
+  "num_metrics": 12,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.3012357469997369,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951700.25366,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.492778576008277,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951701.4438474,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.6779824199911673,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951702.629701,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.4526893019938143,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951703.7066872,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.2599373260018183,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951704.7041345,
+      "chunk_id": "chunk_4",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.0786995429953095,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951705.7087498,
+      "chunk_id": "chunk_5",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 24.11144101100217,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951729.8220685,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the title of the first chapter listed in the table of contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 47.139775305986404,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 16,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951752.8512852,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of the chapter titles in the narrative structure of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 70.28359755600104,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 21,
+        "total_tokens": 560,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951775.9958622,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the significance of the chapter titled \"The Fossil Whale\" in the context of the novel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 57.42963723800494,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 18,
+        "total_tokens": 540,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951787.2526643,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the etymology of the word \"whale\" as discussed in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 44.98616809300438,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 18,
+        "total_tokens": 517,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951797.8386095,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What are the linguistic origins of the word \"whale\" as described in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 32.39855236100266,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 15,
+        "total_tokens": 531,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951808.3955271,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the primary purpose or value of the extracts mentioned in the text?"
+    }
+  ]
+}

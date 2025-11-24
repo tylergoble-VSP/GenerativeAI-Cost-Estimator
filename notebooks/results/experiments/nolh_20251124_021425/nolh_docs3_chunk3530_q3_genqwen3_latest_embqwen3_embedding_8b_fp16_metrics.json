@@ -1,0 +1,169 @@
+{
+  "export_timestamp": "2025-11-24T02:21:29.656240",
+  "export_timestamp_readable": "2025-11-24 02:21:29",
+  "num_metrics": 12,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.6498123920027865,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763950840.9299285,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.830369706003694,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763950842.1088104,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 6.082416381002986,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763950843.3634894,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.349287635331469,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950856.413264,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the Project Gutenberg License mentioned in the text?  \nWhat is the most recent update date for this eBook?  \nWhat is the first chapter listed in the table of contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.349287635331469,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950856.413269,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the Project Gutenberg License mentioned in the text?  \nWhat is the most recent update date for this eBook?  \nWhat is the first chapter listed in the table of contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.349287635331469,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950856.4132707,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the Project Gutenberg License mentioned in the text?  \nWhat is the most recent update date for this eBook?  \nWhat is the first chapter listed in the table of contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.041262894665124,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 23,
+        "total_tokens": 562,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950879.490587,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the significance of contrasting the whale's head in Chapter 75 with its tail in Chapter 86?  \nHow does the chapter \"The Fossil Whale\" (Chapter 104) contribute to the novel's themes?  \nWhat role does the chapter \"Ahab\u2019s Leg\" (Chapter 106) play in symbolizing Ahab's obsession?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.041262894665124,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 23,
+        "total_tokens": 562,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950879.490591,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the significance of contrasting the whale's head in Chapter 75 with its tail in Chapter 86?  \nHow does the chapter \"The Fossil Whale\" (Chapter 104) contribute to the novel's themes?  \nWhat role does the chapter \"Ahab\u2019s Leg\" (Chapter 106) play in symbolizing Ahab's obsession?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.041262894665124,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 23,
+        "total_tokens": 562,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950879.490593,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What is the significance of contrasting the whale's head in Chapter 75 with its tail in Chapter 86?  \nHow does the chapter \"The Fossil Whale\" (Chapter 104) contribute to the novel's themes?  \nWhat role does the chapter \"Ahab\u2019s Leg\" (Chapter 106) play in symbolizing Ahab's obsession?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 15.428580517002652,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 19,
+        "total_tokens": 562,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950889.6513855,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of the chapter titles in reflecting the themes of the novel?  \nHow does the relationship between Ahab and Stubb contribute to the narrative tension?  \nWhat symbolic role does the whale, particularly Moby Dick, play in the story's exploration of obsession and nature?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 15.428580517002652,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 19,
+        "total_tokens": 562,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950889.6513917,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of the chapter titles in reflecting the themes of the novel?  \nHow does the relationship between Ahab and Stubb contribute to the narrative tension?  \nWhat symbolic role does the whale, particularly Moby Dick, play in the story's exploration of obsession and nature?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 15.428580517002652,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 19,
+        "total_tokens": 562,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950889.651394,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What is the significance of the chapter titles in reflecting the themes of the novel?  \nHow does the relationship between Ahab and Stubb contribute to the narrative tension?  \nWhat symbolic role does the whale, particularly Moby Dick, play in the story's exploration of obsession and nature?"
+    }
+  ]
+}

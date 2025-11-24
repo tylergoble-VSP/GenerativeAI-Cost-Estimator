@@ -1,0 +1,33 @@
+{
+  "export_timestamp": "2025-11-24T03:45:18.856701",
+  "export_timestamp_readable": "2025-11-24 03:45:18",
+  "num_metrics": 2,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.687763302004896,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955917.7496972,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1032471579965204,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955918.85439,
+      "question_id": "q_chunk_0_0",
+      "response_text": "Who is the author of Moby Dick; Or, The Whale?"
+    }
+  ]
+}

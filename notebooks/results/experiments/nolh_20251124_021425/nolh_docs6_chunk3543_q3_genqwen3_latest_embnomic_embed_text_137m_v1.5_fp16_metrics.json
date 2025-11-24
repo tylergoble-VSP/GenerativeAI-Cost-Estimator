@@ -1,0 +1,331 @@
+{
+  "export_timestamp": "2025-11-24T03:52:48.933929",
+  "export_timestamp_readable": "2025-11-24 03:52:48",
+  "num_metrics": 24,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.2436463039921364,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956293.6663203,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.2873124329926213,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956293.71263,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.3252678139979253,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956293.7497115,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.09906217499519698,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956293.7657104,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.0667020719993161,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956293.779827,
+      "chunk_id": "chunk_4",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.04525655299948994,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956293.7954144,
+      "chunk_id": "chunk_5",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.141356210665738,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 18,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956306.222748,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What themes or symbols are explored through the chapter titles in this section of the text?  \nHow do the encounters between the Pequod and other vessels or figures contribute to the narrative?  \nWhat significance do the detailed descriptions of whaling equipment and ship components hold in the story?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.141356210665738,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 18,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956306.2227533,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What themes or symbols are explored through the chapter titles in this section of the text?  \nHow do the encounters between the Pequod and other vessels or figures contribute to the narrative?  \nWhat significance do the detailed descriptions of whaling equipment and ship components hold in the story?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.141356210665738,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 18,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956306.222755,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What themes or symbols are explored through the chapter titles in this section of the text?  \nHow do the encounters between the Pequod and other vessels or figures contribute to the narrative?  \nWhat significance do the detailed descriptions of whaling equipment and ship components hold in the story?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.361213263332806,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956318.891047,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the purpose of the \"ETYMOLOGY\" section in the book?  \nWho are the contributors to this Project Gutenberg eBook?  \nWhat is the significance of the Project Gutenberg License mentioned in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.361213263332806,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956318.891052,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the purpose of the \"ETYMOLOGY\" section in the book?  \nWho are the contributors to this Project Gutenberg eBook?  \nWhat is the significance of the Project Gutenberg License mentioned in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.361213263332806,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956318.8910542,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the purpose of the \"ETYMOLOGY\" section in the book?  \nWho are the contributors to this Project Gutenberg eBook?  \nWhat is the significance of the Project Gutenberg License mentioned in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 14.847642523668279,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 22,
+        "total_tokens": 565,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956338.3407059,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of the chapter titled \"The Whiteness of the Whale\" in the context of the narrative?  \nHow do the chapters from 30 to 79 contribute to the development of the central themes of the novel?  \nWhat role does the character Ahab play in the progression of events described in these chapters?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 14.847642523668279,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 22,
+        "total_tokens": 565,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956338.3407106,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of the chapter titled \"The Whiteness of the Whale\" in the context of the narrative?  \nHow do the chapters from 30 to 79 contribute to the development of the central themes of the novel?  \nWhat role does the character Ahab play in the progression of events described in these chapters?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 14.847642523668279,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 22,
+        "total_tokens": 565,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956338.3407116,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What is the significance of the chapter titled \"The Whiteness of the Whale\" in the context of the narrative?  \nHow do the chapters from 30 to 79 contribute to the development of the central themes of the novel?  \nWhat role does the character Ahab play in the progression of events described in these chapters?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 15.291083189333827,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 22,
+        "total_tokens": 544,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956352.0971029,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the significance of the chapters titled \"The Log and Line\" and \"The Life-Buoy\" in the narrative?  \nHow do the encounters with the Rachel and Delight contribute to the overall plot?  \nWhat does the etymology of the word \"whale\" reveal about its linguistic origins according to the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 15.291083189333827,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 22,
+        "total_tokens": 544,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956352.0971074,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the significance of the chapters titled \"The Log and Line\" and \"The Life-Buoy\" in the narrative?  \nHow do the encounters with the Rachel and Delight contribute to the overall plot?  \nWhat does the etymology of the word \"whale\" reveal about its linguistic origins according to the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 15.291083189333827,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 22,
+        "total_tokens": 544,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956352.0971093,
+      "question_id": "q_chunk_3_2",
+      "response_text": "What is the significance of the chapters titled \"The Log and Line\" and \"The Life-Buoy\" in the narrative?  \nHow do the encounters with the Rachel and Delight contribute to the overall plot?  \nWhat does the etymology of the word \"whale\" reveal about its linguistic origins according to the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.94513559533516,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956360.7275283,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What are the linguistic origins of the word \"whale\" as described in the text?  \nWhat role did the Sub-Sub-Librarian play in compiling the extracts about whales?  \nWhy does the author caution against taking the extracted whale references as authoritative?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.94513559533516,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956360.7275329,
+      "question_id": "q_chunk_4_1",
+      "response_text": "What are the linguistic origins of the word \"whale\" as described in the text?  \nWhat role did the Sub-Sub-Librarian play in compiling the extracts about whales?  \nWhy does the author caution against taking the extracted whale references as authoritative?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.94513559533516,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956360.7275348,
+      "question_id": "q_chunk_4_2",
+      "response_text": "What are the linguistic origins of the word \"whale\" as described in the text?  \nWhat role did the Sub-Sub-Librarian play in compiling the extracts about whales?  \nWhy does the author caution against taking the extracted whale references as authoritative?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.192324637663356,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 17,
+        "total_tokens": 533,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956368.91852,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the purpose or value of the extracts provided in the text?  \nWhat is the tone and message directed toward the \"Sub-Sub\" in the passage?  \nWhat biblical references are included in the \"EXTRACTS\" section and what do they signify?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.192324637663356,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 17,
+        "total_tokens": 533,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956368.9185245,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the purpose or value of the extracts provided in the text?  \nWhat is the tone and message directed toward the \"Sub-Sub\" in the passage?  \nWhat biblical references are included in the \"EXTRACTS\" section and what do they signify?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.192324637663356,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 17,
+        "total_tokens": 533,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956368.9185255,
+      "question_id": "q_chunk_5_2",
+      "response_text": "What is the purpose or value of the extracts provided in the text?  \nWhat is the tone and message directed toward the \"Sub-Sub\" in the passage?  \nWhat biblical references are included in the \"EXTRACTS\" section and what do they signify?"
+    }
+  ]
+}

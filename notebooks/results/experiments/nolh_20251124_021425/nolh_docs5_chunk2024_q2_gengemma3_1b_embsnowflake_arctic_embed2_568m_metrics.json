@@ -1,0 +1,207 @@
+{
+  "export_timestamp": "2025-11-24T03:53:11.019800",
+  "export_timestamp_readable": "2025-11-24 03:53:11",
+  "num_metrics": 15,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.282935929004452,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956387.8903255,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.3435494720033603,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956387.9520047,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.40397886899882,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956388.010438,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1785433129989542,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956388.0691926,
+      "chunk_id": "chunk_3",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1590991330012912,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956388.111471,
+      "chunk_id": "chunk_4",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.9744998954993207,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 15,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956390.0633347,
+      "question_id": "q_chunk_2_0",
+      "response_text": "1.  What is the primary focus of the first chapter?\n2.  What is the setting of the \u201cBattering-Ram\u201d chapter?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.9744998954993207,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 15,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956390.0633423,
+      "question_id": "q_chunk_2_1",
+      "response_text": "1.  What is the primary focus of the first chapter?\n2.  What is the setting of the \u201cBattering-Ram\u201d chapter?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1037319484967156,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 17,
+        "total_tokens": 560,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956390.3210466,
+      "question_id": "q_chunk_1_0",
+      "response_text": "1.  What does Stubb do to Ahab?\n2.  What is the significance of the \u201cChart\u201d and \u201cAffidavit\u201d in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1037319484967156,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 17,
+        "total_tokens": 560,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956390.3210495,
+      "question_id": "q_chunk_1_1",
+      "response_text": "1.  What does Stubb do to Ahab?\n2.  What is the significance of the \u201cChart\u201d and \u201cAffidavit\u201d in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1996294069977012,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956390.5122073,
+      "question_id": "q_chunk_0_0",
+      "response_text": "1.  What is the release date of the eBook?\n2.  Where can users obtain the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1996294069977012,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956390.5122106,
+      "question_id": "q_chunk_0_1",
+      "response_text": "1.  What is the release date of the eBook?\n2.  Where can users obtain the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.33182984849554487,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 13,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956390.7277105,
+      "question_id": "q_chunk_3_0",
+      "response_text": "1. What is the text primarily about?\n2. What is the significance of the word \u201cWhale\u201d in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.33182984849554487,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 13,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956390.7277136,
+      "question_id": "q_chunk_3_1",
+      "response_text": "1. What is the text primarily about?\n2. What is the significance of the word \u201cWhale\u201d in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.34660229249857366,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 20,
+        "total_tokens": 519,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956391.0150275,
+      "question_id": "q_chunk_4_0",
+      "response_text": "1.  What is the meaning of \u201croundness or rolling\u201d in the context of the animal\u2019s name?\n2.  What does \u201cWallen\u201d refer to in the context of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.34660229249857366,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 20,
+        "total_tokens": 519,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956391.0150306,
+      "question_id": "q_chunk_4_1",
+      "response_text": "1.  What is the meaning of \u201croundness or rolling\u201d in the context of the animal\u2019s name?\n2.  What does \u201cWallen\u201d refer to in the context of the text?"
+    }
+  ]
+}

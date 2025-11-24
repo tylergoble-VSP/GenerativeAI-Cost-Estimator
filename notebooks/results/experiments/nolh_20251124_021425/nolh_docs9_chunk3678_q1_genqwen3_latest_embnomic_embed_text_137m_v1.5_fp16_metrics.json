@@ -1,0 +1,241 @@
+{
+  "export_timestamp": "2025-11-24T03:34:19.489697",
+  "export_timestamp_readable": "2025-11-24 03:34:19",
+  "num_metrics": 18,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.9398268010118045,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955117.3579607,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.9761522259941557,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955117.3940501,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.9935619089956162,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955117.41063,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.06830024099326693,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955117.426575,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.046561117997043766,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955117.4409394,
+      "chunk_id": "chunk_4",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.045103922006092034,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955117.4560328,
+      "chunk_id": "chunk_5",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.044013467006152496,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955117.4708622,
+      "chunk_id": "chunk_6",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.06837646599160507,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955117.5096836,
+      "chunk_id": "chunk_7",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.09127174199966248,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955117.547652,
+      "chunk_id": "chunk_8",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 25.860538578999694,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955143.4097316,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What are the terms of the Project Gutenberg License mentioned in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 46.58001716500439,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 19,
+        "total_tokens": 562,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955164.1298356,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What themes are explored in the chapters from 30 to 79 of Moby-Dick?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 62.23370141199848,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 15,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955179.7840486,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What themes are explored in the chapters of Moby-Dick listed here?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 47.19432270400284,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 18,
+        "total_tokens": 540,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955190.6048925,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the etymology of the word \"whale\" as discussed in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 34.85192172200186,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 18,
+        "total_tokens": 517,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955198.9828684,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What are the linguistic origins of the word \"whale\" as described in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 31.54990115801047,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 16,
+        "total_tokens": 532,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955211.3349342,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the reason the extracts are considered valuable or entertaining according to the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 34.94548462399689,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 21,
+        "total_tokens": 537,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955225.5513422,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What do these diverse texts collectively reveal about the perception of whales and sea monsters in ancient and historical contexts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 44.992591082002036,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 15,
+        "total_tokens": 547,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955243.976131,
+      "question_id": "q_chunk_7_0",
+      "response_text": "What common themes or symbolic representations are associated with whales in the provided quotes?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 48.14860353700351,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 17,
+        "total_tokens": 544,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955259.4845538,
+      "question_id": "q_chunk_8_0",
+      "response_text": "What do the quotes collectively illustrate about the portrayal of whales and Leviathan in literature?"
+    }
+  ]
+}

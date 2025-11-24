@@ -1,0 +1,97 @@
+{
+  "export_timestamp": "2025-11-24T02:31:36.458719",
+  "export_timestamp_readable": "2025-11-24 02:31:36",
+  "num_metrics": 7,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.14875139801006299,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951487.4399905,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.20762338399072178,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951487.5008738,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.2667840909998631,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951487.5586624,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.17673570099577773,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951487.617031,
+      "chunk_id": "chunk_3",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.112474913999904,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951489.7318184,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the range of chapter numbers presented in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.382380222989013,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 16,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951492.0010574,
+      "question_id": "q_chunk_0_0",
+      "response_text": "According to the text, what is the release date of this Project Gutenberg eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.723302477010293,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 14,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951496.4559188,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What objects or locations are specifically listed as chapter titles in this text?"
+    }
+  ]
+}

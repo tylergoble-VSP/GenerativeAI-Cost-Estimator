@@ -1,0 +1,415 @@
+{
+  "export_timestamp": "2025-11-24T03:14:21.254919",
+  "export_timestamp_readable": "2025-11-24 03:14:21",
+  "num_metrics": 30,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.606456754001556,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954013.5308347,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.78379143300117,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954014.7073092,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 5.950188000992057,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954015.8727164,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.427643884002464,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954016.9589825,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.230693969002459,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954017.938499,
+      "chunk_id": "chunk_4",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.051208734003012,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954018.9244246,
+      "chunk_id": "chunk_5",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2505216435019975,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 20,
+        "total_tokens": 563,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954023.928661,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the license that governs the use of the Moby Dick eBook provided by Project Gutenberg?  \nIn which year and on what date was this eBook version of Moby Dick released, and when was it most recently updated?  \nWho are credited for providing the content of the eBook, and which author wrote Moby Dick?  \nWhat are the first three chapters listed in the table of contents of this eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2505216435019975,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 20,
+        "total_tokens": 563,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954023.9286718,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the license that governs the use of the Moby Dick eBook provided by Project Gutenberg?  \nIn which year and on what date was this eBook version of Moby Dick released, and when was it most recently updated?  \nWho are credited for providing the content of the eBook, and which author wrote Moby Dick?  \nWhat are the first three chapters listed in the table of contents of this eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2505216435019975,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 20,
+        "total_tokens": 563,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954023.9286737,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the license that governs the use of the Moby Dick eBook provided by Project Gutenberg?  \nIn which year and on what date was this eBook version of Moby Dick released, and when was it most recently updated?  \nWho are credited for providing the content of the eBook, and which author wrote Moby Dick?  \nWhat are the first three chapters listed in the table of contents of this eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2505216435019975,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 20,
+        "total_tokens": 563,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954023.9286766,
+      "question_id": "q_chunk_0_3",
+      "response_text": "What is the license that governs the use of the Moby Dick eBook provided by Project Gutenberg?  \nIn which year and on what date was this eBook version of Moby Dick released, and when was it most recently updated?  \nWho are credited for providing the content of the eBook, and which author wrote Moby Dick?  \nWhat are the first three chapters listed in the table of contents of this eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.6997787740001513,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 11,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954029.7272737,
+      "question_id": "q_chunk_2_0",
+      "response_text": "Which chapter is titled \u201cThe Dying Whale\u201d?  \nIn which chapter does Ahab and the Carpenter appear together?  \nWhich chapter covers the use of the log and line?  \nWhich chapter is dedicated to measuring the whale\u2019s skeleton?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.6997787740001513,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 11,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954029.7272797,
+      "question_id": "q_chunk_2_1",
+      "response_text": "Which chapter is titled \u201cThe Dying Whale\u201d?  \nIn which chapter does Ahab and the Carpenter appear together?  \nWhich chapter covers the use of the log and line?  \nWhich chapter is dedicated to measuring the whale\u2019s skeleton?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.6997787740001513,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 11,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954029.7272816,
+      "question_id": "q_chunk_2_2",
+      "response_text": "Which chapter is titled \u201cThe Dying Whale\u201d?  \nIn which chapter does Ahab and the Carpenter appear together?  \nWhich chapter covers the use of the log and line?  \nWhich chapter is dedicated to measuring the whale\u2019s skeleton?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.6997787740001513,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 11,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954029.7272832,
+      "question_id": "q_chunk_2_3",
+      "response_text": "Which chapter is titled \u201cThe Dying Whale\u201d?  \nIn which chapter does Ahab and the Carpenter appear together?  \nWhich chapter covers the use of the log and line?  \nWhich chapter is dedicated to measuring the whale\u2019s skeleton?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.0892043177482265,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954039.2841084,
+      "question_id": "q_chunk_1_0",
+      "response_text": "Which chapter in the list is titled \"The Specksnyder\"?  \nWhich chapter number precedes \"The Whiteness of the Whale\"?  \nWhich chapter first mentions the character Stubb?  \nWhich chapter in the list has no title after its number?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.0892043177482265,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954039.2841156,
+      "question_id": "q_chunk_1_1",
+      "response_text": "Which chapter in the list is titled \"The Specksnyder\"?  \nWhich chapter number precedes \"The Whiteness of the Whale\"?  \nWhich chapter first mentions the character Stubb?  \nWhich chapter in the list has no title after its number?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.0892043177482265,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954039.2841177,
+      "question_id": "q_chunk_1_2",
+      "response_text": "Which chapter in the list is titled \"The Specksnyder\"?  \nWhich chapter number precedes \"The Whiteness of the Whale\"?  \nWhich chapter first mentions the character Stubb?  \nWhich chapter in the list has no title after its number?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.0892043177482265,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954039.2841194,
+      "question_id": "q_chunk_1_3",
+      "response_text": "Which chapter in the list is titled \"The Specksnyder\"?  \nWhich chapter number precedes \"The Whiteness of the Whale\"?  \nWhich chapter first mentions the character Stubb?  \nWhich chapter in the list has no title after its number?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.458554842000012,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 17,
+        "total_tokens": 539,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954045.7640276,
+      "question_id": "q_chunk_3_0",
+      "response_text": "Which chapter number corresponds to the title \"The Log and Line\"?  \nWhat is the role of the Late Consumptive Usher in the provided etymology section?  \nAccording to the text, what are two linguistic origins cited for the word \"whale\"?  \nWhich two projects contributed the etexts used in this version of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.458554842000012,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 17,
+        "total_tokens": 539,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954045.7640347,
+      "question_id": "q_chunk_3_1",
+      "response_text": "Which chapter number corresponds to the title \"The Log and Line\"?  \nWhat is the role of the Late Consumptive Usher in the provided etymology section?  \nAccording to the text, what are two linguistic origins cited for the word \"whale\"?  \nWhich two projects contributed the etexts used in this version of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.458554842000012,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 17,
+        "total_tokens": 539,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954045.764037,
+      "question_id": "q_chunk_3_2",
+      "response_text": "Which chapter number corresponds to the title \"The Log and Line\"?  \nWhat is the role of the Late Consumptive Usher in the provided etymology section?  \nAccording to the text, what are two linguistic origins cited for the word \"whale\"?  \nWhich two projects contributed the etexts used in this version of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.458554842000012,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 17,
+        "total_tokens": 539,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954045.7640393,
+      "question_id": "q_chunk_3_3",
+      "response_text": "Which chapter number corresponds to the title \"The Log and Line\"?  \nWhat is the role of the Late Consumptive Usher in the provided etymology section?  \nAccording to the text, what are two linguistic origins cited for the word \"whale\"?  \nWhich two projects contributed the etexts used in this version of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.060043808502087,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 18,
+        "total_tokens": 517,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954053.9683824,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What etymological origins does the text attribute to the English word \u201cwhale\u201d?\n\nWhich entries in the list are written in non\u2011Latin scripts, and what languages do they represent?\n\nWhat function does the \u201cSub\u2011Sub\u2011Librarian\u201d serve according to the author\u2019s remarks?\n\nHow does the author describe the authenticity of the whale statements collected from diverse sources?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.060043808502087,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 18,
+        "total_tokens": 517,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954053.9683867,
+      "question_id": "q_chunk_4_1",
+      "response_text": "What etymological origins does the text attribute to the English word \u201cwhale\u201d?\n\nWhich entries in the list are written in non\u2011Latin scripts, and what languages do they represent?\n\nWhat function does the \u201cSub\u2011Sub\u2011Librarian\u201d serve according to the author\u2019s remarks?\n\nHow does the author describe the authenticity of the whale statements collected from diverse sources?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.060043808502087,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 18,
+        "total_tokens": 517,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954053.9683874,
+      "question_id": "q_chunk_4_2",
+      "response_text": "What etymological origins does the text attribute to the English word \u201cwhale\u201d?\n\nWhich entries in the list are written in non\u2011Latin scripts, and what languages do they represent?\n\nWhat function does the \u201cSub\u2011Sub\u2011Librarian\u201d serve according to the author\u2019s remarks?\n\nHow does the author describe the authenticity of the whale statements collected from diverse sources?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.060043808502087,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 18,
+        "total_tokens": 517,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954053.968388,
+      "question_id": "q_chunk_4_3",
+      "response_text": "What etymological origins does the text attribute to the English word \u201cwhale\u201d?\n\nWhich entries in the list are written in non\u2011Latin scripts, and what languages do they represent?\n\nWhat function does the \u201cSub\u2011Sub\u2011Librarian\u201d serve according to the author\u2019s remarks?\n\nHow does the author describe the authenticity of the whale statements collected from diverse sources?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.491547435249231,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 16,
+        "total_tokens": 532,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954061.251335,
+      "question_id": "q_chunk_5_0",
+      "response_text": "How does the author use biblical references to build a narrative about Leviathan?  \nWhat is the significance of the phrase \"Sub-Sub\" in the text?  \nIn what way does the text contrast the emotional states of the speaker and the audience?  \nWhich biblical passages are cited, and how are they interpreted within the overall argument?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.491547435249231,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 16,
+        "total_tokens": 532,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954061.251341,
+      "question_id": "q_chunk_5_1",
+      "response_text": "How does the author use biblical references to build a narrative about Leviathan?  \nWhat is the significance of the phrase \"Sub-Sub\" in the text?  \nIn what way does the text contrast the emotional states of the speaker and the audience?  \nWhich biblical passages are cited, and how are they interpreted within the overall argument?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.491547435249231,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 16,
+        "total_tokens": 532,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954061.2513428,
+      "question_id": "q_chunk_5_2",
+      "response_text": "How does the author use biblical references to build a narrative about Leviathan?  \nWhat is the significance of the phrase \"Sub-Sub\" in the text?  \nIn what way does the text contrast the emotional states of the speaker and the audience?  \nWhich biblical passages are cited, and how are they interpreted within the overall argument?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.491547435249231,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 16,
+        "total_tokens": 532,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954061.2513444,
+      "question_id": "q_chunk_5_3",
+      "response_text": "How does the author use biblical references to build a narrative about Leviathan?  \nWhat is the significance of the phrase \"Sub-Sub\" in the text?  \nIn what way does the text contrast the emotional states of the speaker and the audience?  \nWhich biblical passages are cited, and how are they interpreted within the overall argument?"
+    }
+  ]
+}

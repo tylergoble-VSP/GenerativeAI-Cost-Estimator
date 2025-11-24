@@ -1,0 +1,189 @@
+{
+  "export_timestamp": "2025-11-24T03:27:34.827755",
+  "export_timestamp_readable": "2025-11-24 03:27:34",
+  "num_metrics": 14,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.3125590200070292,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954826.2363448,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.6958047059888486,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954826.6195295,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.1002081129990984,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954827.0230596,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.044170351990033,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954827.2808595,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0181111090059858,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954827.6381245,
+      "chunk_id": "chunk_4",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.8222889689932344,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954827.8457267,
+      "chunk_id": "chunk_5",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.7373379509954248,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954828.0186784,
+      "chunk_id": "chunk_6",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.558250310001313,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 16,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954832.5792475,
+      "question_id": "q_chunk_1_0",
+      "response_text": "Which chapter in the list is titled \u201cThe Whiteness of the Whale\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 9.77810270799091,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 11,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954837.7997706,
+      "question_id": "q_chunk_2_0",
+      "response_text": "Which chapter comes immediately after \"The Dying Whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 15.317589657002827,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954843.337959,
+      "question_id": "q_chunk_0_0",
+      "response_text": "Which chapter in the contents list is titled \"Cetology\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.994586396001978,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 20,
+        "total_tokens": 542,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954845.574695,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the etymological origin of the word \u201cwhale\u201d as described in the passage?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 9.805662789993221,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 15,
+        "total_tokens": 514,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954847.6063828,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What linguistic origins are cited in the text for the word \u201cwhale\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.224785170998075,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 18,
+        "total_tokens": 534,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954849.563501,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the significance of Leviathan as portrayed across the various biblical excerpts in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 9.248784699986572,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 24,
+        "total_tokens": 540,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954854.8244212,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What common motif ties together Isaiah's mention of Leviathan and the various medieval accounts of sea monsters in the provided excerpts?"
+    }
+  ]
+}

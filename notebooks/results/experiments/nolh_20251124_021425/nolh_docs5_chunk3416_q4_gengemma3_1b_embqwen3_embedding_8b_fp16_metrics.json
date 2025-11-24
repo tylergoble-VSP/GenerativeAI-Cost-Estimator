@@ -1,0 +1,347 @@
+{
+  "export_timestamp": "2025-11-24T02:51:32.553027",
+  "export_timestamp_readable": "2025-11-24 02:51:32",
+  "num_metrics": 25,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.884637534007197,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952684.292678,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 6.0625099720055005,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952685.4713898,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 7.305464400007622,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952686.715407,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.525012854996021,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952687.8180432,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.3288633869960904,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952688.8006198,
+      "chunk_id": "chunk_4",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5336400314990897,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952690.937633,
+      "question_id": "q_chunk_1_0",
+      "response_text": "1.  What is Ahab\u2019s apparent connection to Stubb?\n2.  What is the title of the chapter where the whale is killed?\n3.  What is the primary subject of the first chapter?\n4.  What is the significance of the \u201cSphynx\u201d in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5336400314990897,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952690.937637,
+      "question_id": "q_chunk_1_1",
+      "response_text": "1.  What is Ahab\u2019s apparent connection to Stubb?\n2.  What is the title of the chapter where the whale is killed?\n3.  What is the primary subject of the first chapter?\n4.  What is the significance of the \u201cSphynx\u201d in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5336400314990897,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952690.937639,
+      "question_id": "q_chunk_1_2",
+      "response_text": "1.  What is Ahab\u2019s apparent connection to Stubb?\n2.  What is the title of the chapter where the whale is killed?\n3.  What is the primary subject of the first chapter?\n4.  What is the significance of the \u201cSphynx\u201d in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5336400314990897,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952690.9376407,
+      "question_id": "q_chunk_1_3",
+      "response_text": "1.  What is Ahab\u2019s apparent connection to Stubb?\n2.  What is the title of the chapter where the whale is killed?\n3.  What is the primary subject of the first chapter?\n4.  What is the significance of the \u201cSphynx\u201d in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6365716342515952,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 14,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952691.3501642,
+      "question_id": "q_chunk_2_0",
+      "response_text": "1.  What is the primary focus of the text\u2019s first 75 chapters?\n2.  What is the significance of \u201cThe Great Heidelburgh Tun\u201d?\n3.  What is the overarching theme of the text?\n4.  What event occurs in the final chapter?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6365716342515952,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 14,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952691.3501668,
+      "question_id": "q_chunk_2_1",
+      "response_text": "1.  What is the primary focus of the text\u2019s first 75 chapters?\n2.  What is the significance of \u201cThe Great Heidelburgh Tun\u201d?\n3.  What is the overarching theme of the text?\n4.  What event occurs in the final chapter?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6365716342515952,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 14,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952691.3501678,
+      "question_id": "q_chunk_2_2",
+      "response_text": "1.  What is the primary focus of the text\u2019s first 75 chapters?\n2.  What is the significance of \u201cThe Great Heidelburgh Tun\u201d?\n3.  What is the overarching theme of the text?\n4.  What event occurs in the final chapter?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6365716342515952,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 14,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952691.3501685,
+      "question_id": "q_chunk_2_3",
+      "response_text": "1.  What is the primary focus of the text\u2019s first 75 chapters?\n2.  What is the significance of \u201cThe Great Heidelburgh Tun\u201d?\n3.  What is the overarching theme of the text?\n4.  What event occurs in the final chapter?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7197293280005397,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952691.6811733,
+      "question_id": "q_chunk_0_0",
+      "response_text": "1.  What is the cost of the eBook?\n2.  What is the geographical restriction mentioned?\n3.  What is the release date of the eBook?\n4.  What is the language of the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7197293280005397,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952691.6811757,
+      "question_id": "q_chunk_0_1",
+      "response_text": "1.  What is the cost of the eBook?\n2.  What is the geographical restriction mentioned?\n3.  What is the release date of the eBook?\n4.  What is the language of the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7197293280005397,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952691.681177,
+      "question_id": "q_chunk_0_2",
+      "response_text": "1.  What is the cost of the eBook?\n2.  What is the geographical restriction mentioned?\n3.  What is the release date of the eBook?\n4.  What is the language of the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7197293280005397,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952691.6811783,
+      "question_id": "q_chunk_0_3",
+      "response_text": "1.  What is the cost of the eBook?\n2.  What is the geographical restriction mentioned?\n3.  What is the release date of the eBook?\n4.  What is the language of the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2846741307475895,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 15,
+        "total_tokens": 537,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952692.077303,
+      "question_id": "q_chunk_3_0",
+      "response_text": "1. What is the primary focus of the text?\n2. What is the Transcriber\u2019s description of the Usher?\n3. What does the Usher remark about dusting old grammars?\n4. What is the significance of the letter \u2018H\u2019 in the word \u2018whale\u2019?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2846741307475895,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 15,
+        "total_tokens": 537,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952692.0773082,
+      "question_id": "q_chunk_3_1",
+      "response_text": "1. What is the primary focus of the text?\n2. What is the Transcriber\u2019s description of the Usher?\n3. What does the Usher remark about dusting old grammars?\n4. What is the significance of the letter \u2018H\u2019 in the word \u2018whale\u2019?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2846741307475895,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 15,
+        "total_tokens": 537,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952692.0773106,
+      "question_id": "q_chunk_3_2",
+      "response_text": "1. What is the primary focus of the text?\n2. What is the Transcriber\u2019s description of the Usher?\n3. What does the Usher remark about dusting old grammars?\n4. What is the significance of the letter \u2018H\u2019 in the word \u2018whale\u2019?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.2846741307475895,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 15,
+        "total_tokens": 537,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952692.077312,
+      "question_id": "q_chunk_3_3",
+      "response_text": "1. What is the primary focus of the text?\n2. What is the Transcriber\u2019s description of the Usher?\n3. What does the Usher remark about dusting old grammars?\n4. What is the significance of the letter \u2018H\u2019 in the word \u2018whale\u2019?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.29968744674988557,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 18,
+        "total_tokens": 517,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952692.5497322,
+      "question_id": "q_chunk_4_0",
+      "response_text": "1.  What is the definition of \u201cWHALE\u201d as described in the text?\n2.  What does \u201cROLL\u201d mean in the context of the text?\n3.  What is the origin of the word \u201cWHALE\u201d as mentioned in the text?\n4.  What is the primary purpose of the extracts described in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.29968744674988557,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 18,
+        "total_tokens": 517,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952692.5497344,
+      "question_id": "q_chunk_4_1",
+      "response_text": "1.  What is the definition of \u201cWHALE\u201d as described in the text?\n2.  What does \u201cROLL\u201d mean in the context of the text?\n3.  What is the origin of the word \u201cWHALE\u201d as mentioned in the text?\n4.  What is the primary purpose of the extracts described in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.29968744674988557,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 18,
+        "total_tokens": 517,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952692.5497353,
+      "question_id": "q_chunk_4_2",
+      "response_text": "1.  What is the definition of \u201cWHALE\u201d as described in the text?\n2.  What does \u201cROLL\u201d mean in the context of the text?\n3.  What is the origin of the word \u201cWHALE\u201d as mentioned in the text?\n4.  What is the primary purpose of the extracts described in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.29968744674988557,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 18,
+        "total_tokens": 517,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952692.5497363,
+      "question_id": "q_chunk_4_3",
+      "response_text": "1.  What is the definition of \u201cWHALE\u201d as described in the text?\n2.  What does \u201cROLL\u201d mean in the context of the text?\n3.  What is the origin of the word \u201cWHALE\u201d as mentioned in the text?\n4.  What is the primary purpose of the extracts described in the text?"
+    }
+  ]
+}

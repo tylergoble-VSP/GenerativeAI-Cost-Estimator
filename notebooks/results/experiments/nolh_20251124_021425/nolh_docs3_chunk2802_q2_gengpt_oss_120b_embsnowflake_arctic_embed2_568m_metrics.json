@@ -1,0 +1,127 @@
+{
+  "export_timestamp": "2025-11-24T02:58:46.993911",
+  "export_timestamp_readable": "2025-11-24 02:58:46",
+  "num_metrics": 9,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.153429320009309,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953087.9600186,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.2170896969910245,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953088.0223773,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.277695319004124,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953088.0810926,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 14.85426839950378,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953117.7918582,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date and most recent update date listed for the eBook?  \nWhich chapter titles appear more than once in the table of contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 14.85426839950378,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953117.791861,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the release date and most recent update date listed for the eBook?  \nWhich chapter titles appear more than once in the table of contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 17.286372884998855,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 16,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953122.6569312,
+      "question_id": "q_chunk_1_0",
+      "response_text": "Which chapter title directly follows \u201cCHAPTER 30. The Pipe.\u201d?\n\nWhat is the chapter number and title of the section that mentions \u201cThe Sphynx\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 17.286372884998855,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 16,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953122.6569345,
+      "question_id": "q_chunk_1_1",
+      "response_text": "Which chapter title directly follows \u201cCHAPTER 30. The Pipe.\u201d?\n\nWhat is the chapter number and title of the section that mentions \u201cThe Sphynx\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 19.453070898998703,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 13,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953126.9912999,
+      "question_id": "q_chunk_2_0",
+      "response_text": "Which chapter in the list is titled \u201cThe Fossil Whale\u201d?\n\nWhat is the chapter number associated with \u201cThe Quadrant\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 19.453070898998703,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 13,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953126.991305,
+      "question_id": "q_chunk_2_1",
+      "response_text": "Which chapter in the list is titled \u201cThe Fossil Whale\u201d?\n\nWhat is the chapter number associated with \u201cThe Quadrant\u201d?"
+    }
+  ]
+}

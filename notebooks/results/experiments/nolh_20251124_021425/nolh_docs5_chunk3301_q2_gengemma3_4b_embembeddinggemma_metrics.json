@@ -1,0 +1,207 @@
+{
+  "export_timestamp": "2025-11-24T03:29:08.833949",
+  "export_timestamp_readable": "2025-11-24 03:29:08",
+  "num_metrics": 15,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.5406325229996582,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954942.9375956,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.9489266369928373,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954943.344597,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.316875364005682,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954943.7131848,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0187742989946855,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954943.9567125,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.9756413659924874,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954944.3207538,
+      "chunk_id": "chunk_4",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2058679674955783,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954946.7349384,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What are the chapter titles that directly relate to whale depictions?\nWhat specific events involve the killing of whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.2058679674955783,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954946.7349422,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What are the chapter titles that directly relate to whale depictions?\nWhat specific events involve the killing of whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4289152850033133,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954947.180505,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date of this eBook?\nWhat is the author's name of this book?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4289152850033133,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954947.1805117,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the release date of this eBook?\nWhat is the author's name of this book?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7262206130035338,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 15,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954947.776668,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What are some of the different topics covered within the chapters listed?\nWhat is the significance of \"The Pequod\" appearing repeatedly in the chapter titles?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7262206130035338,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 15,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954947.7766736,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What are some of the different topics covered within the chapters listed?\nWhat is the significance of \"The Pequod\" appearing repeatedly in the chapter titles?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7961816844981513,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 16,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954948.3283868,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the etymological origin of the word \"whale\"?\nWhat is the purpose of the \"pale Usher\" described in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7961816844981513,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 16,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954948.3283904,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the etymological origin of the word \"whale\"?\nWhat is the purpose of the \"pale Usher\" described in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8237156054965453,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 13,
+        "total_tokens": 512,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954948.8290915,
+      "question_id": "q_chunk_4_0",
+      "response_text": "From what languages does the word \u201cwhale\u201d derive its meaning?\nWhat is the primary purpose of the extracts presented in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8237156054965453,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 13,
+        "total_tokens": 512,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954948.8290954,
+      "question_id": "q_chunk_4_1",
+      "response_text": "From what languages does the word \u201cwhale\u201d derive its meaning?\nWhat is the primary purpose of the extracts presented in the text?"
+    }
+  ]
+}

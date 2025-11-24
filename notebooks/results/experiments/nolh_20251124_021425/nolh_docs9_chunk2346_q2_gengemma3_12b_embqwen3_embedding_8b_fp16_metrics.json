@@ -1,0 +1,367 @@
+{
+  "export_timestamp": "2025-11-24T03:49:14.391972",
+  "export_timestamp_readable": "2025-11-24 03:49:14",
+  "num_metrics": 27,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.2313294339983258,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956131.378545,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.4794039469998097,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956132.6276813,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.656095459999051,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956133.8026264,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.486325300997123,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956134.865202,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.2150549120124197,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956135.8432527,
+      "chunk_id": "chunk_4",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.0265596480021486,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956136.8295348,
+      "chunk_id": "chunk_5",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.954608546991949,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956137.8201349,
+      "chunk_id": "chunk_6",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.9679933830047958,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956138.8117363,
+      "chunk_id": "chunk_7",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.971181686996715,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956139.8010275,
+      "chunk_id": "chunk_8",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7910446734967991,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956141.3851209,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of \"Moby Dick\" in the chapter list?\nWhat characters are mentioned in the first line?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7910446734967991,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956141.3851283,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of \"Moby Dick\" in the chapter list?\nWhat characters are mentioned in the first line?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.5015443634983967,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956142.8058405,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the purpose of this ebook according to the text?\nWho are the credited contributors to this version of Moby Dick?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.5015443634983967,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956142.8058453,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the purpose of this ebook according to the text?\nWho are the credited contributors to this version of Moby Dick?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.160540030505217,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 9,
+        "total_tokens": 548,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956144.1246548,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the subject of Chapter 116?\nWhat is the topic of Chapter 106?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.160540030505217,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 9,
+        "total_tokens": 548,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956144.1246586,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the subject of Chapter 116?\nWhat is the topic of Chapter 106?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.3142839315041783,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 19,
+        "total_tokens": 541,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956146.014567,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What does the Usher's habit of dusting his lexicons and grammars remind him of?\nAccording to Webster\u2019s Dictionary, from what language does the word \"whale\" originate?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.3142839315041783,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 19,
+        "total_tokens": 541,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956146.0145707,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What does the Usher's habit of dusting his lexicons and grammars remind him of?\nAccording to Webster\u2019s Dictionary, from what language does the word \"whale\" originate?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.4970674559954205,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956147.8008196,
+      "question_id": "q_chunk_4_0",
+      "response_text": "According to the text, what is one proposed origin of the name \"whale\"?\nWhat is the author's opinion of the Sub-Sub-Librarian's extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.4970674559954205,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956147.8008232,
+      "question_id": "q_chunk_4_1",
+      "response_text": "According to the text, what is one proposed origin of the name \"whale\"?\nWhat is the author's opinion of the Sub-Sub-Librarian's extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.733548381998844,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 18,
+        "total_tokens": 534,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956149.5927556,
+      "question_id": "q_chunk_5_0",
+      "response_text": "According to the text, what is the perceived fate of those who strive to please the world?\nWhat literary device is used to describe the biblical figures Gabriel, Michael, and Raphael?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.733548381998844,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 18,
+        "total_tokens": 534,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956149.5927618,
+      "question_id": "q_chunk_5_1",
+      "response_text": "According to the text, what is the perceived fate of those who strive to please the world?\nWhat literary device is used to describe the biblical figures Gabriel, Michael, and Raphael?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.5123737624962814,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 12,
+        "total_tokens": 528,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956151.0401413,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What is Leviathan described as?\nWhat is unique about the sea-gudgeon's experience within the monster's mouth?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.5123737624962814,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 12,
+        "total_tokens": 528,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956151.0401466,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What is Leviathan described as?\nWhat is unique about the sea-gudgeon's experience within the monster's mouth?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.5096285289982916,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 18,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956152.8209302,
+      "question_id": "q_chunk_7_0",
+      "response_text": "What is the significance of the whale's liver mentioned in \"Stowe's Annals\"?\nAccording to Sir Thomas Browne, what did Hosmannus claim about spermacetti?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.5096285289982916,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 18,
+        "total_tokens": 550,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956152.820935,
+      "question_id": "q_chunk_7_1",
+      "response_text": "What is the significance of the whale's liver mentioned in \"Stowe's Annals\"?\nAccording to Sir Thomas Browne, what did Hosmannus claim about spermacetti?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.3921592945043813,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 15,
+        "total_tokens": 542,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956154.377918,
+      "question_id": "q_chunk_8_0",
+      "response_text": "What is the common metaphorical representation of Leviathan across these texts?\nWhat specific detail about whale behavior is described in Sir T. Herbert\u2019s Voyages?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.3921592945043813,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 15,
+        "total_tokens": 542,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956154.377922,
+      "question_id": "q_chunk_8_1",
+      "response_text": "What is the common metaphorical representation of Leviathan across these texts?\nWhat specific detail about whale behavior is described in Sir T. Herbert\u2019s Voyages?"
+    }
+  ]
+}

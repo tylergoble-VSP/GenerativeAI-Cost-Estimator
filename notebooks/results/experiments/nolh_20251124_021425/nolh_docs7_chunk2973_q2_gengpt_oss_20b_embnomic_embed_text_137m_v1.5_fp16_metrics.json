@@ -1,0 +1,287 @@
+{
+  "export_timestamp": "2025-11-24T03:35:55.033362",
+  "export_timestamp_readable": "2025-11-24 03:35:55",
+  "num_metrics": 21,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.020868726001936,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955319.4391294,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0377063100022497,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955319.4550807,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0511776480125263,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955319.4720376,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.04762393300188705,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955319.4870882,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.0460222590045305,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955319.5015857,
+      "chunk_id": "chunk_4",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.0431377279892331,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955319.5156248,
+      "chunk_id": "chunk_5",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.04305889499664772,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955319.5304124,
+      "chunk_id": "chunk_6",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.809181000498938,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955331.1505919,
+      "question_id": "q_chunk_0_0",
+      "response_text": "When was the Project Gutenberg eBook of Moby Dick released?  \nWho are the credited contributors listed for this eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.809181000498938,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955331.1505973,
+      "question_id": "q_chunk_0_1",
+      "response_text": "When was the Project Gutenberg eBook of Moby Dick released?  \nWho are the credited contributors listed for this eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.308198884500598,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955334.1493716,
+      "question_id": "q_chunk_1_0",
+      "response_text": "Which chapter describes Stubb killing a whale?  \nWhich chapter contrasts the sperm whale\u2019s head with the right whale\u2019s head?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.308198884500598,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955334.1493742,
+      "question_id": "q_chunk_1_1",
+      "response_text": "Which chapter describes Stubb killing a whale?  \nWhich chapter contrasts the sperm whale\u2019s head with the right whale\u2019s head?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.541805215500062,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 19,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955336.6174872,
+      "question_id": "q_chunk_2_0",
+      "response_text": "Which chapter titles suggest themes of conflict and confrontation in whaling?  \nHow many chapter titles refer explicitly to the Pequod, and what does that imply about the focus of the narrative?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.541805215500062,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 19,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955336.617492,
+      "question_id": "q_chunk_2_1",
+      "response_text": "Which chapter titles suggest themes of conflict and confrontation in whaling?  \nHow many chapter titles refer explicitly to the Pequod, and what does that imply about the focus of the narrative?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.128721023502294,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 15,
+        "total_tokens": 537,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955339.4088998,
+      "question_id": "q_chunk_3_0",
+      "response_text": "Which chapters detail the Pequod\u2019s encounters with other vessels?  \nWhat does the etymology section explain about the origin of the word \u201cwhale\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.128721023502294,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 15,
+        "total_tokens": 537,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955339.4089026,
+      "question_id": "q_chunk_3_1",
+      "response_text": "Which chapters detail the Pequod\u2019s encounters with other vessels?  \nWhat does the etymology section explain about the origin of the word \u201cwhale\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.008830087499518,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 23,
+        "total_tokens": 522,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955348.1680994,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What linguistic roots does the text attribute to the English word \u201cwhale,\u201d and which other languages are mentioned as having related terms?  \nAccording to the author, how should readers treat the whale\u2011related statements found in the supplied extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.008830087499518,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 23,
+        "total_tokens": 522,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955348.168107,
+      "question_id": "q_chunk_4_1",
+      "response_text": "What linguistic roots does the text attribute to the English word \u201cwhale,\u201d and which other languages are mentioned as having related terms?  \nAccording to the author, how should readers treat the whale\u2011related statements found in the supplied extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.605193061499449,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 20,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955349.8287892,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What themes are suggested by the repeated references to Leviathan in the ancient texts cited?  \nHow does the speaker\u2019s tone toward the \u201cSub-Sub\u201d reflect broader attitudes toward those who seek approval?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.605193061499449,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 20,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955349.8287961,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What themes are suggested by the repeated references to Leviathan in the ancient texts cited?  \nHow does the speaker\u2019s tone toward the \u201cSub-Sub\u201d reflect broader attitudes toward those who seek approval?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.809093734504131,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 24,
+        "total_tokens": 540,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955355.027901,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What symbolic significance does the Leviathan represent in Isaiah compared to the descriptions of whales in Holland's works?  \nHow do the varying accounts of sea monsters across the cited texts reflect the cultural perceptions of the sea in the periods they were written?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.809093734504131,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 24,
+        "total_tokens": 540,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955355.0279033,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What symbolic significance does the Leviathan represent in Isaiah compared to the descriptions of whales in Holland's works?  \nHow do the varying accounts of sea monsters across the cited texts reflect the cultural perceptions of the sea in the periods they were written?"
+    }
+  ]
+}

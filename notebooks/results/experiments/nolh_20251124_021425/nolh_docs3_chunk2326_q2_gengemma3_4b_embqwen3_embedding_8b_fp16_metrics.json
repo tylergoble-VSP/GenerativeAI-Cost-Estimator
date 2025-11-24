@@ -1,0 +1,127 @@
+{
+  "export_timestamp": "2025-11-24T03:57:16.759919",
+  "export_timestamp_readable": "2025-11-24 03:57:16",
+  "num_metrics": 9,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 5.133594286002335,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956629.3940194,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 6.382979898000485,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956630.644199,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 7.562732360995142,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956631.82284,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.8589065765045234,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 30,
+        "total_tokens": 569,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956635.542568,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the significance of the chapter titles relating to whales, such as \"The Right Whale\u2019s Head\" and \"The Battering-Ram\"?\nHow does the text shift between discussions about whaling techniques and seemingly unrelated topics like \"The Great Heidelburgh Tun\" and \"The Doubloon\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.8589065765045234,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 30,
+        "total_tokens": 569,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956635.5425723,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the significance of the chapter titles relating to whales, such as \"The Right Whale\u2019s Head\" and \"The Battering-Ram\"?\nHow does the text shift between discussions about whaling techniques and seemingly unrelated topics like \"The Great Heidelburgh Tun\" and \"The Doubloon\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.1719240245001856,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 16,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956636.1686265,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of the repeated mentions of \u201cAhab\u201d and \u201cStubb\u201d?\nWhat types of materials are described as being used to represent whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.1719240245001856,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 16,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956636.1686325,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of the repeated mentions of \u201cAhab\u201d and \u201cStubb\u201d?\nWhat types of materials are described as being used to represent whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.4653221650005435,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956636.7551901,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date of this Project Gutenberg eBook?\nWhat is the primary subject of the novel, Moby Dick; Or, The Whale?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.4653221650005435,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956636.7551944,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the release date of this Project Gutenberg eBook?\nWhat is the primary subject of the novel, Moby Dick; Or, The Whale?"
+    }
+  ]
+}

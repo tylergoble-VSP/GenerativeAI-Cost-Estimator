@@ -1,0 +1,143 @@
+{
+  "export_timestamp": "2025-11-24T02:33:07.074204",
+  "export_timestamp_readable": "2025-11-24 02:33:07",
+  "num_metrics": 10,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.055074614996556,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951583.1686668,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.11542354800622,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951583.2287533,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7715451350013609,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951586.3172631,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What are the chapter titles listed in the text?\nWhat is the significance of the title \"Moby Dick\"?\nWhich chapters detail accounts of whale depictions?\nWhat does the text suggest about whaling practices?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7715451350013609,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951586.3172662,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What are the chapter titles listed in the text?\nWhat is the significance of the title \"Moby Dick\"?\nWhich chapters detail accounts of whale depictions?\nWhat does the text suggest about whaling practices?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7715451350013609,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951586.3172672,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What are the chapter titles listed in the text?\nWhat is the significance of the title \"Moby Dick\"?\nWhich chapters detail accounts of whale depictions?\nWhat does the text suggest about whaling practices?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7715451350013609,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951586.3172677,
+      "question_id": "q_chunk_1_3",
+      "response_text": "What are the chapter titles listed in the text?\nWhat is the significance of the title \"Moby Dick\"?\nWhich chapters detail accounts of whale depictions?\nWhat does the text suggest about whaling practices?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.9601894944971718,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951587.071267,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date of this ebook?\nWhat are the credited authors of this Project Gutenberg eBook?\nUnder what terms can this ebook be copied and distributed?\nWhat is the title of the book?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.9601894944971718,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951587.071271,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the release date of this ebook?\nWhat are the credited authors of this Project Gutenberg eBook?\nUnder what terms can this ebook be copied and distributed?\nWhat is the title of the book?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.9601894944971718,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951587.071272,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the release date of this ebook?\nWhat are the credited authors of this Project Gutenberg eBook?\nUnder what terms can this ebook be copied and distributed?\nWhat is the title of the book?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.9601894944971718,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951587.0712724,
+      "question_id": "q_chunk_0_3",
+      "response_text": "What is the release date of this ebook?\nWhat are the credited authors of this Project Gutenberg eBook?\nUnder what terms can this ebook be copied and distributed?\nWhat is the title of the book?"
+    }
+  ]
+}

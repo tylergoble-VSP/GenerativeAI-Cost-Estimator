@@ -1,0 +1,483 @@
+{
+  "export_timestamp": "2025-11-24T03:35:18.262108",
+  "export_timestamp_readable": "2025-11-24 03:35:18",
+  "num_metrics": 35,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.8537804380030138,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955279.314795,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.9165363850042922,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955279.3742766,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.975324241007911,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955279.4348989,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.17885516899696086,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955279.4940038,
+      "chunk_id": "chunk_3",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.15947311799391173,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955279.5341206,
+      "chunk_id": "chunk_4",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1897467959934147,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955279.6251185,
+      "chunk_id": "chunk_5",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.18814345699502155,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955279.6824963,
+      "chunk_id": "chunk_6",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4111699204986508,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955285.3291292,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What character is introduced at the very beginning of the provided text?\nWhich chapter focuses on the depiction of whales in various art forms?\nWhat is the subject of Chapter 65?\nIn which chapter does the story of the Jeroboam appear?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4111699204986508,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955285.329134,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What character is introduced at the very beginning of the provided text?\nWhich chapter focuses on the depiction of whales in various art forms?\nWhat is the subject of Chapter 65?\nIn which chapter does the story of the Jeroboam appear?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4111699204986508,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955285.3291352,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What character is introduced at the very beginning of the provided text?\nWhich chapter focuses on the depiction of whales in various art forms?\nWhat is the subject of Chapter 65?\nIn which chapter does the story of the Jeroboam appear?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4111699204986508,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955285.329136,
+      "question_id": "q_chunk_1_3",
+      "response_text": "What character is introduced at the very beginning of the provided text?\nWhich chapter focuses on the depiction of whales in various art forms?\nWhat is the subject of Chapter 65?\nIn which chapter does the story of the Jeroboam appear?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.4919302069974947,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955289.651651,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nWhen was the eBook released?\nWhat is mentioned regarding legal considerations for users outside the United States?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.4919302069974947,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955289.6516554,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nWhen was the eBook released?\nWhat is mentioned regarding legal considerations for users outside the United States?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.4919302069974947,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955289.6516562,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nWhen was the eBook released?\nWhat is mentioned regarding legal considerations for users outside the United States?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.4919302069974947,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955289.651657,
+      "question_id": "q_chunk_0_3",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nWhen was the eBook released?\nWhat is mentioned regarding legal considerations for users outside the United States?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.6479370567503793,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 8,
+        "total_tokens": 547,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955294.277074,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What objects are repeatedly encountered as chapter titles?\nWhich chapter focuses on a historical figure?\nWhat does chapter 105 question regarding whales?\nWhat is the significance of chapter 110?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.6479370567503793,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 8,
+        "total_tokens": 547,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955294.277078,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What objects are repeatedly encountered as chapter titles?\nWhich chapter focuses on a historical figure?\nWhat does chapter 105 question regarding whales?\nWhat is the significance of chapter 110?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.6479370567503793,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 8,
+        "total_tokens": 547,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955294.2770789,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What objects are repeatedly encountered as chapter titles?\nWhich chapter focuses on a historical figure?\nWhat does chapter 105 question regarding whales?\nWhat is the significance of chapter 110?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.6479370567503793,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 8,
+        "total_tokens": 547,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955294.2770796,
+      "question_id": "q_chunk_2_3",
+      "response_text": "What objects are repeatedly encountered as chapter titles?\nWhich chapter focuses on a historical figure?\nWhat does chapter 105 question regarding whales?\nWhat is the significance of chapter 110?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.5341178787493845,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 12,
+        "total_tokens": 534,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955299.4664383,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What time does the first chapter take place?\nWhat is the source of this text according to the notes?\nWho is the \"pale Usher\" described in the etymology?\nWhat languages are cited as origins of the word \"whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.5341178787493845,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 12,
+        "total_tokens": 534,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955299.4664433,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What time does the first chapter take place?\nWhat is the source of this text according to the notes?\nWho is the \"pale Usher\" described in the etymology?\nWhat languages are cited as origins of the word \"whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.5341178787493845,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 12,
+        "total_tokens": 534,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955299.466444,
+      "question_id": "q_chunk_3_2",
+      "response_text": "What time does the first chapter take place?\nWhat is the source of this text according to the notes?\nWho is the \"pale Usher\" described in the etymology?\nWhat languages are cited as origins of the word \"whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.5341178787493845,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 12,
+        "total_tokens": 534,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955299.466445,
+      "question_id": "q_chunk_3_3",
+      "response_text": "What time does the first chapter take place?\nWhat is the source of this text according to the notes?\nWho is the \"pale Usher\" described in the etymology?\nWhat languages are cited as origins of the word \"whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.210168107249046,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955306.4932222,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What does Webster\u2019s Dictionary suggest is the origin of the name \u201cwhale\u201d?\nAccording to Richardson\u2019s Dictionary, from what languages does \u201cwhale\u201d originate?\nWhat is the role of the Sub-Sub-Librarian in relation to the provided extracts?\nWhat does the author suggest regarding the authenticity of the whale statements in the extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.210168107249046,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955306.4932265,
+      "question_id": "q_chunk_4_1",
+      "response_text": "What does Webster\u2019s Dictionary suggest is the origin of the name \u201cwhale\u201d?\nAccording to Richardson\u2019s Dictionary, from what languages does \u201cwhale\u201d originate?\nWhat is the role of the Sub-Sub-Librarian in relation to the provided extracts?\nWhat does the author suggest regarding the authenticity of the whale statements in the extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.210168107249046,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955306.4932275,
+      "question_id": "q_chunk_4_2",
+      "response_text": "What does Webster\u2019s Dictionary suggest is the origin of the name \u201cwhale\u201d?\nAccording to Richardson\u2019s Dictionary, from what languages does \u201cwhale\u201d originate?\nWhat is the role of the Sub-Sub-Librarian in relation to the provided extracts?\nWhat does the author suggest regarding the authenticity of the whale statements in the extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.210168107249046,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955306.4932282,
+      "question_id": "q_chunk_4_3",
+      "response_text": "What does Webster\u2019s Dictionary suggest is the origin of the name \u201cwhale\u201d?\nAccording to Richardson\u2019s Dictionary, from what languages does \u201cwhale\u201d originate?\nWhat is the role of the Sub-Sub-Librarian in relation to the provided extracts?\nWhat does the author suggest regarding the authenticity of the whale statements in the extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.634660457748396,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 15,
+        "total_tokens": 531,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955312.8165412,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the author\u2019s attitude toward the \u201cSub-Subs\u201d?\nAccording to the text, what does Leviathan cause to shine?\nFrom which book of the Bible is the quote about God creating great whales taken?\nWhat is the author suggesting the \u201cSub-Subs\u201d should do with their tears?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.634660457748396,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 15,
+        "total_tokens": 531,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955312.816546,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the author\u2019s attitude toward the \u201cSub-Subs\u201d?\nAccording to the text, what does Leviathan cause to shine?\nFrom which book of the Bible is the quote about God creating great whales taken?\nWhat is the author suggesting the \u201cSub-Subs\u201d should do with their tears?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.634660457748396,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 15,
+        "total_tokens": 531,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955312.816547,
+      "question_id": "q_chunk_5_2",
+      "response_text": "What is the author\u2019s attitude toward the \u201cSub-Subs\u201d?\nAccording to the text, what does Leviathan cause to shine?\nFrom which book of the Bible is the quote about God creating great whales taken?\nWhat is the author suggesting the \u201cSub-Subs\u201d should do with their tears?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.634660457748396,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 15,
+        "total_tokens": 531,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955312.8165479,
+      "question_id": "q_chunk_5_3",
+      "response_text": "What is the author\u2019s attitude toward the \u201cSub-Subs\u201d?\nAccording to the text, what does Leviathan cause to shine?\nFrom which book of the Bible is the quote about God creating great whales taken?\nWhat is the author suggesting the \u201cSub-Subs\u201d should do with their tears?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.697182192998298,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 12,
+        "total_tokens": 528,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955318.255984,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What creature is repeatedly described as monstrous in size?\nAccording to the texts, what happens to things swallowed by the monster?\nWhat valuable resource was obtained from horse-whales?\nIn what year did King Alfred record a verbal narrative about whale hunting?\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.697182192998298,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 12,
+        "total_tokens": 528,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955318.255988,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What creature is repeatedly described as monstrous in size?\nAccording to the texts, what happens to things swallowed by the monster?\nWhat valuable resource was obtained from horse-whales?\nIn what year did King Alfred record a verbal narrative about whale hunting?\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.697182192998298,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 12,
+        "total_tokens": 528,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955318.2559888,
+      "question_id": "q_chunk_6_2",
+      "response_text": "What creature is repeatedly described as monstrous in size?\nAccording to the texts, what happens to things swallowed by the monster?\nWhat valuable resource was obtained from horse-whales?\nIn what year did King Alfred record a verbal narrative about whale hunting?\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.697182192998298,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 12,
+        "total_tokens": 528,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955318.2559896,
+      "question_id": "q_chunk_6_3",
+      "response_text": "What creature is repeatedly described as monstrous in size?\nAccording to the texts, what happens to things swallowed by the monster?\nWhat valuable resource was obtained from horse-whales?\nIn what year did King Alfred record a verbal narrative about whale hunting?\n"
+    }
+  ]
+}

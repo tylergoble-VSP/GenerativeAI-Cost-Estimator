@@ -1,0 +1,287 @@
+{
+  "export_timestamp": "2025-11-24T03:59:13.977674",
+  "export_timestamp_readable": "2025-11-24 03:59:13",
+  "num_metrics": 21,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.494924088008702,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956713.7499437,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.554772852003225,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956713.8105402,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.6144279509899206,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956713.8708653,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1775999500096077,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956713.9278884,
+      "chunk_id": "chunk_3",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.15930525099975057,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956713.9703276,
+      "chunk_id": "chunk_4",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.21151669100800063,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956714.082714,
+      "chunk_id": "chunk_5",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.23859036399517208,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956714.1667972,
+      "chunk_id": "chunk_6",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.895107814496441,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 16,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956723.9597352,
+      "question_id": "q_chunk_1_0",
+      "response_text": "Which chapter title in the list refers to the 'Whiteness of the Whale'?  \nWhich chapter title in the list mentions the 'Great Heidelburgh Tun'?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.895107814496441,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 16,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956723.9597416,
+      "question_id": "q_chunk_1_1",
+      "response_text": "Which chapter title in the list refers to the 'Whiteness of the Whale'?  \nWhich chapter title in the list mentions the 'Great Heidelburgh Tun'?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.599492019493482,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 24,
+        "total_tokens": 563,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956729.3692954,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What thematic connections can be drawn between the chapters \u201cThe Right Whale\u2019s Head\u2014Contrasted View\u201d and \u201cThe Great Heidelburgh Tun\u201d?\n\nHow does the chapter titled \u201cThe Blacksmith\u201d contribute to the portrayal of whaling life?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.599492019493482,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 24,
+        "total_tokens": 563,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956729.3693004,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What thematic connections can be drawn between the chapters \u201cThe Right Whale\u2019s Head\u2014Contrasted View\u201d and \u201cThe Great Heidelburgh Tun\u201d?\n\nHow does the chapter titled \u201cThe Blacksmith\u201d contribute to the portrayal of whaling life?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.168270121503156,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 25,
+        "total_tokens": 568,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956734.5052068,
+      "question_id": "q_chunk_0_0",
+      "response_text": "How does the Project Gutenberg License affect the distribution rights for the Moby Dick eBook in countries outside the United States?  \nWhich chapter in the table of contents is titled \"Cetology,\" and what might its content suggest about the novel\u2019s themes?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.168270121503156,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 25,
+        "total_tokens": 568,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956734.5052147,
+      "question_id": "q_chunk_0_1",
+      "response_text": "How does the Project Gutenberg License affect the distribution rights for the Moby Dick eBook in countries outside the United States?  \nWhich chapter in the table of contents is titled \"Cetology,\" and what might its content suggest about the novel\u2019s themes?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.718455299000198,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 19,
+        "total_tokens": 541,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956741.4074154,
+      "question_id": "q_chunk_3_0",
+      "response_text": "Which chapter title in the text describes the Pequod's encounter with the Rachel?  \nWhat linguistic roots are mentioned as possible origins for the word \u201cwhale\u201d in the etymology section?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.718455299000198,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 19,
+        "total_tokens": 541,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956741.4074223,
+      "question_id": "q_chunk_3_1",
+      "response_text": "Which chapter title in the text describes the Pequod's encounter with the Rachel?  \nWhat linguistic roots are mentioned as possible origins for the word \u201cwhale\u201d in the etymology section?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.764347492498928,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 21,
+        "total_tokens": 520,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956744.899169,
+      "question_id": "q_chunk_4_0",
+      "response_text": "Which languages listed in the text contribute to the etymological roots of the word \u201cwhale\u201d?  \nWhat is the apparent role of the \u201cSub\u2011Sub\u2011Librarian\u201d in the context of the passage?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.764347492498928,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 21,
+        "total_tokens": 520,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956744.8991742,
+      "question_id": "q_chunk_4_1",
+      "response_text": "Which languages listed in the text contribute to the etymological roots of the word \u201cwhale\u201d?  \nWhat is the apparent role of the \u201cSub\u2011Sub\u2011Librarian\u201d in the context of the passage?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.448440527994535,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 32,
+        "total_tokens": 548,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956751.4032512,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the significance of the biblical quotations included in the text, and how do they contribute to the overall theme of Leviathan as a symbol?  \nIn what way does the narrator's address to the \"Sub-Sub\" reflect a broader critique of those who seek to please the world at the expense of their own identity?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.448440527994535,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 32,
+        "total_tokens": 548,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956751.4032552,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the significance of the biblical quotations included in the text, and how do they contribute to the overall theme of Leviathan as a symbol?  \nIn what way does the narrator's address to the \"Sub-Sub\" reflect a broader critique of those who seek to please the world at the expense of their own identity?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.27707252449909,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 22,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956753.962383,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What creature is repeatedly described as having a great, strong sword and as a \u201cpiercing serpent\u201d in these passages?  \nHow do the authors portray the size and destructive power of whales or sea monsters throughout the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.27707252449909,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 22,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956753.962389,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What creature is repeatedly described as having a great, strong sword and as a \u201cpiercing serpent\u201d in these passages?  \nHow do the authors portray the size and destructive power of whales or sea monsters throughout the text?"
+    }
+  ]
+}

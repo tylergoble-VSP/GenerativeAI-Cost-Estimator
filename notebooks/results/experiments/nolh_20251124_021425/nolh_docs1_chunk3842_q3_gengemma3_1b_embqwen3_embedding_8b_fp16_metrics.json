@@ -1,0 +1,61 @@
+{
+  "export_timestamp": "2025-11-24T03:37:38.116211",
+  "export_timestamp_readable": "2025-11-24 03:37:38",
+  "num_metrics": 4,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.4788881879940163,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955456.430953,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5604695439978968,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955458.1136482,
+      "question_id": "q_chunk_0_0",
+      "response_text": "1. What is the cost of the ebook?\n2. Where can you obtain the ebook?\n3. What is the release date of the ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5604695439978968,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955458.1136515,
+      "question_id": "q_chunk_0_1",
+      "response_text": "1. What is the cost of the ebook?\n2. Where can you obtain the ebook?\n3. What is the release date of the ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5604695439978968,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955458.1136522,
+      "question_id": "q_chunk_0_2",
+      "response_text": "1. What is the cost of the ebook?\n2. Where can you obtain the ebook?\n3. What is the release date of the ebook?"
+    }
+  ]
+}

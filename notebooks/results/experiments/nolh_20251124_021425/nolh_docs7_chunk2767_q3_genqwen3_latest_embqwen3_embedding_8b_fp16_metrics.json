@@ -1,0 +1,385 @@
+{
+  "export_timestamp": "2025-11-24T03:37:32.832374",
+  "export_timestamp_readable": "2025-11-24 03:37:32",
+  "num_metrics": 28,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.276742493006168,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955359.441474,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 5.488307363993954,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955360.6546204,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 6.730211549001979,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955361.8979805,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.540312418001122,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955362.9822803,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.305122231002315,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955363.960284,
+      "chunk_id": "chunk_4",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.047742189010023,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955364.946222,
+      "chunk_id": "chunk_5",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.9473453809914645,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955365.9301374,
+      "chunk_id": "chunk_6",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.760925606334543,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955383.2145257,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the Project Gutenberg License mentioned in the text?  \nWhen was the eBook of \"Moby Dick\" first released?  \nWhat chapters are listed in the table of contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.760925606334543,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955383.2145283,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the Project Gutenberg License mentioned in the text?  \nWhen was the eBook of \"Moby Dick\" first released?  \nWhat chapters are listed in the table of contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.760925606334543,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955383.2145293,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the Project Gutenberg License mentioned in the text?  \nWhen was the eBook of \"Moby Dick\" first released?  \nWhat chapters are listed in the table of contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.512603158999505,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 19,
+        "total_tokens": 562,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955397.470605,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of the chapter titled \"The Whiteness of the Whale\"?  \nHow does the narrative structure in chapters 30-79 reflect the themes of obsession and the sea?  \nWhat role does the character Fedallah play in the chapters involving Ahab's boat and crew?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.512603158999505,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 19,
+        "total_tokens": 562,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955397.4706104,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of the chapter titled \"The Whiteness of the Whale\"?  \nHow does the narrative structure in chapters 30-79 reflect the themes of obsession and the sea?  \nWhat role does the character Fedallah play in the chapters involving Ahab's boat and crew?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 10.512603158999505,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 19,
+        "total_tokens": 562,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955397.4706123,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What is the significance of the chapter titled \"The Whiteness of the Whale\"?  \nHow does the narrative structure in chapters 30-79 reflect the themes of obsession and the sea?  \nWhat role does the character Fedallah play in the chapters involving Ahab's boat and crew?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 15.576806762997876,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 25,
+        "total_tokens": 564,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955412.6639082,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the significance of the chapter titled \"Ahab's Leg\" in the context of the novel?  \nHow does the chapter \"Ambergris\" contribute to the themes of value and symbolism in the novel?  \nWhat role does the Carpenter play in the development of Ahab's character, as depicted in the chapters \"The Carpenter\" and \"Ahab and the Carpenter\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 15.576806762997876,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 25,
+        "total_tokens": 564,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955412.6639137,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the significance of the chapter titled \"Ahab's Leg\" in the context of the novel?  \nHow does the chapter \"Ambergris\" contribute to the themes of value and symbolism in the novel?  \nWhat role does the Carpenter play in the development of Ahab's character, as depicted in the chapters \"The Carpenter\" and \"Ahab and the Carpenter\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 15.576806762997876,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 25,
+        "total_tokens": 564,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955412.6639159,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What is the significance of the chapter titled \"Ahab's Leg\" in the context of the novel?  \nHow does the chapter \"Ambergris\" contribute to the themes of value and symbolism in the novel?  \nWhat role does the Carpenter play in the development of Ahab's character, as depicted in the chapters \"The Carpenter\" and \"Ahab and the Carpenter\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 14.08146435833381,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 18,
+        "total_tokens": 540,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955425.4598083,
+      "question_id": "q_chunk_3_0",
+      "response_text": "Which chapter marks the first encounter between the Pequod and the Rachel?  \nWhat does the etymology of the word \"whale\" suggest about its origin in Danish and Swedish languages?  \nWhat does the original transcriber\u2019s note indicate about the text\u2019s compilation sources?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 14.08146435833381,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 18,
+        "total_tokens": 540,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955425.4598117,
+      "question_id": "q_chunk_3_1",
+      "response_text": "Which chapter marks the first encounter between the Pequod and the Rachel?  \nWhat does the etymology of the word \"whale\" suggest about its origin in Danish and Swedish languages?  \nWhat does the original transcriber\u2019s note indicate about the text\u2019s compilation sources?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 14.08146435833381,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 18,
+        "total_tokens": 540,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955425.4598126,
+      "question_id": "q_chunk_3_2",
+      "response_text": "Which chapter marks the first encounter between the Pequod and the Rachel?  \nWhat does the etymology of the word \"whale\" suggest about its origin in Danish and Swedish languages?  \nWhat does the original transcriber\u2019s note indicate about the text\u2019s compilation sources?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.014873376998972,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955433.5163786,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What languages are cited in the text for the etymology of the word \"whale\"?  \nWhat role does the Sub-Sub-Librarian play in the context of the text?  \nWhy are the extracts described as not being veritable gospel cetology?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.014873376998972,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955433.5163836,
+      "question_id": "q_chunk_4_1",
+      "response_text": "What languages are cited in the text for the etymology of the word \"whale\"?  \nWhat role does the Sub-Sub-Librarian play in the context of the text?  \nWhy are the extracts described as not being veritable gospel cetology?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.014873376998972,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955433.5163856,
+      "question_id": "q_chunk_4_2",
+      "response_text": "What languages are cited in the text for the etymology of the word \"whale\"?  \nWhat role does the Sub-Sub-Librarian play in the context of the text?  \nWhy are the extracts described as not being veritable gospel cetology?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 9.316353922666167,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 16,
+        "total_tokens": 532,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955440.6138732,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the primary purpose or value of the extracts mentioned in the text?  \nWhat is the tone or message conveyed towards the \"Sub-Sub\" in the passage?  \nWhat biblical references are provided regarding Leviathan and what do they signify?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 9.316353922666167,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 16,
+        "total_tokens": 532,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955440.61388,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the primary purpose or value of the extracts mentioned in the text?  \nWhat is the tone or message conveyed towards the \"Sub-Sub\" in the passage?  \nWhat biblical references are provided regarding Leviathan and what do they signify?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 9.316353922666167,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 16,
+        "total_tokens": 532,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955440.6138806,
+      "question_id": "q_chunk_5_2",
+      "response_text": "What is the primary purpose or value of the extracts mentioned in the text?  \nWhat is the tone or message conveyed towards the \"Sub-Sub\" in the passage?  \nWhat biblical references are provided regarding Leviathan and what do they signify?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 9.122515227665039,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 15,
+        "total_tokens": 531,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955452.8283432,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What is the symbolic significance of Leviathan in the biblical context?  \nHow do the descriptions of whale sizes vary across the different historical texts?  \nWhat role does the sea-gudgeon play in the narrative involving the whale?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 9.122515227665039,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 15,
+        "total_tokens": 531,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955452.8283494,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What is the symbolic significance of Leviathan in the biblical context?  \nHow do the descriptions of whale sizes vary across the different historical texts?  \nWhat role does the sea-gudgeon play in the narrative involving the whale?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 9.122515227665039,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 15,
+        "total_tokens": 531,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955452.8283515,
+      "question_id": "q_chunk_6_2",
+      "response_text": "What is the symbolic significance of Leviathan in the biblical context?  \nHow do the descriptions of whale sizes vary across the different historical texts?  \nWhat role does the sea-gudgeon play in the narrative involving the whale?"
+    }
+  ]
+}

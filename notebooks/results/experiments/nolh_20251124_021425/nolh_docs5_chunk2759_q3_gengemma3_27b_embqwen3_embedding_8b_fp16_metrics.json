@@ -1,0 +1,277 @@
+{
+  "export_timestamp": "2025-11-24T02:59:24.484101",
+  "export_timestamp_readable": "2025-11-24 02:59:24",
+  "num_metrics": 20,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 5.387095134996343,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953132.5031972,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 6.561558283996419,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953133.6785042,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 7.8162482240004465,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953134.934822,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.5394455880013993,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953136.0431259,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.348887055995874,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953137.0277047,
+      "chunk_id": "chunk_4",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.019931782667603,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 13,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953146.0908976,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What objects or concepts are repeatedly referenced as chapters?\nHow does the text alternate between descriptions of the whale and encounters with other ships?\nWhat is the significance of chapters focusing on specific trades or professions?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.019931782667603,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 13,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953146.0909007,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What objects or concepts are repeatedly referenced as chapters?\nHow does the text alternate between descriptions of the whale and encounters with other ships?\nWhat is the significance of chapters focusing on specific trades or professions?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.019931782667603,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 13,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953146.0909019,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What objects or concepts are repeatedly referenced as chapters?\nHow does the text alternate between descriptions of the whale and encounters with other ships?\nWhat is the significance of chapters focusing on specific trades or professions?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.440120068000397,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953150.350112,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nAccording to the text, what should readers do if they are not located in the United States?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.440120068000397,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953150.350117,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nAccording to the text, what should readers do if they are not located in the United States?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.440120068000397,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953150.3501189,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nAccording to the text, what should readers do if they are not located in the United States?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.74425710333162,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953154.2631645,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What character is introduced at the very beginning of the provided text?\nHow many chapters are listed in the text?\nWhich chapter focuses specifically on the description of squid?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.74425710333162,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953154.263169,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What character is introduced at the very beginning of the provided text?\nHow many chapters are listed in the text?\nWhich chapter focuses specifically on the description of squid?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.74425710333162,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953154.2631698,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What character is introduced at the very beginning of the provided text?\nHow many chapters are listed in the text?\nWhich chapter focuses specifically on the description of squid?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.223656667997905,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 13,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953158.7627847,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the origin of the word \"whale\" according to Webster\u2019s Dictionary?\nWho is the \"pale Usher\" described in the etymology?\nFrom what sources was this text compiled?\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.223656667997905,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 13,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953158.762788,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the origin of the word \"whale\" according to Webster\u2019s Dictionary?\nWho is the \"pale Usher\" described in the etymology?\nFrom what sources was this text compiled?\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.223656667997905,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 13,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953158.762789,
+      "question_id": "q_chunk_3_2",
+      "response_text": "What is the origin of the word \"whale\" according to Webster\u2019s Dictionary?\nWho is the \"pale Usher\" described in the etymology?\nFrom what sources was this text compiled?\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.709338514997701,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 18,
+        "total_tokens": 517,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953164.4792507,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What does Webster\u2019s Dictionary suggest is the origin of the word \u201cwhale\u201d?\nAccording to Richardson\u2019s Dictionary, from which languages does \u201cwhale\u201d originate?\nWhat does the author imply about the reliability of the extracts supplied by the Sub-Sub-Librarian?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.709338514997701,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 18,
+        "total_tokens": 517,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953164.479255,
+      "question_id": "q_chunk_4_1",
+      "response_text": "What does Webster\u2019s Dictionary suggest is the origin of the word \u201cwhale\u201d?\nAccording to Richardson\u2019s Dictionary, from which languages does \u201cwhale\u201d originate?\nWhat does the author imply about the reliability of the extracts supplied by the Sub-Sub-Librarian?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.709338514997701,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 18,
+        "total_tokens": 517,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953164.479257,
+      "question_id": "q_chunk_4_2",
+      "response_text": "What does Webster\u2019s Dictionary suggest is the origin of the word \u201cwhale\u201d?\nAccording to Richardson\u2019s Dictionary, from which languages does \u201cwhale\u201d originate?\nWhat does the author imply about the reliability of the extracts supplied by the Sub-Sub-Librarian?"
+    }
+  ]
+}

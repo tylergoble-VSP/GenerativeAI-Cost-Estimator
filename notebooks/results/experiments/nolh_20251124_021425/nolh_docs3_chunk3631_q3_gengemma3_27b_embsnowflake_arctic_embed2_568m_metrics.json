@@ -1,0 +1,169 @@
+{
+  "export_timestamp": "2025-11-24T03:26:14.552357",
+  "export_timestamp_readable": "2025-11-24 03:26:14",
+  "num_metrics": 12,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.8869498480053153,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954758.750734,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.942433901000186,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954758.8092153,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.0057168820057996,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954758.8714736,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.305832325335359,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954765.790698,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nWhat is mentioned regarding legal restrictions for users outside of the United States?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.305832325335359,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954765.7907023,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nWhat is mentioned regarding legal restrictions for users outside of the United States?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.305832325335359,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954765.7907047,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the title of the eBook?\nWho is the author of Moby Dick?\nWhat is mentioned regarding legal restrictions for users outside of the United States?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.661941869999282,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954769.8597693,
+      "question_id": "q_chunk_1_0",
+      "response_text": "Which character is introduced at the very beginning of the provided text?\nWhat is the subject matter of most of these chapter titles?\nWhat chapter immediately precedes \u201cThe Hyena\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.661941869999282,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954769.8597748,
+      "question_id": "q_chunk_1_1",
+      "response_text": "Which character is introduced at the very beginning of the provided text?\nWhat is the subject matter of most of these chapter titles?\nWhat chapter immediately precedes \u201cThe Hyena\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.661941869999282,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954769.8597765,
+      "question_id": "q_chunk_1_2",
+      "response_text": "Which character is introduced at the very beginning of the provided text?\nWhat is the subject matter of most of these chapter titles?\nWhat chapter immediately precedes \u201cThe Hyena\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.224399551332074,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 14,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954774.5482552,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What objects or concepts are repeatedly referenced as encounters for the Pequod?\nWhat chapter titles suggest a focus on the physical aspects of whales?\nHow do the chapter titles indicate a shift in narrative focus towards Ahab?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.224399551332074,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 14,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954774.5482638,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What objects or concepts are repeatedly referenced as encounters for the Pequod?\nWhat chapter titles suggest a focus on the physical aspects of whales?\nHow do the chapter titles indicate a shift in narrative focus towards Ahab?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.224399551332074,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 14,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954774.548266,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What objects or concepts are repeatedly referenced as encounters for the Pequod?\nWhat chapter titles suggest a focus on the physical aspects of whales?\nHow do the chapter titles indicate a shift in narrative focus towards Ahab?"
+    }
+  ]
+}

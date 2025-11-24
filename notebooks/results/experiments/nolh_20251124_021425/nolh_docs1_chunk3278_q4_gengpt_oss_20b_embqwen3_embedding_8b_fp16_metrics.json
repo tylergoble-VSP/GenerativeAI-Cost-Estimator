@@ -1,0 +1,75 @@
+{
+  "export_timestamp": "2025-11-24T03:54:53.402312",
+  "export_timestamp_readable": "2025-11-24 03:54:53",
+  "num_metrics": 5,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.415921788997366,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956490.6864824,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6751731702497636,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 17,
+        "total_tokens": 560,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956493.3884728,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the significance of the Project Gutenberg license for accessing this eBook?  \nWhich chapter introduces the character Ahab and what role does he play in the narrative?  \nHow many chapters are listed in the table of contents, and which chapters are duplicated?  \nWhat date was the eBook last updated, and how does this compare to its original release date?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6751731702497636,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 17,
+        "total_tokens": 560,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956493.3884795,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the significance of the Project Gutenberg license for accessing this eBook?  \nWhich chapter introduces the character Ahab and what role does he play in the narrative?  \nHow many chapters are listed in the table of contents, and which chapters are duplicated?  \nWhat date was the eBook last updated, and how does this compare to its original release date?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6751731702497636,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 17,
+        "total_tokens": 560,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956493.3884802,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the significance of the Project Gutenberg license for accessing this eBook?  \nWhich chapter introduces the character Ahab and what role does he play in the narrative?  \nHow many chapters are listed in the table of contents, and which chapters are duplicated?  \nWhat date was the eBook last updated, and how does this compare to its original release date?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6751731702497636,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 17,
+        "total_tokens": 560,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956493.3884811,
+      "question_id": "q_chunk_0_3",
+      "response_text": "What is the significance of the Project Gutenberg license for accessing this eBook?  \nWhich chapter introduces the character Ahab and what role does he play in the narrative?  \nHow many chapters are listed in the table of contents, and which chapters are duplicated?  \nWhat date was the eBook last updated, and how does this compare to its original release date?"
+    }
+  ]
+}

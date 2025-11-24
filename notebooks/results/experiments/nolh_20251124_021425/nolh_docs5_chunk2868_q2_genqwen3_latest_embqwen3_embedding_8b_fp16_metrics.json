@@ -1,0 +1,207 @@
+{
+  "export_timestamp": "2025-11-24T03:15:52.238111",
+  "export_timestamp_readable": "2025-11-24 03:15:52",
+  "num_metrics": 15,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.623277094986406,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954093.2145374,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.804977687002975,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954094.3953412,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 6.0566582629980985,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954095.6493948,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.5230832969973562,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954096.7379541,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.3320535920065595,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954097.727944,
+      "chunk_id": "chunk_4",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.771464045996254,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954109.2727878,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the licensing information for the eBook?  \nWho is the author of \"Moby Dick; Or, The Whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.771464045996254,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954109.2727919,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the licensing information for the eBook?  \nWho is the author of \"Moby Dick; Or, The Whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.656016370499856,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 21,
+        "total_tokens": 560,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954121.0432012,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the significance of the recurring encounters between the Pequod and other ships in the narrative?  \nHow does the structure of the chapter titles reflect the themes of obsession and the whaling industry in the novel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.656016370499856,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 21,
+        "total_tokens": 560,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954121.0432053,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the significance of the recurring encounters between the Pequod and other ships in the narrative?  \nHow does the structure of the chapter titles reflect the themes of obsession and the whaling industry in the novel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 16.611671356498846,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 24,
+        "total_tokens": 567,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954130.954006,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of the chapter titled \"The Whiteness of the Whale\" in relation to the novel's themes?  \nHow do the chapters from 30 to 79 contribute to the overall narrative and character development of the story?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 16.611671356498846,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 24,
+        "total_tokens": 567,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954130.9540124,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of the chapter titled \"The Whiteness of the Whale\" in relation to the novel's themes?  \nHow do the chapters from 30 to 79 contribute to the overall narrative and character development of the story?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 17.194411123993632,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 16,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954143.6624258,
+      "question_id": "q_chunk_3_0",
+      "response_text": "How many chapters are listed in the text before the Epilogue?  \nWhat is the origin of the word \"whale\" according to the etymology section?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 17.194411123993632,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 16,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954143.6624293,
+      "question_id": "q_chunk_3_1",
+      "response_text": "How many chapters are listed in the text before the Epilogue?  \nWhat is the origin of the word \"whale\" according to the etymology section?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 15.594787121997797,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954152.2339108,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What languages are cited in the text regarding the origin of the word \"whale\"?  \nWhat is the author's perspective on the reliability of the collected whale-related extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 15.594787121997797,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954152.2339149,
+      "question_id": "q_chunk_4_1",
+      "response_text": "What languages are cited in the text regarding the origin of the word \"whale\"?  \nWhat is the author's perspective on the reliability of the collected whale-related extracts?"
+    }
+  ]
+}

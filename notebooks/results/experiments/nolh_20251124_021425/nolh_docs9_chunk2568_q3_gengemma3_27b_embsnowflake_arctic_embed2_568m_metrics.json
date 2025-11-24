@@ -1,0 +1,493 @@
+{
+  "export_timestamp": "2025-11-24T03:46:11.232779",
+  "export_timestamp_readable": "2025-11-24 03:46:11",
+  "num_metrics": 36,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1447949479916133,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955923.477132,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.2038023890054319,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955923.5349607,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.26145482998981606,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955923.5947242,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.17593599700194318,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955923.653579,
+      "chunk_id": "chunk_3",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.16457299099420197,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955923.7000647,
+      "chunk_id": "chunk_4",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.21631389600224793,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955923.8115273,
+      "chunk_id": "chunk_5",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.24466209899401292,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955923.8987331,
+      "chunk_id": "chunk_6",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.2572772550047375,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955923.9577196,
+      "chunk_id": "chunk_7",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.20524028400541283,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955924.0172262,
+      "chunk_id": "chunk_8",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.9951889730000403,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955933.0047765,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What character is introduced at the very beginning of the provided text?\nWhich chapter focuses specifically on the description of Moby Dick?\nWhat is the subject of chapters 55 and 56?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.9951889730000403,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955933.004782,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What character is introduced at the very beginning of the provided text?\nWhich chapter focuses specifically on the description of Moby Dick?\nWhat is the subject of chapters 55 and 56?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.9951889730000403,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955933.0047839,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What character is introduced at the very beginning of the provided text?\nWhich chapter focuses specifically on the description of Moby Dick?\nWhat is the subject of chapters 55 and 56?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.57010863366789,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 13,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955937.7303429,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What objects or concepts are repeatedly referenced as the book progresses?\nHow does the text suggest a shift in focus as the chapter numbers increase?\nWhat role do encounters with other ships seem to play in the narrative?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.57010863366789,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 13,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955937.7303498,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What objects or concepts are repeatedly referenced as the book progresses?\nHow does the text suggest a shift in focus as the chapter numbers increase?\nWhat role do encounters with other ships seem to play in the narrative?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.57010863366789,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 13,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955937.7303524,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What objects or concepts are repeatedly referenced as the book progresses?\nHow does the text suggest a shift in focus as the chapter numbers increase?\nWhat role do encounters with other ships seem to play in the narrative?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.074446448333522,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955942.2423773,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the title of the eBook?\nAccording to the text, what should a user outside of the United States do before using the eBook?\nWhat is the release date of this Project Gutenberg eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.074446448333522,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955942.242384,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the title of the eBook?\nAccording to the text, what should a user outside of the United States do before using the eBook?\nWhat is the release date of this Project Gutenberg eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.074446448333522,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955942.2423856,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the title of the eBook?\nAccording to the text, what should a user outside of the United States do before using the eBook?\nWhat is the release date of this Project Gutenberg eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.487445151666179,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 12,
+        "total_tokens": 534,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955946.468279,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the origin of the word \"whale\" according to Webster\u2019s Dictionary?\nWhat does the Usher constantly dust?\nWhat does Hackluyt criticize about teaching others?\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.487445151666179,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 12,
+        "total_tokens": 534,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955946.4682837,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the origin of the word \"whale\" according to Webster\u2019s Dictionary?\nWhat does the Usher constantly dust?\nWhat does Hackluyt criticize about teaching others?\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.487445151666179,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 12,
+        "total_tokens": 534,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955946.4682858,
+      "question_id": "q_chunk_3_2",
+      "response_text": "What is the origin of the word \"whale\" according to Webster\u2019s Dictionary?\nWhat does the Usher constantly dust?\nWhat does Hackluyt criticize about teaching others?\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.815873130666053,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 18,
+        "total_tokens": 517,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955952.1791751,
+      "question_id": "q_chunk_4_0",
+      "response_text": "According to the text, from what languages does the word \"whale\" originate?\nWhat does the text suggest about the reliability of the \"whale statements\" in the extracts?\nWhat is the role of the Sub-Sub-Librarian in relation to the provided information?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.815873130666053,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 18,
+        "total_tokens": 517,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955952.1791804,
+      "question_id": "q_chunk_4_1",
+      "response_text": "According to the text, from what languages does the word \"whale\" originate?\nWhat does the text suggest about the reliability of the \"whale statements\" in the extracts?\nWhat is the role of the Sub-Sub-Librarian in relation to the provided information?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.815873130666053,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 18,
+        "total_tokens": 517,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955952.1791823,
+      "question_id": "q_chunk_4_2",
+      "response_text": "According to the text, from what languages does the word \"whale\" originate?\nWhat does the text suggest about the reliability of the \"whale statements\" in the extracts?\nWhat is the role of the Sub-Sub-Librarian in relation to the provided information?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.83203149966721,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 13,
+        "total_tokens": 529,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955956.7395217,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the author\u2019s attitude toward the \u201cSub-Sub\u201d?\nAccording to the text, what does Leviathan cause to shine?\nFrom which biblical book is the quote about God creating great whales taken?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.83203149966721,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 13,
+        "total_tokens": 529,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955956.7395265,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the author\u2019s attitude toward the \u201cSub-Sub\u201d?\nAccording to the text, what does Leviathan cause to shine?\nFrom which biblical book is the quote about God creating great whales taken?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.83203149966721,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 13,
+        "total_tokens": 529,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955956.7395284,
+      "question_id": "q_chunk_5_2",
+      "response_text": "What is the author\u2019s attitude toward the \u201cSub-Sub\u201d?\nAccording to the text, what does Leviathan cause to shine?\nFrom which biblical book is the quote about God creating great whales taken?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.8860609656646075,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 12,
+        "total_tokens": 528,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955961.1274354,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What creatures are repeatedly described as immense and fearsome?\nHow do the texts describe the fate of things consumed by these creatures?\nWhat valuable resource is mentioned as being obtained from horse-whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.8860609656646075,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 12,
+        "total_tokens": 528,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955961.1274385,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What creatures are repeatedly described as immense and fearsome?\nHow do the texts describe the fate of things consumed by these creatures?\nWhat valuable resource is mentioned as being obtained from horse-whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.8860609656646075,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 12,
+        "total_tokens": 528,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955961.1274395,
+      "question_id": "q_chunk_6_2",
+      "response_text": "What creatures are repeatedly described as immense and fearsome?\nHow do the texts describe the fate of things consumed by these creatures?\nWhat valuable resource is mentioned as being obtained from horse-whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.768752929002706,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 16,
+        "total_tokens": 548,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955966.486358,
+      "question_id": "q_chunk_7_0",
+      "response_text": "What does Montaigne claim happens to sea-gudgeons that enter a whale\u2019s mouth?\nAccording to Rabelais, what biblical figure\u2019s description does Leviathan evoke?\nWhat substance is mentioned as being potentially dubious in origin and composition?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.768752929002706,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 16,
+        "total_tokens": 548,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955966.4863634,
+      "question_id": "q_chunk_7_1",
+      "response_text": "What does Montaigne claim happens to sea-gudgeons that enter a whale\u2019s mouth?\nAccording to Rabelais, what biblical figure\u2019s description does Leviathan evoke?\nWhat substance is mentioned as being potentially dubious in origin and composition?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.768752929002706,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 16,
+        "total_tokens": 548,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955966.4863641,
+      "question_id": "q_chunk_7_2",
+      "response_text": "What does Montaigne claim happens to sea-gudgeons that enter a whale\u2019s mouth?\nAccording to Rabelais, what biblical figure\u2019s description does Leviathan evoke?\nWhat substance is mentioned as being potentially dubious in origin and composition?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.828609726333525,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 14,
+        "total_tokens": 541,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955971.2263415,
+      "question_id": "q_chunk_8_0",
+      "response_text": "What creature is repeatedly compared to a state or commonwealth?\nAccording to Thomas Edge, how deep of water will ground a whale\u2019s head?\nWhat does Sir T. Herbert describe whales as doing \u201cin wantonness\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.828609726333525,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 14,
+        "total_tokens": 541,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955971.226344,
+      "question_id": "q_chunk_8_1",
+      "response_text": "What creature is repeatedly compared to a state or commonwealth?\nAccording to Thomas Edge, how deep of water will ground a whale\u2019s head?\nWhat does Sir T. Herbert describe whales as doing \u201cin wantonness\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.828609726333525,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 14,
+        "total_tokens": 541,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955971.226345,
+      "question_id": "q_chunk_8_2",
+      "response_text": "What creature is repeatedly compared to a state or commonwealth?\nAccording to Thomas Edge, how deep of water will ground a whale\u2019s head?\nWhat does Sir T. Herbert describe whales as doing \u201cin wantonness\u201d?"
+    }
+  ]
+}

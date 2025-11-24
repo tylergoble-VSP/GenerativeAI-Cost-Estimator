@@ -1,0 +1,247 @@
+{
+  "export_timestamp": "2025-11-24T03:29:01.263642",
+  "export_timestamp_readable": "2025-11-24 03:29:01",
+  "num_metrics": 18,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.102544608991593,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954914.0536902,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.166036383001483,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954914.1142797,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.223281398997642,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954914.1732235,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.17961263700271957,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954914.233835,
+      "chunk_id": "chunk_3",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.15949589999218006,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954914.2742703,
+      "chunk_id": "chunk_4",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.18706047799787484,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954914.3608017,
+      "chunk_id": "chunk_5",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.3947508670025854,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 21,
+        "total_tokens": 564,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954919.1525292,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What does chapter 42, \u201cThe Whiteness of the Whale,\u201d suggest about the symbolic use of white in Moby Dick?  \nWhich chapters in this list are directly focused on the physical characteristics of whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.3947508670025854,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 21,
+        "total_tokens": 564,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954919.1525402,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What does chapter 42, \u201cThe Whiteness of the Whale,\u201d suggest about the symbolic use of white in Moby Dick?  \nWhich chapters in this list are directly focused on the physical characteristics of whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.374399150001409,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 18,
+        "total_tokens": 561,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954925.1114962,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the eBook's release date as listed in the Project Gutenberg header?  \nHow many times does the chapter title 'Knights and Squires' appear in the table of contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.374399150001409,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 18,
+        "total_tokens": 561,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954925.111503,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the eBook's release date as listed in the Project Gutenberg header?  \nHow many times does the chapter title 'Knights and Squires' appear in the table of contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.081829177994223,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 19,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954928.5272844,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What themes emerge from the Pequod's repeated encounters with other vessels throughout the chapters?  \n\nHow does the chapter titled \u201cThe Battering\u2011Ram\u201d enhance the symbolic meaning of the narrative?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.081829177994223,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 19,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954928.5272887,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What themes emerge from the Pequod's repeated encounters with other vessels throughout the chapters?  \n\nHow does the chapter titled \u201cThe Battering\u2011Ram\u201d enhance the symbolic meaning of the narrative?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.506803090996982,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 15,
+        "total_tokens": 537,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954934.1671498,
+      "question_id": "q_chunk_3_0",
+      "response_text": "How many chapters are listed in the excerpt before the Epilogue?  \nWhat linguistic origins are cited in the etymology section for the word \"whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.506803090996982,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 15,
+        "total_tokens": 537,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954934.1671548,
+      "question_id": "q_chunk_3_1",
+      "response_text": "How many chapters are listed in the excerpt before the Epilogue?  \nWhat linguistic origins are cited in the etymology section for the word \"whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.313387193498784,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 23,
+        "total_tokens": 522,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954937.739292,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What linguistic roots are cited as the origins of the English word \"whale\" in the provided text?  \nHow does the author describe the role of the \"Sub-Sub-Librarian\" in compiling these whale-related extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.313387193498784,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 23,
+        "total_tokens": 522,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954937.7392976,
+      "question_id": "q_chunk_4_1",
+      "response_text": "What linguistic roots are cited as the origins of the English word \"whale\" in the provided text?  \nHow does the author describe the role of the \"Sub-Sub-Librarian\" in compiling these whale-related extracts?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.364905390502827,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 21,
+        "total_tokens": 537,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954941.2579293,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the significance of the repeated references to Leviathan across the various biblical excerpts presented in the text?  \nHow does the narrator's tone toward \"Sub-Sub\" reflect broader attitudes toward marginalized voices in literature?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.364905390502827,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 21,
+        "total_tokens": 537,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954941.2579339,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the significance of the repeated references to Leviathan across the various biblical excerpts presented in the text?  \nHow does the narrator's tone toward \"Sub-Sub\" reflect broader attitudes toward marginalized voices in literature?"
+    }
+  ]
+}

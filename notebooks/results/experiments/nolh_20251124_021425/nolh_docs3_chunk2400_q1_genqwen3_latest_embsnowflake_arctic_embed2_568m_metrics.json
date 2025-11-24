@@ -1,0 +1,85 @@
+{
+  "export_timestamp": "2025-11-24T02:49:45.047189",
+  "export_timestamp_readable": "2025-11-24 02:49:45",
+  "num_metrics": 6,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.5456064390018582,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952518.2660034,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.6050196339929244,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952518.3265338,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.664825600993936,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952518.384385,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 14.607694826001534,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 21,
+        "total_tokens": 564,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952532.9937627,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the significance of the 'ETYMOLOGY' section in the contents of Moby-Dick?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 46.287229819005006,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 16,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952564.6740408,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of the chapter titles in the narrative structure of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 66.65634985700308,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 14,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952585.0438704,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What themes or symbols are represented by the chapter titles in the novel?"
+    }
+  ]
+}

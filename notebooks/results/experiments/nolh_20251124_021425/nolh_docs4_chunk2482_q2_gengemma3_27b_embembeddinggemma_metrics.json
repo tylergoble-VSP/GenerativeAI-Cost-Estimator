@@ -1,0 +1,167 @@
+{
+  "export_timestamp": "2025-11-24T03:26:55.097015",
+  "export_timestamp_readable": "2025-11-24 03:26:55",
+  "num_metrics": 12,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.3984517049975693,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954797.373202,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.7856151970045175,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954797.7589312,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.1708043170074234,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954798.1451032,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0371619739889866,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954798.4107084,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.336170790498727,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 15,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954805.085962,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What objects or concepts are repeatedly referenced as the ship encounters other entities?\nHow do the chapter titles suggest a shift in focus towards Ahab\u2019s personal story?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.336170790498727,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 15,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954805.0859687,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What objects or concepts are repeatedly referenced as the ship encounters other entities?\nHow do the chapter titles suggest a shift in focus towards Ahab\u2019s personal story?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.092619087496132,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954808.5975173,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the title of the book described in the text?\nAccording to the text, where can one find the terms of use for this eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.092619087496132,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954808.5975223,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the title of the book described in the text?\nAccording to the text, where can one find the terms of use for this eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.7697244084993144,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954811.9527318,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What character is introduced at the very beginning of the provided list?\nWhich chapter focuses specifically on the depiction of whales in various art forms?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.7697244084993144,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954811.9527383,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What character is introduced at the very beginning of the provided list?\nWhich chapter focuses specifically on the depiction of whales in various art forms?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.0035302764954395,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 13,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954815.094048,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the origin of the word \"whale\" according to Webster\u2019s Dictionary?\nWhat did the pale Usher constantly dust?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.0035302764954395,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 13,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954815.0940537,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the origin of the word \"whale\" according to Webster\u2019s Dictionary?\nWhat did the pale Usher constantly dust?"
+    }
+  ]
+}

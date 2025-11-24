@@ -1,0 +1,167 @@
+{
+  "export_timestamp": "2025-11-24T03:48:50.033237",
+  "export_timestamp_readable": "2025-11-24 03:48:50",
+  "num_metrics": 12,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 5.524397722998401,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956108.4404395,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 6.702782352993381,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956109.6173785,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 7.871930982000777,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956110.786701,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.461336171007133,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956111.9021158,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.4368429530004505,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 16,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956116.7781742,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date of the Project Gutenberg eBook of Moby Dick?  \nWhy does the table of contents list \"Knights and Squires\" twice?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.4368429530004505,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 16,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956116.7781782,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the release date of the Project Gutenberg eBook of Moby Dick?  \nWhy does the table of contents list \"Knights and Squires\" twice?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.9737650800016127,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956119.8527453,
+      "question_id": "q_chunk_1_0",
+      "response_text": "Which chapter introduces the character Fedallah?  \nHow does chapter 42's title relate to the thematic focus of the novel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.9737650800016127,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956119.8527513,
+      "question_id": "q_chunk_1_1",
+      "response_text": "Which chapter introduces the character Fedallah?  \nHow does chapter 42's title relate to the thematic focus of the novel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.050992348500586,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 20,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956126.0079806,
+      "question_id": "q_chunk_2_0",
+      "response_text": "Which chapter title refers to a biblical prophet, and what is his significance in the story?  \nWhat is the thematic purpose of the chapter titled \"The Blacksmith\" in the context of whaling?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.050992348500586,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 20,
+        "total_tokens": 559,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956126.007986,
+      "question_id": "q_chunk_2_1",
+      "response_text": "Which chapter title refers to a biblical prophet, and what is his significance in the story?  \nWhat is the thematic purpose of the chapter titled \"The Blacksmith\" in the context of whaling?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.624889971499215,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 29,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956130.0290782,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the significance of the chapter titles listed in the text in relation to the overall narrative structure of Moby\u2011Dick?  \nHow does the etymology section at the end of the text contribute to the reader's understanding of the term \"whale\" within the context of the novel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.624889971499215,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 29,
+        "total_tokens": 551,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956130.0290837,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the significance of the chapter titles listed in the text in relation to the overall narrative structure of Moby\u2011Dick?  \nHow does the etymology section at the end of the text contribute to the reader's understanding of the term \"whale\" within the context of the novel?"
+    }
+  ]
+}

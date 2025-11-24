@@ -1,0 +1,75 @@
+{
+  "export_timestamp": "2025-11-24T03:04:01.592294",
+  "export_timestamp_readable": "2025-11-24 03:04:01",
+  "num_metrics": 5,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.592203891996178,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763953438.7421706,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7110760585019307,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953441.5880156,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date of this ebook?\nWhat is the author of Moby Dick?\nUnder what terms can this ebook be copied and shared?\nWho are the credited contributors to this Project Gutenberg eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7110760585019307,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953441.5880191,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the release date of this ebook?\nWhat is the author of Moby Dick?\nUnder what terms can this ebook be copied and shared?\nWho are the credited contributors to this Project Gutenberg eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7110760585019307,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953441.5880203,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the release date of this ebook?\nWhat is the author of Moby Dick?\nUnder what terms can this ebook be copied and shared?\nWho are the credited contributors to this Project Gutenberg eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7110760585019307,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763953441.5880208,
+      "question_id": "q_chunk_0_3",
+      "response_text": "What is the release date of this ebook?\nWhat is the author of Moby Dick?\nUnder what terms can this ebook be copied and shared?\nWho are the credited contributors to this Project Gutenberg eBook?"
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "export_timestamp": "2025-11-24T03:20:11.933002",
+  "export_timestamp_readable": "2025-11-24 03:20:11",
+  "num_metrics": 12,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.3435298039985355,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954406.2897427,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.3610564510017866,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954406.306441,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.3753493870026432,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954406.3231015,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.04844160200445913,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954406.338498,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7657824389971211,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 9,
+        "total_tokens": 548,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954407.8723924,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the subject of Chapter 82?\nWhat do Chapters 115 and 121 depict?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7657824389971211,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 9,
+        "total_tokens": 548,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954407.8723967,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the subject of Chapter 82?\nWhat do Chapters 115 and 121 depict?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4638039735000348,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954409.267738,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the purpose of the Project Gutenberg license mentioned in the text?\nWho are the credited contributors to this particular ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.4638039735000348,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954409.267742,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the purpose of the Project Gutenberg license mentioned in the text?\nWho are the credited contributors to this particular ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.064181772999291,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954410.4688,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What event marks the beginning of the text?\nWhat is the subject of Chapter 55?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.064181772999291,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954410.4688044,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What event marks the beginning of the text?\nWhat is the subject of Chapter 55?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.027460664998216,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 13,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954411.9283395,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What does the late consumptive usher like to dust?\nAccording to Webster\u2019s Dictionary, what does \u201cwhale\u201d derive from?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.027460664998216,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 13,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954411.9283462,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What does the late consumptive usher like to dust?\nAccording to Webster\u2019s Dictionary, what does \u201cwhale\u201d derive from?"
+    }
+  ]
+}

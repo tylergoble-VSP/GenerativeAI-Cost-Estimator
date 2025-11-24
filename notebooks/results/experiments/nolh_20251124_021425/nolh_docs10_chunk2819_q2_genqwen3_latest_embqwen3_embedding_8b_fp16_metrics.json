@@ -1,0 +1,407 @@
+{
+  "export_timestamp": "2025-11-24T03:43:29.861100",
+  "export_timestamp_readable": "2025-11-24 03:43:29",
+  "num_metrics": 30,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.60757296999509,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955672.2702227,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.764952525991248,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955673.4275577,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 5.931579238007544,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955674.593183,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.3945860539970454,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955675.6651528,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.1999576429952867,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955676.6278784,
+      "chunk_id": "chunk_4",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.01290007600619,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955677.6065764,
+      "chunk_id": "chunk_5",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.9151370270119514,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955678.5806313,
+      "chunk_id": "chunk_6",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.9341362359991763,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955679.562499,
+      "chunk_id": "chunk_7",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.930759570997907,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955680.537839,
+      "chunk_id": "chunk_8",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.9256827520002844,
+      "token_counts": {
+        "input_tokens": 460,
+        "actual_input_tokens": 460,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955681.5066264,
+      "chunk_id": "chunk_9",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.370558837501449,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955692.2498457,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the Project Gutenberg license information for this eBook?  \nWhat are the main chapters included in the table of contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.370558837501449,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 12,
+        "total_tokens": 555,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955692.2498484,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the Project Gutenberg license information for this eBook?  \nWhat are the main chapters included in the table of contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.017630388996622,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 18,
+        "total_tokens": 561,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955705.544419,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of the chapter titles in the narrative structure of the text?  \nWhat role do Ahab and Stubb play in the events described at the beginning of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.017630388996622,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 18,
+        "total_tokens": 561,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955705.5444245,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of the chapter titles in the narrative structure of the text?  \nWhat role do Ahab and Stubb play in the events described at the beginning of the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 25.051154132997908,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 18,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955731.6120486,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the significance of the chapter titled \"Ahab's Leg\" in the narrative?  \nWhat event occurs in the chapter titled \"The Pequod Meets The Virgin\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 25.051154132997908,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 18,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955731.6120539,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the significance of the chapter titled \"Ahab's Leg\" in the narrative?  \nWhat event occurs in the chapter titled \"The Pequod Meets The Virgin\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 27.39874349800084,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 21,
+        "total_tokens": 543,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955747.0483994,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the significance of the etymology section in relation to the narrative of the chapters?  \nWhat role do the encounters with the ships *Rachel* and *Delight* play in the story's progression?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 27.39874349800084,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 21,
+        "total_tokens": 543,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955747.0484056,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the significance of the etymology section in relation to the narrative of the chapters?  \nWhat role do the encounters with the ships *Rachel* and *Delight* play in the story's progression?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 25.480723220498476,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 20,
+        "total_tokens": 519,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955756.5067987,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What are the linguistic origins of the word \"whale\" as described in the text?  \nWhat is the significance of the Sub-Sub-Librarian's role in the context of the extracts provided?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 25.480723220498476,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 20,
+        "total_tokens": 519,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955756.506803,
+      "question_id": "q_chunk_4_1",
+      "response_text": "What are the linguistic origins of the word \"whale\" as described in the text?  \nWhat is the significance of the Sub-Sub-Librarian's role in the context of the extracts provided?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 16.546005563504878,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 22,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955764.704896,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the purpose or value of the extracts regarding Leviathan mentioned in the text?  \nWhat metaphorical meaning is conveyed through the reference to the Sub-Sub and the celestial beings like Gabriel, Michael, and Raphael?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 16.546005563504878,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 22,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955764.7049,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the purpose or value of the extracts regarding Leviathan mentioned in the text?  \nWhat metaphorical meaning is conveyed through the reference to the Sub-Sub and the celestial beings like Gabriel, Michael, and Raphael?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.489226571502513,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 19,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955774.0278733,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What symbolic or literal role does Leviathan play in the text's descriptions of sea creatures?  \nHow do the historical accounts of whale sizes in the text contrast with other references to marine life?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.489226571502513,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 19,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955774.0278783,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What symbolic or literal role does Leviathan play in the text's descriptions of sea creatures?  \nHow do the historical accounts of whale sizes in the text contrast with other references to marine life?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 14.681574217996967,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 21,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955785.8710551,
+      "question_id": "q_chunk_7_0",
+      "response_text": "What symbolic or literary significance is attributed to the whale in the references to Leviathan?  \nWhat does the description of the whale's liver size and spermacetti reveal about contemporary perceptions of the whale's physical characteristics?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 14.681574217996967,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 21,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955785.8710618,
+      "question_id": "q_chunk_7_1",
+      "response_text": "What symbolic or literary significance is attributed to the whale in the references to Leviathan?  \nWhat does the description of the whale's liver size and spermacetti reveal about contemporary perceptions of the whale's physical characteristics?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 14.421955922000052,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 14,
+        "total_tokens": 541,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955793.549774,
+      "question_id": "q_chunk_8_0",
+      "response_text": "What literary works are referenced in the descriptions of Leviathan and whales?  \nHow do the texts describe the physical characteristics and behaviors of whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 14.421955922000052,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 14,
+        "total_tokens": 541,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955793.5497837,
+      "question_id": "q_chunk_8_1",
+      "response_text": "What literary works are referenced in the descriptions of Leviathan and whales?  \nHow do the texts describe the physical characteristics and behaviors of whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 17.913284690999717,
+      "token_counts": {
+        "prompt_tokens": 493,
+        "response_tokens": 17,
+        "total_tokens": 510,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955809.8552544,
+      "question_id": "q_chunk_9_0",
+      "response_text": "Which historical account describes a whale found near Shetland with a barrel of herrings in its belly?  \nWhat is the length of the largest whale mentioned in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 17.913284690999717,
+      "token_counts": {
+        "prompt_tokens": 493,
+        "response_tokens": 17,
+        "total_tokens": 510,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955809.855259,
+      "question_id": "q_chunk_9_1",
+      "response_text": "Which historical account describes a whale found near Shetland with a barrel of herrings in its belly?  \nWhat is the length of the largest whale mentioned in the text?"
+    }
+  ]
+}

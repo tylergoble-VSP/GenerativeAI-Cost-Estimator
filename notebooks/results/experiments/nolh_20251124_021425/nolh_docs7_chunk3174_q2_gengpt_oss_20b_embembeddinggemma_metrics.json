@@ -1,0 +1,287 @@
+{
+  "export_timestamp": "2025-11-24T03:38:52.829167",
+  "export_timestamp_readable": "2025-11-24 03:38:52",
+  "num_metrics": 21,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.41731057899596635,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955498.8913038,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.7924812989949714,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955499.2658398,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.1886317470052745,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955499.6607978,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0130396610038588,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955499.9046915,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0100558650010498,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955500.2763884,
+      "chunk_id": "chunk_4",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.8159082409983966,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955500.4770563,
+      "chunk_id": "chunk_5",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.7429107839998323,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955500.6480632,
+      "chunk_id": "chunk_6",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.435757150495192,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 35,
+        "total_tokens": 574,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955503.5227714,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What themes or motifs are suggested by the chapter titles such as \u201cThe Right Whale\u2019s Head,\u201d \u201cThe Battering-Ram,\u201d and \u201cThe Grand Armada\u201d in this list?  \nHow does the progression of chapter titles from \u201cThe Great Heidelburgh Tun\u201d to \u201cThe Log and Line\u201d reflect a narrative or thematic arc within the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.435757150495192,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 35,
+        "total_tokens": 574,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955503.5227776,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What themes or motifs are suggested by the chapter titles such as \u201cThe Right Whale\u2019s Head,\u201d \u201cThe Battering-Ram,\u201d and \u201cThe Grand Armada\u201d in this list?  \nHow does the progression of chapter titles from \u201cThe Great Heidelburgh Tun\u201d to \u201cThe Log and Line\u201d reflect a narrative or thematic arc within the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.0444313420011895,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 19,
+        "total_tokens": 562,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955508.7386198,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date of the Project Gutenberg eBook of Moby Dick, and what eBook number is it assigned?  \nWhich chapter is listed as Chapter 32 in the provided Table of Contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 4.0444313420011895,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 19,
+        "total_tokens": 562,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955508.7386248,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the release date of the Project Gutenberg eBook of Moby Dick, and what eBook number is it assigned?  \nWhich chapter is listed as Chapter 32 in the provided Table of Contents?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.9874819984979695,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955514.6252687,
+      "question_id": "q_chunk_1_0",
+      "response_text": "Which chapter title refers to a species of whale that is known for its large head?  \nWhich chapter appears to be missing a title?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.9874819984979695,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955514.6252737,
+      "question_id": "q_chunk_1_1",
+      "response_text": "Which chapter title refers to a species of whale that is known for its large head?  \nWhich chapter appears to be missing a title?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.93162929850223,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 13,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955521.3870876,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the significance of the chapter titles listed in the text?  \nWhich two projects provided the source material for the final etext?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.93162929850223,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 13,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955521.387092,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the significance of the chapter titles listed in the text?  \nWhich two projects provided the source material for the final etext?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.933404257499205,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 16,
+        "total_tokens": 515,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955524.6063554,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What are the origins of the word 'whale' as described in the text?  \nWhich languages are mentioned as having words for whale in the list provided?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.933404257499205,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 16,
+        "total_tokens": 515,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955524.606359,
+      "question_id": "q_chunk_4_1",
+      "response_text": "What are the origins of the word 'whale' as described in the text?  \nWhich languages are mentioned as having words for whale in the list provided?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.169904819005751,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 19,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955528.9659657,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What literary and theological themes are highlighted through the excerpts about Leviathan?  \nHow does the narrator's tone toward the \u201cSub-Sub\u201d reflect the broader theme of divine and human interaction?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.169904819005751,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 19,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955528.9659698,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What literary and theological themes are highlighted through the excerpts about Leviathan?  \nHow does the narrator's tone toward the \u201cSub-Sub\u201d reflect the broader theme of divine and human interaction?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.717978246502753,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 29,
+        "total_tokens": 545,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955532.8239052,
+      "question_id": "q_chunk_6_0",
+      "response_text": "How does the repeated motif of Leviathan as a monstrous sea creature in the cited texts reflect medieval conceptions of nature and divine judgment?  \n\nIn what ways do the various medieval and early modern accounts differ in their description of the size and behavior of whales, and what might account for these variations?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.717978246502753,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 29,
+        "total_tokens": 545,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955532.823909,
+      "question_id": "q_chunk_6_1",
+      "response_text": "How does the repeated motif of Leviathan as a monstrous sea creature in the cited texts reflect medieval conceptions of nature and divine judgment?  \n\nIn what ways do the various medieval and early modern accounts differ in their description of the size and behavior of whales, and what might account for these variations?"
+    }
+  ]
+}

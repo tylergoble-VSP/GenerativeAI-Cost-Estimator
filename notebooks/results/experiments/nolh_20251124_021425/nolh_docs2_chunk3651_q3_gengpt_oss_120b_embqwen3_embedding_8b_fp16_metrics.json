@@ -1,0 +1,115 @@
+{
+  "export_timestamp": "2025-11-24T03:48:22.783373",
+  "export_timestamp_readable": "2025-11-24 03:48:22",
+  "num_metrics": 8,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.6326714620081475,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956059.3823955,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.807171141001163,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956060.54773,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.663021989666353,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956095.5384839,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date of the Project Gutenberg eBook of Moby Dick?\n\nWho are credited for this eBook edition of Moby Dick?\n\nWhich chapter title appears twice in the contents list of this eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.663021989666353,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956095.5384889,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the release date of the Project Gutenberg eBook of Moby Dick?\n\nWho are credited for this eBook edition of Moby Dick?\n\nWhich chapter title appears twice in the contents list of this eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 11.663021989666353,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956095.5384908,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the release date of the Project Gutenberg eBook of Moby Dick?\n\nWho are credited for this eBook edition of Moby Dick?\n\nWhich chapter title appears twice in the contents list of this eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 14.072669440337146,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956102.7780797,
+      "question_id": "q_chunk_1_0",
+      "response_text": "Which chapter titles explicitly reference a specific character from the novel?  \nWhat recurring pattern can be observed in the phrasing of many chapter headings?  \nHow does the progression of chapter titles reflect the shift from scientific description to narrative events?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 14.072669440337146,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956102.7780864,
+      "question_id": "q_chunk_1_1",
+      "response_text": "Which chapter titles explicitly reference a specific character from the novel?  \nWhat recurring pattern can be observed in the phrasing of many chapter headings?  \nHow does the progression of chapter titles reflect the shift from scientific description to narrative events?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 14.072669440337146,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956102.7780883,
+      "question_id": "q_chunk_1_2",
+      "response_text": "Which chapter titles explicitly reference a specific character from the novel?  \nWhat recurring pattern can be observed in the phrasing of many chapter headings?  \nHow does the progression of chapter titles reflect the shift from scientific description to narrative events?"
+    }
+  ]
+}

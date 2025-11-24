@@ -1,0 +1,115 @@
+{
+  "export_timestamp": "2025-11-24T04:09:07.193085",
+  "export_timestamp_readable": "2025-11-24 04:09:07",
+  "num_metrics": 8,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.6540457789960783,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957344.9873118,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.6706591819965979,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957345.0031202,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6212715836639594,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957346.8680599,
+      "question_id": "q_chunk_0_0",
+      "response_text": "1. What is the stated condition for using the eBook?\n2. What is the release date of the eBook?\n3. What is the language of the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6212715836639594,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957346.8680627,
+      "question_id": "q_chunk_0_1",
+      "response_text": "1. What is the stated condition for using the eBook?\n2. What is the release date of the eBook?\n3. What is the language of the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6212715836639594,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957346.8680637,
+      "question_id": "q_chunk_0_2",
+      "response_text": "1. What is the stated condition for using the eBook?\n2. What is the release date of the eBook?\n3. What is the language of the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7250919393312264,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957347.180486,
+      "question_id": "q_chunk_1_0",
+      "response_text": "1.  What is Ahab\u2019s primary focus in the text?\n2.  What does Stubb do to Ahab?\n3.  What is the significance of the \u201cLine\u201d in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7250919393312264,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957347.1804917,
+      "question_id": "q_chunk_1_1",
+      "response_text": "1.  What is Ahab\u2019s primary focus in the text?\n2.  What does Stubb do to Ahab?\n3.  What is the significance of the \u201cLine\u201d in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.7250919393312264,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957347.1804938,
+      "question_id": "q_chunk_1_2",
+      "response_text": "1.  What is Ahab\u2019s primary focus in the text?\n2.  What does Stubb do to Ahab?\n3.  What is the significance of the \u201cLine\u201d in the text?"
+    }
+  ]
+}

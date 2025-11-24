@@ -1,0 +1,115 @@
+{
+  "export_timestamp": "2025-11-24T03:13:29.793203",
+  "export_timestamp_readable": "2025-11-24 03:13:29",
+  "num_metrics": 8,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.8856019439990632,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954002.6571677,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.9450084979907842,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954002.7177691,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7790267523329628,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954008.0565906,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of the initial phrase \"Enter Ahab; to Him, Stubb\"?\nWhich chapter marks the appearance of \"Moby Dick\"?\nWhat is the subject of Chapter 55?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7790267523329628,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954008.0565934,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of the initial phrase \"Enter Ahab; to Him, Stubb\"?\nWhich chapter marks the appearance of \"Moby Dick\"?\nWhat is the subject of Chapter 55?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7790267523329628,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954008.0565941,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What is the significance of the initial phrase \"Enter Ahab; to Him, Stubb\"?\nWhich chapter marks the appearance of \"Moby Dick\"?\nWhat is the subject of Chapter 55?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.3567742906695153,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954009.7896292,
+      "question_id": "q_chunk_0_0",
+      "response_text": "Who is the author of Moby Dick; Or, The Whale?\nWhat is the release date of the eBook?\nWhat is included in the contents section?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.3567742906695153,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954009.7896318,
+      "question_id": "q_chunk_0_1",
+      "response_text": "Who is the author of Moby Dick; Or, The Whale?\nWhat is the release date of the eBook?\nWhat is included in the contents section?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.3567742906695153,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954009.7896326,
+      "question_id": "q_chunk_0_2",
+      "response_text": "Who is the author of Moby Dick; Or, The Whale?\nWhat is the release date of the eBook?\nWhat is included in the contents section?"
+    }
+  ]
+}

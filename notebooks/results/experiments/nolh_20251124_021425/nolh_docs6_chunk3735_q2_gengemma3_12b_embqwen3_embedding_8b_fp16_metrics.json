@@ -1,0 +1,247 @@
+{
+  "export_timestamp": "2025-11-24T02:20:37.142594",
+  "export_timestamp_readable": "2025-11-24 02:20:37",
+  "num_metrics": 18,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.8175033919978887,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763950820.1103244,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 5.001578994008014,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763950821.2935414,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 6.185298297001282,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763950822.4761317,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.460534480997012,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763950823.571316,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.265648187996703,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763950824.5596528,
+      "chunk_id": "chunk_4",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.07505650499661,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763950825.5514789,
+      "chunk_id": "chunk_5",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.3216660729958676,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 10,
+        "total_tokens": 549,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950830.1987004,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the significance of \"The Doubloon\"?\nWhat is the subject of Chapter 106?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.3216660729958676,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 10,
+        "total_tokens": 549,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950830.1987028,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the significance of \"The Doubloon\"?\nWhat is the subject of Chapter 106?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.859720599000866,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950831.273959,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of \"Enter Ahab\"?\nWhat does Chapter 41 introduce?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.859720599000866,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950831.2739623,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of \"Enter Ahab\"?\nWhat does Chapter 41 introduce?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.408452280003985,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950832.3708858,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date of this ebook?\nWho are credited as contributors to this ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.408452280003985,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950832.370891,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the release date of this ebook?\nWho are credited as contributors to this ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.8344891644956078,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 16,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950833.8685012,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What does the Usher\u2019s handkerchief symbolize?\nAccording to Webster\u2019s Dictionary, what is the etymological origin of the word \u201cwhale\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.8344891644956078,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 16,
+        "total_tokens": 538,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950833.8685045,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What does the Usher\u2019s handkerchief symbolize?\nAccording to Webster\u2019s Dictionary, what is the etymological origin of the word \u201cwhale\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.2241868275013985,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 20,
+        "total_tokens": 519,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950835.7232373,
+      "question_id": "q_chunk_4_0",
+      "response_text": "According to the text, what is the origin of the name \"whale\" as suggested by Webster\u2019s Dictionary?\nWhat does the narrator consider the ancient authors and poets presented in the extracts to be?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.2241868275013985,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 20,
+        "total_tokens": 519,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950835.7232416,
+      "question_id": "q_chunk_4_1",
+      "response_text": "According to the text, what is the origin of the name \"whale\" as suggested by Webster\u2019s Dictionary?\nWhat does the narrator consider the ancient authors and poets presented in the extracts to be?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.3824885055000777,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 14,
+        "total_tokens": 530,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950837.1367474,
+      "question_id": "q_chunk_5_0",
+      "response_text": "According to the text, what is the primary value of the extracts presented?\nWhat advice does the speaker give to the \u201cSub-Subs\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.3824885055000777,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 14,
+        "total_tokens": 530,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763950837.1367517,
+      "question_id": "q_chunk_5_1",
+      "response_text": "According to the text, what is the primary value of the extracts presented?\nWhat advice does the speaker give to the \u201cSub-Subs\u201d?"
+    }
+  ]
+}

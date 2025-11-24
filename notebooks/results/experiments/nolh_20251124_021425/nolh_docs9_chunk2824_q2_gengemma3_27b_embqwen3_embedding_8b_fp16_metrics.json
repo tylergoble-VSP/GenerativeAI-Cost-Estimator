@@ -1,0 +1,367 @@
+{
+  "export_timestamp": "2025-11-24T03:47:35.588052",
+  "export_timestamp_readable": "2025-11-24 03:47:35",
+  "num_metrics": 27,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.621380387994577,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956009.7672486,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.8636519350111485,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956011.0106606,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 6.039819654994062,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956012.186782,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.5039537170086987,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956013.271572,
+      "chunk_id": "chunk_3",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.245046326992451,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956014.2560651,
+      "chunk_id": "chunk_4",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.0555710699991323,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956015.2426984,
+      "chunk_id": "chunk_5",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.9999193779949564,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956016.271978,
+      "chunk_id": "chunk_6",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.290836642991053,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956017.5473876,
+      "chunk_id": "chunk_7",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.289414664002834,
+      "token_counts": {
+        "input_tokens": 494,
+        "actual_input_tokens": 494,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763956018.532423,
+      "chunk_id": "chunk_8",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.701749428495532,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 18,
+        "total_tokens": 561,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956025.937922,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the title of the book described in the text?\nAccording to the text, what should a user do if they are not located in the United States before using the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 3.701749428495532,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 18,
+        "total_tokens": 561,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956025.9379275,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the title of the book described in the text?\nAccording to the text, what should a user do if they are not located in the United States before using the eBook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.38143317149661,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956029.2981515,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What character is introduced at the very beginning of the provided text?\nWhich chapter details the narrative of the ship *Jeroboam*?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.38143317149661,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956029.2981572,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What character is introduced at the very beginning of the provided text?\nWhich chapter details the narrative of the ship *Jeroboam*?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.154385535497568,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 15,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956032.844852,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What objects or concepts are repeatedly referenced as encounters for The Pequod?\nBesides whaling itself, what other crafts or professions are highlighted through dedicated chapters?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 7.154385535497568,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 15,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956032.8448575,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What objects or concepts are repeatedly referenced as encounters for The Pequod?\nBesides whaling itself, what other crafts or professions are highlighted through dedicated chapters?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.158888134501467,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 15,
+        "total_tokens": 537,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956036.2566197,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the origin of the word \"whale\" according to Webster\u2019s Dictionary?\nWhat does the text reveal about the \"pale Usher\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.158888134501467,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 15,
+        "total_tokens": 537,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956036.2566252,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the origin of the word \"whale\" according to Webster\u2019s Dictionary?\nWhat does the text reveal about the \"pale Usher\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.741273734500282,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 21,
+        "total_tokens": 520,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956040.7913923,
+      "question_id": "q_chunk_4_0",
+      "response_text": "What are some of the foreign language equivalents of the word \"whale\"?\nAccording to the text, what is the primary purpose of the \u201cEXTRACTS\u201d provided by the Sub-Sub-Librarian?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.741273734500282,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 21,
+        "total_tokens": 520,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956040.7913995,
+      "question_id": "q_chunk_4_1",
+      "response_text": "What are some of the foreign language equivalents of the word \"whale\"?\nAccording to the text, what is the primary purpose of the \u201cEXTRACTS\u201d provided by the Sub-Sub-Librarian?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.7515763724950375,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 16,
+        "total_tokens": 532,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956044.348997,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the author\u2019s attitude toward the \u201cSub-Subs\u201d?\nAccording to the extracts, what is Leviathan associated with in the Book of Job?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.7515763724950375,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 16,
+        "total_tokens": 532,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956044.349002,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the author\u2019s attitude toward the \u201cSub-Subs\u201d?\nAccording to the extracts, what is Leviathan associated with in the Book of Job?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.741929552001238,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 14,
+        "total_tokens": 530,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956047.741279,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What creatures are repeatedly described as enormous and dangerous in these texts?\nHow do the texts portray the fate of things consumed by these sea creatures?\n\n\n\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.741929552001238,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 14,
+        "total_tokens": 530,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956047.7412827,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What creatures are repeatedly described as enormous and dangerous in these texts?\nHow do the texts portray the fate of things consumed by these sea creatures?\n\n\n\n"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.433791971998289,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 17,
+        "total_tokens": 549,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956051.659838,
+      "question_id": "q_chunk_7_0",
+      "response_text": "What substance is described as \"the sovereignest thing on earth\"?\nAccording to the text, how does the sea-gudgeon behave when entering the whale's mouth?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.433791971998289,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 17,
+        "total_tokens": 549,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956051.6598415,
+      "question_id": "q_chunk_7_1",
+      "response_text": "What substance is described as \"the sovereignest thing on earth\"?\nAccording to the text, how does the sea-gudgeon behave when entering the whale's mouth?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.616526183002861,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 16,
+        "total_tokens": 543,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956055.5830457,
+      "question_id": "q_chunk_8_0",
+      "response_text": "What comparisons are made between whales and political or artificial entities in the provided text?\nAccording to Thomas Edge, what happens to a whale's head after it is killed?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.616526183002861,
+      "token_counts": {
+        "prompt_tokens": 527,
+        "response_tokens": 16,
+        "total_tokens": 543,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763956055.5830505,
+      "question_id": "q_chunk_8_1",
+      "response_text": "What comparisons are made between whales and political or artificial entities in the provided text?\nAccording to Thomas Edge, what happens to a whale's head after it is killed?"
+    }
+  ]
+}

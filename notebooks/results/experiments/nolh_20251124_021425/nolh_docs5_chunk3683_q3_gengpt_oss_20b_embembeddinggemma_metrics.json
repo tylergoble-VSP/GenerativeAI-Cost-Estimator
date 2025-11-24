@@ -1,0 +1,277 @@
+{
+  "export_timestamp": "2025-11-24T03:38:18.356030",
+  "export_timestamp_readable": "2025-11-24 03:38:18",
+  "num_metrics": 20,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.33496522900532,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955459.5612397,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.7122392000019317,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955459.9378967,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.1225538560101995,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955460.3475413,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.049834101999295,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955460.6114137,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0201327969989507,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763955460.9585454,
+      "chunk_id": "chunk_4",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.177430314666708,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 18,
+        "total_tokens": 561,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955467.4925292,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date of the Project Gutenberg eBook of Moby Dick as listed in the text?  \nWhich chapter number is associated with \u201cThe Ramadan\u201d in the table of contents?  \nWho are credited for the Project Gutenberg eBook of Moby Dick in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.177430314666708,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 18,
+        "total_tokens": 561,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955467.492533,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the release date of the Project Gutenberg eBook of Moby Dick as listed in the text?  \nWhich chapter number is associated with \u201cThe Ramadan\u201d in the table of contents?  \nWho are credited for the Project Gutenberg eBook of Moby Dick in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.177430314666708,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 18,
+        "total_tokens": 561,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955467.492534,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the release date of the Project Gutenberg eBook of Moby Dick as listed in the text?  \nWhich chapter number is associated with \u201cThe Ramadan\u201d in the table of contents?  \nWho are credited for the Project Gutenberg eBook of Moby Dick in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.719154334336054,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 26,
+        "total_tokens": 569,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955478.1184392,
+      "question_id": "q_chunk_1_0",
+      "response_text": "How does the chapter titled \u201cThe Specksnyder\u201d relate to the narrative structure implied by the preceding and following chapter titles?  \nWhich chapter titles in the list emphasize the physical features of whales, and what might this suggest about the author\u2019s focus?  \nWhat is the implied narrative arc suggested by the sequence of chapter titles from \u201cCHAPTER 30. The Pipe\u201d through \u201cCHAPTER 79.\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.719154334336054,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 26,
+        "total_tokens": 569,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955478.1184435,
+      "question_id": "q_chunk_1_1",
+      "response_text": "How does the chapter titled \u201cThe Specksnyder\u201d relate to the narrative structure implied by the preceding and following chapter titles?  \nWhich chapter titles in the list emphasize the physical features of whales, and what might this suggest about the author\u2019s focus?  \nWhat is the implied narrative arc suggested by the sequence of chapter titles from \u201cCHAPTER 30. The Pipe\u201d through \u201cCHAPTER 79.\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 5.719154334336054,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 26,
+        "total_tokens": 569,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955478.1184456,
+      "question_id": "q_chunk_1_2",
+      "response_text": "How does the chapter titled \u201cThe Specksnyder\u201d relate to the narrative structure implied by the preceding and following chapter titles?  \nWhich chapter titles in the list emphasize the physical features of whales, and what might this suggest about the author\u2019s focus?  \nWhat is the implied narrative arc suggested by the sequence of chapter titles from \u201cCHAPTER 30. The Pipe\u201d through \u201cCHAPTER 79.\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.478884367335317,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 26,
+        "total_tokens": 565,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955486.3977618,
+      "question_id": "q_chunk_2_0",
+      "response_text": "Which chapter title implies a discussion about a historical or biblical figure, and what role does that figure play in the context of whaling?  \nIn Chapter 108, titled \"Ahab and the Carpenter,\" what conflict or relationship is highlighted between these characters?  \nHow does Chapter 111, \"The Pacific,\" contribute to the narrative's exploration of maritime geography and the Pequod's journey?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.478884367335317,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 26,
+        "total_tokens": 565,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955486.397768,
+      "question_id": "q_chunk_2_1",
+      "response_text": "Which chapter title implies a discussion about a historical or biblical figure, and what role does that figure play in the context of whaling?  \nIn Chapter 108, titled \"Ahab and the Carpenter,\" what conflict or relationship is highlighted between these characters?  \nHow does Chapter 111, \"The Pacific,\" contribute to the narrative's exploration of maritime geography and the Pequod's journey?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.478884367335317,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 26,
+        "total_tokens": 565,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955486.397769,
+      "question_id": "q_chunk_2_2",
+      "response_text": "Which chapter title implies a discussion about a historical or biblical figure, and what role does that figure play in the context of whaling?  \nIn Chapter 108, titled \"Ahab and the Carpenter,\" what conflict or relationship is highlighted between these characters?  \nHow does Chapter 111, \"The Pacific,\" contribute to the narrative's exploration of maritime geography and the Pequod's journey?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.548926012668138,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 19,
+        "total_tokens": 541,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955493.1402466,
+      "question_id": "q_chunk_3_0",
+      "response_text": "Which chapter number corresponds to \u201cThe Log and Line\u201d?  \nAccording to the supplied etymology, from which languages is the word \u201cwhale\u201d derived according to Webster\u2019s Dictionary?  \nWho is credited with providing the original transcriber's notes that compare the Virginia Tech and Project Gutenberg versions?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.548926012668138,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 19,
+        "total_tokens": 541,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955493.140251,
+      "question_id": "q_chunk_3_1",
+      "response_text": "Which chapter number corresponds to \u201cThe Log and Line\u201d?  \nAccording to the supplied etymology, from which languages is the word \u201cwhale\u201d derived according to Webster\u2019s Dictionary?  \nWho is credited with providing the original transcriber's notes that compare the Virginia Tech and Project Gutenberg versions?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.548926012668138,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 19,
+        "total_tokens": 541,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955493.1402516,
+      "question_id": "q_chunk_3_2",
+      "response_text": "Which chapter number corresponds to \u201cThe Log and Line\u201d?  \nAccording to the supplied etymology, from which languages is the word \u201cwhale\u201d derived according to Webster\u2019s Dictionary?  \nWho is credited with providing the original transcriber's notes that compare the Virginia Tech and Project Gutenberg versions?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.744326045668761,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955498.3524039,
+      "question_id": "q_chunk_4_0",
+      "response_text": "Which languages and their corresponding words for \u201cwhale\u201d are enumerated in the text?  \nHow does the author characterize the role and demeanor of the Sub\u2011Sub\u2011Librarian?  \nWhat warning does the author give about relying on the cited whale references?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.744326045668761,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955498.352409,
+      "question_id": "q_chunk_4_1",
+      "response_text": "Which languages and their corresponding words for \u201cwhale\u201d are enumerated in the text?  \nHow does the author characterize the role and demeanor of the Sub\u2011Sub\u2011Librarian?  \nWhat warning does the author give about relying on the cited whale references?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 6.744326045668761,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763955498.3524096,
+      "question_id": "q_chunk_4_2",
+      "response_text": "Which languages and their corresponding words for \u201cwhale\u201d are enumerated in the text?  \nHow does the author characterize the role and demeanor of the Sub\u2011Sub\u2011Librarian?  \nWhat warning does the author give about relying on the cited whale references?"
+    }
+  ]
+}

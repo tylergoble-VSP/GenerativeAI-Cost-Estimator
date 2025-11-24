@@ -1,0 +1,155 @@
+{
+  "export_timestamp": "2025-11-24T02:29:18.524887",
+  "export_timestamp_readable": "2025-11-24 02:29:18",
+  "num_metrics": 11,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.236451896998915,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951353.8235197,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 2.4983546350122197,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951355.0862749,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 3.694769975001691,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951356.2825003,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5694567383325193,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951357.9940188,
+      "question_id": "q_chunk_1_0",
+      "response_text": "1.  What does Stubb say to Ahab?\n2.  What is the name of the character who is killed in the story?\n3.  What is the primary focus of the chapter?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5694567383325193,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951357.9940248,
+      "question_id": "q_chunk_1_1",
+      "response_text": "1.  What does Stubb say to Ahab?\n2.  What is the name of the character who is killed in the story?\n3.  What is the primary focus of the chapter?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.5694567383325193,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 13,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951357.9940267,
+      "question_id": "q_chunk_1_2",
+      "response_text": "1.  What does Stubb say to Ahab?\n2.  What is the name of the character who is killed in the story?\n3.  What is the primary focus of the chapter?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6545464249987466,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951358.248412,
+      "question_id": "q_chunk_0_0",
+      "response_text": "1. What is the cost of the ebook?\n2. What is the release date of the ebook?\n3. Where can you obtain the ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6545464249987466,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951358.2484148,
+      "question_id": "q_chunk_0_1",
+      "response_text": "1. What is the cost of the ebook?\n2. What is the release date of the ebook?\n3. Where can you obtain the ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6545464249987466,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951358.2484157,
+      "question_id": "q_chunk_0_2",
+      "response_text": "1. What is the cost of the ebook?\n2. What is the release date of the ebook?\n3. Where can you obtain the ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1168575215051533,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 17,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951358.5203326,
+      "question_id": "q_chunk_2_0",
+      "response_text": "1.  What is the primary subject of the text\u2019s first chapter?\n2.  What is the significance of the \u2018Great Heidelburgh Tun\u2019?\n3."
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1168575215051533,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 17,
+        "total_tokens": 556,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951358.5203385,
+      "question_id": "q_chunk_2_1",
+      "response_text": "1.  What is the primary subject of the text\u2019s first chapter?\n2.  What is the significance of the \u2018Great Heidelburgh Tun\u2019?\n3."
+    }
+  ]
+}

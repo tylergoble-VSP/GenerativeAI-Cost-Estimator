@@ -1,0 +1,127 @@
+{
+  "export_timestamp": "2025-11-24T03:20:48.180477",
+  "export_timestamp_readable": "2025-11-24 03:20:48",
+  "num_metrics": 9,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 4.194952539997757,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954443.6886525,
+      "chunk_id": "chunk_1",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 5.3717149419971975,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954444.8641746,
+      "chunk_id": "chunk_0",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 6.614720840007067,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954446.1096797,
+      "chunk_id": "chunk_2",
+      "embedding_size": 4096
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.776215879501251,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954447.6638277,
+      "question_id": "q_chunk_0_0",
+      "response_text": "1.  What is the release date of the eBook?\n2.  What is the text primarily about?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.776215879501251,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954447.663832,
+      "question_id": "q_chunk_0_1",
+      "response_text": "1.  What is the release date of the eBook?\n2.  What is the text primarily about?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.9173082994966535,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 18,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954447.9467437,
+      "question_id": "q_chunk_2_0",
+      "response_text": "1.  What is the primary focus of the text\u2019s first 75 chapters?\n2.  What is the significance of the \u2018Pequod Meets The Virgin\u2019 chapter?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.9173082994966535,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 18,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954447.9467466,
+      "question_id": "q_chunk_2_1",
+      "response_text": "1.  What is the primary focus of the text\u2019s first 75 chapters?\n2.  What is the significance of the \u2018Pequod Meets The Virgin\u2019 chapter?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.032370623499446,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954448.1763666,
+      "question_id": "q_chunk_1_0",
+      "response_text": "1.  What is Ahab\u2019s relationship to Stubb?\n2.  What is the central focus of the text\u2019s first three chapters?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.032370623499446,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954448.17637,
+      "question_id": "q_chunk_1_1",
+      "response_text": "1.  What is Ahab\u2019s relationship to Stubb?\n2.  What is the central focus of the text\u2019s first three chapters?"
+    }
+  ]
+}

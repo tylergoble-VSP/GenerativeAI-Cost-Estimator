@@ -1,0 +1,277 @@
+{
+  "export_timestamp": "2025-11-24T02:54:09.783669",
+  "export_timestamp_readable": "2025-11-24 02:54:09",
+  "num_metrics": 20,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.13784518699685577,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952839.3532245,
+      "chunk_id": "chunk_0",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.19508691199007444,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952839.4126828,
+      "chunk_id": "chunk_2",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.2569023170071887,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952839.4731512,
+      "chunk_id": "chunk_1",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1794200309959706,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952839.5331113,
+      "chunk_id": "chunk_3",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.1596010710054543,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763952839.5726068,
+      "chunk_id": "chunk_4",
+      "embedding_size": 1024
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6514638153312262,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 8,
+        "total_tokens": 547,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952841.5311396,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the subject of Chapter 75?\nWhat do Chapters 115 and 119 describe?\nWhat appears in Chapter 126?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6514638153312262,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 8,
+        "total_tokens": 547,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952841.531144,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the subject of Chapter 75?\nWhat do Chapters 115 and 119 describe?\nWhat appears in Chapter 126?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.6514638153312262,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 8,
+        "total_tokens": 547,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952841.5311446,
+      "question_id": "q_chunk_2_2",
+      "response_text": "What is the subject of Chapter 75?\nWhat do Chapters 115 and 119 describe?\nWhat appears in Chapter 126?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1648813553329092,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952843.07097,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of \"Enter Ahab\"?\nWhat is the subject of Chapter 55?\nWhat happens in Chapter 61?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1648813553329092,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952843.0709765,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of \"Enter Ahab\"?\nWhat is the subject of Chapter 55?\nWhat happens in Chapter 61?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1648813553329092,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 9,
+        "total_tokens": 552,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952843.0709786,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What is the significance of \"Enter Ahab\"?\nWhat is the subject of Chapter 55?\nWhat happens in Chapter 61?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7372628120016695,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952844.787034,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the purpose of Project Gutenberg?\nWho is the author of Moby Dick; Or, The Whale?\nWhat is the release date of this ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7372628120016695,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952844.7870376,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the purpose of Project Gutenberg?\nWho is the author of Moby Dick; Or, The Whale?\nWhat is the release date of this ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.7372628120016695,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952844.7870386,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the purpose of Project Gutenberg?\nWho is the author of Moby Dick; Or, The Whale?\nWhat is the release date of this ebook?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.761418381667075,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 14,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952846.8165646,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What does the Usher's handkerchief represent?\nAccording to Webster\u2019s Dictionary, what is the origin of the word \"whale?\"\nWhat is unique about the meeting between The Pequod and The Rachel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.761418381667075,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 14,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952846.8165736,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What does the Usher's handkerchief represent?\nAccording to Webster\u2019s Dictionary, what is the origin of the word \"whale?\"\nWhat is unique about the meeting between The Pequod and The Rachel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.761418381667075,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 14,
+        "total_tokens": 536,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952846.8165758,
+      "question_id": "q_chunk_3_2",
+      "response_text": "What does the Usher's handkerchief represent?\nAccording to Webster\u2019s Dictionary, what is the origin of the word \"whale?\"\nWhat is unique about the meeting between The Pequod and The Rachel?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.2358670799973575,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 21,
+        "total_tokens": 520,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952849.7797587,
+      "question_id": "q_chunk_4_0",
+      "response_text": "According to the text, what is the etymological basis for the whale's name according to Webster\u2019s Dictionary?\nWhat does the text suggest regarding the reliability of the \"whale statements\" found in the extracts?\nWhat is the role of the \"Sub-Sub-Librarian\" as described in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.2358670799973575,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 21,
+        "total_tokens": 520,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952849.7797642,
+      "question_id": "q_chunk_4_1",
+      "response_text": "According to the text, what is the etymological basis for the whale's name according to Webster\u2019s Dictionary?\nWhat does the text suggest regarding the reliability of the \"whale statements\" found in the extracts?\nWhat is the role of the \"Sub-Sub-Librarian\" as described in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.2358670799973575,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 21,
+        "total_tokens": 520,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763952849.7797663,
+      "question_id": "q_chunk_4_2",
+      "response_text": "According to the text, what is the etymological basis for the whale's name according to Webster\u2019s Dictionary?\nWhat does the text suggest regarding the reliability of the \"whale statements\" found in the extracts?\nWhat is the role of the \"Sub-Sub-Librarian\" as described in the text?"
+    }
+  ]
+}

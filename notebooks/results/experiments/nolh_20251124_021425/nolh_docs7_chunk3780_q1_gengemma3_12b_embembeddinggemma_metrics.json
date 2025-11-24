@@ -1,0 +1,189 @@
+{
+  "export_timestamp": "2025-11-24T02:39:19.133229",
+  "export_timestamp_readable": "2025-11-24 02:39:19",
+  "num_metrics": 14,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.41066180300549604,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951951.0679471,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.8192439949925756,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951951.47407,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.1719512769923313,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951951.827934,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 1.0085985339974286,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951952.0770402,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.9699561969900969,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951952.4443839,
+      "chunk_id": "chunk_4",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.8180383699946105,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951952.6463218,
+      "chunk_id": "chunk_5",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.7405528819945175,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763951952.8180635,
+      "chunk_id": "chunk_6",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.9211942919937428,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951953.7415943,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What event marks the beginning of the provided text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.832242390999454,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 14,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951954.6524563,
+      "question_id": "q_chunk_0_0",
+      "response_text": "Who is the author of Moby Dick; Or, The Whale?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.869273043004796,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 18,
+        "total_tokens": 557,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951955.6904798,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the significance of the chapter titled \"Queequeg in His Coffin\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.5867841400031466,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 9,
+        "total_tokens": 531,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951956.3293793,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What does the Usher enjoy dusting?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.5886291970091406,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 17,
+        "total_tokens": 516,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951957.24212,
+      "question_id": "q_chunk_4_0",
+      "response_text": "According to the text, what is one reason the animal is named \"whale\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.774935040011769,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 28,
+        "total_tokens": 544,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951958.466459,
+      "question_id": "q_chunk_5_0",
+      "response_text": "According to the text, why might the author feel a sense of camaraderie with \"poor devils of a Sub-Sub\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.797702609008411,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 9,
+        "total_tokens": 525,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763951959.1278992,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What is the primary focus of these texts?"
+    }
+  ]
+}

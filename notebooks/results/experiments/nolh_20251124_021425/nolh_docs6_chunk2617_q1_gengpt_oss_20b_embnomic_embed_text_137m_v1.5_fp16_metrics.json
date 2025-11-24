@@ -1,0 +1,163 @@
+{
+  "export_timestamp": "2025-11-24T04:12:29.566992",
+  "export_timestamp_readable": "2025-11-24 04:12:29",
+  "num_metrics": 12,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.8533065209921915,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957516.9680095,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.8898954449978191,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957517.006623,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.9328315929888049,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957517.0484972,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.10539605100348126,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957517.073813,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.07231811599922366,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957517.0794146,
+      "chunk_id": "chunk_4",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.04501260400866158,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957517.0938125,
+      "chunk_id": "chunk_5",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 8.144395294002607,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 18,
+        "total_tokens": 561,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957525.2398818,
+      "question_id": "q_chunk_0_0",
+      "response_text": "Which chapter title in the contents seems to be a typo, written as 'The Ramadan'?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 13.192877784997108,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 21,
+        "total_tokens": 564,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957530.288536,
+      "question_id": "q_chunk_1_0",
+      "response_text": "Which chapter in the list is titled \u201cThe Whale as a Dish\u201d and what chapter number is it?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 20.250835700993775,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 24,
+        "total_tokens": 563,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957537.3469462,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What does Chapter 76, \u201cThe Battering\u2011Ram,\u201d reveal about the Pequod\u2019s approach to hunting?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 16.896049378992757,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 18,
+        "total_tokens": 540,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957542.13704,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What does the etymology section reveal about the proposed origins of the word \u201cwhale\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 16.18437990199891,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 16,
+        "total_tokens": 515,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957546.473809,
+      "question_id": "q_chunk_4_0",
+      "response_text": "Why does the author advise against treating the listed whale statements as definitive cetology?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 12.204364710007212,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 17,
+        "total_tokens": 533,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957549.5522223,
+      "question_id": "q_chunk_5_0",
+      "response_text": "Which biblical passages are cited in the text to illustrate various depictions of Leviathan?"
+    }
+  ]
+}

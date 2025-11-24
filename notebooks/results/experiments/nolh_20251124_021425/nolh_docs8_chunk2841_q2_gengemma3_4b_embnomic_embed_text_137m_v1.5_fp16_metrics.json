@@ -1,0 +1,327 @@
+{
+  "export_timestamp": "2025-11-24T04:05:18.428744",
+  "export_timestamp_readable": "2025-11-24 04:05:18",
+  "num_metrics": 24,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.577095813001506,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957110.8731704,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.6127157000009902,
+      "token_counts": {
+        "input_tokens": 507,
+        "actual_input_tokens": 507,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957110.9097638,
+      "chunk_id": "chunk_2",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.6493145480053499,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957110.946268,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.0877374069968937,
+      "token_counts": {
+        "input_tokens": 490,
+        "actual_input_tokens": 490,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957110.961359,
+      "chunk_id": "chunk_3",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.06573351498809643,
+      "token_counts": {
+        "input_tokens": 467,
+        "actual_input_tokens": 467,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957110.9758303,
+      "chunk_id": "chunk_4",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.04346831000293605,
+      "token_counts": {
+        "input_tokens": 483,
+        "actual_input_tokens": 483,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957110.990153,
+      "chunk_id": "chunk_5",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.04370055098843295,
+      "token_counts": {
+        "input_tokens": 484,
+        "actual_input_tokens": 484,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957111.005491,
+      "chunk_id": "chunk_6",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.06810606601356994,
+      "token_counts": {
+        "input_tokens": 500,
+        "actual_input_tokens": 500,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763957111.0442832,
+      "chunk_id": "chunk_7",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.6509352735010907,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 14,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957114.3496833,
+      "question_id": "q_chunk_2_0",
+      "response_text": "What is the significance of the title \"The Right Whale\u2019s Head\"?\n\nWhat are some of the different activities or trades mentioned within the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.6509352735010907,
+      "token_counts": {
+        "prompt_tokens": 539,
+        "response_tokens": 14,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957114.3496888,
+      "question_id": "q_chunk_2_1",
+      "response_text": "What is the significance of the title \"The Right Whale\u2019s Head\"?\n\nWhat are some of the different activities or trades mentioned within the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.9049144844975672,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957114.856317,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date of this Project Gutenberg eBook?\nWhat are the names of the credits listed for this book?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.9049144844975672,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 11,
+        "total_tokens": 554,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957114.856322,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the release date of this Project Gutenberg eBook?\nWhat are the names of the credits listed for this book?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.202160141496279,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957115.4516218,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What is the significance of the repeated naming of characters like Ahab and Stubb?\n\nWhat types of materials are described as being used to represent whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 2.202160141496279,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 15,
+        "total_tokens": 558,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957115.451626,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What is the significance of the repeated naming of characters like Ahab and Stubb?\n\nWhat types of materials are described as being used to represent whales?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8131082074978622,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 13,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957115.9769843,
+      "question_id": "q_chunk_3_0",
+      "response_text": "What is the origin of the word \"whale\"?\nWhat is the purpose of the etymological notes included in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8131082074978622,
+      "token_counts": {
+        "prompt_tokens": 522,
+        "response_tokens": 13,
+        "total_tokens": 535,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957115.9769914,
+      "question_id": "q_chunk_3_1",
+      "response_text": "What is the origin of the word \"whale\"?\nWhat is the purpose of the etymological notes included in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8200669665020541,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 13,
+        "total_tokens": 512,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957116.497361,
+      "question_id": "q_chunk_4_0",
+      "response_text": "From what languages does the word \u201cwhale\u201d derive its meaning?\nWhat is the primary purpose of the extracts presented in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8200669665020541,
+      "token_counts": {
+        "prompt_tokens": 499,
+        "response_tokens": 13,
+        "total_tokens": 512,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957116.4973645,
+      "question_id": "q_chunk_4_1",
+      "response_text": "From what languages does the word \u201cwhale\u201d derive its meaning?\nWhat is the primary purpose of the extracts presented in the text?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8126577685034135,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 15,
+        "total_tokens": 531,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957117.077945,
+      "question_id": "q_chunk_5_0",
+      "response_text": "What is the primary purpose of the extracts presented in the text?\nWhat is the tone of the commentator's address to the \"Sub-Subs\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8126577685034135,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 15,
+        "total_tokens": 531,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957117.077949,
+      "question_id": "q_chunk_5_1",
+      "response_text": "What is the primary purpose of the extracts presented in the text?\nWhat is the tone of the commentator's address to the \"Sub-Subs\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8803697325056419,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 17,
+        "total_tokens": 533,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957117.7386835,
+      "question_id": "q_chunk_6_0",
+      "response_text": "What is described as the \"dreadful gulf\" associated with the sea monsters?\nWhat was the primary motivation for the individual\u2019s pursuit of \u201chorse-whales\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.8803697325056419,
+      "token_counts": {
+        "prompt_tokens": 516,
+        "response_tokens": 17,
+        "total_tokens": 533,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957117.738688,
+      "question_id": "q_chunk_6_1",
+      "response_text": "What is described as the \"dreadful gulf\" associated with the sea monsters?\nWhat was the primary motivation for the individual\u2019s pursuit of \u201chorse-whales\u201d?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.9632744785048999,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 17,
+        "total_tokens": 549,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957118.4249208,
+      "question_id": "q_chunk_7_0",
+      "response_text": "What is the significance of the sea-gudgeon's behavior within the whale's mouth?\nHow is the whale described in terms of its size and impact on the ocean?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.9632744785048999,
+      "token_counts": {
+        "prompt_tokens": 532,
+        "response_tokens": 17,
+        "total_tokens": 549,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763957118.4249296,
+      "question_id": "q_chunk_7_1",
+      "response_text": "What is the significance of the sea-gudgeon's behavior within the whale's mouth?\nHow is the whale described in terms of its size and impact on the ocean?"
+    }
+  ]
+}

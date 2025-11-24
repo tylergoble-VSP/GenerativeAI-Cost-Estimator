@@ -1,0 +1,115 @@
+{
+  "export_timestamp": "2025-11-24T03:26:30.459835",
+  "export_timestamp_readable": "2025-11-24 03:26:30",
+  "num_metrics": 8,
+  "metrics": [
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.7351912699959939,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954787.0422058,
+      "chunk_id": "chunk_1",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "embedding",
+      "duration_seconds": 0.752046284993412,
+      "token_counts": {
+        "input_tokens": 511,
+        "actual_input_tokens": 511,
+        "token_method": "tiktoken"
+      },
+      "timestamp": 1763954787.0582795,
+      "chunk_id": "chunk_0",
+      "embedding_size": 768
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.9210037719991911,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954789.8228896,
+      "question_id": "q_chunk_1_0",
+      "response_text": "What are the chapter titles listed in the text?\nWhich chapters discuss whale depictions in various materials?\nWhat is the significance of the title \"Moby Dick\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.9210037719991911,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954789.8228943,
+      "question_id": "q_chunk_1_1",
+      "response_text": "What are the chapter titles listed in the text?\nWhich chapters discuss whale depictions in various materials?\nWhat is the significance of the title \"Moby Dick\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 0.9210037719991911,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954789.8228965,
+      "question_id": "q_chunk_1_2",
+      "response_text": "What are the chapter titles listed in the text?\nWhich chapters discuss whale depictions in various materials?\nWhat is the significance of the title \"Moby Dick\"?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1323987393358645,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954790.4569242,
+      "question_id": "q_chunk_0_0",
+      "response_text": "What is the release date of this Project Gutenberg eBook?\nWhat are the names of the individuals credited for creating this ebook?\nWhat is the title of the book?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1323987393358645,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954790.4569306,
+      "question_id": "q_chunk_0_1",
+      "response_text": "What is the release date of this Project Gutenberg eBook?\nWhat are the names of the individuals credited for creating this ebook?\nWhat is the title of the book?"
+    },
+    {
+      "call_type": "inference",
+      "duration_seconds": 1.1323987393358645,
+      "token_counts": {
+        "prompt_tokens": 543,
+        "response_tokens": 10,
+        "total_tokens": 553,
+        "prompt_method": "tiktoken",
+        "response_method": "tiktoken"
+      },
+      "timestamp": 1763954790.4569325,
+      "question_id": "q_chunk_0_2",
+      "response_text": "What is the release date of this Project Gutenberg eBook?\nWhat are the names of the individuals credited for creating this ebook?\nWhat is the title of the book?"
+    }
+  ]
+}
